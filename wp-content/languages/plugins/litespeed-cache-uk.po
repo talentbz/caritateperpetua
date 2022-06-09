@@ -1,0 +1,5146 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-21 15:00:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/page_optm/settings_localization.tpl.php:131
+msgid "Please thoroughly test each JS file you add to ensure it functions as expected."
+msgstr "Будь ласка, ретельно перевірте кожен файл JS, який ви додаєте, щоб переконатися, що він працює належним чином."
+
+#: tpl/page_optm/settings_localization.tpl.php:98
+msgid "Please thoroughly test all items in %s to ensure they function as expected."
+msgstr "Будь ласка, ретельно перевірте всі елементи в %s, щоб переконатися, що вони працюють належним чином."
+
+#: tpl/page_optm/settings_tuning.tpl.php:105
+msgid "Use %1$s to bypass UCSS for the pages which page type is %2$s."
+msgstr "Використовуйте %1$s, щоб обійти UCSS для сторінок із типом сторінки %2$s."
+
+#: tpl/page_optm/settings_tuning.tpl.php:104
+msgid "Use %1$s to generate one single UCSS for the pages which page type is %2$s while other page types still per URL."
+msgstr "Використовуйте %1$s, щоб згенерувати єдиний UCSS для сторінок із типом сторінки %2$s та інших типів сторінок, які все ще генеруються для URL-адреси."
+
+#: tpl/page_optm/settings_css.tpl.php:68
+msgid "Filter %s available for UCSS per page type generation."
+msgstr "Фільтр %s доступний у UCSS для генерування типу сторінки."
+
+#: tpl/general/settings_inc.guest.tpl.php:35
+#: tpl/general/settings_inc.guest.tpl.php:38
+msgid "Guest Mode failed to test."
+msgstr "Не вдалося протестувати гостьовий режим."
+
+#: tpl/general/settings_inc.guest.tpl.php:32
+msgid "Guest Mode passed testing."
+msgstr "Гостьовий режим пройшов тестування."
+
+#: tpl/general/settings_inc.guest.tpl.php:25
+msgid "Testing"
+msgstr "Тестування"
+
+#: tpl/general/settings_inc.guest.tpl.php:24
+msgid "Guest Mode testing result"
+msgstr "Результат тестування гостьового режиму"
+
+#: tpl/crawler/blacklist.tpl.php:55
+msgid "Not blocklisted"
+msgstr "Не внесено до списку блокування"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:19
+msgid "Learn more about when this is needed"
+msgstr "Дізнайтесь більше, коли це необхідно"
+
+#: src/purge.cls.php:317
+msgid "Cleaned all localized resource entries."
+msgstr "Очищено всі локалізовані записи ресурсів."
+
+#: src/lang.cls.php:112
+msgid "UCSS Allowlist"
+msgstr "Список дозволених UCSS"
+
+#: tpl/dash/dashboard.tpl.php:563
+msgid "<b>Last crawled:</b> %d item(s)"
+msgstr "<b>Останнє сканування:</b> %d елемент(ів)"
+
+#: tpl/toolbox/entry.tpl.php:14
+msgid "View .htaccess"
+msgstr "Переглянути .htaccess"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:56 tpl/toolbox/edit_htaccess.tpl.php:73
+msgid "You can use this code %1$s in %2$s to specify the htaccess file path."
+msgstr "Ви можете використовувати цей код %1$s у %2$s, щоб вказати шлях до файлу htaccess."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:55 tpl/toolbox/edit_htaccess.tpl.php:72
+msgid "PHP Constant %s is supported."
+msgstr "Підтримується PHP константа %s."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:52 tpl/toolbox/edit_htaccess.tpl.php:69
+msgid "Default path is"
+msgstr "Початковий шлях"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:41
+msgid ".htaccess Path"
+msgstr "Шлях до .htaccess"
+
+#: tpl/general/settings.tpl.php:151
+msgid "Please read all warnings before enabling this option."
+msgstr "Будь ласка, прочитайте всі попередження, перш ніж увімкнути цю опцію."
+
+#: tpl/toolbox/purge.tpl.php:80
+msgid "This will delete all generated unique CSS files"
+msgstr "Це видалить всі згенеровані файли унікального CSS"
+
+#: tpl/toolbox/beta_test.tpl.php:59
+msgid "In order to avoid an upgrade error, you must be using %1$s or later before you can upgrade to %2$s versions."
+msgstr "Щоб уникнути помилки оновлення, ви повинні використовувати %1$s або новішу, перш ніж ви зможете оновити до %2$s версії."
+
+#: tpl/toolbox/beta_test.tpl.php:53
+msgid "Use latest GitHub Dev/Master commit"
+msgstr "Використовувати останній GitHub Dev/Master комміт"
+
+#: tpl/toolbox/beta_test.tpl.php:53
+msgid "Press the %s button to use the most recent GitHub commit. Master is for release candidate & Dev is for experimental testing."
+msgstr "Натисніть кнопку %s, щоб використати останню версію з GitHub. Master призначений для релізу, а Dev — для експериментального тестування."
+
+#: tpl/toolbox/beta_test.tpl.php:49
+msgid "Downgrade not recommended. May cause fatal error due to refactored code."
+msgstr "Знижувати версію не рекомендується. Це може призвести до фатальної помилки через рефакторинг коду."
+
+#: tpl/page_optm/settings_tuning.tpl.php:216
+msgid "Only optimize pages for guest (not logged in) visitors. If turned this OFF, CSS/JS/CCSS files will be doubled by each user group."
+msgstr "Оптимізувати сторінки лише для гостей (користувачі які не увійшли в систему). Якщо вимкнути цю функцію, файли CSS/JS/CCSS будуть подвоюватися кожною групою користувачів."
+
+#: tpl/page_optm/settings_tuning.tpl.php:182
+msgid "Listed JS files or inline JS code will not be optimized by %s."
+msgstr "Перераховані файли JS або вбудований код JS не будуть оптимізовані %s."
+
+#: tpl/page_optm/settings_tuning.tpl.php:97
+msgid "Listed URI will not generate UCSS."
+msgstr "Указані URI-адреси не генеруватимуть UCSS."
+
+#: tpl/page_optm/settings_tuning.tpl.php:79
+msgid "The selector must exist in the CSS. Parent classes in the HTML will not work."
+msgstr "Селектор повинен існувати в CSS. Батьківські класи в HTML не працюватимуть."
+
+#: tpl/page_optm/settings_tuning.tpl.php:75
+msgid "Wildcard %s supported."
+msgstr "Символи %s підтримуються."
+
+#: tpl/page_optm/settings_tuning.tpl.php:74
+msgid "How to choose an UCSS allowlist selector?"
+msgstr "Як вибрати селектор білого списку UCSS?"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:24
+msgid "Useful for above-the-fold images causing CLS (a Core Web Vitals metric)."
+msgstr "Корисно для зображень у верхній частині сторінки, які викликають CLS (показник Core Web Vitals)."
+
+#: tpl/page_optm/settings_media.tpl.php:229
+msgid "Note: this option only works when %1$s is %2$s."
+msgstr "Примітка: цей параметр працює лише тоді, коли %1$s становить %2$s."
+
+#: tpl/page_optm/settings_media.tpl.php:227
+msgid "Set an explicit width and height on image elements to reduce layout shifts and improve CLS (a Core Web Vitals metric)."
+msgstr "Встановити певну ширину та висоту для елементів зображення, щоб зменшити зсув макета та покращити CLS (показник Core Web Vitals)."
+
+#: tpl/page_optm/settings_media.tpl.php:125
+msgid "Changes to this setting do not apply to already-generated LQIPs. To regenerate existing LQIPs, please %s first from the admin bar menu."
+msgstr "Зміни цього параметра не застосовуються до вже згенерованих LQIP. Щоб перегенерувати існуючі LQIP, будь ласка, спочатку скористайтеся %s в меню панелі адміністратора."
+
+#: tpl/page_optm/settings_js.tpl.php:65
+msgid "Deferring until page is parsed or delaying till interaction can help reduce resource contention and improve performance causing a lower FID (Core Web Vitals metric)."
+msgstr "Відкладення сторінки до розбору або затримання може допомогти зменшити конфлікти між ресурсами, підвищити продуктивність, та показати більш низький FID (показник Core Web Vitals)."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Delayed"
+msgstr "Затримано"
+
+#: tpl/page_optm/settings_js.tpl.php:38
+msgid "JS error can be found from the developer console of browser by right clicking and choosing Inspect."
+msgstr "Помилку JS можна знайти у консолі розробника браузера, клацнувши правою кнопкою миші та вибравши Перевірити."
+
+#: tpl/page_optm/settings_js.tpl.php:37 tpl/page_optm/settings_js.tpl.php:70
+msgid "This option may result in a JS error or layout issue on frontend pages with certain themes/plugins."
+msgstr "Цей параметр може призвести до помилки JS або проблеми з макетом на зовнішніх інтерфейсах із певними темами/плагінами."
+
+#: tpl/page_optm/settings_html.tpl.php:101
+msgid "This will also add a preconnect to Google Fonts to establish a connection earlier."
+msgstr "Це також додасть попереднє підключення до Google Fonts, щоб встановити з’єднання раніше."
+
+#: tpl/page_optm/settings_html.tpl.php:64
+msgid "Delay rendering off-screen HTML elements by its selector."
+msgstr "Затримати відтворення позаекранних елементів HTML за допомогою селектора."
+
+#: tpl/page_optm/settings_css.tpl.php:243
+msgid "Disable this option to generate CCSS per Post Type instead of per page. This can save significant CCSS quota, however it may result in incorrect CSS styling if your site uses a page builder."
+msgstr "Вимкніть цю опцію, щоб генерувати CCSS за типом запису, а не за сторінкою. Це може заощадити значну квоту CCSS, однак це може призвести до неправильного стилю CSS, якщо на вашому сайті використовується конструктор сторінок."
+
+#: tpl/page_optm/settings_css.tpl.php:182
+msgid "This option is bypassed due to %s option."
+msgstr "Цей параметр пропущено завдяки параметру %s."
+
+#: tpl/page_optm/settings_css.tpl.php:177
+msgid "Elements with attribute %s in HTML code will be excluded."
+msgstr "Елементи з атрибутом %s у HTML-коді будуть виключені."
+
+#: tpl/page_optm/settings_css.tpl.php:171
+msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
+msgstr "Використовуйте онлайн-сервіс QUIC.cloud для створення критичного CSS та асинхронного завантаження решти CSS."
+
+#: tpl/page_optm/settings_css.tpl.php:136
+msgid "This option will automatically bypass %s option."
+msgstr "Цей параметр автоматично пропустить параметр %s."
+
+#: tpl/page_optm/settings_css.tpl.php:134
+msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
+msgstr "Вбудований UCSS для зменшення додаткового завантаження файлу CSS. Цей параметр не буде автоматично ввімкнено для сторінок %1$s. Щоб використовувати його на сторінках %1$s, увімкніть його."
+
+#: tpl/page_optm/settings_css.tpl.php:118
+#: tpl/page_optm/settings_css.tpl.php:228
+msgid "Run %s Queue Manually"
+msgstr "Запустити %s чергу вручну"
+
+#: tpl/page_optm/settings_css.tpl.php:72
+msgid "This option is bypassed because %1$s option is %2$s."
+msgstr "Цей параметр пропущено, оскільки параметр %1$s становить %2$s."
+
+#: tpl/page_optm/settings_css.tpl.php:67
+msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
+msgstr "Автоматичне генерування унікального CSS відбувається у фоновому режимі за допомогою черги на основі cron."
+
+#: tpl/page_optm/settings_css.tpl.php:65
+msgid "This will drop the unused CSS on each page from the combined file."
+msgstr "Це видалить невикористаний CSS на кожній сторінці з об’єднаного файлу."
+
+#: tpl/page_optm/entry.tpl.php:8 tpl/page_optm/settings_html.tpl.php:7
+msgid "HTML Settings"
+msgstr "Налаштування HTML"
+
+#: tpl/inc/in_upgrading.php:5
+msgid "LiteSpeed cache plugin upgraded. Please refresh the page to complete the configuration data upgrade."
+msgstr "Плагін LiteSpeed cache оновлено. Оновіть сторінку, щоб завершити оновлення даних конфігурації."
+
+#: tpl/general/settings_tuning.tpl.php:50
+msgid "Listed IPs will be considered as Guest Mode visitors."
+msgstr "Перераховані IP-адреси вважатимуться відвідувачами гостьового режиму."
+
+#: tpl/general/settings_tuning.tpl.php:28
+msgid "Listed User Agents will be considered as Guest Mode visitors."
+msgstr "Перераховані User Agents, вважатимуться відвідувачами гостьового режиму."
+
+#: tpl/general/settings.tpl.php:165
+msgid "Your %1s quota on %2s will still be in use."
+msgstr "Ваша %1s квота на %2s все ще використовується."
+
+#: tpl/general/settings_inc.guest.tpl.php:17
+msgid "This option can help to correct the cache vary for certain advanced mobile or tablet visitors."
+msgstr "Цей параметр може допомогти виправити різницю кешу для певних досвідчених відвідувачів мобільних пристроїв або планшетів."
+
+#: tpl/general/settings_inc.guest.tpl.php:16
+msgid "Guest Mode provides an always cacheable landing page for an automated guest's first time visit, and then attempts to update cache varies via AJAX."
+msgstr "Гостьовий режим, завжди, забезпечує КЕШОВАНУ цільову сторінку для першого відвідування, а потім спроби оновити кеш змінюються за допомогою AJAX."
+
+#: tpl/general/settings.tpl.php:208
+msgid "Please make sure this IP is the correct one for visiting your site."
+msgstr "Будь ласка, переконайтеся, що цей IP-адрес правильний для відвідування вашого сайту."
+
+#: tpl/general/settings.tpl.php:207
+msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
+msgstr "автоматично визначена IP-адреса може бути неточною, якщо у вас встановлено додатковий вихідний IP-адрес або на вашому сервері налаштовано кілька IP-адрес."
+
+#: tpl/general/settings.tpl.php:184
+msgid "You need to turn %s on and finish all WebP generation to get maximum result."
+msgstr "Вам потрібно ввімкнути %s та завершити генерацію WebP, щоб отримати максимальний результат."
+
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:190
+msgid "You need to turn %s on to get maximum result."
+msgstr "Вам потрібно увімкнути %s, щоб отримати максимальний результат."
+
+#: tpl/general/settings.tpl.php:172
+msgid "This option only works when turning %s on."
+msgstr "Цей параметр працює лише під час увімкнення %s."
+
+#: tpl/general/settings.tpl.php:150
+msgid "This option enables maximum optimization for Guest Mode visitors."
+msgstr "Цей параметр забезпечує максимальну оптимізацію для відвідувачів у гостьовому режимі."
+
+#: tpl/dash/dashboard.tpl.php:300 tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:432 tpl/dash/dashboard.tpl.php:465
+#: tpl/dash/dashboard.tpl.php:498 tpl/dash/dashboard.tpl.php:530
+msgid "More"
+msgstr "Більше"
+
+#: tpl/dash/dashboard.tpl.php:160
+msgid "Remaining Daily Quota"
+msgstr "Залишок щоденної квоти"
+
+#: tpl/crawler/summary.tpl.php:183
+msgid "Successfully Crawled"
+msgstr "Успішно відскановано (Crawled)"
+
+#: tpl/crawler/summary.tpl.php:182
+msgid "Already Cached"
+msgstr "Уже кешовано"
+
+#: tpl/crawler/settings-sitemap.tpl.php:22
+msgid "The crawler will use your XML sitemap or sitemap index. Enter the full URL to your sitemap here."
+msgstr "Сканер використовуватиме ваш sitemap.xml або index-sitemap. Введіть тут повну URL-адресу вашого sitemap."
+
+#: tpl/cdn/settings.tpl.php:214
+msgid "Optional when API token used."
+msgstr "Необов’язково, якщо використовується маркер API."
+
+#: tpl/cdn/settings.tpl.php:204
+msgid "Recommended to generate the token from Cloudflare API token template \"WordPress\"."
+msgstr "Рекомендується генерувати маркер із шаблону маркера Cloudflare API \"WordPress\"."
+
+#: tpl/cdn/settings.tpl.php:198
+msgid "Global API Key / API Token"
+msgstr "Загальний ключ API / маркер API"
+
+#: tpl/cdn/settings.tpl.php:194
+msgid "This can be managed from %1$s%2$s tab."
+msgstr "Цим можна керувати на %1$s%2$s вкладці."
+
+#: tpl/cdn/settings.tpl.php:54
+msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are are only using QUIC.cloud or Cloudflare, leave this setting %1$s."
+msgstr "ПРИМІТКА. QUIC.cloud CDN і Cloudflare не використовують CDN Mapping. Якщо ви використовуєте лише QUIC.cloud або Cloudflare, залиште це налаштування %1$s."
+
+#: tpl/cdn/settings.tpl.php:49
+msgid "Turn this setting %1$s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
+msgstr "Увімкніть цей параметр %1$s, якщо ви використовуєте традиційну мережу доставки вмісту (CDN) або піддомен для статичного вмісту з QUIC.cloud CDN."
+
+#: tpl/cache/settings_inc.object.tpl.php:41
+msgid "Use external object cache functionality."
+msgstr "Використовуйте функціональні можливості зовнішнього кешу object."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:18
+msgid "Serve a separate cache copy for mobile visitors."
+msgstr "Надайте окрему копію кешу для відвідувачів із мобільних пристроїв."
+
+#: thirdparty/woocommerce.content.tpl.php:36
+msgid "When the option is ON, cart information will be implemented as ESI blocks. NOTE: To make it work, you need to turn on %1$s under ESI settings."
+msgstr "Коли цей параметр увімкнено, інформація про кошик буде реалізована як блоки ESI. ПРИМІТКА. Щоб це запрацювало, вам потрібно ввімкнути %1$s у налаштуваннях ESI."
+
+#: thirdparty/woocommerce.content.tpl.php:31
+msgid "Use ESI for Cart"
+msgstr "Використовуйте ESI для кошика"
+
+#: thirdparty/woocommerce.content.tpl.php:24
+msgid "By default, the My Account, Checkout, and Cart pages are automatically excluded from caching. Misconfiguration of page associations in WooCommerce settings may cause some pages to be erroneously excluded."
+msgstr "За замовчуванням сторінки «Мій обліковий запис», «Оформити замовлення» та «Кошик» автоматично виключаються з кешування. Неправильна конфігурація асоціацій сторінок у налаштуваннях WooCommerce може призвести до помилкового виключення деяких сторінок."
+
+#: src/purge.cls.php:249
+msgid "Cleaned all Unique CSS files."
+msgstr "Очищені всі унікальні файли CSS."
+
+#: src/lang.cls.php:166
+msgid "Add Missing Sizes"
+msgstr "Додайте відсутні розміри"
+
+#: src/lang.cls.php:141
+msgid "Optimize for Guests Only"
+msgstr "Оптимізація лише для гостей"
+
+#: src/lang.cls.php:137
+msgid "Guest Mode JS Excludes"
+msgstr "Виключає JS у гостьовому режимі"
+
+#: src/lang.cls.php:120
+msgid "CCSS Per URL"
+msgstr "CCSS на URL-адресу"
+
+#: src/lang.cls.php:118
+msgid "HTML Lazy Load Selectors"
+msgstr "Селектори Lazy Load HTML"
+
+#: src/lang.cls.php:113
+msgid "UCSS URI Excludes"
+msgstr "Виключає UCSS URI-адреси"
+
+#: src/lang.cls.php:111
+msgid "UCSS Inline"
+msgstr "Вбудований UCSS"
+
+#: src/lang.cls.php:69
+msgid "Guest Optimization"
+msgstr "Гостьова Оптимізація"
+
+#: src/lang.cls.php:68
+msgid "Guest Mode"
+msgstr "Гостьовий Режим"
+
+#: src/lang.cls.php:56
+msgid "Guest Mode IPs"
+msgstr "IP адреси Гостьового Режиму"
+
+#: src/lang.cls.php:55
+msgid "Guest Mode User Agents"
+msgstr "User Agents Гостьового Режиму"
+
+#: src/error.cls.php:96
+msgid "Online node needs to be redetected."
+msgstr "Мережевий вузол потрібно переоприділити."
+
+#: src/error.cls.php:92
+msgid "The current server is under heavy load."
+msgstr "Поточний сервер знаходиться під великим навантаженням."
+
+#: src/error.cls.php:52
+msgid "You don't have enough daily quota left for current service today."
+msgstr "Сьогодні у вас недостатньо щоденної квоти для поточного обслуговування."
+
+#: src/doc.cls.php:37
+msgid "Please see %s for more details."
+msgstr "Будь ласка, дивіться %s для більш детальної інформації."
+
+#: src/doc.cls.php:25
+msgid "This setting will regenerate crawler list and clear the disabled list!"
+msgstr "Це налаштування перегенерує список сканера та очистить вимкнені!"
+
+#: src/css.cls.php:532
+msgid "%1$s %2$s files left in queue"
+msgstr "%1$s %2$s файлів залишилося в черзі"
+
+#: src/crawler.cls.php:99
+msgid "Crawler disabled list is cleared! All crawlers are set to active! "
+msgstr "Список вимкнених сканерів очищено! Усі сканери діючи! "
+
+#: src/cloud.cls.php:665
+msgid "Redetected node"
+msgstr "Вузол виявлено повторно"
+
+#: src/cloud.cls.php:432
+msgid "No available Cloud Node after checked server load."
+msgstr "Немає доступного Cloud Node після перевірки завантаження сервера."
+
+#: src/lang.cls.php:125
+msgid "Localization Files"
+msgstr "Файли локалізації"
+
+#: cli/purge.cls.php:247
+msgid "Purged!"
+msgstr "Очищено!"
+
+#: tpl/page_optm/settings_localization.tpl.php:120
+msgid "Resources listed here will be copied and replaced with local URLs."
+msgstr "Ресурси, перелічені тут, будуть скопійовані та замінені локальними URL-адресами."
+
+#: tpl/toolbox/beta_test.tpl.php:36
+msgid "Use latest GitHub Master commit"
+msgstr "Використовуйте останню версію GitHub Master"
+
+#: tpl/toolbox/beta_test.tpl.php:34
+msgid "Use latest GitHub Dev commit"
+msgstr "Використовуйте останню версію GitHub Dev"
+
+#: src/crawler-map.cls.php:317
+msgid "No valid sitemap parsed for crawler."
+msgstr "Немає дійсного sitemap для сканера."
+
+#: src/lang.cls.php:109
+msgid "CSS Combine External and Inline"
+msgstr "Об'єднання зовнішнього та вбудованого CSS"
+
+#: tpl/page_optm/settings_css.tpl.php:150
+msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
+msgstr "Включити зовнішній CSS та вбудований CSS до об’єднаного файлу, за умови увімкнення %1$s. Цей параметр допомагає підтримувати пріоритети CSS, які повинні мінімізувати потенційні помилки, спричинені об'єднанням CSS."
+
+#: tpl/page_optm/settings_css.tpl.php:30
+msgid "Minify CSS files and inline CSS code."
+msgstr "Мінімізувати файли CSS та вбудований код CSS."
+
+#: tpl/page_optm/settings_tuning.tpl.php:38
+#: tpl/page_optm/settings_tuning.tpl.php:59
+#: tpl/page_optm/settings_tuning.tpl.php:83
+#: tpl/page_optm/settings_tuning.tpl.php:168
+msgid "Predefined list will also be combined w/ the above settings"
+msgstr "Попередньо визначений список також буде об’єднано з перерахованими вище налаштуваннями"
+
+#: tpl/page_optm/entry.tpl.php:11
+msgid "Localization"
+msgstr "Локалізація"
+
+#: tpl/page_optm/settings_js.tpl.php:52
+msgid "Include external JS and inline JS in combined file when %1$s is also enabled. This option helps maintain the priorities of JS execution, which should minimize potential errors caused by JS Combine."
+msgstr "Включити зовнішній і вбудований JS до об’єднаного файлу, за умови увімкнення %1$s. Цей параметр допомагає підтримувати пріоритети виконання JS, що має мінімізувати потенційні помилки, спричинені об'єднанням JS."
+
+#: tpl/page_optm/settings_js.tpl.php:34
+msgid "Combine all local JS files into a single file."
+msgstr "Об’єднання всіх локальних файлів JS в окремий файл."
+
+#: tpl/page_optm/settings_tuning.tpl.php:161
+msgid "Listed JS files or inline JS code will not be deferred."
+msgstr "Перераховані файли JS або вбудований код JS не будуть відкладені."
+
+#: tpl/general/settings.tpl.php:94
+msgid "Request submitted. Please wait, then refresh the page to see approval notification."
+msgstr "Запит подано. ЗАЧЕКАЙТЕ, а потім оновіть ПОТОЧНУ сторінку, щоб побачити сповіщення про затвердження."
+
+#: src/data.upgrade.func.php:102
+msgid "Click here to settings"
+msgstr "Натисніть тут, щоб налаштувати"
+
+#: src/data.upgrade.func.php:101
+msgid "JS Defer"
+msgstr "Відкласти JS"
+
+#: src/data.upgrade.func.php:101
+msgid "LiteSpeed Cache upgraded successfully. NOTE: Due to changes in this version, the settings %1$s and %2$s have been turned OFF. Please turn them back on manually and verify that your site layout is correct, and you have no JS errors."
+msgstr "LiteSpeed Cache успішно оновлено. ПРИМІТКА. Через зміни в цій версії налаштування %1$s та %2$s вимкнено. Будь ласка, увімкніть їх знову вручну та переконайтеся, що макет вашого сайту правильний і у вас немає помилок JS."
+
+#: src/lang.cls.php:116
+msgid "JS Combine External and Inline"
+msgstr "Об'єднати зовнішні та вбудовані JS"
+
+#: src/admin-display.cls.php:460
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: tpl/cache/settings-esi.tpl.php:93
+msgid "The latest data file is"
+msgstr "Останній файл даних є"
+
+#: tpl/cache/settings-esi.tpl.php:92
+msgid "The list will be merged with the predefined nonces in your local data file."
+msgstr "Список буде об’єднано з попередньо визначеними одноразовими ідентифікаторами у вашому локальному файлі даних."
+
+#: tpl/page_optm/settings_css.tpl.php:43
+msgid "Combine CSS files and inline CSS code."
+msgstr "Об'єднати файли CSS та вбудований код CSS."
+
+#: tpl/page_optm/settings_js.tpl.php:21
+msgid "Minify JS files and inline JS codes."
+msgstr "Мінімізувати файли JS та вбудовані коди JS."
+
+#: tpl/page_optm/settings_tuning.tpl.php:52
+msgid "Listed JS files or inline JS code will not be minified/combined."
+msgstr "Перераховані файли JS або вбудований код JS не будуть мінімізовані/об’єднані."
+
+#: tpl/page_optm/settings_tuning.tpl.php:31
+msgid "Listed CSS files or inline CSS code will not be minified/combined."
+msgstr "Перераховані файли CSS або вбудований код CSS не будуть мінімізовані/об’єднані."
+
+#: src/css.cls.php:60 src/root.cls.php:176
+msgid "Queue cleared successfully."
+msgstr "Чергу успішно очищено."
+
+#: src/admin-display.cls.php:935
+msgid "This setting is overwritten by the Network setting"
+msgstr "Це налаштування замінюється налаштуванням мережі"
+
+#: src/lang.cls.php:155
+msgid "LQIP Excludes"
+msgstr "Виключенні LQIP"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:122
+msgid "These images will not generate LQIP."
+msgstr "Ці зображення не генеруватимуться LQIP."
+
+#: tpl/toolbox/import_export.tpl.php:52
+msgid "Are you sure you want to reset all settings back to the default settings?"
+msgstr "Ви впевнені, що хочете скинути всі налаштування до налаштувань за замовчуванням?"
+
+#: tpl/page_optm/settings_html.tpl.php:142
+msgid "This option will remove all %s tags from HTML."
+msgstr "Ця опція видалить усі %s теги із HTML."
+
+#: tpl/general/settings.tpl.php:116
+msgid "Are you sure you want to clear all cloud nodes?"
+msgstr "Ви впевнені, що хочете очистити всі хмарні вузли?"
+
+#: src/lang.cls.php:139
+msgid "Remove Noscript Tags"
+msgstr "Видалення тегів Noscript"
+
+#: src/error.cls.php:84
+msgid "The site is not registered on QUIC.cloud."
+msgstr "Сайт не зареєстрований на QUIC.cloud."
+
+#: src/error.cls.php:43
+msgid "Click here to change."
+msgstr "Натисніть тут, щоб змінити."
+
+#: src/cloud.cls.php:763 src/error.cls.php:48
+msgid "Click here to set."
+msgstr "Натисніть тут, щоб встановити."
+
+#: src/cloud.cls.php:762
+msgid "Site not recognized. Domain Key has been automatically removed. Please request a new one."
+msgstr "Сайт не розпізнається. Ключ домену видалено автоматично. Будь ласка, запитайте новий."
+
+#: src/lang.cls.php:124
+msgid "Localize Resources"
+msgstr "Локалізувати ресурси"
+
+#: tpl/cache/settings_inc.browser.tpl.php:14
+msgid "Setting Up Custom Headers"
+msgstr "Налаштування власних заголовків"
+
+#: tpl/toolbox/purge.tpl.php:89
+msgid "This will delete all localized resources"
+msgstr "Це призведе до видалення всіх локалізованих ресурсів"
+
+#: src/gui.cls.php:535 src/gui.cls.php:695 tpl/toolbox/purge.tpl.php:88
+msgid "Localized Resources"
+msgstr "Локалізовані ресурси"
+
+#: tpl/page_optm/settings_localization.tpl.php:125
+msgid "Comments are supported. Start a line with a %s to turn it into a comment line."
+msgstr "Коментарі підтримуються. Почніть рядок з %s, щоб перетворити його на рядок коментаря."
+
+#: tpl/page_optm/settings_localization.tpl.php:121
+msgid "HTTPS sources only."
+msgstr "Тільки HTTPS джерела."
+
+#: tpl/page_optm/settings_localization.tpl.php:94
+msgid "Localize external resources."
+msgstr "Локалізувати зовнішні ресурси."
+
+#: tpl/page_optm/settings_localization.tpl.php:17
+msgid "Localization Settings"
+msgstr "Налаштування локалізації"
+
+#: tpl/page_optm/settings_tuning.tpl.php:73
+msgid "List the CSS selector that its style should be always contained in UCSS."
+msgstr "Перелік CSS селектор, для яких стиль завжди буде міститись в UCSS."
+
+#: tpl/page_optm/settings_css.tpl.php:64
+msgid "Use QUIC.cloud online service to generate unique CSS."
+msgstr "Використовуйте онлайн-сервіс QUIC.cloud для створення унікального CSS."
+
+#: src/lang.cls.php:110
+msgid "Generate UCSS"
+msgstr "Згенерувати UCSS"
+
+#: tpl/dash/dashboard.tpl.php:464 tpl/toolbox/purge.tpl.php:79
+msgid "Unique CSS"
+msgstr "Унікальний CSS"
+
+#: tpl/toolbox/purge.tpl.php:116
+msgid "Purge the cache entries created by this plugin except for Critical CSS & Unique CSS & LQIP caches"
+msgstr "Очистити записи кешу, створені цим плагіном, за винятком кешу Critical CSS та LQIP"
+
+#: tpl/toolbox/report.tpl.php:41
+msgid "LiteSpeed Report"
+msgstr "Звіт LiteSpeed"
+
+#: tpl/img_optm/summary.tpl.php:222
+msgid "Image Thumbnail Group Sizes"
+msgstr "Розміри груп ескізів зображень"
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:14
+msgid "Ignore certain query strings when caching. (LSWS %s required)"
+msgstr "Ігноруйте певні рядки запиту під час кешування. (Потрібен %s LSWS)"
+
+#: tpl/cache/settings-purge.tpl.php:115
+msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
+msgstr "Для URL-адрес з символами може виникнути затримка у ініціюванні запланованого очищення."
+
+#: tpl/cache/settings-purge.tpl.php:91
+msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
+msgstr "За задумом ця опція може показувати застарілий вміст. Не вмикайте цю опцію, якщо вам це не подобається."
+
+#: src/lang.cls.php:97
+msgid "Serve Stale"
+msgstr "Показувати застарілий вміст"
+
+#: src/admin-display.cls.php:932
+msgid "This setting is overwritten by the primary site setting"
+msgstr "Це налаштування замінюється основним налаштуванням сайту"
+
+#: src/img-optm.cls.php:964
+msgid "One or more pulled images does not match with the notified image md5"
+msgstr "Одне або декілька вилучених зображень не збігаються із повідомленими зображенням md5"
+
+#: src/img-optm.cls.php:947
+msgid "Some optimized image file(s) has expired and was cleared."
+msgstr "Термін дії деяких оптимізованих файлів зображень минув і їх було очищено."
+
+#: src/error.cls.php:64
+msgid "You have too many notified images, please pull down notified images first."
+msgstr "У вас забагато повідомлених зображень, будь ласка, спершу вилучить декілька повідомлених зображень."
+
+#: src/error.cls.php:60
+msgid "You have too many requested images, please try again in a few minutes."
+msgstr "У вас забагато запитаних зображень, будь ласка, спробуйте ще раз за кілька хвилин."
+
+#: src/img-optm.cls.php:1025
+msgid "Pulled WebP image md5 does not match the notified WebP image md5."
+msgstr "Вилучене зображення WebP md5 не відповідає повідомленому зображенню WebP md5."
+
+#: tpl/inc/admin_footer.php:11
+msgid "Read LiteSpeed Documentation"
+msgstr "Прочитайте документацію LiteSpeed"
+
+#: src/error.cls.php:80
+msgid "There is proceeding queue not pulled yet. Queue info: %s."
+msgstr "Поки що триває черга, яка ще не вилучена. Інформація про чергу: %s."
+
+#: src/lang.cls.php:222
+msgid "Sitemap Timeout"
+msgstr "Час очікування Sitemap"
+
+#: tpl/crawler/settings-sitemap.tpl.php:49
+msgid "Specify the timeout while parsing the sitemap."
+msgstr "Вкажіть час очікування під час аналізу sitemap."
+
+#: tpl/page_optm/settings_localization.tpl.php:79
+msgid "Specify how long, in seconds, Gravatar files are cached."
+msgstr "Вкажіть, скільки часу в секундах кешуються файли Gravatar."
+
+#: tpl/general/settings.tpl.php:112
+msgid "A Domain Key is required for QUIC.cloud online services."
+msgstr "Для онлайн-сервісів QUIC.cloud потрібен ключ домену."
+
+#: src/img-optm.cls.php:547
+msgid "Cleared %1$s invalid images."
+msgstr "Видалено %1$s невірні зображення."
+
+#: src/img-optm.cls.php:509
+msgid "Bypassed %1$s duplicated images."
+msgstr "Пропущено %1$s дубльованих зображень."
+
+#: tpl/general/settings.tpl.php:16
+msgid "Request Domain Key"
+msgstr "Запит ключа домену"
+
+#: tpl/general/entry.tpl.php:20
+msgid "LiteSpeed Cache General Settings"
+msgstr "Загальні налаштування кешу LiteSpeed"
+
+#: tpl/toolbox/purge.tpl.php:107
+msgid "This will delete all cached Gravatar files"
+msgstr "Це призведе до видалення всіх кешованих файлів Gravatar"
+
+#: tpl/toolbox/settings-debug.tpl.php:140
+msgid "Prevent any debug log of listed pages."
+msgstr "Заборонити будь-який журнал налагодження перелічених сторінок."
+
+#: tpl/toolbox/settings-debug.tpl.php:126
+msgid "Only log listed pages."
+msgstr "Реєструвати лише сторінки з переліку."
+
+#: tpl/toolbox/settings-debug.tpl.php:85
+msgid "Specify the maximum size of the log file."
+msgstr "Вкажіть максимальний розмір файлу журналу."
+
+#: tpl/toolbox/settings-debug.tpl.php:37
+msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
+msgstr "Щоб запобігти заповненню диска, це налаштування має бути ВИМКНЕНО, коли все працює."
+
+#: tpl/toolbox/beta_test.tpl.php:54
+msgid "Press the %s button to stop beta testing and go back to the current release from the WordPress Plugin Directory."
+msgstr "Натисніть кнопку %s, щоб припинити бета-тестування та повернутися до поточної версії з каталогу плагінів WordPress."
+
+#: tpl/toolbox/beta_test.tpl.php:38 tpl/toolbox/beta_test.tpl.php:54
+msgid "Use latest WordPress release version"
+msgstr "Використовуйте останню версію релізу WordPress"
+
+#: tpl/toolbox/beta_test.tpl.php:38
+msgid "OR"
+msgstr "Або"
+
+#: tpl/toolbox/beta_test.tpl.php:29
+msgid "Use this section to switch plugin versions. To beta test a GitHub commit, enter the commit URL in the field below."
+msgstr "Використовуйте цей розділ, для перемикання версії плагіна. Щоб протестувати бета версію GitHub, введіть URL-адресу версії в поле нижче."
+
+#: tpl/toolbox/import_export.tpl.php:53
+msgid "Reset Settings"
+msgstr "Скидання налаштувань"
+
+#: tpl/toolbox/entry.tpl.php:32
+msgid "LiteSpeed Cache Toolbox"
+msgstr "Панель інструментів LiteSpeed Cache"
+
+#: tpl/toolbox/entry.tpl.php:25
+msgid "Beta Test"
+msgstr "Бета-тест"
+
+#: tpl/toolbox/entry.tpl.php:24
+msgid "Log View"
+msgstr "Переглянути журнал"
+
+#: tpl/toolbox/entry.tpl.php:23 tpl/toolbox/settings-debug.tpl.php:10
+msgid "Debug Settings"
+msgstr "Налаштування налагодження"
+
+#: tpl/toolbox/heartbeat.tpl.php:94
+msgid "Turn ON to control heartbeat in backend editor."
+msgstr "Увімкніть, щоб керувати heartbeat у серверному редакторі."
+
+#: tpl/toolbox/heartbeat.tpl.php:78 tpl/toolbox/heartbeat.tpl.php:108
+msgid "WordPress valid interval is %s seconds"
+msgstr "Інтервал дії WordPress становить %s секунд"
+
+#: tpl/toolbox/heartbeat.tpl.php:64
+msgid "Turn ON to control heartbeat on backend."
+msgstr "Увімкніть, щоб контролювати heartbeat на серверній частині."
+
+#: tpl/toolbox/heartbeat.tpl.php:49 tpl/toolbox/heartbeat.tpl.php:79
+#: tpl/toolbox/heartbeat.tpl.php:109
+msgid "Set to %1$s to forbid heartbeat on %2$s."
+msgstr "Установіть %1$s, щоб заборонити heartbeat %2$s."
+
+#: tpl/toolbox/heartbeat.tpl.php:48
+msgid "WordPress valid interval is %s seconds."
+msgstr "Інтервал дії WordPress становить %s секунд."
+
+#: tpl/toolbox/heartbeat.tpl.php:47 tpl/toolbox/heartbeat.tpl.php:77
+#: tpl/toolbox/heartbeat.tpl.php:107
+msgid "Specify the %s heartbeat interval in seconds."
+msgstr "Вкажіть інтервал heartbeat %s у секундах."
+
+#: tpl/toolbox/heartbeat.tpl.php:34
+msgid "Turn ON to control heartbeat on frontend."
+msgstr "Увімкніть, щоб контролювати heartbeat на зовнішньому інтерфейсі."
+
+#: tpl/toolbox/heartbeat.tpl.php:15
+msgid "Disable WordPress interval heartbeat to reduce server load."
+msgstr "Вимкніть інтервал heartbeat WordPress, щоб зменшити навантаження на сервер."
+
+#: tpl/toolbox/heartbeat.tpl.php:9
+msgid "Heartbeat Control"
+msgstr "Контроль Heartbeat"
+
+#: tpl/toolbox/report.tpl.php:86
+msgid "provide more information here to assist the LiteSpeed team with debugging."
+msgstr "надайте більше інформації тут, щоб допомогти команді LiteSpeed з налагодженням."
+
+#: tpl/toolbox/report.tpl.php:85
+msgid "Optional"
+msgstr "Необов’язково"
+
+#: tpl/toolbox/report.tpl.php:67 tpl/toolbox/report.tpl.php:69
+msgid "Generate Link for Current User"
+msgstr "Створити посилання для поточного користувача"
+
+#: tpl/toolbox/report.tpl.php:63
+msgid "Passwordless Link"
+msgstr "Посилання без пароля"
+
+#: tpl/toolbox/report.tpl.php:57
+msgid "System Information"
+msgstr "Системна інформація"
+
+#: tpl/toolbox/report.tpl.php:35
+msgid "Go to plugins list"
+msgstr "Перейти до списку плагінів"
+
+#: tpl/toolbox/report.tpl.php:34
+msgid "Install DoLogin Security"
+msgstr "Встановити DoLogin Security"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Check my public IP from"
+msgstr "Перевірте мою публічну IP-адресу від"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Your server IP"
+msgstr "IP вашого сервера"
+
+#: tpl/general/settings.tpl.php:205
+msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
+msgstr "Введіть IP-адресу цього сайту, щоб дозволити хмарним службам безпосередньо викликати IP замість доменного імені. Це зменшує час на пошук DNS та CDN."
+
+#: tpl/crawler/settings-general.tpl.php:120
+msgid "Specify the timeout while crawling each URL."
+msgstr "Вкажіть час очікування під час сканування кожної URL-адреси."
+
+#: tpl/crawler/settings-general.tpl.php:76
+msgid "Specify time in seconds for the time between each run interval."
+msgstr "Вкажіть час у секундах для часу між кожним інтервалом виконання."
+
+#: tpl/crawler/settings-general.tpl.php:22
+msgid "This will enable crawler cron."
+msgstr "Це дозволить cron для сканера."
+
+#: tpl/crawler/settings-general.tpl.php:9
+msgid "Crawler General Settings"
+msgstr "Загальні налаштування сканера"
+
+#: tpl/crawler/blacklist.tpl.php:46
+msgid "Remove from Blocklist"
+msgstr "Видалити зі списку блокування"
+
+#: tpl/crawler/blacklist.tpl.php:16
+msgid "Empty blocklist"
+msgstr "Порожній список блокування"
+
+#: tpl/crawler/blacklist.tpl.php:15
+msgid "Are you sure to delete all existing blocklist items?"
+msgstr "Ви впевнені, що видалили всі існуючі елементи списку блокування?"
+
+#: tpl/crawler/blacklist.tpl.php:56 tpl/crawler/map.tpl.php:69
+msgid "Blocklisted due to not cacheable"
+msgstr "У списку блокування через те, що його неможливо кешувати"
+
+#: tpl/crawler/map.tpl.php:58
+msgid "Add to Blocklist"
+msgstr "Додати до списку блокування"
+
+#: tpl/crawler/blacklist.tpl.php:33 tpl/crawler/map.tpl.php:45
+msgid "Operation"
+msgstr "Операція"
+
+#: tpl/crawler/map.tpl.php:37
+msgid "Sitemap Total"
+msgstr "Всього файлів Sitemap"
+
+#: tpl/crawler/map.tpl.php:33
+msgid "Sitemap List"
+msgstr "Перелік Sitemap"
+
+#: tpl/crawler/map.tpl.php:20
+msgid "Refresh Crawler Map"
+msgstr "Оновити мапу сканера"
+
+#: tpl/crawler/map.tpl.php:16
+msgid "Clean Crawler Map"
+msgstr "Очистити карту сканера"
+
+#: tpl/crawler/entry.tpl.php:11
+msgid "Sitemap Settings"
+msgstr "Налаштування Sitemap"
+
+#: tpl/crawler/entry.tpl.php:10
+msgid "Simulation Settings"
+msgstr "Налаштування симуляції"
+
+#: tpl/crawler/blacklist.tpl.php:21 tpl/crawler/entry.tpl.php:8
+msgid "Blocklist"
+msgstr "Список блокування"
+
+#: tpl/crawler/entry.tpl.php:7
+msgid "Map"
+msgstr "Sitemap"
+
+#: tpl/crawler/entry.tpl.php:6
+msgid "Summary"
+msgstr "Підсумок"
+
+#: tpl/crawler/settings-sitemap.tpl.php:36
+msgid "If you are using multiple domains for one site, and have multiple domains in the sitemap, please keep this option OFF so the crawler knows to crawl every domain."
+msgstr "Якщо ви використовуєте кілька доменів для одного сайту і маєте кілька доменів у sitemap, будь ласка, тримайте цей параметр ВИМКНЕНИМ, щоб сканер знав, що потрібно сканувати кожен домен."
+
+#: tpl/crawler/settings-sitemap.tpl.php:35
+msgid "The crawler will parse the sitemap and save into the database before crawling. When parsing the sitemap, dropping the domain can save DB storage."
+msgstr "Перед скануванням сканер проаналізує sitemap та збереже його в базі даних. Під час аналізу sitemap, видалення домену може заощадити місце у сховище БД."
+
+#: tpl/crawler/settings-sitemap.tpl.php:9
+msgid "Crawler Sitemap Settings"
+msgstr "Налаштування Sitemap для сканера"
+
+#: tpl/crawler/summary.tpl.php:190
+msgid "&nbsp;If both the cron and a manual run start at similar times, the first to be started will take precedence."
+msgstr "&nbsp;Якщо і cron і ручний запуск починаються в однаковий час, пріоритет матиме перший, який буде запущено."
+
+#: tpl/crawler/summary.tpl.php:189
+msgid "Crawlers cannot run concurrently."
+msgstr "Сканери не можуть працювати одночасно."
+
+#: tpl/crawler/map.tpl.php:68
+msgid "Cache Miss"
+msgstr "Відсутній кеш"
+
+#: tpl/crawler/map.tpl.php:67
+msgid "Cache Hit"
+msgstr "Попадання в кеш"
+
+#: tpl/crawler/summary.tpl.php:181
+msgid "Waiting to be Crawled"
+msgstr "Очікування сканера"
+
+#: tpl/crawler/blacklist.tpl.php:57 tpl/crawler/map.tpl.php:70
+#: tpl/crawler/summary.tpl.php:160 tpl/crawler/summary.tpl.php:184
+msgid "Blocklisted"
+msgstr "У списку блокування"
+
+#: tpl/crawler/summary.tpl.php:159
+msgid "Miss"
+msgstr "Відсутній"
+
+#: tpl/crawler/summary.tpl.php:158
+msgid "Hit"
+msgstr "Влучання"
+
+#: tpl/crawler/summary.tpl.php:157
+msgid "Waiting"
+msgstr "Очікування"
+
+#: tpl/crawler/summary.tpl.php:126
+msgid "Running"
+msgstr "Виконується"
+
+#: tpl/crawler/settings-simulation.tpl.php:51
+msgid "Use %1$s in %2$s to indicate this cookie has not been set."
+msgstr "Використовуйте %1$s у %2$s, щоб указати, що цей файл cookie не встановлено."
+
+#: src/admin-display.cls.php:209
+msgid "Add new cookie to simulate"
+msgstr "Додайте новий файл cookie для симуляції"
+
+#: src/admin-display.cls.php:208
+msgid "Remove cookie simulation"
+msgstr "Видалити симуляцію файлів cookie"
+
+#: tpl/crawler/settings-simulation.tpl.php:9
+msgid "Crawler Simulation Settings"
+msgstr "Налаштування симуляції сканера"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:44
+msgid "Htaccess rule is: %s"
+msgstr "Правило для .htaccess: %s"
+
+#: tpl/cache/more_settings_tip.tpl.php:15
+msgid "More settings available under %s menu"
+msgstr "Більше налаштувань доступне в %s меню"
+
+#: tpl/cache/settings_inc.browser.tpl.php:42
+msgid "The amount of time, in seconds, that files will be stored in browser cache before expiring."
+msgstr "Час у секундах, протягом якого файли зберігатимуться в кеші браузера до закінчення терміну дії."
+
+#: tpl/cache/settings_inc.browser.tpl.php:13
+msgid "OpenLiteSpeed users please check this"
+msgstr "Користувачі OpenLiteSpeed, будь ласка, перевірте це"
+
+#: tpl/cache/settings_inc.browser.tpl.php:6
+msgid "Browser Cache Settings"
+msgstr "Налаштування кешу браузера"
+
+#: tpl/cache/settings-cache.tpl.php:139
+msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
+msgstr "Шляхи, що містять ці рядки, будуть примусово кешуватись у загальнодоступному кеші, незалежно від налаштувань правила - не кешувати."
+
+#: tpl/cache/settings-cache.tpl.php:34
+msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
+msgstr "Навіть якщо увімкнено CDN QUIC.cloud, ви можете бачити заголовки кешу з вашого локального сервера."
+
+#: tpl/cache/settings-esi.tpl.php:104
+msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
+msgstr "Необов'язковий, другий параметр може використовуватися для вказівки керування кешем. Використовуйте пробіл для розділення"
+
+#: tpl/cache/settings-esi.tpl.php:102
+msgid "The above nonces will be converted to ESI automatically."
+msgstr "Вищезазначені ідентифікатори будуть автоматично перетворені в ESI."
+
+#: tpl/cache/entry.tpl.php:15 tpl/cache/entry_network.tpl.php:10
+msgid "Browser"
+msgstr "Браузер"
+
+#: tpl/cache/entry.tpl.php:14 tpl/cache/entry_network.tpl.php:9
+msgid "Object"
+msgstr "Object"
+
+#: tpl/cache/settings_inc.object.tpl.php:91
+#: tpl/cache/settings_inc.object.tpl.php:92
+msgid "Default port for %1$s is %2$s."
+msgstr "Порт за умовчанням для %1$s – %2$s."
+
+#: tpl/cache/settings_inc.object.tpl.php:27
+msgid "Object Cache Settings"
+msgstr "Налаштування кешу object"
+
+#: tpl/cache/settings-ttl.tpl.php:105
+msgid "Specify an HTTP status code and the number of seconds to cache that page, separated by a space."
+msgstr "Вкажіть код статусу HTTP і кількість секунд для кешування цієї сторінки, розділення пробілом."
+
+#: tpl/cache/settings-ttl.tpl.php:52
+msgid "Specify how long, in seconds, the front page is cached."
+msgstr "Вкажіть, скільки часу в секундах кешується головна сторінка."
+
+#: tpl/cache/entry.tpl.php:7 tpl/cache/settings-ttl.tpl.php:7
+msgid "TTL"
+msgstr "TTL"
+
+#: tpl/cache/settings-purge.tpl.php:85
+msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
+msgstr "Якщо увімкнено, застаріла копія кешованої сторінки відображатиметься відвідувачам, доки не буде доступна нова копія кешу. Зменшує навантаження на сервер для наступних відвідувань. Якщо вимкнено, сторінка буде генеруватися динамічно, поки відвідувачі чекатимуть."
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "Swap"
+msgstr "Обмін"
+
+#: tpl/page_optm/settings_css.tpl.php:269
+msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
+msgstr "Встановіть це, щоб додати %1$s до всіх %2$s правил перед кешуванням CSS, та указати, як шрифти мають відображатися під час завантаження."
+
+#: tpl/page_optm/settings_localization.tpl.php:57
+msgid "Avatar list in queue waiting for update"
+msgstr "Список аватарів в черзі очікує оновлення"
+
+#: tpl/page_optm/settings_localization.tpl.php:44
+msgid "Refresh Gravatar cache by cron."
+msgstr "Оновити кеш Gravatar за допомогою cron."
+
+#: tpl/page_optm/settings_localization.tpl.php:31
+msgid "Accelerates the speed by caching Gravatar (Globally Recognized Avatars)."
+msgstr "Прискорює швидкість, кешуючи Gravatar (Globally Recognized Avatars)."
+
+#: tpl/page_optm/settings_localization.tpl.php:30
+msgid "Store Gravatar locally."
+msgstr "Зберігайте Gravatar локально."
+
+#: tpl/page_optm/settings_localization.tpl.php:12
+msgid "Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
+msgstr "Не вдалося створити таблицю \"Аватар\". Будь ласка, дотримуйтесь <a %s>інструкцій щодо створення таблиці від LiteSpeed Wiki</a>, щоб завершити налаштування."
+
+#: tpl/page_optm/settings_media.tpl.php:140
+msgid "LQIP requests will not be sent for images where both width and height are smaller than these dimensions."
+msgstr "Запити LQIP не надсилатимуться для зображень, ширина та висота яких менші за ці розміри."
+
+#: tpl/page_optm/settings_media.tpl.php:138
+msgid "pixels"
+msgstr "пікселів"
+
+#: tpl/page_optm/settings_media.tpl.php:122
+msgid "Larger number will generate higher resolution quality placeholder, but will result in larger files which will increase page size and consume more points."
+msgstr "Більше число створить заповнювач з більш високою роздільною здатністю, але призведе до збільшення файлів, це збільшить розмір сторінки та зменшить кількість балів."
+
+#: tpl/page_optm/settings_media.tpl.php:121
+msgid "Specify the quality when generating LQIP."
+msgstr "Вкажіть якість під час генерації LQIP."
+
+#: tpl/page_optm/settings_media.tpl.php:107
+msgid "Keep this off to use plain color placeholders."
+msgstr "Вимкніть цей параметр, щоб використовувати заповнювачі звичайного кольору."
+
+#: tpl/page_optm/settings_media.tpl.php:106
+msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
+msgstr "Використовуйте службу генератора QUIC.cloud LQIP (заповнювач зображень низької якості) для адаптивного попереднього перегляду зображень під час завантаження."
+
+#: tpl/page_optm/settings_media.tpl.php:92
+msgid "Specify the responsive placeholder SVG color."
+msgstr "Вкажіть колір SVG для адаптивного заповнювача."
+
+#: tpl/page_optm/settings_media.tpl.php:78
+msgid "Variables %s will be replaced with the configured background color."
+msgstr "Змінні %s будуть замінені на налаштований колір фону."
+
+#: tpl/page_optm/settings_media.tpl.php:77
+msgid "Variables %s will be replaced with the corresponding image properties."
+msgstr "Змінні %s будуть замінені відповідними властивостями зображення."
+
+#: tpl/page_optm/settings_media.tpl.php:76
+msgid "It will be converted to a base64 SVG placeholder on-the-fly."
+msgstr "Він буде перетворений на заповнювач base64 SVG на льоту."
+
+#: tpl/page_optm/settings_media.tpl.php:75
+msgid "Specify an SVG to be used as a placeholder when generating locally."
+msgstr "Вкажіть SVG, який буде використовуватися як заповнювач під час локального генерування."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:108
+msgid "Prevent any lazy load of listed pages."
+msgstr "Запобігає Lazy Load перелічених сторінок."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:94
+msgid "Iframes having these parent class names will not be lazy loaded."
+msgstr "Iframes, що мають ці імена батьківських класів, не будуть lazy loaded."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:79
+msgid "Iframes containing these class names will not be lazy loaded."
+msgstr "Iframes, що містять ці імена класів, не будуть lazy loaded."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:65
+msgid "Images having these parent class names will not be lazy loaded."
+msgstr "Зображення, які мають ці імена батьківських класів, не будуть lazy loaded."
+
+#: tpl/page_optm/entry.tpl.php:19
+msgid "LiteSpeed Cache Page Optimization"
+msgstr "Оптимізація сторінки LiteSpeed Cache"
+
+#: tpl/page_optm/entry.tpl.php:10 tpl/page_optm/settings_media_exc.tpl.php:7
+msgid "Media Excludes"
+msgstr "Виключенні Медіа"
+
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:16
+msgid "CSS Settings"
+msgstr "Налаштування CSS"
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "%s is recommended."
+msgstr "%s рекомендується."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Deferred"
+msgstr "‎Відкладено"
+
+#: tpl/page_optm/settings_css.tpl.php:267
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: tpl/page_optm/settings_html.tpl.php:50
+msgid "This can improve the page loading speed."
+msgstr "Це може покращити швидкість завантаження сторінки."
+
+#: tpl/page_optm/settings_html.tpl.php:49
+msgid "Automatically enable DNS prefetching for all URLs in the document, including images, CSS, JavaScript, and so forth."
+msgstr "Автоматично вмикати попередню вибірку DNS для всіх URL-адрес у документі, включаючи зображення, CSS, JavaScript тощо."
+
+#: tpl/banner/new_version_dev.tpl.php:16
+msgid "New developer version %s is available now."
+msgstr "Нова версія для розробників %s зараз доступна."
+
+#: tpl/banner/new_version_dev.tpl.php:12
+msgid "New Developer Version Available!"
+msgstr "Доступна нова версія для розробників!"
+
+#: tpl/banner/cloud_promo.tpl.php:51
+msgid "Dismiss this notice"
+msgstr "Ігнорувати це повідомлення"
+
+#: tpl/banner/cloud_promo.tpl.php:39
+msgid "Tweet this"
+msgstr "Твітнути"
+
+#: tpl/banner/cloud_promo.tpl.php:22
+msgid "Tweet preview"
+msgstr "Попередній перегляд твіту"
+
+#: tpl/banner/cloud_promo.tpl.php:17
+msgid "Learn more"
+msgstr "Дізнатись більше"
+
+#: tpl/banner/cloud_promo.tpl.php:13
+msgid "You just unlocked a promotion from QUIC.cloud!"
+msgstr "Ви щойно розблокували акцію від QUIC.cloud!"
+
+#: tpl/img_optm/settings.tpl.php:169
+msgid "The image compression quality setting of WordPress out of 100."
+msgstr "Налаштування якості стиснення зображень у WordPress від 0 до 100."
+
+#: tpl/img_optm/entry.tpl.php:7 tpl/img_optm/entry.tpl.php:13
+#: tpl/img_optm/network_settings.tpl.php:9 tpl/img_optm/settings.tpl.php:9
+msgid "Image Optimization Settings"
+msgstr "Налаштування оптимізації зображень"
+
+#: tpl/img_optm/summary.tpl.php:373
+msgid "Are you sure to destroy all optimized images?"
+msgstr "Ви впевнені, що хочете видалити всі оптимізовані зображення?"
+
+#: tpl/img_optm/summary.tpl.php:365
+msgid "Use Optimized Files"
+msgstr "Використовуйте оптимізовані файли"
+
+#: tpl/img_optm/summary.tpl.php:364
+msgid "Switch back to using optimized images on your site"
+msgstr "Поверніться до використання оптимізованих зображень на своєму сайті"
+
+#: tpl/img_optm/summary.tpl.php:361
+msgid "Use Original Files"
+msgstr "Використовуйте оригінальні файли"
+
+#: tpl/img_optm/summary.tpl.php:360
+msgid "Use original images (unoptimized) on your site"
+msgstr "Використовуйте оригінальні зображення (неоптимізовані) на своєму сайті"
+
+#: tpl/img_optm/summary.tpl.php:355
+msgid "You can quickly switch between using original (unoptimized versions) and optimized image files. It will affect all images on your website, both regular and webp versions if available."
+msgstr "Ви можете швидко перемикатися між використанням оригінальних (неоптимізованих версій) і оптимізованих файлів зображень. Це вплине на всі зображення на вашому веб-сайті, як на звичайні, так і на webp версії, якщо вони доступні."
+
+#: tpl/img_optm/summary.tpl.php:352
+msgid "Optimization Tools"
+msgstr "Інструменти оптимізації"
+
+#: tpl/img_optm/summary.tpl.php:325
+msgid "Rescan New Thumbnails"
+msgstr "Повторне сканування нових ескізів"
+
+#: tpl/img_optm/summary.tpl.php:317
+msgid "Congratulations, all requested!"
+msgstr "Вітаємо, всі запити зроблені!"
+
+#: tpl/img_optm/summary.tpl.php:290
+msgid "Congratulations, all gathered!"
+msgstr "Вітаємо, все зібрано!"
+
+#: tpl/img_optm/summary.tpl.php:287
+msgid "Images not yet gathered"
+msgstr "Зображення ще не зібрані"
+
+#: tpl/img_optm/summary.tpl.php:282 tpl/img_optm/summary.tpl.php:309
+msgid "What is an image group?"
+msgstr "Що таке група зображень?"
+
+#: tpl/img_optm/summary.tpl.php:233
+msgid "Delete all backups of the original images"
+msgstr "Видалити усі резервні копії оригінальних зображень"
+
+#: tpl/img_optm/summary.tpl.php:215
+msgid "Calculate Backups Disk Space"
+msgstr "Розрахувати резервний дисковий простір"
+
+#: tpl/img_optm/summary.tpl.php:100
+msgid "Optimization Status"
+msgstr "Статус оптимізації"
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Gather Image Data"
+msgstr "Збір даних зображення"
+
+#: tpl/img_optm/summary.tpl.php:72
+msgid "Current limit is"
+msgstr "Поточний ліміт становить"
+
+#: tpl/img_optm/summary.tpl.php:71
+msgid "To make sure our server can communicate with your server without any issues and everything works fine, for the few first requests the number of images allowed in a single request is limited."
+msgstr "Щоб переконатися, що наш сервер може зв’язуватися з вашим сервером без будь-яких проблем і все працює нормально, для кількох перших запитів кількість зображень, дозволених в окремому запиті, обмежена."
+
+#: tpl/img_optm/summary.tpl.php:66
+msgid "You can request a maximum of %s images at once."
+msgstr "Одночасно можна запитати максимум %s зображень."
+
+#: tpl/img_optm/summary.tpl.php:61
+msgid "Optimize images with our QUIC.cloud server"
+msgstr "Оптимізуйте зображення за допомогою нашого сервера QUIC.cloud"
+
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:91
+#: tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Current closest Cloud server is %s.&#10; Click to redetect."
+msgstr "Поточний найближчий хмарний сервер – %s.&#10; Натисніть для повторного пошуку."
+
+#: tpl/db_optm/settings.tpl.php:37
+msgid "Revisions newer than this many days will be kept when cleaning revisions."
+msgstr "Редакції, старіші за цю, зберігатимуться під час очищення редакцій."
+
+#: tpl/db_optm/settings.tpl.php:35
+msgid "Day(s)"
+msgstr "День(ів)"
+
+#: tpl/db_optm/settings.tpl.php:23
+msgid "Specify the number of most recent revisions to keep when cleaning revisions."
+msgstr "Вкажіть кількість останніх редакцій, які потрібно зберегти під час очищення редакцій."
+
+#: tpl/db_optm/entry.tpl.php:17
+msgid "LiteSpeed Cache Database Optimization"
+msgstr "Оптимізація бази даних LiteSpeed Cache"
+
+#: tpl/db_optm/entry.tpl.php:10 tpl/db_optm/settings.tpl.php:10
+msgid "DB Optimization Settings"
+msgstr "Налаштування оптимізації DB"
+
+#: tpl/db_optm/manage.tpl.php:166
+msgid "Option Name"
+msgstr "Назва параметра"
+
+#: tpl/db_optm/manage.tpl.php:151
+msgid "Database Summary"
+msgstr "Підсумок бази даних"
+
+#: tpl/db_optm/manage.tpl.php:130
+msgid "We are good. No table uses MyISAM engine."
+msgstr "Все добре. У жодній таблиці не використовується механізм MyISAM."
+
+#: tpl/db_optm/manage.tpl.php:122
+msgid "Convert to InnoDB"
+msgstr "Перетворити в InnoDB"
+
+#: tpl/db_optm/manage.tpl.php:108
+msgid "Tool"
+msgstr "Інструмент"
+
+#: tpl/db_optm/manage.tpl.php:107
+msgid "Engine"
+msgstr "Двигун"
+
+#: tpl/db_optm/manage.tpl.php:106
+msgid "Table"
+msgstr "Таблиця"
+
+#: tpl/db_optm/manage.tpl.php:99
+msgid "Database Table Engine Converter"
+msgstr "Конвертер таблиць баз даних"
+
+#: tpl/db_optm/manage.tpl.php:51
+msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
+msgstr "Видалити редакції, старіші за %1$s день(ів), за винятком %2$s останніх редакцій"
+
+#: tpl/dash/dashboard.tpl.php:537
+msgid "Currently active crawler"
+msgstr "Наразі діючий сканер"
+
+#: tpl/dash/dashboard.tpl.php:534
+msgid "Crawler(s)"
+msgstr "Сканер(и)"
+
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:529
+msgid "Crawler Status"
+msgstr "Статус сканера"
+
+#: tpl/dash/dashboard.tpl.php:448 tpl/dash/dashboard.tpl.php:481
+#: tpl/dash/dashboard.tpl.php:513
+msgid "Force cron"
+msgstr "Примусовий cron"
+
+#: tpl/dash/dashboard.tpl.php:445 tpl/dash/dashboard.tpl.php:478
+#: tpl/dash/dashboard.tpl.php:511
+msgid "Requests in queue"
+msgstr "Запити в черзі"
+
+#: tpl/dash/dashboard.tpl.php:440 tpl/dash/dashboard.tpl.php:473
+#: tpl/dash/dashboard.tpl.php:506
+msgid "Time to execute previous request"
+msgstr "Час для виконання попереднього запиту"
+
+#: tpl/dash/dashboard.tpl.php:417
+msgid "Cache Stats"
+msgstr "Статистика кешу"
+
+#: tpl/dash/dashboard.tpl.php:395
+msgid "Private Cache"
+msgstr "Приватний кеш"
+
+#: tpl/dash/dashboard.tpl.php:394
+msgid "Public Cache"
+msgstr "Загальнодоступний кеш"
+
+#: tpl/dash/dashboard.tpl.php:388
+msgid "Cache Status"
+msgstr "Статус кешу"
+
+#: tpl/dash/dashboard.tpl.php:360
+msgid "Last Pull"
+msgstr "Останнє вилучення"
+
+#: tpl/dash/dashboard.tpl.php:325
+msgid "Images Requested"
+msgstr "Запитані зображення"
+
+#: tpl/dash/dashboard.tpl.php:310
+msgid "Image Groups Prepared"
+msgstr "Підготовлені групи зображень"
+
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
+msgid "Image Optimization Summary"
+msgstr "Підсумок оптимізації зображення"
+
+#: tpl/dash/dashboard.tpl.php:238
+msgid "Refresh page score"
+msgstr "Оновити оцінку сторінки"
+
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:91 tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Ви впевнені, що хочете повторно шукати найближчий хмарний сервер для цієї служби?"
+
+#: tpl/dash/dashboard.tpl.php:227
+msgid "Current closest Cloud server is %s.&#10;Click to redetect."
+msgstr "Поточний, найближчий, хмарний сервер %s.&#10;Натисніть, щоб повторно шукати."
+
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:456 tpl/dash/dashboard.tpl.php:489
+#: tpl/dash/dashboard.tpl.php:521
+msgid "Last requested"
+msgstr "Останній запитаний"
+
+#: tpl/dash/dashboard.tpl.php:181
+msgid "Refresh page load time"
+msgstr "Оновити час завантаження сторінки"
+
+#: tpl/dash/dashboard.tpl.php:169
+msgid "Go to QUIC.cloud dashboard"
+msgstr "Перейти у майстерню QUIC.cloud"
+
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/dashboard.tpl.php:497
+msgid "Low Quality Image Placeholder"
+msgstr "Заповнювач зображення низької якості (LQIP)"
+
+#: tpl/dash/dashboard.tpl.php:45
+msgid "Sync data from Cloud"
+msgstr "Синхронізуйте дані з хмари"
+
+#: tpl/dash/dashboard.tpl.php:42
+msgid "QUIC.cloud Service Usage Statistics"
+msgstr "Статистика використання служби QUIC.cloud"
+
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
+msgid "Total images optimized in this month"
+msgstr "Загальна кількість зображень, оптимізованих за цей місяць"
+
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
+msgid "Total Usage"
+msgstr "Усього використано"
+
+#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:93
+msgid "Pay as You Go Usage Statistics"
+msgstr "Статистика використання плати по мірі використання (Pay as You Go)"
+
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:91
+msgid "This Month Usage"
+msgstr "Використано цього місяця"
+
+#: tpl/dash/dashboard.tpl.php:128 tpl/dash/network_dash.tpl.php:90
+msgid "PAYG Balance"
+msgstr "Баланс Pay as You Go"
+
+#: tpl/dash/network_dash.tpl.php:89
+msgid "Pay as You Go"
+msgstr "Pay as You Go"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Usage"
+msgstr "Використання"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Fast Queue Usage"
+msgstr "Використання швидкої черги"
+
+#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:29
+msgid "CDN Bandwidth"
+msgstr "Пропускна здатність CDN"
+
+#: tpl/dash/network_dash.tpl.php:28
+msgid "CCSS"
+msgstr "CCSS"
+
+#: tpl/dash/network_dash.tpl.php:19
+msgid "Usage Statistics"
+msgstr "Статистика використання"
+
+#: tpl/dash/entry.tpl.php:20
+msgid "LiteSpeed Cache Dashboard"
+msgstr "Майстерня LiteSpeed Cache"
+
+#: tpl/dash/entry.tpl.php:11
+msgid "Network Dashboard"
+msgstr "Майстерня мережі"
+
+#: tpl/general/settings.tpl.php:128
+msgid "No cloud services currently in use"
+msgstr "Відсутні хмарні сервіси, які зараз використовуються"
+
+#: tpl/general/settings.tpl.php:116
+msgid "Click to clear all nodes for further redetection."
+msgstr "Натиснути, щоб очистити всі вузли для подальшого повторного виявлення."
+
+#: tpl/general/settings.tpl.php:115
+msgid "Current Cloud Nodes in Service"
+msgstr "Поточні хмарні вузли в Обслуговуванні"
+
+#: tpl/general/settings.tpl.php:107
+msgid "Benefits of linking to a QUIC.cloud account"
+msgstr "Переваги підключення до облікового запису QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:106
+msgid "You must click the %s button if you wish to associate this site with a QUIC.cloud account."
+msgstr "Ви повинні натиснути кнопку %s, якщо ви хочете пов’язати цей сайт з обліковим записом QUIC.cloud."
+
+#: tpl/general/settings.tpl.php:101
+msgid "You must have %1$s first before linking to QUIC.cloud."
+msgstr "Ви повинні мати %1$s перед посиланням на QUIC.cloud."
+
+#: tpl/general/settings.tpl.php:87
+msgid "Please verify that your other plugins are not blocking REST API calls, allowlist our server IPs, or contact your server admin for assistance."
+msgstr "Будь ласка, переконайтеся, що ваші, інші плагіни, не блокують виклики REST API, наші сервери у списку дозволених IP-адрес або зверніться за допомогою до адміністратора вашого сервера."
+
+#: tpl/general/settings.tpl.php:86
+msgid "Our %s was not allowlisted."
+msgstr "Наш %s не внесено до списку дозволених."
+
+#: tpl/general/settings.tpl.php:85
+msgid "The POST callback to %s failed."
+msgstr "Помилка зворотного виклику POST до %s."
+
+#: tpl/general/settings.tpl.php:84
+msgid "There are two reasons why we might not be able to communicate with your domain:"
+msgstr "Є дві причини, чому ми не зможемо зв’язатися з вашим доменом:"
+
+#: tpl/general/settings.tpl.php:83
+msgid "There was a problem with retrieving your Domain Key. Please click the %s button to retry."
+msgstr "Виникла проблема з отриманням ключа домену. Натисніть кнопку %s, щоб повторити спробу."
+
+#: tpl/general/settings.tpl.php:75 tpl/general/settings.tpl.php:77
+#: tpl/general/settings.tpl.php:106
+msgid "Link to QUIC.cloud"
+msgstr "Посилання на QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:73
+msgid "Visit My Dashboard on QUIC.cloud"
+msgstr "Відвідайте Майстерню на QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:36
+msgid "Next available request time: <code>After %s</code>"
+msgstr "Наступний доступний час запиту: <code>Після %s</code>"
+
+#: tpl/general/settings.tpl.php:32
+msgid "Approved"
+msgstr "Схвалено"
+
+#: tpl/general/settings.tpl.php:29
+msgid "Requested"
+msgstr "Запитано"
+
+#: tpl/general/settings.tpl.php:24
+msgid "Waiting for Approval"
+msgstr "В очікуванні схвалення"
+
+#: tpl/general/settings.tpl.php:20
+msgid "Waiting for Refresh"
+msgstr "Очікування оновлення"
+
+#: tpl/general/settings.tpl.php:18
+msgid "Refresh Domain Key"
+msgstr "Оновити ключ домену"
+
+#: tpl/crawler/entry.tpl.php:9 tpl/general/entry.tpl.php:6
+#: tpl/general/entry.tpl.php:12 tpl/general/network_settings.tpl.php:8
+#: tpl/general/settings.tpl.php:42
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: tpl/cdn/settings.tpl.php:126
+msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
+msgstr "Укажіть, які атрибути HTML-елемента будуть замінені на CDN Mapping."
+
+#: src/admin-display.cls.php:231
+msgid "Add new CDN URL"
+msgstr "Додати нову URL-адресу CDN"
+
+#: src/admin-display.cls.php:230
+msgid "Remove CDN URL"
+msgstr "Видалити URL-адресу CDN"
+
+#: tpl/cdn/settings.tpl.php:35
+msgid "Enable %s CDN API functionality."
+msgstr "Увімкнути функцію %s CDN API."
+
+#: tpl/cdn/manage.tpl.php:23
+msgid "To enable the following functionality, turn ON Cloudflare API in CDN Settings."
+msgstr "Щоб увімкнути наступні функції, увімкніть Cloudflare API у налаштуваннях CDN."
+
+#: tpl/cdn/manage.tpl.php:14
+msgid "To manage QUIC.cloud options, please visit"
+msgstr "Щоб керувати параметрами QUIC.cloud, будь ласка, відвідайте"
+
+#: tpl/cdn/manage.tpl.php:12
+msgid "QUIC.cloud"
+msgstr "QUIC.cloud"
+
+#: thirdparty/woocommerce.content.tpl.php:16
+msgid "WooCommerce Settings"
+msgstr "Налаштування WooCommerce"
+
+#: src/doc.cls.php:119 tpl/general/settings.tpl.php:86
+msgid "Current Online Server IPs"
+msgstr "Поточні IP-адреси онлайн-серверів"
+
+#: src/doc.cls.php:118
+msgid "Before generating key, please verify all IPs on this list are allowlisted"
+msgstr "Перш ніж генерувати ключ, перевірте, чи всі IP-адреси в цьому списку є у списку дозволених"
+
+#: src/doc.cls.php:117
+msgid "For online services to work correctly, you must allowlist all %s server IPs."
+msgstr "Щоб онлайн-сервіси працювали правильно, ви повинні внести у список дозволених усі IP-адреси сервера %s."
+
+#: src/gui.cls.php:545 src/gui.cls.php:705
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
+msgid "LQIP Cache"
+msgstr "LQIP Кеш"
+
+#: src/gui.cls.php:84
+msgid "Private Cache Hits"
+msgstr "Звернення до приватного кешу"
+
+#: src/gui.cls.php:83
+msgid "Private Caches"
+msgstr "Приватні кеші"
+
+#: src/gui.cls.php:82
+msgid "Public Cache Hits"
+msgstr "Звернення до загальнодоступного кешу"
+
+#: src/gui.cls.php:81
+msgid "Public Caches"
+msgstr "Загальнодоступні кеші"
+
+#: src/admin-settings.cls.php:242 src/admin-settings.cls.php:276
+msgid "Options saved."
+msgstr "Параметри збережені."
+
+#: src/img-optm.cls.php:1461
+msgid "Removed backups successfully."
+msgstr "Резервні копії успішно видалені."
+
+#: src/img-optm.cls.php:1399
+msgid "Calculated backups successfully."
+msgstr "Резервні копії розраховані успішно."
+
+#: src/img-optm.cls.php:1340
+msgid "Rescanned %d images successfully."
+msgstr "Повторне сканування %d зображень виконано успішно."
+
+#: src/img-optm.cls.php:1275 src/img-optm.cls.php:1340
+msgid "Rescanned successfully."
+msgstr "Повторне сканування виконано успішно."
+
+#: src/img-optm.cls.php:1243
+msgid "Destroy all optimization data successfully."
+msgstr "Всі дані оптимізації успішно знищено."
+
+#: src/img-optm.cls.php:1172
+msgid "Cleaned up unfinished data successfully."
+msgstr "Незавершені дані успішно очищено."
+
+#: src/img-optm.cls.php:1085
+msgid "Pulled %d image(s)"
+msgstr "Вилучено %d зображень(ня)"
+
+#: src/img-optm.cls.php:1008
+msgid "Optimized WebP file expired and was cleared."
+msgstr "Термін дії оптимізованого файлу WebP закінчився та його було очищено."
+
+#: src/img-optm.cls.php:888
+msgid "Pull Cron is running"
+msgstr "Запустити вилучення Cron"
+
+#: src/img-optm.cls.php:649
+msgid "No valid image found by Cloud server in the current request."
+msgstr "У поточному запиті хмарного сервера не знайдено жодного дійсного зображення."
+
+#: src/img-optm.cls.php:626
+msgid "No valid image found in the current request."
+msgstr "У поточному запиті не знайдено жодного дійсного зображення."
+
+#: src/img-optm.cls.php:472
+msgid "Pushed %1$s to Cloud server, accepted %2$s."
+msgstr "Передано %1$s на хмарний сервер, прийнято %2$s."
+
+#: src/img-optm.cls.php:180
+msgid "Gathered %d images successfully."
+msgstr "Успішно зібрано %d зображень."
+
+#: src/img-optm.cls.php:147
+msgid "No new image gathered."
+msgstr "Нове зображення не зібрано."
+
+#: src/lang.cls.php:235
+msgid "Revisions Max Age"
+msgstr "Максимальний вік редакцій"
+
+#: src/lang.cls.php:234
+msgid "Revisions Max Number"
+msgstr "Максимальний номер редакцій"
+
+#: src/lang.cls.php:232
+msgid "Debug URI Excludes"
+msgstr "Виключає URI-адресу налагодження"
+
+#: src/lang.cls.php:231
+msgid "Debug URI Includes"
+msgstr "Включає URI-адресу налагодження"
+
+#: src/lang.cls.php:221
+msgid "Drop Domain from Sitemap"
+msgstr "Вилучити домен із Sitemap"
+
+#: src/lang.cls.php:216
+msgid "Timeout"
+msgstr "Час вийшов"
+
+#: src/lang.cls.php:204
+msgid "HTML Attribute To Replace"
+msgstr "HTML-атрибут для заміни"
+
+#: src/lang.cls.php:198
+msgid "Use CDN Mapping"
+msgstr "Використовуйте CDN Mapping"
+
+#: src/lang.cls.php:197
+msgid "QUIC.cloud CDN"
+msgstr "QUIC.cloud CDN"
+
+#: src/lang.cls.php:195
+msgid "Editor Heartbeat TTL"
+msgstr "Редактор Heartbeat TTL"
+
+#: src/lang.cls.php:194
+msgid "Editor Heartbeat"
+msgstr "Редактор Heartbeat"
+
+#: src/lang.cls.php:193
+msgid "Backend Heartbeat TTL"
+msgstr "Heartbeat TTL сервера"
+
+#: src/lang.cls.php:192
+msgid "Backend Heartbeat Control"
+msgstr "Серверний контроль Heartbeat"
+
+#: src/lang.cls.php:191
+msgid "Frontend Heartbeat TTL"
+msgstr "Зовнішній інтерфейс Heartbeat TTL"
+
+#: src/lang.cls.php:190
+msgid "Frontend Heartbeat Control"
+msgstr "Зовнішній інтерфейс керування Heartbeat"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:64
+msgid "Backend .htaccess Path"
+msgstr "Серверний шлях .htaccess"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:47
+msgid "Frontend .htaccess Path"
+msgstr "Зовнішній інтерфейс шляху .htaccess"
+
+#: src/lang.cls.php:180
+msgid "ESI Nonces"
+msgstr "Ідентифікатор ESI"
+
+#: src/lang.cls.php:176
+msgid "WordPress Image Quality Control"
+msgstr "Контроль якості зображень WordPress"
+
+#: src/lang.cls.php:171
+msgid "Create WebP Versions"
+msgstr "Створити WebP версії"
+
+#: src/lang.cls.php:168
+msgid "Auto Pull Cron"
+msgstr "Автоматичне вилучення Cron"
+
+#: src/lang.cls.php:167
+msgid "Auto Request Cron"
+msgstr "Автоматичний запит Cron"
+
+#: src/lang.cls.php:164
+msgid "Generate LQIP In Background"
+msgstr "Генеруйте LQIP у фоновому режимі"
+
+#: src/lang.cls.php:162
+msgid "LQIP Minimum Dimensions"
+msgstr "Мінімальні розміри LQIP"
+
+#: src/lang.cls.php:161
+msgid "LQIP Quality"
+msgstr "Якість LQIP"
+
+#: src/lang.cls.php:160
+msgid "LQIP Cloud Generator"
+msgstr "Генератор LQIP у хмарі"
+
+#: src/lang.cls.php:159
+msgid "Responsive Placeholder SVG"
+msgstr "Адаптивний SVG-заповнювач"
+
+#: src/lang.cls.php:158
+msgid "Responsive Placeholder Color"
+msgstr "Колір адаптивного заповнювача"
+
+#: src/lang.cls.php:156
+msgid "Basic Image Placeholder"
+msgstr "Заповнювач основного зображення"
+
+#: src/lang.cls.php:154
+msgid "Lazy Load URI Excludes"
+msgstr "Виключає URI-адреси Lazy Load"
+
+#: src/lang.cls.php:153
+msgid "Lazy Load Iframe Parent Class Name Excludes"
+msgstr "Виключає назву батьківського класу iframe із Lazy Load"
+
+#: src/lang.cls.php:152
+msgid "Lazy Load Iframe Class Name Excludes"
+msgstr "Виключає Ім’я класу iframe із Lazy Load"
+
+#: src/lang.cls.php:151
+msgid "Lazy Load Image Parent Class Name Excludes"
+msgstr "Виключає назву батьківського класу зображення із Lazy Load"
+
+#: src/lang.cls.php:146
+msgid "Gravatar Cache TTL"
+msgstr "Gravatar Кеш TTL"
+
+#: src/lang.cls.php:145
+msgid "Gravatar Cache Cron"
+msgstr "Gravatar Кеш Cron"
+
+#: src/gui.cls.php:555 src/gui.cls.php:715 src/lang.cls.php:144
+#: tpl/toolbox/purge.tpl.php:106
+msgid "Gravatar Cache"
+msgstr "Gravatar кеш"
+
+#: src/lang.cls.php:127
+msgid "DNS Prefetch Control"
+msgstr "Керування попередньої вибірки DNS"
+
+#: src/lang.cls.php:122
+msgid "Font Display Optimization"
+msgstr "Оптимізація відображення шрифтів"
+
+#: src/lang.cls.php:101
+msgid "Force Public Cache URIs"
+msgstr "Примусове використання URI-адрес загальнодоступного кешу"
+
+#: src/lang.cls.php:70
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: src/lang.cls.php:65
+msgid "Default HTTP Status Code Page TTL"
+msgstr "Код статусу сторінки HTTP за замовчуванням TTL"
+
+#: src/lang.cls.php:64
+msgid "Default REST TTL"
+msgstr "За замовчуванням REST TTL"
+
+#: src/lang.cls.php:58
+msgid "Enable Cache"
+msgstr "Увімкнути кеш"
+
+#: src/lang.cls.php:54
+msgid "Domain Key"
+msgstr "Ключ домену"
+
+#: src/lang.cls.php:53
+msgid "Server IP"
+msgstr "IP сервера"
+
+#: src/lang.cls.php:33
+msgid "Duplicate image files ignored"
+msgstr "Файли зображень, що повторюються, ігноруються"
+
+#: src/lang.cls.php:23
+msgid "Images not requested"
+msgstr "Зображення не запитані"
+
+#: src/cloud.cls.php:1184
+msgid "Sync credit allowance with Cloud Server successfully."
+msgstr "Кредитна сума синхронизована з Cloud Server успішно."
+
+#: src/cloud.cls.php:1073
+msgid "Domain Key hash mismatch"
+msgstr "Невідповідність хешу ключа домену"
+
+#: src/cloud.cls.php:1002
+msgid "Congratulations, your Domain Key has been approved! The setting has been updated accordingly."
+msgstr "Вітаємо! Ваш ключ домену схвалено! Налаштування відповідно оновлено."
+
+#: src/cloud.cls.php:951
+msgid "Applied for Domain Key successfully. Please wait for result. Domain Key will be automatically sent to your WordPress."
+msgstr "Заявку на ключ домену успішно подано. Будь ласка, дочекайтеся результату. Ключ домену буде автоматично надіслано на ваш WordPress."
+
+#: src/cloud.cls.php:754 src/cloud.cls.php:932
+msgid "Failed to communicate with QUIC.cloud server"
+msgstr "Не вдалося встановити зв’язок із сервером QUIC.cloud"
+
+#: src/cloud.cls.php:702
+msgid "Good news from QUIC.cloud server"
+msgstr "Гарні новини від сервера QUIC.cloud"
+
+#: src/cloud.cls.php:686 src/cloud.cls.php:694 src/cloud.cls.php:943
+msgid "Message from QUIC.cloud server"
+msgstr "Повідомлення від сервера QUIC.cloud"
+
+#: src/cloud.cls.php:551
+msgid "Please try after %1$s for service %2$s."
+msgstr "Будь ласка, спробуйте після %1$s для служби %2$s."
+
+#: src/cloud.cls.php:407
+msgid "No available Cloud Node."
+msgstr "Немає доступного хмарного вузла."
+
+#: src/cloud.cls.php:359 src/cloud.cls.php:372 src/cloud.cls.php:407
+#: src/cloud.cls.php:432 src/cloud.cls.php:551 src/cloud.cls.php:907
+msgid "Cloud Error"
+msgstr "Помилка хмари"
+
+#: src/data.cls.php:219
+msgid "The database has been upgrading in the background since %s. This message will disappear once upgrade is complete."
+msgstr "База даних оновлюється у фоновому режимі з %s. Це повідомлення зникне після завершення оновлення."
+
+#: src/media.cls.php:339
+msgid "Restore from backup"
+msgstr "Відновити з резервної копії"
+
+#: src/media.cls.php:329
+msgid "WebP"
+msgstr "WebP"
+
+#: src/media.cls.php:323
+msgid "No backup of unoptimized WebP file exists."
+msgstr "Резервної копії неоптимізованого файлу WebP немає."
+
+#: src/media.cls.php:310
+msgid "WebP file reduced by %1$s (%2$s)"
+msgstr "Файл WebP зменшено на %1$s (%2$s)"
+
+#: src/media.cls.php:306
+msgid "Currently using original (unoptimized) version of WebP file."
+msgstr "На даний момент використовується оригінальна (неоптимізована) версія файлу WebP."
+
+#: src/media.cls.php:301
+msgid "Currently using optimized version of WebP file."
+msgstr "На даний момент використовується оптимізована версія файлу WebP."
+
+#: src/media.cls.php:285
+msgid "Orig"
+msgstr "Оригінал"
+
+#: src/media.cls.php:282
+msgid "(no savings)"
+msgstr "(без економії)"
+
+#: src/media.cls.php:282
+msgid "Orig %s"
+msgstr "Оригінал %s"
+
+#: src/media.cls.php:279
+msgid "Congratulation! Your file was already optimized"
+msgstr "Вітаємо! Ваш файл вже оптимізовано"
+
+#: src/media.cls.php:270
+msgid "No backup of original file exists."
+msgstr "Відсутня резервна копія оригінального файлу."
+
+#: src/media.cls.php:270 src/media.cls.php:323
+msgid "Using optimized version of file. "
+msgstr "Використання оптимізованої версії файлу. "
+
+#: src/media.cls.php:262
+msgid "Orig saved %s"
+msgstr "Оригінал збережено %s"
+
+#: src/media.cls.php:256
+msgid "Original file reduced by %1$s (%2$s)"
+msgstr "Оригінальний файл зменшено на %1$s (%2$s)"
+
+#: src/media.cls.php:252 src/media.cls.php:306
+msgid "Click to switch to optimized version."
+msgstr "Натиснути, щоб перейти до оптимізованої версії."
+
+#: src/media.cls.php:252
+msgid "Currently using original (unoptimized) version of file."
+msgstr "На даний момент використовується оригінальна (неоптимізована) версія файлу."
+
+#: src/media.cls.php:251 src/media.cls.php:305
+msgid "(non-optm)"
+msgstr "(без оптимізації)"
+
+#: src/media.cls.php:247 src/media.cls.php:301
+msgid "Click to switch to original (unoptimized) version."
+msgstr "Натиснути, щоб перейти до оригінальної (неоптимізованої) версії."
+
+#: src/media.cls.php:247
+msgid "Currently using optimized version of file."
+msgstr "На даний момент використовується оптимізована версія файлу."
+
+#: src/media.cls.php:246 src/media.cls.php:271 src/media.cls.php:300
+#: src/media.cls.php:324
+msgid "(optm)"
+msgstr "(оптимізовано)"
+
+#: src/placeholder.cls.php:138
+msgid "LQIP image preview for size %s"
+msgstr "Попередній перегляд зображення LQIP для розміру %s"
+
+#: src/placeholder.cls.php:80 tpl/dash/network_dash.tpl.php:30
+msgid "LQIP"
+msgstr "LQIP"
+
+#: src/crawler.cls.php:981
+msgid "Previously existed in blocklist"
+msgstr "Раніше знаходився у списку блокування"
+
+#: src/crawler.cls.php:978
+msgid "Manually added to blocklist"
+msgstr "Додано вручну до списку блокування"
+
+#: src/htaccess.cls.php:326
+msgid "Mobile Agent Rules"
+msgstr "Правила Mobile Agent"
+
+#: src/crawler-map.cls.php:321
+msgid "Sitemap created successfully: %d items"
+msgstr "Sitemap створена успішно: %d елементів"
+
+#: src/crawler-map.cls.php:265
+msgid "Sitemap cleaned successfully"
+msgstr "Sitemap успішно очищена"
+
+#: src/admin-display.cls.php:1097
+msgid "Invalid IP"
+msgstr "Невірний IP"
+
+#: src/admin-display.cls.php:1072
+msgid "Value range"
+msgstr "Діапазон значень"
+
+#: src/admin-display.cls.php:1069
+msgid "Smaller than"
+msgstr "Менший за"
+
+#: src/admin-display.cls.php:1066
+msgid "Larger than"
+msgstr "Більший за"
+
+#: src/admin-display.cls.php:1059
+msgid "Zero, or"
+msgstr "Нуль, або"
+
+#: src/admin-display.cls.php:1047
+msgid "Maximum value"
+msgstr "Максимальне значення"
+
+#: src/admin-display.cls.php:1044
+msgid "Minimum value"
+msgstr "Мінімальне значення"
+
+#: src/admin-display.cls.php:1026
+msgid "Path must end with %s"
+msgstr "Шлях має закінчуватися на %s"
+
+#: src/admin-display.cls.php:1009
+msgid "Invalid rewrite rule"
+msgstr "Недійсне правило перезапису"
+
+#: src/admin-display.cls.php:939
+msgid "currently set to %s"
+msgstr "на даний момент встановлено на %s"
+
+#: src/admin-display.cls.php:929
+msgid "This setting is overwritten by the PHP constant %s"
+msgstr "Це налаштування замінюється константою PHP %s"
+
+#: src/admin-display.cls.php:131
+msgid "Toolbox"
+msgstr "Панель інструментів"
+
+#: src/admin-display.cls.php:127
+msgid "Database"
+msgstr "База даних"
+
+#: src/admin-display.cls.php:125 tpl/dash/dashboard.tpl.php:56
+msgid "Page Optimization"
+msgstr "Оптимізація сторінки"
+
+#: src/admin-display.cls.php:115 tpl/dash/entry.tpl.php:6
+msgid "Dashboard"
+msgstr "Майстерня"
+
+#: src/db-optm.cls.php:243
+msgid "Converted to InnoDB successfully."
+msgstr "Успішно конвертовано в InnoDB."
+
+#: src/purge.cls.php:300
+msgid "Cleaned all Gravatar files."
+msgstr "Очищені всі файли Gravatar."
+
+#: src/purge.cls.php:283
+msgid "Cleaned all LQIP files."
+msgstr "Очищені всі файли LQIP."
+
+#: src/error.cls.php:173
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: src/error.cls.php:169
+msgid "Your domain has been forbidden from using our services due to a previous policy violation."
+msgstr "Вашому домену заборонено користуватися нашими послугами через попереднє порушення політики."
+
+#: src/error.cls.php:165
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
+msgstr "Не вдалося перевірити зворотний виклик до вашого домену. Будь ласка, переконайтеся, що брандмауер не блокує наші сервери. Код відповіді: "
+
+#: src/error.cls.php:161
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
+msgstr "Не вдалося перевірити зворотний виклик до вашого домену. Будь ласка, переконайтеся, що брандмауер не блокує наші сервери."
+
+#: src/error.cls.php:157
+msgid "The callback validation to your domain failed due to hash mismatch."
+msgstr "Помилка перевірки зворотного виклику до вашого домену через невідповідність хешів."
+
+#: src/error.cls.php:153
+msgid "Your application is waiting for approval."
+msgstr "Ваша заявка очікує на схвалення."
+
+#: src/error.cls.php:149
+msgid "Previous request too recent. Please try again after %s."
+msgstr "Попередній запит надто недавній. Будь ласка, спробуйте ще раз після %s."
+
+#: src/error.cls.php:145
+msgid "Previous request too recent. Please try again later."
+msgstr "Попередній запит надто недавній. Будь-ласка спробуйте пізніше."
+
+#: src/error.cls.php:140
+msgid "Crawler disabled by the server admin."
+msgstr "Сканер вимкнено адміністратором сервера."
+
+#: src/error.cls.php:136
+msgid "Failed to create table %s! SQL: %s."
+msgstr "Не вдалося створити таблицю %s! SQL: %s."
+
+#: src/error.cls.php:112
+msgid "Could not find %1$s in %2$s."
+msgstr "Не вдалося знайти %1$s у %2$s."
+
+#: src/error.cls.php:100
+msgid "Credits are not enough to proceed the current request."
+msgstr "Кредитів недостатньо для виконання поточного запиту."
+
+#: src/error.cls.php:88
+msgid "The domain key is not correct. Please try to sync your domain key again."
+msgstr "Ключ домену неправильний. Спробуйте ще раз синхронізувати ключ домену."
+
+#: src/error.cls.php:76
+msgid "There is proceeding queue not pulled yet."
+msgstr "Триває черга, яка ще не вилучена."
+
+#: src/error.cls.php:72
+msgid "Not enough parameters. Please check if the domain key is set correctly"
+msgstr "Не вистачає параметрів. Перевірте, чи правильно встановлено ключ домену"
+
+#: src/error.cls.php:68
+msgid "The image list is empty."
+msgstr "Список зображень порожній."
+
+#: src/error.cls.php:56
+msgid "You don't have enough quota left for current service this month."
+msgstr "У вас недостатньо квоти для обслуговування у цьому місяці."
+
+#: src/error.cls.php:47
+msgid "You will need to set %s to use the online services."
+msgstr "Вам потрібно буде налаштувати %s для використання онлайн-сервісів."
+
+#: src/error.cls.php:42
+msgid "The setting %s is currently enabled."
+msgstr "Наразі налаштування %s увімкнено."
+
+#: src/task.cls.php:139
+msgid "LiteSpeed Crawler Cron"
+msgstr "Сканер LiteSpeed Cron"
+
+#: src/task.cls.php:120
+msgid "Every Minute"
+msgstr "Кожну хвилину"
+
+#: tpl/general/settings.tpl.php:223
+msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
+msgstr "Увімкніть цей параметр, щоб автоматично відображати останні новини, включаючи виправлення, нові випуски, доступні бета-версії та акції."
+
+#: tpl/toolbox/report.tpl.php:72
+msgid "To grant wp-admin access to the LiteSpeed Support Team, please generate a passwordless link for the current logged-in user to be sent with the report."
+msgstr "Щоб надати доступ, до wp-admin, команді підтримки LiteSpeed, будь ласка, створіть посилання без пароля для поточного користувача, який увійшов у систему, щоб надіслати звіт."
+
+#: tpl/toolbox/report.tpl.php:75
+msgid "Generated links may be managed under <a %s>Settings</a>."
+msgstr "Згенерованими посиланнями можна керувати в <a %s>Налаштуваннях</a>."
+
+#: tpl/toolbox/report.tpl.php:74
+msgid "Please do NOT share the above passwordless link with anyone."
+msgstr "Будь ласка, НЕ передавайте нікому наведене вище посилання без пароля."
+
+#: tpl/toolbox/report.tpl.php:31
+msgid "To generate a passwordless link for LiteSpeed Support Team access, you must install %s."
+msgstr "Щоб згенерувати безпарольне посилання для доступу, команді підтримки LiteSpeed, необхідно встановити %s."
+
+#: tpl/banner/cloud_news.tpl.php:23 tpl/banner/cloud_news.tpl.php:30
+msgid "Install"
+msgstr "Встановити"
+
+#: tpl/cache/settings-esi.tpl.php:36
+msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
+msgstr "Ці параметри доступні лише з LiteSpeed Enterprise Web Server або QUIC.cloud CDN."
+
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
+msgid "PageSpeed Score"
+msgstr "Оцінка PageSpeed"
+
+#: tpl/banner/score.php:55 tpl/banner/score.php:94
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
+msgid "Improved by"
+msgstr "Покращено"
+
+#: tpl/banner/score.php:45 tpl/banner/score.php:84
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
+msgid "After"
+msgstr "Після"
+
+#: tpl/banner/score.php:34 tpl/banner/score.php:74
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
+msgid "Before"
+msgstr "Перед"
+
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
+msgid "Page Load Time"
+msgstr "Час завантаження сторінки"
+
+#: tpl/inc/check_cache_disabled.php:10
+msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
+msgstr "Щоб використовувати функції кешування, ви повинні мати веб-сервер LiteSpeed або використовувати QUIC.cloud CDN."
+
+#: src/lang.cls.php:173
+msgid "Preserve EXIF/XMP data"
+msgstr "Зберігайте дані EXIF/XMP"
+
+#: tpl/toolbox/beta_test.tpl.php:25
+msgid "Try GitHub Version"
+msgstr "Спробуйте GitHub версію"
+
+#: tpl/cdn/settings.tpl.php:102
+msgid "If you turn any of the above settings OFF, please remove the related file types from the %s box."
+msgstr "Якщо ви вимкнете будь-які з наведених вище параметрів, видаліть відповідні типи файлів із поля %s."
+
+#: src/doc.cls.php:89
+msgid "Both full and partial strings can be used."
+msgstr "Можна використовувати як повні, так і часткові рядки."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:50
+msgid "Images containing these class names will not be lazy loaded."
+msgstr "Зображення, що містять ці назви класів, не будуть lazy loaded."
+
+#: src/lang.cls.php:150
+msgid "Lazy Load Image Class Name Excludes"
+msgstr "Виключає Ім’я класу Зображення із Lazy Load"
+
+#: tpl/cache/settings-cache.tpl.php:125 tpl/cache/settings-cache.tpl.php:142
+msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
+msgstr "Наприклад, %1$s визначає TTL %2$s секунд для %3$s."
+
+#: tpl/cache/settings-cache.tpl.php:124 tpl/cache/settings-cache.tpl.php:141
+msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
+msgstr "Щоб встановити власний TTL для URI-адреси, додайте значення TTL через пробіл в кінці URI-адреси."
+
+#: tpl/banner/new_version.php:87
+msgid "Maybe Later"
+msgstr "Можливо пізніше"
+
+#: tpl/banner/new_version.php:81
+msgid "Turn On Auto Upgrade"
+msgstr "Увімкнути автоматичне оновлення"
+
+#: tpl/banner/new_version.php:71 tpl/banner/new_version_dev.tpl.php:24
+#: tpl/toolbox/beta_test.tpl.php:62
+msgid "Upgrade"
+msgstr "Оновити"
+
+#: tpl/banner/new_version.php:63
+msgid "New release %s is available now."
+msgstr "Нова версія %s вже доступна."
+
+#: tpl/banner/new_version.php:59
+msgid "New Version Available!"
+msgstr "Доступна нова версія!"
+
+#: tpl/banner/score.php:124
+msgid "<a %s>Support forum</a> | <a %s>Submit a ticket</a>"
+msgstr "<a %s>Форум підтримки</a> | <a %s>Відправити запит</a>"
+
+#: tpl/banner/score.php:122
+msgid "Created with ❤️  by LiteSpeed team."
+msgstr "Створено з ❤️ командою LiteSpeed."
+
+#: tpl/banner/score.php:113
+msgid "Sure I'd love to review!"
+msgstr "Звичайно, я хотів би переглянути!"
+
+#: tpl/banner/score.php:24
+msgid "Thank You for Using the LiteSpeed Cache Plugin!"
+msgstr "Дякуємо за використання плагіна LiteSpeed Cache!"
+
+#: src/activation.cls.php:504
+msgid "Upgraded successfully."
+msgstr "Оновлено успішно."
+
+#: src/activation.cls.php:495 src/activation.cls.php:500
+msgid "Failed to upgrade."
+msgstr "Не вдалося оновити."
+
+#: src/conf.cls.php:704
+msgid "Changed setting successfully."
+msgstr "Налаштування успішно змінено."
+
+#: tpl/cache/settings-esi.tpl.php:27
+msgid "ESI sample for developers"
+msgstr "Зразок ESI для розробників"
+
+#: tpl/cache/settings-esi.tpl.php:20
+msgid "Replace %1$s with %2$s."
+msgstr "Замінити %1$s на %2$s."
+
+#: tpl/cache/settings-esi.tpl.php:18
+msgid "You can turn shortcodes into ESI blocks."
+msgstr "Ви можете перетворити короткі коди в блоки ESI."
+
+#: tpl/cache/settings-esi.tpl.php:14
+msgid "WpW: Private Cache vs. Public Cache"
+msgstr "WpW: приватний кеш VS загальнодоступний кеш"
+
+#: tpl/page_optm/settings_html.tpl.php:86
+msgid "Append query string %s to the resources to bypass this action."
+msgstr "Щоб обійти цю дію, додайте рядок запиту %s до ресурсів."
+
+#: tpl/page_optm/settings_html.tpl.php:82
+msgid "Google reCAPTCHA will be bypassed automatically."
+msgstr "Google reCAPTCHA буде обійдено автоматично."
+
+#: tpl/crawler/settings-simulation.tpl.php:49
+msgid "To crawl for a particular cookie, enter the cookie name, and the values you wish to crawl for. Values should be one per line. There will be one crawler created per cookie value, per simulated role."
+msgstr "Щоб сканувати певний файл cookie, введіть ім’я файлу cookie та значення, які ви хочете сканувати. Значення мають бути по одному на рядок. Буде створено по одному сканеру для кожного значення cookie, для кожної симуляції ролі."
+
+#: src/admin-display.cls.php:206 tpl/crawler/settings-simulation.tpl.php:51
+msgid "Cookie Values"
+msgstr "Значення файлів cookie"
+
+#: src/admin-display.cls.php:205
+msgid "Cookie Name"
+msgstr "Назва cookie"
+
+#: src/lang.cls.php:219
+msgid "Cookie Simulation"
+msgstr "Симуляція файлів cookie"
+
+#: tpl/page_optm/settings_html.tpl.php:100
+msgid "Use Web Font Loader library to load Google Fonts asynchronously while leaving other CSS intact."
+msgstr "Використовуйте бібліотеку Web Font Loader, щоб асинхронно завантажувати шрифти Google, залишаючи інші CSS недоторканими."
+
+#: tpl/general/settings_inc.auto_upgrade.tpl.php:15
+msgid "Turn this option ON to have LiteSpeed Cache updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgstr "Увімкніть цей параметр, щоб LiteSpeed Cache автоматично оновлювався щоразу, коли виходить нова версія. Якщо ВИМКНЕНО, оновіть вручну, як зазвичай."
+
+#: src/lang.cls.php:67
+msgid "Automatically Upgrade"
+msgstr "Автоматично оновлювати"
+
+#: tpl/toolbox/settings-debug.tpl.php:53
+msgid "Your IP"
+msgstr "Ваш IP"
+
+#: src/import.cls.php:156
+msgid "Reset successfully."
+msgstr "Скидання успішно виконано."
+
+#: tpl/toolbox/import_export.tpl.php:50
+msgid "This will reset all settings to default settings."
+msgstr "Це скине всі налаштування до налаштувань за замовчуванням."
+
+#: tpl/toolbox/import_export.tpl.php:49
+msgid "Reset All Settings"
+msgstr "Скинути ВСІ налаштування"
+
+#: tpl/page_optm/settings_tuning.tpl.php:134
+msgid "Separate critical CSS files will be generated for paths containing these strings."
+msgstr "Для шляхів, що містять ці рядки, будуть створені окремі файли critical CSS."
+
+#: src/lang.cls.php:135
+msgid "Separate CCSS Cache URIs"
+msgstr "Окремі URI-адреси кешу CCSS"
+
+#: tpl/page_optm/settings_tuning.tpl.php:120
+msgid "For example, if every Page on the site has different formatting, enter %s in the box. Separate critical CSS files will be stored for every Page on the site."
+msgstr "Наприклад, якщо кожна сторінка сайту має різне форматування, введіть %s у полі. Окремі critical CSS файли зберігатимуться для кожної сторінки сайту."
+
+#: tpl/page_optm/settings_tuning.tpl.php:119
+msgid "List post types where each item of that type should have its own CCSS generated."
+msgstr "Перелік типів записів, у яких для кожного елемента цього типу має бути створений власний CCSS."
+
+#: src/lang.cls.php:134
+msgid "Separate CCSS Cache Post Types"
+msgstr "Розділити кеш CCSS за типом записів"
+
+#: tpl/page_optm/settings_media.tpl.php:182
+msgid "Size list in queue waiting for cron"
+msgstr "Список розмірів у черзі, що очікує на cron"
+
+#: tpl/page_optm/settings_media.tpl.php:158
+msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
+msgstr "Якщо встановлено значення %1$s, перед локалізованим заповнювачем буде використана конфігурація %2$s."
+
+#: tpl/page_optm/settings_media.tpl.php:156
+msgid "Automatically generate LQIP in the background via a cron-based queue."
+msgstr "Автоматично генерувати LQIP у фоновому режимі за допомогою черги на основі cron."
+
+#: tpl/page_optm/settings_media.tpl.php:62
+msgid "This will generate the placeholder with same dimensions as the image if it has the width and height attributes."
+msgstr "Це створить заповнювач із такими ж розмірами, що й зображення, якщо воно має атрибути ширини та висоти."
+
+#: tpl/page_optm/settings_media.tpl.php:61
+msgid "Responsive image placeholders can help to reduce layout reshuffle when images are loaded."
+msgstr "Адаптивні заповнювачі зображень можуть допомогти зменшити перемішування макету під час завантаження зображень."
+
+#: src/lang.cls.php:157
+msgid "Responsive Placeholder"
+msgstr "Адаптивний заповнювач"
+
+#: tpl/toolbox/purge.tpl.php:98
+msgid "This will delete all generated image LQIP placeholder files"
+msgstr "Це призведе до видалення всіх згенерованих LQIP файлів-заповнювачів зображень"
+
+#: tpl/inc/check_cache_disabled.php:22
+msgid "Please enable LiteSpeed Cache in the plugin settings."
+msgstr "Будь ласка, увімкніть LiteSpeed Cache в налаштуваннях плагіна."
+
+#: tpl/inc/check_cache_disabled.php:15
+msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
+msgstr "Будь ласка, увімкніть модуль LSCache на рівні сервера або зверніться до свого хостинг-провайдера."
+
+#: src/cloud.cls.php:634 src/cloud.cls.php:650
+msgid "Failed to request via WordPress"
+msgstr "Не вдалося надіслати запит через WordPress"
+
+#. Description of the plugin
+msgid "High-performance page caching and site optimization from LiteSpeed"
+msgstr "Високопродуктивне кешування сторінок та оптимізація сайту від LiteSpeed"
+
+#: src/img-optm.cls.php:1776
+msgid "Reset the optimized data successfully."
+msgstr "Скидання оптимізованих даних виконано успішно."
+
+#: src/gui.cls.php:781
+msgid "Update %s now"
+msgstr "Оновити %s зараз"
+
+#: src/gui.cls.php:776
+msgid "View %1$s version %2$s details"
+msgstr "Переглянути %1$s деталі версії %2$s"
+
+#: src/gui.cls.php:773
+msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
+msgstr "<a href=\"%1$s\" %2$s>Переглянути деталі версії %3$s</a> або <a href=\"%4$s\" %5$s target=\"_blank\">оновити зараз</a>."
+
+#: src/gui.cls.php:753
+msgid "Install %s"
+msgstr "Встановити %s"
+
+#: src/lang.cls.php:30
+msgid "Images previously optimized"
+msgstr "Раніше оптимізовані зображення"
+
+#: tpl/inc/check_cache_disabled.php:34
+msgid "LSCache caching functions on this page are currently unavailable!"
+msgstr "Функції кешування LSCache на цій сторінці в даний момент недоступні!"
+
+#: src/cloud.cls.php:711
+msgid "%1$s plugin version %2$s required for this action."
+msgstr "Для цієї дії необхідний плагін %1$s версії %2$s."
+
+#: src/cloud.cls.php:673
+msgid "We are working hard to improve your online service experience. The service will be unavailable while we work. We apologize for any inconvenience."
+msgstr "Ми наполегливо працюємо, щоб покращити ваш онлайн-сервіс. Поки ми працюємо, послуга буде недоступна. Просимо вибачення за незручності."
+
+#: tpl/img_optm/settings.tpl.php:62
+msgid "Automatically remove the original image backups after fetching optimized images."
+msgstr "Автоматично видаляти оригінальні резервні копії зображень після отримання оптимізованих зображень."
+
+#: src/lang.cls.php:170
+msgid "Remove Original Backups"
+msgstr "Видалити оригінальні резервні копій"
+
+#: tpl/img_optm/settings.tpl.php:23
+msgid "Automatically request optimization via cron job."
+msgstr "Автоматичний запит на оптимізацію за допомогою завдання cron."
+
+#: tpl/img_optm/summary.tpl.php:186
+msgid "A backup of each image is saved before it is optimized."
+msgstr "Резервна копія кожного зображення зберігається перед його оптимізацією."
+
+#: src/img-optm.cls.php:1656
+msgid "Switched images successfully."
+msgstr "Зображення переключено успішно."
+
+#: tpl/img_optm/settings.tpl.php:82
+msgid "This can improve quality but may result in larger images than lossy compression will."
+msgstr "Це може покращити якість, але може призвести до отримання більших розмірів зображень, ніж при стисненні з втратами."
+
+#: tpl/img_optm/settings.tpl.php:81
+msgid "Optimize images using lossless compression."
+msgstr "Оптимізуйте зображення за допомогою стиснення без втрат."
+
+#: src/lang.cls.php:172
+msgid "Optimize Losslessly"
+msgstr "Оптимізуйте без втрат"
+
+#: tpl/img_optm/settings.tpl.php:109
+msgid "Request WebP versions of original images when doing optimization."
+msgstr "Запитуйте версії оригінальних зображень WebP під час оптимізації."
+
+#: tpl/img_optm/settings.tpl.php:49
+msgid "Optimize images and save backups of the originals in the same folder."
+msgstr "Оптимізуйте зображення та зберігайте резервні копії оригіналів у тій самій папці."
+
+#: src/lang.cls.php:169
+msgid "Optimize Original Images"
+msgstr "Оптимізація оригінальних зображень"
+
+#: tpl/page_optm/settings_css.tpl.php:174
+msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
+msgstr "Коли цей параметр увімкнено %s, він також завантажуватиме шрифти Google асинхронно."
+
+#: src/purge.cls.php:230
+msgid "Cleaned all Critical CSS files."
+msgstr "Очищені всі Critical CSS файли."
+
+#: tpl/page_optm/settings_css.tpl.php:256
+msgid "This will inline the asynchronous CSS library to avoid render blocking."
+msgstr "Це вбудує асинхронну бібліотеку CSS, щоб уникнути блокування візуалізації."
+
+#: src/lang.cls.php:121
+msgid "Inline CSS Async Lib"
+msgstr "Вбудована асинхронна бібліотека CSS"
+
+#: tpl/page_optm/settings_localization.tpl.php:62
+#: tpl/page_optm/settings_media.tpl.php:198
+msgid "Run Queue Manually"
+msgstr "Запустити чергу вручну"
+
+#: tpl/page_optm/settings_css.tpl.php:97 tpl/page_optm/settings_css.tpl.php:207
+msgid "URL list in %s queue waiting for cron"
+msgstr "Список URL-адрес у %s черзі, який очікує на cron"
+
+#: tpl/page_optm/settings_css.tpl.php:85 tpl/page_optm/settings_css.tpl.php:195
+msgid "Last requested cost"
+msgstr "Остання запитана вартість"
+
+#: tpl/dash/dashboard.tpl.php:437 tpl/dash/dashboard.tpl.php:470
+#: tpl/dash/dashboard.tpl.php:503 tpl/page_optm/settings_css.tpl.php:82
+#: tpl/page_optm/settings_css.tpl.php:192
+#: tpl/page_optm/settings_media.tpl.php:170
+msgid "Last generated"
+msgstr "Востаннє згенеровано"
+
+#: tpl/page_optm/settings_media.tpl.php:162
+msgid "If set to %s this is done in the foreground, which may slow down page load."
+msgstr "Якщо встановлено значення %s, це виконується на передньому плані, що може уповільнити завантаження сторінки."
+
+#: tpl/page_optm/settings_css.tpl.php:173
+msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
+msgstr "Автоматичне створення critical CSS відбувається у фоновому режимі через чергу на основі cron."
+
+#: tpl/page_optm/settings_css.tpl.php:169
+msgid "Optimize CSS delivery."
+msgstr "Оптимізуйте доставку CSS."
+
+#: tpl/toolbox/purge.tpl.php:71
+msgid "This will delete all generated critical CSS files"
+msgstr "Це призведе до видалення всіх створених critical CSS файлів"
+
+#: tpl/dash/dashboard.tpl.php:431 tpl/toolbox/purge.tpl.php:70
+msgid "Critical CSS"
+msgstr "Critical CSS"
+
+#: src/doc.cls.php:36
+msgid "This site utilizes caching in order to facilitate a faster response time and better user experience. Caching potentially stores a duplicate copy of every web page that is on display on this site. All cache files are temporary, and are never accessed by any third party, except as necessary to obtain technical support from the cache plugin vendor. Cache files expire on a schedule set by the site administrator, but may easily be purged by the admin before their natural expiration, if necessary. We may use QUIC.cloud services to process & cache your data temporarily."
+msgstr "На цьому сайті використовується кешування, щоб пришвидшити час відповіді та покращити враження користувача. Кешування зберігає копію кожної веб-сторінки, яка відображається на цьому сайті. Усі файли кешу є тимчасовими і треті сторони ніколи не мають доступу до них, за винятком випадків, коли це необхідно для отримання технічної підтримки від постачальника плагіна кешу. Термін дії файлів кешу закінчується за розкладом, встановленим адміністратором сайту, але, якщо необхідно, адміністратор може легко очистити їх у будь який час. Ми можемо використовувати служби QUIC.cloud для тимчасової обробки та кешування ваших даних."
+
+#: tpl/toolbox/heartbeat.tpl.php:18
+msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
+msgstr "Вимкнення цього може призвести до припинення роботи завдань WordPress, ініційованих AJAX."
+
+#: src/utility.cls.php:236
+msgid "right now"
+msgstr "прямо зараз"
+
+#: src/utility.cls.php:236
+msgid "just now"
+msgstr "тільки зараз"
+
+#: tpl/img_optm/summary.tpl.php:251
+msgid "Saved"
+msgstr "Збережено"
+
+#: tpl/img_optm/summary.tpl.php:245
+#: tpl/page_optm/settings_localization.tpl.php:51
+msgid "Last ran"
+msgstr "Останній запуск"
+
+#: tpl/img_optm/settings.tpl.php:67 tpl/img_optm/summary.tpl.php:237
+msgid "You will be unable to Revert Optimization once the backups are deleted!"
+msgstr "Після видалення резервних копій ви не зможете повернути оптимізацію!"
+
+#: tpl/img_optm/settings.tpl.php:66 tpl/img_optm/summary.tpl.php:236
+msgid "This is irreversible."
+msgstr "Це є незворотнім."
+
+#: tpl/img_optm/summary.tpl.php:256
+msgid "Remove Original Image Backups"
+msgstr "Видалити оригінальні резервні копії зображень"
+
+#: tpl/img_optm/summary.tpl.php:255
+msgid "Are you sure you want to remove all image backups?"
+msgstr "Ви впевнені, що хочете видалити всі резервні копії зображень?"
+
+#: tpl/crawler/blacklist.tpl.php:25 tpl/img_optm/summary.tpl.php:200
+msgid "Total"
+msgstr "Разом"
+
+#: tpl/img_optm/summary.tpl.php:197 tpl/img_optm/summary.tpl.php:248
+msgid "Files"
+msgstr "Файли"
+
+#: tpl/img_optm/summary.tpl.php:193
+msgid "Last calculated"
+msgstr "Востаннє розраховано"
+
+#: tpl/img_optm/summary.tpl.php:208
+msgid "Calculate Original Image Storage"
+msgstr "Розрахувати місце сховища оригінальних зображень"
+
+#: tpl/img_optm/summary.tpl.php:182
+msgid "Storage Optimization"
+msgstr "Оптимізація сховища"
+
+#: tpl/img_optm/settings.tpl.php:155
+msgid "Enable replacement of WebP in %s elements that were generated outside of WordPress logic."
+msgstr "Увімкнути заміну WebP в елементах %s, які були згенеровані поза логікою WordPress."
+
+#: src/lang.cls.php:175
+msgid "WebP For Extra srcset"
+msgstr "WebP для додаткового srcset"
+
+#: tpl/cdn/settings.tpl.php:128 tpl/img_optm/settings.tpl.php:141
+msgid "Use the format %1$s or %2$s (element is optional)."
+msgstr "Використовуйте формат %1$s або %2$s (елемент не є обов’язковим)."
+
+#: tpl/cdn/settings.tpl.php:127 tpl/img_optm/settings.tpl.php:140
+msgid "Only attributes listed here will be replaced."
+msgstr "Будуть замінені лише перераховані тут атрибути."
+
+#: tpl/img_optm/settings.tpl.php:139
+msgid "Specify which element attributes will be replaced with WebP."
+msgstr "Вкажіть, які атрибути елемента будуть замінені на WebP."
+
+#: src/lang.cls.php:174
+msgid "WebP Attribute To Replace"
+msgstr "Атрибут WebP для заміни"
+
+#: tpl/cdn/settings.tpl.php:165
+msgid "Only files within these directories will be pointed to the CDN."
+msgstr "Лише файли в цих директоріях будуть спрямовані до CDN."
+
+#: src/lang.cls.php:206
+msgid "Included Directories"
+msgstr "Включені директорії"
+
+#: tpl/cache/settings-purge.tpl.php:153
+msgid "A Purge All will be executed when WordPress runs these hooks."
+msgstr "Коли WordPress запустить ці хуки, буде виконано - Очистити Все."
+
+#: src/lang.cls.php:182
+msgid "Purge All Hooks"
+msgstr "Очистити Всі Хуки"
+
+#: src/purge.cls.php:192
+msgid "Purged all caches successfully."
+msgstr "Успішно очищено весь кеш."
+
+#: src/gui.cls.php:479 src/gui.cls.php:579 src/gui.cls.php:629
+msgid "LSCache"
+msgstr "LSCache"
+
+#: src/gui.cls.php:423
+msgid "Forced cacheable"
+msgstr "Примусове кешування"
+
+#: tpl/cache/settings-cache.tpl.php:122
+msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
+msgstr "Шляхи, що містять ці рядки, будуть кешуватися незалежно від налаштувань кешування."
+
+#: src/lang.cls.php:100
+msgid "Force Cache URIs"
+msgstr "Примусове кешування URI-адрес"
+
+#: tpl/cache/network_settings-excludes.tpl.php:7
+#: tpl/cache/settings-excludes.tpl.php:7
+msgid "Exclude Settings"
+msgstr "Виключені налаштування"
+
+#: tpl/toolbox/settings-debug.tpl.php:23
+msgid "This will disable LSCache and all optimization features for debug purpose."
+msgstr "Це призведе до вимкнення LSCache та всіх функцій оптимізації для налагодження."
+
+#: src/lang.cls.php:224 tpl/inc/disabled_all.php:5
+msgid "Disable All Features"
+msgstr "Вимкнути всі функції"
+
+#: src/gui.cls.php:506 src/gui.cls.php:666 tpl/toolbox/purge.tpl.php:61
+msgid "Opcode Cache"
+msgstr "Кеш Opcode"
+
+#: src/gui.cls.php:487 src/gui.cls.php:637 tpl/toolbox/purge.tpl.php:43
+msgid "CSS/JS Cache"
+msgstr "Кеш CSS/JS"
+
+#: src/gui.cls.php:734 tpl/img_optm/summary.tpl.php:175
+msgid "Remove all previous unfinished image optimization requests."
+msgstr "Видалити усі попередні незавершені запити на оптимізацію зображення."
+
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:177
+msgid "Clean Up Unfinished Data"
+msgstr "Очистити незавершені дані"
+
+#: src/lang.cls.php:31
+msgid "Images failed with other errors"
+msgstr "Збій зображень з іншими помилками"
+
+#: src/lang.cls.php:34
+msgid "Images with wrong meta"
+msgstr "Зображення з неправильною мета"
+
+#: tpl/banner/slack.php:23
+msgid "Join Us on Slack"
+msgstr "Приєднуйтесь до нас на Slack"
+
+#: tpl/banner/slack.php:14
+msgid "Join the %s community."
+msgstr "Приєднуйтесь до спільноти %s."
+
+#: tpl/banner/slack.php:13
+msgid "Want to connect with other LiteSpeed users?"
+msgstr "Хочете зв’язатися з іншими користувачами LiteSpeed?"
+
+#: tpl/cdn/settings.tpl.php:203
+msgid "Get it from <a %1$s>%2$s</a>."
+msgstr "Отримати його від <a %1$s>%2$s</a>."
+
+#: tpl/cdn/settings.tpl.php:202
+msgid "Your API key / token is used to access %s APIs."
+msgstr "Ваш ключ API/токен використовується для доступу до %s APIs."
+
+#: tpl/cdn/settings.tpl.php:213
+msgid "Your Email address on %s."
+msgstr "Ваша електронна адреса на %s."
+
+#: tpl/cdn/settings.tpl.php:193
+msgid "Use %s API functionality."
+msgstr "Використовуйте %s функціональні можливості API."
+
+#: tpl/cdn/settings.tpl.php:79
+msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
+msgstr "Щоб рандомізувати ім’я хоста CDN, визначте декілька імен хостів для одних і тих самих ресурсів."
+
+#: tpl/inc/admin_footer.php:15
+msgid "Join LiteSpeed Slack community"
+msgstr "Приєднуйтесь до спільноти LiteSpeed Slack"
+
+#: tpl/inc/admin_footer.php:13
+msgid "Visit LSCWP support forum"
+msgstr "Відвідайте форум підтримки LSCWP"
+
+#: tpl/inc/admin_footer.php:8
+msgid "Rate %s on %s"
+msgstr "Оцінити %s на %s"
+
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
+msgid "Images notified to pull"
+msgstr "Зображення повідомлені про вилучення"
+
+#: src/lang.cls.php:32
+msgid "Image files missing"
+msgstr "Відсутні файли зображень"
+
+#: tpl/img_optm/summary.tpl.php:280 tpl/img_optm/summary.tpl.php:307
+msgid "What is a group?"
+msgstr "Що таке група?"
+
+#: src/admin-display.cls.php:1165
+msgid "%s image"
+msgstr "%s зображення"
+
+#: src/admin-display.cls.php:1162
+msgid "%s group"
+msgstr "%s група"
+
+#: src/admin-display.cls.php:1152
+msgid "%s images"
+msgstr "%s зображень"
+
+#: src/admin-display.cls.php:1149
+msgid "%s groups"
+msgstr "%s групи"
+
+#: src/crawler.cls.php:826
+msgid "Guest"
+msgstr "Гість"
+
+#: tpl/crawler/settings-simulation.tpl.php:23
+msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
+msgstr "Щоб сканувати сайт як користувач, який увійшов у систему, введіть ID користувачів, які будуть симулюватись."
+
+#: src/lang.cls.php:218
+msgid "Role Simulation"
+msgstr "Симуляція ролі"
+
+#: tpl/crawler/summary.tpl.php:170
+msgid "running"
+msgstr "Виконується"
+
+#: tpl/db_optm/manage.tpl.php:167
+msgid "Size"
+msgstr "Розмір"
+
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:556
+msgid "Ended reason"
+msgstr "Кінцева причина"
+
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:549
+msgid "Last interval"
+msgstr "Останній інтервал"
+
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:542
+msgid "Current crawler started at"
+msgstr "Поточний сканер запущено о"
+
+#: tpl/crawler/summary.tpl.php:78
+msgid "Run time for previous crawler"
+msgstr "Час виконання попереднього сканера"
+
+#: tpl/crawler/summary.tpl.php:72 tpl/crawler/summary.tpl.php:79
+msgid "%d seconds"
+msgstr "%d секунд"
+
+#: tpl/crawler/summary.tpl.php:71
+msgid "Last complete run time for all crawlers"
+msgstr "Час повного виконання всіх сканерів"
+
+#: tpl/crawler/summary.tpl.php:57
+msgid "Current sitemap crawl started at"
+msgstr "Поточне сканування sitemap розпочато з"
+
+#: tpl/cache/settings_inc.object.tpl.php:210
+msgid "Save transients in database when %1$s is %2$s."
+msgstr "Зберігати перехідні процеси в базі даних, коли %1$s дорівнює %2$s."
+
+#: src/lang.cls.php:94
+msgid "Store Transients"
+msgstr "Зберігати перехідні процеси"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "If %1$s is %2$s, then %3$s must be populated!"
+msgstr "Якщо %1$s це %2$s, то %3$s потрібно заповнити!"
+
+#: tpl/crawler/settings-general.tpl.php:146
+msgid "Server allowed max value"
+msgstr "Максимальне дозволене значення сервера"
+
+#: tpl/crawler/settings-general.tpl.php:141
+msgid "Server enforced value"
+msgstr "Примусове значення сервера"
+
+#: tpl/crawler/settings-general.tpl.php:40
+msgid "Server allowed min value"
+msgstr "Мінімальне дозволене значення сервера"
+
+#: tpl/cache/more_settings_tip.tpl.php:12
+#: tpl/cache/settings-excludes.tpl.php:61
+#: tpl/cache/settings-excludes.tpl.php:94 tpl/cdn/settings.tpl.php:78
+#: tpl/crawler/settings-general.tpl.php:39
+#: tpl/crawler/settings-general.tpl.php:140
+#: tpl/crawler/settings-general.tpl.php:145
+msgid "NOTE"
+msgstr "ПРИМІТКА"
+
+#: src/admin-display.cls.php:1118
+msgid "Server variable(s) %s available to override this setting."
+msgstr "Змінна(і) сервера %s доступна(і) для заміни цього налаштування."
+
+#: src/admin-display.cls.php:1117 tpl/cache/settings-esi.tpl.php:95
+#: tpl/page_optm/settings_css.tpl.php:176
+#: tpl/page_optm/settings_html.tpl.php:85
+#: tpl/page_optm/settings_media_exc.tpl.php:26
+#: tpl/page_optm/settings_tuning.tpl.php:35
+#: tpl/page_optm/settings_tuning.tpl.php:56
+#: tpl/page_optm/settings_tuning.tpl.php:101
+#: tpl/page_optm/settings_tuning.tpl.php:165
+#: tpl/page_optm/settings_tuning.tpl.php:186
+#: tpl/toolbox/edit_htaccess.tpl.php:54 tpl/toolbox/edit_htaccess.tpl.php:71
+msgid "API"
+msgstr "API"
+
+#: src/purge.cls.php:379
+msgid "Reset the entire opcode cache successfully."
+msgstr "Скинуто весь кеш opcode успішно."
+
+#: src/purge.cls.php:367
+msgid "Opcode cache is not enabled."
+msgstr "Кеш Opcode не ввімкнено."
+
+#: src/import.cls.php:132
+msgid "Imported setting file %s successfully."
+msgstr "Файл налаштувань %s імпортовано успішно."
+
+#: src/import.cls.php:75
+msgid "Import failed due to file error."
+msgstr "Не вдалося імпортувати через помилку файлу."
+
+#: tpl/page_optm/settings_css.tpl.php:44 tpl/page_optm/settings_js.tpl.php:35
+msgid "How to Fix Problems Caused by CSS/JS Optimization."
+msgstr "Як усунути проблеми, спричинені оптимізацією CSS/JS."
+
+#: tpl/cache/settings-advanced.tpl.php:50
+msgid "This will generate extra requests to the server, which will increase server load."
+msgstr "Це генеруватиме додаткові запити до сервера, що збільшить навантаження на сервер."
+
+#: tpl/cache/settings-advanced.tpl.php:46
+msgid "When a visitor hovers over a page link, preload that page. This will speed up the visit to that link."
+msgstr "Коли відвідувач наводить курсор на посилання сторінки, сторінка попередньо завантажується. Це пришвидшить перехід за цим посиланням."
+
+#: src/lang.cls.php:184
+msgid "Instant Click"
+msgstr "Миттєве натискання"
+
+#: tpl/toolbox/purge.tpl.php:62
+msgid "Reset the entire opcode cache"
+msgstr "Скиньте весь кеш opcode"
+
+#: tpl/toolbox/import_export.tpl.php:46
+msgid "This will import settings from a file and override all current LiteSpeed Cache settings."
+msgstr "Це імпортує налаштування з файлу та замінить УСІ ПОТОЧНІ налаштування LiteSpeed cache."
+
+#: tpl/toolbox/import_export.tpl.php:41
+msgid "Last imported"
+msgstr "Востаннє імпортовано"
+
+#: tpl/toolbox/import_export.tpl.php:35
+msgid "Import"
+msgstr "Імпорт"
+
+#: tpl/toolbox/import_export.tpl.php:27
+msgid "Import Settings"
+msgstr "Імпорт налаштувань"
+
+#: tpl/toolbox/import_export.tpl.php:24
+msgid "This will export all current LiteSpeed Cache settings and save them as a file."
+msgstr "Це експортує всі поточні налаштування LiteSpeed Cache і збереже їх як файл."
+
+#: tpl/toolbox/import_export.tpl.php:19
+msgid "Last exported"
+msgstr "Востаннє експортовано"
+
+#: tpl/toolbox/import_export.tpl.php:14
+msgid "Export"
+msgstr "Експорт"
+
+#: tpl/toolbox/import_export.tpl.php:9
+msgid "Export Settings"
+msgstr "Експорт Налаштувань"
+
+#: tpl/toolbox/entry.tpl.php:10
+msgid "Import / Export"
+msgstr "Імпорт / Експорт"
+
+#: tpl/cache/settings_inc.object.tpl.php:184
+msgid "Use keep-alive connections to speed up cache operations."
+msgstr "Використовуйте з’єднання з підтримкою активності (keep-alive), щоб прискорити операції з кешуванням."
+
+#: tpl/cache/settings_inc.object.tpl.php:144
+msgid "Database to be used"
+msgstr "База даних, яка буде використана"
+
+#: src/lang.cls.php:89
+msgid "Redis Database ID"
+msgstr "ID бази даних Redis"
+
+#: tpl/cache/settings_inc.object.tpl.php:131
+msgid "Specify the password used when connecting."
+msgstr "Вкажіть пароль, який використовується при підключенні."
+
+#: src/lang.cls.php:88
+msgid "Password"
+msgstr "Пароль"
+
+#: tpl/cache/settings_inc.object.tpl.php:118
+msgid "Only available when %s is installed."
+msgstr "Доступно лише тоді, коли встановлено %s."
+
+#: src/lang.cls.php:87
+msgid "Username"
+msgstr "Ім’я користувача"
+
+#: tpl/cache/settings_inc.object.tpl.php:78
+msgid "Your %s Hostname or IP address."
+msgstr "Ваше %s ім’я хосту або IP-адреса."
+
+#: src/lang.cls.php:83
+msgid "Method"
+msgstr "Спосіб"
+
+#: src/purge.cls.php:420
+msgid "Purge all object caches successfully."
+msgstr "Успішно очищено всі кеші object."
+
+#: src/purge.cls.php:407
+msgid "Object cache is not enabled."
+msgstr "Кеш object не ввімкнено."
+
+#: tpl/cache/settings_inc.object.tpl.php:197
+msgid "Improve wp-admin speed through caching. (May encounter expired data)"
+msgstr "Збільште швидкість wp-admin за допомогою кешування. (Можливо зустрічатимуться старі дані)"
+
+#: src/lang.cls.php:93
+msgid "Cache WP-Admin"
+msgstr "Кешування WP-Admin"
+
+#: src/lang.cls.php:92
+msgid "Persistent Connection"
+msgstr "Стійке підключення"
+
+#: src/lang.cls.php:91
+msgid "Do Not Cache Groups"
+msgstr "Не кешувати групи"
+
+#: tpl/cache/settings_inc.object.tpl.php:157
+msgid "Groups cached at the network level."
+msgstr "Групи, кешовані на мережевому рівні."
+
+#: src/lang.cls.php:90
+msgid "Global Groups"
+msgstr "Глобальні Групи"
+
+#: tpl/cache/settings_inc.object.tpl.php:52
+msgid "Connection Test"
+msgstr "Тест з'єднання"
+
+#: tpl/cache/settings_inc.object.tpl.php:50
+#: tpl/cache/settings_inc.object.tpl.php:51
+msgid "%s Extension"
+msgstr "%s розширення"
+
+#: tpl/cache/settings_inc.object.tpl.php:47 tpl/crawler/blacklist.tpl.php:32
+#: tpl/crawler/summary.tpl.php:124
+msgid "Status"
+msgstr "Статус"
+
+#: tpl/cache/settings_inc.object.tpl.php:105
+msgid "Default TTL for cached objects."
+msgstr "TTL за замовчуванням для кешованих об’єктів."
+
+#: src/lang.cls.php:86
+msgid "Default Object Lifetime"
+msgstr "Час життя Object за замовчуванням"
+
+#: src/lang.cls.php:85
+msgid "Port"
+msgstr "Порт"
+
+#: src/lang.cls.php:84
+msgid "Host"
+msgstr "Хост"
+
+#: src/gui.cls.php:496 src/gui.cls.php:656 src/lang.cls.php:82
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
+msgid "Object Cache"
+msgstr "Кеш Object"
+
+#: tpl/cache/settings_inc.object.tpl.php:20
+msgid "Failed"
+msgstr "Невдало"
+
+#: tpl/cache/settings_inc.object.tpl.php:17
+msgid "Passed"
+msgstr "Успішно"
+
+#: tpl/cache/settings_inc.object.tpl.php:14
+msgid "Not Available"
+msgstr "Недоступно"
+
+#: tpl/toolbox/purge.tpl.php:53
+msgid "Purge all the object caches"
+msgstr "Очистити всі кеші object"
+
+#: src/cdn/cloudflare.cls.php:250 src/cdn/cloudflare.cls.php:272
+msgid "Failed to communicate with Cloudflare"
+msgstr "Не вдалося зв’язатися з Cloudflare"
+
+#: src/cdn/cloudflare.cls.php:263
+msgid "Communicated with Cloudflare successfully."
+msgstr "Cloudflare успішно під’єднано."
+
+#: src/cdn/cloudflare.cls.php:159
+msgid "No available Cloudflare zone"
+msgstr "Немає доступної зони Cloudflare"
+
+#: src/cdn/cloudflare.cls.php:145
+msgid "Notified Cloudflare to purge all successfully."
+msgstr "Cloudflare успішно повідомлено про те, щоб очистити все."
+
+#: src/cdn/cloudflare.cls.php:129
+msgid "Cloudflare API is set to off."
+msgstr "Cloudflare API вимкнено."
+
+#: src/cdn/cloudflare.cls.php:112
+msgid "Notified Cloudflare to set development mode to %s successfully."
+msgstr "Cloudflare успішно повідомлено про режим розробки %s."
+
+#: tpl/cdn/settings.tpl.php:228
+msgid "Once saved, it will be matched with the current list and completed automatically."
+msgstr "Після збереження його буде узгоджено з поточним списком і заповнено автоматично."
+
+#: tpl/cdn/settings.tpl.php:227
+msgid "You can just type part of the domain."
+msgstr "Ви можете просто ввести частину домену."
+
+#: tpl/cdn/settings.tpl.php:219
+msgid "Domain"
+msgstr "Домен"
+
+#: src/lang.cls.php:208
+msgid "Cloudflare API"
+msgstr "Cloudflare API"
+
+#: tpl/cdn/manage.tpl.php:77
+msgid "Purge Everything"
+msgstr "Очистити все"
+
+#: tpl/cdn/manage.tpl.php:71
+msgid "Cloudflare Cache"
+msgstr "Cloudflare Кеш"
+
+#: tpl/cdn/manage.tpl.php:65
+msgid "Development Mode will be turned off automatically after three hours."
+msgstr "Режим розробки буде автоматично вимкнено через три години."
+
+#: tpl/cdn/manage.tpl.php:64
+msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
+msgstr "Тимчасово обійти кеш Cloudflare. Це дозволяє переглядати зміни на початковому сервері в режимі реального часу."
+
+#: tpl/cdn/manage.tpl.php:56
+msgid "Development mode will be automatically turned off in %s."
+msgstr "Режим розробки буде автоматично вимкнено через %s."
+
+#: tpl/cdn/manage.tpl.php:55
+msgid "Current status is %s."
+msgstr "Поточний статус %s."
+
+#: tpl/cdn/manage.tpl.php:49
+msgid "Current status is %1$s since %2$s."
+msgstr "Поточний статус %1$s з %2$s."
+
+#: tpl/cdn/manage.tpl.php:40
+msgid "Check Status"
+msgstr "Перевірити Стан"
+
+#: tpl/cdn/manage.tpl.php:37
+msgid "Turn OFF"
+msgstr "Вимкнути"
+
+#: tpl/cdn/manage.tpl.php:34
+msgid "Turn ON"
+msgstr "Увімкнути"
+
+#: tpl/cdn/manage.tpl.php:32
+msgid "Development Mode"
+msgstr "Режим розробника"
+
+#: tpl/cdn/manage.tpl.php:29
+msgid "Cloudflare Zone"
+msgstr "Cloudflare Зона"
+
+#: tpl/cdn/manage.tpl.php:28
+msgid "Cloudflare Domain"
+msgstr "Cloudflare Домен"
+
+#: src/gui.cls.php:646 tpl/cdn/manage.tpl.php:17
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: tpl/page_optm/settings_html.tpl.php:34
+msgid "For example"
+msgstr "Наприклад"
+
+#: tpl/page_optm/settings_html.tpl.php:33
+msgid "Prefetching DNS can reduce latency for visitors."
+msgstr "Попереднє завантаження DNS може зменшити затримку для відвідувачів."
+
+#: src/lang.cls.php:126
+msgid "DNS Prefetch"
+msgstr "Попередня вибірка DNS"
+
+#: tpl/page_optm/settings_media.tpl.php:31
+msgid "Adding Style to Your Lazy-Loaded Images"
+msgstr "Додавання стилю до ваших зображень з Lazy-Loaded"
+
+#: src/admin-display.cls.php:980 src/admin-display.cls.php:985
+#: tpl/cdn/settings.tpl.php:99
+msgid "Default value"
+msgstr "Значення за замовчуванням"
+
+#: tpl/cdn/settings.tpl.php:96
+msgid "Static file type links to be replaced by CDN links."
+msgstr "Посилання на статичні типи файлів будуть замінені посиланнями CDN."
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:15
+msgid "For example, to drop parameters beginning with %s, %s can be used here."
+msgstr "Наприклад, щоб скинути параметри, які починаються з %s, тут можна використати %s."
+
+#: src/lang.cls.php:80
+msgid "Drop Query String"
+msgstr "Видалити рядок запиту"
+
+#: tpl/cache/settings-advanced.tpl.php:32
+msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
+msgstr "Увімкніть цей параметр, якщо ви використовуєте HTTP і HTTPS в одному домені і помічаєте порушення кешу."
+
+#: src/lang.cls.php:183
+msgid "Improve HTTP/HTTPS Compatibility"
+msgstr "Покращення сумісності HTTP/HTTPS"
+
+#: tpl/img_optm/summary.tpl.php:378
+msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
+msgstr "Видаляє всі попередні запити/результати оптимізації зображень, скасовує завершені оптимізації та видаляє всі файли оптимізації."
+
+#: tpl/img_optm/summary.tpl.php:374
+msgid "Destroy All Optimization Data"
+msgstr "Знищити всі дані оптимізації"
+
+#: tpl/img_optm/summary.tpl.php:324
+msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
+msgstr "Сканування на наявність, нових неоптимізованих, розмірів мініатюр зображення та надсилання необхідних запитів на оптимізацію зображення."
+
+#: tpl/img_optm/settings.tpl.php:96
+msgid "This will increase the size of optimized files."
+msgstr "Це призведе до збільшення розміру оптимізованих файлів."
+
+#: tpl/img_optm/settings.tpl.php:95
+msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
+msgstr "Зберегти дані EXIF (авторські права, GPS, коментарі, ключові слова тощо) під час оптимізації."
+
+#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
+msgid "Clear Log"
+msgstr "Очистити журнал"
+
+#: thirdparty/woocommerce.content.tpl.php:23
+msgid "To test the cart, visit the <a %s>FAQ</a>."
+msgstr "Щоб протестувати кошик, відвідайте <a %s>FAQ</a>."
+
+#: src/utility.cls.php:239
+msgid " %s ago"
+msgstr " %s тому"
+
+#: src/media.cls.php:315
+msgid "WebP saved %s"
+msgstr "WebP збережено %s"
+
+#: tpl/toolbox/report.tpl.php:51
+msgid "If you run into any issues, please refer to the report number in your support message."
+msgstr "Якщо у вас виникли проблеми, будь ласка зверніться, з номером звіту, до служби підтримки."
+
+#: tpl/inc/api_key.php:11
+msgid "This will also generate an API key from LiteSpeed's Server."
+msgstr "Це також згенерує ключ API від сервера LiteSpeed."
+
+#: tpl/img_optm/summary.tpl.php:133
+msgid "Last pull initiated by cron at %s."
+msgstr "Останнє вилучення ініційовано cron о %s."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Images will be pulled automatically if the cron job is running."
+msgstr "Зображення вилучатимуться автоматично, якщо запущено завдання cron."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Only press the button if the pull cron job is disabled."
+msgstr "Натискайте кнопку, лише якщо вимкнено завдання вилучення cron."
+
+#: tpl/img_optm/summary.tpl.php:94
+msgid "Pull Images"
+msgstr "Вилучити зображення"
+
+#: tpl/img_optm/summary.tpl.php:118
+msgid "This process is automatic."
+msgstr "Це автоматичний процес."
+
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
+msgid "Last Request"
+msgstr "Останній запит"
+
+#: src/lang.cls.php:27
+msgid "Images failed to pull"
+msgstr "Не вдалося вилучити зображення"
+
+#: src/lang.cls.php:28 src/lang.cls.php:29
+msgid "Images failed to fetch"
+msgstr "Не вдалося отримати зображення"
+
+#: tpl/img_optm/summary.tpl.php:339
+msgid "Images Pulled"
+msgstr "Вилучені зображення"
+
+#: tpl/toolbox/entry.tpl.php:19
+msgid "Report"
+msgstr "Звіт"
+
+#: tpl/toolbox/report.tpl.php:97
+msgid "Send this report to LiteSpeed. Refer to this report number when posting in the WordPress support forum."
+msgstr "Надішліть цей звіт до LiteSpeed. Вкажіть цей номер звіту під час публікації на форумі підтримки WordPress."
+
+#: tpl/toolbox/report.tpl.php:93 tpl/toolbox/report.tpl.php:94
+msgid "Send to LiteSpeed"
+msgstr "Надіслати до LiteSpeed"
+
+#: tpl/toolbox/report.tpl.php:46
+msgid "Report date"
+msgstr "Дата звіту"
+
+#: tpl/toolbox/report.tpl.php:45
+msgid "Report number"
+msgstr "Номер звіту"
+
+#: thirdparty/woocommerce.content.tpl.php:91
+msgid "Privately cache cart when not empty."
+msgstr "Приватний кеш кошика, коли він не порожній."
+
+#: thirdparty/woocommerce.content.tpl.php:86
+msgid "Privately Cache Cart"
+msgstr "Приватний кеш кошика"
+
+#: src/media.cls.php:196
+msgid "LiteSpeed Optimization"
+msgstr "LiteSpeed оптимізація"
+
+#: src/lang.cls.php:131
+msgid "Load Google Fonts Asynchronously"
+msgstr "Асинхронне завантаження шрифтів Google"
+
+#: src/lang.cls.php:66
+msgid "Browser Cache TTL"
+msgstr "TTL Кешу браузера"
+
+#: tpl/img_optm/summary.tpl.php:346
+msgid "Results can be checked in <a %s>Media Library</a>."
+msgstr "Результати можна перевірити в <a %s>Бібліотеці медіа</a>."
+
+#: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
+#: tpl/dash/dashboard.tpl.php:49 tpl/img_optm/summary.tpl.php:62
+#: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
+msgid "Learn More"
+msgstr "Дізнатися більше"
+
+#: src/lang.cls.php:26
+msgid "Images optimized and pulled"
+msgstr "Зображення оптимізовано та вилучено"
+
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
+msgid "Images requested"
+msgstr "Запитувані зображення"
+
+#: tpl/img_optm/summary.tpl.php:314
+msgid "Images not yet requested"
+msgstr "Не запитувані зображення"
+
+#: tpl/img_optm/summary.tpl.php:276 tpl/img_optm/summary.tpl.php:303
+msgid "Images total"
+msgstr "Всього зображень"
+
+#: src/img-optm.cls.php:1713
+msgid "Switched to optimized file successfully."
+msgstr "Перемикання на оптимізований файл успішно."
+
+#: src/img-optm.cls.php:1706
+msgid "Restored original file successfully."
+msgstr "Оригінальний файл успішно відновлено."
+
+#: src/img-optm.cls.php:1690
+msgid "Enabled WebP file successfully."
+msgstr "Файл WebP успішно ввімкнено."
+
+#: src/img-optm.cls.php:1684
+msgid "Disabled WebP file successfully."
+msgstr "Файл WebP успішно вимкнено."
+
+#: tpl/img_optm/settings.tpl.php:36
+msgid "Disabling this will stop the cron job responsible for pulling optimized images back from QUIC.cloud Image Server."
+msgstr "Вимкнення цього призведе до зупинки завдання cron, відповідального за вилучення оптимізованих зображень із QUIC.cloud Image Server."
+
+#: tpl/img_optm/settings.media_webp.tpl.php:14
+msgid "Significantly improve load time by replacing images with their optimized %s versions."
+msgstr "Значно покращити час завантаження, замінивши зображення їх оптимізованими версіями %s."
+
+#: src/lang.cls.php:188
+msgid "Image WebP Replacement"
+msgstr "Заміна WebP зображення"
+
+#: tpl/cache/settings-excludes.tpl.php:123
+msgid "Selected roles will be excluded from cache."
+msgstr "Вибрані ролі будуть виключені з кешу."
+
+#: tpl/general/entry.tpl.php:7 tpl/page_optm/entry.tpl.php:12
+msgid "Tuning"
+msgstr "Настроювання"
+
+#: tpl/page_optm/settings_tuning.tpl.php:228
+msgid "Selected roles will be excluded from all optimizations."
+msgstr "Вибрані ролі будуть виключені з усіх оптимізацій."
+
+#: src/lang.cls.php:142
+msgid "Role Excludes"
+msgstr "Виключені ролі"
+
+#: tpl/general/settings_tuning.tpl.php:7
+#: tpl/page_optm/settings_tuning.tpl.php:18
+msgid "Tuning Settings"
+msgstr "Налаштування параметрів"
+
+#: tpl/cache/settings-excludes.tpl.php:96
+msgid "If the tag slug is not found, the tag will be removed from the list on save."
+msgstr "Якщо тег у частині посилання не знайдено, тег буде видалено зі списку під час збереження."
+
+#: tpl/cache/settings-excludes.tpl.php:63
+msgid "If the category name is not found, the category will be removed from the list on save."
+msgstr "Якщо назву категорії не знайдено, категорію буде видалено зі списку під час збереження."
+
+#: tpl/img_optm/summary.tpl.php:117
+msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
+msgstr "Після того, як сервер оптимізації зображень QUIC.cloud завершить оптимізацію, він сповістить ваш сайт для вилучення оптимізованих зображень."
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Send Optimization Request"
+msgstr "Надіслати запит на оптимізацію"
+
+#: tpl/img_optm/summary.tpl.php:267
+msgid "Image Information"
+msgstr "Інформація про зображення"
+
+#: tpl/img_optm/summary.tpl.php:336
+msgid "Total Reduction"
+msgstr "Загальне скорочення"
+
+#: tpl/img_optm/summary.tpl.php:333
+msgid "Optimization Summary"
+msgstr "Підсумок оптимізації"
+
+#: tpl/img_optm/entry.tpl.php:22
+msgid "LiteSpeed Cache Image Optimization"
+msgstr "LiteSpeed Cache оптимізація зображень"
+
+#: src/admin-display.cls.php:123 src/gui.cls.php:612
+#: tpl/dash/dashboard.tpl.php:55 tpl/dash/network_dash.tpl.php:27
+msgid "Image Optimization"
+msgstr "Оптимізація зображень"
+
+#: src/lang.cls.php:136
+msgid "JS Deferred Excludes"
+msgstr "Виключення для відкладених JS"
+
+#: tpl/page_optm/settings_media.tpl.php:48
+msgid "For example, %s can be used for a transparent placeholder."
+msgstr "Наприклад, %s можна використати як прозорий заповнювач."
+
+#: tpl/page_optm/settings_media.tpl.php:47
+msgid "By default a gray image placeholder %s will be used."
+msgstr "За замовчуванням буде використовуватися %s сірий заповнювач зображення."
+
+#: tpl/page_optm/settings_media.tpl.php:46
+msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
+msgstr "Це також можна попередньо визначити в %2$s за допомогою константи %1$s, при цьому, це налаштування матиме пріоритет."
+
+#: tpl/page_optm/settings_media.tpl.php:45
+msgid "Specify a base64 image to be used as a simple placeholder while images finish loading."
+msgstr "Вкажіть зображення base64, яке буде використовуватися як простий заповнювач під час завантаження зображень."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:28
+#: tpl/page_optm/settings_tuning.tpl.php:37
+#: tpl/page_optm/settings_tuning.tpl.php:58
+#: tpl/page_optm/settings_tuning.tpl.php:167
+#: tpl/page_optm/settings_tuning.tpl.php:188
+msgid "Elements with attribute %s in html code will be excluded."
+msgstr "Елементи з атрибутом %s у html-коді будуть виключені."
+
+#: tpl/cache/settings-esi.tpl.php:96
+#: tpl/page_optm/settings_media_exc.tpl.php:27
+#: tpl/page_optm/settings_tuning.tpl.php:36
+#: tpl/page_optm/settings_tuning.tpl.php:57
+#: tpl/page_optm/settings_tuning.tpl.php:102
+#: tpl/page_optm/settings_tuning.tpl.php:166
+#: tpl/page_optm/settings_tuning.tpl.php:187
+msgid "Filter %s is supported."
+msgstr "Фільтр %s підтримується."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:21
+msgid "Listed images will not be lazy loaded."
+msgstr "Перераховані зображення не будуть lazy loaded."
+
+#: src/lang.cls.php:149
+msgid "Lazy Load Image Excludes"
+msgstr "Виключені зображення з Lazy Load"
+
+#: src/gui.cls.php:456
+msgid "No optimization"
+msgstr "Без оптимізації"
+
+#: tpl/page_optm/settings_tuning.tpl.php:202
+msgid "Prevent any optimization of listed pages."
+msgstr "Запобігати будь-якій оптимізації сторінок із списку."
+
+#: src/lang.cls.php:140
+msgid "URI Excludes"
+msgstr "Виключені URl-адреси"
+
+#: tpl/page_optm/settings_html.tpl.php:128
+msgid "Stop loading WordPress.org emoji. Browser default emoji will be displayed instead."
+msgstr "Припиняє завантаження емоджі WordPress.org. Замість цього буде відображатися емоджі браузера за замовчуванням."
+
+#: src/doc.cls.php:92
+msgid "Both full URLs and partial strings can be used."
+msgstr "Можна використовувати як повні URL-адреси, так і неповні рядки."
+
+#: tpl/page_optm/settings_media.tpl.php:213
+msgid "Load iframes only when they enter the viewport."
+msgstr "Завантажуйте iframes лише тоді, коли вони входять в область перегляду."
+
+#: src/lang.cls.php:165
+msgid "Lazy Load Iframes"
+msgstr "Lazy Load Iframes"
+
+#: tpl/page_optm/settings_media.tpl.php:28
+#: tpl/page_optm/settings_media.tpl.php:214
+msgid "This can improve page loading time by reducing initial HTTP requests."
+msgstr "Це може покращити час завантаження сторінки за рахунок зменшення початкових запитів HTTP."
+
+#: tpl/page_optm/settings_media.tpl.php:27
+msgid "Load images only when they enter the viewport."
+msgstr "Завантажуйте зображення лише тоді, коли вони входять в область перегляду."
+
+#: src/lang.cls.php:148
+msgid "Lazy Load Images"
+msgstr "Lazy Load Зображень"
+
+#: tpl/page_optm/entry.tpl.php:9 tpl/page_optm/settings_media.tpl.php:14
+msgid "Media Settings"
+msgstr "Налаштування медіа"
+
+#: tpl/cache/settings-excludes.tpl.php:36
+msgid "For example, for %s, %s and %s can be used here."
+msgstr "Наприклад, для %s можна використовувати %s і %s."
+
+#: tpl/cache/settings-esi.tpl.php:107 tpl/cache/settings-purge.tpl.php:110
+#: tpl/cdn/settings.tpl.php:143
+msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
+msgstr "Підтримуються символи %1$s (відповідає нулю або більше символів). Наприклад, щоб знайти відповідність %2$s і %3$s, використовуйте %4$s."
+
+#: src/admin-display.cls.php:1133
+msgid "To match the beginning, add %s to the beginning of the item."
+msgstr "Щоб відповідати початку, додайте %s до початку елемента."
+
+#: src/admin-display.cls.php:1131
+msgid "For example, for %s, %s can be used here."
+msgstr "Наприклад, для %s можна використовувати %s."
+
+#: tpl/banner/score.php:118
+msgid "Maybe later"
+msgstr "Можливо пізніше"
+
+#: tpl/banner/score.php:117
+msgid "I've already left a review"
+msgstr "Я вже залишив відгук"
+
+#: tpl/banner/slack.php:9
+msgid "Welcome to LiteSpeed"
+msgstr "Ласкаво просимо до LiteSpeed"
+
+#: src/lang.cls.php:138
+msgid "Remove WordPress Emoji"
+msgstr "Видалити WordPress емоджі"
+
+#: src/gui.cls.php:464
+msgid "More settings"
+msgstr "Більше налаштувань"
+
+#: src/gui.cls.php:445
+msgid "Private cache"
+msgstr "Приватний кеш"
+
+#: src/gui.cls.php:434
+msgid "Non cacheable"
+msgstr "Не кешується"
+
+#: src/gui.cls.php:411
+msgid "Mark this page as "
+msgstr "Позначити цю сторінку як "
+
+#: src/gui.cls.php:403
+msgid "Purge this page"
+msgstr "Очистити цю сторінку"
+
+#: src/lang.cls.php:123
+msgid "Load JS Deferred"
+msgstr "Завантажувати JS відкладено"
+
+#: tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
+msgstr "Визначте правила critical CSS для вмісту у верхній частині сторінки, коли активуєте %s."
+
+#: src/lang.cls.php:133
+msgid "Critical CSS Rules"
+msgstr "Правила Critical CSS"
+
+#: src/lang.cls.php:119 tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Load CSS Asynchronously"
+msgstr "Завантажувати CSS асинхронно"
+
+#: tpl/page_optm/settings_html.tpl.php:115
+msgid "Prevent Google Fonts from loading on all pages."
+msgstr "Заборонити завантаження шрифтів Google на всіх сторінках."
+
+#: src/lang.cls.php:132
+msgid "Remove Google Fonts"
+msgstr "Видалити шрифти Google"
+
+#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
+msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
+msgstr "Це може покращити ваш показник швидкості в таких службах, як Pingdom, GTmetrix і PageSpeed."
+
+#: tpl/page_optm/settings_html.tpl.php:79
+msgid "Remove query strings from internal static resources."
+msgstr "Видалити рядки запиту з внутрішніх статичних ресурсів."
+
+#: src/lang.cls.php:130
+msgid "Remove Query Strings"
+msgstr "Видалити Рядки Запиту"
+
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "user agents"
+msgstr "user agents"
+
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+msgid "cookies"
+msgstr "cookies"
+
+#: tpl/cache/settings_inc.browser.tpl.php:29
+msgid "You can turn on browser caching in server admin too. <a %s>Learn more about LiteSpeed browser cache settings</a>."
+msgstr "Ви також можете ввімкнути кешування браузера в адмінці сервера. <a %s>Докладніше про налаштування кешу браузера LiteSpeed</a>."
+
+#: tpl/cache/settings_inc.browser.tpl.php:27
+msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
+msgstr "Кешування браузера зберігає статичні файли локально в браузері користувача. Увімкніть цей параметр, щоб зменшити кількість повторних запитів на статичні файли."
+
+#: src/lang.cls.php:59 tpl/dash/dashboard.tpl.php:397
+msgid "Browser Cache"
+msgstr "Кеш браузера"
+
+#: tpl/cache/settings-excludes.tpl.php:90
+msgid "tags"
+msgstr "теги"
+
+#: src/lang.cls.php:105
+msgid "Do Not Cache Tags"
+msgstr "Не кешувати теги"
+
+#: tpl/cache/settings-excludes.tpl.php:97
+msgid "To exclude %1$s, insert %2$s."
+msgstr "Щоб виключити %1$s, вставте %2$s."
+
+#: tpl/cache/settings-excludes.tpl.php:57
+msgid "categories"
+msgstr "категорії"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+#: tpl/cache/settings-excludes.tpl.php:90
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "To prevent %s from being cached, enter them here."
+msgstr "Щоб запобігти кешуванню %s, введіть його тут."
+
+#: src/lang.cls.php:104
+msgid "Do Not Cache Categories"
+msgstr "Не кешувати категорії"
+
+#: tpl/cache/settings-excludes.tpl.php:35
+msgid "Query strings containing these parameters will not be cached."
+msgstr "Рядки запиту, що містять ці параметри, не буде кешовано."
+
+#: src/lang.cls.php:103
+msgid "Do Not Cache Query Strings"
+msgstr "Не кешувати рядки запитів"
+
+#: tpl/cache/settings-excludes.tpl.php:21
+msgid "Paths containing these strings will not be cached."
+msgstr "Шляхи, що містять ці рядки, не будуть кешуватися."
+
+#: src/lang.cls.php:102
+msgid "Do Not Cache URIs"
+msgstr "Не кешувати URI-адреси"
+
+#: tpl/toolbox/settings-debug.tpl.php:39
+msgid "The logs will be output to %s."
+msgstr "Журнали будуть виведені в %s."
+
+#: src/admin-display.cls.php:1135 src/doc.cls.php:74
+msgid "One per line."
+msgstr "По одному на рядок."
+
+#: tpl/cache/settings-cache.tpl.php:108
+msgid "URI Paths containing these strings will NOT be cached as public."
+msgstr "Шляхи URI-адрес, що містять ці рядки, НЕ кешуватимуться як загальнодоступні."
+
+#: src/lang.cls.php:79
+msgid "Private Cached URIs"
+msgstr "Приватні кешовані URI-адреси"
+
+#: tpl/cdn/settings.tpl.php:179
+msgid "Paths containing these strings will not be served from the CDN."
+msgstr "Шляхи, що містять ці рядки, не будуть обслуговуватися з CDN."
+
+#: src/lang.cls.php:207
+msgid "Exclude Path"
+msgstr "Виключити шлях"
+
+#: tpl/cdn/settings.tpl.php:98
+msgid "This will affect all tags containing attributes: %s %s %s."
+msgstr "Це вплине на всі теги, що міститимуть атрибути: %s %s %s."
+
+#: src/lang.cls.php:203 tpl/cdn/settings.tpl.php:102
+msgid "Include File Types"
+msgstr "Включити типи файлів"
+
+#: tpl/cdn/settings.tpl.php:92
+msgid "Serve all JavaScript files through the CDN. This will affect all enqueued WP JavaScript files."
+msgstr "Обслуговувати всі файли JavaScript через CDN. Це вплине на всі поставлені в чергу файли WP JavaScript."
+
+#: src/lang.cls.php:202
+msgid "Include JS"
+msgstr "Включити JS"
+
+#: tpl/cdn/settings.tpl.php:88
+msgid "Serve all CSS files through the CDN. This will affect all enqueued WP CSS files."
+msgstr "Обслуговувати всі файли CSS через CDN. Це вплине на всі поставлені в чергу файли WP CSS."
+
+#: src/lang.cls.php:201
+msgid "Include CSS"
+msgstr "Включити CSS"
+
+#: tpl/cdn/settings.tpl.php:84
+msgid "Serve all image files through the CDN. This will affect all attachments, HTML %s tags, and CSS %s attributes."
+msgstr "Обслуговувати всі файли зображень через CDN. Це вплине на всі вкладення, HTML %s теги та CSS %s атрибути."
+
+#: src/lang.cls.php:200
+msgid "Include Images"
+msgstr "Включити зображення"
+
+#: src/admin-display.cls.php:228
+msgid "CDN URL to be used. For example, %s"
+msgstr "URL-адреса CDN, яка буде використана. Наприклад, %s"
+
+#: src/lang.cls.php:199
+msgid "CDN URL"
+msgstr "URL-адреса CDN"
+
+#: tpl/cdn/settings.tpl.php:142
+msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
+msgstr "URL-адреса сайту для обслуговування через CDN. Починаючи з %1$s. Наприклад, %2$s."
+
+#: src/lang.cls.php:205
+msgid "Original URLs"
+msgstr "Оригінальні URL-адреси"
+
+#: tpl/cdn/entry.tpl.php:6 tpl/cdn/settings.tpl.php:21
+msgid "CDN Settings"
+msgstr "Налаштування CDN"
+
+#: src/admin-display.cls.php:121 tpl/cdn/settings.tpl.php:194
+msgid "CDN"
+msgstr "CDN"
+
+#: src/admin-display.cls.php:233 src/admin-display.cls.php:838
+#: src/admin-display.cls.php:865 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:72 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_media.tpl.php:162
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "OFF"
+msgstr "ВИМК"
+
+#: src/admin-display.cls.php:232 src/admin-display.cls.php:837
+#: src/admin-display.cls.php:866 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
+#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_media.tpl.php:159
+#: tpl/page_optm/settings_media.tpl.php:229
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "ON"
+msgstr "УВІМК"
+
+#: src/purge.cls.php:351
+msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення записів CSS/JS."
+
+#: tpl/page_optm/settings_html.tpl.php:20
+msgid "Minify HTML content."
+msgstr "Мінімізувати вміст HTML."
+
+#: src/lang.cls.php:117
+msgid "HTML Minify"
+msgstr "Мінімізувати HTML"
+
+#: src/lang.cls.php:129
+msgid "JS Excludes"
+msgstr "Виключити JS"
+
+#: src/data.upgrade.func.php:101 src/lang.cls.php:115
+msgid "JS Combine"
+msgstr "Об'єднати JS"
+
+#: src/lang.cls.php:114
+msgid "JS Minify"
+msgstr "Мінімізувати JS"
+
+#: src/lang.cls.php:128
+msgid "CSS Excludes"
+msgstr "Виключити CSS"
+
+#: src/lang.cls.php:108
+msgid "CSS Combine"
+msgstr "Об'єднати CSS"
+
+#: src/lang.cls.php:107
+msgid "CSS Minify"
+msgstr "Мінімізувати CSS"
+
+#: tpl/page_optm/entry.tpl.php:31
+msgid "Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action."
+msgstr "Будь ласка, ретельно перевіряйте, вмикаючи будь-який параметр із цього списку. Після зміни налаштувань Мінімізувати/Об'єднання, будь ласка, виконайте - Очистити все."
+
+#: tpl/toolbox/purge.tpl.php:44
+msgid "This will purge all minified/combined CSS/JS entries only"
+msgstr "Це призведе до очищення лише мінімізованих/Об'єднаних записів CSS/JS"
+
+#: tpl/toolbox/purge.tpl.php:19 tpl/toolbox/purge.tpl.php:25
+#: tpl/toolbox/purge.tpl.php:31
+msgid "Purge %s Error"
+msgstr "Очистити %s Помилки"
+
+#: tpl/db_optm/manage.tpl.php:72
+msgid "Database Optimizer"
+msgstr "Оптимізатор бази даних"
+
+#: tpl/db_optm/manage.tpl.php:44
+msgid "Optimize all tables in your database"
+msgstr "Оптимізувати всі таблиці у вашій базі даних"
+
+#: tpl/db_optm/manage.tpl.php:43
+msgid "Optimize Tables"
+msgstr "Оптимізувати таблиці"
+
+#: tpl/db_optm/manage.tpl.php:40
+msgid "Clean all transient options"
+msgstr "Очистити всі перехідні параметри"
+
+#: tpl/db_optm/manage.tpl.php:39
+msgid "All Transients"
+msgstr "Усі Перехідні Процеси"
+
+#: tpl/db_optm/manage.tpl.php:36
+msgid "Clean expired transient options"
+msgstr "Очистити перехідні параметри, термін дії яких закінчився"
+
+#: tpl/db_optm/manage.tpl.php:35
+msgid "Expired Transients"
+msgstr "Перехідні Процеси з Закінченим Строком Дії"
+
+#: tpl/db_optm/manage.tpl.php:32
+msgid "Clean all trackbacks and pingbacks"
+msgstr "Очистити усі зворотні посилання та сповіщення"
+
+#: tpl/db_optm/manage.tpl.php:31
+msgid "Trackbacks/Pingbacks"
+msgstr "Зворотні посилання/Сповіщення"
+
+#: tpl/db_optm/manage.tpl.php:28
+msgid "Clean all trashed comments"
+msgstr "Очистити усі видалені коментарі у смітнику"
+
+#: tpl/db_optm/manage.tpl.php:27
+msgid "Trashed Comments"
+msgstr "Видалені коментарі"
+
+#: tpl/db_optm/manage.tpl.php:24
+msgid "Clean all spam comments"
+msgstr "Очистити усі коментарі у спамі"
+
+#: tpl/db_optm/manage.tpl.php:23
+msgid "Spam Comments"
+msgstr "Спам коментарі"
+
+#: tpl/db_optm/manage.tpl.php:20
+msgid "Clean all trashed posts and pages"
+msgstr "Очистити усі повідомлення та сторінки у смітнику"
+
+#: tpl/db_optm/manage.tpl.php:19
+msgid "Trashed Posts"
+msgstr "Видалені записи"
+
+#: tpl/db_optm/manage.tpl.php:16
+msgid "Clean all auto saved drafts"
+msgstr "Очистити всі автоматично збережені чернетки"
+
+#: tpl/db_optm/manage.tpl.php:15
+msgid "Auto Drafts"
+msgstr "Авто чернетки"
+
+#: tpl/db_optm/manage.tpl.php:12
+msgid "Clean all post revisions"
+msgstr "Очистити усі редакції запису"
+
+#: tpl/db_optm/manage.tpl.php:11
+msgid "Post Revisions"
+msgstr "Редакції запису"
+
+#: tpl/db_optm/manage.tpl.php:7
+msgid "Clean All"
+msgstr "Очистити все"
+
+#: src/db-optm.cls.php:192
+msgid "Optimized all tables."
+msgstr "Оптимізовано усі таблиці."
+
+#: src/db-optm.cls.php:182
+msgid "Clean all transients successfully."
+msgstr "Усі перехідні процеси успішно очищено."
+
+#: src/db-optm.cls.php:178
+msgid "Clean expired transients successfully."
+msgstr "Перехідні процеси, термін дії яких закінчився, успішно очищено."
+
+#: src/db-optm.cls.php:174
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "Усі зворотні посилання та сповіщення успішно очищено."
+
+#: src/db-optm.cls.php:170
+msgid "Clean trashed comments successfully."
+msgstr "Коментарі зі смітника успішно очищено."
+
+#: src/db-optm.cls.php:166
+msgid "Clean spam comments successfully."
+msgstr "Коментарі зі спаму успішно очищено."
+
+#: src/db-optm.cls.php:162
+msgid "Clean trashed posts and pages successfully."
+msgstr "Повідомлення та сторінки зі смітника успішно очищено."
+
+#: src/db-optm.cls.php:158
+msgid "Clean auto drafts successfully."
+msgstr "Автоматично збережені чернетки успішно очищено."
+
+#: src/db-optm.cls.php:154
+msgid "Clean post revisions successfully."
+msgstr "Редакції запису успішно очищено."
+
+#: src/db-optm.cls.php:127
+msgid "Clean all successfully."
+msgstr "Все очищено успішно."
+
+#: src/lang.cls.php:61
+msgid "Default Private Cache TTL"
+msgstr "TTL для приватного кешу за замовчуванням"
+
+#: tpl/cache/settings-esi.tpl.php:135
+msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
+msgstr "Якщо ваш сайт містить загальнодоступний вміст, який можуть бачити лише певні ролі користувачів, ви можете вказати групу для ролей користувачів. Наприклад, група - адміністратор дозволяє створити окрему, загальнодоступну кешовану сторінку, спеціально для адміністраторів (з посиланнями «редагувати» тощо), тоді як усі інші ролі користувачів бачать загальнодоступну сторінку за замовчуванням."
+
+#: src/lang.cls.php:181 tpl/page_optm/settings_css.tpl.php:110
+#: tpl/page_optm/settings_css.tpl.php:220
+msgid "Vary Group"
+msgstr "Група"
+
+#: tpl/cache/settings-esi.tpl.php:75
+msgid "Cache the built-in Comment Form ESI block."
+msgstr "Кешувати вбудований блок ESI форми коментарів."
+
+#: src/lang.cls.php:179
+msgid "Cache Comment Form"
+msgstr "Кешувати Форму коментарів"
+
+#: tpl/cache/settings-esi.tpl.php:62
+msgid " Cache the built-in Admin Bar ESI block."
+msgstr " Кешувати вбудований блок ESI панелі адміністрування."
+
+#: src/lang.cls.php:178
+msgid "Cache Admin Bar"
+msgstr "Кешувати панель адміністрування"
+
+#: tpl/cache/settings-esi.tpl.php:49
+msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
+msgstr "Увімкніть, щоб кешувати загальнодоступні сторінки для користувачів, які увійшли в систему та обслуговувати панель адміністратора і форму коментарів через блоки ESI. Ці два блоки не кешуватимуться якщо це не активовано нижче."
+
+#: tpl/cache/settings-esi.tpl.php:13
+msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
+msgstr "ESI дозволяє позначати частини вашої динамічної сторінки як окремі фрагменти, які потім збираються разом, щоб створити цілу сторінку. Іншими словами, ESI дозволяє вам «пробити діри» на сторінці, а потім заповнити ці діри вмістом, який може кешуватися приватно, загальнодоступно чи за допомогою власного TTL або не кешуватися взагалі."
+
+#: tpl/cache/settings-esi.tpl.php:12
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "Завдяки ESI (Edge Side Includes) сторінки можуть обслуговуватися з кешу для користувачів, які увійшли в систему."
+
+#: tpl/esi_widget_edit.php:47
+msgid "Private"
+msgstr "Приватний"
+
+#: tpl/esi_widget_edit.php:46
+msgid "Public"
+msgstr "Загальнодоступний"
+
+#: tpl/cache/network_settings-purge.tpl.php:7
+#: tpl/cache/settings-purge.tpl.php:7
+msgid "Purge Settings"
+msgstr "Очистити налаштування"
+
+#: src/lang.cls.php:76
+msgid "Cache PHP Resources"
+msgstr "Кешувати ресурси PHP"
+
+#: src/lang.cls.php:77 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "Cache Mobile"
+msgstr "Мобільний кеш"
+
+#: tpl/toolbox/settings-debug.tpl.php:72
+msgid "Advanced level will log more details."
+msgstr "Розширений рівень буде реєструвати більше деталей."
+
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Basic"
+msgstr "Основний"
+
+#: tpl/crawler/settings-general.tpl.php:135
+msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
+msgstr "Максимальне середнє навантаження на сервер, дозволене під час сканування. Кількість використовуваних потоків сканера буде активно зменшуватися, доки середнє навантаження на сервер не впаде за це обмеження. Якщо цього неможливо досягти за допомогою одного потоку, поточний запуск сканера буде припинено."
+
+#: src/lang.cls.php:74
+msgid "Cache Login Page"
+msgstr "Кешувати сторінку входу"
+
+#: tpl/cache/settings-cache.tpl.php:74
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "Кешувати запити, зроблені викликами WordPress REST API."
+
+#: src/lang.cls.php:73
+msgid "Cache REST API"
+msgstr "Кешувати REST API"
+
+#: tpl/cache/settings-cache.tpl.php:61
+msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
+msgstr "Приватно кешувати коментаторів, у яких є коментарі, які очікують на розгляд. Якщо вимкнути цю опцію, коментатори відображатимуться на сторінках без кешування. (Потрібен LSWS %s)"
+
+#: src/lang.cls.php:72
+msgid "Cache Commenters"
+msgstr "Кешувати коментаторів"
+
+#: tpl/cache/settings-cache.tpl.php:48
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "Приватно кешувати сторінки інтерфейсу для користувачів, які ввійшли в систему. (Потрібен LSWS %s)"
+
+#: src/lang.cls.php:71
+msgid "Cache Logged-in Users"
+msgstr "Кешувати користувачів, які ввійшли в систему"
+
+#: tpl/cache/network_settings-cache.tpl.php:7
+#: tpl/cache/settings-cache.tpl.php:7
+msgid "Cache Control Settings"
+msgstr "Налаштування контролю кешу"
+
+#: tpl/cache/entry.tpl.php:10
+msgid "ESI"
+msgstr "ESI"
+
+#: tpl/cache/entry.tpl.php:9 tpl/cache/entry_network.tpl.php:8
+msgid "Excludes"
+msgstr "Виключені"
+
+#: tpl/cache/entry.tpl.php:8 tpl/cache/entry_network.tpl.php:7
+#: tpl/toolbox/entry.tpl.php:6 tpl/toolbox/purge.tpl.php:142
+msgid "Purge"
+msgstr "Очистити"
+
+#: src/admin-display.cls.php:119 tpl/cache/entry.tpl.php:6
+#: tpl/cache/entry_network.tpl.php:6
+msgid "Cache"
+msgstr "Кеш"
+
+#: thirdparty/woocommerce.tab.tpl.php:3
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: tpl/inc/show_rule_conflict.php:6
+msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (<a %3$s>Learn More</a>)"
+msgstr "У файлі %1$s виявлено неочікуване правило кешу %2$s. Це правило може призвести до того, що відвідувачі побачать старі версії сторінок, оскільки браузер кешує сторінки HTML. Якщо ви впевнені, що сторінки HTML не кешуються в браузері, це повідомлення можна закрити. (<a %3$s>Докладніше</a>)"
+
+#: tpl/cache/settings-purge.tpl.php:131
+msgid "Current server time is %s."
+msgstr "Поточний час сервера %s."
+
+#: tpl/cache/settings-purge.tpl.php:130
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "Вкажіть час очищення \"%s\" списку."
+
+#: tpl/cache/settings-purge.tpl.php:106
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "Приймаються як %1$s, так і %2$s."
+
+#: src/lang.cls.php:99 tpl/cache/settings-purge.tpl.php:105
+msgid "Scheduled Purge Time"
+msgstr "Запланований час очищення"
+
+#: tpl/cache/settings-purge.tpl.php:105
+msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
+msgstr "URL-адреси (по одній на рядок) будуть автоматично очищені у час встановлений у параметрі \"%s\"."
+
+#: src/lang.cls.php:98 tpl/cache/settings-purge.tpl.php:130
+msgid "Scheduled Purge URLs"
+msgstr "Запланована очистка URL-адрес"
+
+#: tpl/toolbox/settings-debug.tpl.php:113
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "Скоротіть рядки запиту в журналі налагодження, щоб покращити читабельність."
+
+#: tpl/toolbox/settings-debug.tpl.php:100
+msgid "Log requested cookie values."
+msgstr "Журнал запитаних значень cookie."
+
+#: tpl/toolbox/entry.tpl.php:18
+msgid "Heartbeat"
+msgstr "Heartbeat"
+
+#: tpl/toolbox/settings-debug.tpl.php:83
+msgid "MB"
+msgstr "Мб"
+
+#: src/lang.cls.php:228
+msgid "Log File Size Limit"
+msgstr "Обмеження розміру файлу журналу"
+
+#: src/htaccess.cls.php:787
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>Будь ласка, додайте/замініть наступні коди на початку %1$s:</p> %2$s"
+
+#: src/error.cls.php:104 src/error.cls.php:128
+msgid "%s file not writable."
+msgstr "%s файл недоступний для запису."
+
+#: src/error.cls.php:124
+msgid "%s file not readable."
+msgstr "%s файл не читається."
+
+#: src/lang.cls.php:230
+msgid "Collapse Query Strings"
+msgstr "Скоротіть рядки запиту"
+
+#: src/lang.cls.php:229
+msgid "Log Cookies"
+msgstr "Журнал cookie"
+
+#: tpl/cache/settings-esi.tpl.php:7
+msgid "ESI Settings"
+msgstr "Налаштування ESI"
+
+#: tpl/esi_widget_edit.php:74
+msgid "A TTL of 0 indicates do not cache."
+msgstr "TTL 0 означає, що не кешується."
+
+#: tpl/esi_widget_edit.php:73
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "Рекомендоване значення: 28800 секунд (8 годин)."
+
+#: tpl/esi_widget_edit.php:63
+msgid "Widget Cache TTL:"
+msgstr "TTL кешу віджетів:"
+
+#: src/lang.cls.php:177 tpl/esi_widget_edit.php:36
+msgid "Enable ESI"
+msgstr "Увімкнути ESI"
+
+#: tpl/crawler/summary.tpl.php:50
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "Докладнішу інформацію дивіться у розділі <a %s>Введення по ввімкненню сканера</a>."
+
+#: src/lang.cls.php:220
+msgid "Custom Sitemap"
+msgstr "Власний Sitemap"
+
+#: tpl/toolbox/purge.tpl.php:244
+msgid "Purge pages by relative or full URL."
+msgstr "Очищення сторінок за відносною або повною URL-адресою."
+
+#: tpl/crawler/summary.tpl.php:49
+msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin or hosting provider."
+msgstr "Функція сканера не ввімкнена на сервері LiteSpeed. Будь ласка, проконсультуйтеся з адміністратором сервера або провайдером хостингу."
+
+#: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
+#: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
+#: tpl/inc/check_if_network_disable_all.php:18
+#: tpl/page_optm/settings_css.tpl.php:59 tpl/page_optm/settings_css.tpl.php:165
+#: tpl/page_optm/settings_localization.tpl.php:11
+msgid "WARNING"
+msgstr "УВАГА"
+
+#: tpl/crawler/summary.tpl.php:106
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>Останнє сканування:</b> %s елемент(ів)"
+
+#: tpl/crawler/summary.tpl.php:63
+msgid "The next complete sitemap crawl will start at"
+msgstr "Наступне повне сканування sitemap розпочнеться о"
+
+#: src/file.cls.php:172
+msgid "Failed to write to %s."
+msgstr "Не вдалося написати до %s."
+
+#: src/file.cls.php:153
+msgid "Folder is not writable: %s."
+msgstr "Папка недоступна для запису: %s."
+
+#: src/file.cls.php:145
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr "Неможливо створити папку: %1$s. Помилка: %2$s"
+
+#: src/file.cls.php:136
+msgid "Folder does not exist: %s"
+msgstr "Папка не існує: %s"
+
+#: src/core.cls.php:296
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення списку."
+
+#: tpl/cache/settings-cache.tpl.php:24
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "Будь ласка, відвідайте сторінку <a %s>Інформація</a>, щоб дізнатися, як перевірити кеш."
+
+#: tpl/toolbox/settings-debug.tpl.php:52
+msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
+msgstr "Дозволяє зазначеним IP-адресам (по одному на рядок) виконувати певні дії зі своїх браузерів."
+
+#: src/lang.cls.php:217
+msgid "Server Load Limit"
+msgstr "Ліміт завантаження сервера"
+
+#: tpl/crawler/settings-general.tpl.php:105
+msgid "Specify Number of Threads to use while crawling."
+msgstr "Вкажіть кількість потоків для використання під час сканування."
+
+#: tpl/crawler/settings-general.tpl.php:91
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "Вкажіть, через який час, у секундах, сканер повинен знову розпочати сканування всього sitemap."
+
+#: src/lang.cls.php:214
+msgid "Crawl Interval"
+msgstr "Інтервал сканування"
+
+#: src/lang.cls.php:213
+msgid "Interval Between Runs"
+msgstr "Інтервал між запусками"
+
+#: tpl/crawler/settings-general.tpl.php:62
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "Вкажіть час, у секундах, для тривалості інтервалу сканування."
+
+#: tpl/crawler/settings-general.tpl.php:35
+msgid "Specify time in microseconds for the delay between requests during a crawl."
+msgstr "Вкажіть час, у мікросекундах, для затримки між запитами під час сканування."
+
+#: tpl/crawler/settings-general.tpl.php:33
+msgid "microseconds"
+msgstr "мікросекунд"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:33
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "Потім на %s встановлюється інший WordPress (НЕ МУЛЬТИСАЙТ)"
+
+#: tpl/cache/entry_network.tpl.php:18
+msgid "LiteSpeed Cache Network Cache Settings"
+msgstr "Налаштування мережевого кешу LiteSpeed Cache"
+
+#: tpl/toolbox/purge.tpl.php:179
+msgid "Select below for \"Purge by\" options."
+msgstr "Виберіть нижче параметри для «Очистити»."
+
+#: tpl/cdn/entry.tpl.php:14
+msgid "LiteSpeed Cache CDN"
+msgstr "LiteSpeed Cache CDN"
+
+#: tpl/crawler/summary.tpl.php:221
+msgid "No crawler meta file generated yet"
+msgstr "Мета-файл сканера ще не згенеровано"
+
+#: tpl/crawler/summary.tpl.php:203
+msgid "Show crawler status"
+msgstr "Показати статус сканера"
+
+#: tpl/crawler/summary.tpl.php:196
+msgid "Watch Crawler Status"
+msgstr "Переглянути статус сканера"
+
+#: tpl/crawler/summary.tpl.php:191
+msgid "Please see <a %s>Hooking WP-Cron Into the System Task Scheduler</a> to learn how to create the system cron task."
+msgstr "Будь ласка, перегляньте <a %s>Підключення WP-Cron до системного планувальника завдань</a>, щоб дізнатися, як створити системне завдання cron."
+
+#: tpl/crawler/summary.tpl.php:188
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "Частота запуску встановлюється параметром Інтервал Між Запусками."
+
+#: tpl/crawler/summary.tpl.php:114
+msgid "Manually run"
+msgstr "Запустити вручну"
+
+#: tpl/crawler/summary.tpl.php:111
+msgid "Reset position"
+msgstr "Скинути положення"
+
+#: tpl/crawler/summary.tpl.php:123
+msgid "Run Frequency"
+msgstr "Частота виконання"
+
+#: tpl/crawler/summary.tpl.php:122
+msgid "Cron Name"
+msgstr "Ім'я Cron"
+
+#: tpl/crawler/summary.tpl.php:42
+msgid "Crawler Cron"
+msgstr "Cron Сканера"
+
+#: tpl/crawler/summary.tpl.php:36
+msgid "%d minute"
+msgstr "%d хвилина"
+
+#: tpl/crawler/summary.tpl.php:33
+msgid "%d minutes"
+msgstr "%d хвилин"
+
+#: tpl/crawler/summary.tpl.php:26
+msgid "%d hour"
+msgstr "%d година"
+
+#: tpl/crawler/summary.tpl.php:23
+msgid "%d hours"
+msgstr "%d години"
+
+#: tpl/crawler/map.tpl.php:27
+msgid "Generated at %s"
+msgstr "Згенеровано у %s"
+
+#: tpl/crawler/entry.tpl.php:18
+msgid "LiteSpeed Cache Crawler"
+msgstr "Сканер LiteSpeed Cache"
+
+#: src/lang.cls.php:215
+msgid "Threads"
+msgstr "Потоки"
+
+#: src/lang.cls.php:212
+msgid "Run Duration"
+msgstr "Тривалість виконання"
+
+#: src/lang.cls.php:211
+msgid "Delay"
+msgstr "Затримка"
+
+#: tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "Якщо у вас виникнуть запитання, наша команда завжди рада відповісти на будь-які запитання на <a %s>форумі підтримки</a>."
+
+#: src/admin-display.cls.php:129 src/lang.cls.php:210
+msgid "Crawler"
+msgstr "Сканер"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: src/purge.cls.php:626
+msgid "Notified LiteSpeed Web Server to purge all pages."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення всіх сторінок."
+
+#: tpl/cache/settings-purge.tpl.php:18
+msgid "All pages with Recent Posts Widget"
+msgstr "Усі сторінки з віджетом «Останні повідомлення»"
+
+#: tpl/cache/settings-purge.tpl.php:16
+msgid "Pages"
+msgstr "Сторінки"
+
+#: tpl/toolbox/purge.tpl.php:14
+msgid "This will Purge Pages only"
+msgstr "Це очистить лише сторінки"
+
+#: tpl/toolbox/purge.tpl.php:13
+msgid "Purge Pages"
+msgstr "Очистити сторінки"
+
+#: thirdparty/woocommerce.content.tpl.php:78
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "Наприклад, якщо домашня сторінка сайту знаходиться за адресою %1$s, сторінка магазину може бути за адресою %2$s."
+
+#: src/css.cls.php:533
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: tpl/crawler/summary.tpl.php:125
+msgid "Activate"
+msgstr "Увімкнути"
+
+#: tpl/cdn/settings.tpl.php:209
+msgid "Email Address"
+msgstr "Електронна адреса"
+
+#: tpl/general/settings.tpl.php:100
+msgid "Warning"
+msgstr "Увага"
+
+#: src/gui.cls.php:754
+msgid "Install Now"
+msgstr "Встановити зараз"
+
+#: cli/purge.cls.php:191
+msgid "Purged the url!"
+msgstr "URL-адресу очищено!"
+
+#: cli/purge.cls.php:140
+msgid "Purged the blog!"
+msgstr "Блог очищено!"
+
+#: cli/purge.cls.php:95
+msgid "Purged All!"
+msgstr "Очищено все!"
+
+#: src/purge.cls.php:645
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення сторінок помилок."
+
+#: tpl/inc/show_error_cookie.php:11
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "Якщо використовується OpenLiteSpeed, сервер необхідно перезапустити, щоб зміни набули чинності."
+
+#: tpl/inc/show_error_cookie.php:7
+msgid "If not, please verify the setting in the <a href=\"%1$s\">Advanced tab</a>."
+msgstr "Якщо ні, будь ласка, перевірте налаштування на вкладці <a href=\"%1$s\">Розширені</a>."
+
+#: tpl/inc/show_error_cookie.php:6
+msgid "If the login cookie was recently changed in the settings, please log out and back in."
+msgstr "Якщо файл cookie для входу нещодавно було змінено в налаштуваннях, будь ласка, вийдіть із системи і знову ввійдіть."
+
+#: tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "Однак неможливо дізнатися про всі можливі налаштування, які були зроблені."
+
+#: tpl/inc/show_display_installed.php:7
+msgid "The LiteSpeed Cache plugin is used to cache pages - a simple way to improve the performance of the site."
+msgstr "Плагін LiteSpeed Cache використовується для кешування сторінок - простий спосіб підвищити продуктивність сайту."
+
+#: tpl/cache/settings-cache.tpl.php:30
+msgid "The network admin setting can be overridden here."
+msgstr "Налаштування адміністратора мережі можна змінити тут."
+
+#: tpl/cache/settings-ttl.tpl.php:22
+msgid "Specify how long, in seconds, public pages are cached."
+msgstr "Вкажіть, скільки часу, в секундах, кешуються загальнодоступні сторінки."
+
+#: tpl/cache/settings-ttl.tpl.php:37
+msgid "Specify how long, in seconds, private pages are cached."
+msgstr "Вкажіть, скільки часу, в секундах, кешуються приватні сторінки."
+
+#: tpl/cache/network_settings-cache.tpl.php:18
+msgid "It is <b>STRONGLY</b> recommend that the compatibility with other plugins on a single/few sites is tested first."
+msgstr "<b>Настійно</b> рекомендуємо спочатку перевірити сумісність з іншими плагінами на одному/декілька сайтах."
+
+#: tpl/toolbox/purge.tpl.php:235
+msgid "Purge pages by post ID."
+msgstr "Очистити сторінки за ID запису."
+
+#: tpl/toolbox/purge.tpl.php:38
+msgid "Purge the LiteSpeed cache entries created by this plugin"
+msgstr "Очистити записи LiteSpeed cache"
+
+#: tpl/toolbox/purge.tpl.php:20 tpl/toolbox/purge.tpl.php:26
+#: tpl/toolbox/purge.tpl.php:32
+msgid "Purge %s error pages"
+msgstr "Очистити %s сторінки помилок"
+
+#: tpl/toolbox/purge.tpl.php:8
+msgid "This will Purge Front Page only"
+msgstr "Це очистить лише головну сторінку"
+
+#: tpl/toolbox/purge.tpl.php:239
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Очищати сторінки за назвою тегу, наприклад %2$s слід використовувати для URL-адреси %1$s."
+
+#: tpl/toolbox/purge.tpl.php:245
+msgid "e.g. Use %s or %s."
+msgstr "наприклад використовуйте %s або %s."
+
+#: tpl/toolbox/purge.tpl.php:230
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Очищати сторінки за назвою категорії - наприклад %2$s слід використовувати для URL-адреси %1$s."
+
+#: tpl/toolbox/purge.tpl.php:133
+msgid "If only the WordPress site should be purged, use Purge All."
+msgstr "Якщо потрібно очистити лише сайт WordPress, скористайтеся «Очистити все»."
+
+#: src/core.cls.php:291
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "Повідомлено веб-сервер LiteSpeed, щоб очистити все."
+
+#: tpl/general/network_settings.tpl.php:20
+msgid "Use Primary Site Configuration"
+msgstr "Використовувати конфігурацію основного сайту"
+
+#: tpl/general/network_settings.tpl.php:25
+msgid "This will disable the settings page on all subsites."
+msgstr "Це призведе до вимкнення сторінки налаштувань на всіх підсайтах."
+
+#: tpl/general/network_settings.tpl.php:24
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "Установіть цей параметр, щоб використовувати конфігурацію основного сайту для всіх підсайтів."
+
+#: src/admin-display.cls.php:706 src/admin-display.cls.php:711
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: tpl/inc/check_if_network_disable_all.php:21
+msgid "The following options are selected, but are not editable in this settings page."
+msgstr "Наведені нижче параметри вибрано, але їх не можна редагувати на цій сторінці налаштувань."
+
+#: tpl/inc/check_if_network_disable_all.php:20
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "Адміністратор мережі вибрав для використання конфігурації основного сайту для всіх підсайтів."
+
+#: tpl/toolbox/purge.tpl.php:125
+msgid "Empty Entire Cache"
+msgstr "Очистити весь кеш"
+
+#: tpl/toolbox/purge.tpl.php:127
+msgid "This action should only be used if things are cached incorrectly."
+msgstr "Цю дію слід використовувати лише в тому випадку, якщо елементи кешуються неправильно."
+
+#: tpl/toolbox/purge.tpl.php:126
+msgid "Clears all cache entries related to this site, <i>including other web applications</i>."
+msgstr "Очищає всі записи кешу, пов’язані з цим сайтом, <i>включаючи інші веб-програми</i>."
+
+#: tpl/toolbox/purge.tpl.php:132
+msgid "This may cause heavy load on the server."
+msgstr "Це може призвести до сильного навантаження на сервер."
+
+#: tpl/toolbox/purge.tpl.php:131
+msgid "This will clear EVERYTHING inside the cache."
+msgstr "Це очистить ВСЕ всередині кешу."
+
+#: src/gui.cls.php:579
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed Cache очистити все"
+
+#: tpl/inc/show_display_installed.php:19
+msgid "If you would rather not move at litespeed, you can deactivate this plugin."
+msgstr "Якщо ви не хочете залишатись з litespeed, ви можете деактивувати цей плагін."
+
+#: tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "Створіть запис, переконайтеся, що головна сторінка правильна."
+
+#: tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "Відвідайте сайт без авторизації."
+
+#: tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "Приклади тестових випадків включають:"
+
+#: tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "З цієї причини, будь ласка, перевірте сайт, щоб переконатися, що все ще працює належним чином."
+
+#: tpl/inc/show_display_installed.php:6
+msgid "This message indicates that the plugin was installed by the server admin."
+msgstr "Це повідомлення вказує на те, що плагін було встановлено адміністратором сервера."
+
+#: tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "Плагін LiteSpeed Cache встановлено!"
+
+#: src/lang.cls.php:225 tpl/toolbox/log_viewer.tpl.php:7
+msgid "Debug Log"
+msgstr "Журнал налагодження"
+
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "Admin IP Only"
+msgstr "Лише IP адміністратора"
+
+#: tpl/toolbox/settings-debug.tpl.php:38
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "Параметр IP адміністратора виводить повідомлення журналу лише на запити від IP-адрес адміністратора."
+
+#: tpl/cache/settings-ttl.tpl.php:82
+msgid "Specify how long, in seconds, REST calls are cached."
+msgstr "Вкажіть, скільки часу, в секундах, кешуються виклики REST."
+
+#: tpl/toolbox/report.tpl.php:49
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "Звіт про середовище містить детальну інформацію конфігурації WordPress."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:23
+msgid "The server will determine if the user is logged in based on the existence of this cookie."
+msgstr "Сервер визначить, чи ввійшов користувач на основі існування цього cookie."
+
+#: tpl/cache/settings-purge.tpl.php:50 tpl/cache/settings-purge.tpl.php:89
+#: tpl/cache/settings-purge.tpl.php:113
+#: tpl/page_optm/settings_tuning.tpl.php:77
+msgid "Note"
+msgstr "Примітка"
+
+#: thirdparty/woocommerce.content.tpl.php:22
+msgid "After verifying that the cache works in general, please test the cart."
+msgstr "Переконавшись, що кеш працює повною мірою, будь ласка, перевірте кошик."
+
+#: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:15
+msgid "When enabled, the cache will automatically purge when any plugin, theme or the WordPress core is upgraded."
+msgstr "Якщо ввімкнено, кеш автоматично очищатиметься, після оновлення будь-якого плагіна, теми або ядра WordPress."
+
+#: src/lang.cls.php:96
+msgid "Purge All On Upgrade"
+msgstr "Очистити все після оновлення"
+
+#: thirdparty/woocommerce.content.tpl.php:72
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "Використовуйте TTL головної сторінки для сторінки магазину"
+
+#: thirdparty/woocommerce.content.tpl.php:43
+msgid "Product Update Interval"
+msgstr "Інтервал оновлення товару"
+
+#: thirdparty/woocommerce.content.tpl.php:77
+msgid "Checking this option will force the shop page to use the front page TTL setting."
+msgstr "Якщо вибрати цей параметр, сторінка магазину буде використовувати налаштування TTL головної сторінки."
+
+#: thirdparty/woocommerce.content.tpl.php:64
+msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
+msgstr "Визначає, як зміни кількості товару та стану його запасів впливають на сторінки товарів і пов’язані з ними сторінки категорій."
+
+#: thirdparty/woocommerce.content.tpl.php:51
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "Завжди очищати товар та категорії при змінах кількості або статусу запасів."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "Не очищати категорії при зміні кількості або статусу запасів."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Purge product only when the stock status changes."
+msgstr "Очищати товар лише тоді, коли змінюється статус запасів."
+
+#: thirdparty/woocommerce.content.tpl.php:49
+msgid "Purge product and categories only when the stock status changes."
+msgstr "Очищати товар і категорії лише тоді, коли змінюється статус запасів."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge categories only when stock status changes."
+msgstr "Очищати категорії лише тоді, коли змінюється статус запасів."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "Очищати товар при змінах кількості або статусу запасів."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:43
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess не збігається з параметром конфігурації."
+
+#: tpl/cache/settings-ttl.tpl.php:68 tpl/cache/settings-ttl.tpl.php:83
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "Якщо для цього параметра встановити число менше 30, feeds не будуть кешуватися."
+
+#: tpl/cache/settings-ttl.tpl.php:67
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "Вкажіть, скільки часу, в секундах, кешуються feeds."
+
+#: src/lang.cls.php:63
+msgid "Default Feed TTL"
+msgstr "TTL feeds за замовчуванням"
+
+#: src/error.cls.php:132
+msgid "Failed to get %s file contents."
+msgstr "Не вдалося отримати вміст файлу %s."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:16
+msgid "Caching these pages may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Кешування цих сторінок може підвищити продуктивність сервера, уникаючи зайвих викликів PHP."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:15
+msgid "Some themes and plugins add resources via a PHP request."
+msgstr "Деякі теми та плагіни додають ресурси за допомогою запиту PHP."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:15
+msgid "Caching this resource may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Кешування цього ресурсу може покращити продуктивність сервера, уникаючи зайвих викликів PHP."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:14
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico запитується на більшості сторінок."
+
+#: src/lang.cls.php:75
+msgid "Cache favicon.ico"
+msgstr "Кешувати favicon.ico"
+
+#: tpl/cache/settings-cache.tpl.php:87
+msgid "Disabling this option may negatively affect performance."
+msgstr "Вимкнення цього параметра може негативно вплинути на продуктивність."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:42
+msgid "Invalid login cookie. Invalid characters found."
+msgstr "Недійсний cookie для входу. Знайдено недійсні символи."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:56
+msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
+msgstr "ПОПЕРЕДЖЕННЯ: cookie для входу .htaccess і cookie для входу в базу даних не збігаються."
+
+#: src/error.cls.php:116
+msgid "Invalid login cookie. Please check the %s file."
+msgstr "Недійсний cookie для входу. Будь ласка, перевірте файл %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:34
+msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
+msgstr "Кеш повинен розрізняти, хто ввійшов на який сайт WordPress, щоб правильно кешувати."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:31
+msgid "There is a WordPress installed for %s."
+msgstr "WordPress встановлено для %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:29
+msgid "Example use case:"
+msgstr "Приклад використання:"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:26
+msgid "The cookie set here will be used for this WordPress installation."
+msgstr "Для цієї інсталяції WordPress буде використовуватися набір cookie."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:25
+msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
+msgstr "Якщо кожна веб-програма використовує один і той самий cookie, сервер може плутати, чи увійшов користувач чи ні."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:24
+msgid "This setting is useful for those that have multiple web applications for the same domain."
+msgstr "Цей параметр корисний для тих, у кого є декілька веб-програм для одного домену."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:22
+msgid "The default login cookie is %s."
+msgstr "Cookie для входу за замовчуванням – %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:19
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "ПОВИНЕН БУТИ УНІКАЛЬНИМ ДЛЯ КОЖНОЇ ВЕБ-ПРОГРАМИ."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:18
+msgid "No spaces and case sensitive."
+msgstr "Без пробілів і чутливості до регістру."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:17
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "СИНТАКСИС: буквено-цифровий та «_»."
+
+#: src/lang.cls.php:187
+msgid "Login Cookie"
+msgstr "Cookie для входу"
+
+#: tpl/toolbox/settings-debug.tpl.php:58
+msgid "More information about the available commands can be found here."
+msgstr "Більше інформації про доступні команди можна знайти тут."
+
+#: tpl/cache/settings-advanced.tpl.php:13
+msgid "These settings are meant for ADVANCED USERS ONLY."
+msgstr "Ці налаштування призначені ТІЛЬКИ для ДОСВІДЧЕНИХ КОРИСТУВАЧІВ."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:82
+msgid "Current %s Contents"
+msgstr "Поточний %s вміст"
+
+#: tpl/cache/entry.tpl.php:18 tpl/cache/entry_network.tpl.php:11
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Advanced"
+msgstr "Розширені"
+
+#: tpl/cache/network_settings-advanced.tpl.php:7
+#: tpl/cache/settings-advanced.tpl.php:7
+msgid "Advanced Settings"
+msgstr "Розширені Параметри"
+
+#: tpl/toolbox/purge.tpl.php:258
+msgid "Purge List"
+msgstr "Список очищення"
+
+#: tpl/toolbox/purge.tpl.php:177
+msgid "Purge By..."
+msgstr "Очистити за..."
+
+#: tpl/crawler/blacklist.tpl.php:31 tpl/crawler/map.tpl.php:43
+#: tpl/toolbox/purge.tpl.php:224
+msgid "URL"
+msgstr "URL-адреса"
+
+#: tpl/toolbox/purge.tpl.php:218
+msgid "Tag"
+msgstr "Тег"
+
+#: tpl/toolbox/purge.tpl.php:212
+msgid "Post ID"
+msgstr "ID Запису"
+
+#: tpl/toolbox/purge.tpl.php:206
+msgid "Category"
+msgstr "Категорія"
+
+#: tpl/inc/show_error_cookie.php:5
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "ПРИМІТКА: cookie для входу в базу даних не відповідає вашому cookie."
+
+#: src/purge.cls.php:730
+msgid "Purge url %s"
+msgstr "Очистити URL-адресу %s"
+
+#: src/purge.cls.php:699
+msgid "Purge tag %s"
+msgstr "Очистити тег %s"
+
+#: src/purge.cls.php:672
+msgid "Purge category %s"
+msgstr "Очистити категорію %s"
+
+#: tpl/cache/settings-cache.tpl.php:27
+msgid "When disabling the cache, all cached entries for this site will be purged."
+msgstr "При вимкненні кешу всі кешовані записи для цього сайту будуть очищені."
+
+#: tpl/cache/settings-cache.tpl.php:27 tpl/page_optm/entry.tpl.php:30
+msgid "NOTICE"
+msgstr "ПРИМІТКА"
+
+#: src/doc.cls.php:104
+msgid "This setting will edit the .htaccess file."
+msgstr "Цей параметр редагує файл .htaccess."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:36
+msgid "LiteSpeed Cache View .htaccess"
+msgstr "LiteSpeed Cache View .htaccess"
+
+#: src/error.cls.php:120
+msgid "Failed to back up %s file, aborted changes."
+msgstr "Не вдалося створити резервну копію файлу %s, зміни скасовано."
+
+#: src/lang.cls.php:185
+msgid "Do Not Cache Cookies"
+msgstr "Не кешувати cookies"
+
+#: src/lang.cls.php:186
+msgid "Do Not Cache User Agents"
+msgstr "Не кешувати User Agents"
+
+#: tpl/cache/network_settings-cache.tpl.php:19
+msgid "This is to ensure compatibility prior to enabling the cache for all sites."
+msgstr "Це необхідно для забезпечення сумісності, перш ніж увімкнути кеш для всіх сайтів."
+
+#: tpl/cache/network_settings-cache.tpl.php:13
+msgid "Network Enable Cache"
+msgstr "Увімкнути кеш мережі"
+
+#: thirdparty/woocommerce.content.tpl.php:21
+#: tpl/cache/settings-advanced.tpl.php:12
+#: tpl/cache/settings_inc.browser.tpl.php:12 tpl/toolbox/heartbeat.tpl.php:14
+#: tpl/toolbox/report.tpl.php:29
+msgid "NOTICE:"
+msgstr "ПРИМІТКА:"
+
+#: tpl/cache/settings-purge.tpl.php:53
+msgid "Other checkboxes will be ignored."
+msgstr "Інші прапорці будуть ігноровані."
+
+#: tpl/cache/settings-purge.tpl.php:52
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "Виберіть «Усі», якщо є динамічні віджети, пов’язані з записами на сторінках, відмінних від головної чи домашньої."
+
+#: src/lang.cls.php:78 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "List of Mobile User Agents"
+msgstr "Список Mobile Agents користувача"
+
+#: src/file.cls.php:160 src/file.cls.php:165
+msgid "File %s is not writable."
+msgstr "Файл %s недоступний для запису."
+
+#: tpl/page_optm/entry.tpl.php:7 tpl/page_optm/settings_js.tpl.php:7
+msgid "JS Settings"
+msgstr "Налаштування JS"
+
+#: src/gui.cls.php:595 tpl/cdn/entry.tpl.php:7 tpl/cdn/settings.tpl.php:194
+#: tpl/db_optm/entry.tpl.php:6
+msgid "Manage"
+msgstr "Керувати"
+
+#: src/lang.cls.php:62
+msgid "Default Front Page TTL"
+msgstr "TTL Головної сторінки за замовчуванням"
+
+#: src/purge.cls.php:613
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення головної сторінки."
+
+#: tpl/toolbox/purge.tpl.php:7
+msgid "Purge Front Page"
+msgstr "Очистити головну сторінку"
+
+#: tpl/page_optm/settings_localization.tpl.php:127
+#: tpl/toolbox/beta_test.tpl.php:30
+msgid "Example"
+msgstr "Приклад"
+
+#: tpl/cache/settings-excludes.tpl.php:89
+msgid "All tags are cached by default."
+msgstr "Усі теги кешуються за замовчуванням."
+
+#: tpl/cache/settings-excludes.tpl.php:56
+msgid "All categories are cached by default."
+msgstr "Усі категорії кешуються за замовчуванням."
+
+#: src/admin-display.cls.php:1134
+msgid "To do an exact match, add %s to the end of the URL."
+msgstr "Щоб отримати точну відповідність, додайте %s в кінець URL-адреси."
+
+#: src/admin-display.cls.php:1130
+msgid "The URLs will be compared to the REQUEST_URI server variable."
+msgstr "URL-адреси порівнюватимуться із серверною змінною REQUEST_URI."
+
+#: tpl/cache/settings-purge.tpl.php:54
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "Виберіть лише ті типи архівів, які використовуються на даний момент, інші можна не позначити."
+
+#: tpl/toolbox/report.tpl.php:81
+msgid "Notes"
+msgstr "Примітки"
+
+#: tpl/cache/settings-cache.tpl.php:19
+msgid "Use Network Admin Setting"
+msgstr "Використовуйте налаштування адміністратора мережі"
+
+#: tpl/esi_widget_edit.php:48
+msgid "Disable"
+msgstr "Відключити"
+
+#: tpl/cache/network_settings-cache.tpl.php:17
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "Увімкнення LiteSpeed Cache для WordPress увімкне кеш для мережі."
+
+#: tpl/cache/settings_inc.object.tpl.php:7
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: tpl/cache/settings_inc.object.tpl.php:6
+msgid "Enabled"
+msgstr "Увімкнений"
+
+#: src/lang.cls.php:106
+msgid "Do Not Cache Roles"
+msgstr "Не кешувати ролі"
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#. Plugin Name of the plugin
+#: tpl/banner/new_version.php:59 tpl/banner/new_version_dev.tpl.php:12
+#: tpl/cache/more_settings_tip.tpl.php:15 tpl/inc/admin_footer.php:8
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed Cache"
+
+#: tpl/toolbox/settings-debug.tpl.php:36
+msgid "Outputs to WordPress debug log."
+msgstr "Вихідні дані для журнала налагодження WordPress."
+
+#: src/lang.cls.php:227
+msgid "Debug Level"
+msgstr "Рівень налагодження"
+
+#: tpl/general/settings.tpl.php:82 tpl/general/settings.tpl.php:93
+#: tpl/general/settings.tpl.php:105 tpl/general/settings.tpl.php:172
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:184
+#: tpl/general/settings.tpl.php:190 tpl/general/settings.tpl.php:207
+msgid "Notice"
+msgstr "Увага"
+
+#: tpl/cache/settings-purge.tpl.php:27
+msgid "Term archive (include category, tag, and tax)"
+msgstr "Архів термінів (включаючи категорію, тег і податок)"
+
+#: tpl/cache/settings-purge.tpl.php:25
+msgid "Daily archive"
+msgstr "Щоденний архів"
+
+#: tpl/cache/settings-purge.tpl.php:24
+msgid "Monthly archive"
+msgstr "Місячний архів"
+
+#: tpl/cache/settings-purge.tpl.php:23
+msgid "Yearly archive"
+msgstr "Щорічний архів"
+
+#: tpl/cache/settings-purge.tpl.php:21
+msgid "Post type archive"
+msgstr "Архів типу запису"
+
+#: tpl/cache/settings-purge.tpl.php:20
+msgid "Author archive"
+msgstr "Архів автора"
+
+#: tpl/cache/settings-purge.tpl.php:15
+msgid "Home page"
+msgstr "Головна сторінка"
+
+#: tpl/cache/settings-purge.tpl.php:14
+msgid "Front page"
+msgstr "Головна сторінка"
+
+#: tpl/cache/settings-purge.tpl.php:13
+msgid "All pages"
+msgstr "Всі сторінки"
+
+#: tpl/cache/settings-purge.tpl.php:72
+msgid "Select which pages will be automatically purged when posts are published/updated."
+msgstr "Виберіть, які сторінки будуть автоматично очищені, коли записи будуть опубліковані/оновлені."
+
+#: tpl/cache/settings-purge.tpl.php:47
+msgid "Auto Purge Rules For Publish/Update"
+msgstr "Правила автоматичного очищення для публікації/оновлення"
+
+#: src/lang.cls.php:60
+msgid "Default Public Cache TTL"
+msgstr "TTL загальнодоступного кешу за замовчуванням"
+
+#: src/admin-display.cls.php:949 tpl/cache/settings_inc.object.tpl.php:103
+#: tpl/crawler/settings-general.tpl.php:60
+#: tpl/crawler/settings-general.tpl.php:74
+#: tpl/crawler/settings-general.tpl.php:89 tpl/esi_widget_edit.php:70
+msgid "seconds"
+msgstr "секунди"
+
+#: src/lang.cls.php:226
+msgid "Admin IPs"
+msgstr "IP-адреси адміністратора"
+
+#: src/admin-display.cls.php:117
+msgid "General"
+msgstr "Загальні"
+
+#: tpl/cache/entry.tpl.php:39
+msgid "LiteSpeed Cache Settings"
+msgstr "Налаштування LiteSpeed Cache"
+
+#: src/purge.cls.php:211
+msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
+msgstr "Повідомлено веб-сервер LiteSpeed про очищення всіх записів LSCache."
+
+#: src/gui.cls.php:471 src/gui.cls.php:479 src/gui.cls.php:487
+#: src/gui.cls.php:496 src/gui.cls.php:506 src/gui.cls.php:516
+#: src/gui.cls.php:526 src/gui.cls.php:535 src/gui.cls.php:545
+#: src/gui.cls.php:555 src/gui.cls.php:621 src/gui.cls.php:629
+#: src/gui.cls.php:637 src/gui.cls.php:646 src/gui.cls.php:656
+#: src/gui.cls.php:666 src/gui.cls.php:676 src/gui.cls.php:686
+#: src/gui.cls.php:695 src/gui.cls.php:705 src/gui.cls.php:715
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
+#: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
+#: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
+#: tpl/toolbox/purge.tpl.php:79 tpl/toolbox/purge.tpl.php:88
+#: tpl/toolbox/purge.tpl.php:97 tpl/toolbox/purge.tpl.php:106
+#: tpl/toolbox/purge.tpl.php:115
+msgid "Purge All"
+msgstr "Очистити все"
+
+#: src/admin-display.cls.php:281 src/gui.cls.php:603
+msgid "Settings"
+msgstr "Налаштування"

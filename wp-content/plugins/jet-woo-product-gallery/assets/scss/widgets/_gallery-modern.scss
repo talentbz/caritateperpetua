@@ -1,0 +1,29 @@
+.jet-woo-product-gallery-modern {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+	.jet-woo-product-gallery__image-item {
+		padding: 15px;
+
+		&:nth-child(5n+1) {
+			width: 100%;
+			flex: 1 1 100%;
+		}
+
+		&:nth-child(5n+2),
+		&:nth-child(5n+5) {
+			width: 100%;
+			flex: 1 1 100%;
+			max-width: 70%;
+		}
+
+		&:nth-child(5n+3),
+		&:nth-child(5n+4) {
+			width: 100%;
+			flex: 1 1 100%;
+			max-width: 30%;
+		}
+	}
+}

@@ -1,0 +1,108 @@
+# Translation of Plugins - WP Fastest Cache - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WP Fastest Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-08 10:39:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WP Fastest Cache - Stable (latest release)\n"
+
+#: wpFastestCache.php:1932
+msgid "Once Every 3 Days"
+msgstr "Раз в кожні 3 дні"
+
+#. Author URI of the plugin
+msgid "http://tr.linkedin.com/in/emrevona"
+msgstr "http://tr.linkedin.com/in/emrevona"
+
+#. Author of the plugin
+msgid "Emre Vona"
+msgstr "Emre Vona"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/wp-fastest-cache/"
+msgstr "http://wordpress.org/plugins/wp-fastest-cache/"
+
+#. Plugin Name of the plugin
+msgid "WP Fastest Cache"
+msgstr "WP Fastest Cache"
+
+#: wpFastestCache.php:1962
+msgid "Once a Year"
+msgstr "Раз в рік"
+
+#: wpFastestCache.php:1956
+msgid "Once a Month"
+msgstr "Раз в місяць"
+
+#: wpFastestCache.php:1944
+msgid "Once Every 10 Days"
+msgstr "Раз в кожні 10 днів"
+
+#: wpFastestCache.php:1926
+msgid "Once a Day"
+msgstr "Раз в день"
+
+#: wpFastestCache.php:1920
+msgid "Once Every 10 Hours"
+msgstr "Раз в кожні 10 годин"
+
+#: wpFastestCache.php:1914
+msgid "Once Every 9 Hours"
+msgstr "Раз в кожні 9 годин"
+
+#: wpFastestCache.php:1908
+msgid "Once Every 8 Hours"
+msgstr "Раз в кожні 8 годин"
+
+#: wpFastestCache.php:1902
+msgid "Once Every 7 Hours"
+msgstr "Раз в кожні 7 годин"
+
+#: wpFastestCache.php:1896
+msgid "Once Every 6 Hours"
+msgstr "Раз в кожні 6 годин"
+
+#: wpFastestCache.php:1890
+msgid "Once Every 5 Hours"
+msgstr "Раз в кожні 5 годин"
+
+#: wpFastestCache.php:1884
+msgid "Once Every 4 Hours"
+msgstr "Раз в кожні 4 години"
+
+#: wpFastestCache.php:1878
+msgid "Once Every 3 Hours"
+msgstr "Раз в кожні 3 години"
+
+#: wpFastestCache.php:1872
+msgid "Once Every 2 Hours"
+msgstr "Раз в кожні 2 години"
+
+#: wpFastestCache.php:1866
+msgid "Once an Hour"
+msgstr "Раз годину"
+
+#: wpFastestCache.php:1860
+msgid "Twice an Hour"
+msgstr "Двічі в годину"
+
+#: wpFastestCache.php:1854
+msgid "Once Every 15 Minutes"
+msgstr "Раз в кожні 15 хвилин"
+
+#: wpFastestCache.php:1848
+msgid "Once Every 5 Minutes"
+msgstr "Раз в кожні 5 хвилин"
+
+#: wpFastestCache.php:1842
+msgid "Once Every 1 Minute"
+msgstr "Раз в кожну хвилину"
+
+#. Description of the plugin
+msgid "The simplest and fastest WP Cache system"
+msgstr "Найпростіша і найшвидка система WP Cache"

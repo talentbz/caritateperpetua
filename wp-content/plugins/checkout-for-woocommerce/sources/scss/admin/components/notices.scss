@@ -1,0 +1,59 @@
+#cfw_welcome_notice {
+    padding: 24px;
+
+    h2 {
+        margin-top: 0;
+    }
+}
+
+body.cfw-admin-page {
+    .form-table td {
+        position: relative;
+    }
+}
+
+.cfw-license-upgrade-blocker ~ * {
+    display: none !important;
+}
+
+.cfw-license-upgrade-blocker {
+    background: rgba( 255, 255, 255, 0.75 );
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    .inner {
+        position: relative;
+        padding: 2rem;
+        text-align: center;
+
+        h3 {
+            margin-top: 0;
+        }
+    }
+}
+
+body.post-type-cfw_order_bumps #wpbody {
+    height: 100vh;
+}
+
+body.post-type-cfw_order_bumps .cfw-license-upgrade-blocker {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    right: 0;
+    bottom: 0;
+    box-shadow: none;
+
+    .inner {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+body.cfw-admin-page {
+    .notice, div.updated, div.error {
+        &:not(.checkout-wc) {
+            display: none !important;
+        }
+    }
+}

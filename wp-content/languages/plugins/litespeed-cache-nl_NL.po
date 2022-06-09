@@ -1,0 +1,5146 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-16 09:23:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/page_optm/settings_localization.tpl.php:131
+msgid "Please thoroughly test each JS file you add to ensure it functions as expected."
+msgstr "Test elk JS-bestand dat je toevoegt grondig om er zeker van te zijn dat het werkt zoals verwacht."
+
+#: tpl/page_optm/settings_localization.tpl.php:98
+msgid "Please thoroughly test all items in %s to ensure they function as expected."
+msgstr "Test alle items in %s grondig om er zeker van te zijn dat ze werken zoals verwacht."
+
+#: tpl/page_optm/settings_tuning.tpl.php:105
+msgid "Use %1$s to bypass UCSS for the pages which page type is %2$s."
+msgstr "Gebruik %1$s om UCSS te omzeilen voor de pagina's waarvan het paginatype %2$s is."
+
+#: tpl/page_optm/settings_tuning.tpl.php:104
+msgid "Use %1$s to generate one single UCSS for the pages which page type is %2$s while other page types still per URL."
+msgstr "Gebruik %1$s om één enkele UCSS te genereren voor de pagina's welk paginatype %2$s is terwijl andere paginatypen nog steeds per URL zijn."
+
+#: tpl/page_optm/settings_css.tpl.php:68
+msgid "Filter %s available for UCSS per page type generation."
+msgstr "Filter %s beschikbaar voor UCSS per paginatype generatie."
+
+#: tpl/general/settings_inc.guest.tpl.php:35
+#: tpl/general/settings_inc.guest.tpl.php:38
+msgid "Guest Mode failed to test."
+msgstr "Gastmodus kan niet worden getest."
+
+#: tpl/general/settings_inc.guest.tpl.php:32
+msgid "Guest Mode passed testing."
+msgstr "Gastmodus is geslaagd voor testen."
+
+#: tpl/general/settings_inc.guest.tpl.php:25
+msgid "Testing"
+msgstr "Testing"
+
+#: tpl/general/settings_inc.guest.tpl.php:24
+msgid "Guest Mode testing result"
+msgstr "Testresultaat gastmodus"
+
+#: tpl/crawler/blacklist.tpl.php:55
+msgid "Not blocklisted"
+msgstr "Niet op blokkeerlijst geplaatst"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:19
+msgid "Learn more about when this is needed"
+msgstr "Meer informatie over wanneer dit nodig is"
+
+#: src/purge.cls.php:317
+msgid "Cleaned all localized resource entries."
+msgstr "Alle gelokaliseerde bronvermeldingen opgeschoond."
+
+#: src/lang.cls.php:112
+msgid "UCSS Allowlist"
+msgstr "UCSS lijst toegestaan"
+
+#: tpl/dash/dashboard.tpl.php:563
+msgid "<b>Last crawled:</b> %d item(s)"
+msgstr "<b>Laatst gecrawld:</b> %d item(s)"
+
+#: tpl/toolbox/entry.tpl.php:14
+msgid "View .htaccess"
+msgstr "Bekijk .htaccess"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:56 tpl/toolbox/edit_htaccess.tpl.php:73
+msgid "You can use this code %1$s in %2$s to specify the htaccess file path."
+msgstr "Je kunt deze code %1$s gebruiken in %2$s om het htaccess bestandspad aan te geven."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:55 tpl/toolbox/edit_htaccess.tpl.php:72
+msgid "PHP Constant %s is supported."
+msgstr "PHP Constant %s wordt ondersteund."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:52 tpl/toolbox/edit_htaccess.tpl.php:69
+msgid "Default path is"
+msgstr "Standaard pad is"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:41
+msgid ".htaccess Path"
+msgstr ".htaccess pad"
+
+#: tpl/general/settings.tpl.php:151
+msgid "Please read all warnings before enabling this option."
+msgstr "Lees alle waarschuwingen voordat je deze optie inschakelt."
+
+#: tpl/toolbox/purge.tpl.php:80
+msgid "This will delete all generated unique CSS files"
+msgstr "Dit zal alle gegenereerde unieke CSS bestanden verwijderen"
+
+#: tpl/toolbox/beta_test.tpl.php:59
+msgid "In order to avoid an upgrade error, you must be using %1$s or later before you can upgrade to %2$s versions."
+msgstr "Om fouten bij een upgrade te voorkomen, moet je %1$s of hoger gebruiken voordat je kunt upgraden naar %2$s-versies."
+
+#: tpl/toolbox/beta_test.tpl.php:53
+msgid "Use latest GitHub Dev/Master commit"
+msgstr "Laatste GitHub dev/master commit gebruiken"
+
+#: tpl/toolbox/beta_test.tpl.php:53
+msgid "Press the %s button to use the most recent GitHub commit. Master is for release candidate & Dev is for experimental testing."
+msgstr "Druk op de %s knop om de meest recente GitHub commit te gebruiken. Master is voor release kandidaat & Dev is voor experimenteel testen."
+
+#: tpl/toolbox/beta_test.tpl.php:49
+msgid "Downgrade not recommended. May cause fatal error due to refactored code."
+msgstr "Downgraden wordt niet aanbevolen. Kan fatale fout veroorzaken door geüpdatete code."
+
+#: tpl/page_optm/settings_tuning.tpl.php:216
+msgid "Only optimize pages for guest (not logged in) visitors. If turned this OFF, CSS/JS/CCSS files will be doubled by each user group."
+msgstr "Optimaliseer alleen pagina's voor gast (niet ingelogde) bezoekers. Als dit UIT staat, worden CSS/JS/CCSS-bestanden verdubbeld voor elke gebruikersgroep."
+
+#: tpl/page_optm/settings_tuning.tpl.php:182
+msgid "Listed JS files or inline JS code will not be optimized by %s."
+msgstr "Opgesomde JS bestanden of inline JS code worden door %s niet geoptimaliseerd."
+
+#: tpl/page_optm/settings_tuning.tpl.php:97
+msgid "Listed URI will not generate UCSS."
+msgstr "In de lijst opgenomen URI zal geen UCSS genereren."
+
+#: tpl/page_optm/settings_tuning.tpl.php:79
+msgid "The selector must exist in the CSS. Parent classes in the HTML will not work."
+msgstr "De selector moet in de CSS bestaan. Hoofd klassen in de HTML werken niet."
+
+#: tpl/page_optm/settings_tuning.tpl.php:75
+msgid "Wildcard %s supported."
+msgstr "Wildcard %s wordt ondersteund."
+
+#: tpl/page_optm/settings_tuning.tpl.php:74
+msgid "How to choose an UCSS allowlist selector?"
+msgstr "Hoe kies ik een UCSS toegestane lijst selector?"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:24
+msgid "Useful for above-the-fold images causing CLS (a Core Web Vitals metric)."
+msgstr "Nuttig voor boven-de-vouw afbeeldingen die CLS veroorzaken (een core web vitals metriek)."
+
+#: tpl/page_optm/settings_media.tpl.php:229
+msgid "Note: this option only works when %1$s is %2$s."
+msgstr "Opmerking: deze optie werkt alleen als %1$s is %2$s."
+
+#: tpl/page_optm/settings_media.tpl.php:227
+msgid "Set an explicit width and height on image elements to reduce layout shifts and improve CLS (a Core Web Vitals metric)."
+msgstr "Stel een expliciete breedte en hoogte in op afbeelding elementen om lay-out verschuivingen te verminderen en CLS (een core web vitals meting) te verbeteren."
+
+#: tpl/page_optm/settings_media.tpl.php:125
+msgid "Changes to this setting do not apply to already-generated LQIPs. To regenerate existing LQIPs, please %s first from the admin bar menu."
+msgstr "Veranderingen aan deze instelling gelden niet voor reeds gegenereerde LQIP's. Om bestaande LQIP's te regenereren, ga je eerst naar %s uit het beheerdersbalk menu."
+
+#: tpl/page_optm/settings_js.tpl.php:65
+msgid "Deferring until page is parsed or delaying till interaction can help reduce resource contention and improve performance causing a lower FID (Core Web Vitals metric)."
+msgstr "Uitstellen tot de pagina geparsed is of uitstellen tot de interactie kan helpen om de contentie van gegevensbron te verminderen en de prestaties te verbeteren, wat een lagere FID (core web vitals metric) veroorzaakt."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Delayed"
+msgstr "Vertraagd"
+
+#: tpl/page_optm/settings_js.tpl.php:38
+msgid "JS error can be found from the developer console of browser by right clicking and choosing Inspect."
+msgstr "JS fout kun je vinden in de ontwikkelaar console van de browser door met rechts te klikken en Inspecteer te kiezen."
+
+#: tpl/page_optm/settings_js.tpl.php:37 tpl/page_optm/settings_js.tpl.php:70
+msgid "This option may result in a JS error or layout issue on frontend pages with certain themes/plugins."
+msgstr "Deze optie kan bij bepaalde thema's/plugins een JS fout of lay-out probleem opleveren op frontend pagina's."
+
+#: tpl/page_optm/settings_html.tpl.php:101
+msgid "This will also add a preconnect to Google Fonts to establish a connection earlier."
+msgstr "Dit voegt tevens een 'preconnect' voor Google Fonts toe om eerder een verbinding te maken."
+
+#: tpl/page_optm/settings_html.tpl.php:64
+msgid "Delay rendering off-screen HTML elements by its selector."
+msgstr "Vertraag het renderen van buiten-het-scherm HTML elementen door zijn selector."
+
+#: tpl/page_optm/settings_css.tpl.php:243
+msgid "Disable this option to generate CCSS per Post Type instead of per page. This can save significant CCSS quota, however it may result in incorrect CSS styling if your site uses a page builder."
+msgstr "Schakel deze optie uit om CCSS per berichttype te genereren in plaats van per pagina. Dit kan aanzienlijke CCSS quota's besparen, maar het kan resulteren in onjuiste CSS styling als je site een pagina bouwer gebruikt."
+
+#: tpl/page_optm/settings_css.tpl.php:182
+msgid "This option is bypassed due to %s option."
+msgstr "Deze optie wordt omzeild door de optie %s."
+
+#: tpl/page_optm/settings_css.tpl.php:177
+msgid "Elements with attribute %s in HTML code will be excluded."
+msgstr "Elementen in de HTML code met attribuut %s worden uitgesloten."
+
+#: tpl/page_optm/settings_css.tpl.php:171
+msgid "Use QUIC.cloud online service to generate critical CSS and load remaining CSS asynchronously."
+msgstr "Online service QUIC.cloud gebruiken om kritieke CSS te genereren en overige CSS asynchroon te laden."
+
+#: tpl/page_optm/settings_css.tpl.php:136
+msgid "This option will automatically bypass %s option."
+msgstr "Deze optie omzeilt automatisch de optie %s."
+
+#: tpl/page_optm/settings_css.tpl.php:134
+msgid "Inline UCSS to reduce the extra CSS file loading. This option will not be automatically turned on for %1$s pages. To use it on %1$s pages, please set it to ON."
+msgstr "Inline UCSS om het extra laden van CSS bestanden te verminderen. Deze optie wordt niet automatisch ingeschakeld voor %1$s pagina's. Om het op %1$s pagina's te gebruiken, zet je het op ON."
+
+#: tpl/page_optm/settings_css.tpl.php:118
+#: tpl/page_optm/settings_css.tpl.php:228
+msgid "Run %s Queue Manually"
+msgstr "Start %s wachtrij handmatig"
+
+#: tpl/page_optm/settings_css.tpl.php:72
+msgid "This option is bypassed because %1$s option is %2$s."
+msgstr "Deze optie wordt omzeild omdat %1$s optie is %2$s."
+
+#: tpl/page_optm/settings_css.tpl.php:67
+msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
+msgstr "Het automatisch genereren van unieke CSS gebeurt in de achtergrond via een cron-gebaseerde wachtrij."
+
+#: tpl/page_optm/settings_css.tpl.php:65
+msgid "This will drop the unused CSS on each page from the combined file."
+msgstr "Hierdoor worden de ongebruikte stijlregels op elke pagina uit het gecombineerde CSS-bestand achterwege gelaten."
+
+#: tpl/page_optm/entry.tpl.php:8 tpl/page_optm/settings_html.tpl.php:7
+msgid "HTML Settings"
+msgstr "HTML Instellingen"
+
+#: tpl/inc/in_upgrading.php:5
+msgid "LiteSpeed cache plugin upgraded. Please refresh the page to complete the configuration data upgrade."
+msgstr "LiteSpeed cache plugin opgewaardeerd. Vernieuw de pagina om de upgrade van de configuratiegegevens te voltooien."
+
+#: tpl/general/settings_tuning.tpl.php:50
+msgid "Listed IPs will be considered as Guest Mode visitors."
+msgstr "IP's op de lijst worden beschouwd als bezoekers in de gastmodus."
+
+#: tpl/general/settings_tuning.tpl.php:28
+msgid "Listed User Agents will be considered as Guest Mode visitors."
+msgstr "In de lijst opgenomen gebruikersagenten worden beschouwd als bezoekers in de gastmodus."
+
+#: tpl/general/settings.tpl.php:165
+msgid "Your %1s quota on %2s will still be in use."
+msgstr "Je %1s quota op %2s zal nog steeds in gebruik zijn."
+
+#: tpl/general/settings_inc.guest.tpl.php:17
+msgid "This option can help to correct the cache vary for certain advanced mobile or tablet visitors."
+msgstr "Deze optie kan helpen om de cache variërend te corrigeren voor bepaalde gevorderde mobiele of tablet bezoekers."
+
+#: tpl/general/settings_inc.guest.tpl.php:16
+msgid "Guest Mode provides an always cacheable landing page for an automated guest's first time visit, and then attempts to update cache varies via AJAX."
+msgstr "Gastmodus biedt een altijd cachebare bestemmingspagina voor het eerste bezoek van een geautomatiseerde gast, en vervolgens varieert de poging om de cache bij te werken via AJAX."
+
+#: tpl/general/settings.tpl.php:208
+msgid "Please make sure this IP is the correct one for visiting your site."
+msgstr "Zorg ervoor dat dit het juiste IP-adres is om je site te bezoeken."
+
+#: tpl/general/settings.tpl.php:207
+msgid "the auto-detected IP may not be accurate if you have an additional outgoing IP set, or you have multiple IPs configured on your server."
+msgstr "het automatisch gedetecteerde IP kan niet juist zijn als je een extra uitgaand IP ingesteld hebt, of als je meerdere IP's op je server ingesteld hebt."
+
+#: tpl/general/settings.tpl.php:184
+msgid "You need to turn %s on and finish all WebP generation to get maximum result."
+msgstr "Je moet %s aanzetten en alle WebP generatie afmaken om maximaal resultaat te krijgen."
+
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:190
+msgid "You need to turn %s on to get maximum result."
+msgstr "Je moet %s aanzetten om maximaal resultaat te krijgen."
+
+#: tpl/general/settings.tpl.php:172
+msgid "This option only works when turning %s on."
+msgstr "Deze optie werkt alleen als je %s aanzet."
+
+#: tpl/general/settings.tpl.php:150
+msgid "This option enables maximum optimization for Guest Mode visitors."
+msgstr "Met deze optie schakel je maximale optimalisatie in voor gastmodus."
+
+#: tpl/dash/dashboard.tpl.php:300 tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:432 tpl/dash/dashboard.tpl.php:465
+#: tpl/dash/dashboard.tpl.php:498 tpl/dash/dashboard.tpl.php:530
+msgid "More"
+msgstr "Meer"
+
+#: tpl/dash/dashboard.tpl.php:160
+msgid "Remaining Daily Quota"
+msgstr "Overblijvend dagelijks quotum"
+
+#: tpl/crawler/summary.tpl.php:183
+msgid "Successfully Crawled"
+msgstr "Met succes gecrawld"
+
+#: tpl/crawler/summary.tpl.php:182
+msgid "Already Cached"
+msgstr "Reeds in cache opgenomen"
+
+#: tpl/crawler/settings-sitemap.tpl.php:22
+msgid "The crawler will use your XML sitemap or sitemap index. Enter the full URL to your sitemap here."
+msgstr "De crawler gebruikt je XML sitemap of sitemap index. Voer hier de volledige URL van je sitemap in."
+
+#: tpl/cdn/settings.tpl.php:214
+msgid "Optional when API token used."
+msgstr "Facultatief bij gebruik van een API token."
+
+#: tpl/cdn/settings.tpl.php:204
+msgid "Recommended to generate the token from Cloudflare API token template \"WordPress\"."
+msgstr "Aanbevolen wordt om het token te genereren uit het Cloudflare API token template \"WordPress\"."
+
+#: tpl/cdn/settings.tpl.php:198
+msgid "Global API Key / API Token"
+msgstr "Globale API sleutel/API token"
+
+#: tpl/cdn/settings.tpl.php:194
+msgid "This can be managed from %1$s%2$s tab."
+msgstr "Dit kan beheerd worden via %1$s%2$s tab."
+
+#: tpl/cdn/settings.tpl.php:54
+msgid "NOTE: QUIC.cloud CDN and Cloudflare do not use CDN Mapping. If you are are only using QUIC.cloud or Cloudflare, leave this setting %1$s."
+msgstr "OPMERKING: QUIC.cloud CDN en Cloudflare maken geen gebruik van CDN Mapping. Als je alleen één van deze twee gebruikt, laat deze instelling dan %1$s."
+
+#: tpl/cdn/settings.tpl.php:49
+msgid "Turn this setting %1$s if you are using a traditional Content Delivery Network (CDN) or a subdomain for static content with QUIC.cloud CDN."
+msgstr "Zet deze instelling op %1$s als je een traditioneel Content Delivery Network (CDN) gebruikt of een subdomein voor statische inhoud met QUIC.cloud CDN."
+
+#: tpl/cache/settings_inc.object.tpl.php:41
+msgid "Use external object cache functionality."
+msgstr "Gebruik externe object cache functionaliteit."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:18
+msgid "Serve a separate cache copy for mobile visitors."
+msgstr "Serveer een aparte cache kopie voor mobiele bezoekers."
+
+#: thirdparty/woocommerce.content.tpl.php:36
+msgid "When the option is ON, cart information will be implemented as ESI blocks. NOTE: To make it work, you need to turn on %1$s under ESI settings."
+msgstr "Als de optie AAN staat, wordt winkelwagen informatie uitgevoerd als ESI blokken. OPMERKING: Om het te laten werken, moet je onder ESI instellingen %1$s aanzetten."
+
+#: thirdparty/woocommerce.content.tpl.php:31
+msgid "Use ESI for Cart"
+msgstr "Gebruik ESI voor winkelwagen"
+
+#: thirdparty/woocommerce.content.tpl.php:24
+msgid "By default, the My Account, Checkout, and Cart pages are automatically excluded from caching. Misconfiguration of page associations in WooCommerce settings may cause some pages to be erroneously excluded."
+msgstr "Standaard worden de pagina's Mijn account, Afrekenen en Winkelwagen pagina's automatisch uitgesloten van caching. Verkeerd geconfigureerde pagina associaties in WooCommerce instellingen kunnen sommige pagina's abusievelijk uitsluiten."
+
+#: src/purge.cls.php:249
+msgid "Cleaned all Unique CSS files."
+msgstr "Opgeschoond alle Unieke CSS bestanden."
+
+#: src/lang.cls.php:166
+msgid "Add Missing Sizes"
+msgstr "Ontbrekende afmetingen toevoegen"
+
+#: src/lang.cls.php:141
+msgid "Optimize for Guests Only"
+msgstr "Alleen voor gastbezoekers optimaliseren"
+
+#: src/lang.cls.php:137
+msgid "Guest Mode JS Excludes"
+msgstr "Gastmodus JS uitsluitingen"
+
+#: src/lang.cls.php:120
+msgid "CCSS Per URL"
+msgstr "CCSS per URL"
+
+#: src/lang.cls.php:118
+msgid "HTML Lazy Load Selectors"
+msgstr "HTML lazy-load selectoren"
+
+#: src/lang.cls.php:113
+msgid "UCSS URI Excludes"
+msgstr "UCSS URI uitsluitingen"
+
+#: src/lang.cls.php:111
+msgid "UCSS Inline"
+msgstr "UCSS Inline"
+
+#: src/lang.cls.php:69
+msgid "Guest Optimization"
+msgstr "Gast optimalisatie"
+
+#: src/lang.cls.php:68
+msgid "Guest Mode"
+msgstr "Gast modus"
+
+#: src/lang.cls.php:56
+msgid "Guest Mode IPs"
+msgstr "Gastmodus IP's"
+
+#: src/lang.cls.php:55
+msgid "Guest Mode User Agents"
+msgstr "Gast modus user agents"
+
+#: src/error.cls.php:96
+msgid "Online node needs to be redetected."
+msgstr "De online node moet opnieuw opgespoord worden."
+
+#: src/error.cls.php:92
+msgid "The current server is under heavy load."
+msgstr "De huidige server wordt zwaar belast."
+
+#: src/error.cls.php:52
+msgid "You don't have enough daily quota left for current service today."
+msgstr "Je hebt niet genoeg dagelijkse quota over voor de huidige dienst vandaag."
+
+#: src/doc.cls.php:37
+msgid "Please see %s for more details."
+msgstr "Zie %s voor meer details."
+
+#: src/doc.cls.php:25
+msgid "This setting will regenerate crawler list and clear the disabled list!"
+msgstr "Deze instelling zal de crawler lijst regenereren en de uitgeschakelde lijst wissen!"
+
+#: src/css.cls.php:532
+msgid "%1$s %2$s files left in queue"
+msgstr "Nog %1$s %2$s bestanden in wachtrij"
+
+#: src/crawler.cls.php:99
+msgid "Crawler disabled list is cleared! All crawlers are set to active! "
+msgstr "De lijst met uitgeschakelde crawlers is gewist! Alle crawlers zijn op actief gezet! "
+
+#: src/cloud.cls.php:665
+msgid "Redetected node"
+msgstr "Opnieuw ontdekte node"
+
+#: src/cloud.cls.php:432
+msgid "No available Cloud Node after checked server load."
+msgstr "Geen beschikbare Cloud Node na gecontroleerde serverbelasting."
+
+#: src/lang.cls.php:125
+msgid "Localization Files"
+msgstr "Lokalisatie bestanden"
+
+#: cli/purge.cls.php:247
+msgid "Purged!"
+msgstr "Opgeschoond!"
+
+#: tpl/page_optm/settings_localization.tpl.php:120
+msgid "Resources listed here will be copied and replaced with local URLs."
+msgstr "De hier vermelde bronnen worden gekopieerd en vervangen door lokale URL's."
+
+#: tpl/toolbox/beta_test.tpl.php:36
+msgid "Use latest GitHub Master commit"
+msgstr "Gebruik de laatste GitHub master commit"
+
+#: tpl/toolbox/beta_test.tpl.php:34
+msgid "Use latest GitHub Dev commit"
+msgstr "Gebruik de laatste GiHub dev commit"
+
+#: src/crawler-map.cls.php:317
+msgid "No valid sitemap parsed for crawler."
+msgstr "Geen geldige sitemap geparsed voor crawler."
+
+#: src/lang.cls.php:109
+msgid "CSS Combine External and Inline"
+msgstr "CSS Combineer extern en inline"
+
+#: tpl/page_optm/settings_css.tpl.php:150
+msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
+msgstr "Neem externe CSS en inline CSS op in een gecombineerd bestand als %1$s ook is ingeschakeld. Deze optie helpt bij het behouden van de prioriteiten in de CSS uitvoering, wat potentiële fouten zou moeten minimaliseren veroorzaakt door het bundelen van CSS."
+
+#: tpl/page_optm/settings_css.tpl.php:30
+msgid "Minify CSS files and inline CSS code."
+msgstr "Verklein CSS bestanden en inline CSS code."
+
+#: tpl/page_optm/settings_tuning.tpl.php:38
+#: tpl/page_optm/settings_tuning.tpl.php:59
+#: tpl/page_optm/settings_tuning.tpl.php:83
+#: tpl/page_optm/settings_tuning.tpl.php:168
+msgid "Predefined list will also be combined w/ the above settings"
+msgstr "Vooraf gedefinieerde lijst wordt ook gecombineerd met de bovenstaande instellingen"
+
+#: tpl/page_optm/entry.tpl.php:11
+msgid "Localization"
+msgstr "Lokalisatie"
+
+#: tpl/page_optm/settings_js.tpl.php:52
+msgid "Include external JS and inline JS in combined file when %1$s is also enabled. This option helps maintain the priorities of JS execution, which should minimize potential errors caused by JS Combine."
+msgstr "Neem externe JS en inline JS op in een gecombineerd bestand als %1$s ook is ingeschakeld. Deze optie helpt bij het behouden van de prioriteiten in de JS uitvoering, wat potentiële fouten zou moeten minimaliseren veroorzaakt door het bundelen van JS."
+
+#: tpl/page_optm/settings_js.tpl.php:34
+msgid "Combine all local JS files into a single file."
+msgstr "Bundel alle lokale JS bestanden in een bestand."
+
+#: tpl/page_optm/settings_tuning.tpl.php:161
+msgid "Listed JS files or inline JS code will not be deferred."
+msgstr "Laden van vermelde JS bestanden of inline JS code wordt niet uitgesteld."
+
+#: tpl/general/settings.tpl.php:94
+msgid "Request submitted. Please wait, then refresh the page to see approval notification."
+msgstr "Aanvraag ingediend. Wacht even en vernieuw dan de pagina om het goedkeurings bericht te zien."
+
+#: src/data.upgrade.func.php:102
+msgid "Click here to settings"
+msgstr "Klik om hier om naar instellingen te gaan"
+
+#: src/data.upgrade.func.php:101
+msgid "JS Defer"
+msgstr "JS Uitstel"
+
+#: src/data.upgrade.func.php:101
+msgid "LiteSpeed Cache upgraded successfully. NOTE: Due to changes in this version, the settings %1$s and %2$s have been turned OFF. Please turn them back on manually and verify that your site layout is correct, and you have no JS errors."
+msgstr "LiteSpeed ​​Cache is succesvol geüpgraded. OPMERKING: vanwege wijzigingen in deze versie zijn de instellingen %1$s en %2$s UITGESCHAKELD. Schakel ze handmatig weer in en controleer of je site lay-out correct is en of je geen JS fouten hebt."
+
+#: src/lang.cls.php:116
+msgid "JS Combine External and Inline"
+msgstr "JS Combineer extern en inline"
+
+#: src/admin-display.cls.php:460
+msgid "Dismiss"
+msgstr "Negeer"
+
+#: tpl/cache/settings-esi.tpl.php:93
+msgid "The latest data file is"
+msgstr "Het nieuwste gegevensbestand is"
+
+#: tpl/cache/settings-esi.tpl.php:92
+msgid "The list will be merged with the predefined nonces in your local data file."
+msgstr "De lijst wordt samengevoegd met de vooraf gedefinieerde nonces in je lokale gegevensbestand."
+
+#: tpl/page_optm/settings_css.tpl.php:43
+msgid "Combine CSS files and inline CSS code."
+msgstr "Combineer CSS bestanden en inline CSS code."
+
+#: tpl/page_optm/settings_js.tpl.php:21
+msgid "Minify JS files and inline JS codes."
+msgstr "Verklein JS bestanden en inline JS code."
+
+#: tpl/page_optm/settings_tuning.tpl.php:52
+msgid "Listed JS files or inline JS code will not be minified/combined."
+msgstr "Vermelde JS bestanden of inline JS code worden niet verkleind/gecombineerd."
+
+#: tpl/page_optm/settings_tuning.tpl.php:31
+msgid "Listed CSS files or inline CSS code will not be minified/combined."
+msgstr "Vermelde CSS bestanden of inline CSS code worden niet verkleind/gecombineerd."
+
+#: src/css.cls.php:60 src/root.cls.php:176
+msgid "Queue cleared successfully."
+msgstr "De queue is met succes gewist."
+
+#: src/admin-display.cls.php:935
+msgid "This setting is overwritten by the Network setting"
+msgstr "Deze instelling wordt overschreven door de netwerk instelling"
+
+#: src/lang.cls.php:155
+msgid "LQIP Excludes"
+msgstr "LQIP uitsluitingen"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:122
+msgid "These images will not generate LQIP."
+msgstr "Deze afbeeldingen zullen geen LQIP genereren."
+
+#: tpl/toolbox/import_export.tpl.php:52
+msgid "Are you sure you want to reset all settings back to the default settings?"
+msgstr "Weet je zeker dat je alle instellingen wil terugzetten naar de standaardinstellingen?"
+
+#: tpl/page_optm/settings_html.tpl.php:142
+msgid "This option will remove all %s tags from HTML."
+msgstr "Met deze optie worden alle %s tags uit HTML verwijderd."
+
+#: tpl/general/settings.tpl.php:116
+msgid "Are you sure you want to clear all cloud nodes?"
+msgstr "Weet je zeker dat je alle cloud knooppunten wil wissen?"
+
+#: src/lang.cls.php:139
+msgid "Remove Noscript Tags"
+msgstr "Verwijder Noscript tags"
+
+#: src/error.cls.php:84
+msgid "The site is not registered on QUIC.cloud."
+msgstr "Site is niet geregistreerd op QUIC.cloud."
+
+#: src/error.cls.php:43
+msgid "Click here to change."
+msgstr "Klik hier om te wijzigen."
+
+#: src/cloud.cls.php:763 src/error.cls.php:48
+msgid "Click here to set."
+msgstr "Klik hier om in te stellen."
+
+#: src/cloud.cls.php:762
+msgid "Site not recognized. Domain Key has been automatically removed. Please request a new one."
+msgstr "Site niet herkend. Domeinsleutel is automatisch verwijderd. Vraag een nieuwe aan."
+
+#: src/lang.cls.php:124
+msgid "Localize Resources"
+msgstr "Lokaliseer bronnen"
+
+#: tpl/cache/settings_inc.browser.tpl.php:14
+msgid "Setting Up Custom Headers"
+msgstr "Aangepaste headers instellen"
+
+#: tpl/toolbox/purge.tpl.php:89
+msgid "This will delete all localized resources"
+msgstr "Hiermee worden alle gelokaliseerde bronnen verwijderd"
+
+#: src/gui.cls.php:535 src/gui.cls.php:695 tpl/toolbox/purge.tpl.php:88
+msgid "Localized Resources"
+msgstr "Gelokaliseerde bronnen"
+
+#: tpl/page_optm/settings_localization.tpl.php:125
+msgid "Comments are supported. Start a line with a %s to turn it into a comment line."
+msgstr "Reacties worden ondersteund. Begin een regel met een %s om er een reactie regel van te maken."
+
+#: tpl/page_optm/settings_localization.tpl.php:121
+msgid "HTTPS sources only."
+msgstr "Enkel HTTPS bronnen."
+
+#: tpl/page_optm/settings_localization.tpl.php:94
+msgid "Localize external resources."
+msgstr "Lokaliseer externe bronnen."
+
+#: tpl/page_optm/settings_localization.tpl.php:17
+msgid "Localization Settings"
+msgstr "Lokalisatie-instellingen"
+
+#: tpl/page_optm/settings_tuning.tpl.php:73
+msgid "List the CSS selector that its style should be always contained in UCSS."
+msgstr "Maak een lijst van de CSS-kiezer waarvan de stijl altijd in UCSS moet staan."
+
+#: tpl/page_optm/settings_css.tpl.php:64
+msgid "Use QUIC.cloud online service to generate unique CSS."
+msgstr "QUIC.cloud online dienst gebruiken om unieke CSS te genereren."
+
+#: src/lang.cls.php:110
+msgid "Generate UCSS"
+msgstr "Genereer UCSS"
+
+#: tpl/dash/dashboard.tpl.php:464 tpl/toolbox/purge.tpl.php:79
+msgid "Unique CSS"
+msgstr "Unieke CSS"
+
+#: tpl/toolbox/purge.tpl.php:116
+msgid "Purge the cache entries created by this plugin except for Critical CSS & Unique CSS & LQIP caches"
+msgstr "Schoon de cache items op gemaakt door deze plugin, behalve voor kritieke CSS & unieke CSS & LQIP caches"
+
+#: tpl/toolbox/report.tpl.php:41
+msgid "LiteSpeed Report"
+msgstr "LiteSpeed rapport"
+
+#: tpl/img_optm/summary.tpl.php:222
+msgid "Image Thumbnail Group Sizes"
+msgstr "Afbeelding thumbnail groep-groottes"
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:14
+msgid "Ignore certain query strings when caching. (LSWS %s required)"
+msgstr "Negeer bepaalde query strings bij het cachen (LSWS %s vereist)"
+
+#: tpl/cache/settings-purge.tpl.php:115
+msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
+msgstr "Bij URLs die wildcards bevatten, kan de start van een geplande opschoning ietwat vertraagd worden."
+
+#: tpl/cache/settings-purge.tpl.php:91
+msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
+msgstr "Deze instelling kan het vertonen van verlopen inhoud tot gevolg hebben. Als je dat niet wilt, activeer deze instelling dan niet."
+
+#: src/lang.cls.php:97
+msgid "Serve Stale"
+msgstr "Serveer verlopen content"
+
+#: src/admin-display.cls.php:932
+msgid "This setting is overwritten by the primary site setting"
+msgstr "Deze instelling wordt overschreven door de primaire instelling op je site"
+
+#: src/img-optm.cls.php:964
+msgid "One or more pulled images does not match with the notified image md5"
+msgstr "Een of meer getrokken afbeeldingen komen niet overeen met de gemelde afbeelding md5"
+
+#: src/img-optm.cls.php:947
+msgid "Some optimized image file(s) has expired and was cleared."
+msgstr "Sommige geoptimaliseerde afbeeldingsbestanden zijn verlopen en gewist."
+
+#: src/error.cls.php:64
+msgid "You have too many notified images, please pull down notified images first."
+msgstr "Je hebt te veel aangemelde afbeeldingen. Trek eerst de aangemelde afbeeldingen naar beneden."
+
+#: src/error.cls.php:60
+msgid "You have too many requested images, please try again in a few minutes."
+msgstr "Je hebt te veel afbeeldingen aangevraagd, probeer het over een paar minuten nog eens."
+
+#: src/img-optm.cls.php:1025
+msgid "Pulled WebP image md5 does not match the notified WebP image md5."
+msgstr "Pulled WebP-afbeelding md5 komt niet overeen met de aangemelde WebP-afbeelding md5."
+
+#: tpl/inc/admin_footer.php:11
+msgid "Read LiteSpeed Documentation"
+msgstr "Lees meer in de LiteSpeed documentatie"
+
+#: src/error.cls.php:80
+msgid "There is proceeding queue not pulled yet. Queue info: %s."
+msgstr "Er is een wachtrij die nog niet opgehaald is. Wachtrij info: %s."
+
+#: src/lang.cls.php:222
+msgid "Sitemap Timeout"
+msgstr "Sitemap timeout"
+
+#: tpl/crawler/settings-sitemap.tpl.php:49
+msgid "Specify the timeout while parsing the sitemap."
+msgstr "Geef aan (in seconden) hoe lang het verwerken van de sitemap maximaal mag duren."
+
+#: tpl/page_optm/settings_localization.tpl.php:79
+msgid "Specify how long, in seconds, Gravatar files are cached."
+msgstr "Geef op hoe lang Gravatars in de cache moeten worden bewaard (in seconden)."
+
+#: tpl/general/settings.tpl.php:112
+msgid "A Domain Key is required for QUIC.cloud online services."
+msgstr "Om QUIC.cloud diensten te kunnen gebruiken, heb je een Domain Key nodig."
+
+#: src/img-optm.cls.php:547
+msgid "Cleared %1$s invalid images."
+msgstr "%1$s ongeldige afbeeldingen opgeruimd."
+
+#: src/img-optm.cls.php:509
+msgid "Bypassed %1$s duplicated images."
+msgstr "%1$s dubbele afbeeldingen overgeslagen."
+
+#: tpl/general/settings.tpl.php:16
+msgid "Request Domain Key"
+msgstr "Vraag domein sleutel aan"
+
+#: tpl/general/entry.tpl.php:20
+msgid "LiteSpeed Cache General Settings"
+msgstr "Algemene instellingen LiteSpeed Cache"
+
+#: tpl/toolbox/purge.tpl.php:107
+msgid "This will delete all cached Gravatar files"
+msgstr "Hiermee verwijder je alle Gravatars in de cache"
+
+#: tpl/toolbox/settings-debug.tpl.php:140
+msgid "Prevent any debug log of listed pages."
+msgstr "Voorkomt dat opgegeven pagina's bij debuggen in log worden opgenomen."
+
+#: tpl/toolbox/settings-debug.tpl.php:126
+msgid "Only log listed pages."
+msgstr "Log alleen de opgegeven pagina's."
+
+#: tpl/toolbox/settings-debug.tpl.php:85
+msgid "Specify the maximum size of the log file."
+msgstr "Geef de maximale omvang op van het logbestand."
+
+#: tpl/toolbox/settings-debug.tpl.php:37
+msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
+msgstr "Als je site goed werkt zou deze instelling UIT moeten staan om te voorkomen dat de schijfopslag vol loopt."
+
+#: tpl/toolbox/beta_test.tpl.php:54
+msgid "Press the %s button to stop beta testing and go back to the current release from the WordPress Plugin Directory."
+msgstr "Druk op de %s knop om het beta testen te stoppen en terug te gaan naar de huidige versie van de WordPress plugin directory."
+
+#: tpl/toolbox/beta_test.tpl.php:38 tpl/toolbox/beta_test.tpl.php:54
+msgid "Use latest WordPress release version"
+msgstr "Gebruik laatste versie WordPress"
+
+#: tpl/toolbox/beta_test.tpl.php:38
+msgid "OR"
+msgstr "OF"
+
+#: tpl/toolbox/beta_test.tpl.php:29
+msgid "Use this section to switch plugin versions. To beta test a GitHub commit, enter the commit URL in the field below."
+msgstr "In deze sectie kun je een andere versie van de plugin kiezen. Om een versie vanaf GitHub te testen, moet je hieronder de URL invoeren."
+
+#: tpl/toolbox/import_export.tpl.php:53
+msgid "Reset Settings"
+msgstr "Reset instellingen"
+
+#: tpl/toolbox/entry.tpl.php:32
+msgid "LiteSpeed Cache Toolbox"
+msgstr "LiteSpeed Cache toolbox"
+
+#: tpl/toolbox/entry.tpl.php:25
+msgid "Beta Test"
+msgstr "Beta testen"
+
+#: tpl/toolbox/entry.tpl.php:24
+msgid "Log View"
+msgstr "Bekijk log"
+
+#: tpl/toolbox/entry.tpl.php:23 tpl/toolbox/settings-debug.tpl.php:10
+msgid "Debug Settings"
+msgstr "Debug instellingen"
+
+#: tpl/toolbox/heartbeat.tpl.php:94
+msgid "Turn ON to control heartbeat in backend editor."
+msgstr "Zet AAN om de 'heartbeat' te beheren voor de backend editor."
+
+#: tpl/toolbox/heartbeat.tpl.php:78 tpl/toolbox/heartbeat.tpl.php:108
+msgid "WordPress valid interval is %s seconds"
+msgstr "Een geldig interval in WordPress is %s seconden"
+
+#: tpl/toolbox/heartbeat.tpl.php:64
+msgid "Turn ON to control heartbeat on backend."
+msgstr "Zet AAN om de 'heartbeat' voor beheer-pagina's in te stellen."
+
+#: tpl/toolbox/heartbeat.tpl.php:49 tpl/toolbox/heartbeat.tpl.php:79
+#: tpl/toolbox/heartbeat.tpl.php:109
+msgid "Set to %1$s to forbid heartbeat on %2$s."
+msgstr "Stel in op %1$s om 'heartbeat' uit zetten op %2$s."
+
+#: tpl/toolbox/heartbeat.tpl.php:48
+msgid "WordPress valid interval is %s seconds."
+msgstr "Een geldig interval in WordPress is %s seconden."
+
+#: tpl/toolbox/heartbeat.tpl.php:47 tpl/toolbox/heartbeat.tpl.php:77
+#: tpl/toolbox/heartbeat.tpl.php:107
+msgid "Specify the %s heartbeat interval in seconds."
+msgstr "Geef de %s heartbeat interval op in seconden."
+
+#: tpl/toolbox/heartbeat.tpl.php:34
+msgid "Turn ON to control heartbeat on frontend."
+msgstr "Zet AAN om de 'heartbeat' voor de frontend te beheren."
+
+#: tpl/toolbox/heartbeat.tpl.php:15
+msgid "Disable WordPress interval heartbeat to reduce server load."
+msgstr "Zet de WordPress 'heartbeat' uit om je server minder te belasten."
+
+#: tpl/toolbox/heartbeat.tpl.php:9
+msgid "Heartbeat Control"
+msgstr "Heartbeat instellen"
+
+#: tpl/toolbox/report.tpl.php:86
+msgid "provide more information here to assist the LiteSpeed team with debugging."
+msgstr "geef hier meer informatie, die het LiteSpeed team kan helpen bij de foutopsporing."
+
+#: tpl/toolbox/report.tpl.php:85
+msgid "Optional"
+msgstr "Optioneel"
+
+#: tpl/toolbox/report.tpl.php:67 tpl/toolbox/report.tpl.php:69
+msgid "Generate Link for Current User"
+msgstr "Genereer link voor huidige gebruiker"
+
+#: tpl/toolbox/report.tpl.php:63
+msgid "Passwordless Link"
+msgstr "Wachtwoordvrije link"
+
+#: tpl/toolbox/report.tpl.php:57
+msgid "System Information"
+msgstr "Systeem informatie"
+
+#: tpl/toolbox/report.tpl.php:35
+msgid "Go to plugins list"
+msgstr "Ga naar de plugins lijst"
+
+#: tpl/toolbox/report.tpl.php:34
+msgid "Install DoLogin Security"
+msgstr "Installeer DoLogin beveiliging"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Check my public IP from"
+msgstr "Controleer mijn publieke IP van"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Your server IP"
+msgstr "Je server IP is"
+
+#: tpl/general/settings.tpl.php:205
+msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
+msgstr "Geef het IP-adres van deze site op, zodat clouddiensten dit direct kunnen gebruiken in plaats van de domeinnaam. Dit bespaart het opzoeken van DNS- en CDN-gegevens."
+
+#: tpl/crawler/settings-general.tpl.php:120
+msgid "Specify the timeout while crawling each URL."
+msgstr "Geef aan (in seconden) hoe lang de crawler maximaal per URL mag besteden."
+
+#: tpl/crawler/settings-general.tpl.php:76
+msgid "Specify time in seconds for the time between each run interval."
+msgstr "Geef (in seconden) aan hoeveel tijd de crawler steeds pauzeert na een run."
+
+#: tpl/crawler/settings-general.tpl.php:22
+msgid "This will enable crawler cron."
+msgstr "Inschakelen cron-taak voor crawler."
+
+#: tpl/crawler/settings-general.tpl.php:9
+msgid "Crawler General Settings"
+msgstr "Crawler algemene instellingen"
+
+#: tpl/crawler/blacklist.tpl.php:46
+msgid "Remove from Blocklist"
+msgstr "Van blokkeerlijst verwijderen"
+
+#: tpl/crawler/blacklist.tpl.php:16
+msgid "Empty blocklist"
+msgstr "Lege blokkeerlijst"
+
+#: tpl/crawler/blacklist.tpl.php:15
+msgid "Are you sure to delete all existing blocklist items?"
+msgstr "Weet je zeker dat je alle bestaande blokkeerlijst items verwijdert?"
+
+#: tpl/crawler/blacklist.tpl.php:56 tpl/crawler/map.tpl.php:69
+msgid "Blocklisted due to not cacheable"
+msgstr "Op de blokkeerlijst wegens niet cachebaar"
+
+#: tpl/crawler/map.tpl.php:58
+msgid "Add to Blocklist"
+msgstr "Toevoegen aan blokkeerlijst"
+
+#: tpl/crawler/blacklist.tpl.php:33 tpl/crawler/map.tpl.php:45
+msgid "Operation"
+msgstr "Bewerking"
+
+#: tpl/crawler/map.tpl.php:37
+msgid "Sitemap Total"
+msgstr "Sitemap totaal"
+
+#: tpl/crawler/map.tpl.php:33
+msgid "Sitemap List"
+msgstr "Sitemap lijst"
+
+#: tpl/crawler/map.tpl.php:20
+msgid "Refresh Crawler Map"
+msgstr "Ververs sitemap voor crawler"
+
+#: tpl/crawler/map.tpl.php:16
+msgid "Clean Crawler Map"
+msgstr "Crawler-map opschonen"
+
+#: tpl/crawler/entry.tpl.php:11
+msgid "Sitemap Settings"
+msgstr "Sitemap instellingen"
+
+#: tpl/crawler/entry.tpl.php:10
+msgid "Simulation Settings"
+msgstr "Simulatie instellingen"
+
+#: tpl/crawler/blacklist.tpl.php:21 tpl/crawler/entry.tpl.php:8
+msgid "Blocklist"
+msgstr "Blokkeerlijst"
+
+#: tpl/crawler/entry.tpl.php:7
+msgid "Map"
+msgstr "Kaart"
+
+#: tpl/crawler/entry.tpl.php:6
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: tpl/crawler/settings-sitemap.tpl.php:36
+msgid "If you are using multiple domains for one site, and have multiple domains in the sitemap, please keep this option OFF so the crawler knows to crawl every domain."
+msgstr "Laat deze optie UIT als je meerdere domeinnamen gebruikt voor 1 site en er meerdere domeinnamen in de sitemap voorkomen, zodat de crawler alle domeinen mee neemt."
+
+#: tpl/crawler/settings-sitemap.tpl.php:35
+msgid "The crawler will parse the sitemap and save into the database before crawling. When parsing the sitemap, dropping the domain can save DB storage."
+msgstr "De crawler leest de sitemap en slaat deze op in de database alvorens echt te beginnen. Weglating van de domeinnaam scheelt opslagruimte in de tabel."
+
+#: tpl/crawler/settings-sitemap.tpl.php:9
+msgid "Crawler Sitemap Settings"
+msgstr "Sitemap instellingen crawler"
+
+#: tpl/crawler/summary.tpl.php:190
+msgid "&nbsp;If both the cron and a manual run start at similar times, the first to be started will take precedence."
+msgstr "&nbsp; Als een handmatige run van de crawler samenvalt met een run door een cron-taak, dan heeft de run die het eerst start voorrang."
+
+#: tpl/crawler/summary.tpl.php:189
+msgid "Crawlers cannot run concurrently."
+msgstr "Crawlers kunnen niet gelijktijdig actief zijn."
+
+#: tpl/crawler/map.tpl.php:68
+msgid "Cache Miss"
+msgstr "Niet in cache"
+
+#: tpl/crawler/map.tpl.php:67
+msgid "Cache Hit"
+msgstr "Cache Hit"
+
+#: tpl/crawler/summary.tpl.php:181
+msgid "Waiting to be Crawled"
+msgstr "Wachtend op crawl"
+
+#: tpl/crawler/blacklist.tpl.php:57 tpl/crawler/map.tpl.php:70
+#: tpl/crawler/summary.tpl.php:160 tpl/crawler/summary.tpl.php:184
+msgid "Blocklisted"
+msgstr "Staat in blokkeerlijst"
+
+#: tpl/crawler/summary.tpl.php:159
+msgid "Miss"
+msgstr "Gemist"
+
+#: tpl/crawler/summary.tpl.php:158
+msgid "Hit"
+msgstr "Hit"
+
+#: tpl/crawler/summary.tpl.php:157
+msgid "Waiting"
+msgstr "Wachtend"
+
+#: tpl/crawler/summary.tpl.php:126
+msgid "Running"
+msgstr "Actief"
+
+#: tpl/crawler/settings-simulation.tpl.php:51
+msgid "Use %1$s in %2$s to indicate this cookie has not been set."
+msgstr "Gebruik %1$s in %2$s om aan te geven dat deze cookie niet gezet is."
+
+#: src/admin-display.cls.php:209
+msgid "Add new cookie to simulate"
+msgstr "Voeg nieuwe cookie toe om te simuleren"
+
+#: src/admin-display.cls.php:208
+msgid "Remove cookie simulation"
+msgstr "Verwijder cookie simulatie"
+
+#: tpl/crawler/settings-simulation.tpl.php:9
+msgid "Crawler Simulation Settings"
+msgstr "Crawler simulatie instellingen"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:44
+msgid "Htaccess rule is: %s"
+msgstr "Htaccess regel is: %s"
+
+#: tpl/cache/more_settings_tip.tpl.php:15
+msgid "More settings available under %s menu"
+msgstr "Meer instellingen beschikbaar onder het %s menu"
+
+#: tpl/cache/settings_inc.browser.tpl.php:42
+msgid "The amount of time, in seconds, that files will be stored in browser cache before expiring."
+msgstr "De duur (in seconden) dat bestanden in de browser worden bewaard."
+
+#: tpl/cache/settings_inc.browser.tpl.php:13
+msgid "OpenLiteSpeed users please check this"
+msgstr "Gebruikers van OpenLiteSpeed graag dit aanvinken"
+
+#: tpl/cache/settings_inc.browser.tpl.php:6
+msgid "Browser Cache Settings"
+msgstr "Browser Cache instellingen"
+
+#: tpl/cache/settings-cache.tpl.php:139
+msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
+msgstr "Paden die deze tekenreeksen bevatten, worden naar openbare caches gedwongen, ongeacht de instellingen die niet in het cachegeheugen kunnen worden opgeslagen."
+
+#: tpl/cache/settings-cache.tpl.php:34
+msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
+msgstr "Ook als QUIC.cloud CDN is ingeschakeld, kan het nog zijn dat je cache headers ziet van je eigen webserver."
+
+#: tpl/cache/settings-esi.tpl.php:104
+msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
+msgstr "Een optionele tweede parameter kan worden gebruikt om cachecontrole te specificeren. Gebruik een spatie om"
+
+#: tpl/cache/settings-esi.tpl.php:102
+msgid "The above nonces will be converted to ESI automatically."
+msgstr "Bovenstaande nonces worden automatisch geconverteerd naar ESI."
+
+#: tpl/cache/entry.tpl.php:15 tpl/cache/entry_network.tpl.php:10
+msgid "Browser"
+msgstr "Browser"
+
+#: tpl/cache/entry.tpl.php:14 tpl/cache/entry_network.tpl.php:9
+msgid "Object"
+msgstr "Object"
+
+#: tpl/cache/settings_inc.object.tpl.php:91
+#: tpl/cache/settings_inc.object.tpl.php:92
+msgid "Default port for %1$s is %2$s."
+msgstr "Standaard poort voor %1$s is %2$s."
+
+#: tpl/cache/settings_inc.object.tpl.php:27
+msgid "Object Cache Settings"
+msgstr "Object cache instellingen"
+
+#: tpl/cache/settings-ttl.tpl.php:105
+msgid "Specify an HTTP status code and the number of seconds to cache that page, separated by a space."
+msgstr "Geef een HTTP statuscode op en het aantal seconden om die in de cache te bewaren, gescheiden door een spatie."
+
+#: tpl/cache/settings-ttl.tpl.php:52
+msgid "Specify how long, in seconds, the front page is cached."
+msgstr "Geef aan (in seconden) hoe lang de voorpagina in de cache wordt bewaard."
+
+#: tpl/cache/entry.tpl.php:7 tpl/cache/settings-ttl.tpl.php:7
+msgid "TTL"
+msgstr "TTL"
+
+#: tpl/cache/settings-purge.tpl.php:85
+msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
+msgstr "Als deze optie is ingeschakeld, wordt de verouderde kopie van een gecachte pagina aan bezoekers getoond totdat er een nieuwe cachekopie beschikbaar is. Verlaagt de serverbelasting voor volgende bezoeken. Als deze optie is uitgeschakeld, wordt de pagina dynamisch gegenereerd terwijl bezoekers wachten."
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "Swap"
+msgstr "Wisselen"
+
+#: tpl/page_optm/settings_css.tpl.php:269
+msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
+msgstr "Kies om %1$s toe te voegen aan alle %2$s regels, om aan te geven hoe lettertypen moeten worden weergegeven tijdens het downloaden."
+
+#: tpl/page_optm/settings_localization.tpl.php:57
+msgid "Avatar list in queue waiting for update"
+msgstr "Avatarlijst in wachtrij wacht op update"
+
+#: tpl/page_optm/settings_localization.tpl.php:44
+msgid "Refresh Gravatar cache by cron."
+msgstr "Ververs Gravatar cache met cron-taak."
+
+#: tpl/page_optm/settings_localization.tpl.php:31
+msgid "Accelerates the speed by caching Gravatar (Globally Recognized Avatars)."
+msgstr "Verhoogt de snelheid door Gravatars (Globaal herkende Avatars) in cache op te slaan."
+
+#: tpl/page_optm/settings_localization.tpl.php:30
+msgid "Store Gravatar locally."
+msgstr "Sla Gravatar lokaal op (in cache)."
+
+#: tpl/page_optm/settings_localization.tpl.php:12
+msgid "Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
+msgstr "Aanmaken Avatar tabel mislukt. Volg de <a %s>Table Creation gids op de LiteSpeed Wiki</a> om die te voltooien."
+
+#: tpl/page_optm/settings_media.tpl.php:140
+msgid "LQIP requests will not be sent for images where both width and height are smaller than these dimensions."
+msgstr "LQIP-verzoeken worden niet verwerkt voor afbeeldingen die lager en smaller zijn dan de opgegeven waardes."
+
+#: tpl/page_optm/settings_media.tpl.php:138
+msgid "pixels"
+msgstr "pixels"
+
+#: tpl/page_optm/settings_media.tpl.php:122
+msgid "Larger number will generate higher resolution quality placeholder, but will result in larger files which will increase page size and consume more points."
+msgstr "Een groter aantal genereert een plaatshouder van hogere kwaliteit, maar resulteert in grotere bestanden die de paginagrootte vergroten en meer punten verbruiken."
+
+#: tpl/page_optm/settings_media.tpl.php:121
+msgid "Specify the quality when generating LQIP."
+msgstr "Geef de kwaliteit op van de te genereren LQIP opvulling."
+
+#: tpl/page_optm/settings_media.tpl.php:107
+msgid "Keep this off to use plain color placeholders."
+msgstr "Laat dit UIT om effen gekleurde plaatshouders te gebruiken."
+
+#: tpl/page_optm/settings_media.tpl.php:106
+msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
+msgstr "Gebruik QUIC.cloud om LQIP (Low Quality Image Placeholder) opvulling te genereren, voor gebruik tijdens het laden van de afbeelding."
+
+#: tpl/page_optm/settings_media.tpl.php:92
+msgid "Specify the responsive placeholder SVG color."
+msgstr "Geef de kleur op voor de tijdelijke SVG opvulling."
+
+#: tpl/page_optm/settings_media.tpl.php:78
+msgid "Variables %s will be replaced with the configured background color."
+msgstr "De variabele %s wordt vervangen door de ingestelde achtergrondkleur."
+
+#: tpl/page_optm/settings_media.tpl.php:77
+msgid "Variables %s will be replaced with the corresponding image properties."
+msgstr "De variabelen %s worden vervangen door de overeenkomstige eigenschappen van de afbeelding."
+
+#: tpl/page_optm/settings_media.tpl.php:76
+msgid "It will be converted to a base64 SVG placeholder on-the-fly."
+msgstr "Wordt on-the-fly omgezet in een base64 SVG plaatshouder."
+
+#: tpl/page_optm/settings_media.tpl.php:75
+msgid "Specify an SVG to be used as a placeholder when generating locally."
+msgstr "Geef een SVG op die moet worden gebruikt als plaatshouder bij het lokaal genereren."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:108
+msgid "Prevent any lazy load of listed pages."
+msgstr "Vermijd het vertraagd laden (lazy load) op de opgegeven pagina's."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:94
+msgid "Iframes having these parent class names will not be lazy loaded."
+msgstr "Iframes met deze hoofd klasse namen worden niet lazy-loaded."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:79
+msgid "Iframes containing these class names will not be lazy loaded."
+msgstr "Iframes die deze klasse namen bevatten zullen niet met lazy-load geladen worden."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:65
+msgid "Images having these parent class names will not be lazy loaded."
+msgstr "Afbeeldingen met deze hoofd klasse namen zullen niet met lazy-load geladen worden."
+
+#: tpl/page_optm/entry.tpl.php:19
+msgid "LiteSpeed Cache Page Optimization"
+msgstr "LiteSpeed Cache pagina optimalisatie"
+
+#: tpl/page_optm/entry.tpl.php:10 tpl/page_optm/settings_media_exc.tpl.php:7
+msgid "Media Excludes"
+msgstr "Media uitzonderingen"
+
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:16
+msgid "CSS Settings"
+msgstr "CSS instellingen"
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "%s is recommended."
+msgstr "%s wordt aanbevolen."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Deferred"
+msgstr "Uitgesteld"
+
+#: tpl/page_optm/settings_css.tpl.php:267
+msgid "Default"
+msgstr "Standaard"
+
+#: tpl/page_optm/settings_html.tpl.php:50
+msgid "This can improve the page loading speed."
+msgstr "Kan de laadtijd van pagina's verbeteren."
+
+#: tpl/page_optm/settings_html.tpl.php:49
+msgid "Automatically enable DNS prefetching for all URLs in the document, including images, CSS, JavaScript, and so forth."
+msgstr "Schakel automatisch DNS prefetching in voor alle URL's in het document, ook voor afbeeldingen, CSS, JavaScript, enzovoort."
+
+#: tpl/banner/new_version_dev.tpl.php:16
+msgid "New developer version %s is available now."
+msgstr "Nieuwe ontwikkelversie %s is nu beschikbaar."
+
+#: tpl/banner/new_version_dev.tpl.php:12
+msgid "New Developer Version Available!"
+msgstr "Nieuwe ontwikkelversie beschikbaar!"
+
+#: tpl/banner/cloud_promo.tpl.php:51
+msgid "Dismiss this notice"
+msgstr "Negeer deze melding"
+
+#: tpl/banner/cloud_promo.tpl.php:39
+msgid "Tweet this"
+msgstr "Tweet dit"
+
+#: tpl/banner/cloud_promo.tpl.php:22
+msgid "Tweet preview"
+msgstr "Voorvertoning tweet"
+
+#: tpl/banner/cloud_promo.tpl.php:17
+msgid "Learn more"
+msgstr "Meer informatie over"
+
+#: tpl/banner/cloud_promo.tpl.php:13
+msgid "You just unlocked a promotion from QUIC.cloud!"
+msgstr "Je hebt zojuist een promotie van QUIC.cloud ontgrendeld!"
+
+#: tpl/img_optm/settings.tpl.php:169
+msgid "The image compression quality setting of WordPress out of 100."
+msgstr "Instelling van de kwaliteit van gecomprimeerde afbeeldingen in WordPress op een schaal van 100."
+
+#: tpl/img_optm/entry.tpl.php:7 tpl/img_optm/entry.tpl.php:13
+#: tpl/img_optm/network_settings.tpl.php:9 tpl/img_optm/settings.tpl.php:9
+msgid "Image Optimization Settings"
+msgstr "Instellingen optimalisatie afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:373
+msgid "Are you sure to destroy all optimized images?"
+msgstr "Weet je zeker dat je alle geoptimaliseerde afbeeldingen wilt verwijderen?"
+
+#: tpl/img_optm/summary.tpl.php:365
+msgid "Use Optimized Files"
+msgstr "Gebruik geoptimaliseerde bestanden"
+
+#: tpl/img_optm/summary.tpl.php:364
+msgid "Switch back to using optimized images on your site"
+msgstr "Gebruik opnieuw geoptimaliseerde afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:361
+msgid "Use Original Files"
+msgstr "Gebruik de originele bestanden"
+
+#: tpl/img_optm/summary.tpl.php:360
+msgid "Use original images (unoptimized) on your site"
+msgstr "Gebruik de originele (niet geoptimaliseerde) bestanden voor je site"
+
+#: tpl/img_optm/summary.tpl.php:355
+msgid "You can quickly switch between using original (unoptimized versions) and optimized image files. It will affect all images on your website, both regular and webp versions if available."
+msgstr "Je kunt makkelijk schakelen tussen het gebruik van de originele of de geoptimaliseerde afbeeldingen. Je keuze heeft effect op alle afbeeldingen op je site, ook de WebP-versie indien beschikbaar."
+
+#: tpl/img_optm/summary.tpl.php:352
+msgid "Optimization Tools"
+msgstr "Optimalisatie gereedschap"
+
+#: tpl/img_optm/summary.tpl.php:325
+msgid "Rescan New Thumbnails"
+msgstr "Zoek naar nieuwe thumbnails"
+
+#: tpl/img_optm/summary.tpl.php:317
+msgid "Congratulations, all requested!"
+msgstr "Mooi, alles aangevraagd!"
+
+#: tpl/img_optm/summary.tpl.php:290
+msgid "Congratulations, all gathered!"
+msgstr "Mooi, alles opgehaald!"
+
+#: tpl/img_optm/summary.tpl.php:287
+msgid "Images not yet gathered"
+msgstr "Nog niet opgehaalde afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:282 tpl/img_optm/summary.tpl.php:309
+msgid "What is an image group?"
+msgstr "Wat is een afbeeldingsgroep?"
+
+#: tpl/img_optm/summary.tpl.php:233
+msgid "Delete all backups of the original images"
+msgstr "Verwijder alle back-ups van de originele afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:215
+msgid "Calculate Backups Disk Space"
+msgstr "Bereken schijfruimte van backups"
+
+#: tpl/img_optm/summary.tpl.php:100
+msgid "Optimization Status"
+msgstr "Optimalisatie status"
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Gather Image Data"
+msgstr "Afbeeldingsgegevens verzamelen"
+
+#: tpl/img_optm/summary.tpl.php:72
+msgid "Current limit is"
+msgstr "Huidige limiet is"
+
+#: tpl/img_optm/summary.tpl.php:71
+msgid "To make sure our server can communicate with your server without any issues and everything works fine, for the few first requests the number of images allowed in a single request is limited."
+msgstr "Om ervoor te zorgen dat onze server probleemloos met je server kan communiceren en dat alles goed werkt, is het aantal toegestane afbeeldingen in een enkelvoudige aanvraag voor de eerste paar aanvragen beperkt."
+
+#: tpl/img_optm/summary.tpl.php:66
+msgid "You can request a maximum of %s images at once."
+msgstr "Je kan maximaal %s afbeeldingen tegelijk aanleveren."
+
+#: tpl/img_optm/summary.tpl.php:61
+msgid "Optimize images with our QUIC.cloud server"
+msgstr "Optimaliseer afbeeldingen met onze QUIC.cloud server"
+
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:91
+#: tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Current closest Cloud server is %s.&#10; Click to redetect."
+msgstr "Huidige dichtstbijzijnde cloud server is %s.&#10; Klik om opnieuw te detecteren."
+
+#: tpl/db_optm/settings.tpl.php:37
+msgid "Revisions newer than this many days will be kept when cleaning revisions."
+msgstr "Revisies jonger dan dit aantal dagen worden bewaard tijdens het opschonen."
+
+#: tpl/db_optm/settings.tpl.php:35
+msgid "Day(s)"
+msgstr "Dag(en)"
+
+#: tpl/db_optm/settings.tpl.php:23
+msgid "Specify the number of most recent revisions to keep when cleaning revisions."
+msgstr "Geef op hoeveel revisies te bewaren bij opschonen."
+
+#: tpl/db_optm/entry.tpl.php:17
+msgid "LiteSpeed Cache Database Optimization"
+msgstr "LiteSpeed Cache database optimalisatie"
+
+#: tpl/db_optm/entry.tpl.php:10 tpl/db_optm/settings.tpl.php:10
+msgid "DB Optimization Settings"
+msgstr "Database optimalisatie instellingen"
+
+#: tpl/db_optm/manage.tpl.php:166
+msgid "Option Name"
+msgstr "Optienaam"
+
+#: tpl/db_optm/manage.tpl.php:151
+msgid "Database Summary"
+msgstr "Database in het kort"
+
+#: tpl/db_optm/manage.tpl.php:130
+msgid "We are good. No table uses MyISAM engine."
+msgstr "Alles OK. Geen enkele tabel gebruikt de MyISAM engine."
+
+#: tpl/db_optm/manage.tpl.php:122
+msgid "Convert to InnoDB"
+msgstr "Zet om naar InnoDB"
+
+#: tpl/db_optm/manage.tpl.php:108
+msgid "Tool"
+msgstr "Gereedschap"
+
+#: tpl/db_optm/manage.tpl.php:107
+msgid "Engine"
+msgstr "Engine"
+
+#: tpl/db_optm/manage.tpl.php:106
+msgid "Table"
+msgstr "Tabel"
+
+#: tpl/db_optm/manage.tpl.php:99
+msgid "Database Table Engine Converter"
+msgstr "Database Table Engine Converter"
+
+#: tpl/db_optm/manage.tpl.php:51
+msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
+msgstr "Schoon revisies ouder dan %1$s dag(en) op, behalve de %2$s laatste versies"
+
+#: tpl/dash/dashboard.tpl.php:537
+msgid "Currently active crawler"
+msgstr "Actieve crawler"
+
+#: tpl/dash/dashboard.tpl.php:534
+msgid "Crawler(s)"
+msgstr "Crawler(s)"
+
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:529
+msgid "Crawler Status"
+msgstr "Crawler Status"
+
+#: tpl/dash/dashboard.tpl.php:448 tpl/dash/dashboard.tpl.php:481
+#: tpl/dash/dashboard.tpl.php:513
+msgid "Force cron"
+msgstr "Start cron"
+
+#: tpl/dash/dashboard.tpl.php:445 tpl/dash/dashboard.tpl.php:478
+#: tpl/dash/dashboard.tpl.php:511
+msgid "Requests in queue"
+msgstr "Aanvragen in wachtrij"
+
+#: tpl/dash/dashboard.tpl.php:440 tpl/dash/dashboard.tpl.php:473
+#: tpl/dash/dashboard.tpl.php:506
+msgid "Time to execute previous request"
+msgstr "Benodigde tijd vorige verzoek"
+
+#: tpl/dash/dashboard.tpl.php:417
+msgid "Cache Stats"
+msgstr "Cache gegevens"
+
+#: tpl/dash/dashboard.tpl.php:395
+msgid "Private Cache"
+msgstr "Privé cache"
+
+#: tpl/dash/dashboard.tpl.php:394
+msgid "Public Cache"
+msgstr "Publieke cache"
+
+#: tpl/dash/dashboard.tpl.php:388
+msgid "Cache Status"
+msgstr "Cache status"
+
+#: tpl/dash/dashboard.tpl.php:360
+msgid "Last Pull"
+msgstr "Laatst opgehaald"
+
+#: tpl/dash/dashboard.tpl.php:325
+msgid "Images Requested"
+msgstr "Afbeeldingsverzoeken"
+
+#: tpl/dash/dashboard.tpl.php:310
+msgid "Image Groups Prepared"
+msgstr "Afbeeldingsgroepen klaargezet"
+
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
+msgid "Image Optimization Summary"
+msgstr "Afbeelding optimalisatie in het kort"
+
+#: tpl/dash/dashboard.tpl.php:238
+msgid "Refresh page score"
+msgstr "Paginascore vernieuwen"
+
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:91 tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Weet je zeker dat je opnieuw de dichtstbijzijnde server voor deze dienst wil bepalen?"
+
+#: tpl/dash/dashboard.tpl.php:227
+msgid "Current closest Cloud server is %s.&#10;Click to redetect."
+msgstr "De huidige dichtstbijzijnde cloudserver is %s.&#10;Klik om opnieuw te detecteren."
+
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:456 tpl/dash/dashboard.tpl.php:489
+#: tpl/dash/dashboard.tpl.php:521
+msgid "Last requested"
+msgstr "Laatste aanvraag"
+
+#: tpl/dash/dashboard.tpl.php:181
+msgid "Refresh page load time"
+msgstr "Ververs laadtijd pagina"
+
+#: tpl/dash/dashboard.tpl.php:169
+msgid "Go to QUIC.cloud dashboard"
+msgstr "Ga naar QUIC.cloud dashboard"
+
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/dashboard.tpl.php:497
+msgid "Low Quality Image Placeholder"
+msgstr "Low Quality Image Placeholder"
+
+#: tpl/dash/dashboard.tpl.php:45
+msgid "Sync data from Cloud"
+msgstr "Synchroniseer gegevens van de Cloud"
+
+#: tpl/dash/dashboard.tpl.php:42
+msgid "QUIC.cloud Service Usage Statistics"
+msgstr "Gebruiksstatistieken QUIC.cloud"
+
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
+msgid "Total images optimized in this month"
+msgstr "Deze maand geoptimaliseerde afbeeldingen"
+
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
+msgid "Total Usage"
+msgstr "Gebruik totaal"
+
+#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:93
+msgid "Pay as You Go Usage Statistics"
+msgstr "Betaal naar verbruik statistieken"
+
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:91
+msgid "This Month Usage"
+msgstr "Gebruik deze maand"
+
+#: tpl/dash/dashboard.tpl.php:128 tpl/dash/network_dash.tpl.php:90
+msgid "PAYG Balance"
+msgstr "PAYG balans"
+
+#: tpl/dash/network_dash.tpl.php:89
+msgid "Pay as You Go"
+msgstr "Betaal wat je verbruikt"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Usage"
+msgstr "Gebruik"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Fast Queue Usage"
+msgstr "Snel wachtrijgebruik"
+
+#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:29
+msgid "CDN Bandwidth"
+msgstr "CDN bandbreedte"
+
+#: tpl/dash/network_dash.tpl.php:28
+msgid "CCSS"
+msgstr "CCSS"
+
+#: tpl/dash/network_dash.tpl.php:19
+msgid "Usage Statistics"
+msgstr "Gebruiksgegevens"
+
+#: tpl/dash/entry.tpl.php:20
+msgid "LiteSpeed Cache Dashboard"
+msgstr "LiteSpeed Cache Dashboard"
+
+#: tpl/dash/entry.tpl.php:11
+msgid "Network Dashboard"
+msgstr "Netwerk Dashboard"
+
+#: tpl/general/settings.tpl.php:128
+msgid "No cloud services currently in use"
+msgstr "Momenteel geen cloud diensten in gebruik"
+
+#: tpl/general/settings.tpl.php:116
+msgid "Click to clear all nodes for further redetection."
+msgstr "Klik hier om om alle nodes in het netwerk opnieuw te detecteren."
+
+#: tpl/general/settings.tpl.php:115
+msgid "Current Cloud Nodes in Service"
+msgstr "Draaiende Cloud Nodes"
+
+#: tpl/general/settings.tpl.php:107
+msgid "Benefits of linking to a QUIC.cloud account"
+msgstr "Voordelen van verbinding met QUIC.cloud account"
+
+#: tpl/general/settings.tpl.php:106
+msgid "You must click the %s button if you wish to associate this site with a QUIC.cloud account."
+msgstr "Klik op de %s button als je deze site wilt koppelen aan een QUIC.cloud account."
+
+#: tpl/general/settings.tpl.php:101
+msgid "You must have %1$s first before linking to QUIC.cloud."
+msgstr "Voordat je koppelt met QUIC.cloud moet je eerst %1$s hebben."
+
+#: tpl/general/settings.tpl.php:87
+msgid "Please verify that your other plugins are not blocking REST API calls, allowlist our server IPs, or contact your server admin for assistance."
+msgstr "Controleer of je andere plugins geen REST API aanroepen blokkeren, onze server IP's toestaan of neem contact op met je server beheerder voor hulp."
+
+#: tpl/general/settings.tpl.php:86
+msgid "Our %s was not allowlisted."
+msgstr "Onze %s stond niet op de lijst toegestaan."
+
+#: tpl/general/settings.tpl.php:85
+msgid "The POST callback to %s failed."
+msgstr "De bericht-callback naar %s is mislukt."
+
+#: tpl/general/settings.tpl.php:84
+msgid "There are two reasons why we might not be able to communicate with your domain:"
+msgstr "Dat we niet met je domein kunnen communiceren, kan twee redenen hebben:"
+
+#: tpl/general/settings.tpl.php:83
+msgid "There was a problem with retrieving your Domain Key. Please click the %s button to retry."
+msgstr "Er gaat iets mis met het ontvangen van je Domain Key. Klik op de %s knop om het opnieuw te proberen."
+
+#: tpl/general/settings.tpl.php:75 tpl/general/settings.tpl.php:77
+#: tpl/general/settings.tpl.php:106
+msgid "Link to QUIC.cloud"
+msgstr "Link naar QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:73
+msgid "Visit My Dashboard on QUIC.cloud"
+msgstr "Bezoek My Dashboard op QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:36
+msgid "Next available request time: <code>After %s</code>"
+msgstr "Volgende beschikbare moment voor aanvraag: <code>Na %s</code>"
+
+#: tpl/general/settings.tpl.php:32
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: tpl/general/settings.tpl.php:29
+msgid "Requested"
+msgstr "Aangevraagd"
+
+#: tpl/general/settings.tpl.php:24
+msgid "Waiting for Approval"
+msgstr "In afwachting van goedkeuring"
+
+#: tpl/general/settings.tpl.php:20
+msgid "Waiting for Refresh"
+msgstr "Wachtend op verversing"
+
+#: tpl/general/settings.tpl.php:18
+msgid "Refresh Domain Key"
+msgstr "Vernieuw domeinsleutel"
+
+#: tpl/crawler/entry.tpl.php:9 tpl/general/entry.tpl.php:6
+#: tpl/general/entry.tpl.php:12 tpl/general/network_settings.tpl.php:8
+#: tpl/general/settings.tpl.php:42
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: tpl/cdn/settings.tpl.php:126
+msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
+msgstr "Geef aan welke attributen van HTML elementen worden vervangen bij CDN gebruik."
+
+#: src/admin-display.cls.php:231
+msgid "Add new CDN URL"
+msgstr "Voeg nieuwe CDN URL toe"
+
+#: src/admin-display.cls.php:230
+msgid "Remove CDN URL"
+msgstr "Verwijder CDN URL"
+
+#: tpl/cdn/settings.tpl.php:35
+msgid "Enable %s CDN API functionality."
+msgstr "Schakel %s CDN API functionaliteit in."
+
+#: tpl/cdn/manage.tpl.php:23
+msgid "To enable the following functionality, turn ON Cloudflare API in CDN Settings."
+msgstr "Om onderstaande functies te kunnen gebruiken, zet je Cloudflare API op AAN op de tab CDN instellingen."
+
+#: tpl/cdn/manage.tpl.php:14
+msgid "To manage QUIC.cloud options, please visit"
+msgstr "Om QUIC.cloud opties te beheren, bezoek"
+
+#: tpl/cdn/manage.tpl.php:12
+msgid "QUIC.cloud"
+msgstr "QUIC.cloud"
+
+#: thirdparty/woocommerce.content.tpl.php:16
+msgid "WooCommerce Settings"
+msgstr "WooCommerce instellingen"
+
+#: src/doc.cls.php:119 tpl/general/settings.tpl.php:86
+msgid "Current Online Server IPs"
+msgstr "IP-adressen servers momenteel online"
+
+#: src/doc.cls.php:118
+msgid "Before generating key, please verify all IPs on this list are allowlisted"
+msgstr "Voordat je de sleutel genereert, controleer je of alle IP's in deze lijst op de toegestane lijst staan"
+
+#: src/doc.cls.php:117
+msgid "For online services to work correctly, you must allowlist all %s server IPs."
+msgstr "Om online diensten correct te laten werken, moet je alle %s server IP's toestaan."
+
+#: src/gui.cls.php:545 src/gui.cls.php:705
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
+msgid "LQIP Cache"
+msgstr "LQIP Cache"
+
+#: src/gui.cls.php:84
+msgid "Private Cache Hits"
+msgstr "Privé cache hits"
+
+#: src/gui.cls.php:83
+msgid "Private Caches"
+msgstr "Privé caches"
+
+#: src/gui.cls.php:82
+msgid "Public Cache Hits"
+msgstr "Public Cache Hits"
+
+#: src/gui.cls.php:81
+msgid "Public Caches"
+msgstr "Openbare caches"
+
+#: src/admin-settings.cls.php:242 src/admin-settings.cls.php:276
+msgid "Options saved."
+msgstr "Instellingen opgeslagen."
+
+#: src/img-optm.cls.php:1461
+msgid "Removed backups successfully."
+msgstr "Verwijderen back-ups geslaagd."
+
+#: src/img-optm.cls.php:1399
+msgid "Calculated backups successfully."
+msgstr "Berekenen back-ups geslaagd."
+
+#: src/img-optm.cls.php:1340
+msgid "Rescanned %d images successfully."
+msgstr "Opnieuw scannen %d afbeeldingen geslaagd."
+
+#: src/img-optm.cls.php:1275 src/img-optm.cls.php:1340
+msgid "Rescanned successfully."
+msgstr "Opnieuw scannen geslaagd."
+
+#: src/img-optm.cls.php:1243
+msgid "Destroy all optimization data successfully."
+msgstr "Verwijderen optimalisatie gegevens geslaagd."
+
+#: src/img-optm.cls.php:1172
+msgid "Cleaned up unfinished data successfully."
+msgstr "Opruimen onverwerkte gegevens geslaagd."
+
+#: src/img-optm.cls.php:1085
+msgid "Pulled %d image(s)"
+msgstr "%d afbeelding(en) opgehaald"
+
+#: src/img-optm.cls.php:1008
+msgid "Optimized WebP file expired and was cleared."
+msgstr "Geoptimaliseerd WebP bestand was verlopen en is verwijderd."
+
+#: src/img-optm.cls.php:888
+msgid "Pull Cron is running"
+msgstr "Cron-taak om bestanden op te halen loopt"
+
+#: src/img-optm.cls.php:649
+msgid "No valid image found by Cloud server in the current request."
+msgstr "De Cloud server trof geen geldige afbeelding aan in de aanvraag."
+
+#: src/img-optm.cls.php:626
+msgid "No valid image found in the current request."
+msgstr "Geen geldige afbeelding gevonden in deze aanvraag."
+
+#: src/img-optm.cls.php:472
+msgid "Pushed %1$s to Cloud server, accepted %2$s."
+msgstr "%1$s verstuurd naar cloud server, geaccepteerd %2$s."
+
+#: src/img-optm.cls.php:180
+msgid "Gathered %d images successfully."
+msgstr "%d afbeeldingen succesvol opgehaald."
+
+#: src/img-optm.cls.php:147
+msgid "No new image gathered."
+msgstr "Geen nieuwe afbeelding opgehaald."
+
+#: src/lang.cls.php:235
+msgid "Revisions Max Age"
+msgstr "Maximale leeftijd revisies"
+
+#: src/lang.cls.php:234
+msgid "Revisions Max Number"
+msgstr "Aantal te bewaren revisies"
+
+#: src/lang.cls.php:232
+msgid "Debug URI Excludes"
+msgstr "Foutopsporing URI uitsluitingen"
+
+#: src/lang.cls.php:231
+msgid "Debug URI Includes"
+msgstr "Debug URI bevat"
+
+#: src/lang.cls.php:221
+msgid "Drop Domain from Sitemap"
+msgstr "Verwijder domein uit sitemap"
+
+#: src/lang.cls.php:216
+msgid "Timeout"
+msgstr "Time-out"
+
+#: src/lang.cls.php:204
+msgid "HTML Attribute To Replace"
+msgstr "Te vervangen HTML attribuut"
+
+#: src/lang.cls.php:198
+msgid "Use CDN Mapping"
+msgstr "Gebruik een CDN mapping"
+
+#: src/lang.cls.php:197
+msgid "QUIC.cloud CDN"
+msgstr "QUIC.cloud CDN"
+
+#: src/lang.cls.php:195
+msgid "Editor Heartbeat TTL"
+msgstr "Editor Heartbeat TTL"
+
+#: src/lang.cls.php:194
+msgid "Editor Heartbeat"
+msgstr "Editor Heartbeat"
+
+#: src/lang.cls.php:193
+msgid "Backend Heartbeat TTL"
+msgstr "Backend Heartbeat TTL"
+
+#: src/lang.cls.php:192
+msgid "Backend Heartbeat Control"
+msgstr "Backend Heartbeat Control"
+
+#: src/lang.cls.php:191
+msgid "Frontend Heartbeat TTL"
+msgstr "Frontend Heartbeat TTL"
+
+#: src/lang.cls.php:190
+msgid "Frontend Heartbeat Control"
+msgstr "Frontend Heartbeat Control"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:64
+msgid "Backend .htaccess Path"
+msgstr "Backend .htaccess Path"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:47
+msgid "Frontend .htaccess Path"
+msgstr "Frontend .htaccess Path"
+
+#: src/lang.cls.php:180
+msgid "ESI Nonces"
+msgstr "ESI Nonces"
+
+#: src/lang.cls.php:176
+msgid "WordPress Image Quality Control"
+msgstr "Beheer kwaliteit afbeeldingen in WordPress"
+
+#: src/lang.cls.php:171
+msgid "Create WebP Versions"
+msgstr "Maak WebP versies"
+
+#: src/lang.cls.php:168
+msgid "Auto Pull Cron"
+msgstr "Cron-taak voor ophalen"
+
+#: src/lang.cls.php:167
+msgid "Auto Request Cron"
+msgstr "Cron-taak voor verzoeken"
+
+#: src/lang.cls.php:164
+msgid "Generate LQIP In Background"
+msgstr "Maak LQIP aan in de achtergrond"
+
+#: src/lang.cls.php:162
+msgid "LQIP Minimum Dimensions"
+msgstr "Minimale afmetingen LQIP"
+
+#: src/lang.cls.php:161
+msgid "LQIP Quality"
+msgstr "Kwaliteit LQIP"
+
+#: src/lang.cls.php:160
+msgid "LQIP Cloud Generator"
+msgstr "LQIP genereren in Cloud"
+
+#: src/lang.cls.php:159
+msgid "Responsive Placeholder SVG"
+msgstr "Responsive plaatshouder SVG"
+
+#: src/lang.cls.php:158
+msgid "Responsive Placeholder Color"
+msgstr "Kleur van responsive plaatshouder"
+
+#: src/lang.cls.php:156
+msgid "Basic Image Placeholder"
+msgstr "Eenvoudige tijdelijke opvulling voor afbeelding"
+
+#: src/lang.cls.php:154
+msgid "Lazy Load URI Excludes"
+msgstr "Voorkom lazy-load per URI"
+
+#: src/lang.cls.php:153
+msgid "Lazy Load Iframe Parent Class Name Excludes"
+msgstr "Uitsluiten lazy load iframes op hoofd klasse attribuut"
+
+#: src/lang.cls.php:152
+msgid "Lazy Load Iframe Class Name Excludes"
+msgstr "Lazy-load Iframe klasse naam uitsluiting"
+
+#: src/lang.cls.php:151
+msgid "Lazy Load Image Parent Class Name Excludes"
+msgstr "Lazy-load afbeelding naam van hoofd klasse"
+
+#: src/lang.cls.php:146
+msgid "Gravatar Cache TTL"
+msgstr "Gravatar cache TTL"
+
+#: src/lang.cls.php:145
+msgid "Gravatar Cache Cron"
+msgstr "Gravatar Cache door cron-taak"
+
+#: src/gui.cls.php:555 src/gui.cls.php:715 src/lang.cls.php:144
+#: tpl/toolbox/purge.tpl.php:106
+msgid "Gravatar Cache"
+msgstr "Gravatar Caching"
+
+#: src/lang.cls.php:127
+msgid "DNS Prefetch Control"
+msgstr "DNS Prefetch beheren"
+
+#: src/lang.cls.php:122
+msgid "Font Display Optimization"
+msgstr "Optimalisatie lettertypeweergave"
+
+#: src/lang.cls.php:101
+msgid "Force Public Cache URIs"
+msgstr "Openbare cache-URI's afdwingen"
+
+#: src/lang.cls.php:70
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: src/lang.cls.php:65
+msgid "Default HTTP Status Code Page TTL"
+msgstr "Standaard HTTP-status codetabel TTL"
+
+#: src/lang.cls.php:64
+msgid "Default REST TTL"
+msgstr "Standaard REST TTL"
+
+#: src/lang.cls.php:58
+msgid "Enable Cache"
+msgstr "Caching Inschakelen"
+
+#: src/lang.cls.php:54
+msgid "Domain Key"
+msgstr "Domein sleutel"
+
+#: src/lang.cls.php:53
+msgid "Server IP"
+msgstr "Server IP"
+
+#: src/lang.cls.php:33
+msgid "Duplicate image files ignored"
+msgstr "Dubbele afbeeldingen genegeerd"
+
+#: src/lang.cls.php:23
+msgid "Images not requested"
+msgstr "Afbeeldingen niet aangevraagd"
+
+#: src/cloud.cls.php:1184
+msgid "Sync credit allowance with Cloud Server successfully."
+msgstr "Synchroniseren tegoed met Cloud Server geslaagd."
+
+#: src/cloud.cls.php:1073
+msgid "Domain Key hash mismatch"
+msgstr "Hash voor domeinsleutel komt niet overeen"
+
+#: src/cloud.cls.php:1002
+msgid "Congratulations, your Domain Key has been approved! The setting has been updated accordingly."
+msgstr "Gefeliciteerd, je domein sleutel is goedgekeurd. De instelling is geüpdatet."
+
+#: src/cloud.cls.php:951
+msgid "Applied for Domain Key successfully. Please wait for result. Domain Key will be automatically sent to your WordPress."
+msgstr "Succesvolle domeinsleutel aangevraagd. Wacht op resultaat. De domeinsleutel wordt automatisch naar je WordPress gestuurd."
+
+#: src/cloud.cls.php:754 src/cloud.cls.php:932
+msgid "Failed to communicate with QUIC.cloud server"
+msgstr "Het is mislukt om met de QUIC.cloud server te communiceren"
+
+#: src/cloud.cls.php:702
+msgid "Good news from QUIC.cloud server"
+msgstr "Goed nieuws van de QUIC.cloud server"
+
+#: src/cloud.cls.php:686 src/cloud.cls.php:694 src/cloud.cls.php:943
+msgid "Message from QUIC.cloud server"
+msgstr "Bericht van de QUIC.cloud server"
+
+#: src/cloud.cls.php:551
+msgid "Please try after %1$s for service %2$s."
+msgstr "Probeer na %1$s voor service %2$s."
+
+#: src/cloud.cls.php:407
+msgid "No available Cloud Node."
+msgstr "Geen beschikbare Cloud Node."
+
+#: src/cloud.cls.php:359 src/cloud.cls.php:372 src/cloud.cls.php:407
+#: src/cloud.cls.php:432 src/cloud.cls.php:551 src/cloud.cls.php:907
+msgid "Cloud Error"
+msgstr "Cloud foutmelding"
+
+#: src/data.cls.php:219
+msgid "The database has been upgrading in the background since %s. This message will disappear once upgrade is complete."
+msgstr "De database wordt in de achtergrond geüpdatet sinds %s. Zodra dat klaar is, verdwijnt dit bericht."
+
+#: src/media.cls.php:339
+msgid "Restore from backup"
+msgstr "Terugzetten uit de backup"
+
+#: src/media.cls.php:329
+msgid "WebP"
+msgstr "WebP"
+
+#: src/media.cls.php:323
+msgid "No backup of unoptimized WebP file exists."
+msgstr "Er bestaat geen back-up van het niet geoptimaliseerde WebP bestand."
+
+#: src/media.cls.php:310
+msgid "WebP file reduced by %1$s (%2$s)"
+msgstr "Omvang WebP bestand verminderd met %1$s (%2$s)"
+
+#: src/media.cls.php:306
+msgid "Currently using original (unoptimized) version of WebP file."
+msgstr "Originele (niet-geoptimaliseerde) versie van WebP bestand momenteel in gebruik."
+
+#: src/media.cls.php:301
+msgid "Currently using optimized version of WebP file."
+msgstr "Geoptimaliseerd WebP bestand momenteel in gebruik."
+
+#: src/media.cls.php:285
+msgid "Orig"
+msgstr "Orig"
+
+#: src/media.cls.php:282
+msgid "(no savings)"
+msgstr "(geen besparing)"
+
+#: src/media.cls.php:282
+msgid "Orig %s"
+msgstr "Orig %s"
+
+#: src/media.cls.php:279
+msgid "Congratulation! Your file was already optimized"
+msgstr "Gefeliciteerd! Je bestand was al geoptimaliseerd"
+
+#: src/media.cls.php:270
+msgid "No backup of original file exists."
+msgstr "Geen back-up aanwezig van originele bestand."
+
+#: src/media.cls.php:270 src/media.cls.php:323
+msgid "Using optimized version of file. "
+msgstr "Geoptimaliseerde versie van bestand in gebruik. "
+
+#: src/media.cls.php:262
+msgid "Orig saved %s"
+msgstr "Orig %s kleiner"
+
+#: src/media.cls.php:256
+msgid "Original file reduced by %1$s (%2$s)"
+msgstr "Originele bestand verkleind met %1$s (%2$s)"
+
+#: src/media.cls.php:252 src/media.cls.php:306
+msgid "Click to switch to optimized version."
+msgstr "Klik om gebruik te maken van geoptimaliseerde versie."
+
+#: src/media.cls.php:252
+msgid "Currently using original (unoptimized) version of file."
+msgstr "Originele (niet-geoptimaliseerde) bestand in gebruik."
+
+#: src/media.cls.php:251 src/media.cls.php:305
+msgid "(non-optm)"
+msgstr "(niet-optm)"
+
+#: src/media.cls.php:247 src/media.cls.php:301
+msgid "Click to switch to original (unoptimized) version."
+msgstr "Klik hier om de originele versie te gebruiken."
+
+#: src/media.cls.php:247
+msgid "Currently using optimized version of file."
+msgstr "Geoptimaliseerd bestand in gebruik."
+
+#: src/media.cls.php:246 src/media.cls.php:271 src/media.cls.php:300
+#: src/media.cls.php:324
+msgid "(optm)"
+msgstr "(optm)"
+
+#: src/placeholder.cls.php:138
+msgid "LQIP image preview for size %s"
+msgstr "LQIP afbeelding voorvertoning in formaat %s"
+
+#: src/placeholder.cls.php:80 tpl/dash/network_dash.tpl.php:30
+msgid "LQIP"
+msgstr "LQIP"
+
+#: src/crawler.cls.php:981
+msgid "Previously existed in blocklist"
+msgstr "Stond voorheen op blokkeerlijst"
+
+#: src/crawler.cls.php:978
+msgid "Manually added to blocklist"
+msgstr "Handmatig toegevoegd aan blokkeerlijst"
+
+#: src/htaccess.cls.php:326
+msgid "Mobile Agent Rules"
+msgstr "Mobiele agent regels"
+
+#: src/crawler-map.cls.php:321
+msgid "Sitemap created successfully: %d items"
+msgstr "Aanmaken sitemap geslaagd: %d items"
+
+#: src/crawler-map.cls.php:265
+msgid "Sitemap cleaned successfully"
+msgstr "Opschonen sitemap geslaagd"
+
+#: src/admin-display.cls.php:1097
+msgid "Invalid IP"
+msgstr "Ongeldige IP"
+
+#: src/admin-display.cls.php:1072
+msgid "Value range"
+msgstr "Waarde bereik"
+
+#: src/admin-display.cls.php:1069
+msgid "Smaller than"
+msgstr "Kleiner dan"
+
+#: src/admin-display.cls.php:1066
+msgid "Larger than"
+msgstr "Groter dan"
+
+#: src/admin-display.cls.php:1059
+msgid "Zero, or"
+msgstr "Nul, of"
+
+#: src/admin-display.cls.php:1047
+msgid "Maximum value"
+msgstr "Maximale waarde"
+
+#: src/admin-display.cls.php:1044
+msgid "Minimum value"
+msgstr "Minimale waarde"
+
+#: src/admin-display.cls.php:1026
+msgid "Path must end with %s"
+msgstr "Bestandspad moet eindigen op %s"
+
+#: src/admin-display.cls.php:1009
+msgid "Invalid rewrite rule"
+msgstr "Ongeldige omleiding regel"
+
+#: src/admin-display.cls.php:939
+msgid "currently set to %s"
+msgstr "momenteel ingesteld op %s"
+
+#: src/admin-display.cls.php:929
+msgid "This setting is overwritten by the PHP constant %s"
+msgstr "Deze instelling werd overschreven door PHP-constante %s"
+
+#: src/admin-display.cls.php:131
+msgid "Toolbox"
+msgstr "Toolbox"
+
+#: src/admin-display.cls.php:127
+msgid "Database"
+msgstr "Database"
+
+#: src/admin-display.cls.php:125 tpl/dash/dashboard.tpl.php:56
+msgid "Page Optimization"
+msgstr "Pagina optimalisatie"
+
+#: src/admin-display.cls.php:115 tpl/dash/entry.tpl.php:6
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/db-optm.cls.php:243
+msgid "Converted to InnoDB successfully."
+msgstr "Succesvol geconverteerd naar InnoDB."
+
+#: src/purge.cls.php:300
+msgid "Cleaned all Gravatar files."
+msgstr "Alle gravatar bestanden verwijderd."
+
+#: src/purge.cls.php:283
+msgid "Cleaned all LQIP files."
+msgstr "Alle LQIP bestanden opgeschoond."
+
+#: src/error.cls.php:173
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+#: src/error.cls.php:169
+msgid "Your domain has been forbidden from using our services due to a previous policy violation."
+msgstr "Door een eerdere schending van ons beleid is je domein geblokkeerd om van onze diensten gebruik te maken."
+
+#: src/error.cls.php:165
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
+msgstr "De callback validatie naar je domein is mislukt. Zorg ervoor dat er geen firewall onze servers blokkeert. Reactie code: "
+
+#: src/error.cls.php:161
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
+msgstr "De callback validatie naar je domein is mislukt. Zorg ervoor dat er geen firewall onze servers blokkeert."
+
+#: src/error.cls.php:157
+msgid "The callback validation to your domain failed due to hash mismatch."
+msgstr "De callback validatie naar je domein is mislukt doordat de hash niet overeen kwam."
+
+#: src/error.cls.php:153
+msgid "Your application is waiting for approval."
+msgstr "Je aanvraag is in behandeling."
+
+#: src/error.cls.php:149
+msgid "Previous request too recent. Please try again after %s."
+msgstr "Vorige aanvraag werd net gedaan. Probeer het opnieuw na %s."
+
+#: src/error.cls.php:145
+msgid "Previous request too recent. Please try again later."
+msgstr "Vorige aanvraag vond (te) recent plaats. Probeer het straks opnieuw."
+
+#: src/error.cls.php:140
+msgid "Crawler disabled by the server admin."
+msgstr "Crawler uitgeschakeld door server beheerder."
+
+#: src/error.cls.php:136
+msgid "Failed to create table %s! SQL: %s."
+msgstr "Creëren van tabel %s! SQL: %s mislukt."
+
+#: src/error.cls.php:112
+msgid "Could not find %1$s in %2$s."
+msgstr "%1$s niet gevonden in %2$s."
+
+#: src/error.cls.php:100
+msgid "Credits are not enough to proceed the current request."
+msgstr "Onvoldoende tegoed om met de huidige aanvraag door te gaan."
+
+#: src/error.cls.php:88
+msgid "The domain key is not correct. Please try to sync your domain key again."
+msgstr "De domein sleutel is niet correct. Probeer je domein sleutel opnieuw te synchroniseren."
+
+#: src/error.cls.php:76
+msgid "There is proceeding queue not pulled yet."
+msgstr "Er is een wachtrij die nog niet is opgehaald."
+
+#: src/error.cls.php:72
+msgid "Not enough parameters. Please check if the domain key is set correctly"
+msgstr "Onvoldoende parameters. Controleer of de domein sleutel correct is ingesteld"
+
+#: src/error.cls.php:68
+msgid "The image list is empty."
+msgstr "De afbeelding lijst is leeg."
+
+#: src/error.cls.php:56
+msgid "You don't have enough quota left for current service this month."
+msgstr "Je hebt niet genoeg quota over voor de huidige dienst deze maand."
+
+#: src/error.cls.php:47
+msgid "You will need to set %s to use the online services."
+msgstr "Je moet %s aanzetten om de dienst online te kunnen gebruiken."
+
+#: src/error.cls.php:42
+msgid "The setting %s is currently enabled."
+msgstr "De instelling %s is momenteel geactiveerd."
+
+#: src/task.cls.php:139
+msgid "LiteSpeed Crawler Cron"
+msgstr "LiteSpeed Crawler cron"
+
+#: src/task.cls.php:120
+msgid "Every Minute"
+msgstr "Elke minuut"
+
+#: tpl/general/settings.tpl.php:223
+msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
+msgstr "Zet deze optie AAN om automatisch het laatste nieuws te ontvangen, zoals over hotfixes, nieuwe releases, beschikbare beta versies en aanbiedingen."
+
+#: tpl/toolbox/report.tpl.php:72
+msgid "To grant wp-admin access to the LiteSpeed Support Team, please generate a passwordless link for the current logged-in user to be sent with the report."
+msgstr "Genereer a.u.b. een link, om het LiteSpeed Support Team zonder wachtwoord wp-admin-toegang te geven namens de huidige ingelogde gebruiker, die je mee kunt sturen met het verslag."
+
+#: tpl/toolbox/report.tpl.php:75
+msgid "Generated links may be managed under <a %s>Settings</a>."
+msgstr "Gegenereerde links kun je beheren onder <a %s>Instellingen</a>."
+
+#: tpl/toolbox/report.tpl.php:74
+msgid "Please do NOT share the above passwordless link with anyone."
+msgstr "Deel de bovenstaande link zonder wachtwoord NIET met anderen."
+
+#: tpl/toolbox/report.tpl.php:31
+msgid "To generate a passwordless link for LiteSpeed Support Team access, you must install %s."
+msgstr "Installeer %s om een link te genereren, waarmee het LiteSpeed Support Team zonder wachtwoord beheertoegang krijgt."
+
+#: tpl/banner/cloud_news.tpl.php:23 tpl/banner/cloud_news.tpl.php:30
+msgid "Install"
+msgstr "Installeren"
+
+#: tpl/cache/settings-esi.tpl.php:36
+msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
+msgstr "Deze opties zijn alleen beschikbaar bij gebruik van LiteSpeed Enterprise Web Server of QUIC.cloud CDN."
+
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
+msgid "PageSpeed Score"
+msgstr "PageSpeed score"
+
+#: tpl/banner/score.php:55 tpl/banner/score.php:94
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
+msgid "Improved by"
+msgstr "Verbeterd met"
+
+#: tpl/banner/score.php:45 tpl/banner/score.php:84
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
+msgid "After"
+msgstr "Na"
+
+#: tpl/banner/score.php:34 tpl/banner/score.php:74
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
+msgid "Before"
+msgstr "Voor"
+
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
+msgid "Page Load Time"
+msgstr "Pagina laadtijd"
+
+#: tpl/inc/check_cache_disabled.php:10
+msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
+msgstr "Om de cachefuncties te gebruiken, moet je een LiteSpeed webserver hebben of QUIC.cloud CDN gebruiken."
+
+#: src/lang.cls.php:173
+msgid "Preserve EXIF/XMP data"
+msgstr "Behoudt EXIF/XMP-gegevens"
+
+#: tpl/toolbox/beta_test.tpl.php:25
+msgid "Try GitHub Version"
+msgstr "Uitproberen GitHub versie"
+
+#: tpl/cdn/settings.tpl.php:102
+msgid "If you turn any of the above settings OFF, please remove the related file types from the %s box."
+msgstr "Als je een van de bovenstaande instellingen UIT zet, verwijder dan de gerelateerde bestandstypen uit de %s box."
+
+#: src/doc.cls.php:89
+msgid "Both full and partial strings can be used."
+msgstr "Je kunt zowel een volledige als gedeeltelijke aanduiding gebruiken."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:50
+msgid "Images containing these class names will not be lazy loaded."
+msgstr "Lazy load wordt niet toegepast op afbeeldingen met deze class benamingen."
+
+#: src/lang.cls.php:150
+msgid "Lazy Load Image Class Name Excludes"
+msgstr "Uit te sluiten afbeelding klassen voor lazy-load"
+
+#: tpl/cache/settings-cache.tpl.php:125 tpl/cache/settings-cache.tpl.php:142
+msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
+msgstr "Voorbeeld: %1$s stelt de TTL in op %2$s seconden voor %3$s."
+
+#: tpl/cache/settings-cache.tpl.php:124 tpl/cache/settings-cache.tpl.php:141
+msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
+msgstr "Als je een aangepaste TTL voor een URI wilt definiëren, voeg je een spatie gevolgd door de TTL-waarde toe aan het einde van de URI."
+
+#: tpl/banner/new_version.php:87
+msgid "Maybe Later"
+msgstr "Misschien later"
+
+#: tpl/banner/new_version.php:81
+msgid "Turn On Auto Upgrade"
+msgstr "Zet automatisch upgraden aan"
+
+#: tpl/banner/new_version.php:71 tpl/banner/new_version_dev.tpl.php:24
+#: tpl/toolbox/beta_test.tpl.php:62
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: tpl/banner/new_version.php:63
+msgid "New release %s is available now."
+msgstr "Nieuwe release %s is nu beschikbaar."
+
+#: tpl/banner/new_version.php:59
+msgid "New Version Available!"
+msgstr "Er is een nieuwe versie beschikbaar!"
+
+#: tpl/banner/score.php:124
+msgid "<a %s>Support forum</a> | <a %s>Submit a ticket</a>"
+msgstr "<a %s>Support forum</a> | <a %s>Dien een ticket in</a>"
+
+#: tpl/banner/score.php:122
+msgid "Created with ❤️  by LiteSpeed team."
+msgstr "Met ❤️ gemaakt door het LiteSpeed team."
+
+#: tpl/banner/score.php:113
+msgid "Sure I'd love to review!"
+msgstr "Tuurlijk schrijf ik een beoordeling!"
+
+#: tpl/banner/score.php:24
+msgid "Thank You for Using the LiteSpeed Cache Plugin!"
+msgstr "Bedankt voor het gebruik van de LiteSpeed Cache Plugin!"
+
+#: src/activation.cls.php:504
+msgid "Upgraded successfully."
+msgstr "Upgrade geslaagd."
+
+#: src/activation.cls.php:495 src/activation.cls.php:500
+msgid "Failed to upgrade."
+msgstr "Upgrade mislukt."
+
+#: src/conf.cls.php:704
+msgid "Changed setting successfully."
+msgstr "Wijziging instellingen geslaagd."
+
+#: tpl/cache/settings-esi.tpl.php:27
+msgid "ESI sample for developers"
+msgstr "ESI voorbeeld voor ontwikkelaars"
+
+#: tpl/cache/settings-esi.tpl.php:20
+msgid "Replace %1$s with %2$s."
+msgstr "Vervang %1$s door %2$s."
+
+#: tpl/cache/settings-esi.tpl.php:18
+msgid "You can turn shortcodes into ESI blocks."
+msgstr "Je kunt shortcodes in ESI-blokken veranderen."
+
+#: tpl/cache/settings-esi.tpl.php:14
+msgid "WpW: Private Cache vs. Public Cache"
+msgstr "WpW: Private Cache vs. Public Cache"
+
+#: tpl/page_optm/settings_html.tpl.php:86
+msgid "Append query string %s to the resources to bypass this action."
+msgstr "Voeg query string %s toe aan de bronnen om deze actie te omzeilen."
+
+#: tpl/page_optm/settings_html.tpl.php:82
+msgid "Google reCAPTCHA will be bypassed automatically."
+msgstr "Google reCAPTCHA wordt automatisch overgeslagen."
+
+#: tpl/crawler/settings-simulation.tpl.php:49
+msgid "To crawl for a particular cookie, enter the cookie name, and the values you wish to crawl for. Values should be one per line. There will be one crawler created per cookie value, per simulated role."
+msgstr "Als je wilt crawlen voor een bepaalde cookie, voer je de cookienaam en de waarden in waarnaar je wilt crawlen. Waarden moeten één per regel zijn. Er wordt één crawler gemaakt per cookiewaarde, per gesimuleerde rol."
+
+#: src/admin-display.cls.php:206 tpl/crawler/settings-simulation.tpl.php:51
+msgid "Cookie Values"
+msgstr "Cookie waardes"
+
+#: src/admin-display.cls.php:205
+msgid "Cookie Name"
+msgstr "Naam van cookie"
+
+#: src/lang.cls.php:219
+msgid "Cookie Simulation"
+msgstr "Cookie simulatie"
+
+#: tpl/page_optm/settings_html.tpl.php:100
+msgid "Use Web Font Loader library to load Google Fonts asynchronously while leaving other CSS intact."
+msgstr "Gebruik de Web Font Loader bibliotheek om asynchroon Google Fonts te laten en overige CSS ongemoeid te laten."
+
+#: tpl/general/settings_inc.auto_upgrade.tpl.php:15
+msgid "Turn this option ON to have LiteSpeed Cache updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgstr "Zet deze optie AAN om LiteSpeed Cache automatisch te laten updaten, wanneer een nieuwe versie wordt uitgebracht. Indien UIT, update handmatig zoals gebruikelijk."
+
+#: src/lang.cls.php:67
+msgid "Automatically Upgrade"
+msgstr "Voer automatisch upgrades uit"
+
+#: tpl/toolbox/settings-debug.tpl.php:53
+msgid "Your IP"
+msgstr "Je IP-adres"
+
+#: src/import.cls.php:156
+msgid "Reset successfully."
+msgstr "Succesvol hersteld."
+
+#: tpl/toolbox/import_export.tpl.php:50
+msgid "This will reset all settings to default settings."
+msgstr "Dit herstelt alle instellingen naar de standaard instellingen."
+
+#: tpl/toolbox/import_export.tpl.php:49
+msgid "Reset All Settings"
+msgstr "Herstel alle instellingen"
+
+#: tpl/page_optm/settings_tuning.tpl.php:134
+msgid "Separate critical CSS files will be generated for paths containing these strings."
+msgstr "Er worden afzonderlijke kritische CSS-bestanden gegenereerd voor paden die deze strings bevatten."
+
+#: src/lang.cls.php:135
+msgid "Separate CCSS Cache URIs"
+msgstr "Afzonderlijke CCSS cache URI's"
+
+#: tpl/page_optm/settings_tuning.tpl.php:120
+msgid "For example, if every Page on the site has different formatting, enter %s in the box. Separate critical CSS files will be stored for every Page on the site."
+msgstr "Bijvoorbeeld, als elke pagina op de site een andere opmaak heeft, voer je %s in de box in. Voor elke pagina op de site worden afzonderlijke kritieke CSS-bestanden opgeslagen."
+
+#: tpl/page_optm/settings_tuning.tpl.php:119
+msgid "List post types where each item of that type should have its own CCSS generated."
+msgstr "Sorteer berichttypen waarbij elk item van dat type zijn eigen gegenereerde CCSS moet hebben."
+
+#: src/lang.cls.php:134
+msgid "Separate CCSS Cache Post Types"
+msgstr "Afzonderlijke CCSS cache berichttypen"
+
+#: tpl/page_optm/settings_media.tpl.php:182
+msgid "Size list in queue waiting for cron"
+msgstr "Afmetingenlijst in wachtrij wachtend op cron"
+
+#: tpl/page_optm/settings_media.tpl.php:158
+msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
+msgstr "Indien ingesteld op %1$s, voordat de placeholder is gelokaliseerd, wordt de %2$s-configuratie gebruikt."
+
+#: tpl/page_optm/settings_media.tpl.php:156
+msgid "Automatically generate LQIP in the background via a cron-based queue."
+msgstr "Genereer automatisch LQIP op de achtergrond via een cron-gebaseerde wachtrij."
+
+#: tpl/page_optm/settings_media.tpl.php:62
+msgid "This will generate the placeholder with same dimensions as the image if it has the width and height attributes."
+msgstr "Hierdoor krijgt de placeholder dezelfde afmetingen als de afbeelding, indien de attributen breedte en hoogte zijn meegegeven."
+
+#: tpl/page_optm/settings_media.tpl.php:61
+msgid "Responsive image placeholders can help to reduce layout reshuffle when images are loaded."
+msgstr "Responsive plaatshouders verminderen de herschikking op de pagina wanneer de afbeeldingen worden geladen."
+
+#: src/lang.cls.php:157
+msgid "Responsive Placeholder"
+msgstr "Responsive plaatshouder"
+
+#: tpl/toolbox/purge.tpl.php:98
+msgid "This will delete all generated image LQIP placeholder files"
+msgstr "Hiermee verwijder je alle aangemaakte placeholder bestanden"
+
+#: tpl/inc/check_cache_disabled.php:22
+msgid "Please enable LiteSpeed Cache in the plugin settings."
+msgstr "Schakel LiteSpeed Cache in bij de plugin instellingen."
+
+#: tpl/inc/check_cache_disabled.php:15
+msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
+msgstr "Schakel de LSCache module in op de server, of vraag dit aan je hosting provider."
+
+#: src/cloud.cls.php:634 src/cloud.cls.php:650
+msgid "Failed to request via WordPress"
+msgstr "Aanvraag via WordPress mislukt"
+
+#. Description of the plugin
+msgid "High-performance page caching and site optimization from LiteSpeed"
+msgstr "Hoge-prestatie pagina caching en site-optimalisatie van LiteSpeed"
+
+#: src/img-optm.cls.php:1776
+msgid "Reset the optimized data successfully."
+msgstr "Reset van de opgeoptimaliseerde gegevens geslaagd."
+
+#: src/gui.cls.php:781
+msgid "Update %s now"
+msgstr "Update %s nu"
+
+#: src/gui.cls.php:776
+msgid "View %1$s version %2$s details"
+msgstr "Toon %1$s versie %2$s details"
+
+#: src/gui.cls.php:773
+msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
+msgstr "<a href=\"%1$s\" %2$s>Toon details versie %3$s</a> of <a href=\"%4$s\" %5$s target=\"_blank\">nu updaten</a>."
+
+#: src/gui.cls.php:753
+msgid "Install %s"
+msgstr "Installeer %s"
+
+#: src/lang.cls.php:30
+msgid "Images previously optimized"
+msgstr "Eerder geoptimaliseerde afbeeldingen"
+
+#: tpl/inc/check_cache_disabled.php:34
+msgid "LSCache caching functions on this page are currently unavailable!"
+msgstr "Cache functies op deze pagina momenteel niet beschikbaar!"
+
+#: src/cloud.cls.php:711
+msgid "%1$s plugin version %2$s required for this action."
+msgstr "%1$s plugin versie %2$s vereist voor deze actie."
+
+#: src/cloud.cls.php:673
+msgid "We are working hard to improve your online service experience. The service will be unavailable while we work. We apologize for any inconvenience."
+msgstr "We doen er alles aan om je online dienst ervaringen te verbeteren. De dienst is niet beschikbaar tijdens onze werkzaamheden. Excuses voor het ongemak."
+
+#: tpl/img_optm/settings.tpl.php:62
+msgid "Automatically remove the original image backups after fetching optimized images."
+msgstr "Verwijder automatisch de originele afbeelding back-ups na het ophalen van geoptimaliseerde afbeeldingen."
+
+#: src/lang.cls.php:170
+msgid "Remove Original Backups"
+msgstr "Verwijder originele backups"
+
+#: tpl/img_optm/settings.tpl.php:23
+msgid "Automatically request optimization via cron job."
+msgstr "Automatisch optimaliseren van verzoeken via een cron job."
+
+#: tpl/img_optm/summary.tpl.php:186
+msgid "A backup of each image is saved before it is optimized."
+msgstr "Er wordt een back-up van elke afbeelding opgeslagen voordat deze wordt geoptimaliseerd."
+
+#: src/img-optm.cls.php:1656
+msgid "Switched images successfully."
+msgstr "Afbeeldingen succesvol gewisseld."
+
+#: tpl/img_optm/settings.tpl.php:82
+msgid "This can improve quality but may result in larger images than lossy compression will."
+msgstr "Dit verbetert de kwaliteit, maar kan resulteren in grotere afbeeldingen dan bij compressie met kwaliteitsverlies."
+
+#: tpl/img_optm/settings.tpl.php:81
+msgid "Optimize images using lossless compression."
+msgstr "Optimaliseer afbeeldingen met compressie zonder kwaliteitsverlies."
+
+#: src/lang.cls.php:172
+msgid "Optimize Losslessly"
+msgstr "Optimaliseer zonder kwaliteitsverlies"
+
+#: tpl/img_optm/settings.tpl.php:109
+msgid "Request WebP versions of original images when doing optimization."
+msgstr "Vraag WebP versies van originele afbeeldingen op wanneer je optimalisatie uitvoert."
+
+#: tpl/img_optm/settings.tpl.php:49
+msgid "Optimize images and save backups of the originals in the same folder."
+msgstr "Optimaliseer afbeeldingen en sla een kopie van de originelen op in dezelfde map."
+
+#: src/lang.cls.php:169
+msgid "Optimize Original Images"
+msgstr "Optimaliseer originele afbeeldingen"
+
+#: tpl/page_optm/settings_css.tpl.php:174
+msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
+msgstr "Als deze optie op %s gezet wordt, worden ook Google Fonts asynchroon geladen."
+
+#: src/purge.cls.php:230
+msgid "Cleaned all Critical CSS files."
+msgstr "Alle kritieke CSS-bestanden opgeschoond."
+
+#: tpl/page_optm/settings_css.tpl.php:256
+msgid "This will inline the asynchronous CSS library to avoid render blocking."
+msgstr "Hiermee wordt de asynchrone CSS-bibliotheek in de pagina (HTML) opgenomen, om weergave blokkering te voorkomen."
+
+#: src/lang.cls.php:121
+msgid "Inline CSS Async Lib"
+msgstr "Inline CSS Async Lib"
+
+#: tpl/page_optm/settings_localization.tpl.php:62
+#: tpl/page_optm/settings_media.tpl.php:198
+msgid "Run Queue Manually"
+msgstr "Start wachtrij handmatig"
+
+#: tpl/page_optm/settings_css.tpl.php:97 tpl/page_optm/settings_css.tpl.php:207
+msgid "URL list in %s queue waiting for cron"
+msgstr "URL lijst in %s wachtrij voor cron"
+
+#: tpl/page_optm/settings_css.tpl.php:85 tpl/page_optm/settings_css.tpl.php:195
+msgid "Last requested cost"
+msgstr "Laatst aangevraagde kosten"
+
+#: tpl/dash/dashboard.tpl.php:437 tpl/dash/dashboard.tpl.php:470
+#: tpl/dash/dashboard.tpl.php:503 tpl/page_optm/settings_css.tpl.php:82
+#: tpl/page_optm/settings_css.tpl.php:192
+#: tpl/page_optm/settings_media.tpl.php:170
+msgid "Last generated"
+msgstr "Laatst gegenereerd"
+
+#: tpl/page_optm/settings_media.tpl.php:162
+msgid "If set to %s this is done in the foreground, which may slow down page load."
+msgstr "Als je dit op %s zet wordt het in de voorgrond uitgevoerd. Dit kan het laden van de pagina vertragen."
+
+#: tpl/page_optm/settings_css.tpl.php:173
+msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
+msgstr "Het automatisch genereren van kritieke CSS gebeurt in de achtergrond via een op cron-gebaseerde wachtrij."
+
+#: tpl/page_optm/settings_css.tpl.php:169
+msgid "Optimize CSS delivery."
+msgstr "Optimaliseren van afleveren CSS."
+
+#: tpl/toolbox/purge.tpl.php:71
+msgid "This will delete all generated critical CSS files"
+msgstr "Dit verwijdert alle gegenereerde kritieke CSS bestanden"
+
+#: tpl/dash/dashboard.tpl.php:431 tpl/toolbox/purge.tpl.php:70
+msgid "Critical CSS"
+msgstr "Kritieke CSS"
+
+#: src/doc.cls.php:36
+msgid "This site utilizes caching in order to facilitate a faster response time and better user experience. Caching potentially stores a duplicate copy of every web page that is on display on this site. All cache files are temporary, and are never accessed by any third party, except as necessary to obtain technical support from the cache plugin vendor. Cache files expire on a schedule set by the site administrator, but may easily be purged by the admin before their natural expiration, if necessary. We may use QUIC.cloud services to process & cache your data temporarily."
+msgstr "Deze site gebruikt caching om een snellere responstijd en een betere gebruikerservaring te bereiken. Caching slaat mogelijk duplicate kopieën op van elke webpagina die op deze site wordt weergegeven. Alle cachebestanden zijn tijdelijk, en worden nooit benaderd door een derde partij, behalve als dit nodig is voor technische ondersteuning van de leverancier van de cacheplugin. Cache bestanden verlopen op basis van een schema dat wordt ingesteld door de beheerder van de site, maar kunnen indien nodig eenvoudig worden verwijderd door de beheerder voordat ze verlopen."
+
+#: tpl/toolbox/heartbeat.tpl.php:18
+msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
+msgstr "Dit uitschakelen kan ervoor zorgen dat door AJAX getriggerde WordPress taken niet meer werken."
+
+#: src/utility.cls.php:236
+msgid "right now"
+msgstr "nu"
+
+#: src/utility.cls.php:236
+msgid "just now"
+msgstr "net nu"
+
+#: tpl/img_optm/summary.tpl.php:251
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#: tpl/img_optm/summary.tpl.php:245
+#: tpl/page_optm/settings_localization.tpl.php:51
+msgid "Last ran"
+msgstr "Laatst uitgevoerd"
+
+#: tpl/img_optm/settings.tpl.php:67 tpl/img_optm/summary.tpl.php:237
+msgid "You will be unable to Revert Optimization once the backups are deleted!"
+msgstr "Je kunt de optimalisatie niet terugdraaien zodra de back-ups zijn verwijderd!"
+
+#: tpl/img_optm/settings.tpl.php:66 tpl/img_optm/summary.tpl.php:236
+msgid "This is irreversible."
+msgstr "Dit kan niet ongedaan worden gemaakt."
+
+#: tpl/img_optm/summary.tpl.php:256
+msgid "Remove Original Image Backups"
+msgstr "Verwijder back-ups van originele afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:255
+msgid "Are you sure you want to remove all image backups?"
+msgstr "Weet je zeker dat je alle afbeeldingen back-ups wil verwijderen?"
+
+#: tpl/crawler/blacklist.tpl.php:25 tpl/img_optm/summary.tpl.php:200
+msgid "Total"
+msgstr "Totaal"
+
+#: tpl/img_optm/summary.tpl.php:197 tpl/img_optm/summary.tpl.php:248
+msgid "Files"
+msgstr "Bestanden"
+
+#: tpl/img_optm/summary.tpl.php:193
+msgid "Last calculated"
+msgstr "Laatst berekend"
+
+#: tpl/img_optm/summary.tpl.php:208
+msgid "Calculate Original Image Storage"
+msgstr "Bereken de opslagruimte van originele afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:182
+msgid "Storage Optimization"
+msgstr "Opslagruimte optimaliseren"
+
+#: tpl/img_optm/settings.tpl.php:155
+msgid "Enable replacement of WebP in %s elements that were generated outside of WordPress logic."
+msgstr "Schakel vervanging van WebP in in %s elementen die zijn gegenereerd buiten de WordPress logica."
+
+#: src/lang.cls.php:175
+msgid "WebP For Extra srcset"
+msgstr "WebP voor extra srcset"
+
+#: tpl/cdn/settings.tpl.php:128 tpl/img_optm/settings.tpl.php:141
+msgid "Use the format %1$s or %2$s (element is optional)."
+msgstr "Gebruik het formaat %1$s of %2$s (element is optioneel)."
+
+#: tpl/cdn/settings.tpl.php:127 tpl/img_optm/settings.tpl.php:140
+msgid "Only attributes listed here will be replaced."
+msgstr "Alleen hier genoemde attributen worden vervangen."
+
+#: tpl/img_optm/settings.tpl.php:139
+msgid "Specify which element attributes will be replaced with WebP."
+msgstr "Specificeer welke element attributen worden vervangen door WebP."
+
+#: src/lang.cls.php:174
+msgid "WebP Attribute To Replace"
+msgstr "Te vervangen WebP attribuut"
+
+#: tpl/cdn/settings.tpl.php:165
+msgid "Only files within these directories will be pointed to the CDN."
+msgstr "Alleen bestanden in deze mappen zullen verwijzen naar de CDN."
+
+#: src/lang.cls.php:206
+msgid "Included Directories"
+msgstr "Inbegrepen Directory's"
+
+#: tpl/cache/settings-purge.tpl.php:153
+msgid "A Purge All will be executed when WordPress runs these hooks."
+msgstr "Een verwijder alles wordt uitgevoerd wanneer WordPress deze hooks draait."
+
+#: src/lang.cls.php:182
+msgid "Purge All Hooks"
+msgstr "Alle Hooks Verwijderen"
+
+#: src/purge.cls.php:192
+msgid "Purged all caches successfully."
+msgstr "Alle caches met succes schoongemaakt."
+
+#: src/gui.cls.php:479 src/gui.cls.php:579 src/gui.cls.php:629
+msgid "LSCache"
+msgstr "LSCache"
+
+#: src/gui.cls.php:423
+msgid "Forced cacheable"
+msgstr "Geforceerd cachebaar"
+
+#: tpl/cache/settings-cache.tpl.php:122
+msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
+msgstr "Paden die deze string bevatten worden gecached, ongeacht niet-cache instellingen."
+
+#: src/lang.cls.php:100
+msgid "Force Cache URIs"
+msgstr "Forceer Cachen URI's"
+
+#: tpl/cache/network_settings-excludes.tpl.php:7
+#: tpl/cache/settings-excludes.tpl.php:7
+msgid "Exclude Settings"
+msgstr "Instellingen voor Uitsluiten"
+
+#: tpl/toolbox/settings-debug.tpl.php:23
+msgid "This will disable LSCache and all optimization features for debug purpose."
+msgstr "Dit schakelt LSCache en alle optimalisatiekenmerken uit voor debug doelstellingen."
+
+#: src/lang.cls.php:224 tpl/inc/disabled_all.php:5
+msgid "Disable All Features"
+msgstr "Schakel alle functies uit"
+
+#: src/gui.cls.php:506 src/gui.cls.php:666 tpl/toolbox/purge.tpl.php:61
+msgid "Opcode Cache"
+msgstr "Opcode cache"
+
+#: src/gui.cls.php:487 src/gui.cls.php:637 tpl/toolbox/purge.tpl.php:43
+msgid "CSS/JS Cache"
+msgstr "CSS/JS cache"
+
+#: src/gui.cls.php:734 tpl/img_optm/summary.tpl.php:175
+msgid "Remove all previous unfinished image optimization requests."
+msgstr "Verwijder alle eerdere niet-voltooide aanvragen voor optimaliseren van afbeeldingen."
+
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:177
+msgid "Clean Up Unfinished Data"
+msgstr "Onafgewerkte gegevens opruimen"
+
+#: src/lang.cls.php:31
+msgid "Images failed with other errors"
+msgstr "Afbeeldingen mislukt met andere fouten"
+
+#: src/lang.cls.php:34
+msgid "Images with wrong meta"
+msgstr "Afbeeldingen met verkeerde meta-gegevens"
+
+#: tpl/banner/slack.php:23
+msgid "Join Us on Slack"
+msgstr "Sluit je bij ons aan op Slack"
+
+#: tpl/banner/slack.php:14
+msgid "Join the %s community."
+msgstr "Sluit je aan bij de %s community."
+
+#: tpl/banner/slack.php:13
+msgid "Want to connect with other LiteSpeed users?"
+msgstr "Wil je in contact komen met andere LiteSpeed gebruikers?"
+
+#: tpl/cdn/settings.tpl.php:203
+msgid "Get it from <a %1$s>%2$s</a>."
+msgstr "Verkrijg het van <a %1$s>%2$s</a>."
+
+#: tpl/cdn/settings.tpl.php:202
+msgid "Your API key / token is used to access %s APIs."
+msgstr "Je API sleutel/token wordt gebruikt om toegang te krijgen tot %s API's."
+
+#: tpl/cdn/settings.tpl.php:213
+msgid "Your Email address on %s."
+msgstr "Je e-mail adres op %s."
+
+#: tpl/cdn/settings.tpl.php:193
+msgid "Use %s API functionality."
+msgstr "Gebruik %s API functies."
+
+#: tpl/cdn/settings.tpl.php:79
+msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
+msgstr "Om de CDN-hostnaam willekeurig te maken, definieer je meerdere hostnamen voor dezelfde bronnen."
+
+#: tpl/inc/admin_footer.php:15
+msgid "Join LiteSpeed Slack community"
+msgstr "Sluit je aan bij de LiteSpeed community op Slack"
+
+#: tpl/inc/admin_footer.php:13
+msgid "Visit LSCWP support forum"
+msgstr "Bezoek het LSCWP ondersteuningsforum"
+
+#: tpl/inc/admin_footer.php:8
+msgid "Rate %s on %s"
+msgstr "Waardeer %s op %s"
+
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
+msgid "Images notified to pull"
+msgstr "Afbeeldingen notified to pull"
+
+#: src/lang.cls.php:32
+msgid "Image files missing"
+msgstr "Afbeeldingsbestanden ontbreken"
+
+#: tpl/img_optm/summary.tpl.php:280 tpl/img_optm/summary.tpl.php:307
+msgid "What is a group?"
+msgstr "Wat is een groep?"
+
+#: src/admin-display.cls.php:1165
+msgid "%s image"
+msgstr "%s afbeelding"
+
+#: src/admin-display.cls.php:1162
+msgid "%s group"
+msgstr "%s groep"
+
+#: src/admin-display.cls.php:1152
+msgid "%s images"
+msgstr "%s afbeeldingen"
+
+#: src/admin-display.cls.php:1149
+msgid "%s groups"
+msgstr "%s groepen"
+
+#: src/crawler.cls.php:826
+msgid "Guest"
+msgstr "Gast"
+
+#: tpl/crawler/settings-simulation.tpl.php:23
+msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
+msgstr "Als je de site wilt crawlen als een ingelogde gebruiker, voer je de gebruikers-ID's in die moeten worden gesimuleerd."
+
+#: src/lang.cls.php:218
+msgid "Role Simulation"
+msgstr "Rol simulatie"
+
+#: tpl/crawler/summary.tpl.php:170
+msgid "running"
+msgstr "loopt"
+
+#: tpl/db_optm/manage.tpl.php:167
+msgid "Size"
+msgstr "Grootte"
+
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:556
+msgid "Ended reason"
+msgstr "Reden beëindiging"
+
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:549
+msgid "Last interval"
+msgstr "Laatste interval"
+
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:542
+msgid "Current crawler started at"
+msgstr "Actieve crawler begon om"
+
+#: tpl/crawler/summary.tpl.php:78
+msgid "Run time for previous crawler"
+msgstr "Looptijd vorige crawler"
+
+#: tpl/crawler/summary.tpl.php:72 tpl/crawler/summary.tpl.php:79
+msgid "%d seconds"
+msgstr "%d seconden"
+
+#: tpl/crawler/summary.tpl.php:71
+msgid "Last complete run time for all crawlers"
+msgstr "Laatste volledige verwerking voor alle crawlers"
+
+#: tpl/crawler/summary.tpl.php:57
+msgid "Current sitemap crawl started at"
+msgstr "Crawlen van huidige sitemap begon om"
+
+#: tpl/cache/settings_inc.object.tpl.php:210
+msgid "Save transients in database when %1$s is %2$s."
+msgstr "Sla transients op in de database wanneer %1$s is ingesteld op %2$s."
+
+#: src/lang.cls.php:94
+msgid "Store Transients"
+msgstr "Sla transients op"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "If %1$s is %2$s, then %3$s must be populated!"
+msgstr "Als %1$s, %2$s is, dan moet %3$s zijn ingevuld!"
+
+#: tpl/crawler/settings-general.tpl.php:146
+msgid "Server allowed max value"
+msgstr "Server toegestaan max waarde"
+
+#: tpl/crawler/settings-general.tpl.php:141
+msgid "Server enforced value"
+msgstr "Server afgedwongen waarde"
+
+#: tpl/crawler/settings-general.tpl.php:40
+msgid "Server allowed min value"
+msgstr "Server toegestaan min waarde"
+
+#: tpl/cache/more_settings_tip.tpl.php:12
+#: tpl/cache/settings-excludes.tpl.php:61
+#: tpl/cache/settings-excludes.tpl.php:94 tpl/cdn/settings.tpl.php:78
+#: tpl/crawler/settings-general.tpl.php:39
+#: tpl/crawler/settings-general.tpl.php:140
+#: tpl/crawler/settings-general.tpl.php:145
+msgid "NOTE"
+msgstr "Opmerking"
+
+#: src/admin-display.cls.php:1118
+msgid "Server variable(s) %s available to override this setting."
+msgstr "Server variabele(n) %s beschikbaar om deze instelling te overschrijven."
+
+#: src/admin-display.cls.php:1117 tpl/cache/settings-esi.tpl.php:95
+#: tpl/page_optm/settings_css.tpl.php:176
+#: tpl/page_optm/settings_html.tpl.php:85
+#: tpl/page_optm/settings_media_exc.tpl.php:26
+#: tpl/page_optm/settings_tuning.tpl.php:35
+#: tpl/page_optm/settings_tuning.tpl.php:56
+#: tpl/page_optm/settings_tuning.tpl.php:101
+#: tpl/page_optm/settings_tuning.tpl.php:165
+#: tpl/page_optm/settings_tuning.tpl.php:186
+#: tpl/toolbox/edit_htaccess.tpl.php:54 tpl/toolbox/edit_htaccess.tpl.php:71
+msgid "API"
+msgstr "API"
+
+#: src/purge.cls.php:379
+msgid "Reset the entire opcode cache successfully."
+msgstr "Reset van de volledige opcodecache geslaagd."
+
+#: src/purge.cls.php:367
+msgid "Opcode cache is not enabled."
+msgstr "Opcode cache is niet ingeschakeld."
+
+#: src/import.cls.php:132
+msgid "Imported setting file %s successfully."
+msgstr "Import van instellingenbestand %s geslaagd."
+
+#: src/import.cls.php:75
+msgid "Import failed due to file error."
+msgstr "Import mislukt door bestandsfout."
+
+#: tpl/page_optm/settings_css.tpl.php:44 tpl/page_optm/settings_js.tpl.php:35
+msgid "How to Fix Problems Caused by CSS/JS Optimization."
+msgstr "Hoe problemen op te lossen, veroorzaakt door optimalisatie van CSS/JS."
+
+#: tpl/cache/settings-advanced.tpl.php:50
+msgid "This will generate extra requests to the server, which will increase server load."
+msgstr "Dit leidt tot meer serververzoeken en dus een hogere belasting van de server."
+
+#: tpl/cache/settings-advanced.tpl.php:46
+msgid "When a visitor hovers over a page link, preload that page. This will speed up the visit to that link."
+msgstr "Wanneer een bezoeker over een pagina link hovert, laadt je die pagina vooraf. Dit zal het bezoek aan die link versnellen."
+
+#: src/lang.cls.php:184
+msgid "Instant Click"
+msgstr "Instant Click"
+
+#: tpl/toolbox/purge.tpl.php:62
+msgid "Reset the entire opcode cache"
+msgstr "Reset de volledige opcodecache"
+
+#: tpl/toolbox/import_export.tpl.php:46
+msgid "This will import settings from a file and override all current LiteSpeed Cache settings."
+msgstr "Hiermee importeer je instellingen uit een bestand en worden alle huidige instellingen overschreven."
+
+#: tpl/toolbox/import_export.tpl.php:41
+msgid "Last imported"
+msgstr "Laatst geïmporteerd"
+
+#: tpl/toolbox/import_export.tpl.php:35
+msgid "Import"
+msgstr "Importeer"
+
+#: tpl/toolbox/import_export.tpl.php:27
+msgid "Import Settings"
+msgstr "Importeer instellingen"
+
+#: tpl/toolbox/import_export.tpl.php:24
+msgid "This will export all current LiteSpeed Cache settings and save them as a file."
+msgstr "Dit zal alle huidige LiteSpeed Cache instellingen exporteren en het als bestand bewaren."
+
+#: tpl/toolbox/import_export.tpl.php:19
+msgid "Last exported"
+msgstr "Laatst geëxporteerd"
+
+#: tpl/toolbox/import_export.tpl.php:14
+msgid "Export"
+msgstr "Exporteer"
+
+#: tpl/toolbox/import_export.tpl.php:9
+msgid "Export Settings"
+msgstr "Exporteer instellingen"
+
+#: tpl/toolbox/entry.tpl.php:10
+msgid "Import / Export"
+msgstr "Import/Export"
+
+#: tpl/cache/settings_inc.object.tpl.php:184
+msgid "Use keep-alive connections to speed up cache operations."
+msgstr "Gebruik de keep-alive header om caching te versnellen."
+
+#: tpl/cache/settings_inc.object.tpl.php:144
+msgid "Database to be used"
+msgstr "Te gebruiken database"
+
+#: src/lang.cls.php:89
+msgid "Redis Database ID"
+msgstr "Redis database ID"
+
+#: tpl/cache/settings_inc.object.tpl.php:131
+msgid "Specify the password used when connecting."
+msgstr "Geef wachtwoord op voor het maken van verbinding."
+
+#: src/lang.cls.php:88
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: tpl/cache/settings_inc.object.tpl.php:118
+msgid "Only available when %s is installed."
+msgstr "Alleen beschikbaar als %s is geïnstalleerd."
+
+#: src/lang.cls.php:87
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: tpl/cache/settings_inc.object.tpl.php:78
+msgid "Your %s Hostname or IP address."
+msgstr "Je %s hostnaam of IP-adres."
+
+#: src/lang.cls.php:83
+msgid "Method"
+msgstr "Methode"
+
+#: src/purge.cls.php:420
+msgid "Purge all object caches successfully."
+msgstr "Opschonen van alle object caches succesvol."
+
+#: src/purge.cls.php:407
+msgid "Object cache is not enabled."
+msgstr "Object cache is niet ingeschakeld."
+
+#: tpl/cache/settings_inc.object.tpl.php:197
+msgid "Improve wp-admin speed through caching. (May encounter expired data)"
+msgstr "Verhoog de reactiesnelheid van beheer pagina's. (Je kunt te maken krijgen met verlopen gegevens)"
+
+#: src/lang.cls.php:93
+msgid "Cache WP-Admin"
+msgstr "Cache Wp beheer"
+
+#: src/lang.cls.php:92
+msgid "Persistent Connection"
+msgstr "Blijvende verbinding"
+
+#: src/lang.cls.php:91
+msgid "Do Not Cache Groups"
+msgstr "Cache geen groepen"
+
+#: tpl/cache/settings_inc.object.tpl.php:157
+msgid "Groups cached at the network level."
+msgstr "Groepen in cache op netwerkniveau."
+
+#: src/lang.cls.php:90
+msgid "Global Groups"
+msgstr "Globale groepen"
+
+#: tpl/cache/settings_inc.object.tpl.php:52
+msgid "Connection Test"
+msgstr "Verbindingstest"
+
+#: tpl/cache/settings_inc.object.tpl.php:50
+#: tpl/cache/settings_inc.object.tpl.php:51
+msgid "%s Extension"
+msgstr "%s extensie"
+
+#: tpl/cache/settings_inc.object.tpl.php:47 tpl/crawler/blacklist.tpl.php:32
+#: tpl/crawler/summary.tpl.php:124
+msgid "Status"
+msgstr "Status"
+
+#: tpl/cache/settings_inc.object.tpl.php:105
+msgid "Default TTL for cached objects."
+msgstr "Standaard TTL voor objecten in de cache."
+
+#: src/lang.cls.php:86
+msgid "Default Object Lifetime"
+msgstr "Standaard object levensduur"
+
+#: src/lang.cls.php:85
+msgid "Port"
+msgstr "Poort"
+
+#: src/lang.cls.php:84
+msgid "Host"
+msgstr "Host"
+
+#: src/gui.cls.php:496 src/gui.cls.php:656 src/lang.cls.php:82
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
+msgid "Object Cache"
+msgstr "Object cache"
+
+#: tpl/cache/settings_inc.object.tpl.php:20
+msgid "Failed"
+msgstr "Mislukt"
+
+#: tpl/cache/settings_inc.object.tpl.php:17
+msgid "Passed"
+msgstr "Geslaagd"
+
+#: tpl/cache/settings_inc.object.tpl.php:14
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+#: tpl/toolbox/purge.tpl.php:53
+msgid "Purge all the object caches"
+msgstr "Schoon alle object caches op"
+
+#: src/cdn/cloudflare.cls.php:250 src/cdn/cloudflare.cls.php:272
+msgid "Failed to communicate with Cloudflare"
+msgstr "Kon geen verbinding maken met CloudFlare"
+
+#: src/cdn/cloudflare.cls.php:263
+msgid "Communicated with Cloudflare successfully."
+msgstr "Communicatie met Cloudflare geslaagd."
+
+#: src/cdn/cloudflare.cls.php:159
+msgid "No available Cloudflare zone"
+msgstr "Geen beschikbare CloudFlare zone"
+
+#: src/cdn/cloudflare.cls.php:145
+msgid "Notified Cloudflare to purge all successfully."
+msgstr "Cloudflare met succes op de hoogte gesteld om alles te verwijderen."
+
+#: src/cdn/cloudflare.cls.php:129
+msgid "Cloudflare API is set to off."
+msgstr "Cloudflare API staat uit."
+
+#: src/cdn/cloudflare.cls.php:112
+msgid "Notified Cloudflare to set development mode to %s successfully."
+msgstr "Melding aan Cloudflare om ontwikkel modus in te stellen op %s geslaagd."
+
+#: tpl/cdn/settings.tpl.php:228
+msgid "Once saved, it will be matched with the current list and completed automatically."
+msgstr "Eenmaal opgeslagen, wordt deze gekoppeld aan de huidige lijst en automatisch voltooid."
+
+#: tpl/cdn/settings.tpl.php:227
+msgid "You can just type part of the domain."
+msgstr "Je kunt ook een deel van de domeinnaam opgeven."
+
+#: tpl/cdn/settings.tpl.php:219
+msgid "Domain"
+msgstr "Domein"
+
+#: src/lang.cls.php:208
+msgid "Cloudflare API"
+msgstr "Cloudflare API"
+
+#: tpl/cdn/manage.tpl.php:77
+msgid "Purge Everything"
+msgstr "Schoon alles op"
+
+#: tpl/cdn/manage.tpl.php:71
+msgid "Cloudflare Cache"
+msgstr "Cloudflare Cache"
+
+#: tpl/cdn/manage.tpl.php:65
+msgid "Development Mode will be turned off automatically after three hours."
+msgstr "Ontwikkel modus wordt na 3 uur automatisch uitgeschakeld."
+
+#: tpl/cdn/manage.tpl.php:64
+msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
+msgstr "Negeer tijdelijk de Cloudflare cache. Zo worden aanpassingen aan je site direct zichtbaar."
+
+#: tpl/cdn/manage.tpl.php:56
+msgid "Development mode will be automatically turned off in %s."
+msgstr "Ontwikkel modus wordt automatisch uitgeschakeld in %s."
+
+#: tpl/cdn/manage.tpl.php:55
+msgid "Current status is %s."
+msgstr "Huidige status is %s."
+
+#: tpl/cdn/manage.tpl.php:49
+msgid "Current status is %1$s since %2$s."
+msgstr "Huidige status is %1$s sinds %2$s."
+
+#: tpl/cdn/manage.tpl.php:40
+msgid "Check Status"
+msgstr "Check status"
+
+#: tpl/cdn/manage.tpl.php:37
+msgid "Turn OFF"
+msgstr "Zet UIT"
+
+#: tpl/cdn/manage.tpl.php:34
+msgid "Turn ON"
+msgstr "Inschakelen"
+
+#: tpl/cdn/manage.tpl.php:32
+msgid "Development Mode"
+msgstr "Ontwikkel modus"
+
+#: tpl/cdn/manage.tpl.php:29
+msgid "Cloudflare Zone"
+msgstr "Cloudflare Zone"
+
+#: tpl/cdn/manage.tpl.php:28
+msgid "Cloudflare Domain"
+msgstr "Cloudflare Domain"
+
+#: src/gui.cls.php:646 tpl/cdn/manage.tpl.php:17
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: tpl/page_optm/settings_html.tpl.php:34
+msgid "For example"
+msgstr "Bijvoorbeeld"
+
+#: tpl/page_optm/settings_html.tpl.php:33
+msgid "Prefetching DNS can reduce latency for visitors."
+msgstr "Prefetchen van DNS kan de wachttijd verminderen voor gebruikers."
+
+#: src/lang.cls.php:126
+msgid "DNS Prefetch"
+msgstr "DNS Prefetch"
+
+#: tpl/page_optm/settings_media.tpl.php:31
+msgid "Adding Style to Your Lazy-Loaded Images"
+msgstr "Stijl toevoegen aan je lazy-loaded afbeeldingen"
+
+#: src/admin-display.cls.php:980 src/admin-display.cls.php:985
+#: tpl/cdn/settings.tpl.php:99
+msgid "Default value"
+msgstr "Standaard waarde"
+
+#: tpl/cdn/settings.tpl.php:96
+msgid "Static file type links to be replaced by CDN links."
+msgstr "Statische bestandstype links die moeten worden vervangen door CDN-links."
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:15
+msgid "For example, to drop parameters beginning with %s, %s can be used here."
+msgstr "Als je bijvoorbeeld parameters wilt laten vallen die beginnen met %s, kan %s hier worden gebruikt."
+
+#: src/lang.cls.php:80
+msgid "Drop Query String"
+msgstr "Zoekopdracht string laten vervallen"
+
+#: tpl/cache/settings-advanced.tpl.php:32
+msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
+msgstr "Schakel deze optie in als je gebruik maakt van zowel HTTP als HTTPS op hetzelfde domein en merkt dat caching niet altijd goed werkt."
+
+#: src/lang.cls.php:183
+msgid "Improve HTTP/HTTPS Compatibility"
+msgstr "Verbeter de compatibiliteit van HTTP/HTTPS"
+
+#: tpl/img_optm/summary.tpl.php:378
+msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
+msgstr "Verwijder alle vorige afbeelding optimalisatie aanvragen/resultaten, maak voltooide optimalisaties ongedaan en verwijder alle optimalisatie bestanden."
+
+#: tpl/img_optm/summary.tpl.php:374
+msgid "Destroy All Optimization Data"
+msgstr "Wis alle optimalisatie gegevens!"
+
+#: tpl/img_optm/summary.tpl.php:324
+msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
+msgstr "Scant naar nieuwe niet-geoptimaliseerde thumbnails van afbeeldingen en verzendt de benodigde optimalisatie aanvragen opnieuw."
+
+#: tpl/img_optm/settings.tpl.php:96
+msgid "This will increase the size of optimized files."
+msgstr "Hierdoor worden geoptimaliseerde bestanden groter."
+
+#: tpl/img_optm/settings.tpl.php:95
+msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
+msgstr "Behoud EXIF gegevens (copyright, GPS, trefwoorden, etc) bij optimalisatie."
+
+#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
+msgid "Clear Log"
+msgstr "Leeg log"
+
+#: thirdparty/woocommerce.content.tpl.php:23
+msgid "To test the cart, visit the <a %s>FAQ</a>."
+msgstr "Ga naar de <a %s>Veelgestelde vragen</a> om de winkelwagen te testen."
+
+#: src/utility.cls.php:239
+msgid " %s ago"
+msgstr " %s geleden"
+
+#: src/media.cls.php:315
+msgid "WebP saved %s"
+msgstr "WebP %s bespaard"
+
+#: tpl/toolbox/report.tpl.php:51
+msgid "If you run into any issues, please refer to the report number in your support message."
+msgstr "Bij problemen graag het rapportnummer vermelden in je melding aan ondersteuning."
+
+#: tpl/inc/api_key.php:11
+msgid "This will also generate an API key from LiteSpeed's Server."
+msgstr "Genereert ook een API sleutel voor de LiteSpeed server."
+
+#: tpl/img_optm/summary.tpl.php:133
+msgid "Last pull initiated by cron at %s."
+msgstr "Laatste pull gestart door cron op %s."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Images will be pulled automatically if the cron job is running."
+msgstr "Als de cron job loopt, worden afbeeldingen automatisch opgehaald."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Only press the button if the pull cron job is disabled."
+msgstr "Klik alleen op de button als de pull cron taak is uitgeschakeld."
+
+#: tpl/img_optm/summary.tpl.php:94
+msgid "Pull Images"
+msgstr "Haal afbeelding op"
+
+#: tpl/img_optm/summary.tpl.php:118
+msgid "This process is automatic."
+msgstr "Dit proces gaat automatisch."
+
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
+msgid "Last Request"
+msgstr "Laatste verzoek"
+
+#: src/lang.cls.php:27
+msgid "Images failed to pull"
+msgstr "Ophalen afbeeldingen mislukt"
+
+#: src/lang.cls.php:28 src/lang.cls.php:29
+msgid "Images failed to fetch"
+msgstr "Afbeeldingen kunnen niet worden opgehaald"
+
+#: tpl/img_optm/summary.tpl.php:339
+msgid "Images Pulled"
+msgstr "Opgehaalde afbeeldingen"
+
+#: tpl/toolbox/entry.tpl.php:19
+msgid "Report"
+msgstr "Rapport"
+
+#: tpl/toolbox/report.tpl.php:97
+msgid "Send this report to LiteSpeed. Refer to this report number when posting in the WordPress support forum."
+msgstr "Stuur dit rapport naar LiteSpeed. Gebruik het rapportnummer als je een bericht plaatst in het WordPress ondersteuning forum."
+
+#: tpl/toolbox/report.tpl.php:93 tpl/toolbox/report.tpl.php:94
+msgid "Send to LiteSpeed"
+msgstr "Verzend naar LiteSpeed"
+
+#: tpl/toolbox/report.tpl.php:46
+msgid "Report date"
+msgstr "Rapportdatum"
+
+#: tpl/toolbox/report.tpl.php:45
+msgid "Report number"
+msgstr "Rapportnummer"
+
+#: thirdparty/woocommerce.content.tpl.php:91
+msgid "Privately cache cart when not empty."
+msgstr "Privé gecachte winkelwagen niet leeg."
+
+#: thirdparty/woocommerce.content.tpl.php:86
+msgid "Privately Cache Cart"
+msgstr "Privé gecachte winkelwagen"
+
+#: src/media.cls.php:196
+msgid "LiteSpeed Optimization"
+msgstr "LiteSpeed optimalisatie"
+
+#: src/lang.cls.php:131
+msgid "Load Google Fonts Asynchronously"
+msgstr "Google fonts asynchroon laden"
+
+#: src/lang.cls.php:66
+msgid "Browser Cache TTL"
+msgstr "Browser Cache TTL"
+
+#: tpl/img_optm/summary.tpl.php:346
+msgid "Results can be checked in <a %s>Media Library</a>."
+msgstr "Resultaten kun je controleren in <a %s>Media Library</a>."
+
+#: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
+#: tpl/dash/dashboard.tpl.php:49 tpl/img_optm/summary.tpl.php:62
+#: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#: src/lang.cls.php:26
+msgid "Images optimized and pulled"
+msgstr "Aantal opgehaalde en geoptimaliseerde afbeeldingen"
+
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
+msgid "Images requested"
+msgstr "Aantal opgevraagde afbeeldingen"
+
+#: tpl/img_optm/summary.tpl.php:314
+msgid "Images not yet requested"
+msgstr "Afbeeldingen nog niet aangevraagd"
+
+#: tpl/img_optm/summary.tpl.php:276 tpl/img_optm/summary.tpl.php:303
+msgid "Images total"
+msgstr "Totaal aantal afbeeldingen"
+
+#: src/img-optm.cls.php:1713
+msgid "Switched to optimized file successfully."
+msgstr "Omschakelen naar geoptimaliseerd bestand geslaagd."
+
+#: src/img-optm.cls.php:1706
+msgid "Restored original file successfully."
+msgstr "Terugzetten oorspronkelijk bestand geslaagd."
+
+#: src/img-optm.cls.php:1690
+msgid "Enabled WebP file successfully."
+msgstr "Inschakelen WebP bestand geslaagd."
+
+#: src/img-optm.cls.php:1684
+msgid "Disabled WebP file successfully."
+msgstr "Uitschakelen WebP bestand geslaagd."
+
+#: tpl/img_optm/settings.tpl.php:36
+msgid "Disabling this will stop the cron job responsible for pulling optimized images back from QUIC.cloud Image Server."
+msgstr "Als je dit uitschakelt, stopt de cron-taak die verantwoordelijk is voor het ophalen van geoptimaliseerde afbeeldingen van LiteSpeed's Image Server."
+
+#: tpl/img_optm/settings.media_webp.tpl.php:14
+msgid "Significantly improve load time by replacing images with their optimized %s versions."
+msgstr "Verbeter de laadtijd aanzienlijk door afbeeldingen te vervangen door hun geoptimaliseerde %s versies."
+
+#: src/lang.cls.php:188
+msgid "Image WebP Replacement"
+msgstr "Afbeeldingsformaat veranderen in WebP"
+
+#: tpl/cache/settings-excludes.tpl.php:123
+msgid "Selected roles will be excluded from cache."
+msgstr "Geselecteerde rollen worden uitgesloten van de cache."
+
+#: tpl/general/entry.tpl.php:7 tpl/page_optm/entry.tpl.php:12
+msgid "Tuning"
+msgstr "Fijninstelling"
+
+#: tpl/page_optm/settings_tuning.tpl.php:228
+msgid "Selected roles will be excluded from all optimizations."
+msgstr "De gekozen rollen worden uitgesloten van alle optimalisaties."
+
+#: src/lang.cls.php:142
+msgid "Role Excludes"
+msgstr "Uitgesloten rol"
+
+#: tpl/general/settings_tuning.tpl.php:7
+#: tpl/page_optm/settings_tuning.tpl.php:18
+msgid "Tuning Settings"
+msgstr "Instellingen verfijnen"
+
+#: tpl/cache/settings-excludes.tpl.php:96
+msgid "If the tag slug is not found, the tag will be removed from the list on save."
+msgstr "Als de tag -slug niet wordt gevonden, wordt de tag tijdens het opslaan uit de lijst verwijderd."
+
+#: tpl/cache/settings-excludes.tpl.php:63
+msgid "If the category name is not found, the category will be removed from the list on save."
+msgstr "Als de categorie naam niet wordt gevonden, wordt de categorie bij opslaan van de lijst verwijderd."
+
+#: tpl/img_optm/summary.tpl.php:117
+msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
+msgstr "Als de optimalisatie op de LiteSpeed server klaar is, krijgt je site een seintje om de geoptimaliseerde afbeeldingen weer op te halen."
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Send Optimization Request"
+msgstr "Verzend optimalisatie aanvraag"
+
+#: tpl/img_optm/summary.tpl.php:267
+msgid "Image Information"
+msgstr "Afbeeldingsgegevens"
+
+#: tpl/img_optm/summary.tpl.php:336
+msgid "Total Reduction"
+msgstr "Totale reductie"
+
+#: tpl/img_optm/summary.tpl.php:333
+msgid "Optimization Summary"
+msgstr "Samenvatting van de optimalisatie"
+
+#: tpl/img_optm/entry.tpl.php:22
+msgid "LiteSpeed Cache Image Optimization"
+msgstr "LiteSpeed Cache optimalisatie van afbeeldingen"
+
+#: src/admin-display.cls.php:123 src/gui.cls.php:612
+#: tpl/dash/dashboard.tpl.php:55 tpl/dash/network_dash.tpl.php:27
+msgid "Image Optimization"
+msgstr "Optimalisatie afbeeldingen"
+
+#: src/lang.cls.php:136
+msgid "JS Deferred Excludes"
+msgstr "JS Uitgestelde uitsluitingen"
+
+#: tpl/page_optm/settings_media.tpl.php:48
+msgid "For example, %s can be used for a transparent placeholder."
+msgstr "%s kan bijvoorbeeld gebruikt worden voor een transparante placeholder."
+
+#: tpl/page_optm/settings_media.tpl.php:47
+msgid "By default a gray image placeholder %s will be used."
+msgstr "Standaard wordt een grijze afbeelding plaatshouder %s gebruikt."
+
+#: tpl/page_optm/settings_media.tpl.php:46
+msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
+msgstr "Dit kan ook in %2$s vooraf worden gedefinieerd met behulp van constante %1$s, waarbij deze instelling voorrang krijgt."
+
+#: tpl/page_optm/settings_media.tpl.php:45
+msgid "Specify a base64 image to be used as a simple placeholder while images finish loading."
+msgstr "Stel een base64 afbeelding in om te gebruiken als een plaatshouder terwijl de afbeeldingen worden geladen."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:28
+#: tpl/page_optm/settings_tuning.tpl.php:37
+#: tpl/page_optm/settings_tuning.tpl.php:58
+#: tpl/page_optm/settings_tuning.tpl.php:167
+#: tpl/page_optm/settings_tuning.tpl.php:188
+msgid "Elements with attribute %s in html code will be excluded."
+msgstr "Elementen in de HTML code met attribuut %s worden uitgesloten."
+
+#: tpl/cache/settings-esi.tpl.php:96
+#: tpl/page_optm/settings_media_exc.tpl.php:27
+#: tpl/page_optm/settings_tuning.tpl.php:36
+#: tpl/page_optm/settings_tuning.tpl.php:57
+#: tpl/page_optm/settings_tuning.tpl.php:102
+#: tpl/page_optm/settings_tuning.tpl.php:166
+#: tpl/page_optm/settings_tuning.tpl.php:187
+msgid "Filter %s is supported."
+msgstr "Filter %s wordt ondersteund."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:21
+msgid "Listed images will not be lazy loaded."
+msgstr "Opgegeven afbeeldingen maken geen gebruik van lazy-load."
+
+#: src/lang.cls.php:149
+msgid "Lazy Load Image Excludes"
+msgstr "Afbeelding(en) uitsluiten van lazy-load"
+
+#: src/gui.cls.php:456
+msgid "No optimization"
+msgstr "Geen optimalisatie"
+
+#: tpl/page_optm/settings_tuning.tpl.php:202
+msgid "Prevent any optimization of listed pages."
+msgstr "Voorkom optimalisatie van opgegeven pagina's."
+
+#: src/lang.cls.php:140
+msgid "URI Excludes"
+msgstr "URI uitsluitingen"
+
+#: tpl/page_optm/settings_html.tpl.php:128
+msgid "Stop loading WordPress.org emoji. Browser default emoji will be displayed instead."
+msgstr "Maak geen gebruik van de WordPress emoji, maar van de standaard emoji in de browser."
+
+#: src/doc.cls.php:92
+msgid "Both full URLs and partial strings can be used."
+msgstr "Zowel het gebruik van de volledige URL als een deel ervan kan worden gebruikt."
+
+#: tpl/page_optm/settings_media.tpl.php:213
+msgid "Load iframes only when they enter the viewport."
+msgstr "Laad iframes pas als ze in het zichtbare deel van het scherm komen."
+
+#: src/lang.cls.php:165
+msgid "Lazy Load Iframes"
+msgstr "Lazy-load Iframes"
+
+#: tpl/page_optm/settings_media.tpl.php:28
+#: tpl/page_optm/settings_media.tpl.php:214
+msgid "This can improve page loading time by reducing initial HTTP requests."
+msgstr "Kan de laadtijd van de pagina verbeteren door het aantal HTTP verzoeken te verminderen."
+
+#: tpl/page_optm/settings_media.tpl.php:27
+msgid "Load images only when they enter the viewport."
+msgstr "Laad afbeeldingen pas als ze zichtbaar worden."
+
+#: src/lang.cls.php:148
+msgid "Lazy Load Images"
+msgstr "Lazy-load afbeeldingen"
+
+#: tpl/page_optm/entry.tpl.php:9 tpl/page_optm/settings_media.tpl.php:14
+msgid "Media Settings"
+msgstr "Media instellingen"
+
+#: tpl/cache/settings-excludes.tpl.php:36
+msgid "For example, for %s, %s and %s can be used here."
+msgstr "Bijvoorbeeld, voor %s, %s en %s kunnen hier worden gebruikt."
+
+#: tpl/cache/settings-esi.tpl.php:107 tpl/cache/settings-purge.tpl.php:110
+#: tpl/cdn/settings.tpl.php:143
+msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
+msgstr "Wildcard %1$s wordt ondersteund (match nul of meer tekens). Als je bijvoorbeeld %2$s en %3$s wilt matchen, gebruik je %4$s."
+
+#: src/admin-display.cls.php:1133
+msgid "To match the beginning, add %s to the beginning of the item."
+msgstr "Voeg %s toe aan het begin van het item om het begin aan te passen."
+
+#: src/admin-display.cls.php:1131
+msgid "For example, for %s, %s can be used here."
+msgstr "Bijvoorbeeld, voor %s, %s kan hier worden gebruikt."
+
+#: tpl/banner/score.php:118
+msgid "Maybe later"
+msgstr "Misschien later"
+
+#: tpl/banner/score.php:117
+msgid "I've already left a review"
+msgstr "Ik heb al een beoordeling achtergelaten"
+
+#: tpl/banner/slack.php:9
+msgid "Welcome to LiteSpeed"
+msgstr "Welkom bij LiteSpeed"
+
+#: src/lang.cls.php:138
+msgid "Remove WordPress Emoji"
+msgstr "Verwijder WordPress emoji"
+
+#: src/gui.cls.php:464
+msgid "More settings"
+msgstr "Meer instellingen"
+
+#: src/gui.cls.php:445
+msgid "Private cache"
+msgstr "Privé cache"
+
+#: src/gui.cls.php:434
+msgid "Non cacheable"
+msgstr "Niet-cacheable"
+
+#: src/gui.cls.php:411
+msgid "Mark this page as "
+msgstr "Markeer pagina als "
+
+#: src/gui.cls.php:403
+msgid "Purge this page"
+msgstr "Schoon deze pagina op"
+
+#: src/lang.cls.php:123
+msgid "Load JS Deferred"
+msgstr "Stel laden JS uit"
+
+#: tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
+msgstr "Geef benodigde stijlregels (CSS) op voor above-the-fold deel van de pagina als je %s inschakelt."
+
+#: src/lang.cls.php:133
+msgid "Critical CSS Rules"
+msgstr "Kritieke CSS regels"
+
+#: src/lang.cls.php:119 tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Load CSS Asynchronously"
+msgstr "CSS asynchroon laden"
+
+#: tpl/page_optm/settings_html.tpl.php:115
+msgid "Prevent Google Fonts from loading on all pages."
+msgstr "Voorkom het laden van Google fonts op al je pagina's."
+
+#: src/lang.cls.php:132
+msgid "Remove Google Fonts"
+msgstr "Verwijder Google Fonts"
+
+#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
+msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
+msgstr "Dit kan je snelheidsscore verbeteren in diensten als Pingdom, GTmetrix en PageSpeed."
+
+#: tpl/page_optm/settings_html.tpl.php:79
+msgid "Remove query strings from internal static resources."
+msgstr "Verwijder query strings van interne statische gegevensbronnen."
+
+#: src/lang.cls.php:130
+msgid "Remove Query Strings"
+msgstr "Verwijder query strings"
+
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "user agents"
+msgstr "user agents"
+
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+msgid "cookies"
+msgstr "cookies"
+
+#: tpl/cache/settings_inc.browser.tpl.php:29
+msgid "You can turn on browser caching in server admin too. <a %s>Learn more about LiteSpeed browser cache settings</a>."
+msgstr "Je kunt ook browser caching in server beheer inschakelen. <a %s>Meer informatie over de LiteSpeed browser cache instellingen</a>."
+
+#: tpl/cache/settings_inc.browser.tpl.php:27
+msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
+msgstr "Browser caching slaat statische bestanden op in de browser van de gebruiker. Schakel deze optie in om de laadtijd bij een volgend bezoek fors te verminderen."
+
+#: src/lang.cls.php:59 tpl/dash/dashboard.tpl.php:397
+msgid "Browser Cache"
+msgstr "Browser Cache"
+
+#: tpl/cache/settings-excludes.tpl.php:90
+msgid "tags"
+msgstr "tags"
+
+#: src/lang.cls.php:105
+msgid "Do Not Cache Tags"
+msgstr "Tags niet cachen"
+
+#: tpl/cache/settings-excludes.tpl.php:97
+msgid "To exclude %1$s, insert %2$s."
+msgstr "Voeg %2$s in om %1$s uit te sluiten."
+
+#: tpl/cache/settings-excludes.tpl.php:57
+msgid "categories"
+msgstr "categorieën"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+#: tpl/cache/settings-excludes.tpl.php:90
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "To prevent %s from being cached, enter them here."
+msgstr "Om te voorkomen dat %s in de cache wordt opgeslagen, voer je deze hier in."
+
+#: src/lang.cls.php:104
+msgid "Do Not Cache Categories"
+msgstr "Categorieën niet opnemen in cache"
+
+#: tpl/cache/settings-excludes.tpl.php:35
+msgid "Query strings containing these parameters will not be cached."
+msgstr "De query string met deze parameters wordt niet in de cache opgeslagen."
+
+#: src/lang.cls.php:103
+msgid "Do Not Cache Query Strings"
+msgstr "Query strings niet cachen"
+
+#: tpl/cache/settings-excludes.tpl.php:21
+msgid "Paths containing these strings will not be cached."
+msgstr "Bestandslocaties die deze tekst bevatten worden niet gecached."
+
+#: src/lang.cls.php:102
+msgid "Do Not Cache URIs"
+msgstr "URIs niet cachen"
+
+#: tpl/toolbox/settings-debug.tpl.php:39
+msgid "The logs will be output to %s."
+msgstr "Logboeken worden geplaatst in %s."
+
+#: src/admin-display.cls.php:1135 src/doc.cls.php:74
+msgid "One per line."
+msgstr "Eén per regel."
+
+#: tpl/cache/settings-cache.tpl.php:108
+msgid "URI Paths containing these strings will NOT be cached as public."
+msgstr "URI-paden die deze tekenreeksen bevatten, worden NIET als openbaar in de cache opgeslagen."
+
+#: src/lang.cls.php:79
+msgid "Private Cached URIs"
+msgstr "Privé cached-URI's"
+
+#: tpl/cdn/settings.tpl.php:179
+msgid "Paths containing these strings will not be served from the CDN."
+msgstr "Bestandslocaties die deze tekst bevatten maken geen gebruik van de CDN."
+
+#: src/lang.cls.php:207
+msgid "Exclude Path"
+msgstr "Bestandslocatie uitsluiten"
+
+#: tpl/cdn/settings.tpl.php:98
+msgid "This will affect all tags containing attributes: %s %s %s."
+msgstr "Dit is van invloed op alle tags die deze kenmerken bevatten: %s %s %s."
+
+#: src/lang.cls.php:203 tpl/cdn/settings.tpl.php:102
+msgid "Include File Types"
+msgstr "Bestandstypes insluiten"
+
+#: tpl/cdn/settings.tpl.php:92
+msgid "Serve all JavaScript files through the CDN. This will affect all enqueued WP JavaScript files."
+msgstr "Serveer alle JavaScript-bestanden via het CDN. Dit is van invloed op alle in de wacht geplaatste WP JavaScript-bestanden."
+
+#: src/lang.cls.php:202
+msgid "Include JS"
+msgstr "JS opnemen"
+
+#: tpl/cdn/settings.tpl.php:88
+msgid "Serve all CSS files through the CDN. This will affect all enqueued WP CSS files."
+msgstr "Gebruik alle CSS bestanden vanaf een CDN. Dit betreft alle door WordPress ingesloten CSS bestanden."
+
+#: src/lang.cls.php:201
+msgid "Include CSS"
+msgstr "CSS opnemen"
+
+#: tpl/cdn/settings.tpl.php:84
+msgid "Serve all image files through the CDN. This will affect all attachments, HTML %s tags, and CSS %s attributes."
+msgstr "Laad alle afbeeldingen vanaf de CDN. Heeft betrekking op alle afbeeldingen, HTML %s tags en CSS %s attributen."
+
+#: src/lang.cls.php:200
+msgid "Include Images"
+msgstr "Afbeeldingen opnemen"
+
+#: src/admin-display.cls.php:228
+msgid "CDN URL to be used. For example, %s"
+msgstr "Te gebruiken URL van het Content Delivery Network. Bijvoorbeeld %s"
+
+#: src/lang.cls.php:199
+msgid "CDN URL"
+msgstr "URL van het CDN"
+
+#: tpl/cdn/settings.tpl.php:142
+msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
+msgstr "URL van je site die de CDN moet laten zien, beginnend met %1$s. Bijvoorbeeld %2$s."
+
+#: src/lang.cls.php:205
+msgid "Original URLs"
+msgstr "Originele URLs"
+
+#: tpl/cdn/entry.tpl.php:6 tpl/cdn/settings.tpl.php:21
+msgid "CDN Settings"
+msgstr "CDN instellingen"
+
+#: src/admin-display.cls.php:121 tpl/cdn/settings.tpl.php:194
+msgid "CDN"
+msgstr "CDN"
+
+#: src/admin-display.cls.php:233 src/admin-display.cls.php:838
+#: src/admin-display.cls.php:865 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:72 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_media.tpl.php:162
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "OFF"
+msgstr "UIT"
+
+#: src/admin-display.cls.php:232 src/admin-display.cls.php:837
+#: src/admin-display.cls.php:866 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
+#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_media.tpl.php:159
+#: tpl/page_optm/settings_media.tpl.php:229
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "ON"
+msgstr "AAN"
+
+#: src/purge.cls.php:351
+msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
+msgstr "LiteSpeed Web Server gemeld om alle CSS/JS te verwijderen."
+
+#: tpl/page_optm/settings_html.tpl.php:20
+msgid "Minify HTML content."
+msgstr "Verklein HTML inhoud."
+
+#: src/lang.cls.php:117
+msgid "HTML Minify"
+msgstr "Verklein HTML"
+
+#: src/lang.cls.php:129
+msgid "JS Excludes"
+msgstr "JS uitsluitingen"
+
+#: src/data.upgrade.func.php:101 src/lang.cls.php:115
+msgid "JS Combine"
+msgstr "Bundel JS"
+
+#: src/lang.cls.php:114
+msgid "JS Minify"
+msgstr "Verklein JS"
+
+#: src/lang.cls.php:128
+msgid "CSS Excludes"
+msgstr "Uit te sluiten CSS bestanden"
+
+#: src/lang.cls.php:108
+msgid "CSS Combine"
+msgstr "Bundel CSS"
+
+#: src/lang.cls.php:107
+msgid "CSS Minify"
+msgstr "Verklein CSS"
+
+#: tpl/page_optm/entry.tpl.php:31
+msgid "Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action."
+msgstr "Test de werking van je site grondig als je deze opties gebruikt. Leeg alle caches na wijziging van instellingen voor verkleinen en/of bundelen."
+
+#: tpl/toolbox/purge.tpl.php:44
+msgid "This will purge all minified/combined CSS/JS entries only"
+msgstr "Dit zal alleen alle geminificeerde/gecombineerde CSS/JS entries verwijderen"
+
+#: tpl/toolbox/purge.tpl.php:19 tpl/toolbox/purge.tpl.php:25
+#: tpl/toolbox/purge.tpl.php:31
+msgid "Purge %s Error"
+msgstr "Verwijder %s fout"
+
+#: tpl/db_optm/manage.tpl.php:72
+msgid "Database Optimizer"
+msgstr "Database Optimalisatie"
+
+#: tpl/db_optm/manage.tpl.php:44
+msgid "Optimize all tables in your database"
+msgstr "Optimaliseer alle tabellen in de database"
+
+#: tpl/db_optm/manage.tpl.php:43
+msgid "Optimize Tables"
+msgstr "Optimaliseer Tabellen"
+
+#: tpl/db_optm/manage.tpl.php:40
+msgid "Clean all transient options"
+msgstr "Opschonen alle transient opties"
+
+#: tpl/db_optm/manage.tpl.php:39
+msgid "All Transients"
+msgstr "Alle Transients"
+
+#: tpl/db_optm/manage.tpl.php:36
+msgid "Clean expired transient options"
+msgstr "Opschonen alle verlopen transient opties"
+
+#: tpl/db_optm/manage.tpl.php:35
+msgid "Expired Transients"
+msgstr "Verlopen Transients"
+
+#: tpl/db_optm/manage.tpl.php:32
+msgid "Clean all trackbacks and pingbacks"
+msgstr "Alle trackbacks en pingbacks opschonen"
+
+#: tpl/db_optm/manage.tpl.php:31
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: tpl/db_optm/manage.tpl.php:28
+msgid "Clean all trashed comments"
+msgstr "Alle reacties in de prullenbak opschonen"
+
+#: tpl/db_optm/manage.tpl.php:27
+msgid "Trashed Comments"
+msgstr "Reacties in de Prullenbak"
+
+#: tpl/db_optm/manage.tpl.php:24
+msgid "Clean all spam comments"
+msgstr "Alle spam reacties opschonen"
+
+#: tpl/db_optm/manage.tpl.php:23
+msgid "Spam Comments"
+msgstr "Spam Reacties"
+
+#: tpl/db_optm/manage.tpl.php:20
+msgid "Clean all trashed posts and pages"
+msgstr "Alle berichten/pagina's in de prullenbak opschonen"
+
+#: tpl/db_optm/manage.tpl.php:19
+msgid "Trashed Posts"
+msgstr "Berichten in de prullenbak"
+
+#: tpl/db_optm/manage.tpl.php:16
+msgid "Clean all auto saved drafts"
+msgstr "Alle automatisch opgeslagen concepten opschonen"
+
+#: tpl/db_optm/manage.tpl.php:15
+msgid "Auto Drafts"
+msgstr "Automatische Concepten"
+
+#: tpl/db_optm/manage.tpl.php:12
+msgid "Clean all post revisions"
+msgstr "Alle bericht revisies opschonen"
+
+#: tpl/db_optm/manage.tpl.php:11
+msgid "Post Revisions"
+msgstr "Berichtrevisies"
+
+#: tpl/db_optm/manage.tpl.php:7
+msgid "Clean All"
+msgstr "Alles Opschonen"
+
+#: src/db-optm.cls.php:192
+msgid "Optimized all tables."
+msgstr "Alle tabellen geoptimaliseerd."
+
+#: src/db-optm.cls.php:182
+msgid "Clean all transients successfully."
+msgstr "Alle transients succesvol opgeschoond."
+
+#: src/db-optm.cls.php:178
+msgid "Clean expired transients successfully."
+msgstr "Verlopen transients succesvol opgeschoond."
+
+#: src/db-optm.cls.php:174
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "Trackbacks en pingbacks succesvol opgeschoond."
+
+#: src/db-optm.cls.php:170
+msgid "Clean trashed comments successfully."
+msgstr "Reacties in de prullenbak succesvol opgeschoond."
+
+#: src/db-optm.cls.php:166
+msgid "Clean spam comments successfully."
+msgstr "Spam reacties succesvol opgeschoond."
+
+#: src/db-optm.cls.php:162
+msgid "Clean trashed posts and pages successfully."
+msgstr "Berichten/Pagina's in de prullenbak succesvol opgeschoond."
+
+#: src/db-optm.cls.php:158
+msgid "Clean auto drafts successfully."
+msgstr "Automatische concepten succesvol opgeschoond."
+
+#: src/db-optm.cls.php:154
+msgid "Clean post revisions successfully."
+msgstr "Bericht revisies succesvol opgeschoond."
+
+#: src/db-optm.cls.php:127
+msgid "Clean all successfully."
+msgstr "Alles succesvol opgeschoond."
+
+#: src/lang.cls.php:61
+msgid "Default Private Cache TTL"
+msgstr "Privé Cache TTL"
+
+#: tpl/cache/settings-esi.tpl.php:135
+msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
+msgstr "Als je site publieke inhoud bevat die bepaalde gebruikersrol kan zien, maar andere rollen niet kunnen, kun je een Vary-groep opgeven voor die gebruikersrollen. Bijvoorbeeld, door een groep met beheerder te specificeren, kan er een aparte openbare cache-pagina zijn die op beheerders is aangepast (met koppelingen \"edit\", enz.), Terwijl alle andere gebruikersrollen de standaard openbare pagina zien."
+
+#: src/lang.cls.php:181 tpl/page_optm/settings_css.tpl.php:110
+#: tpl/page_optm/settings_css.tpl.php:220
+msgid "Vary Group"
+msgstr "Vary Groep"
+
+#: tpl/cache/settings-esi.tpl.php:75
+msgid "Cache the built-in Comment Form ESI block."
+msgstr "Cache het ingebouwde reactieformulier ESI blok."
+
+#: src/lang.cls.php:179
+msgid "Cache Comment Form"
+msgstr "Cache WP Reacties"
+
+#: tpl/cache/settings-esi.tpl.php:62
+msgid " Cache the built-in Admin Bar ESI block."
+msgstr " Cache het ingebouwde beheer balk ESI blok."
+
+#: src/lang.cls.php:178
+msgid "Cache Admin Bar"
+msgstr "Cache WP Toolbar"
+
+#: tpl/cache/settings-esi.tpl.php:49
+msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
+msgstr "Schakel IN om openbare pagina's voor ingelogde gebruikers in de cache te plaatsen en de beheerdersbalk en het reactieformulier via ESI blokken te bedienen. Deze twee blokken worden uit het cachegeheugen verwijderd, tenzij hieronder ingeschakeld."
+
+#: tpl/cache/settings-esi.tpl.php:13
+msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
+msgstr "Met ESI kunnen delen van een dynamische pagina worden aangegeven. Met andere woorden, met ESI kun je gaten op een pagina aangeven en die gaten vervolgens invullen met inhoud die privé kan worden gecached, met een eigen cachegeheugen worden gecached of helemaal niet gecached."
+
+#: tpl/cache/settings-esi.tpl.php:12
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "Met ESI (Edge Side Includes) kunnen pagina's worden weergegeven vanuit cache voor ingelogde gebruikers."
+
+#: tpl/esi_widget_edit.php:47
+msgid "Private"
+msgstr "Privé"
+
+#: tpl/esi_widget_edit.php:46
+msgid "Public"
+msgstr "Publiek"
+
+#: tpl/cache/network_settings-purge.tpl.php:7
+#: tpl/cache/settings-purge.tpl.php:7
+msgid "Purge Settings"
+msgstr "Instellingen voor opschonen"
+
+#: src/lang.cls.php:76
+msgid "Cache PHP Resources"
+msgstr "Cache PHP Resources"
+
+#: src/lang.cls.php:77 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "Cache Mobile"
+msgstr "Cache Mobiel"
+
+#: tpl/toolbox/settings-debug.tpl.php:72
+msgid "Advanced level will log more details."
+msgstr "De optie \"Geavanceerd\" geeft een logbestand met meer details."
+
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Basic"
+msgstr "Basis"
+
+#: tpl/crawler/settings-general.tpl.php:135
+msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
+msgstr "De maximale gemiddelde serverbelasting die is toegestaan ​​tijdens het crawlen. Het aantal crawler threads in gebruik wordt actief verminderd tot de gemiddelde serverbelasting onder deze limiet valt. Als dit niet met een enkele thread kan worden bereikt, wordt de huidige crawler-run beëindigd."
+
+#: src/lang.cls.php:74
+msgid "Cache Login Page"
+msgstr "Cache Login Pagina"
+
+#: tpl/cache/settings-cache.tpl.php:74
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "Cache verzoeken die door de Wordpress REST API worden aangeroepen."
+
+#: src/lang.cls.php:73
+msgid "Cache REST API"
+msgstr "Cache REST API"
+
+#: tpl/cache/settings-cache.tpl.php:61
+msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
+msgstr "In afwachting zijnde reacties van reageerders (via privé cache). Het uitschakelen van deze optie zal niet-gecachete pagina's laten zien aan reageerders. (LSWS %s verplicht)"
+
+#: src/lang.cls.php:72
+msgid "Cache Commenters"
+msgstr "Cache Reageerders"
+
+#: tpl/cache/settings-cache.tpl.php:48
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "Privé cache voor de voorpagina (voor ingelogde gebruikers). (LSWS %s verplicht)"
+
+#: src/lang.cls.php:71
+msgid "Cache Logged-in Users"
+msgstr "Ingelogde gebruikers cachen"
+
+#: tpl/cache/network_settings-cache.tpl.php:7
+#: tpl/cache/settings-cache.tpl.php:7
+msgid "Cache Control Settings"
+msgstr "Instellingen voor cachebeheer"
+
+#: tpl/cache/entry.tpl.php:10
+msgid "ESI"
+msgstr "ESI"
+
+#: tpl/cache/entry.tpl.php:9 tpl/cache/entry_network.tpl.php:8
+msgid "Excludes"
+msgstr "Uitsluiten"
+
+#: tpl/cache/entry.tpl.php:8 tpl/cache/entry_network.tpl.php:7
+#: tpl/toolbox/entry.tpl.php:6 tpl/toolbox/purge.tpl.php:142
+msgid "Purge"
+msgstr "Verwijderen"
+
+#: src/admin-display.cls.php:119 tpl/cache/entry.tpl.php:6
+#: tpl/cache/entry_network.tpl.php:6
+msgid "Cache"
+msgstr "Cache"
+
+#: thirdparty/woocommerce.tab.tpl.php:3
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: tpl/inc/show_rule_conflict.php:6
+msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (<a %3$s>Learn More</a>)"
+msgstr "Onverwachte cache regel %2$s gevonden in %1$s bestand. Deze regel kan ervoor zorgen dat bezoekers oude versies van pagina's te zien krijgen, omdat de browser HTML-pagina's tijdelijk bewaart. Als je er zeker van bent dat HTML-pagina's niet door de browser zijn gecached, kan dit bericht worden genegeerd. (<a %3$s>Meer informatie</a>)"
+
+#: tpl/cache/settings-purge.tpl.php:131
+msgid "Current server time is %s."
+msgstr "Servertijd is %s."
+
+#: tpl/cache/settings-purge.tpl.php:130
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "Geef aan op welk tijdstip de cache (van de urls in de lijst \"%s\") automatisch verwijderd moeten worden."
+
+#: tpl/cache/settings-purge.tpl.php:106
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "Zowel %1$s als %2$s zijn correct."
+
+#: src/lang.cls.php:99 tpl/cache/settings-purge.tpl.php:105
+msgid "Scheduled Purge Time"
+msgstr "Geplande Verwijder Tijd"
+
+#: tpl/cache/settings-purge.tpl.php:105
+msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
+msgstr "Urls die hier zijn genoemd (één per regel) daarvan wordt de cache automatisch verwijderd op de tijd die is ingesteld bij de optie \"%s\"."
+
+#: src/lang.cls.php:98 tpl/cache/settings-purge.tpl.php:130
+msgid "Scheduled Purge URLs"
+msgstr "Lijst met (geplande) urls"
+
+#: tpl/toolbox/settings-debug.tpl.php:113
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "Kort de Query Strings in in het debug-log om het overzichtelijk te houden."
+
+#: tpl/toolbox/settings-debug.tpl.php:100
+msgid "Log requested cookie values."
+msgstr "Log aangevraagde cookie waarden."
+
+#: tpl/toolbox/entry.tpl.php:18
+msgid "Heartbeat"
+msgstr "Hartslag"
+
+#: tpl/toolbox/settings-debug.tpl.php:83
+msgid "MB"
+msgstr "MB"
+
+#: src/lang.cls.php:228
+msgid "Log File Size Limit"
+msgstr "Limiet Logbestand"
+
+#: src/htaccess.cls.php:787
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>Voeg de volgende codes toe aan het begin van %1$s:</p> %2$s"
+
+#: src/error.cls.php:104 src/error.cls.php:128
+msgid "%s file not writable."
+msgstr "%s bestand niet schrijfbaar."
+
+#: src/error.cls.php:124
+msgid "%s file not readable."
+msgstr "%s bestand is niet leesbaar."
+
+#: src/lang.cls.php:230
+msgid "Collapse Query Strings"
+msgstr "Query strings samenvouwen"
+
+#: src/lang.cls.php:229
+msgid "Log Cookies"
+msgstr "Log Cookies"
+
+#: tpl/cache/settings-esi.tpl.php:7
+msgid "ESI Settings"
+msgstr "ESI Instellingen"
+
+#: tpl/esi_widget_edit.php:74
+msgid "A TTL of 0 indicates do not cache."
+msgstr "Een TTL van 0 betekent dat het niet wordt gecached."
+
+#: tpl/esi_widget_edit.php:73
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "Aanbevolen waarde: 28800 seconden (8 uur)."
+
+#: tpl/esi_widget_edit.php:63
+msgid "Widget Cache TTL:"
+msgstr "Widget Cache TTL:"
+
+#: src/lang.cls.php:177 tpl/esi_widget_edit.php:36
+msgid "Enable ESI"
+msgstr "ESI inschakelen"
+
+#: tpl/crawler/summary.tpl.php:50
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "Bekijk <a %s>Introductie voor het inschakelen van de crawler</a> voor gedetailleerde informatie."
+
+#: src/lang.cls.php:220
+msgid "Custom Sitemap"
+msgstr "Aangepaste Sitemap"
+
+#: tpl/toolbox/purge.tpl.php:244
+msgid "Purge pages by relative or full URL."
+msgstr "Opschonen van pagina's op relatieve of volledige URL."
+
+#: tpl/crawler/summary.tpl.php:49
+msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin or hosting provider."
+msgstr "Deze crawler functie is niet ingeschakeld op de LiteSpeed server. Neem contact op met je hosting/server beheerder."
+
+#: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
+#: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
+#: tpl/inc/check_if_network_disable_all.php:18
+#: tpl/page_optm/settings_css.tpl.php:59 tpl/page_optm/settings_css.tpl.php:165
+#: tpl/page_optm/settings_localization.tpl.php:11
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: tpl/crawler/summary.tpl.php:106
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>Laatst gecrawled:</b> %s item(s)"
+
+#: tpl/crawler/summary.tpl.php:63
+msgid "The next complete sitemap crawl will start at"
+msgstr "De volgende volledige sitemap crawl begint om"
+
+#: src/file.cls.php:172
+msgid "Failed to write to %s."
+msgstr "Mislukt om te schrijven naar %s."
+
+#: src/file.cls.php:153
+msgid "Folder is not writable: %s."
+msgstr "Map is niet schrijfbaar: %s."
+
+#: src/file.cls.php:145
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr "Kan geen map maken: %1$s. Error: %2$s"
+
+#: src/file.cls.php:136
+msgid "Folder does not exist: %s"
+msgstr "Map bestaat niet: %s"
+
+#: src/core.cls.php:296
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "Er is een melding naar de LiteSPeed Web Server verzonden om de lijst te verwijderen."
+
+#: tpl/cache/settings-cache.tpl.php:24
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "Ga naar de <a %s>Informatiepagina</a> voor het testen van de cache."
+
+#: tpl/toolbox/settings-debug.tpl.php:52
+msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
+msgstr "Lijst met toegestane IP-adressen (één per regel) die het toestaan om bepaalde acties uit te voeren in de browser."
+
+#: src/lang.cls.php:217
+msgid "Server Load Limit"
+msgstr "Server Load Limiet"
+
+#: tpl/crawler/settings-general.tpl.php:105
+msgid "Specify Number of Threads to use while crawling."
+msgstr "Specificeer het aantal server threads dat je wil gebruiken tijdens het crawlen."
+
+#: tpl/crawler/settings-general.tpl.php:91
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "Geef aan (in seconden) hoe lang de crawler moet wachten om de hele sitemap opnieuw te crawlen."
+
+#: src/lang.cls.php:214
+msgid "Crawl Interval"
+msgstr "Crawl Interval"
+
+#: src/lang.cls.php:213
+msgid "Interval Between Runs"
+msgstr "Tijd tussen de runs"
+
+#: tpl/crawler/settings-general.tpl.php:62
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "Geef aan (in seconden) hoe lang de crawl (steeds) actief is."
+
+#: tpl/crawler/settings-general.tpl.php:35
+msgid "Specify time in microseconds for the delay between requests during a crawl."
+msgstr "Geef de wachttijd aan (in microseconden) tussen de crawl aanvragen."
+
+#: tpl/crawler/settings-general.tpl.php:33
+msgid "microseconds"
+msgstr "microseconden"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:33
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "En een andere WordPress is geïnstalleerd (GEEN MULTISITE) op %s"
+
+#: tpl/cache/entry_network.tpl.php:18
+msgid "LiteSpeed Cache Network Cache Settings"
+msgstr "LiteSpeed Cache Netwerk cache instellingen"
+
+#: tpl/toolbox/purge.tpl.php:179
+msgid "Select below for \"Purge by\" options."
+msgstr "Geef hieronder aan welke specifieke cache-onderdelen je wilt verwijderen."
+
+#: tpl/cdn/entry.tpl.php:14
+msgid "LiteSpeed Cache CDN"
+msgstr "LiteSpeed Cache CDN"
+
+#: tpl/crawler/summary.tpl.php:221
+msgid "No crawler meta file generated yet"
+msgstr "Nog geen crawler meta file gegenereerd"
+
+#: tpl/crawler/summary.tpl.php:203
+msgid "Show crawler status"
+msgstr "Toon crawler status"
+
+#: tpl/crawler/summary.tpl.php:196
+msgid "Watch Crawler Status"
+msgstr "Bekijk Crawler Status"
+
+#: tpl/crawler/summary.tpl.php:191
+msgid "Please see <a %s>Hooking WP-Cron Into the System Task Scheduler</a> to learn how to create the system cron task."
+msgstr "Bekijk <a %s>Hooking WP-Cron Into the System Task Scheduler</a> Om de systeem cron taak te creëren."
+
+#: tpl/crawler/summary.tpl.php:188
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "De run frequentie kan worden ingesteld bij de optie \"Tijd tussen de runs\"."
+
+#: tpl/crawler/summary.tpl.php:114
+msgid "Manually run"
+msgstr "Run handmatig"
+
+#: tpl/crawler/summary.tpl.php:111
+msgid "Reset position"
+msgstr "Reset positie"
+
+#: tpl/crawler/summary.tpl.php:123
+msgid "Run Frequency"
+msgstr "Run Frequentie"
+
+#: tpl/crawler/summary.tpl.php:122
+msgid "Cron Name"
+msgstr "Cron Naam"
+
+#: tpl/crawler/summary.tpl.php:42
+msgid "Crawler Cron"
+msgstr "Crawler Cron"
+
+#: tpl/crawler/summary.tpl.php:36
+msgid "%d minute"
+msgstr "%d minuut"
+
+#: tpl/crawler/summary.tpl.php:33
+msgid "%d minutes"
+msgstr "%d minuten"
+
+#: tpl/crawler/summary.tpl.php:26
+msgid "%d hour"
+msgstr "%d uur"
+
+#: tpl/crawler/summary.tpl.php:23
+msgid "%d hours"
+msgstr "%d uren"
+
+#: tpl/crawler/map.tpl.php:27
+msgid "Generated at %s"
+msgstr "Gegenereerd op %s"
+
+#: tpl/crawler/entry.tpl.php:18
+msgid "LiteSpeed Cache Crawler"
+msgstr "LiteSpeed Cache Crawler"
+
+#: src/lang.cls.php:215
+msgid "Threads"
+msgstr "Threads"
+
+#: src/lang.cls.php:212
+msgid "Run Duration"
+msgstr "Actieve run"
+
+#: src/lang.cls.php:211
+msgid "Delay"
+msgstr "Vertraging"
+
+#: tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "Als er vragen zijn, dan is ons team altijd blij om te kunnen helpen en eventuele vragen te beantwoorden op het <a %s> ondersteuningsforum</a>."
+
+#: src/admin-display.cls.php:129 src/lang.cls.php:210
+msgid "Crawler"
+msgstr "Crawler"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: src/purge.cls.php:626
+msgid "Notified LiteSpeed Web Server to purge all pages."
+msgstr "LiteSpeed Web Server gemeld om alle pagina's te verwijderen."
+
+#: tpl/cache/settings-purge.tpl.php:18
+msgid "All pages with Recent Posts Widget"
+msgstr "Alle pagina's met \"Recente berichten\" widget"
+
+#: tpl/cache/settings-purge.tpl.php:16
+msgid "Pages"
+msgstr "Pagina's"
+
+#: tpl/toolbox/purge.tpl.php:14
+msgid "This will Purge Pages only"
+msgstr "Dit zal alleen pagina's opschonen"
+
+#: tpl/toolbox/purge.tpl.php:13
+msgid "Purge Pages"
+msgstr "Opschonen pagina's"
+
+#: thirdparty/woocommerce.content.tpl.php:78
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "Bijvoorbeeld, als de voorpagina van de site zich bevindt op %1$s, kan de winkelpagina zich bevinden op %2$s."
+
+#: src/css.cls.php:533
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: tpl/crawler/summary.tpl.php:125
+msgid "Activate"
+msgstr "Activeren"
+
+#: tpl/cdn/settings.tpl.php:209
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: tpl/general/settings.tpl.php:100
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: src/gui.cls.php:754
+msgid "Install Now"
+msgstr "Installeer nu"
+
+#: cli/purge.cls.php:191
+msgid "Purged the url!"
+msgstr "De url is verwijderd!"
+
+#: cli/purge.cls.php:140
+msgid "Purged the blog!"
+msgstr "De blog is opgeschoond!"
+
+#: cli/purge.cls.php:95
+msgid "Purged All!"
+msgstr "Alles opgeschoond!"
+
+#: src/purge.cls.php:645
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "De LiteSpeed Web Server zal de cache van de error-pagina's verwijderen."
+
+#: tpl/inc/show_error_cookie.php:11
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "Als je OpenLiteSpeed ​​gebruikt, moet de server opnieuw worden gestart voor de wijzigingen van kracht worden."
+
+#: tpl/inc/show_error_cookie.php:7
+msgid "If not, please verify the setting in the <a href=\"%1$s\">Advanced tab</a>."
+msgstr "Zo niet, controleer dan de instelling in de <a href=\"%1$s\">Geavanceerd tab</a>."
+
+#: tpl/inc/show_error_cookie.php:6
+msgid "If the login cookie was recently changed in the settings, please log out and back in."
+msgstr "Als de login cookie onlangs is gewijzigd in de instellingen, log dan uit en opnieuw in."
+
+#: tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "Er is echter geen mogelijkheid om alle mogelijke aanpassingen te kennen die zijn geïmplementeerd."
+
+#: tpl/inc/show_display_installed.php:7
+msgid "The LiteSpeed Cache plugin is used to cache pages - a simple way to improve the performance of the site."
+msgstr "De LiteSpeed ​​Cache plugin wordt gebruikt om pagina's te cachen - een eenvoudige manier om de prestaties van de site te verbeteren."
+
+#: tpl/cache/settings-cache.tpl.php:30
+msgid "The network admin setting can be overridden here."
+msgstr "De instellingen voor het netwerkbeheer kunnen hier worden overschreden."
+
+#: tpl/cache/settings-ttl.tpl.php:22
+msgid "Specify how long, in seconds, public pages are cached."
+msgstr "Geef aan (in seconden) hoe lang publiek toegankelijke pagina's worden gecached."
+
+#: tpl/cache/settings-ttl.tpl.php:37
+msgid "Specify how long, in seconds, private pages are cached."
+msgstr "Geef aan hoe lang, in seconden, privé pagina's worden gecached."
+
+#: tpl/cache/network_settings-cache.tpl.php:18
+msgid "It is <b>STRONGLY</b> recommend that the compatibility with other plugins on a single/few sites is tested first."
+msgstr "Het wordt <b>STRENG</b> aanbevolen om de compatibiliteit met andere plugins op een- of meerdere sites eerst te testen."
+
+#: tpl/toolbox/purge.tpl.php:235
+msgid "Purge pages by post ID."
+msgstr "Opschonen pagina's op bericht ID."
+
+#: tpl/toolbox/purge.tpl.php:38
+msgid "Purge the LiteSpeed cache entries created by this plugin"
+msgstr "Schoon de LiteSpeed cache items op gemaakt door deze plugin"
+
+#: tpl/toolbox/purge.tpl.php:20 tpl/toolbox/purge.tpl.php:26
+#: tpl/toolbox/purge.tpl.php:32
+msgid "Purge %s error pages"
+msgstr "Opschonen %s foutpagina's"
+
+#: tpl/toolbox/purge.tpl.php:8
+msgid "This will Purge Front Page only"
+msgstr "Dit zal alleen de cache van de voorpagina verwijderen"
+
+#: tpl/toolbox/purge.tpl.php:239
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Opschonen pagina's op tag naam - bijv. %2$s moet worden gebruikt voor de URL %1$s."
+
+#: tpl/toolbox/purge.tpl.php:245
+msgid "e.g. Use %s or %s."
+msgstr "bijv. Gebruik %s of %s."
+
+#: tpl/toolbox/purge.tpl.php:230
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Opschonen pagina's op categorienaam - bijv. %2$s moet worden gebruikt voor de URL %1$s."
+
+#: tpl/toolbox/purge.tpl.php:133
+msgid "If only the WordPress site should be purged, use Purge All."
+msgstr "Gebruik Purge All als alleen de WordPress-site moet worden verwijderd."
+
+#: src/core.cls.php:291
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "De LiteSpeed webserver zal alle cache opschonen."
+
+#: tpl/general/network_settings.tpl.php:20
+msgid "Use Primary Site Configuration"
+msgstr "Gebruik de primaire site configuratie"
+
+#: tpl/general/network_settings.tpl.php:25
+msgid "This will disable the settings page on all subsites."
+msgstr "Dit zal de instellingenpagina uitschakelen op alle subsites."
+
+#: tpl/general/network_settings.tpl.php:24
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "Controleer deze optie om de configuratie van de primaire site te gebruiken voor alle subsites."
+
+#: src/admin-display.cls.php:706 src/admin-display.cls.php:711
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: tpl/inc/check_if_network_disable_all.php:21
+msgid "The following options are selected, but are not editable in this settings page."
+msgstr "De volgende opties zijn geselecteerd, maar kunnen niet worden bewerkt op deze instellingenpagina."
+
+#: tpl/inc/check_if_network_disable_all.php:20
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "De netwerkbeheerder gebruikt de primaire site-configuraties voor alle subsites."
+
+#: tpl/toolbox/purge.tpl.php:125
+msgid "Empty Entire Cache"
+msgstr "Verwijder alle cache"
+
+#: tpl/toolbox/purge.tpl.php:127
+msgid "This action should only be used if things are cached incorrectly."
+msgstr "Deze actie moet eigenlijk alleen gebruikt worden als elementen onjuist gecached zijn."
+
+#: tpl/toolbox/purge.tpl.php:126
+msgid "Clears all cache entries related to this site, <i>including other web applications</i>."
+msgstr "Verwijdert alle cache van deze site, <i>inclusief de cache van andere applicaties</i>."
+
+#: tpl/toolbox/purge.tpl.php:132
+msgid "This may cause heavy load on the server."
+msgstr "Dit zal een zware belasting zijn voor de server."
+
+#: tpl/toolbox/purge.tpl.php:131
+msgid "This will clear EVERYTHING inside the cache."
+msgstr "Dit zal ALLE cache verwijderen."
+
+#: src/gui.cls.php:579
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed Cache verwijderen"
+
+#: tpl/inc/show_display_installed.php:19
+msgid "If you would rather not move at litespeed, you can deactivate this plugin."
+msgstr "Je kunt deze plugin deactiveren, als je niet bij LiteSpeed wenst te blijven."
+
+#: tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "Maak een nieuw bericht (zorg ervoor dat de voorpagina is ingesteld)."
+
+#: tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "Bezoek de site terwijl je bent uitgelogd."
+
+#: tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "Voorbeelden van tests zijn:"
+
+#: tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "Controleer daarom de site om ervoor te zorgen dat alles nog steeds goed functioneert."
+
+#: tpl/inc/show_display_installed.php:6
+msgid "This message indicates that the plugin was installed by the server admin."
+msgstr "Dit bericht geeft aan dat de plugin is geïnstalleerd door de hosting/server beheerder."
+
+#: tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "LiteSpeed Cache plugin is geïnstalleerd!"
+
+#: src/lang.cls.php:225 tpl/toolbox/log_viewer.tpl.php:7
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "Admin IP Only"
+msgstr "Alleen beheer IP"
+
+#: tpl/toolbox/settings-debug.tpl.php:38
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "De beheer IP optie zal alleen log berichten op aanvraag van beheer IP's uitvoeren."
+
+#: tpl/cache/settings-ttl.tpl.php:82
+msgid "Specify how long, in seconds, REST calls are cached."
+msgstr "Geef aan (in seconden) hoe lang REST aanroepen worden gecached."
+
+#: tpl/toolbox/report.tpl.php:49
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "Het rapport bevat gedetailleerde informatie over de Wordpress configuratie."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:23
+msgid "The server will determine if the user is logged in based on the existence of this cookie."
+msgstr "De server zal bepalen of de gebruiker is ingelogd op basis van het bestaan van deze cookie."
+
+#: tpl/cache/settings-purge.tpl.php:50 tpl/cache/settings-purge.tpl.php:89
+#: tpl/cache/settings-purge.tpl.php:113
+#: tpl/page_optm/settings_tuning.tpl.php:77
+msgid "Note"
+msgstr "Notitie"
+
+#: thirdparty/woocommerce.content.tpl.php:22
+msgid "After verifying that the cache works in general, please test the cart."
+msgstr "Nadat je gecontroleerd heeft dat de cache in het algemeen werkt, kun je de winkelwagen testen."
+
+#: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:15
+msgid "When enabled, the cache will automatically purge when any plugin, theme or the WordPress core is upgraded."
+msgstr "Indien ingeschakeld, zal de cache automatisch worden opgeschoond wanneer een plugin, thema of de WordPress core wordt geüpgraded."
+
+#: src/lang.cls.php:96
+msgid "Purge All On Upgrade"
+msgstr "Alles opschonen bij upgrade"
+
+#: thirdparty/woocommerce.content.tpl.php:72
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "Gebruik de Voorpagina TTL voor de winkelpagina"
+
+#: thirdparty/woocommerce.content.tpl.php:43
+msgid "Product Update Interval"
+msgstr "Product Update Interval"
+
+#: thirdparty/woocommerce.content.tpl.php:77
+msgid "Checking this option will force the shop page to use the front page TTL setting."
+msgstr "Als je deze optie kiest, wordt de winkelpagina gedwongen om de TTL-instelling van de voorpagina te gebruiken."
+
+#: thirdparty/woocommerce.content.tpl.php:64
+msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
+msgstr "Bepaalt hoe wijzingingen in de productvoorraad en de voorraad-status invloed heeft op de product-pagina's de bijbehorende categorie-pagina's."
+
+#: thirdparty/woocommerce.content.tpl.php:51
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "Verwijder zowel de product-cache als de categorie-cache wanneer de productvoorraad of de voorraad-status wijzigt."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "Verwijder de categorie-cache niet wanneer de productvoorraad of voorraad-status wijzigt."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Purge product only when the stock status changes."
+msgstr "Product alleen opschonen als de voorraadstatus verandert."
+
+#: thirdparty/woocommerce.content.tpl.php:49
+msgid "Purge product and categories only when the stock status changes."
+msgstr "Opschonen product en categorie alleen wanneer de voorraad-status wijzigt."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge categories only when stock status changes."
+msgstr "Schoon categorieën alleen op wanneer de voorraadstatus verandert."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "Product opschonen bij wijzigingen in de hoeveelheid of voorraadstatus."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:43
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess komt niet overeen met de configuratie-optie."
+
+#: tpl/cache/settings-ttl.tpl.php:68 tpl/cache/settings-ttl.tpl.php:83
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "Als je dit instelt op minder dan 30 seconden dan worden de feeds niet gecached."
+
+#: tpl/cache/settings-ttl.tpl.php:67
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "Geef aan (in seconden) hoe lang de feeds gecached worden."
+
+#: src/lang.cls.php:63
+msgid "Default Feed TTL"
+msgstr "Feed TTL"
+
+#: src/error.cls.php:132
+msgid "Failed to get %s file contents."
+msgstr "Kan de inhoud van het bestand %s niet krijgen."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:16
+msgid "Caching these pages may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Door deze pagina's te cachen kan de serverprestatie worden verbeterd door onnodige PHP-aanvragen te vermijden."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:15
+msgid "Some themes and plugins add resources via a PHP request."
+msgstr "Sommige thema's en plugin's voegen resources toe via een PHP-aanvraag."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:15
+msgid "Caching this resource may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Door deze resources te cachen kan de serverprestatie worden verbeterd door onnodige PHP-aanvragen te vermijden."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:14
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico wordt op de meeste pagina's aangevraagd."
+
+#: src/lang.cls.php:75
+msgid "Cache favicon.ico"
+msgstr "Cache Favicon.ico"
+
+#: tpl/cache/settings-cache.tpl.php:87
+msgid "Disabling this option may negatively affect performance."
+msgstr "Het uitschakelen van deze optie kan de prestaties negatief beïnvloeden."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:42
+msgid "Invalid login cookie. Invalid characters found."
+msgstr "Ongeldige login cookie. Ongeldige tekens gevonden."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:56
+msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
+msgstr "WAARSCHUWING: De .htaccess login cookie en de database login cookie komen niet overeen."
+
+#: src/error.cls.php:116
+msgid "Invalid login cookie. Please check the %s file."
+msgstr "Ongeldige login cookie. Controleer het %s bestand."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:34
+msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
+msgstr "De cache moet kunnen onderscheiden welke gebruiker is ingelogd in welke WordPress-site om correct te kunnen cachen."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:31
+msgid "There is a WordPress installed for %s."
+msgstr "Er is een WordPress geïnstalleerd voor %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:29
+msgid "Example use case:"
+msgstr "Voorbeeld use case:"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:26
+msgid "The cookie set here will be used for this WordPress installation."
+msgstr "De cookie die hier wordt gezet zal worden gebruikt voor deze WordPress installatie."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:25
+msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
+msgstr "De server raakt in de war als iedere web-applicatie dezelfde cookie gebruikt om te zien of een gebruiker is ingelogd of niet."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:24
+msgid "This setting is useful for those that have multiple web applications for the same domain."
+msgstr "Deze instelling is handig als er meerdere web-applicaties gebruik maken van cookies op hetzelfde domein."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:22
+msgid "The default login cookie is %s."
+msgstr "De standaard login-cookie is %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:19
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "MOET UNIEK ZIJN TEN OPZICHTE VAN ANDERE WEBAPPLICATIES."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:18
+msgid "No spaces and case sensitive."
+msgstr "Geen spaties en hoofdlettergevoelig."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:17
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "SYNTAX: alfanumeriek en \"_\"."
+
+#: src/lang.cls.php:187
+msgid "Login Cookie"
+msgstr "Login Cookie"
+
+#: tpl/toolbox/settings-debug.tpl.php:58
+msgid "More information about the available commands can be found here."
+msgstr "Hier vind je meer informatie over de beschikbare commando's."
+
+#: tpl/cache/settings-advanced.tpl.php:13
+msgid "These settings are meant for ADVANCED USERS ONLY."
+msgstr "Deze instellingen zijn alleen voor GEAVANCEERDE GEBRUIKERS."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:82
+msgid "Current %s Contents"
+msgstr "Huidige %s inhoud"
+
+#: tpl/cache/entry.tpl.php:18 tpl/cache/entry_network.tpl.php:11
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: tpl/cache/network_settings-advanced.tpl.php:7
+#: tpl/cache/settings-advanced.tpl.php:7
+msgid "Advanced Settings"
+msgstr "Geavanceerde Opties"
+
+#: tpl/toolbox/purge.tpl.php:258
+msgid "Purge List"
+msgstr "Opschonen lijst"
+
+#: tpl/toolbox/purge.tpl.php:177
+msgid "Purge By..."
+msgstr "Opschonen op..."
+
+#: tpl/crawler/blacklist.tpl.php:31 tpl/crawler/map.tpl.php:43
+#: tpl/toolbox/purge.tpl.php:224
+msgid "URL"
+msgstr "URL"
+
+#: tpl/toolbox/purge.tpl.php:218
+msgid "Tag"
+msgstr "Tag"
+
+#: tpl/toolbox/purge.tpl.php:212
+msgid "Post ID"
+msgstr "Bericht ID"
+
+#: tpl/toolbox/purge.tpl.php:206
+msgid "Category"
+msgstr "Categorie"
+
+#: tpl/inc/show_error_cookie.php:5
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "Let op: Database login cookie kwam niet overeen met je login cookie."
+
+#: src/purge.cls.php:730
+msgid "Purge url %s"
+msgstr "Opschonen url %s"
+
+#: src/purge.cls.php:699
+msgid "Purge tag %s"
+msgstr "Opschonen tag %s"
+
+#: src/purge.cls.php:672
+msgid "Purge category %s"
+msgstr "Opschonen categorie %s"
+
+#: tpl/cache/settings-cache.tpl.php:27
+msgid "When disabling the cache, all cached entries for this site will be purged."
+msgstr "Wanneer de cache wordt uitgeschakeld wordt alle cache records voor deze site verwijderd."
+
+#: tpl/cache/settings-cache.tpl.php:27 tpl/page_optm/entry.tpl.php:30
+msgid "NOTICE"
+msgstr "Let op"
+
+#: src/doc.cls.php:104
+msgid "This setting will edit the .htaccess file."
+msgstr "Deze instelling zal het .htaccess bestand wijzigen."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:36
+msgid "LiteSpeed Cache View .htaccess"
+msgstr "LiteSpeed Cache bekijk .htaccess"
+
+#: src/error.cls.php:120
+msgid "Failed to back up %s file, aborted changes."
+msgstr "Fout bij het maken van back-up van %s bestand, de wijzigingen zijn niet doorgevoerd."
+
+#: src/lang.cls.php:185
+msgid "Do Not Cache Cookies"
+msgstr "Bewaar cookies niet in de cache"
+
+#: src/lang.cls.php:186
+msgid "Do Not Cache User Agents"
+msgstr "User agents niet cachen"
+
+#: tpl/cache/network_settings-cache.tpl.php:19
+msgid "This is to ensure compatibility prior to enabling the cache for all sites."
+msgstr "Dit is om compatibiliteit te garanderen voordat je de cache voor alle sites inschakelt."
+
+#: tpl/cache/network_settings-cache.tpl.php:13
+msgid "Network Enable Cache"
+msgstr "Inschakelen Netwerk Cache"
+
+#: thirdparty/woocommerce.content.tpl.php:21
+#: tpl/cache/settings-advanced.tpl.php:12
+#: tpl/cache/settings_inc.browser.tpl.php:12 tpl/toolbox/heartbeat.tpl.php:14
+#: tpl/toolbox/report.tpl.php:29
+msgid "NOTICE:"
+msgstr "Let op:"
+
+#: tpl/cache/settings-purge.tpl.php:53
+msgid "Other checkboxes will be ignored."
+msgstr "Andere selectievakjes worden genegeerd."
+
+#: tpl/cache/settings-purge.tpl.php:52
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "Selecteer \"Alle\" als er dynamische widgets zijn gekoppeld aan berichten op andere pagina's dan de voorpagina of homepagina."
+
+#: src/lang.cls.php:78 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "List of Mobile User Agents"
+msgstr "Lijst van mobiele user-agents"
+
+#: src/file.cls.php:160 src/file.cls.php:165
+msgid "File %s is not writable."
+msgstr "Bestand %s is niet schrijfbaar."
+
+#: tpl/page_optm/entry.tpl.php:7 tpl/page_optm/settings_js.tpl.php:7
+msgid "JS Settings"
+msgstr "JS instellingen"
+
+#: src/gui.cls.php:595 tpl/cdn/entry.tpl.php:7 tpl/cdn/settings.tpl.php:194
+#: tpl/db_optm/entry.tpl.php:6
+msgid "Manage"
+msgstr "Beheren"
+
+#: src/lang.cls.php:62
+msgid "Default Front Page TTL"
+msgstr "Voorpagina TTL"
+
+#: src/purge.cls.php:613
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "De LiteSpeed Web Server zal de voorpagina cache verwijderen."
+
+#: tpl/toolbox/purge.tpl.php:7
+msgid "Purge Front Page"
+msgstr "Opschonen voorpagina"
+
+#: tpl/page_optm/settings_localization.tpl.php:127
+#: tpl/toolbox/beta_test.tpl.php:30
+msgid "Example"
+msgstr "Voorbeeld"
+
+#: tpl/cache/settings-excludes.tpl.php:89
+msgid "All tags are cached by default."
+msgstr "Alle tags worden standaard gecached."
+
+#: tpl/cache/settings-excludes.tpl.php:56
+msgid "All categories are cached by default."
+msgstr "Alle categorieën worden standaard gecached."
+
+#: src/admin-display.cls.php:1134
+msgid "To do an exact match, add %s to the end of the URL."
+msgstr "Om een exacte overeenkomst te verkrijgen, voeg een '%s' toe aan het eind van de url."
+
+#: src/admin-display.cls.php:1130
+msgid "The URLs will be compared to the REQUEST_URI server variable."
+msgstr "De urls worden vergeleken met de REQUEST_URI server variabele."
+
+#: tpl/cache/settings-purge.tpl.php:54
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "Selecteer alleen de archieven die momenteel worden gebruikt, de anderen hoeven niet te worden aangevinkt."
+
+#: tpl/toolbox/report.tpl.php:81
+msgid "Notes"
+msgstr "Notities"
+
+#: tpl/cache/settings-cache.tpl.php:19
+msgid "Use Network Admin Setting"
+msgstr "Gebruik Netwerk Instellingen"
+
+#: tpl/esi_widget_edit.php:48
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: tpl/cache/network_settings-cache.tpl.php:17
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "Als je LiteSpeed ​​Cache voor WordPress inschakelt, schakel je de cache voor dit netwerk in."
+
+#: tpl/cache/settings_inc.object.tpl.php:7
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: tpl/cache/settings_inc.object.tpl.php:6
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/lang.cls.php:106
+msgid "Do Not Cache Roles"
+msgstr "Niet cachen regels"
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#. Plugin Name of the plugin
+#: tpl/banner/new_version.php:59 tpl/banner/new_version_dev.tpl.php:12
+#: tpl/cache/more_settings_tip.tpl.php:15 tpl/inc/admin_footer.php:8
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed Cache"
+
+#: tpl/toolbox/settings-debug.tpl.php:36
+msgid "Outputs to WordPress debug log."
+msgstr "Stuur de uitkomst naar het WordPress foutopsporing logbestand."
+
+#: src/lang.cls.php:227
+msgid "Debug Level"
+msgstr "Foutopsporing niveau"
+
+#: tpl/general/settings.tpl.php:82 tpl/general/settings.tpl.php:93
+#: tpl/general/settings.tpl.php:105 tpl/general/settings.tpl.php:172
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:184
+#: tpl/general/settings.tpl.php:190 tpl/general/settings.tpl.php:207
+msgid "Notice"
+msgstr "Melding"
+
+#: tpl/cache/settings-purge.tpl.php:27
+msgid "Term archive (include category, tag, and tax)"
+msgstr "Term archief (inclusief categorie, tag en taxonomie)"
+
+#: tpl/cache/settings-purge.tpl.php:25
+msgid "Daily archive"
+msgstr "Dagelijks archief"
+
+#: tpl/cache/settings-purge.tpl.php:24
+msgid "Monthly archive"
+msgstr "Maandelijks archief"
+
+#: tpl/cache/settings-purge.tpl.php:23
+msgid "Yearly archive"
+msgstr "Jaarlijks archief"
+
+#: tpl/cache/settings-purge.tpl.php:21
+msgid "Post type archive"
+msgstr "Berichttype archief"
+
+#: tpl/cache/settings-purge.tpl.php:20
+msgid "Author archive"
+msgstr "Auteur Archief"
+
+#: tpl/cache/settings-purge.tpl.php:15
+msgid "Home page"
+msgstr "Home pagina"
+
+#: tpl/cache/settings-purge.tpl.php:14
+msgid "Front page"
+msgstr "Voorpagina"
+
+#: tpl/cache/settings-purge.tpl.php:13
+msgid "All pages"
+msgstr "Alle pagina's"
+
+#: tpl/cache/settings-purge.tpl.php:72
+msgid "Select which pages will be automatically purged when posts are published/updated."
+msgstr "Selecteer de pagina's waarbij de cache automatisch wordt verwijderd bij het publiceren of wijzigen."
+
+#: tpl/cache/settings-purge.tpl.php:47
+msgid "Auto Purge Rules For Publish/Update"
+msgstr "Automatische verwijderregels"
+
+#: src/lang.cls.php:60
+msgid "Default Public Cache TTL"
+msgstr "Publieke Cache TTL"
+
+#: src/admin-display.cls.php:949 tpl/cache/settings_inc.object.tpl.php:103
+#: tpl/crawler/settings-general.tpl.php:60
+#: tpl/crawler/settings-general.tpl.php:74
+#: tpl/crawler/settings-general.tpl.php:89 tpl/esi_widget_edit.php:70
+msgid "seconds"
+msgstr "seconden"
+
+#: src/lang.cls.php:226
+msgid "Admin IPs"
+msgstr "Admin IP-adressen"
+
+#: src/admin-display.cls.php:117
+msgid "General"
+msgstr "Standaard Instellingen"
+
+#: tpl/cache/entry.tpl.php:39
+msgid "LiteSpeed Cache Settings"
+msgstr "LiteSpeed Cache Instellingen"
+
+#: src/purge.cls.php:211
+msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
+msgstr "LiteSpeed Web Server gemeld om gehele LSCache leeg te maken."
+
+#: src/gui.cls.php:471 src/gui.cls.php:479 src/gui.cls.php:487
+#: src/gui.cls.php:496 src/gui.cls.php:506 src/gui.cls.php:516
+#: src/gui.cls.php:526 src/gui.cls.php:535 src/gui.cls.php:545
+#: src/gui.cls.php:555 src/gui.cls.php:621 src/gui.cls.php:629
+#: src/gui.cls.php:637 src/gui.cls.php:646 src/gui.cls.php:656
+#: src/gui.cls.php:666 src/gui.cls.php:676 src/gui.cls.php:686
+#: src/gui.cls.php:695 src/gui.cls.php:705 src/gui.cls.php:715
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
+#: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
+#: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
+#: tpl/toolbox/purge.tpl.php:79 tpl/toolbox/purge.tpl.php:88
+#: tpl/toolbox/purge.tpl.php:97 tpl/toolbox/purge.tpl.php:106
+#: tpl/toolbox/purge.tpl.php:115
+msgid "Purge All"
+msgstr "Alles opschonen"
+
+#: src/admin-display.cls.php:281 src/gui.cls.php:603
+msgid "Settings"
+msgstr "Configuratie"

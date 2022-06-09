@@ -1,0 +1,46 @@
+2022-05-17T12:39:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 18558952 bytes) in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 265
+
+2022-05-17T12:39:58+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 18558952 bytes) in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 265
+
+2022-05-17T12:40:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 18558952 bytes) in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 265
+
+2022-05-17T12:49:04+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_price() on null in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php:245
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-settings.php(555): include()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-config.php(175): require_once('...')
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-load.php(50): require_once('...')
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/theme-editor.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php on line 245
+
+2022-05-17T12:49:10+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_price() on null in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php:245
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-settings.php(555): include()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-config.php(175): require_once('...')
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-load.php(50): require_once('...')
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/theme-editor.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php on line 245
+
+2022-05-17T12:49:31+00:00 CRITICAL Uncaught Error: Call to a member function get_variation_price() on null in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php:245
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-settings.php(555): include()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-config.php(175): require_once('...')
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-load.php(50): require_once('...')
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/theme-editor.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php on line 245
+
+2022-05-17T12:49:46+00:00 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_single_variation’" in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php:250
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-settings.php(555): include()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-config.php(175): require_once('...')
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-load.php(50): require_once('...')
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin.php(34): require_once('...')
+#4 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/theme-editor.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/themes/hello-elementor/functions.php on line 250
+

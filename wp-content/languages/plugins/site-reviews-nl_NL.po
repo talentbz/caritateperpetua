@@ -1,0 +1,3147 @@
+# Translation of Plugins - Site Reviews - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Site Reviews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-15 13:49:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Site Reviews - Stable (latest release)\n"
+
+#: plugin/Integrations/GamiPress/Controller.php:41
+msgid "Write review"
+msgstr "Beoordeling schrijven"
+
+#: plugin/Integrations/GamiPress/Controller.php:40
+msgid "Get review"
+msgstr "Beoordeling krijgen"
+
+#: plugin/Integrations/GamiPress/Controller.php:27
+msgctxt "1 point for ... 1 time"
+msgid "writing a review"
+msgstr "het schrijven van een beoordeling"
+
+#: plugin/Integrations/GamiPress/Controller.php:24
+msgctxt "1 point for ... 1 time"
+msgid "getting a review"
+msgstr "het krijgen van een beoordeling"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:28
+msgid "This field requires a valid telephone number."
+msgstr "Dit veld vereist een geldig telefoonnummer."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:29
+msgid "This field requires a valid website URL (make sure it starts with http or https)."
+msgstr "Dit veld vereist een geldig website adres (zorg ervoor dat deze start met http of https)."
+
+#: views/pages/tools/console.php:44
+msgctxt "admin-text"
+msgid "Level 4: Warnings"
+msgstr "Niveau 4: waarschuwingen"
+
+#: views/pages/tools/console.php:41
+msgctxt "admin-text"
+msgid "Level 0: Debugging"
+msgstr "Niveau 0: debuggen"
+
+#: views/pages/tools/console.php:37
+msgctxt "admin-text"
+msgid "Level 1: Informational entries."
+msgstr "Niveau 1: informatieve records."
+
+#: views/pages/tools/console.php:36
+msgctxt "admin-text"
+msgid "Level 0: Entries used for debugging."
+msgstr "Niveau 0: records gebruikt voor debuggen."
+
+#: views/pages/tools/console.php:39
+msgctxt "admin-text"
+msgid "Level 4: Warnings and errors."
+msgstr "Niveau 4: waarschuwingen en fouten."
+
+#: views/pages/tools/console.php:38
+msgctxt "admin-text"
+msgid "Level 2: Deprecation notices."
+msgstr "Niveau 2: niet meer ondersteund berichten."
+
+#: views/pages/tools/console.php:43
+msgctxt "admin-text"
+msgid "Level 2: Notices"
+msgstr "Niveau 2: berichten"
+
+#: views/pages/tools/console.php:42
+msgctxt "admin-text"
+msgid "Level 1: Informational"
+msgstr "Niveau 1: informatief"
+
+#: views/pages/tools/console.php:50
+msgctxt "admin-text"
+msgid "Apply"
+msgstr "Toepassen"
+
+#: views/pages/tools/console.php:46
+msgctxt "admin-text"
+msgid "Unknown Level"
+msgstr "Onbekend niveau"
+
+#: views/pages/tools/console.php:11
+msgctxt "admin-text"
+msgid "Download Log"
+msgstr "Log downloaden"
+
+#: views/pages/tools/general/import-reviews.php:140
+msgctxt "admin-text"
+msgid "Detect automatically"
+msgstr "Automatisch detecteren"
+
+#: plugin/Addons/Updater.php:237
+msgctxt "admin-text"
+msgid "A valid license key is required to download this update."
+msgstr "Een geldige licentiesleutel is nodig om deze update te downloaden."
+
+#: config/settings.php:36
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty-Two"
+msgstr "Thema: Twenty Twenty-Two"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:24
+msgctxt "admin-text"
+msgid "No author"
+msgstr "Geen auteur"
+
+#: config/settings.php:93
+msgctxt "admin-text"
+msgid "Custom Registration URL"
+msgstr "Aangepaste registratie-URL"
+
+#: config/settings.php:69
+msgctxt "admin-text"
+msgid "Custom Login URL"
+msgstr "Aangepaste login-URL"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:106
+msgctxt "admin-text"
+msgid "The Page author"
+msgstr "De pagina-auteur"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:86
+msgctxt "admin-text"
+msgid "The Parent Page"
+msgstr "De hoofdpagina"
+
+#: views/pages/settings/translations.php:3
+msgctxt "admin-text"
+msgid "Custom Text Settings"
+msgstr "Aangepaste tekstinstellingen"
+
+#: plugin/Modules/Html/Partials/Pagination.php:42
+msgid "Load more"
+msgstr "Meer laden"
+
+#: plugin/Modules/Html/Partials/Pagination.php:41
+msgctxt "screen reader text"
+msgid "Load more reviews"
+msgstr "Meer beoordelingen laden"
+
+#: plugin/Modules/Html/Partials/Pagination.php:39
+msgid "Loading, please wait..."
+msgstr "Laden, even geduld…"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:97
+msgctxt "admin-text"
+msgid "Yes (page reload)"
+msgstr "Ja (pagina herladen)"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:93
+msgctxt "admin-text"
+msgid "Yes (AJAX pagination)"
+msgstr "Ja (AJAX paginering)"
+
+#: plugin/Controllers/MenuController.php:141
+msgctxt "admin-text"
+msgid "Strings"
+msgstr "Strings"
+
+#: config/settings.php:272
+msgctxt "admin-text"
+msgid "Fallback Avatar URL"
+msgstr "Vervangende avatar URL"
+
+#: views/pages/documentation/support/common-problems-and-solutions.php:84
+msgid "Service Unavailable."
+msgstr "Dienst niet beschikbaar."
+
+#. translators: %d refers to how many scheduled taks were found to run
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:100
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] "%d geplande taak gevonden"
+msgstr[1] "%d geplande taken gevonden"
+
+#. translators: 1: action ID 2: exception message
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "Fout bij verwerken van actie %1$s: %2$s"
+
+#. translators: 1: action ID 2: hook name
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr "Verwerkingsactie %1$s afgerond met hook: %2$s"
+
+#. translators: %s refers to the action ID
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "Begonnen met het verwerken van actie %s"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Actie bekijken"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Nieuwe geplande actie"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Geplande actie bewerken"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Nieuwe geplande actie toevoegen"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Toevoegen"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Geplande acties"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Geplande actie"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr "Mislukt"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Actiegroep"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "Geen acties gevonden in prullenbak"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr "In behandeling"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:78
+msgid "Database error."
+msgstr "Databasefout."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Versie:"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr "Actiestatus"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr "Elke minuut"
+
+#. translators: %s: date interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:484
+msgid " (%s)"
+msgstr " (%s)"
+
+#. translators: %s: date interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:481
+msgid " (%s ago)"
+msgstr " (%s geleden)"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s week"
+msgstr[1] "%s weken"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:149
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s maand"
+msgstr[1] "%s maanden"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:144
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s jaar"
+msgstr[1] "%s jaren"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr "Gepland"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr "Status"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr "Hook"
+
+#: views/partials/screen/filters.php:4
+msgctxt "admin-text"
+msgid "Filters"
+msgstr "Filters"
+
+#: views/partials/screen/inline-edit.php:10
+msgctxt "admin-text"
+msgid "Respond to the review"
+msgstr "Antwoord op de beoordeling"
+
+#: views/partials/screen/inline-edit.php:14
+msgctxt "admin-text"
+msgid "Their Review"
+msgstr "Hun beoordeling"
+
+#: views/partials/screen/inline-edit.php:22
+msgctxt "admin-text"
+msgid "Your Response"
+msgstr "Je reactie"
+
+#: views/partials/screen/inline-edit.php:31
+#: views/partials/screen/inline-edit.php:128
+msgctxt "admin-text"
+msgid "Update"
+msgstr "Update"
+
+#: views/pages/tools/general/import-reviews.php:76
+msgctxt "admin-text"
+msgid "The review date"
+msgstr "De beoordelingsdatum"
+
+#: views/pages/tools/general/import-reviews.php:138
+msgctxt "admin-text"
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: views/pages/tools/general/import-reviews.php:141
+msgctxt "admin-text"
+msgid "Comma (,)"
+msgstr "Komma (,)"
+
+#: views/pages/tools/general/import-reviews.php:142
+msgctxt "admin-text"
+msgid "Semicolon (;)"
+msgstr "Puntkomma (;)"
+
+#: views/pages/tools/general/import-reviews.php:148
+msgctxt "admin-text"
+msgid "Select the date format used in the reviews"
+msgstr "Selecteer het datum format in de beoordelingen"
+
+#: plugin/Commands/ImportReviews.php:171
+msgctxt "admin-text"
+msgid "See the %s for more details."
+msgstr "Bekijk de %s voor meer details."
+
+#: config/forms/metabox-fields.php:31
+#: plugin/Controllers/PrivacyController.php:133
+msgctxt "admin-text"
+msgid "Terms Accepted"
+msgstr "Voorwaarden geaccepteerd"
+
+#: plugin/Widgets/Widget.php:103
+msgctxt "admin-text"
+msgid "Site Reviews: Unknown Widget"
+msgstr "Site beoordelingen: onbekende widget"
+
+#: config/settings.php:328
+msgctxt "admin-text"
+msgid "The default text is: %s"
+msgstr "De standaard tekst is: %s"
+
+#: config/settings.php:689
+msgctxt "admin-text"
+msgid "Enable Akismet"
+msgstr "Inschakelen Akismet"
+
+#: plugin/Application.php:184 plugin/Controllers/SettingsController.php:176
+msgctxt "admin-text"
+msgid "License Keys"
+msgstr "Licentiesleutels"
+
+#: views/pages/tools/general/test-ip-detection.php:4
+msgctxt "admin-text"
+msgid "Test IP Address Detection"
+msgstr "Test IP adres detectie"
+
+#: views/pages/tools/general/optimise-db-tables.php:23
+msgctxt "admin-text"
+msgid "Table"
+msgstr "Tabel"
+
+#: views/pages/tools/general/optimise-db-tables.php:24
+msgctxt "admin-text"
+msgid "Engine"
+msgstr "Engine"
+
+#: views/pages/tools/general/optimise-db-tables.php:39
+msgctxt "admin-text"
+msgid "Converting, please wait..."
+msgstr "Converteren, even wachten..."
+
+#: views/pages/tools/general/optimise-db-tables.php:39
+msgctxt "admin-text"
+msgid "Convert table engine to InnoDB"
+msgstr "Converteer tabel engine naar innoDB"
+
+#: config/settings.php:308
+msgctxt "admin-text"
+msgid "Excerpt Action"
+msgstr "Samenvatting actie"
+
+#: views/partials/modal.php:6
+msgid "Close modal"
+msgstr "Sluit modal"
+
+#: plugin/Defaults/PaginationDefaults.php:19
+msgid "Next →"
+msgstr "Volgende →"
+
+#: config/settings.php:35
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty-One"
+msgstr "Thema: Twenty Twenty-One"
+
+#: config/settings.php:603
+msgctxt "admin-text"
+msgid "Assigned Terms"
+msgstr "Toegewezen termen"
+
+#: views/pages/settings/licenses.php:3
+msgctxt "admin-text"
+msgid "Add-on Licenses"
+msgstr "Add-on licenties"
+
+#: views/pages/settings/general.php:3
+msgctxt "admin-text"
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: views/pages/settings/schema.php:3
+msgctxt "admin-text"
+msgid "JSON-LD Schema Settings"
+msgstr "JSON-LD schema instellingen"
+
+#: views/pages/settings/submissions.php:3
+msgctxt "admin-text"
+msgid "Review Form Settings"
+msgstr "Beoordelingsformulier instellingen"
+
+#: views/pages/settings/reviews.php:3
+msgctxt "admin-text"
+msgid "Review Settings"
+msgstr "Beoordeling instellingen"
+
+#: config/settings.php:286
+msgctxt "avatar size (admin-text)"
+msgid "pixels"
+msgstr "pixels"
+
+#: config/settings.php:293
+msgctxt "admin-text"
+msgid "Set the height/width of the avatar in pixels."
+msgstr "Stel de hoogte/breedte in van de avatar in pixels."
+
+#: config/settings.php:317
+msgctxt "exceprt length (admin-text)"
+msgid "words"
+msgstr "woorden"
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:168
+msgctxt "admin-text"
+msgid "Custom fields."
+msgstr "Aangepaste velden."
+
+#: views/partials/addons/support-notice.php:6
+msgctxt "admin-text"
+msgid "login"
+msgstr "login"
+
+#: plugin/Controllers/ListTableController.php:146
+msgctxt "The Review Post ID (admin-text)"
+msgid "<span>ID: %d</span>"
+msgstr "<span>ID: %d</span>"
+
+#: plugin/Controllers/TaxonomyController.php:15
+msgctxt "The Term ID (admin-text)"
+msgid "<span>ID: %d</span>"
+msgstr "<span>ID: %d</span>"
+
+#: views/pages/tools/general/reset-permissions.php:21
+msgctxt "admin-text"
+msgid "Hard Reset Permissions"
+msgstr "Machtigingen voor harde reset"
+
+#: plugin/Controllers/ToolsController.php:251
+msgctxt "admin-text"
+msgid "The plugin has been migrated sucessfully, please reload the page."
+msgstr "De plugin is met succes gemigreerd, laad de pagina opnieuw."
+
+#: plugin/Controllers/NoticeController.php:161
+msgctxt "admin-text"
+msgid "Common Problems and Solutions"
+msgstr "Veelvoorkomende problemen en oplossingen"
+
+#: views/partials/notices/welcome.php:6
+msgctxt "admin-text"
+msgid "Read the upgrade guide"
+msgstr "Lees de upgrade gids"
+
+#: views/pages/settings/translations.php:28
+msgctxt "admin-text"
+msgid "Original Text"
+msgstr "Originele tekst"
+
+#: views/pages/tools/sync.php:45 views/pages/tools/sync.php:48
+msgctxt "admin-text"
+msgid "Inactive"
+msgstr "Inactief"
+
+#: views/pages/tools/console.php:50 views/pages/tools/sync.php:43
+msgctxt "admin-text"
+msgid "Please wait..."
+msgstr "Even geduld aub..."
+
+#: plugin/Modules/Notice.php:141 views/pages/tools/sync.php:28
+msgctxt "admin-text"
+msgid "Show more details"
+msgstr "Toon meer details"
+
+#: views/pages/tools/sync.php:25
+msgctxt "admin-text"
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: views/pages/tools/sync.php:24
+msgctxt "admin-text"
+msgid "License"
+msgstr "Licentie"
+
+#: views/pages/tools/sync.php:11 views/pages/tools/sync.php:34
+msgctxt "admin-text"
+msgid "Last Sync"
+msgstr "Laatste synchronisatie"
+
+#: views/pages/tools/sync.php:9
+msgctxt "admin-text"
+msgid "Service"
+msgstr "Onderhoud"
+
+#: views/pages/tools/console.php:25
+msgctxt "admin-text"
+msgid "Clear"
+msgstr "Wissen"
+
+#: views/pages/tools/console.php:25
+msgctxt "admin-text"
+msgid "Clearing..."
+msgstr "Wordt gewist ..."
+
+#: views/pages/tools/console.php:18
+msgctxt "admin-text"
+msgid "Reload"
+msgstr "Herlaad"
+
+#: views/pages/tools/console.php:18
+msgctxt "admin-text"
+msgid "Reloading..."
+msgstr "Herladen..."
+
+#: views/pages/tools/general/test-ip-detection.php:15
+msgctxt "admin-text"
+msgid "Test Detection"
+msgstr "Test detectie"
+
+#: views/pages/tools/general/test-ip-detection.php:15
+msgctxt "admin-text"
+msgid "Testing, please wait..."
+msgstr "Testen, even geduld ..."
+
+#: views/pages/tools/general/reset-permissions.php:6
+#: views/pages/tools/general/reset-permissions.php:21
+msgctxt "admin-text"
+msgid "Reset Permissions"
+msgstr "Rechten resetten"
+
+#: views/pages/tools/general/reset-permissions.php:21
+msgctxt "admin-text"
+msgid "Resetting, please wait..."
+msgstr "Resetten, even geduld ..."
+
+#: views/pages/tools/general/reset-assigned-meta.php:16
+msgctxt "admin-text"
+msgid "Reset Meta Values"
+msgstr "Metawaarden resetten"
+
+#: views/pages/tools/general/reset-assigned-meta.php:16
+msgctxt "admin-text"
+msgid "Resetting values, please wait..."
+msgstr "Waarden resetten, even geduld ..."
+
+#: views/pages/tools/general/migrate-plugin.php:20
+#: views/partials/notices/migrate.php:9
+msgctxt "admin-text"
+msgid "Run Migration"
+msgstr "Voer migratie uit"
+
+#: views/pages/tools/general/migrate-plugin.php:20
+#: views/partials/notices/migrate.php:9
+msgctxt "admin-text"
+msgid "Migrating, please wait..."
+msgstr "Migreren, een ogenblik geduld ..."
+
+#: views/pages/tools/general/migrate-plugin.php:20
+#: views/partials/notices/migrate.php:9
+msgctxt "admin-text"
+msgid "Run All Migrations"
+msgstr "Voer alle migraties uit"
+
+#: views/pages/tools/general/import-reviews.php:6
+#: views/pages/tools/general/import-reviews.php:170
+msgctxt "admin-text"
+msgid "Import Reviews"
+msgstr "Importeer beoordelingen"
+
+#: views/pages/tools/general/import-settings.php:6
+#: views/pages/tools/general/import-settings.php:23
+msgctxt "admin-text"
+msgid "Import Settings"
+msgstr "Instellingen importeren"
+
+#: views/pages/tools/general/import-settings.php:23
+msgctxt "admin-text"
+msgid "Importing settings, please wait..."
+msgstr "Instellingen importeren, even geduld ..."
+
+#: views/pages/tools/general/export-settings.php:6
+#: views/pages/tools/general/export-settings.php:20
+msgctxt "admin-text"
+msgid "Export Settings"
+msgstr "Exportinstellingen"
+
+#: views/partials/translations/plural.php:20
+msgctxt "admin-text"
+msgid "plural"
+msgstr "meervoud"
+
+#: views/partials/translations/plural.php:19
+msgctxt "admin-text"
+msgid "singular"
+msgstr "enkelvoud"
+
+#: plugin/Overrides/ScheduledActionsTable.php:93
+#: plugin/Overrides/ScheduledActionsTable.php:126
+#: views/partials/translations/plural.php:11
+#: views/partials/translations/single.php:10
+msgctxt "admin-text"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: views/partials/translations/plural.php:4
+#: views/partials/translations/single.php:4
+msgctxt "admin-text"
+msgid "Show custom translation"
+msgstr "Toon aangepaste vertaling"
+
+#: views/partials/addons/addon.php:24
+msgctxt "admin-text"
+msgid "Activate"
+msgstr "Activeren"
+
+#: views/partials/addons/addon.php:20
+msgctxt "admin-text"
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: views/partials/addons/license-missing.php:4
+msgctxt "admin-text"
+msgid "Enter a valid license key for automatic updates."
+msgstr "Voer een geldige licentiesleutel in voor automatische updates."
+
+#: views/partials/editor/metabox-assigned-posts.php:6
+#: views/partials/screen/inline-edit.php:107
+msgctxt "admin-text"
+msgid "Search by ID or title..."
+msgstr "Zoeken op ID of titel ..."
+
+#: views/partials/editor/metabox-assigned-users.php:6
+#: views/partials/screen/inline-edit.php:118
+msgctxt "admin-text"
+msgid "Search by ID or name..."
+msgstr "Zoeken op ID of naam ..."
+
+#: plugin/Overrides/ScheduledActionsTable.php:121
+#: views/partials/editor/pinned.php:17 views/partials/screen/inline-edit.php:30
+#: views/partials/screen/inline-edit.php:127
+msgctxt "admin-text"
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: views/partials/editor/pinned.php:16
+msgctxt "admin-text"
+msgid "OK"
+msgstr "OK"
+
+#: views/partials/editor/pinned.php:14
+msgctxt "admin-text"
+msgid "Unpin"
+msgstr "Losmaken"
+
+#: views/partials/editor/pinned.php:13
+msgctxt "admin-text"
+msgid "Pin"
+msgstr "Vastmaken"
+
+#: views/partials/editor/pinned.php:8
+msgctxt "admin-text"
+msgid "Edit pinned status"
+msgstr "Bewerk vastgezette status"
+
+#: views/partials/editor/metabox-categories.php:7
+msgctxt "admin-text"
+msgid "Most Used"
+msgstr "Meest gebruikt"
+
+#: config/settings.php:722
+msgctxt "admin-text"
+msgid "Reject submission"
+msgstr "Inzending weigeren"
+
+#: config/settings.php:721
+msgctxt "admin-text"
+msgid "Require approval"
+msgstr "Goedkeuring vereisen"
+
+#: config/settings.php:719
+msgctxt "admin-text"
+msgid "Blacklist Action"
+msgstr "Blacklist-actie"
+
+#: config/settings.php:711
+msgctxt "admin-text"
+msgid "Review Blacklist"
+msgstr "Bekijk de zwarte lijst"
+
+#: config/settings.php:699
+msgctxt "admin-text"
+msgid "Use the WordPress Disallowed Comment Keys"
+msgstr "Gebruik de WordPress niet-toegestane reactiesleutels"
+
+#: config/settings.php:698
+msgctxt "admin-text"
+msgid "Use the Site Reviews Blacklist"
+msgstr "Gebruik de zwarte lijst voor sitebeoordelingen"
+
+#: config/settings.php:696
+msgctxt "admin-text"
+msgid "Blacklist"
+msgstr "Zwarte lijst"
+
+#: config/settings.php:702
+msgctxt "admin-text"
+msgid "Disallowed Comment Keys"
+msgstr "Niet-toegestane reactie sleutels"
+
+#: views/partials/editor/metabox-assigned-posts.php:9
+msgctxt "admin-text"
+msgid "Search for a Page, Post, or <abbr title=\"Custom Post Type\">CPT</abbr> that you would like to assign this review to."
+msgstr "Zoek naar een pagina, bericht of <abbr title=\"Custom Post Type\">CPT</abbr> waaraan je deze beoordeling wil toewijzen."
+
+#: views/pages/tools/general/import-reviews.php:170
+msgctxt "admin-text"
+msgid "Importing reviews, please wait..."
+msgstr "Recensies importeren, even geduld ..."
+
+#: views/partials/editor/assigned-entry.php:7
+msgctxt "admin-text"
+msgid "Remove assignment"
+msgstr "Opdracht verwijderen"
+
+#: views/partials/notices/welcome.php:4
+msgctxt "admin-text"
+msgid "See What's New"
+msgstr "Ontdek wat er nieuw is"
+
+#: plugin/Addons/Addon.php:100
+msgctxt "admin-text"
+msgid "Untitled"
+msgstr "Zonder titel"
+
+#: views/pages/tools/system-info.php:8
+msgctxt "admin-text"
+msgid "Download System Info"
+msgstr "Systeeminformatie downloaden"
+
+#: views/pages/tools/sync.php:57
+msgctxt "admin-text"
+msgid "Syncing..."
+msgstr "Synchroniseren..."
+
+#: views/pages/settings/translations.php:21
+msgctxt "admin-text"
+msgid "Search here for text to change..."
+msgstr "Zoek hier naar tekst om te wijzigen..."
+
+#: views/pages/settings/translations.php:18
+msgctxt "admin-text"
+msgid "Search here for translatable text"
+msgstr "Zoek hier naar vertaalbare tekst"
+
+#: views/partials/translations/plural.php:11
+#: views/partials/translations/single.php:10
+msgctxt "admin-text"
+msgid "Delete translation string"
+msgstr "Verwijder vertaalstring"
+
+#: config/settings.php:682
+msgctxt "admin-text"
+msgid "Inline"
+msgstr "In lijn"
+
+#: config/settings.php:681
+msgctxt "admin-text"
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+#: config/settings.php:680
+msgctxt "admin-text"
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: config/settings.php:678
+msgctxt "admin-text"
+msgid "Badge Position"
+msgstr "Badge positie"
+
+#: config/settings.php:668
+msgctxt "admin-text"
+msgid "Site Secret"
+msgstr "Site geheim"
+
+#: config/settings.php:659
+msgctxt "admin-text"
+msgid "Site Key"
+msgstr "Site sleutel"
+
+#: config/settings.php:649
+msgctxt "admin-text"
+msgid "Use reCAPTCHA only for guest users"
+msgstr "Gebruik reCAPTCHA alleen voor gastgebruikers"
+
+#: config/settings.php:648
+msgctxt "admin-text"
+msgid "Use reCAPTCHA"
+msgstr "Gebruik reCAPTCHA"
+
+#: config/settings.php:647
+msgctxt "admin-text"
+msgid "Do not use reCAPTCHA"
+msgstr "Gebruik geen reCAPTCHA"
+
+#: config/settings.php:645
+msgctxt "admin-text"
+msgid "Invisible reCAPTCHA"
+msgstr "Onzichtbare reCAPTCHA"
+
+#: config/settings.php:637
+msgctxt "admin-text"
+msgid "Username Whitelist"
+msgstr "Witte lijst met gebruikersnaam"
+
+#: config/settings.php:627
+msgctxt "admin-text"
+msgid "IP Address Whitelist"
+msgstr "Witte lijst voor IP-adressen"
+
+#: config/settings.php:617
+msgctxt "admin-text"
+msgid "Email Whitelist"
+msgstr "Witte lijst voor e-mail"
+
+#: config/settings.php:590
+msgctxt "admin-text"
+msgid "By Username (will only work for registered users)"
+msgstr "Op gebruikersnaam (werkt alleen voor geregistreerde gebruikers)"
+
+#: config/settings.php:589
+msgctxt "admin-text"
+msgid "By IP Address"
+msgstr "Op IP-adres"
+
+#: config/settings.php:588
+msgctxt "admin-text"
+msgid "By Email Address"
+msgstr "Op e-mailadres"
+
+#: config/settings.php:587
+msgctxt "admin-text"
+msgid "No Limit"
+msgstr "Geen limiet"
+
+#: config/settings.php:585
+msgctxt "admin-text"
+msgid "Limit Reviews"
+msgstr "Beperk beoordelingen"
+
+#: config/forms/metabox-fields.php:30 config/settings.php:577
+msgctxt "admin-text"
+msgid "Terms"
+msgstr "Voorwaarden"
+
+#: config/settings.php:570
+msgctxt "admin-text"
+msgid "Required Fields"
+msgstr "Verplichte velden"
+
+#: config/settings.php:579
+msgctxt "admin-text"
+msgid "Choose which fields should be required in the review form."
+msgstr "Kies welke velden verplicht moeten zijn in het beoordelingsformulier."
+
+#: config/settings.php:562
+msgctxt "admin-text"
+msgid "USD"
+msgstr "USD"
+
+#: config/settings.php:561
+msgctxt "admin-text"
+msgid "Price Currency"
+msgstr "Prijsvaluta"
+
+#: config/settings.php:549
+msgctxt "admin-text"
+msgid "High Price"
+msgstr "Hoge prijs"
+
+#: config/settings.php:536
+msgctxt "admin-text"
+msgid "Low Price"
+msgstr "Lage prijs"
+
+#: config/settings.php:523
+msgctxt "admin-text"
+msgid "Price"
+msgstr "Prijs"
+
+#: config/settings.php:510
+msgctxt "admin-text"
+msgid "Offer"
+msgstr "Aanbod"
+
+#: config/settings.php:509
+msgctxt "admin-text"
+msgid "AggregateOffer"
+msgstr "AggregateAanbieding"
+
+#: config/settings.php:507
+msgctxt "admin-text"
+msgid "Offer Type"
+msgstr "Aanbiedingstype"
+
+#: config/settings.php:495
+msgctxt "admin-text"
+msgid "$$-$$$"
+msgstr "$$-$$$"
+
+#: config/settings.php:494
+msgctxt "admin-text"
+msgid "Price Range"
+msgstr "Prijsbereik"
+
+#: config/settings.php:483
+msgctxt "admin-text"
+msgid "+1 (877) 273-3049"
+msgstr "+1 (877) 273-3049"
+
+#: config/settings.php:482
+msgctxt "admin-text"
+msgid "Telephone Number"
+msgstr "Telefoon nummer"
+
+#: config/settings.php:471
+msgctxt "admin-text"
+msgid "60 29th Street #343, San Francisco, CA 94110, US"
+msgstr "60 29th Street #343, San Francisco, CA 94110, US"
+
+#: config/settings.php:470
+msgctxt "admin-text"
+msgid "Address"
+msgstr "Adres"
+
+#: config/settings.php:253 config/settings.php:461
+msgctxt "admin-text"
+msgid "Custom Image URL"
+msgstr "Aangepaste afbeeldings-URL"
+
+#: config/settings.php:449 config/settings.php:462
+msgctxt "admin-text"
+msgid "Enter a custom image URL"
+msgstr "Voer een aangepaste afbeeldings-URL in"
+
+#: config/settings.php:446
+msgctxt "admin-text"
+msgid "Default Image"
+msgstr "Standaard afbeelding"
+
+#: config/settings.php:439
+msgctxt "admin-text"
+msgid "Custom URL"
+msgstr "Aangepaste URL"
+
+#: config/settings.php:427 config/settings.php:440
+msgctxt "admin-text"
+msgid "Enter a custom URL"
+msgstr "Voer een aangepaste URL in"
+
+#: config/settings.php:426
+msgctxt "admin-text"
+msgid "Use the assigned or current page URL"
+msgstr "Gebruik de toegewezen of huidige pagina-URL"
+
+#: config/settings.php:424
+msgctxt "admin-text"
+msgid "Default URL"
+msgstr "Standaard URL"
+
+#: config/settings.php:417
+msgctxt "admin-text"
+msgid "Custom Description"
+msgstr "Aangepaste beschrijving"
+
+#: config/settings.php:405 config/settings.php:418
+msgctxt "admin-text"
+msgid "Enter a custom description"
+msgstr "Voer een aangepaste beschrijving in"
+
+#: config/settings.php:404
+msgctxt "admin-text"
+msgid "Use the assigned or current page excerpt"
+msgstr "Gebruik het toegewezen of huidige paginafragment"
+
+#: config/settings.php:402
+msgctxt "admin-text"
+msgid "Default Description"
+msgstr "Standaardbeschrijving"
+
+#: config/settings.php:395
+msgctxt "admin-text"
+msgid "Custom Name"
+msgstr "Aangepaste naam"
+
+#: config/settings.php:383 config/settings.php:396
+msgctxt "admin-text"
+msgid "Enter a custom title"
+msgstr "Voer een aangepaste titel in"
+
+#: config/settings.php:382
+msgctxt "admin-text"
+msgid "Use the assigned or current page title"
+msgstr "Gebruik de toegewezen of huidige paginatitel"
+
+#: config/settings.php:380
+msgctxt "admin-text"
+msgid "Default Name"
+msgstr "Standaardnaam"
+
+#: config/settings.php:371
+msgctxt "admin-text"
+msgid "Custom Schema Type"
+msgstr "Custom Schema Type"
+
+#: config/settings.php:358
+msgctxt "admin-text"
+msgid "Product"
+msgstr "Product"
+
+#: config/settings.php:357
+msgctxt "admin-text"
+msgid "Local Business"
+msgstr "Lokaal bedrijf"
+
+#: config/settings.php:355
+msgctxt "admin-text"
+msgid "Default Schema Type"
+msgstr "Default Schema Type"
+
+#: config/settings.php:331
+msgctxt "admin-text"
+msgid "Enable Fallback Text"
+msgstr "Schakel reservetekst in"
+
+#: config/settings.php:322
+msgctxt "admin-text"
+msgid "Excerpt Length"
+msgstr "Lengte samenvatting"
+
+#: config/settings.php:323
+msgctxt "admin-text"
+msgid "Set the excerpt word length."
+msgstr "Stel de lengte van de samenvatting in."
+
+#: config/settings.php:298
+msgctxt "admin-text"
+msgid "Enable Excerpts"
+msgstr "Schakel samenvatting in"
+
+#: config/settings.php:299
+msgctxt "admin-text"
+msgid "Display an excerpt instead of the full review."
+msgstr "Geef een samenvatting weer in plaats van de volledige recensie."
+
+#: config/settings.php:291
+msgctxt "admin-text"
+msgid "Avatar Size"
+msgstr "Avatar grootte"
+
+#: config/settings.php:281
+msgctxt "admin-text"
+msgid "Regenerate Avatars"
+msgstr "Genereer avatars opnieuw"
+
+#: config/settings.php:241
+msgctxt "admin-text"
+msgid "Enable Avatars"
+msgstr "Schakel Avatars in"
+
+#: config/settings.php:235
+msgctxt "admin-text"
+msgid "Enable Assigned Links"
+msgstr "Schakel toegewezen links in"
+
+#: config/settings.php:213
+msgctxt "admin-text"
+msgid "Initial with a period and a space"
+msgstr "Begin met een punt en een spatie"
+
+#: config/settings.php:212
+msgctxt "admin-text"
+msgid "Initial with a period"
+msgstr "Beginnend met een punt"
+
+#: config/settings.php:211
+msgctxt "admin-text"
+msgid "Initial with a space"
+msgstr "Begin met een spatie"
+
+#: config/settings.php:209
+msgctxt "admin-text"
+msgid "Initial Format"
+msgstr "Oorspronkelijk formaat"
+
+#: config/settings.php:215
+msgctxt "admin-text"
+msgid "Choose how the initial is displayed."
+msgstr "Kies hoe de initiaal wordt weergegeven."
+
+#: config/settings.php:198
+msgctxt "admin-text"
+msgid "Convert to all initials"
+msgstr "Converteren naar alle initialen"
+
+#: config/settings.php:197
+msgctxt "admin-text"
+msgid "Convert last name to an initial"
+msgstr "Converteer achternaam naar een initiaal"
+
+#: config/settings.php:196
+msgctxt "admin-text"
+msgid "Convert first name to an initial"
+msgstr "Converteer voornaam naar een initiaal"
+
+#: config/settings.php:195
+msgctxt "admin-text"
+msgid "Use the first name only"
+msgstr "Gebruik alleen de voornaam"
+
+#: config/settings.php:194
+msgctxt "admin-text"
+msgid "Use the name as given"
+msgstr "Gebruik de naam zoals opgegeven"
+
+#: config/settings.php:192
+msgctxt "admin-text"
+msgid "Name Format"
+msgstr "Gebruik de naam als voornaam formaat"
+
+#: config/settings.php:185
+msgctxt "admin-text"
+msgid "Custom Date Format"
+msgstr "Aangepaste datumnotatie"
+
+#: config/settings.php:173
+msgctxt "admin-text"
+msgid "Use a custom date format"
+msgstr "Gebruik een aangepaste datumnotatie"
+
+#: config/settings.php:172
+msgctxt "admin-text"
+msgid "Use a relative date format"
+msgstr "Gebruik een relatief datumnotatie"
+
+#: config/settings.php:171
+msgctxt "admin-text"
+msgid "Use the default date format"
+msgstr "Gebruik de standaard datumnotatie"
+
+#: config/settings.php:169 views/pages/tools/general/import-reviews.php:146
+msgctxt "admin-text"
+msgid "Date Format"
+msgstr "Datumnotatie"
+
+#: config/settings.php:176
+msgctxt "admin-text"
+msgid "WordPress settings"
+msgstr "WordPress instellingen"
+
+#: config/settings.php:161
+msgctxt "admin-text"
+msgid "Notification Template"
+msgstr "Meldingen sjabloon"
+
+#: config/settings.php:236
+msgctxt "admin-text"
+msgid "This will display a link to the assigned posts of a review."
+msgstr "Dit toont een link naar de toegewezen berichten van een beoordeling."
+
+#: config/settings.php:200
+msgctxt "admin-text"
+msgid "Choose how author names are shown in your reviews."
+msgstr "Kies hoe auteur namen worden getoond in je beoordelingen."
+
+#: config/settings.php:359
+msgctxt "admin-text"
+msgid "Custom"
+msgstr "Aangepast"
+
+#: config/settings.php:149
+msgctxt "admin-text"
+msgid "Slack Webhook URL"
+msgstr "Slack webhook-URL"
+
+#: config/settings.php:151
+msgctxt "admin-text"
+msgid "Incoming WebHook"
+msgstr "Inkomende WebHook"
+
+#: config/settings.php:140 config/settings.php:141
+msgctxt "admin-text"
+msgid "Separate multiple emails with a comma"
+msgstr "Scheid meerdere e-mails met een komma"
+
+#: config/settings.php:139
+msgctxt "admin-text"
+msgid "Send Emails To"
+msgstr "Stuur e-mails naar"
+
+#: config/settings.php:129
+msgctxt "admin-text"
+msgid "Send Emails From"
+msgstr "E-mails verzenden vanaf"
+
+#: config/settings.php:119
+msgctxt "admin-text"
+msgid "Send to <a href=\"https://slack.com/\">Slack</a>"
+msgstr "Verzenden naar <a href=\"https://slack.com/\"> Slack </a>"
+
+#: config/settings.php:118
+msgctxt "admin-text"
+msgid "Send to one or more email addresses"
+msgstr "Stuur naar een of meer e-mailadressen"
+
+#: config/settings.php:116
+msgctxt "admin-text"
+msgid "Send to administrator"
+msgstr "Verzenden naar beheerder"
+
+#: config/settings.php:114
+msgctxt "admin-text"
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: config/settings.php:107
+msgctxt "admin-text"
+msgid "Integrate with WPML"
+msgstr "Integreer met WPML"
+
+#: config/settings.php:106
+msgctxt "admin-text"
+msgid "Integrate with Polylang"
+msgstr "Integreer met Polylang"
+
+#: config/settings.php:105
+msgctxt "admin-text"
+msgid "No Integration"
+msgstr "Geen integratie"
+
+#: config/settings.php:103
+msgctxt "admin-text"
+msgid "Multilingual"
+msgstr "Meertalig"
+
+#: config/settings.php:81
+msgctxt "admin-text"
+msgid "Show Registration Link"
+msgstr "Toon registratielink"
+
+#: config/settings.php:83
+msgctxt "admin-text"
+msgid "Anyone can register"
+msgstr "Iedereen kan registreren"
+
+#: config/settings.php:60
+msgctxt "admin-text"
+msgid "Require Login"
+msgstr "Inloggen vereist"
+
+#: config/settings.php:43
+msgctxt "admin-text"
+msgid "Require Approval"
+msgstr "Goedkeuring vereisen"
+
+#: config/settings.php:34
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty"
+msgstr "Thema: Twenty Twenty"
+
+#: config/settings.php:33
+msgctxt "admin-text"
+msgid "Theme: Twenty Nineteen"
+msgstr "Thema: Twenty Nineteen"
+
+#: config/settings.php:32
+msgctxt "admin-text"
+msgid "Theme: Twenty Seventeen"
+msgstr "Thema: Twenty Seventeen"
+
+#: config/settings.php:31
+msgctxt "admin-text"
+msgid "Theme: Twenty Sixteen"
+msgstr "Thema: Twenty Sixteen"
+
+#: config/settings.php:30
+msgctxt "admin-text"
+msgid "Theme: Twenty Fifteen"
+msgstr "Thema: Twenty Fifteen"
+
+#: config/settings.php:28
+msgctxt "admin-text"
+msgid "Site Reviews (minimal)"
+msgstr "Site-beoordelingen (minimaal)"
+
+#: config/settings.php:27
+msgctxt "admin-text"
+msgid "Site Reviews (default)"
+msgstr "Site-beoordelingen (standaard)"
+
+#: config/settings.php:23
+msgctxt "admin-text"
+msgid "CSS Framework: Bootstrap 4 (Custom Forms)"
+msgstr "CSS Framework: Bootstrap 4 (Custom Forms)"
+
+#: config/settings.php:22
+msgctxt "admin-text"
+msgid "CSS Framework: Bootstrap 4"
+msgstr "CSS Framework: Bootstrap 4"
+
+#: config/settings.php:20
+msgctxt "admin-text"
+msgid "Plugin Style"
+msgstr "Plug-in stijl"
+
+#: config/settings.php:25
+msgctxt "admin-text"
+msgid "Plugin: Ninja Forms (v3)"
+msgstr "Plug-in: Ninja Forms (v3)"
+
+#: config/settings.php:24
+msgctxt "admin-text"
+msgid "Plugin: Contact Form 7 (v5)"
+msgstr "Plug-in: Contact Form 7 (v5)"
+
+#: config/settings.php:26
+msgctxt "admin-text"
+msgid "Plugin: WPForms (v1)"
+msgstr "Plugin: WPForms (v1)"
+
+#: config/settings.php:29
+msgctxt "admin-text"
+msgid "Theme: Divi (v4)"
+msgstr "Thema: Divi (v4)"
+
+#: config/settings.php:14
+msgctxt "admin-text"
+msgid "Delete data on uninstall"
+msgstr "Verwijder gegevens bij de-installatie"
+
+#: config/settings.php:11
+msgctxt "admin-text"
+msgid "Delete everything (including all reviews and categories)"
+msgstr "Alles verwijderen (inclusief alle recensies en categorieën)"
+
+#: config/settings.php:10
+msgctxt "admin-text"
+msgid "Delete all plugin settings, widgets settings, and caches"
+msgstr "Verwijder alle plug-in-instellingen, widgets-instellingen en caches"
+
+#: config/settings.php:9
+msgctxt "admin-text"
+msgid "Do not delete anything"
+msgstr "Verwijder niets"
+
+#: config/settings.php:13
+msgctxt "admin-text"
+msgid "Site Reviews will not delete anything when uninstalled unless you change this setting."
+msgstr "Site-beoordelingen zullen niets verwijderen wanneer ze worden verwijderd, tenzij u deze instelling wijzigt."
+
+#: activate.php:107
+msgctxt "admin-text"
+msgid "WordPress version"
+msgstr "WordPress-versie"
+
+#: activate.php:106
+msgctxt "admin-text"
+msgid "Update WordPress"
+msgstr "WordPress bijwerken"
+
+#: activate.php:103
+msgctxt "admin-text"
+msgid "PHP version"
+msgstr "PHP versie"
+
+#: deprecated.php:136
+msgid "%s is <strong>deprecated</strong> since version %s with no alternative available."
+msgstr "%s is <strong> verouderd </strong> sinds versie %s zonder alternatief beschikbaar is."
+
+#: plugin/Deprecated.php:24
+msgctxt "admin-text"
+msgid "The [%s] method has been deprecated and will be soon be removed, please use the [%s] method instead."
+msgstr "De methode [%s] is verouderd en wordt binnenkort verwijderd. Gebruik in plaats daarvan de methode [%s]."
+
+#: plugin/Controllers/MainController.php:116
+msgctxt "admin-text"
+msgid "Local Review"
+msgstr "Lokale recensie"
+
+#: activate.php:102
+msgctxt "admin-text"
+msgid "The %s plugin was deactivated."
+msgstr "De %s plug-in is gedeactiveerd."
+
+#: deprecated.php:149
+msgid "%s is <strong>deprecated</strong> since version %s! Use %s instead."
+msgstr "%s is <strong>verouderd</strong> sinds versie %s! Gebruik %s in plaats daarvan."
+
+#: plugin/Controllers/TranslationController.php:200
+msgctxt "admin-text"
+msgid "Approved on:"
+msgstr "Goedgekeurd op:"
+
+#: plugin/Controllers/TranslationController.php:199
+msgctxt "admin-text"
+msgid "Approve on:"
+msgstr "Goedkeuren op:"
+
+#: plugin/Controllers/WelcomeController.php:83
+msgctxt "admin-text"
+msgid "Upgrade Guide"
+msgstr "Upgrade-gids"
+
+#: plugin/Controllers/WelcomeController.php:82
+msgctxt "admin-text"
+msgid "What's New"
+msgstr "Wat is er nieuw"
+
+#: plugin/Controllers/WelcomeController.php:81
+msgctxt "admin-text"
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+#: plugin/Controllers/WelcomeController.php:64
+msgctxt "admin-text"
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+#: plugin/Controllers/WelcomeController.php:37
+msgctxt "admin-text"
+msgid "Welcome to %s &#8212; WordPress"
+msgstr "Wekom bij %s &#8212; WordPress"
+
+#: plugin/Controllers/WelcomeController.php:25 views/pages/addons/index.php:6
+#: views/pages/documentation/index.php:6 views/pages/settings/index.php:6
+#: views/pages/tools/index.php:6
+msgctxt "admin-text"
+msgid "About"
+msgstr "Over"
+
+#: plugin/Controllers/MenuController.php:169
+msgctxt "admin-text"
+msgid "System Info"
+msgstr "Systeeminformatie"
+
+#: plugin/Commands/ImportReviews.php:174
+#: plugin/Controllers/MenuController.php:168
+msgctxt "admin-text"
+msgid "Console"
+msgstr "Console"
+
+#: plugin/Controllers/MenuController.php:167 views/pages/tools/sync.php:57
+msgctxt "admin-text"
+msgid "Sync Reviews"
+msgstr "Synchroniseer beoordelingen"
+
+#: plugin/Controllers/MenuController.php:143
+msgctxt "admin-text"
+msgid "Licenses"
+msgstr "Licenties"
+
+#: config/settings.php:333
+msgctxt "admin-text"
+msgid "Translations"
+msgstr "Vertalingen"
+
+#: plugin/Controllers/MenuController.php:139
+msgctxt "admin-text"
+msgid "Submissions"
+msgstr "Inzendingen"
+
+#: plugin/Controllers/MenuController.php:137
+#: plugin/Controllers/MenuController.php:165
+msgctxt "admin-text"
+msgid "General"
+msgstr "Algemeen"
+
+#: plugin/Controllers/MenuController.php:114
+#: plugin/Controllers/MenuController.php:142
+msgctxt "admin-text"
+msgid "Addons"
+msgstr "Add-ons"
+
+#: plugin/Controllers/MenuController.php:112
+msgctxt "admin-text"
+msgid "Functions"
+msgstr "Functies"
+
+#: plugin/Controllers/MenuController.php:111
+msgctxt "admin-text"
+msgid "Hooks"
+msgstr "Hooks"
+
+#: plugin/Controllers/MenuController.php:110
+msgctxt "admin-text"
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: plugin/Controllers/MenuController.php:108
+#: plugin/Controllers/WelcomeController.php:84
+msgctxt "admin-text"
+msgid "Support"
+msgstr "Support"
+
+#: plugin/Controllers/MenuController.php:54
+msgctxt "admin-text"
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: plugin/Controllers/MenuController.php:53
+msgctxt "admin-text"
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: plugin/Controllers/AdminController.php:275
+#: plugin/Controllers/AdminController.php:294
+#: plugin/Controllers/AdminController.php:308
+msgctxt "admin-text"
+msgid "Nothing found."
+msgstr "Niets gevonden."
+
+#: plugin/Controllers/AdminController.php:102
+msgctxt "admin-text"
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] "%s Review"
+msgstr[1] "%s Beoordelingen"
+
+#: plugin/Controllers/AdminController.php:185
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:81
+msgctxt "admin-text"
+msgid "Summary of Reviews"
+msgstr "Samenvatting van beoordelingen"
+
+#: plugin/Controllers/AdminController.php:184
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:19
+#: plugin/Widgets/SiteReviewsFormWidget.php:78
+msgctxt "admin-text"
+msgid "Submit a Review"
+msgstr "Plaats een review"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:70
+msgctxt "admin-text"
+msgid "Site Reviews: Display a form to submit reviews."
+msgstr "Site-beoordelingen: geef een formulier weer om beoordelingen in te dienen."
+
+#: plugin/Controllers/AdminController.php:183
+#: plugin/Widgets/SiteReviewsWidget.php:113
+msgctxt "admin-text"
+msgid "Recent Reviews"
+msgstr "Recente reviews"
+
+#: plugin/Metaboxes/AssignedPostsMetabox.php:38
+msgctxt "admin-text"
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:33
+#: plugin/Metaboxes/AuthorMetabox.php:21 plugin/Metaboxes/AuthorMetabox.php:39
+#: views/partials/screen/inline-edit.php:73
+msgctxt "admin-text"
+msgid "Author"
+msgstr "Auteur"
+
+#: plugin/Metaboxes/DetailsMetabox.php:45
+msgctxt "admin-text"
+msgid "Review Details"
+msgstr "Details bekijken"
+
+#: plugin/Metaboxes/ResponseMetabox.php:20
+#: views/partials/editor/metabox-response.php:3
+msgctxt "admin-text"
+msgid "Respond Publicly"
+msgstr "Reageer openbaar"
+
+#: plugin/Controllers/ToolsController.php:333
+msgctxt "admin-text"
+msgid "reload the page"
+msgstr "herlaad de pagina"
+
+#: plugin/Controllers/ToolsController.php:322
+msgctxt "admin-text"
+msgid "The permissions have been reset."
+msgstr "De rechten zijn gereset."
+
+#: plugin/Controllers/ToolsController.php:296
+msgctxt "admin-text"
+msgid "The assigned meta values have been reset."
+msgstr "De toegewezen metawaarden zijn gereset."
+
+#: plugin/Controllers/ToolsController.php:184
+msgctxt "admin-text"
+msgid "Console reloaded."
+msgstr "Console opnieuw geladen."
+
+#: plugin/Controllers/ToolsController.php:124
+msgctxt "admin-text"
+msgid "Your detected IP address is %s. If this looks incorrect, please see the %s."
+msgstr "Uw gedetecteerde IP-adres is %s. Als dit er niet correct uitziet, raadpleeg dan de %s."
+
+#: plugin/Controllers/ToolsController.php:119
+msgctxt "admin-text"
+msgid "Site Reviews was unable to detect an IP address. To fix this, please see the %s."
+msgstr "Site Reviews konden geen IP-adres detecteren. Raadpleeg de %s om dit op te lossen."
+
+#: plugin/Controllers/MenuController.php:109
+#: plugin/Controllers/ToolsController.php:115
+msgctxt "admin-text"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: plugin/Controllers/ToolsController.php:54
+msgctxt "admin-text"
+msgid "Console cleared."
+msgstr "Console gewist."
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:14
+msgctxt "admin-text"
+msgid "Filter by rating"
+msgstr "Filteren op beoordeling"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueResponse.php:18
+#: plugin/Controllers/MetaboxController.php:63
+#: views/pages/tools/general/import-reviews.php:70
+#: views/pages/tools/general/import-reviews.php:75
+#: views/pages/tools/general/import-reviews.php:110
+msgctxt "admin-text"
+msgid "Yes"
+msgstr "Ja"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueResponse.php:17
+#: plugin/Controllers/MetaboxController.php:62
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:85
+#: views/pages/tools/general/import-reviews.php:45
+#: views/pages/tools/general/import-reviews.php:50
+#: views/pages/tools/general/import-reviews.php:55
+#: views/pages/tools/general/import-reviews.php:60
+#: views/pages/tools/general/import-reviews.php:65
+#: views/pages/tools/general/import-reviews.php:80
+#: views/pages/tools/general/import-reviews.php:85
+#: views/pages/tools/general/import-reviews.php:90
+#: views/pages/tools/general/import-reviews.php:95
+#: views/pages/tools/general/import-reviews.php:100
+#: views/pages/tools/general/import-reviews.php:105
+#: views/pages/tools/general/import-reviews.php:115
+#: views/pages/tools/general/import-reviews.php:120
+#: views/pages/tools/general/import-reviews.php:125
+msgctxt "admin-text"
+msgid "No"
+msgstr "Nee"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueAuthorName.php:20
+#: plugin/Review.php:354
+msgctxt "admin-text"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: plugin/Controllers/EditorController.php:116
+msgctxt "admin-text"
+msgid "Okay"
+msgstr "Ok"
+
+#: plugin/Controllers/SettingsController.php:31
+msgctxt "admin-text"
+msgid "Settings updated."
+msgstr "Instellingen bijgewerkt."
+
+#: plugin/Controllers/PrivacyController.php:129
+msgctxt "admin-text"
+msgid "Review Content"
+msgstr "Inhoud beoordelen"
+
+#: plugin/Controllers/PrivacyController.php:25
+msgctxt "admin-text"
+msgid "The email and associated name and IP address has been removed from all reviews, but the reviews themselves were not removed."
+msgstr "Het e-mailadres en de bijbehorende naam en IP-adres zijn verwijderd uit alle recensies, maar de recensies zelf zijn niet verwijderd."
+
+#: plugin/Controllers/PrivacyController.php:128
+msgctxt "admin-text"
+msgid "Review Title"
+msgstr "Recensie titel"
+
+#: plugin/Controllers/ListTableController.php:154
+msgctxt "Approve the review (admin-text)"
+msgid "%s this review"
+msgstr "%s deze recensie"
+
+#: plugin/Controllers/ListTableController.php:150
+msgctxt "admin-text"
+msgid "Unapprove"
+msgstr "Goedkeuren"
+
+#: plugin/Controllers/ListTableController.php:81
+msgctxt "admin-text"
+msgid "Submitted"
+msgstr "Ingediend"
+
+#: plugin/Helpers/Str.php:157
+msgid "and"
+msgstr "en"
+
+#: plugin/Blocks/SiteReviewsBlock.php:109
+#: plugin/Blocks/SiteReviewsFormBlock.php:97
+#: plugin/Blocks/SiteReviewsSummaryBlock.php:93
+msgctxt "admin-text"
+msgid "You have hidden all of the fields for this block."
+msgstr "Je hebt alle velden voor dit blok verborgen."
+
+#: plugin/Addons/Controller.php:77 plugin/Controllers/AdminController.php:51
+#: plugin/Controllers/MenuController.php:55
+msgctxt "admin-text"
+msgid "Help"
+msgstr "Help"
+
+#: plugin/Addons/Controller.php:70 plugin/Controllers/AdminController.php:45
+#: plugin/Controllers/MenuController.php:52
+#: plugin/Integrations/Elementor/ElementorWidget.php:136
+#: views/pages/tools/sync.php:23 views/partials/addons/addon.php:16
+msgctxt "admin-text"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:43
+msgctxt "admin-text"
+msgid "Automatically assign reviews to a User ID"
+msgstr "Wijs automatisch beoordelingen toe aan een gebruikers-ID"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:37
+msgctxt "admin-text"
+msgid "Automatically assign reviews to a Post ID"
+msgstr "Wijs automatisch beoordelingen toe aan een bericht-ID"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:29
+msgctxt "admin-text"
+msgid "Automatically assign a category"
+msgstr "Wijs automatisch een categorie toe"
+
+#: plugin/Widgets/SiteReviewsWidget.php:64
+msgctxt "admin-text"
+msgid "Limit reviews to those assigned to a User ID"
+msgstr "Beperk beoordelingen tot die welke zijn toegewezen aan een gebruikers-ID"
+
+#: plugin/Widgets/SiteReviewsWidget.php:58
+msgctxt "admin-text"
+msgid "Limit reviews to those assigned to a Post ID"
+msgstr "Beperk beoordelingen tot de beoordelingen die zijn toegewezen aan een bericht-ID"
+
+#: plugin/Widgets/SiteReviewsWidget.php:50
+msgctxt "admin-text"
+msgid "Limit reviews to this category"
+msgstr "Beperk beoordelingen tot deze categorie"
+
+#: plugin/Widgets/SiteReviewsWidget.php:45
+msgctxt "admin-text"
+msgid "All Reviews"
+msgstr "Alle beoordelingen"
+
+#: plugin/Widgets/SiteReviewsWidget.php:30
+msgctxt "admin-text"
+msgid "What is the minimum rating to display?"
+msgstr "Wat is de minimale beoordeling die moet worden weergegeven?"
+
+#: plugin/Widgets/SiteReviewsWidget.php:25
+msgctxt "admin-text"
+msgid "How many reviews would you like to display?"
+msgstr "Hoeveel recensies wilt u weergeven?"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:47
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:50
+#: plugin/Widgets/SiteReviewsWidget.php:68
+msgctxt "admin-text"
+msgid "Enter any custom CSS classes here"
+msgstr "Voer hier eventuele aangepaste CSS-klassen in"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:46
+msgctxt "admin-text"
+msgid "Limit summary to reviews assigned to a User ID"
+msgstr "Beperk de samenvatting tot recensies die zijn toegewezen aan een gebruikers-ID"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:42
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:45
+#: plugin/Widgets/SiteReviewsWidget.php:63
+msgctxt "admin-text"
+msgid "You may also enter %s to use the ID of the logged-in user."
+msgstr "U kunt ook %s invoeren om de ID van de ingelogde gebruiker te gebruiken."
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:40
+msgctxt "admin-text"
+msgid "Limit summary to reviews assigned to a Post ID"
+msgstr "Beperk de samenvatting tot recensies die zijn toegewezen aan een bericht-ID"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:36
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:39
+#: plugin/Widgets/SiteReviewsWidget.php:57
+msgctxt "admin-text"
+msgid "You may also enter %s to use the Post ID of the current page."
+msgstr "U kunt ook %s invoeren om de bericht-ID van de huidige pagina te gebruiken."
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:31
+#: plugin/Widgets/SiteReviewsWidget.php:52
+msgctxt "admin-text"
+msgid "Do not assign a category"
+msgstr "Wijs geen categorie toe"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:32
+msgctxt "admin-text"
+msgid "Limit summary to this category"
+msgstr "Beperk de samenvatting tot deze categorie"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:27
+msgctxt "admin-text"
+msgid "All review types"
+msgstr "Alle soorten beoordelingen"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:30
+msgid "The review could not be submitted because this browser is too old. Please try again with a modern browser."
+msgstr "De recensie kon niet worden ingediend omdat deze browser te oud is. Probeer het opnieuw met een moderne browser."
+
+#: plugin/Defaults/TemplateTagsDefaults.php:23
+msgctxt "admin-text"
+msgid "The link to edit/view a review"
+msgstr "De link om een recensie te bewerken / bekijken"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:22
+msgctxt "admin-text"
+msgid "The IP address of the review author"
+msgstr "Het IP-adres van de recensie-auteur"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:21
+msgctxt "admin-text"
+msgid "The email of the review author"
+msgstr "De e-mail van de recensie-auteur"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:18
+msgctxt "admin-text"
+msgid "The review author"
+msgstr "De auteur van de recensie"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:20
+msgctxt "admin-text"
+msgid "The review content"
+msgstr "De recensie-inhoud"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:26
+msgctxt "admin-text"
+msgid "The review title"
+msgstr "De titel van de recensie"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:24
+msgctxt "admin-text"
+msgid "The review rating number (1-5)"
+msgstr "Het beoordelingsnummer (1-5)"
+
+#: plugin/Defaults/PostTypeColumnDefaults.php:26
+#: views/partials/editor/pinned.php:4
+msgctxt "admin-text"
+msgid "Pinned"
+msgstr "Vastgemaakt"
+
+#: config/settings.php:604 plugin/Defaults/PostTypeColumnDefaults.php:19
+#: plugin/Metaboxes/AssignedUsersMetabox.php:19
+#: views/partials/screen/inline-edit.php:113
+msgctxt "admin-text"
+msgid "Assigned Users"
+msgstr "Toegewezen gebruikers"
+
+#: plugin/Defaults/PostTypeColumnDefaults.php:18
+msgctxt "siteadmin-text"
+msgid "Assigned Posts"
+msgstr "Toegewezen berichten"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:29
+msgctxt "Uploaded to this Post (admin-text)"
+msgid "Uploaded to this %s"
+msgstr "Geüpload naar deze %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:27
+msgctxt "Search Posts (admin-text)"
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:26
+msgctxt "No Posts found in Trash (admin-text)"
+msgid "No %s found in Trash"
+msgstr "Geen %s gevonden in prullenbak"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:25
+msgctxt "No Posts found (admin-text)"
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:24
+msgctxt "New Post (admin-text)"
+msgid "New %s"
+msgstr "Nieuwe %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:21
+msgctxt "Insert into Post (admin-text)"
+msgid "Insert into %s"
+msgstr "Invoegen in %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:20
+msgctxt "Edit Post (admin-text)"
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:19
+msgctxt "Post Archives (admin-text)"
+msgid "%s Archives"
+msgstr "%s Archieven"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:18
+msgctxt "All Posts (admin-text)"
+msgid "All %s"
+msgstr "Alle %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:17
+msgctxt "Add New Post (admin-text)"
+msgid "Add New %s"
+msgstr "Voeg nieuwe %s toe"
+
+#: config/settings.php:574 plugin/Defaults/PostTypeLabelDefaults.php:15
+msgctxt "admin-text"
+msgid "Review"
+msgstr "Recensie"
+
+#: plugin/Controllers/MenuController.php:138
+#: plugin/Controllers/PrivacyController.php:146
+#: plugin/Defaults/PostTypeLabelDefaults.php:14 views/pages/tools/sync.php:10
+#: views/pages/tools/sync.php:31
+msgctxt "admin-text"
+msgid "Reviews"
+msgstr "Recensies"
+
+#: plugin/Controllers/TranslationController.php:201
+#: plugin/Defaults/PostStatusLabelsDefaults.php:20
+msgctxt "admin-text"
+msgid "Save as Unapproved"
+msgstr "Opslaan als niet-goedgekeurd"
+
+#: plugin/Controllers/TranslationController.php:166
+#: plugin/Controllers/TranslationController.php:198
+#: plugin/Defaults/PostStatusLabelsDefaults.php:19
+#: views/partials/screen/inline-edit.php:67
+msgctxt "admin-text"
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: plugin/Controllers/ListTableController.php:149
+#: plugin/Controllers/TranslationController.php:197
+#: plugin/Defaults/PostStatusLabelsDefaults.php:18
+msgctxt "admin-text"
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: plugin/Controllers/TranslationController.php:196
+#: plugin/Defaults/PostStatusLabelsDefaults.php:17
+msgctxt "admin-text"
+msgid "Privately Approved"
+msgstr "Particulier goedgekeurd"
+
+#: plugin/Controllers/ListTableController.php:129
+#: plugin/Controllers/TranslationController.php:132
+#: plugin/Controllers/TranslationController.php:167
+#: plugin/Defaults/PostStatusLabelsDefaults.php:15
+#: plugin/Defaults/PostStatusLabelsDefaults.php:16
+#: views/partials/screen/inline-edit.php:69
+msgctxt "admin-text"
+msgid "Unapproved"
+msgstr "Afgekeurd"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:26
+msgctxt "admin-text"
+msgid "View review"
+msgstr "Bekijk recensie"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:25
+msgctxt "admin-text"
+msgid "Review updated."
+msgstr "Review bijgewerkt."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:24
+msgctxt "admin-text"
+msgid "Review has been unapproved and is now pending."
+msgstr "Beoordeling is niet goedgekeurd en is nu in behandeling."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:23
+msgctxt "admin-text"
+msgid "Review submitted."
+msgstr "Review ingediend."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:22
+msgctxt "admin-text"
+msgid "Review scheduled for: %s."
+msgstr "Beoordeling gepland voor:%s."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:21
+msgctxt "admin-text"
+msgid "Review saved."
+msgstr "Review opgeslagen."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:19
+msgctxt "admin-text"
+msgid "Review restored to revision from %s."
+msgstr "Review hersteld naar revisie van %s."
+
+#: plugin/Controllers/TranslationController.php:36
+msgctxt "admin-text"
+msgid "%s review restored from the Trash."
+msgid_plural "%s reviews restored from the Trash."
+msgstr[0] "%s hersteld van de prullenmand."
+msgstr[1] "%s hersteld van de prullenmand."
+
+#: plugin/Controllers/TranslationController.php:32
+msgctxt "admin-text"
+msgid "%s review updated."
+msgid_plural "%s reviews updated."
+msgstr[0] "%s Beoordeling bijgewerkt."
+msgstr[1] "%s beoordelingen bijgewerkt."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:18
+msgctxt "admin-text"
+msgid "Review approved and published."
+msgstr "Review goedgekeurd en gepubliceerd."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:17
+msgctxt "admin-text"
+msgid "Preview review"
+msgstr "Voorbeeld van recensie"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:16
+msgctxt "admin-text"
+msgid "Review draft updated."
+msgstr "Concept review bijgewerkt."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:15
+msgctxt "admin-text"
+msgid "Review has been approved and published."
+msgstr "Review is goedgekeurd en gepubliceerd."
+
+#: plugin/Defaults/RevisionFieldsDefaults.php:22
+msgctxt "admin-text"
+msgid "Url"
+msgstr "URL"
+
+#: config/forms/metabox-fields.php:26
+#: plugin/Defaults/RevisionFieldsDefaults.php:21
+msgctxt "admin-text"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: config/forms/metabox-fields.php:22
+#: plugin/Controllers/PrivacyController.php:132
+#: plugin/Defaults/PostTypeColumnDefaults.php:22
+#: plugin/Defaults/RevisionFieldsDefaults.php:20
+msgctxt "admin-text"
+msgid "IP Address"
+msgstr "IP Adres"
+
+#: config/forms/metabox-fields.php:18 config/settings.php:576
+#: plugin/Controllers/PrivacyController.php:131
+#: plugin/Defaults/PostTypeColumnDefaults.php:21
+#: plugin/Defaults/RevisionFieldsDefaults.php:19
+msgctxt "admin-text"
+msgid "Email"
+msgstr "E-mailadres"
+
+#: config/forms/metabox-fields.php:14 config/settings.php:575
+#: plugin/Controllers/PrivacyController.php:130
+#: plugin/Defaults/PostTypeColumnDefaults.php:20
+#: plugin/Defaults/RevisionFieldsDefaults.php:18
+msgctxt "admin-text"
+msgid "Name"
+msgstr "Naam"
+
+#: plugin/Defaults/PostTypeColumnDefaults.php:23
+#: plugin/Defaults/RevisionFieldsDefaults.php:15
+msgctxt "admin-text"
+msgid "Response"
+msgstr "Reactie"
+
+#: plugin/Upload.php:34
+msgctxt "admin-text"
+msgid "Unknown upload error."
+msgstr "Onbekende uploadfout."
+
+#: plugin/Upload.php:32
+msgctxt "admin-text"
+msgid "A PHP extension stopped the file upload."
+msgstr "Een PHP extensie stopte de upload van het bestand."
+
+#: plugin/Upload.php:31
+msgctxt "admin-text"
+msgid "Failed to write file to disk."
+msgstr "Het opslaan van het bestand naar schijf is mislukt."
+
+#: plugin/Upload.php:30
+msgctxt "admin-text"
+msgid "Missing a temporary folder."
+msgstr "Er ontbreekt een tijdelijke map."
+
+#: plugin/Upload.php:29
+msgctxt "admin-text"
+msgid "No file was uploaded."
+msgstr "Er is geen bestand geüploadt."
+
+#: plugin/Upload.php:28
+msgctxt "admin-text"
+msgid "The uploaded file was only partially uploaded."
+msgstr "Het bestand is slechts gedeeltelijk geüpload."
+
+#: plugin/Upload.php:27
+msgctxt "admin-text"
+msgid "The uploaded file is too big."
+msgstr "Het geüploade bestand is te groot."
+
+#: plugin/Modules/Html/Partials/Pagination.php:57
+msgctxt "screen reader text"
+msgid "Site Reviews navigation"
+msgstr "Site beoordelingen navigatie"
+
+#: plugin/Modules/Console.php:80
+msgctxt "admin-text"
+msgid "Console is empty"
+msgstr "Console is leeg"
+
+#: plugin/Router.php:156
+msgctxt "admin-text"
+msgid "There was an error (try reloading the page)."
+msgstr "Er is een fout opgetreden (probeer de pagina opnieuw te laden)."
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:82
+msgctxt "admin-text"
+msgid "Hide the response"
+msgstr "Verberg de reactie"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:81
+msgctxt "admin-text"
+msgid "Hide the author"
+msgstr "Verberg de auteur"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:80
+msgctxt "admin-text"
+msgid "Hide the avatar (if shown)"
+msgstr "Verberg de avatar (indien getoond)"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:79
+msgctxt "admin-text"
+msgid "Hide the content"
+msgstr "Verberg de inhoud"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:78
+msgctxt "admin-text"
+msgid "Hide the assigned links (if shown)"
+msgstr "Verberg de toegewezen links (indien weergegeven)"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:77
+msgctxt "admin-text"
+msgid "Hide the date"
+msgstr "Verberg de datum"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:75
+msgctxt "admin-text"
+msgid "Hide the title"
+msgstr "Verberg de titel"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:94
+msgctxt "admin-text"
+msgid "Hide if no reviews are found"
+msgstr "Verberg als er geen reviews zijn gevonden"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:93
+msgctxt "admin-text"
+msgid "Hide the percentage bars"
+msgstr "Verberg de percentagebalken"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:92
+msgctxt "admin-text"
+msgid "Hide the summary"
+msgstr "De samenvatting verbergen"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:91
+msgctxt "admin-text"
+msgid "Hide the stars"
+msgstr "Verberg de sterren"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:76
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:90
+msgctxt "admin-text"
+msgid "Hide the rating"
+msgstr "Verberg de beoordeling"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:155
+msgctxt "admin-text"
+msgid "Hide the terms field"
+msgstr "Verberg het voorwaarden veld"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:154
+msgctxt "admin-text"
+msgid "Hide the email field"
+msgstr "Verberg het e-mailveld"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:153
+msgctxt "admin-text"
+msgid "Hide the name field"
+msgstr "Verberg het naamveld"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:152
+msgctxt "admin-text"
+msgid "Hide the review field"
+msgstr "Verberg het beoordelingsveld"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:151
+msgctxt "admin-text"
+msgid "Hide the title field"
+msgstr "Verberg het titelveld"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:150
+msgctxt "admin-text"
+msgid "Hide the rating field"
+msgstr "Verberg het beoordelingsveld"
+
+#: plugin/Commands/EnqueueAdminAssets.php:32
+msgctxt "admin-text"
+msgid "Pin Your Reviews"
+msgstr "Jouw beoordelingen vastzetten"
+
+#: plugin/Commands/ImportSettings.php:41
+msgctxt "admin-text"
+msgid "There were no settings found to import."
+msgstr "Er zijn geen instellingen gevonden om te importeren."
+
+#: plugin/Commands/ImportSettings.php:23
+msgctxt "admin-text"
+msgid "Settings imported."
+msgstr "Instellingen geïmporteerd."
+
+#: plugin/Commands/TogglePinned.php:39
+msgctxt "admin-text"
+msgid "Review unpinned."
+msgstr "Review losgemaakt."
+
+#: plugin/Commands/TogglePinned.php:38
+msgctxt "admin-text"
+msgid "Review pinned."
+msgstr "Beoordeling vastgezet."
+
+#: plugin/Commands/ImportReviews.php:168
+msgctxt "admin-text"
+msgid "%s entry was skipped."
+msgid_plural "%s entries were skipped."
+msgstr[0] "%s invoer is overgeslagen."
+msgstr[1] "%s inzendingen zijn overgeslagen."
+
+#: plugin/Commands/ImportReviews.php:160
+msgctxt "admin-text"
+msgid "%s review was imported."
+msgid_plural "%s reviews were imported."
+msgstr[0] "%s recensie is geïmporteerd."
+msgstr[1] "%s recensies zijn geïmporteerd."
+
+#: plugin/Commands/ToggleStatus.php:57 views/partials/editor/pinned.php:7
+msgctxt "admin-text"
+msgid "Edit"
+msgstr "Bewerken"
+
+#: plugin/Tinymce/TinymceGenerator.php:320
+msgctxt "admin-text"
+msgid "Some of the shortcode options are required."
+msgstr "Sommige shortcode-opties zijn verplicht."
+
+#: plugin/Tinymce/TinymceGenerator.php:214
+msgctxt "admin-text"
+msgid "- Select -"
+msgstr "- Selecteer -"
+
+#: config/forms/metabox-fields.php:9
+#: plugin/Controllers/ListTableColumns/ColumnFilterType.php:38
+#: plugin/Defaults/PostTypeColumnDefaults.php:24
+#: plugin/Defaults/RevisionFieldsDefaults.php:17
+#: plugin/Tinymce/TinymceGenerator.php:143
+msgctxt "admin-text"
+msgid "Type"
+msgstr "Type"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterCategory.php:48
+#: plugin/Tinymce/TinymceGenerator.php:85
+msgctxt "admin-text"
+msgid "Category"
+msgstr "Categorie"
+
+#: plugin/Tinymce/TinymceGenerator.php:50
+msgctxt "admin-text"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: plugin/Tinymce/TinymceGenerator.php:45
+msgctxt "admin-text"
+msgid "Insert Shortcode"
+msgstr "Shortcode invoegen"
+
+#: plugin/Tinymce/TinymceGenerator.php:44
+msgctxt "admin-text"
+msgid "Close"
+msgstr "Sluiten"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:22
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:25
+msgctxt "admin-text"
+msgid "Which type of review would you like to use?"
+msgstr "Welk type recensie zou je willen gebruiken?"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:38
+msgctxt "admin-text"
+msgid "Automatically assign reviews to a User ID. You may also enter \"%s\" to use the ID of the logged-in user."
+msgstr "Wijs automatisch beoordelingen toe aan een gebruikers-ID. U kunt ook  \"\"%sinvoerenom de ID van de ingelogde gebruiker te gebruiken."
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:33
+msgctxt "admin-text"
+msgid "Automatically assign reviews to a Post ID. You may also enter \"%s\" to use the Post ID of the current page."
+msgstr "Wijs automatisch beoordelingen toe aan een bericht-ID. U kunt ook  \"\" invoeren%som de post-ID van de huidige pagina te gebruiken."
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:31
+msgctxt "admin-text"
+msgid "Assign to Post ID"
+msgstr "Toewijzen aan post-ID"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:26
+msgctxt "admin-text"
+msgid "Enter a custom shortcode description."
+msgstr "Voer een aangepaste shortcode-beschrijving in."
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:21
+#: plugin/Widgets/SiteReviewsFormWidget.php:24
+msgctxt "admin-text"
+msgid "Description"
+msgstr "Beschrijving"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:48
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:51
+#: plugin/Tinymce/SiteReviewsTinymce.php:82
+msgctxt "admin-text"
+msgid "Hide"
+msgstr "Verbergen"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:43
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:46
+#: plugin/Tinymce/SiteReviewsTinymce.php:77
+msgctxt "admin-text"
+msgid "Add custom CSS classes to the shortcode."
+msgstr "Voeg aangepaste CSS-klassen toe aan de shortcode."
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:41
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:44
+#: plugin/Tinymce/SiteReviewsTinymce.php:75
+msgctxt "admin-text"
+msgid "Classes"
+msgstr "Klassen"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:41
+#: plugin/Tinymce/SiteReviewsTinymce.php:72
+msgctxt "admin-text"
+msgid "Rich snippets are disabled by default."
+msgstr "Rich snippets zijn standaard uitgeschakeld."
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:39
+#: plugin/Tinymce/SiteReviewsTinymce.php:70
+msgctxt "admin-text"
+msgid "Disable rich snippets"
+msgstr "Schakel rich snippets uit"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:38
+#: plugin/Tinymce/SiteReviewsTinymce.php:69
+msgctxt "admin-text"
+msgid "Enable rich snippets"
+msgstr "Schakel rich snippets in"
+
+#: plugin/Controllers/MenuController.php:140
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:35
+#: plugin/Tinymce/SiteReviewsTinymce.php:66
+msgctxt "admin-text"
+msgid "Schema"
+msgstr "Schema"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:36
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:30
+#: plugin/Tinymce/SiteReviewsTinymce.php:61
+msgctxt "admin-text"
+msgid "Assign to User ID"
+msgstr "Wijs toe aan gebruiker"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:27
+#: plugin/Tinymce/SiteReviewsTinymce.php:58
+msgctxt "admin-text"
+msgid "Limit reviews to those assigned to a Post ID. You may also enter \"%s\" to use the Post ID of the current page."
+msgstr "Beperk beoordelingen tot de beoordelingen die zijn toegewezen aan een bericht-ID. U kunt ook  \"%s\" invoeren om de post-ID van de huidige pagina te gebruiken."
+
+#: config/settings.php:602 plugin/Metaboxes/AssignedPostsMetabox.php:20
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:25
+#: plugin/Tinymce/SiteReviewsTinymce.php:56
+#: views/pages/tools/general/export-reviews.php:34
+#: views/partials/screen/inline-edit.php:102
+msgctxt "admin-text"
+msgid "Assigned Posts"
+msgstr "Toegewezen berichten"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:23
+#: plugin/Tinymce/SiteReviewsTinymce.php:54
+msgctxt "admin-text"
+msgid "Limit reviews to this category."
+msgstr "Beperk beoordelingen tot deze categorie."
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:53
+#: plugin/Widgets/SiteReviewsWidget.php:43
+msgctxt "admin-text"
+msgid "Which type of review would you like to display?"
+msgstr "Welk type recensie zou je willen gebruiken?"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:48
+msgctxt "admin-text"
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:47
+msgctxt "admin-text"
+msgid "Enable (using ajax)"
+msgstr "Inschakelen (met ajax)"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:46
+msgctxt "admin-text"
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:43
+msgctxt "admin-text"
+msgid "Pagination"
+msgstr "Paginering"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:38
+msgctxt "admin-text"
+msgid "Unrated"
+msgstr "Geen beoordeling"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:25
+#: plugin/Tinymce/SiteReviewsTinymce.php:33
+#: plugin/Tinymce/SiteReviewsTinymce.php:34
+#: plugin/Tinymce/SiteReviewsTinymce.php:35
+#: plugin/Tinymce/SiteReviewsTinymce.php:36
+#: plugin/Tinymce/SiteReviewsTinymce.php:37
+#: plugin/Widgets/SiteReviewsWidget.php:33
+#: plugin/Widgets/SiteReviewsWidget.php:34
+#: plugin/Widgets/SiteReviewsWidget.php:35
+#: plugin/Widgets/SiteReviewsWidget.php:36
+#: plugin/Widgets/SiteReviewsWidget.php:37
+#: plugin/Widgets/SiteReviewsWidget.php:38
+msgctxt "admin-text"
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s ster"
+msgstr[1] "%s sterren"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:22
+msgctxt "admin-text"
+msgid "Display"
+msgstr "Weergave"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:18
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:19
+#: plugin/Tinymce/SiteReviewsTinymce.php:19
+msgctxt "admin-text"
+msgid "Enter a custom shortcode heading."
+msgstr "Voer een aangepaste shortcode-kop in."
+
+#: config/settings.php:573 plugin/Tinymce/SiteReviewsFormTinymce.php:16
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:17
+#: plugin/Tinymce/SiteReviewsTinymce.php:17
+#: plugin/Widgets/SiteReviewsFormWidget.php:20
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:20
+#: plugin/Widgets/SiteReviewsWidget.php:20
+msgctxt "admin-text"
+msgid "Title"
+msgstr "Titel"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:14
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:13
+#: plugin/Tinymce/SiteReviewsTinymce.php:13
+msgctxt "admin-text"
+msgid "All settings are optional."
+msgstr "Alle instellingen zijn optioneel."
+
+#: compatibility.php:37
+msgctxt "admin-text"
+msgid "Read Private Reviews"
+msgstr "Lees privérecensies"
+
+#: compatibility.php:36
+msgctxt "admin-text"
+msgid "Approve Reviews"
+msgstr "Reviews goedkeuren"
+
+#: compatibility.php:35
+msgctxt "admin-text"
+msgid "Edit Approved Reviews"
+msgstr "Beoordelingen in afwachting"
+
+#: compatibility.php:34
+msgctxt "admin-text"
+msgid "Edit Private Reviews"
+msgstr "Bewerk privérecensies"
+
+#: compatibility.php:32
+msgctxt "admin-text"
+msgid "Edit Others' Reviews"
+msgstr "Bewerk beoordelingen van anderen"
+
+#: compatibility.php:31
+msgctxt "admin-text"
+msgid "Delete Approved Reviews"
+msgstr "Verwijder goedgekeurde beoordelingen"
+
+#: compatibility.php:30
+msgctxt "admin-text"
+msgid "Delete Private Reviews"
+msgstr "Privérecensies verwijderen"
+
+#: compatibility.php:29
+msgctxt "admin-text"
+msgid "Delete Reviews"
+msgstr "Recensies verwijderen"
+
+#: compatibility.php:28
+msgctxt "admin-text"
+msgid "Delete Others' Reviews"
+msgstr "Verwijder beoordelingen van anderen"
+
+#: plugin/Controllers/TranslationController.php:35
+msgctxt "admin-text"
+msgid "%s review moved to the Trash."
+msgid_plural "%s reviews moved to the Trash."
+msgstr[0] "%s beoordeling verplaatst naar de prullenbak."
+msgstr[1] "%s beoordelingen verplaatst naar de prullenbak."
+
+#: plugin/Controllers/TranslationController.php:33
+msgctxt "admin-text"
+msgid "%s review not updated, somebody is editing it."
+msgid_plural "%s reviews not updated, somebody is editing them."
+msgstr[0] "%s beoordeling niet bijgewerkt, iemand anders is bezig met bewerken."
+msgstr[1] "%s beoordelingen niet bijgewerkt, iemand anders is bezig met bewerken."
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:32
+#: plugin/Tinymce/SiteReviewsTinymce.php:63
+msgctxt "admin-text"
+msgid "Limit reviews to those assigned to a User ID. You may also enter \"%s\" to use the ID of the logged-in user."
+msgstr "Beperk beoordelingen tot beoordelingen die zijn toegewezen aan een gebruikersnaam. U ook '%s' invoeren om de id van de ingelogde gebruiker te gebruiken."
+
+#: compatibility.php:33
+msgctxt "admin-text"
+msgid "Edit Reviews"
+msgstr "Bewerk beoordelingen"
+
+#: plugin/Controllers/ToolsController.php:337
+msgctxt "admin-text"
+msgid "The permissions have been reset, please %s for them to take effect."
+msgstr "De rechten zijn gereset,  voer uit %s om ze van kracht te laten worden."
+
+#: plugin/Upload.php:46
+msgctxt "admin-text"
+msgid "Please upload a valid %s file."
+msgstr "Upload een geldig %s bestand."
+
+#: plugin/Controllers/TranslationController.php:34
+msgctxt "admin-text"
+msgid "%s review permanently deleted."
+msgid_plural "%s reviews permanently deleted."
+msgstr[0] "%s beoordeling definitief verwijderd."
+msgstr[1] "%s beoordelingen definitief verwijderd."
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:30
+msgctxt "View Post (admin-text)"
+msgid "View %s"
+msgstr "Bekijk  %s"
+
+#: plugin/Widgets/SiteReviewsWidget.php:105
+msgctxt "admin-text"
+msgid "Site Reviews: Display your recent reviews."
+msgstr "Site-beoordelingen: geef je recente beoordelingen weer."
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:73
+msgctxt "admin-text"
+msgid "Site Reviews: Display a summary of your reviews."
+msgstr "Site-beoordelingen: geef een samenvatting van je beoordelingen weer."
+
+#: plugin/Tinymce/TinymceGenerator.php:325
+msgctxt "the option label (admin-text)"
+msgid "The \"%s\" option is required."
+msgstr "De \"%s\" optie is vereist."
+
+#: plugin/Modules/Console.php:307
+msgctxt "admin-text"
+msgid "Console was automatically cleared (512KB maximum size)"
+msgstr "Console is automatisch gewist (maximale grootte van 512 KB)"
+
+#: config/forms/metabox-fields.php:5 config/settings.php:572
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:44
+#: plugin/Defaults/PostTypeColumnDefaults.php:25
+#: plugin/Defaults/RevisionFieldsDefaults.php:16
+#: plugin/Tinymce/SiteReviewsTinymce.php:30
+msgctxt "admin-text"
+msgid "Rating"
+msgstr "Waardering"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:14
+msgctxt "admin-text"
+msgid "Filter by author"
+msgstr "Filter op auteur"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:36
+msgctxt "admin-text"
+msgid "Any rating"
+msgstr "Elke waardering"
+
+#: views/pages/tools/general/migrate-plugin.php:6
+msgctxt "admin-text"
+msgid "Migrate Plugin"
+msgstr "Migreer plugin"
+
+#: config/settings.php:346
+msgctxt "admin-text"
+msgid "Enable Paginated URLs"
+msgstr "Activeer gepagineerde URLs"
+
+#: plugin/Modules/Validator/PermissionValidator.php:26
+msgid "You must be logged in to submit a review."
+msgstr "Je moet ingelogd zijn om een review te kunnen plaatsen."
+
+#: plugin/Controllers/NoticeController.php:177
+msgctxt "admin-text"
+msgid "Thanks for updating to Site Reviews v%s, we hope you love the changes!"
+msgstr "Bedankt dat je site Reviews hebt geupdate %s. Wij hopen dat de wijzigingen je bevallen!"
+
+#: plugin/Controllers/NoticeController.php:176
+msgctxt "admin-text"
+msgid "Thanks for installing Site Reviews v%s, we hope you love it!"
+msgstr "Bedankt voor het installeren van Site Reviews v%s, we hopen dat je het geweldig vindt!"
+
+#: config/settings.php:639
+msgctxt "admin-text"
+msgid "One Username per line. All registered users with a Username in the whitelist will be excluded from the review submission limit."
+msgstr "Eén gebruikersnaam per regel. Alle geregistreerde gebruikers met een gebruikersnaam op de witte lijst worden uitgesloten van de limiet voor het indienen van beoordelingen."
+
+#: config/settings.php:629
+msgctxt "admin-text"
+msgid "One IP Address per line. All IP Addresses in the whitelist will be excluded from the review submission limit.."
+msgstr "Eén IP-adres per regel. Alle IP-adressen op de witte lijst worden uitgesloten van de limiet voor het indienen van beoordelingen."
+
+#: config/settings.php:619
+msgctxt "admin-text"
+msgid "One Email per line. All emails in the whitelist will be excluded from the review submission limit."
+msgstr "Eén e-mail per regel. Alle e-mails op de witte lijst worden uitgesloten van de limiet voor het indienen van beoordelingen."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:20
+msgctxt "admin-text"
+msgid "Review has been reverted to its original submission state (title, content, and submission date)."
+msgstr "De recensie is teruggezet naar de oorspronkelijke indieningsstatus (titel, inhoud en indieningsdatum)."
+
+#: plugin/Modules/Validator/ReviewLimitsValidator.php:34
+msgid "You have already submitted a review."
+msgstr "U heeft al een recensie ingediend."
+
+#: plugin/Commands/EnqueueAdminAssets.php:132
+msgctxt "admin-text"
+msgid "Please rate %s on %s and help us spread the word. Thank you so much!"
+msgstr "Beoordeel ons alsjeblieft %s op %s en help ons het woord te verspreiden. Hartelijk bedankt!"
+
+#: config/settings.php:701
+msgctxt "admin-text"
+msgid "Choose which Blacklist you would prefer to use for reviews. The %s option can be found in the WordPress Discussion Settings page."
+msgstr "Kies welke blokkeerlijst lijst je wil gebruiken voor beoordelingen. De %s kan gevonden worden in de WordPress Discussie Instellingen pagina"
+
+#: config/settings.php:713
+msgctxt "admin-text"
+msgid "One entry or IP address per line. When a review contains any of these entries in its title, content, name, email, or IP address, it will be rejected. It is case-insensitive and will match partial words, so \"press\" will match \"WordPress\"."
+msgstr "Een criterium of IP-adres per regel. Wanneer een beoordeling iets van deze termen in de titel, inhoud, naam, e-mail of IP-adres heeft, zal deze worden geweigerd. De termen zijn niet hoofdlettergevoelig en geld ook voor gedeeltelijke woorden. 'press' komt dus ook overeen met 'WordPress'."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr "Over"
+
+#: config/settings.php:329 plugin/Modules/Html/ReviewsHtml.php:143
+msgid "There are no reviews yet. Be the first one to write one."
+msgstr "Er zijn nog geen beoordelingen. Schrijf als eerste er een."
+
+#: plugin/Modules/Validator/AkismetValidator.php:49
+#: plugin/Modules/Validator/HoneypotValidator.php:26
+#: views/pages/documentation/support/common-problems-and-solutions.php:71
+msgid "This review has been flagged as possible spam and cannot be submitted."
+msgstr "Deze recensie is gemarkeerd als mogelijke spam en kan niet worden verzonden."
+
+#: plugin/Upload.php:26
+msgctxt "admin-text"
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Het geüploade bestand overschrijdt de voorwaarde upload_max_filesize in php.ini."
+
+#: plugin/Commands/EnqueueAdminAssets.php:24
+msgctxt "admin-text"
+msgid "You can pin exceptional reviews so that they are always shown first."
+msgstr "U kunt uitzonderlijke beoordelingen vastpinnen, zodat ze altijd als eerste worden weergegeven."
+
+#: plugin/Controllers/SettingsController.php:144
+msgctxt "admin-text"
+msgid "Please update the %s plugin to v%s or greater to enable integration."
+msgstr "Werk de  %s plug-in bij naar v%s of hoger om integratie mogelijk te maken."
+
+#: plugin/Controllers/SettingsController.php:138
+msgctxt "admin-text"
+msgid "Please install/activate the %s plugin to enable integration."
+msgstr "Installeer / activeer de  %s plug-in om integratie mogelijk te maken."
+
+#: plugin/Router.php:160
+#: views/pages/documentation/support/common-problems-and-solutions.php:55
+msgid "The form could not be submitted. Please notify the site administrator."
+msgstr "Het formulier kon niet worden verzonden. Breng de sitebeheerder op de hoogte."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:24
+msgid "This field requires a number."
+msgstr "Dit veld vereist een nummer."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:22
+msgid "Minimum value for this field is %s."
+msgstr "De minimumwaarde voor dit veld is %s."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:21
+msgid "This field allows a maximum of %s characters."
+msgstr "In dit veld kunnen maximaal  %s tekens worden gebruikt."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:20
+msgid "Maximum value for this field is %s."
+msgstr "De maximale waarde voor dit veld is %s."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:18
+msgid "This field requires a valid e-mail address."
+msgstr "Dit veld vereist een geldig e-mailadres."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:17
+msgid "This field must have between %s and %s characters."
+msgstr "Dit veld moet tussen  %s en %s tekens bevatten."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:16
+msgid "This field value must be between %s and %s."
+msgstr "Deze veldwaarde moet tussen  %s en liggen %s."
+
+#: plugin/Modules/Html/Fields/Rating.php:16
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s Ster"
+msgstr[1] "%s sterren"
+
+#: plugin/Modules/Translation.php:121
+msgctxt "admin-text"
+msgid "This custom translation is no longer valid as the original text has been changed or removed."
+msgstr "Deze aangepaste vertaling is niet langer geldig omdat de originele tekst is gewijzigd of verwijderd."
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:45
+msgid "The reCAPTCHA verification failed, please try again."
+msgstr "De reCAPTCHA-verificatie is mislukt, probeer het opnieuw."
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:44
+msgid "The reCAPTCHA failed to load, please refresh the page and try again."
+msgstr "De reCAPTCHA is niet geladen. Vernieuw de pagina en probeer het opnieuw."
+
+#: config/settings.php:684
+msgctxt "admin-text"
+msgid "This option may not work consistently if another plugin is loading reCAPTCHA on the same page as Site Reviews."
+msgstr "Deze optie werkt mogelijk niet consistent als een andere plug-in reCAPTCHA laadt op dezelfde pagina als Site Reviews."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:23
+msgid "This field requires a minimum of %s characters."
+msgstr "Dit veld vereist minimum %s tekens."
+
+#: views/pages/documentation/index.php:9
+msgctxt "admin-text"
+msgid "Click an active tab to expand/collapse all sections."
+msgstr "Klik op een actief tabblad om alle secties uit te vouwen/samen te vouwen."
+
+#: views/partials/editor/metabox-response.php:5
+msgctxt "admin-text"
+msgid "If you need to publicly respond to this review, enter your response here."
+msgstr "Als je publiekelijk op deze beoordeling moet reageren, voer dan hier je reactie in."
+
+#: config/settings.php:690
+msgctxt "admin-text"
+msgid "The <a href=\"https://akismet.com\" target=\"_blank\">Akismet plugin</a> integration provides spam-filtering for your reviews. In order for this setting to have any affect, you will need to first install and activate the Akismet plugin and set up a WordPress.com API key."
+msgstr "De <a href=\"https://akismet.com\" target=\"_blank\">integratie</a> van de Akismet plugin biedt spamfiltering voor je beoordelingen. Om ervoor te zorgen dat deze instelling enig effect heeft, moet je eerst de Akismet plugin installeren en activeren en een WordPress.com API-sleutel instellen."
+
+#: plugin/Commands/CreateReview.php:170
+#: views/pages/documentation/support/common-problems-and-solutions.php:75
+msgid "Your review could not be submitted and the error has been logged. Please notify the site administrator."
+msgstr "Je beoordeling kon niet worden verzonden en de fout is geregistreerd. Breng de sitebeheerder op de hoogte."
+
+#: config/settings.php:186
+msgctxt "admin-text"
+msgid "Enter a custom date format (<a href=\"https://wordpress.org/support/article/formatting-date-and-time/\">documentation on date and time formatting</a>)."
+msgstr "Voer een aangepaste datum format in <a href=\"https://wordpress.org/support/article/formatting-date-and-time/\">Documentatie over format van datum en tijd</a>."
+
+#: config/settings.php:117
+msgctxt "admin-text"
+msgid "Send to author of the page that the review is assigned to"
+msgstr "Verzenden naar de auteur van de pagina waaraan de recensie is toegewezen"
+
+#. Description of the plugin
+msgid "Receive and display reviews on your website"
+msgstr "Ontvang en toon beoordelingen op je website"
+
+#: config/settings.php:38
+msgctxt "admin-text"
+msgid "Site Reviews relies on the CSS of your theme to style the review form. If your theme does not provide proper CSS rules for form elements and you are using a WordPress plugin/theme or CSS Framework listed here, please try selecting it, otherwise choose \"Site Reviews (default)\"."
+msgstr "Site Reviews is afhankelijk van de CSS van je thema om het indieningsformulier te stylen. Als je thema geen juiste CSS-regels voor formulierelementen bevat en je gebruikt hier een WordPress plugin / thema of CSS framework, probeer het dan te selecteren, of kies anders “Site Reviews (standaard)”."
+
+#: activate.php:104
+msgctxt "admin-text"
+msgid "You can use the %s plugin to restore %s to the previous version."
+msgstr "Je kunt de %s plugin gebruiken om %s terug te zetten naar de vorige versie."
+
+#: activate.php:108
+msgctxt "admin-text"
+msgid "This plugin requires %s or greater in order to work properly."
+msgstr "De plugin vereist %s of hoger om goed te functioneren."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:27
+msgid "This field is required."
+msgstr "Dit veld is vereist."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:15
+msgid "This field must be accepted."
+msgstr "Dit veld moet geaccepteerd worden."
+
+#: config/settings.php:724
+msgctxt "admin-text"
+msgid "Choose the action that should be taken when a review is blacklisted."
+msgstr "Kies de actie die moet worden ondernomen wanneer een recensie op de zwarte lijst wordt geplaatst."
+
+#: plugin/Modules/Validator/BlacklistValidator.php:37
+#: views/pages/documentation/support/common-problems-and-solutions.php:67
+msgid "Your review cannot be submitted at this time."
+msgstr "Uw review kan op dit moment niet worden ingediend."
+
+#: plugin/Modules/Notification.php:180
+msgctxt "This string differs depending on whether or not the review has been assigned to a post."
+msgid "New %s-star review"
+msgid_plural "New %s-star review of %s"
+msgstr[0] "Nieuwe %s-sterren review"
+msgstr[1] "Nieuwe %ssterreview van %s"
+
+#: plugin/Modules/Html/Tags/ReviewAssignedLinksTag.php:47
+#: plugin/Modules/Html/Tags/ReviewAssignedPostsTag.php:26
+#: plugin/Modules/Html/Tags/ReviewAssignedTermsTag.php:16
+#: plugin/Modules/Html/Tags/ReviewAssignedUsersTag.php:16
+msgid "Review of %s"
+msgstr "Beoordeling van %s"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:209
+msgid "register"
+msgstr "registeren"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:211
+msgid "You may also %s for an account."
+msgstr "Je kunt ook %s voor een account."
+
+#: config/settings.php:82
+msgctxt "admin-text"
+msgid "Show a link for a new user to register. The %s Membership option must be enabled in General Settings for this to work."
+msgstr "Toon een link voor een nieuwe gebruiker om te registreren. De  %s lidmaatschapsoptie moet zijn ingeschakeld in Algemene instellingen om dit te laten werken."
+
+#: plugin/Modules/Validator/CustomValidator.php:27
+#: views/pages/documentation/support/common-problems-and-solutions.php:80
+msgid "The review submission failed. Please notify the site administrator."
+msgstr "Het indienen van de recensie is mislukt. Breng de sitebeheerder op de hoogte."
+
+#: plugin/Modules/Html/Tags/ReviewResponseTag.php:17
+#: views/pages/documentation/faq/change-response-name.php:9
+msgid "Response from %s"
+msgstr "Antwoord van %s"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:183
+msgid "You must be %s to submit a review."
+msgstr "Je moet %s zijn om een beoordeling in te dienen."
+
+#: plugin/Modules/Html/Tags/SummaryTextTag.php:29
+msgctxt "Do not translate {rating}, {max}, and {num}, they are template tags."
+msgid "{rating} out of {max} stars (based on {num} review)"
+msgid_plural "{rating} out of {max} stars (based on {num} reviews)"
+msgstr[0] "{rating} van {max} sterren (gebaseerd op {num} review)"
+msgstr[1] "{rating} van {max} sterren (op basis van {num} reviews)"
+
+#: config/settings.php:448
+msgctxt "admin-text"
+msgid "Use the featured image of the assigned or current page"
+msgstr "Gebruik de uitgelichte afbeelding van de toegewezen of huidige pagina"
+
+#: config/settings.php:150
+msgctxt "admin-text"
+msgid "To send notifications to Slack, create a new %s and then paste the provided Webhook URL in the field above."
+msgstr "Om meldingen naar Slack te sturen, maakt u een nieuwe  %s en plakt u de opgegeven webhook-URL in het bovenstaande veld."
+
+#: plugin/Helpers/Text.php:30
+msgid "Show less"
+msgstr "Toon minder"
+
+#: plugin/Blocks/SiteReviewsBlock.php:135 plugin/Helpers/Text.php:31
+msgid "Show more"
+msgstr "Toon meer"
+
+#: config/settings.php:175
+msgctxt "admin-text"
+msgid "The default date format is the one set in your %s."
+msgstr "Het standaard datumformaat is ingesteld in je %s."
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:50
+msgctxt "admin-text"
+msgid "When using pagination this shortcode can only be used once on a page. (default: disable)"
+msgstr "Bij gebruik van paginering kan deze shortcode slechts één keer op een pagina worden gebruikt. (standaard: uitschakelen)"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:181
+msgid "logged in"
+msgstr "ingelogd"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:40
+msgctxt "admin-text"
+msgid "What is the minimum rating to display (default: 1 star)?"
+msgstr "Wat is de minimale waardering die moet worden weergegeven (standaard: 1 ster)?"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: config/settings.php:651
+msgctxt "admin-text"
+msgid "The Invisible reCAPTCHA badge (reCAPTCHA v2) is a free anti-spam service from Google. To use it, you will need to <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">sign up</a> for an API key pair for your site."
+msgstr "De onzichtbare reCAPTCHA-badge (reCAPTCHA v2) is een gratis antispamservice van Google. Om het te gebruiken, moet je <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\">zich aanmelden</a> voor een API-sleutel voor je site."
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:29
+msgctxt "admin-text"
+msgid "Automatically assign a category to reviews submitted with this shortcode."
+msgstr "Wijs automatisch een categorie toe aan beoordelingen die met deze shortcode zijn ingediend."
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:27
+msgctxt "admin-text"
+msgid "How many reviews would you like to display (default: 10)?"
+msgstr "Hoeveel beoordelingen wilt u weergeven (standaard: 10)?"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
+msgid "Count"
+msgstr "Aantal"
+
+#. Author URI of the plugin
+msgid "https://geminilabs.io"
+msgstr "https://geminilabs.io"
+
+#. Author of the plugin
+msgid "Paul Ryley"
+msgstr "Paul Ryley"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/site-reviews"
+msgstr "https://wordpress.org/plugins/site-reviews"
+
+#: plugin/Modules/Html/Tags/FormSubmitButtonTag.php:43
+msgid "Submit your review"
+msgstr "Plaats jouw review"
+
+#: plugin/Defaults/SlackDefaults.php:15
+msgid "View Review"
+msgstr "Beoordelingen Bekijken"
+
+#: config/forms/review-form.php:30
+msgid "This review is based on my own experience and is my genuine opinion."
+msgstr "Deze review is gebaseerd op mijn eigen ervaring."
+
+#: config/forms/review-form.php:25
+msgid "Your email"
+msgstr "Jouw e-mailadres"
+
+#: config/forms/review-form.php:9
+msgid "Title of your review"
+msgstr "Titel van je beoordeling"
+
+#: plugin/Defaults/PaginationDefaults.php:16
+msgid "Page"
+msgstr "Pagina"
+
+#: plugin/Modules/Html/Fields/YesNo.php:33
+msgid "Yes"
+msgstr "Ja"
+
+#: plugin/Modules/Html/Fields/YesNo.php:32
+msgid "No"
+msgstr "Nee"
+
+#: plugin/Commands/CreateReview.php:165
+msgid "Your review has been submitted!"
+msgstr "Uw beoordeling is ingediend!"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:19
+#: plugin/Modules/Validator/DefaultValidator.php:49
+msgid "Please fix the submission errors."
+msgstr "Corrigeer de invoerfouten."
+
+#: plugin/Modules/Html/Tags/ReviewTitleTag.php:15
+msgid "No Title"
+msgstr "Geen titel"
+
+#: plugin/Modules/Avatar.php:100 plugin/Modules/Notification.php:75
+#: plugin/Review.php:158
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#. Plugin Name of the plugin
+msgid "Site Reviews"
+msgstr "Site Reviews"
+
+#: activate.php:105
+msgctxt "admin-text"
+msgid "Please contact your hosting provider or server administrator to upgrade the version of PHP on your server (your server is running PHP version %s), or try to find an alternative plugin."
+msgstr "Neem contact op met je hostingprovider of serverbeheerder om de versie van PHP op je server te upgraden (je server draait PHP versie %s), of probeer een alternatieve plugin te vinden."
+
+#: config/forms/review-form.php:20
+msgid "Your name"
+msgstr "Je naam"
+
+#: plugin/Modules/Html/Fields/Rating.php:21
+msgid "Select a Rating"
+msgstr "Selecteer een waardering"
+
+#: plugin/Shortcodes/Shortcode.php:272
+msgid "Average"
+msgstr "Gemiddeld"
+
+#: config/forms/review-form.php:5
+msgid "Your overall rating"
+msgstr "Je overall waardering"
+
+#: plugin/Shortcodes/Shortcode.php:270
+msgid "Excellent"
+msgstr "Uitstekend"
+
+#: plugin/Shortcodes/Shortcode.php:271
+msgid "Very good"
+msgstr "Heel goed"
+
+#: plugin/Shortcodes/Shortcode.php:273
+msgid "Poor"
+msgstr "Slecht"
+
+#: config/forms/review-form.php:21
+msgid "Tell us your name"
+msgstr "Vertel ons je naam"
+
+#: config/forms/review-form.php:15
+msgid "Tell people your review"
+msgstr "Vertel mensen je beoordeling"
+
+#: config/forms/review-form.php:10
+msgid "Summarize your review or highlight an interesting detail"
+msgstr "Vat je beoordeling samen of markeer een interessant detail"
+
+#: config/forms/review-form.php:26
+msgid "Tell us your email"
+msgstr "Vertel ons je e-mailadres"
+
+#: plugin/Shortcodes/Shortcode.php:274
+msgid "Terrible"
+msgstr "Verschrikkelijk"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Bewerken"
+
+#: config/forms/review-form.php:14 plugin/Modules/Honeypot.php:20
+msgid "Your review"
+msgstr "Je beoordeling"

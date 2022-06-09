@@ -1,0 +1,109 @@
+# Translation of Themes - Hello Elementor in Greek
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-16 11:29:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "Ένα απλό και ελαφρύ θέμα για το Elementor page builder"
+
+#. Theme Name of the theme
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: includes/admin-functions.php:47
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "Το θέμα Hello είναι ένα ελαφρύ θέμα για αρχάριους. Σας συνιστούμε να το χρησιμοποιήσετε μαζί με το πρόσθετο Elementor Page Builder, λειτουργούν τέλεια μαζί!"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "Ευχαριστούμε που εγκαταστήσατε το Θέμα Hello!"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:48
+msgid "Install Elementor"
+msgstr "Εγκατάσταση του Elementor"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:65
+#: includes/customizer/elementor-upsell.php:68
+msgid "Activate Elementor"
+msgstr "Ενεργοποίηση του Elementor"
+
+#: includes/admin-functions.php:142
+msgid "Learn more about Elementor"
+msgstr "Μάθετε περισσότερα για το Elementor"
+
+#: includes/admin-functions.php:38
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "Το θέμα Hello είναι ένα ελαφρύ θέμα για αρχάριους σχεδιασμένο για να λειτουργεί τέλεια με το πρόσθετο Elementor Page Builder."
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:31
+msgid "Home"
+msgstr "Αρχική"
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "Αποτελέσματα αναζήτησης:"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s Απάντηση"
+msgstr[1] "%1$s Απαντήσεις"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Μία Απάντηση"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "νεότερα %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s παλαιότερα"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "Φαίνεται ότι δεν μπορούμε να βρούμε αυτό που ψάχνετε."
+
+#: template-parts/single.php:26
+msgid "Tagged "
+msgstr "Ετικετοποιημένο"
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "Φαίνεται ότι δεν βρέθηκε κάτι σε αυτή την τοποθεσία."
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "Η σελίδα δεν βρέθηκε."
+
+#. Author URI of the theme
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr "Ομάδα του Elementor"

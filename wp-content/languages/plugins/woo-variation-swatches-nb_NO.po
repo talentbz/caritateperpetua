@@ -1,0 +1,517 @@
+# Translation of Plugins - Variation Swatches for WooCommerce - Development (trunk) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Variation Swatches for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-04 12:51:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Variation Swatches for WooCommerce - Development (trunk)\n"
+
+#: includes/deactive-feedback-dialog.php:44
+msgid "Send feedback &amp; Deactivate"
+msgstr "Send tilbakemelding &amp; deaktiver"
+
+#: includes/functions.php:369
+msgid "Variation label separator. Default: %s."
+msgstr "Skilletegn for variasjonsetikett. Standard: %s."
+
+#: includes/functions.php:368
+msgid "Variation label separator"
+msgstr "Skilletegn for variasjonsetikett"
+
+#: includes/class-wvs-settings-api.php:144
+msgid "Swatches"
+msgstr "Variasjonseksempler"
+
+#: includes/class-wvs-settings-api.php:143
+msgid "Variation Swatches for WooCommerce Settings"
+msgstr "Innstillinger for variasjonsprøver for WooCommerce"
+
+#: includes/functions.php:1909
+msgid "Want to add more image? Install"
+msgstr "Vil du legge til et bilde? Installer"
+
+#: includes/functions.php:1908
+msgid "Plugin Installed. Please refresh this page."
+msgstr "Utvidelse installert. Vennligst oppfrisk denne siden."
+
+#: includes/functions.php:1907
+msgid "Installing Plugin..."
+msgstr "Installerer utvidelse..."
+
+#: includes/functions.php:359
+msgid "Show selected attribute"
+msgstr "Vis valgt attributt"
+
+#: includes/class-wvs-settings-api.php:754
+msgid "NEW"
+msgstr "NY"
+
+#: includes/class-wvs-settings-api.php:599
+msgid "Reset all"
+msgstr "Tilbakestill alle"
+
+#: includes/class-wvs-settings-api.php:599
+msgid "Are you sure to reset current settings?"
+msgstr "Er du sikker på du vil tilbakestille nåværende innstillinger?"
+
+#: includes/class-wvs-settings-api.php:598
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: includes/functions.php:302
+msgid "Enable default stylesheet"
+msgstr "Slå på standard stilark"
+
+#: includes/functions.php:295
+msgid "Enable tooltip on each product attribute."
+msgstr "Slå på pekertips på hver produkt-atributt"
+
+#: woo-variation-swatches.php:1003
+msgid "Install Now"
+msgstr "Installer nå"
+
+#: includes/functions.php:451
+msgid "Use Transient Cache"
+msgstr "Bruk transient hurtigbufring"
+
+#: includes/functions.php:444
+msgid "Defer Load JS"
+msgstr "Utsett lasting av JS"
+
+#: includes/functions.php:438
+msgid "Change for Performance"
+msgstr "Endre for ytelse"
+
+#: includes/functions.php:437
+msgid "Performance Section"
+msgstr "Ytelsesseksjon"
+
+#: includes/functions.php:434
+msgid "Performance"
+msgstr "Ytelse"
+
+#: includes/deactive-feedback-dialog.php:12
+msgid "Close modal panel"
+msgstr "Lukk modalt panel"
+
+#. Plugin Name of the plugin
+#: woo-variation-swatches.php:667
+msgid "Variation Swatches for WooCommerce"
+msgstr "Variasjonsprøver for WooCommerce"
+
+#: includes/class-woo-variation-swatches-export-import.php:103
+msgid "Swatches Attributes"
+msgstr "Attributter for eksemelprøver"
+
+#. translators: %s: image URL
+#: includes/class-woo-variation-swatches-export-import.php:234
+msgid "Unable to use image \"%s\"."
+msgstr "Kan ikke bruke bilde \"%s\"."
+
+#. translators: %s: image URL
+#: includes/class-woo-variation-swatches-export-import.php:225
+msgid "Not able to attach \"%s\"."
+msgstr "Kan ikke koble til \"%s\"."
+
+#: woo-variation-swatches.php:182
+msgid "I need <strong>specific feature</strong> that you don't support."
+msgstr "Jeg trenger <strong>en spesifikk funksjon</strong> som dere ikke støtter."
+
+#: woo-variation-swatches.php:172
+msgid "Please provide your email address to contact with you <br>and help you to setup and configure this plugin."
+msgstr "Vennligst oppgi din e-postadresse for å kontakte deg<br>og hjelpe deg med å sette opp og konfigurere denne utvidelsen."
+
+#: woo-variation-swatches.php:170
+msgid "Your email address."
+msgstr "Din e-postadresse."
+
+#: woo-variation-swatches.php:169
+msgid "I need someone to <strong>setup this plugin.</strong>"
+msgstr "Jeg trenger noen til å <strong>sette opp dene utvidelsen.</strong>"
+
+#: includes/tutorials.php:97 includes/tutorials.php:133
+#: includes/tutorials.php:142 includes/tutorials.php:179
+#: includes/tutorials.php:188 includes/tutorials.php:225
+#: includes/tutorials.php:234 includes/tutorials.php:271
+#: includes/tutorials.php:280 includes/tutorials.php:317
+#: includes/tutorials.php:326 includes/tutorials.php:364
+#: includes/tutorials.php:373
+msgid "PRO"
+msgstr "PRO"
+
+#: woo-variation-swatches.php:189
+msgid "Please share the reason"
+msgstr "Vær snill å dele årsaken"
+
+#: woo-variation-swatches.php:188
+msgid "Other"
+msgstr "Andre"
+
+#: woo-variation-swatches.php:183
+msgid "Please share with us."
+msgstr "Vennligst dele med oss."
+
+#: woo-variation-swatches.php:178
+msgid "<a target=\"_blank\" href=\"https://getwooplugins.com/documentation/woocommerce-variation-swatches/\">Have you checked our documentation?</a>."
+msgstr "<a target=\"_blank\" href=\"https://getwooplugins.com/documentation/woocommerce-variation-swatches/\">har du sjekket vår dokumentasjon?</a>."
+
+#: woo-variation-swatches.php:176
+msgid "The plugin is <strong>too complicated to configure.</strong>"
+msgstr "Utvidelsen er <strong>for komplisert å konfigurere.</strong>"
+
+#: woo-variation-swatches.php:165
+msgid "<a target=\"_blank\" href=\"https://getwooplugins.com/tickets/\">Please open a support ticket</a>, we will fix it immediately."
+msgstr "<a target=\"_blank\" href=\"https://getwooplugins.com/tickets/\">Vennligst åpne en brukerstøttesak</a>, vi vil rette det det umiddelbart."
+
+#: woo-variation-swatches.php:163
+msgid "The plugin <strong>broke my layout</strong> or some functionality."
+msgstr "Utvidelsen <strong>ødela mitt oppsett</strong> eller noe funksjonalitet."
+
+#: woo-variation-swatches.php:159
+msgid "Please share which plugin"
+msgstr "Vennligst del hvilken utvidelse"
+
+#: woo-variation-swatches.php:158
+msgid "I found a better plugin"
+msgstr "Jeg fant en bedre utvidelse"
+
+#: woo-variation-swatches.php:153
+msgid "I no longer need the plugin"
+msgstr "Jeg trenger ikke denne utvidelsen lenger"
+
+#: woo-variation-swatches.php:149
+msgid "It converts variation select box to beautiful swatches. <br> <a target=\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Please check live demo</a>."
+msgstr "Den konverterer variantvalglisten til vakre eksempelprøver. <br> <a target=\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Vennligst sjekk live demo</a>."
+
+#: woo-variation-swatches.php:147
+msgid "I couldn't understand how to make it work."
+msgstr "Jeg kunne ikke forstå hvordan få den til å fungere."
+
+#: woo-variation-swatches.php:142
+msgid "It's a temporary deactivation."
+msgstr "Det er en midlertidig deaktivering."
+
+#: includes/functions.php:257
+msgid "How to setup and use this plugin"
+msgstr "Hvordan sette opp og bruk denne utvidelsen"
+
+#: includes/functions.php:256
+msgid "How to tutorials"
+msgstr "Hvordan-veiledninger"
+
+#: includes/functions.php:253
+msgid "Tutorials"
+msgstr "Veiledninger"
+
+#: includes/deactive-feedback-dialog.php:48
+msgid "Skip &amp; Deactivate"
+msgstr "Hopp over og deaktiver"
+
+#: includes/deactive-feedback-dialog.php:44
+msgid "Deactivating..."
+msgstr "Deaktiverer..."
+
+#: includes/deactive-feedback-dialog.php:18
+msgid "May we have a little info about why you are deactivating?"
+msgstr "Kan vi få litt info om hvorfor du deaktiverer?"
+
+#: includes/functions.php:512
+msgid "Show single attribute as catalog mode on shop / archive pages"
+msgstr "Vis enkelt attributt som katalog modus på butikk/arkiv sider"
+
+#: includes/functions.php:511
+msgid "Catalog mode"
+msgstr "Katalog-modus"
+
+#: includes/functions.php:508
+msgid "Special Attribute"
+msgstr "Spesielle attributt"
+
+#: includes/functions.php:490
+msgid "Advanced change some visual styles on shop / archive page"
+msgstr "Avansert endre noen visuelle stiler på butikk/Arkiv side"
+
+#: includes/functions.php:382
+msgid "Blur without cross"
+msgstr "Uskarp uten kryss"
+
+#: includes/functions.php:381
+msgid "Blur with cross"
+msgstr "Uskarp med kryss"
+
+#: includes/functions.php:468
+msgid "Change some visual styles"
+msgstr "Endre noen visuelle stiler"
+
+#: includes/functions.php:467
+msgid "Visual Styling"
+msgstr "Visuell styling"
+
+#: includes/functions.php:464
+msgid "Style"
+msgstr "Stil"
+
+#: includes/functions.php:486
+msgid "Archive / Shop"
+msgstr "Arkiv/butikk"
+
+#: includes/functions.php:420
+msgid "Single product variation item font size"
+msgstr "Skriftstørrelse for enkelt produkt variasjons element"
+
+#: includes/functions.php:419
+msgid "Font Size"
+msgstr "Skriftstørrelse"
+
+#: woo-variation-swatches.php:580
+msgid "Go Pro"
+msgstr "Skaff Pro"
+
+#: woo-variation-swatches.php:565
+msgid "Please open a ticket."
+msgstr "Vennligst åpne en billett."
+
+#: includes/functions.php:410
+msgid "Variation item height"
+msgstr "Elementhøyde for variasjon"
+
+#: includes/functions.php:409
+msgid "Height"
+msgstr "Høyde"
+
+#: includes/functions.php:400
+msgid "Variation item width"
+msgstr "Elementbredde for variasjon"
+
+#: includes/functions.php:399
+msgid "Width"
+msgstr "Bredde"
+
+#. Description of the plugin
+msgid "Beautiful colors, images and buttons variation swatches for woocommerce product attributes. Requires WooCommerce 3.2+"
+msgstr "Vakre farger, bilder og knapper variasjonsprøver for woocommerce produktattributter. Krever WooCommerce 3.2+"
+
+#: woo-variation-swatches.php:667
+msgid "Currently, you are using older version of WooCommerce. It's recommended to use latest version of WooCommerce to work with %s."
+msgstr "For tiden bruker du en eldre versjon av WooCommerce. Det anbefales å bruke nyeste versjon av WooCommerce å arbeide med %s."
+
+#: woo-variation-swatches.php:565
+msgid "Facing issue?"
+msgstr "Står overfor problemer?"
+
+#: woo-variation-swatches.php:563
+msgid "Read Documentation"
+msgstr "Les dokumentasjon"
+
+#: includes/functions.php:383
+msgid "Hide"
+msgstr "Skjul"
+
+#: includes/functions.php:378
+msgid "Attribute behavior"
+msgstr "Oppførsel til attributt"
+
+#: includes/functions.php:349
+msgid "Control the number of enable ajax variation threshold, If you set <code>1</code> all product variation will be load via ajax. Default value is <code>30</code>, <br><span style=\"color: red\">Note: Disable ajax threshold doesn't follow attribute behaviour. It's recommended to keep this number between 30 - 40.</span>"
+msgstr "Kontroller antall aktiver ajax-variasjonsterskel, Hvis du angir <code>1</code>, vil alle produktvarianter lastes via ajax. Standardverdien er <code>30</code>, <br><span style=\"color: red\">Merk: Å slå av ajax-terskel følger ikke attributtoppførsel. Det anbefales å holde dette nummeret mellom 30 og 40.</span>"
+
+#: includes/functions.php:335
+msgid "Advanced change some visual styles"
+msgstr "Endre noen visuelle stiler avansert"
+
+#: includes/functions.php:331
+msgid "Advanced"
+msgstr "Avansert"
+
+#: includes/functions.php:287 includes/functions.php:334
+#: includes/functions.php:489
+msgid "Visual Section"
+msgstr "Visuell seksjon"
+
+#: includes/functions.php:284
+msgid "Simple"
+msgstr "Enkel"
+
+#: includes/class-wvs-settings-api.php:175
+msgid "Clear transient"
+msgstr "Fjern transient"
+
+#: includes/functions.php:342
+msgid "Clear selected attribute on select again"
+msgstr "Slett valgt attributt på velg igjen"
+
+#: includes/functions.php:341
+msgid "Clear on Reselect"
+msgstr "Fjern på gjenvalg"
+
+#: includes/functions.php:392
+msgid "<span style=\"color: red\">Attribute image size changed by <code>wvs_product_attribute_image_size</code> hook. So this option will not apply any effect.</span>"
+msgstr "<span style=\"color: red\"> Egenskapsbildestørrelse endret av <code> wvs_product_attribute_image_size </code> hake. Så dette alternativet vil ikke gi noen effekt. </span>"
+
+#: includes/functions.php:391
+msgid "Attribute image size"
+msgstr "Attributtbildestørrelse"
+
+#: woo-variation-swatches.php:463
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: woo-variation-swatches.php:462
+msgid "Add"
+msgstr "Legg til"
+
+#: woo-variation-swatches.php:461
+msgid "Add Attribute"
+msgstr "Legg til attributt"
+
+#: woo-variation-swatches.php:126
+msgid "The name is how it appears on your site."
+msgstr "Navnet er hvordan det vises på nettstedet ditt."
+
+#: woo-variation-swatches.php:124
+msgctxt "term name"
+msgid "Name"
+msgstr "Navn"
+
+#: includes/functions.php:759 includes/functions.php:844
+msgid "Add new %s"
+msgstr "Legg til ny %s"
+
+#: includes/functions.php:348
+msgid "Ajax variation threshold"
+msgstr "Ajax variasjonsterskel"
+
+#: includes/class-wvs-customizer.php:34
+msgid "WooCommerce Variation Swatches"
+msgstr "WooCommerce variasjon fargeprøver"
+
+#: includes/functions.php:301
+msgid "Enable Stylesheet"
+msgstr "Aktiver stilark"
+
+#: includes/functions.php:294
+msgid "Enable Tooltip"
+msgstr "Aktiver Tooltip"
+
+#: includes/functions.php:312
+msgid "Squared Shape"
+msgstr "Firkantet form"
+
+#: includes/functions.php:311
+msgid "Rounded Shape"
+msgstr "Avrundet form"
+
+#: includes/functions.php:309
+msgid "Attribute Shape Style"
+msgstr "Egenskapsformat"
+
+#: includes/functions.php:308
+msgid "Shape style"
+msgstr "Form stil"
+
+#: includes/functions.php:288
+msgid "Simple change some visual styles"
+msgstr "Enkelt endre noen visuelle stiler"
+
+#: includes/class-wvs-settings-api.php:559
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke tilstrekkelige tillatelser til å få tilgang til denne siden."
+
+#: includes/class-wvs-settings-api.php:199
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/class-wvs-settings-api.php:160 includes/functions.php:1796
+msgid "Swatches Settings"
+msgstr "Innstillinger for eksempelprøver"
+
+#. Author URI of the plugin
+msgid "https://getwooplugins.com/"
+msgstr "https://getwooplugins.com/"
+
+#. Author of the plugin
+msgid "Emran Ahmed"
+msgstr "Emran Ahmed"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-variation-swatches/"
+msgstr "https://wordpress.org/plugins/woo-variation-swatches/"
+
+#: woo-variation-swatches.php:642
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: woo-variation-swatches.php:628
+msgid "Please check PHP version requirement."
+msgstr "Vennligst sjekk PHP versjonskrav."
+
+#: woo-variation-swatches.php:465
+msgid "Add Media"
+msgstr "Legg til media"
+
+#: woo-variation-swatches.php:464
+msgid "Use Image"
+msgstr "Bruk bilde"
+
+#: includes/functions.php:1169 includes/functions.php:1181
+#: includes/functions.php:1243 includes/functions.php:1255
+#: includes/functions.php:1318 includes/functions.php:1330
+#: includes/functions.php:1389 includes/functions.php:1402
+#: includes/functions.php:1459 includes/functions.php:1472
+#: includes/functions.php:1540 includes/functions.php:1552
+#: includes/functions.php:1615
+msgid "Choose an option"
+msgstr "Velg et alternativ"
+
+#: includes/functions.php:759 includes/functions.php:761
+#: includes/functions.php:844 includes/functions.php:846
+msgid "Add new"
+msgstr "Legg til ny"
+
+#: includes/functions.php:753 includes/functions.php:805
+#: includes/functions.php:838
+msgid "Select none"
+msgstr "Velg ingen"
+
+#: includes/functions.php:752 includes/functions.php:804
+#: includes/functions.php:837
+msgid "Select all"
+msgstr "Velg alle"
+
+#: includes/functions.php:742 includes/functions.php:792
+#: includes/functions.php:821
+msgid "Select terms"
+msgstr "Velg termer"
+
+#: includes/functions.php:553 woo-variation-swatches.php:460
+msgid "Choose an Image"
+msgstr "Velg et bilde"
+
+#: includes/functions.php:544
+msgid "Choose a color"
+msgstr "Velg en farge"
+
+#: includes/functions.php:146
+msgid "Button"
+msgstr "Knapp"
+
+#: includes/functions.php:140 includes/functions.php:552
+msgid "Image"
+msgstr "Bilde"
+
+#: includes/functions.php:134 includes/functions.php:543
+msgid "Color"
+msgstr "Farge"
+
+#: includes/class-wvs-term-meta.php:231
+msgid "Remove image"
+msgstr "Fjern bilde"
+
+#: includes/class-wvs-term-meta.php:230
+msgid "Upload / Add image"
+msgstr "Last opp / Legg til bilde"

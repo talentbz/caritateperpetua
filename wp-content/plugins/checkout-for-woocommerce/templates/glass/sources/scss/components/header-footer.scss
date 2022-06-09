@@ -1,0 +1,17 @@
+#cfw-header {
+  z-index: 2;
+}
+
+#cfw-footer {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+}
+
+body.checkout-wc {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 8rem;
+}

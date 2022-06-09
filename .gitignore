@@ -1,0 +1,5 @@
+/wp-admin
+/wp-includes
+.htaccess
+.htaccess.bk
+.wp-config.php

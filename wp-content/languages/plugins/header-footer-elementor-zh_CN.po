@@ -1,0 +1,1351 @@
+# Translation of Plugins - Elementor Header &amp; Footer Builder - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Elementor Header &amp; Footer Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-23 07:34:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Elementor Header &amp; Footer Builder - Stable (latest release)\n"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:469
+msgid "Redirect To Self Link"
+msgstr "跳转到当前页面"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:408
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "允许%s产品跟踪非敏感使用情况数据。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:468
+msgid "Open Submenu"
+msgstr "打开子菜单"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:466
+msgid "For Horizontal layout, this will affect on the selected breakpoint"
+msgstr "对于水平布局，此设置将影响所选的断点"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:463
+msgid "Action On Menu Click"
+msgstr "单击菜单时的操作"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:237
+msgid "Enable Schema Support"
+msgstr "启用配色方案支持"
+
+#: inc/widgets-manager/widgets/class-search-button.php:54
+#: inc/widgets-manager/widgets/class-search-button.php:968
+msgid "Search"
+msgstr "搜索"
+
+#: inc/widgets-manager/widgets/class-search-button.php:145
+msgid "Placeholder"
+msgstr "占位符"
+
+#: inc/widgets-manager/widgets/class-search-button.php:259
+#: inc/widgets-manager/widgets/class-search-button.php:424
+msgid "Placeholder Color"
+msgstr "占位符颜色"
+
+#: inc/class-header-footer-elementor.php:260
+#: inc/class-header-footer-elementor.php:294
+msgid "Install Elementor"
+msgstr "安装 Elementor"
+
+#: inc/widgets-manager/widgets/class-search-button.php:399
+msgid "Focus"
+msgstr "聚焦"
+
+#: inc/widgets-manager/widgets/class-search-button.php:187
+msgid "Input"
+msgstr "输入"
+
+#: inc/widgets-manager/widgets/class-search-button.php:147
+msgid "Type & Hit Enter"
+msgstr "输入内容然后按回"
+
+#: inc/widgets-manager/widgets/class-search-button.php:135
+msgid "Input Box With Button"
+msgstr "带按钮的输入框"
+
+#: inc/widgets-manager/widgets/class-search-button.php:133
+msgid "Input Box"
+msgstr "输入框"
+
+#: inc/widgets-manager/widgets/class-search-button.php:122
+msgid "Search Box"
+msgstr "搜索框"
+
+#. translators: %1$s doc link
+#: inc/widgets-manager/widgets/class-page-title.php:120
+msgid "<b>Note:</b> Archive page title will be visible on frontend."
+msgstr "<b>注意：</b>存档页标题将在前端显示。"
+
+#: inc/class-header-footer-elementor.php:255
+msgid "Activate Elementor"
+msgstr "激活Elementor"
+
+#: admin/class-hfe-admin.php:229 inc/class-hfe-settings-page.php:266
+msgid "All Templates"
+msgstr "所有模板"
+
+#: admin/class-hfe-admin.php:384
+msgid "Add locations for where this template should not appear."
+msgstr "添加不应显示此模板的位置。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:416
+msgid "Learn More."
+msgstr "了解更多。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:411
+msgid " This will be applicable for all sites from the network."
+msgstr " 这将适用于网络中的所有站点。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:364
+msgid "Usage Tracking"
+msgstr "使用追踪"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "不用了，谢谢"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "是的！允许"
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr " 了解更多。"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr "这将适用于网络中的所有站点。"
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "希望帮助<strong>%1s </strong>变得更加出色吗？允许我们收集非敏感的诊断数据和使用信息。 "
+
+#. Description of the plugin
+msgid "This powerful plugin allows creating a custom header, footer with Elementor and display them on selected locations. You can also create custom Elementor blocks and place them anywhere on the website with a shortcode."
+msgstr "这个强大的插件允许您使用 Elementor 创建一个自定义页头，页脚，并在指定的位置显示他们，另外，您还可以创建自定义内容区块，并使用短代码把他们显示在网站的任何位置。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:225
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1668
+#: inc/widgets-manager/widgets/class-search-button.php:629
+msgid "Button"
+msgstr "按钮"
+
+#: inc/widgets-manager/widgets/class-cart.php:163
+msgid "Show Total Price"
+msgstr "显示总价"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1807
+msgid "Border Hover Color"
+msgstr "边框悬停颜色"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1742
+msgid "Border"
+msgstr "边框"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1680
+msgid "Typography"
+msgstr "排版"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:221
+msgid "Last Menu Item"
+msgstr "最后一个菜单项"
+
+#: inc/widgets-manager/widgets/class-cart.php:501
+msgid "Distance"
+msgstr "距离"
+
+#: inc/widgets-manager/widgets/class-cart.php:185
+msgid "This will hide the items count until the cart is empty"
+msgstr "这将隐藏物品计数，直到购物车中的物品被清空"
+
+#: inc/widgets-manager/widgets/class-cart.php:179
+msgid "Hide Empty"
+msgstr "隐藏空值"
+
+#: inc/widgets-manager/widgets/class-cart.php:150
+msgid "Bubble"
+msgstr "气泡"
+
+#: inc/widgets-manager/widgets/class-cart.php:146
+#: inc/widgets-manager/widgets/class-cart.php:488
+msgid "Items Count"
+msgstr "项目数量"
+
+#: inc/widgets-manager/widgets/class-cart.php:133
+msgid "Bag Solid"
+msgstr "Bag Solid"
+
+#: inc/widgets-manager/widgets/class-cart.php:132
+msgid "Bag Medium"
+msgstr "Bag Medium"
+
+#: inc/widgets-manager/widgets/class-cart.php:131
+msgid "Bag Light"
+msgstr "Bag Light"
+
+#: inc/widgets-manager/widgets/class-cart.php:120
+msgid "Custom"
+msgstr "自定义"
+
+#: inc/widgets-manager/widgets/class-cart.php:115
+msgid "Type"
+msgstr "类型"
+
+#: inc/widgets-manager/widgets/class-cart.php:108
+#: inc/widgets-manager/widgets/class-cart.php:232
+msgid "Menu Cart"
+msgstr "菜单购物车"
+
+#: inc/widgets-manager/class-widgets-loader.php:234
+#: inc/widgets-manager/widgets/class-cart.php:51
+#: inc/widgets-manager/widgets/class-cart.php:652
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/widgets-manager/widgets/class-page-title.php:236
+#: inc/widgets-manager/widgets/class-site-title.php:209
+msgid "XXL"
+msgstr "XXL"
+
+#: inc/widgets-manager/widgets/class-page-title.php:235
+#: inc/widgets-manager/widgets/class-site-title.php:208
+msgid "XL"
+msgstr "XL"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:136
+msgid "Add Image"
+msgstr "添加图像"
+
+#: inc/widgets-manager/widgets/class-cart.php:119
+#: inc/widgets-manager/widgets/class-navigation-menu.php:224
+#: inc/widgets-manager/widgets/class-navigation-menu.php:450
+#: inc/widgets-manager/widgets/class-page-title.php:182
+#: inc/widgets-manager/widgets/class-page-title.php:231
+#: inc/widgets-manager/widgets/class-site-logo.php:222
+#: inc/widgets-manager/widgets/class-site-logo.php:253
+#: inc/widgets-manager/widgets/class-site-title.php:173
+#: inc/widgets-manager/widgets/class-site-title.php:204
+msgid "Default"
+msgstr "默认"
+
+#: inc/widgets-manager/widgets/class-page-title.php:218
+#: inc/widgets-manager/widgets/class-site-title.php:225
+msgid "H6"
+msgstr "H6"
+
+#: inc/widgets-manager/widgets/class-page-title.php:217
+#: inc/widgets-manager/widgets/class-site-title.php:224
+msgid "H5"
+msgstr "H5"
+
+#: inc/widgets-manager/widgets/class-page-title.php:216
+#: inc/widgets-manager/widgets/class-site-title.php:223
+msgid "H4"
+msgstr "H4"
+
+#: inc/widgets-manager/widgets/class-page-title.php:215
+#: inc/widgets-manager/widgets/class-site-title.php:222
+msgid "H3"
+msgstr "H3"
+
+#: inc/widgets-manager/widgets/class-page-title.php:214
+#: inc/widgets-manager/widgets/class-site-title.php:221
+msgid "H2"
+msgstr "H2"
+
+#: inc/widgets-manager/widgets/class-page-title.php:213
+#: inc/widgets-manager/widgets/class-site-title.php:220
+msgid "H1"
+msgstr "H1"
+
+#: inc/widgets-manager/widgets/class-page-title.php:210
+#: inc/widgets-manager/widgets/class-site-title.php:217
+msgid "HTML Tag"
+msgstr "HTML标签"
+
+#: inc/widgets-manager/widgets/class-page-title.php:150
+msgid "Select Icon"
+msgstr "选择图标"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:564
+msgid "Menu Icon"
+msgstr "菜单图标"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:187
+#: inc/widgets-manager/widgets/class-navigation-menu.php:197
+msgid "Menu"
+msgstr "菜单"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:636
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:545
+msgid "Full Width"
+msgstr "全宽"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1519
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1551
+#: inc/widgets-manager/widgets/class-page-title.php:303
+#: inc/widgets-manager/widgets/class-search-button.php:804
+#: inc/widgets-manager/widgets/class-search-button.php:824
+#: inc/widgets-manager/widgets/class-search-button.php:908
+#: inc/widgets-manager/widgets/class-search-button.php:933
+#: inc/widgets-manager/widgets/class-site-tagline.php:207
+#: inc/widgets-manager/widgets/class-site-title.php:292
+msgid "Color"
+msgstr "颜色"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:595
+#: inc/widgets-manager/widgets/class-navigation-menu.php:611
+#: inc/widgets-manager/widgets/class-search-button.php:864
+msgid "Close Icon"
+msgstr "关闭图标"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:437
+msgid "Classic"
+msgstr "经典"
+
+#: inc/widgets-manager/widgets/class-cart.php:128
+#: inc/widgets-manager/widgets/class-navigation-menu.php:580
+#: inc/widgets-manager/widgets/class-page-title.php:355
+#: inc/widgets-manager/widgets/class-search-button.php:134
+#: inc/widgets-manager/widgets/class-search-button.php:784
+#: inc/widgets-manager/widgets/class-site-tagline.php:139
+#: inc/widgets-manager/widgets/class-site-title.php:141
+#: inc/widgets-manager/widgets/class-site-title.php:344
+msgid "Icon"
+msgstr "图标"
+
+#: inc/widgets-manager/widgets/class-cart.php:347
+#: inc/widgets-manager/widgets/class-cart.php:403
+#: inc/widgets-manager/widgets/class-page-title.php:366
+#: inc/widgets-manager/widgets/class-search-button.php:649
+#: inc/widgets-manager/widgets/class-search-button.php:689
+#: inc/widgets-manager/widgets/class-site-tagline.php:223
+#: inc/widgets-manager/widgets/class-site-title.php:354
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: inc/widgets-manager/widgets/class-cart.php:442
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1579
+#: inc/widgets-manager/widgets/class-search-button.php:732
+#: inc/widgets-manager/widgets/class-search-button.php:839
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: inc/widgets-manager/widgets/class-page-title.php:384
+#: inc/widgets-manager/widgets/class-site-tagline.php:241
+#: inc/widgets-manager/widgets/class-site-title.php:372
+msgid "Icon Hover Color"
+msgstr "图标悬停颜色"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1114
+msgid "Dropdown"
+msgstr "下拉菜单"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:224
+msgid "Media File"
+msgstr "媒体文件"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:431
+msgid "Submenu Icon"
+msgstr "子菜单图标"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:446
+msgid "Submenu Animation"
+msgstr "子菜单动画"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:266
+msgid "View"
+msgstr "查看"
+
+#: inc/widgets-manager/widgets/class-page-title.php:111
+#: inc/widgets-manager/widgets/class-page-title.php:284
+#: inc/widgets-manager/widgets/class-site-title.php:275
+msgid "Title"
+msgstr "标题"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:124
+msgid "Custom Image"
+msgstr "自定义图像"
+
+#: inc/widgets-manager/widgets/class-page-title.php:139
+#: inc/widgets-manager/widgets/class-site-tagline.php:127
+#: inc/widgets-manager/widgets/class-site-title.php:130
+msgid "After Title Text"
+msgstr "标题文字之后"
+
+#. translators: %s Nav menu URL
+#: inc/widgets-manager/widgets/class-navigation-menu.php:212
+msgid "<strong>There are no menus in your site.</strong><br>Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "<strong>您的网站中没有菜单。</strong> <br>转到<a href=\"%s\" target=\"_blank\">“菜单”屏幕</a>以创建一个菜单。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1122
+msgid "<b>Note:</b> On desktop, below style options will apply to the submenu. On mobile, this will apply to the entire menu."
+msgstr "<b>注意：</b>在桌面端，以下样式选项将应用于子菜单。 在移动设备上，这将应用于整个菜单。"
+
+#: inc/widgets-manager/widgets/class-page-title.php:128
+#: inc/widgets-manager/widgets/class-site-tagline.php:115
+#: inc/widgets-manager/widgets/class-site-title.php:119
+msgid "Before Title Text"
+msgstr "标题文字之前"
+
+#: inc/widgets-manager/widgets/class-site-title.php:112
+msgid "General"
+msgstr "常规"
+
+#: inc/widgets-manager/widgets/class-site-title.php:55
+msgid "Site Title"
+msgstr "站点标题"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:631
+msgid "Spacing"
+msgstr "间距"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:249
+msgid "Lightbox"
+msgstr "灯箱"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:204
+msgid "Enter caption"
+msgstr "输入标题"
+
+#: inc/widgets-manager/widgets/class-site-tagline.php:108
+msgid "Style"
+msgstr "样式"
+
+#: inc/widgets-manager/widgets/class-site-tagline.php:53
+msgid "Site Tagline"
+msgstr "站点副标题"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1646
+msgid "Close Icon Size"
+msgstr "关闭图标大小"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1628
+msgid "Close Icon Color"
+msgstr "关闭图标颜色"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1502
+msgid "Menu Trigger & Close Icon"
+msgstr "菜单触发器和关闭图标"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1428
+msgid "Divider"
+msgstr "分隔线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1406
+msgid "Top Distance"
+msgstr "最远距离"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1332
+msgid "Dropdown Width (px)"
+msgstr "下拉宽度 (px)"
+
+#: inc/class-hfe-settings-page.php:63 inc/class-hfe-settings-page.php:658
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1043
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1225
+msgid "Active"
+msgstr "启用"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1018
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1079
+msgid "Link Hover Effect Color"
+msgstr "链接悬停效果颜色"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:872
+msgid "Frame Animation"
+msgstr "帧动画"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:851
+#: inc/widgets-manager/widgets/class-navigation-menu.php:893
+msgid "Animation"
+msgstr "动画"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:840
+msgid "Text"
+msgstr "文本"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:839
+msgid "Framed"
+msgstr "框架"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:838
+msgid "Double Line"
+msgstr "双线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:837
+msgid "Overline"
+msgstr "排版"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:836
+msgid "Underline"
+msgstr "下划线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:831
+msgid "Link Hover Effect"
+msgstr "链接悬停效果"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:795
+msgid "Menu Item Top Spacing"
+msgstr "菜单项顶部间距"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:774
+msgid "Row Spacing"
+msgstr "行间距"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:747
+msgid "Space Between"
+msgstr "之间的间距"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:725
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1380
+msgid "Vertical Padding"
+msgstr "垂直间距"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:699
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1357
+msgid "Horizontal Padding"
+msgstr "水平内边距"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:675
+msgid "Flyout Box Padding"
+msgstr "弹出框填充"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:647
+msgid "Flyout Box Width"
+msgstr "弹出框宽度"
+
+#: inc/widgets-manager/widgets/class-cart.php:166
+#: inc/widgets-manager/widgets/class-cart.php:182
+#: inc/widgets-manager/widgets/class-navigation-menu.php:240
+#: inc/widgets-manager/widgets/class-navigation-menu.php:257
+#: inc/widgets-manager/widgets/class-navigation-menu.php:549
+#: inc/widgets-manager/widgets/class-site-logo.php:127
+#: inc/widgets-manager/widgets/class-site-logo.php:191
+#: inc/widgets-manager/widgets/class-site-logo.php:255
+msgid "No"
+msgstr "否"
+
+#: inc/widgets-manager/widgets/class-cart.php:165
+#: inc/widgets-manager/widgets/class-cart.php:181
+#: inc/widgets-manager/widgets/class-navigation-menu.php:239
+#: inc/widgets-manager/widgets/class-navigation-menu.php:256
+#: inc/widgets-manager/widgets/class-navigation-menu.php:548
+#: inc/widgets-manager/widgets/class-site-logo.php:126
+#: inc/widgets-manager/widgets/class-site-logo.php:192
+#: inc/widgets-manager/widgets/class-site-logo.php:254
+msgid "Yes"
+msgstr "是"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:546
+msgid "Enable this option to stretch the Sub Menu to Full Width."
+msgstr "启用此选项可将子菜单拉伸到全宽。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:526
+msgid "This is the alignement of menu icon on selected responsive breakpoints."
+msgstr "这是所选响应断点的菜单图标的对齐方式。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:495
+msgid "Tablet (1025px >)"
+msgstr "平板电脑 (1025px >)"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:494
+msgid "Mobile (768px >)"
+msgstr "手机 (768px >)"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:490
+msgid "Breakpoint"
+msgstr "断点"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:479
+msgid "Responsive"
+msgstr "自适应"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:451
+msgid "Slide Up"
+msgstr "向上滑动"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:436
+msgid "Plus Sign"
+msgstr "加号"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:435
+msgid "Arrows"
+msgstr "箭头"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:394
+msgid "Menu Items Align"
+msgstr "菜单项对齐"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:357
+msgid "Hamburger Align"
+msgstr "汉堡菜单对齐"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:345
+msgid "Push"
+msgstr "推出"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:344
+msgid "Slide"
+msgstr "幻灯"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:339
+msgid "Appear Effect"
+msgstr "显示效果"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:323
+msgid "Flyout Orientation"
+msgstr "飞出方向"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:308
+#: inc/widgets-manager/widgets/class-navigation-menu.php:410
+#: inc/widgets-manager/widgets/class-site-tagline.php:183
+#: inc/widgets-manager/widgets/class-site-title.php:250
+msgid "Justify"
+msgstr "两端对齐"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:284
+msgid "Flyout"
+msgstr "飞出"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:283
+msgid "Expanded"
+msgstr "展开"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:282
+msgid "Vertical"
+msgstr "垂直"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:281
+msgid "Horizontal"
+msgstr "水平"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:270
+#: inc/widgets-manager/widgets/class-navigation-menu.php:277
+#: inc/widgets-manager/widgets/class-search-button.php:129
+msgid "Layout"
+msgstr "布局"
+
+#. translators: %s Nav menu URL
+#: inc/widgets-manager/widgets/class-navigation-menu.php:203
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "转到<a href=\"%s\" target=\"_blank\">菜单屏幕</a>以管理您的菜单。"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:63
+msgid "Navigation Menu"
+msgstr "导航菜单"
+
+#: inc/widgets-manager/widgets/class-page-title.php:327
+#: inc/widgets-manager/widgets/class-site-title.php:316
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: inc/widgets-manager/widgets/class-page-title.php:260
+msgid "Justified"
+msgstr "两端对齐"
+
+#: inc/widgets-manager/widgets/class-page-title.php:234
+#: inc/widgets-manager/widgets/class-site-title.php:207
+msgid "Large"
+msgstr "大号"
+
+#: inc/widgets-manager/widgets/class-page-title.php:233
+#: inc/widgets-manager/widgets/class-site-title.php:206
+msgid "Medium"
+msgstr "中等"
+
+#: inc/widgets-manager/widgets/class-page-title.php:232
+#: inc/widgets-manager/widgets/class-site-title.php:205
+msgid "Small"
+msgstr "小号"
+
+#: inc/widgets-manager/widgets/class-cart.php:253
+#: inc/widgets-manager/widgets/class-page-title.php:227
+#: inc/widgets-manager/widgets/class-search-button.php:157
+#: inc/widgets-manager/widgets/class-search-button.php:875
+#: inc/widgets-manager/widgets/class-site-title.php:200
+msgid "Size"
+msgstr "尺寸"
+
+#: inc/widgets-manager/widgets/class-cart.php:464
+#: inc/widgets-manager/widgets/class-page-title.php:159
+#: inc/widgets-manager/widgets/class-site-tagline.php:148
+#: inc/widgets-manager/widgets/class-site-title.php:150
+msgid "Icon Spacing"
+msgstr "图标间距"
+
+#: inc/widgets-manager/widgets/class-page-title.php:56
+msgid "Page Title"
+msgstr "页面标题"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:283
+msgid "Site logo"
+msgstr "站点徽标"
+
+#: inc/widgets-manager/widgets/class-site-logo.php:61
+#: inc/widgets-manager/widgets/class-site-logo.php:117
+msgid "Site Logo"
+msgstr "站点徽标"
+
+#: inc/widgets-manager/widgets/class-retina.php:258
+#: inc/widgets-manager/widgets/class-search-button.php:206
+#: inc/widgets-manager/widgets/class-search-button.php:759
+#: inc/widgets-manager/widgets/class-site-logo.php:291
+msgid "Width"
+msgstr "宽度"
+
+#: inc/widgets-manager/widgets/class-cart.php:361
+#: inc/widgets-manager/widgets/class-cart.php:417
+#: inc/widgets-manager/widgets/class-cart.php:548
+#: inc/widgets-manager/widgets/class-cart.php:585
+#: inc/widgets-manager/widgets/class-navigation-menu.php:816
+#: inc/widgets-manager/widgets/class-navigation-menu.php:958
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1000
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1063
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1163
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1206
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1249
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1531
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1564
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1725
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1791
+#: inc/widgets-manager/widgets/class-retina.php:547
+#: inc/widgets-manager/widgets/class-search-button.php:277
+#: inc/widgets-manager/widgets/class-search-button.php:441
+#: inc/widgets-manager/widgets/class-search-button.php:508
+#: inc/widgets-manager/widgets/class-search-button.php:700
+#: inc/widgets-manager/widgets/class-site-logo.php:363
+#: inc/widgets-manager/widgets/class-site-logo.php:589
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/widgets-manager/widgets/class-copyright.php:124
+#: inc/widgets-manager/widgets/class-page-title.php:194
+#: inc/widgets-manager/widgets/class-retina.php:231
+#: inc/widgets-manager/widgets/class-site-logo.php:238
+#: inc/widgets-manager/widgets/class-site-title.php:184
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: inc/class-hfe-settings-page.php:185 inc/class-hfe-settings-page.php:186
+#: inc/class-hfe-settings-page.php:805
+msgid "Settings"
+msgstr "设置"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:670
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:775
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:1079
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:1109
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:1559
+msgid "Select"
+msgstr "选择"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:624
+msgid "Please enter"
+msgstr "请输入"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:625
+msgid "Please delete"
+msgstr "请删除"
+
+#: inc/widgets-manager/widgets/class-retina.php:295
+#: inc/widgets-manager/widgets/class-site-logo.php:327
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:217
+msgid "Logged Out"
+msgstr "注销"
+
+#: inc/class-header-footer-elementor.php:184
+msgid "Nope, maybe later"
+msgstr "不，以后再说"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:130
+msgid "Front Page"
+msgstr "首页"
+
+#: admin/class-hfe-admin.php:137
+msgid "Date"
+msgstr "日期"
+
+#: inc/widgets-manager/widgets/class-retina.php:149
+#: inc/widgets-manager/widgets/class-site-logo.php:154
+msgid "Image Size"
+msgstr "图像尺寸"
+
+#: inc/widgets-manager/widgets/class-retina.php:122
+msgid "Choose Default Image"
+msgstr "选择默认图像"
+
+#: inc/widgets-manager/widgets/class-retina.php:135
+msgid "Choose Retina Image"
+msgstr "选择视网膜图像"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:216
+msgid "Logged In"
+msgstr "已登录"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:628
+msgid "Loading more results…"
+msgstr "正在加载更多结果…"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:136
+msgid "WooCommerce Shop Page"
+msgstr "WooCommerce商店页面"
+
+#: admin/class-hfe-admin.php:404
+msgid "User Roles"
+msgstr "用户角色"
+
+#: inc/widgets-manager/widgets/class-retina.php:59
+#: inc/widgets-manager/widgets/class-retina.php:116
+#: inc/widgets-manager/widgets/class-retina.php:250
+msgid "Retina Image"
+msgstr "视网膜图像"
+
+#: inc/widgets-manager/widgets/class-page-title.php:181
+#: inc/widgets-manager/widgets/class-retina.php:218
+#: inc/widgets-manager/widgets/class-site-logo.php:225
+#: inc/widgets-manager/widgets/class-site-title.php:172
+msgid "Custom URL"
+msgstr "自定义 URL"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:127
+msgid "404 Page"
+msgstr "404页"
+
+#: admin/class-hfe-admin.php:415
+msgid "Add User Rule"
+msgstr "添加用户规则"
+
+#: admin/class-hfe-admin.php:412
+msgid "Users"
+msgstr "用户"
+
+#: admin/class-hfe-admin.php:405
+msgid "Display custom template based on user role."
+msgstr "根据用户角色显示自定义模板。"
+
+#: admin/class-hfe-admin.php:391
+msgid "Exclude On"
+msgstr "排除在"
+
+#: admin/class-hfe-admin.php:382
+msgid "Do Not Display On"
+msgstr "不显示"
+
+#: admin/class-hfe-admin.php:373
+msgid "Add Display Rule"
+msgstr "添加显示规则"
+
+#: admin/class-hfe-admin.php:362
+msgid "Add locations for where this template should appear."
+msgstr "添加此模板应出现的位置。"
+
+#: admin/class-hfe-admin.php:360
+msgid "Display On"
+msgstr "显示在"
+
+#: admin/class-hfe-admin.php:136 admin/class-hfe-admin.php:369
+msgid "Display Rules"
+msgstr "显示规则"
+
+#: inc/class-header-footer-elementor.php:479
+msgid "Theme Support"
+msgstr "主题支持"
+
+#: inc/class-hfe-settings-page.php:166
+msgid "Sometimes above methods might not work well with your theme, in this case, contact your theme author and request them to add support for the <a href=\"https://github.com/Nikschavan/header-footer-elementor/wiki/Adding-Header-Footer-Elementor-support-for-your-theme\">plugin.</>"
+msgstr "有时候，上面的方法可能无法很好的兼容您的主题，这种情况下，请联系您的主题作者，并请求它们添加对<a href=\"https://github.com/Nikschavan/header-footer-elementor/wiki/Adding-Header-Footer-Elementor-support-for-your-theme\">插件</a>的支持"
+
+#: inc/class-hfe-settings-page.php:153
+msgid "Method 2"
+msgstr "方法二"
+
+#: inc/class-hfe-settings-page.php:150
+msgid "This method replaces your theme's header (header.php) & footer (footer.php) template with plugin's custom templates."
+msgstr "此方法用插件的自定义模板替换主题的页眉（header.php）和页脚（footer.php）模板。"
+
+#: inc/class-hfe-settings-page.php:149
+msgid " Method 1 (Recommended)"
+msgstr " 方法1（建议）"
+
+#: inc/class-hfe-settings-page.php:115
+msgid "Add Theme Support"
+msgstr "添加主题支持"
+
+#. translators: %s post title.
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:1500
+msgid "The same display setting is already exist in %s post/s."
+msgstr "相同的显示设置已经存在于 %s 文章。"
+
+#: admin/class-hfe-admin.php:394
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:846
+msgid "Add Exclusion Rule"
+msgstr "添加排除规则"
+
+#. translators: %s post label
+#. translators: %s taxonomy label
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:725
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:734
+msgid "All %s Archive"
+msgstr "所有 %s 归档"
+
+#. translators: %s post label
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:720
+msgid "All %s"
+msgstr "所有 %s"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:654
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:1063
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:635
+msgid "Search pages / post / categories"
+msgstr "搜索页面/文章/类别"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:634
+msgid "The results could not be loaded."
+msgstr "结果无法加载。"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:633
+msgid "Searching…"
+msgstr "正在搜索…"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:632
+msgid "No results found"
+msgstr "没有找到结果"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:631
+msgid "s"
+msgstr "秒"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:630
+msgid "item"
+msgstr "项"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:629
+msgid "You can only select"
+msgstr "您只能选择"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:627
+msgid "character"
+msgstr "字符"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:626
+msgid "or more characters"
+msgstr "或更多字符"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:222
+msgid "Advanced"
+msgstr "高级"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:215
+msgid "All"
+msgstr "所有"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:193
+msgid "Specific Pages / Posts / Taxonomies, etc."
+msgstr "指定的页面/文章/分类等。"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:191
+msgid "Specific Target"
+msgstr "特定目标"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:150
+msgid "Special Pages"
+msgstr "特殊页面"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:145
+msgid "All Archives"
+msgstr "所有归档"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:144
+msgid "All Singulars"
+msgstr "所有详情页"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:143
+msgid "Entire Website"
+msgstr "整个网站"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:141
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:213
+msgid "Basic"
+msgstr "基本"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:132
+msgid "Author Archive"
+msgstr "作者存档"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:131
+msgid "Date Archive"
+msgstr "日期存档页"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:129
+msgid "Blog / Posts Page"
+msgstr "博客/文章页面"
+
+#: inc/lib/target-rule/class-astra-target-rules-fields.php:128
+msgid "Search Page"
+msgstr "搜索结果页面"
+
+#: inc/lib/astra-notices/class-astra-notices.php:119
+msgid "WordPress Nonce not validated."
+msgstr "WordPress 随机数没有通过验证。"
+
+#. translators: %1$s doc link
+#: inc/widgets-manager/widgets/class-retina.php:633
+msgid "%1$s Getting started article » %2$s"
+msgstr "%1$s 入门文章» %2$s"
+
+#: inc/widgets-manager/widgets/class-retina.php:624
+msgid "Helpful Information"
+msgstr "有用的信息"
+
+#: inc/widgets-manager/widgets/class-retina.php:589
+msgid "Caption Top Spacing"
+msgstr "标题顶部间距"
+
+#: inc/widgets-manager/widgets/class-cart.php:311
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1690
+#: inc/widgets-manager/widgets/class-retina.php:577
+#: inc/widgets-manager/widgets/class-site-logo.php:619
+msgid "Padding"
+msgstr "内距"
+
+#: inc/widgets-manager/widgets/class-retina.php:491
+#: inc/widgets-manager/widgets/class-site-logo.php:517
+msgid "Transition Duration"
+msgstr "过渡时间"
+
+#: inc/widgets-manager/widgets/class-retina.php:484
+#: inc/widgets-manager/widgets/class-site-logo.php:542
+msgid "Hover Animation"
+msgstr "悬停动画"
+
+#: inc/widgets-manager/widgets/class-cart.php:385
+#: inc/widgets-manager/widgets/class-cart.php:564
+#: inc/widgets-manager/widgets/class-navigation-menu.php:975
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1182
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1544
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1772
+#: inc/widgets-manager/widgets/class-retina.php:452
+#: inc/widgets-manager/widgets/class-search-button.php:682
+#: inc/widgets-manager/widgets/class-search-button.php:817
+#: inc/widgets-manager/widgets/class-search-button.php:926
+#: inc/widgets-manager/widgets/class-site-logo.php:494
+msgid "Hover"
+msgstr "悬停"
+
+#: inc/widgets-manager/widgets/class-retina.php:424
+#: inc/widgets-manager/widgets/class-retina.php:458
+#: inc/widgets-manager/widgets/class-site-logo.php:466
+#: inc/widgets-manager/widgets/class-site-logo.php:500
+msgid "Opacity"
+msgstr "不透明度"
+
+#: inc/widgets-manager/widgets/class-cart.php:329
+#: inc/widgets-manager/widgets/class-cart.php:527
+#: inc/widgets-manager/widgets/class-navigation-menu.php:936
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1139
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1512
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1705
+#: inc/widgets-manager/widgets/class-page-title.php:330
+#: inc/widgets-manager/widgets/class-retina.php:417
+#: inc/widgets-manager/widgets/class-search-button.php:232
+#: inc/widgets-manager/widgets/class-search-button.php:642
+#: inc/widgets-manager/widgets/class-search-button.php:797
+#: inc/widgets-manager/widgets/class-search-button.php:902
+#: inc/widgets-manager/widgets/class-site-logo.php:459
+#: inc/widgets-manager/widgets/class-site-title.php:319
+msgid "Normal"
+msgstr "常规"
+
+#: inc/widgets-manager/widgets/class-cart.php:291
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1297
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1615
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1750
+#: inc/widgets-manager/widgets/class-retina.php:391
+#: inc/widgets-manager/widgets/class-search-button.php:372
+#: inc/widgets-manager/widgets/class-search-button.php:603
+#: inc/widgets-manager/widgets/class-site-logo.php:433
+msgid "Border Radius"
+msgstr "边框半径"
+
+#: inc/widgets-manager/widgets/class-cart.php:372
+#: inc/widgets-manager/widgets/class-cart.php:428
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1458
+#: inc/widgets-manager/widgets/class-retina.php:373
+#: inc/widgets-manager/widgets/class-search-button.php:326
+#: inc/widgets-manager/widgets/class-search-button.php:474
+#: inc/widgets-manager/widgets/class-search-button.php:564
+#: inc/widgets-manager/widgets/class-site-logo.php:415
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: inc/widgets-manager/widgets/class-cart.php:272
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1475
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1598
+#: inc/widgets-manager/widgets/class-retina.php:351
+#: inc/widgets-manager/widgets/class-search-button.php:347
+#: inc/widgets-manager/widgets/class-search-button.php:580
+#: inc/widgets-manager/widgets/class-site-logo.php:393
+msgid "Border Width"
+msgstr "边框宽度"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1446
+#: inc/widgets-manager/widgets/class-retina.php:341
+#: inc/widgets-manager/widgets/class-search-button.php:312
+#: inc/widgets-manager/widgets/class-search-button.php:550
+#: inc/widgets-manager/widgets/class-site-logo.php:383
+msgid "Dashed"
+msgstr "虚线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1445
+#: inc/widgets-manager/widgets/class-retina.php:340
+#: inc/widgets-manager/widgets/class-search-button.php:311
+#: inc/widgets-manager/widgets/class-search-button.php:549
+#: inc/widgets-manager/widgets/class-site-logo.php:382
+msgid "Dotted"
+msgstr "圆点"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1444
+#: inc/widgets-manager/widgets/class-retina.php:339
+#: inc/widgets-manager/widgets/class-search-button.php:310
+#: inc/widgets-manager/widgets/class-search-button.php:548
+#: inc/widgets-manager/widgets/class-site-logo.php:381
+msgid "Double"
+msgstr "双实线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1443
+#: inc/widgets-manager/widgets/class-retina.php:338
+#: inc/widgets-manager/widgets/class-search-button.php:309
+#: inc/widgets-manager/widgets/class-search-button.php:547
+#: inc/widgets-manager/widgets/class-site-logo.php:380
+msgid "Solid"
+msgstr "实线"
+
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1437
+#: inc/widgets-manager/widgets/class-retina.php:332
+#: inc/widgets-manager/widgets/class-search-button.php:303
+#: inc/widgets-manager/widgets/class-search-button.php:541
+#: inc/widgets-manager/widgets/class-site-logo.php:374
+msgid "Border Style"
+msgstr "边框样式"
+
+#: inc/widgets-manager/widgets/class-retina.php:199
+msgid "Enter your image caption"
+msgstr "输入您的图像标题"
+
+#: inc/widgets-manager/widgets/class-retina.php:187
+#: inc/widgets-manager/widgets/class-retina.php:196
+#: inc/widgets-manager/widgets/class-site-logo.php:201
+msgid "Custom Caption"
+msgstr "自定义标题"
+
+#: inc/widgets-manager/widgets/class-cart.php:149
+#: inc/widgets-manager/widgets/class-navigation-menu.php:496
+#: inc/widgets-manager/widgets/class-navigation-menu.php:835
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1442
+#: inc/widgets-manager/widgets/class-page-title.php:183
+#: inc/widgets-manager/widgets/class-retina.php:186
+#: inc/widgets-manager/widgets/class-retina.php:217
+#: inc/widgets-manager/widgets/class-retina.php:337
+#: inc/widgets-manager/widgets/class-search-button.php:308
+#: inc/widgets-manager/widgets/class-search-button.php:546
+#: inc/widgets-manager/widgets/class-site-logo.php:223
+#: inc/widgets-manager/widgets/class-site-logo.php:379
+msgid "None"
+msgstr "不显示"
+
+#: inc/widgets-manager/widgets/class-retina.php:183
+#: inc/widgets-manager/widgets/class-retina.php:521
+#: inc/widgets-manager/widgets/class-site-logo.php:188
+#: inc/widgets-manager/widgets/class-site-logo.php:563
+msgid "Caption"
+msgstr "字幕"
+
+#: inc/widgets-manager/widgets/class-cart.php:336
+#: inc/widgets-manager/widgets/class-cart.php:392
+#: inc/widgets-manager/widgets/class-cart.php:534
+#: inc/widgets-manager/widgets/class-cart.php:571
+#: inc/widgets-manager/widgets/class-copyright.php:157
+#: inc/widgets-manager/widgets/class-navigation-menu.php:943
+#: inc/widgets-manager/widgets/class-navigation-menu.php:982
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1050
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1146
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1189
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1232
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1712
+#: inc/widgets-manager/widgets/class-navigation-menu.php:1779
+#: inc/widgets-manager/widgets/class-retina.php:532
+#: inc/widgets-manager/widgets/class-search-button.php:242
+#: inc/widgets-manager/widgets/class-search-button.php:409
+#: inc/widgets-manager/widgets/class-search-button.php:493
+#: inc/widgets-manager/widgets/class-site-logo.php:574
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: inc/widgets-manager/widgets/class-cart.php:208
+#: inc/widgets-manager/widgets/class-copyright.php:143
+#: inc/widgets-manager/widgets/class-navigation-menu.php:304
+#: inc/widgets-manager/widgets/class-navigation-menu.php:328
+#: inc/widgets-manager/widgets/class-navigation-menu.php:370
+#: inc/widgets-manager/widgets/class-navigation-menu.php:406
+#: inc/widgets-manager/widgets/class-navigation-menu.php:521
+#: inc/widgets-manager/widgets/class-page-title.php:256
+#: inc/widgets-manager/widgets/class-retina.php:168
+#: inc/widgets-manager/widgets/class-site-logo.php:173
+#: inc/widgets-manager/widgets/class-site-tagline.php:179
+#: inc/widgets-manager/widgets/class-site-title.php:246
+msgid "Right"
+msgstr "靠右"
+
+#: inc/widgets-manager/widgets/class-cart.php:204
+#: inc/widgets-manager/widgets/class-copyright.php:139
+#: inc/widgets-manager/widgets/class-navigation-menu.php:300
+#: inc/widgets-manager/widgets/class-navigation-menu.php:366
+#: inc/widgets-manager/widgets/class-navigation-menu.php:402
+#: inc/widgets-manager/widgets/class-navigation-menu.php:517
+#: inc/widgets-manager/widgets/class-page-title.php:252
+#: inc/widgets-manager/widgets/class-retina.php:164
+#: inc/widgets-manager/widgets/class-site-logo.php:169
+#: inc/widgets-manager/widgets/class-site-tagline.php:175
+#: inc/widgets-manager/widgets/class-site-title.php:242
+msgid "Center"
+msgstr "居中"
+
+#: inc/widgets-manager/widgets/class-cart.php:200
+#: inc/widgets-manager/widgets/class-copyright.php:135
+#: inc/widgets-manager/widgets/class-navigation-menu.php:296
+#: inc/widgets-manager/widgets/class-navigation-menu.php:327
+#: inc/widgets-manager/widgets/class-navigation-menu.php:362
+#: inc/widgets-manager/widgets/class-navigation-menu.php:398
+#: inc/widgets-manager/widgets/class-navigation-menu.php:513
+#: inc/widgets-manager/widgets/class-page-title.php:248
+#: inc/widgets-manager/widgets/class-retina.php:160
+#: inc/widgets-manager/widgets/class-site-logo.php:165
+#: inc/widgets-manager/widgets/class-site-tagline.php:171
+#: inc/widgets-manager/widgets/class-site-title.php:238
+msgid "Left"
+msgstr "靠左"
+
+#: inc/widgets-manager/widgets/class-cart.php:196
+#: inc/widgets-manager/widgets/class-copyright.php:131
+#: inc/widgets-manager/widgets/class-navigation-menu.php:292
+#: inc/widgets-manager/widgets/class-navigation-menu.php:509
+#: inc/widgets-manager/widgets/class-page-title.php:244
+#: inc/widgets-manager/widgets/class-retina.php:156
+#: inc/widgets-manager/widgets/class-site-logo.php:161
+#: inc/widgets-manager/widgets/class-site-tagline.php:167
+#: inc/widgets-manager/widgets/class-site-title.php:234
+msgid "Alignment"
+msgstr "对齐"
+
+#: inc/widgets-manager/widgets/class-copyright.php:122
+#: inc/widgets-manager/widgets/class-page-title.php:178
+#: inc/widgets-manager/widgets/class-page-title.php:192
+#: inc/widgets-manager/widgets/class-retina.php:213
+#: inc/widgets-manager/widgets/class-retina.php:226
+#: inc/widgets-manager/widgets/class-site-logo.php:218
+#: inc/widgets-manager/widgets/class-site-logo.php:233
+#: inc/widgets-manager/widgets/class-site-title.php:169
+#: inc/widgets-manager/widgets/class-site-title.php:182
+msgid "Link"
+msgstr "链接"
+
+#: inc/widgets-manager/widgets/class-copyright.php:115
+msgid "Copyright © [hfe_current_year] [hfe_site_title] | Powered by [hfe_site_title]"
+msgstr "版权© [hfe_current_year] [hfe_site_title]  |由 [hfe_site_title] 技术支持"
+
+#: inc/widgets-manager/widgets/class-copyright.php:110
+msgid "Copyright Text"
+msgstr "版权文本"
+
+#: inc/widgets-manager/widgets/class-copyright.php:52
+#: inc/widgets-manager/widgets/class-copyright.php:103
+msgid "Copyright"
+msgstr "版权"
+
+#: inc/class-header-footer-elementor.php:185
+msgid "I already did"
+msgstr "我已经做了"
+
+#: inc/class-header-footer-elementor.php:182
+msgid "Ok, you deserve it"
+msgstr "好的，这是你应得的"
+
+#: admin/class-hfe-admin.php:320
+msgid "Copy this shortcode and paste it into your post, page, or text widget content."
+msgstr "复制此短代码并将其粘贴到您的文章、页面或文本小工具内容中。"
+
+#: admin/class-hfe-admin.php:319 admin/class-hfe-admin.php:564
+msgid "Shortcode"
+msgstr "短代码"
+
+#: admin/class-hfe-admin.php:311
+msgid "Custom Block"
+msgstr "自定义内容块"
+
+#: admin/class-hfe-admin.php:309
+msgid "Before Footer"
+msgstr "页脚之前"
+
+#: admin/class-hfe-admin.php:303
+msgid "Type of Template"
+msgstr "模板类型"
+
+#: admin/class-hfe-admin.php:307
+msgid "Select Option"
+msgstr "选择选项"
+
+#: admin/class-hfe-admin.php:310
+msgid "Footer"
+msgstr "页脚"
+
+#: admin/class-hfe-admin.php:308
+msgid "Header"
+msgstr "页头"
+
+#: admin/class-hfe-admin.php:334
+msgid "Enabling this option will display this layout on pages using Elementor Canvas Template."
+msgstr "启用此选项将使用Elementor画布模板在页面上显示此布局。"
+
+#: admin/class-hfe-admin.php:332
+msgid "Enable Layout for Elementor Canvas Template?"
+msgstr "为Elementor画布模板启用布局?"
+
+#. Translators: Post title, Template Location
+#: admin/class-hfe-admin.php:495
+msgid "Template %1$s is already assigned to the location %2$s"
+msgstr "模板 %1$s 已经分配到该位置 %2$s"
+
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com/"
+msgstr "https://www.brainstormforce.com/"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Nikschavan/header-footer-elementor"
+msgstr "https://github.com/Nikschavan/header-footer-elementor"
+
+#. Author of the plugin
+msgid "Brainstorm Force, Nikhil Chavan"
+msgstr "Brainstorm Force, Nikhil Chavan"
+
+#: admin/class-hfe-admin.php:224
+msgid "Add New"
+msgstr "添加"

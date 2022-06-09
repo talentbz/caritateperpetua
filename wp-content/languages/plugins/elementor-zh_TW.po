@@ -1,0 +1,4876 @@
+# Translation of Plugins - Elementor Website Builder - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-25 01:05:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
+
+#: core/kits/views/trash-kit-confirmation.php:33
+msgid "Keep my settings"
+msgstr "保持原先設定"
+
+#: core/kits/views/trash-kit-confirmation.php:17
+msgid "Are you sure you want to delete your Site Settings?"
+msgstr "確定要刪除這個網站的 [網站設定]？"
+
+#: core/kits/manager.php:392 assets/js/app.js:13317 assets/js/app.js:13884
+#: assets/js/editor.js:42479 assets/js/editor.js:42483
+#: assets/js/editor.js:42493
+msgid "Site Settings"
+msgstr "網站設定"
+
+#: core/kits/documents/tabs/settings-site-identity.php:87
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1213
+msgid "Site Logo"
+msgstr "網站標誌"
+
+#: core/kits/documents/tabs/settings-site-identity.php:65
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1209
+msgid "Site Name"
+msgstr "網站名稱"
+
+#: core/kits/documents/tabs/settings-site-identity.php:20
+msgid "Site Identity"
+msgstr "網站識別"
+
+#: core/settings/editor-preferences/model.php:38 assets/js/editor.js:32153
+msgid "User Preferences"
+msgstr "使用者偏好設定"
+
+#: core/kits/documents/tabs/settings-site-identity.php:102
+msgid "Site Favicon"
+msgstr "網站圖標"
+
+#: includes/widgets/common.php:1445 includes/widgets/image.php:363
+msgid "Fill"
+msgstr "填滿"
+
+#: core/kits/documents/tabs/settings-site-identity.php:76
+msgid "Site Description"
+msgstr "網站說明"
+
+#: includes/controls/media.php:251
+msgid "Click the media icon to upload file"
+msgstr "點擊媒體圖示以上傳檔案"
+
+#: includes/settings/settings.php:290
+msgid "Watch the Full Guide"
+msgstr "觀看完整指南"
+
+#: includes/settings/settings.php:278
+msgid "Get introduced to Elementor by watching our \"Getting Started\" video series. It will guide you through the steps needed to create your website. Then click to create your first page."
+msgstr "觀看我們的「入門」影音系列，了解 Elementor ，它將指導您完成創建網站所需的步驟，然後點擊以創建您的第一頁。"
+
+#: includes/settings/settings.php:548 assets/js/admin.js:867
+#: assets/js/admin.js:874 assets/js/common.js:2572 assets/js/common.js:2579
+#: assets/js/editor.js:34359 assets/js/editor.js:34366
+msgid "Enable Unfiltered File Uploads"
+msgstr "啟用未過濾的檔案上傳"
+
+#: modules/safe-mode/module.php:400
+msgid "If you are experiencing a loading issue, contact your site administrator to troubleshoot the problem using Safe Mode."
+msgstr "如果遇到載入問題，請與您的網站管理員聯繫，改以使用安全模式解決問題。"
+
+#: includes/frontend.php:1301
+msgid "Download image"
+msgstr "下載圖片"
+
+#: includes/frontend.php:1299
+msgid "Pin it"
+msgstr "釘上"
+
+#: includes/frontend.php:1298
+msgid "Share on Twitter"
+msgstr "分享到 Twitter"
+
+#: includes/frontend.php:1297
+msgid "Share on Facebook"
+msgstr "分享到 Facebook"
+
+#: includes/controls/url.php:113
+msgid "Custom Attributes"
+msgstr "自訂屬性"
+
+#: includes/controls/url.php:75
+msgid "Set custom attributes for the link element. Separate attribute keys from values using the | (pipe) character. Separate key-value pairs with a comma."
+msgstr "設置連結元素的自訂屬性。 使用管道符號 | 將屬性鍵與值分開， 用逗號分隔各個「鍵值」。"
+
+#: includes/editor-templates/panel.php:286
+msgid "See it in action"
+msgstr "實際看看操作方式"
+
+#: includes/editor-templates/panel.php:283
+msgid "You’re missing out!"
+msgstr "您錯過了！"
+
+#: includes/editor-templates/panel.php:280
+msgid "Elementor Dynamic Content"
+msgstr "Elementor 動態內容"
+
+#: includes/editor-templates/panel.php:255
+msgid "Dynamic Tags"
+msgstr "動態標籤"
+
+#: includes/managers/icons.php:498
+msgid "We highly recommend backing up your database before performing this upgrade."
+msgstr "我們強烈建議你在優化這個升級之前要先備份好資料庫。"
+
+#: includes/managers/icons.php:497
+msgid "The upgrade process includes a database update"
+msgstr "升級過程包括資料庫更新"
+
+#: includes/managers/controls.php:1095
+msgid "Attributes lets you add custom HTML attributes to any element."
+msgstr "屬性讓您可以將自訂 HTML 屬性添加到任何元素。"
+
+#: includes/managers/controls.php:1093
+msgid "Meet Our Attributes"
+msgstr "了解我們的屬性"
+
+#: includes/managers/controls.php:1083
+msgid "Attributes"
+msgstr "屬性"
+
+#: core/base/db-upgrades-manager.php:114
+msgid "Click here to run it now"
+msgstr "點擊此處立即執行"
+
+#: core/kits/documents/tabs/settings-lightbox.php:186
+msgid "Navigation Icons Size"
+msgstr "導覽圖示尺寸"
+
+#: core/kits/documents/tabs/settings-lightbox.php:174
+msgid "Toolbar Icons Size"
+msgstr "工具列圖示尺寸"
+
+#: core/kits/documents/tabs/settings-lightbox.php:102
+#: core/kits/documents/tabs/settings-lightbox.php:119
+msgid "Alt"
+msgstr "或者"
+
+#: core/kits/documents/tabs/settings-lightbox.php:86 includes/frontend.php:1304
+msgid "Share"
+msgstr "分享"
+
+#: core/kits/documents/tabs/settings-lightbox.php:66 includes/frontend.php:1302
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: core/admin/admin-notices.php:325
+msgid "With Elementor Pro’s WooCommerce Builder, you’ll be able to design your store without coding!"
+msgstr "使用 WooCommerce？借助 Elementor Pro 的 WooCommerce 建構器，您不再需要具備程式能力即可設計商店！"
+
+#: core/kits/manager.php:150 core/kits/manager.php:168
+msgid "Default Kit"
+msgstr "預設套件"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:130
+msgid "Focus"
+msgstr "焦點"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:100
+msgid "Field"
+msgstr "欄位"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:71
+msgid "Label"
+msgstr "標籤"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:21
+#: core/kits/documents/tabs/theme-style-form-fields.php:60
+msgid "Form Fields"
+msgstr "表單欄位"
+
+#: core/kits/documents/tabs/theme-style-typography.php:77
+msgid "Paragraph Spacing"
+msgstr "段落間距"
+
+#: core/kits/documents/tabs/theme-style-typography.php:49
+msgid "Body"
+msgstr "主體"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:23
+#: core/kits/documents/tabs/theme-style-buttons.php:63
+msgid "Buttons"
+msgstr "按鈕"
+
+#: core/kits/documents/kit.php:168
+msgid "Draft"
+msgstr "草稿"
+
+#: core/kits/documents/kit.php:44
+msgid "Kit"
+msgstr "套件"
+
+#: includes/editor-templates/panel.php:284
+msgid "Get more dynamic capabilities by incorporating dozens of Elementor's native dynamic tags."
+msgstr "透過整合數十個 Elementor 原生動態標籤取得更多的功能。"
+
+#: core/common/modules/connect/apps/base-app.php:157
+msgid "Already connected."
+msgstr "已連接。"
+
+#: core/settings/editor-preferences/model.php:63
+msgid "Auto Detect"
+msgstr "自動偵測"
+
+#: core/settings/editor-preferences/model.php:60
+msgid "Set light or dark mode, or use Auto Detect to sync it with your OS setting."
+msgstr "設置明亮或黑暗模式，或使用自動檢測將其與您的作業系統設置同步。"
+
+#: core/settings/editor-preferences/model.php:58
+msgid "UI Theme"
+msgstr "UI 佈景主題"
+
+#: core/settings/editor-preferences/model.php:51
+msgid "Preferences"
+msgstr "偏好"
+
+#: includes/controls/groups/background.php:729
+msgid "Background Position"
+msgstr "背景位置"
+
+#: includes/controls/groups/background.php:716
+#: includes/elements/container.php:430 includes/widgets/social-icons.php:276
+msgid "Auto"
+msgstr "自動"
+
+#: includes/settings/settings-page.php:369
+msgid "Usage Data Sharing"
+msgstr "使用數據共享"
+
+#: core/common/modules/connect/apps/library.php:28
+#: core/common/modules/connect/apps/library.php:55
+msgid "Connecting to the Library failed. Please try reloading the page and try again"
+msgstr "連接到庫失敗。請嘗試重新加載頁面並重試"
+
+#: includes/widgets/image-carousel.php:301
+msgid "Pause on Interaction"
+msgstr "交互時暫停"
+
+#. translators: %s: Video provider
+#: includes/embed.php:175
+msgid "%s Video Player"
+msgstr "%s視頻播放器"
+
+#: includes/controls/groups/background.php:710
+msgid "Background Size"
+msgstr "背景大小"
+
+#. translators: %s: Remote user.
+#: core/common/modules/connect/apps/base-app.php:82
+msgid "Connected as %s"
+msgstr "連接為%s"
+
+#: core/settings/editor-preferences/model.php:99
+msgid "Enable Lightbox In Editor"
+msgstr "在編輯器中啟用燈箱"
+
+#: core/settings/editor-preferences/model.php:65
+msgid "Dark"
+msgstr "深色"
+
+#: core/settings/editor-preferences/model.php:64
+msgid "Light"
+msgstr "淺色"
+
+#: includes/controls/groups/background.php:717 includes/widgets/image.php:364
+msgid "Cover"
+msgstr "覆蓋全區"
+
+#: includes/controls/groups/background.php:718 includes/widgets/image.php:365
+msgid "Contain"
+msgstr "完整放置"
+
+#: includes/settings/settings.php:156 includes/settings/settings.php:157
+msgid "Custom Icons"
+msgstr "自訂圖示"
+
+#: includes/settings/settings.php:336
+msgid "Don't rely solely on the FontAwesome icons everyone else is using! Differentiate your website and your style with custom icons you can upload from your favorite icons source."
+msgstr "不要僅靠其他人愛用的 FontAwesome 圖示！ 也可以從您喜歡的圖示來源上傳的自訂圖示來區分您的網站和風格。"
+
+#: includes/settings/settings.php:335
+msgid "Add Your Custom Icons"
+msgstr "增加自訂圖示"
+
+#: includes/controls/groups/background.php:682
+msgid "Transition"
+msgstr "轉場"
+
+#: includes/controls/groups/background.php:672
+msgid "Duration"
+msgstr "期間"
+
+#: core/logger/log-reporter.php:43
+msgid "Clear Log"
+msgstr "清除記錄"
+
+#: includes/controls/groups/background.php:650
+msgctxt "Background Control"
+msgid "Images"
+msgstr "圖片"
+
+#: includes/controls/groups/background.php:103
+msgctxt "Background Control"
+msgid "Video"
+msgstr "影片"
+
+#: includes/controls/groups/background.php:107
+msgctxt "Background Control"
+msgid "Slideshow"
+msgstr "投影片輪播"
+
+#: includes/widgets/divider.php:645
+msgid "Amount"
+msgstr "小計"
+
+#: includes/widgets/divider.php:318 modules/shapes/module.php:23
+msgid "Line"
+msgstr "線"
+
+#: includes/widgets/divider.php:288
+msgctxt "shapes"
+msgid "X"
+msgstr "X"
+
+#: includes/widgets/divider.php:279
+msgctxt "shapes"
+msgid "Tribal"
+msgstr "部落風"
+
+#: includes/widgets/divider.php:270
+msgctxt "shapes"
+msgid "Trees"
+msgstr "樹"
+
+#: includes/widgets/divider.php:261
+msgctxt "shapes"
+msgid "Squares"
+msgstr "方格"
+
+#: includes/widgets/divider.php:252
+msgctxt "shapes"
+msgid "Stripes"
+msgstr "條紋"
+
+#: includes/widgets/divider.php:243
+msgctxt "shapes"
+msgid "Leaves"
+msgstr "樹葉"
+
+#: includes/widgets/divider.php:234
+msgctxt "shapes"
+msgid "Half Rounds"
+msgstr "半輪"
+
+#: includes/widgets/divider.php:225
+msgctxt "shapes"
+msgid "Fir Tree"
+msgstr "樅樹"
+
+#: includes/widgets/divider.php:216
+msgctxt "shapes"
+msgid "Dots"
+msgstr "點"
+
+#: includes/widgets/divider.php:207
+msgctxt "shapes"
+msgid "Rectangles"
+msgstr "矩形"
+
+#: includes/widgets/divider.php:199
+msgctxt "shapes"
+msgid "Parallelogram"
+msgstr "平行四邊形"
+
+#: includes/widgets/divider.php:191
+msgctxt "shapes"
+msgid "Rhombus"
+msgstr "菱形"
+
+#: includes/widgets/divider.php:183
+msgctxt "shapes"
+msgid "Pluses"
+msgstr "加號"
+
+#: includes/widgets/divider.php:175
+msgctxt "shapes"
+msgid "Arrows"
+msgstr "箭頭"
+
+#: includes/widgets/divider.php:167 includes/widgets/divider.php:297
+msgctxt "shapes"
+msgid "Zigzag"
+msgstr "之字形"
+
+#: includes/widgets/divider.php:159
+msgctxt "shapes"
+msgid "Wavy"
+msgstr "波浪形"
+
+#: includes/widgets/divider.php:151
+msgctxt "shapes"
+msgid "Squared"
+msgstr "平方"
+
+#: includes/widgets/divider.php:142
+msgctxt "shapes"
+msgid "Slashes"
+msgstr "斜線"
+
+#: includes/widgets/divider.php:134
+msgctxt "shapes"
+msgid "Multiple"
+msgstr "多種"
+
+#: includes/widgets/divider.php:126
+msgctxt "shapes"
+msgid "Curved"
+msgstr "彎曲"
+
+#: includes/widgets/divider.php:118
+msgctxt "shapes"
+msgid "Curly"
+msgstr "捲曲"
+
+#: includes/widgets/image-gallery.php:44
+msgid "Basic Gallery"
+msgstr "基本圖庫"
+
+#: includes/controls/groups/background.php:781
+msgid "Out"
+msgstr "外"
+
+#: includes/controls/groups/background.php:780
+msgid "In"
+msgstr "內"
+
+#: includes/controls/groups/background.php:765
+msgid "Ken Burns Effect"
+msgstr "動態縮放效果"
+
+#: includes/controls/groups/background.php:635
+msgid "This cover image will replace the background video in case that the video could not be loaded."
+msgstr "如果無法載入該封面圖像，它將替換背景影音。"
+
+#: includes/controls/groups/background.php:609 includes/widgets/video.php:299
+msgid "Play On Mobile"
+msgstr "在手機上播放"
+
+#: includes/controls/groups/background.php:557
+msgid "YouTube/Vimeo link, or link to video file (mp4 is recommended)."
+msgstr "YouTube / Vimeo 連結，或連結到影音檔案（建議使用MP4）。"
+
+#: includes/settings/tools.php:356 includes/settings/tools.php:358
+msgid "Reinstall"
+msgstr "重新安裝"
+
+#: includes/settings/tools.php:150
+msgid "Error occurred, The version selected is invalid. Try selecting different version."
+msgstr "發生錯誤，所選版本無效。 嘗試選擇其他版本。"
+
+#: includes/widgets/divider.php:474
+msgid "Add Element"
+msgstr "新增功能"
+
+#: includes/frontend.php:1307 includes/widgets/image-carousel.php:832
+#: assets/js/app.js:9819 assets/js/app.js:11647 assets/js/app.js:12601
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1860
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1914
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2224
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2525
+msgid "Next"
+msgstr "下一張"
+
+#: includes/frontend.php:1306 includes/widgets/image-carousel.php:828
+#: assets/js/app.js:10849 assets/js/app.js:11636 assets/js/app.js:12595
+msgid "Previous"
+msgstr "上一張"
+
+#: core/document-types/post.php:28
+msgid "Post"
+msgstr "張貼"
+
+#. translators: %s: Path to .htaccess file.
+#: core/debug/classes/htaccess.php:30
+msgid "File Path: %s"
+msgstr "檔案路徑： %s"
+
+#: includes/managers/icons.php:471
+msgid "Load Font Awesome 4 Support"
+msgstr "載入 Font Awesome 4 支援"
+
+#: includes/controls/media.php:263 assets/js/editor.js:8823
+msgid "Upload"
+msgstr "上傳"
+
+#: includes/template-library/sources/local.php:556
+msgid "Template not exist."
+msgstr "版型不存在。"
+
+#: core/kits/views/panel.php:12 includes/editor-templates/panel.php:27
+#: includes/editor-templates/panel.php:159
+msgid "Need Help"
+msgstr "需要幫忙"
+
+#: includes/admin-templates/beta-tester.php:32
+msgid "Your Email"
+msgstr "你的電子郵件"
+
+#: includes/admin-templates/beta-tester.php:30
+msgid "As a beta tester, you’ll receive an update that includes a testing version of Elementor and its content directly to your Email"
+msgstr "作為 Beta 版測試人員，您將收到一個更新，其中包括 Elementor 的測試版本及其內容直接發送到您的電子郵件中"
+
+#: includes/admin-templates/beta-tester.php:29
+msgid "Get Beta Updates"
+msgstr "獲取 Beta 更新"
+
+#: includes/settings/settings.php:556
+msgid "We recommend you only enable this feature if you understand the security risks involved."
+msgstr "我們建議您需在了解所涉及的安全風險後，才啟用此功能。"
+
+#: includes/settings/settings.php:556
+msgid "Elementor will try to sanitize the unfiltered files, removing potential malicious code and scripts."
+msgstr "Elementor 將嘗試清理 SVG 文件，刪除潛在的惡意代碼和腳本。"
+
+#: includes/settings/settings.php:556
+msgid "Please note! Allowing uploads of any files (SVG & JSON included) is a potential security risk."
+msgstr "請注意！ 允許上傳任何文件（包括SVG）具潛在的安全風險。"
+
+#: includes/elements/column.php:886 includes/elements/container.php:1565
+#: includes/elements/section.php:1348 includes/widgets/common.php:1632
+msgid "Responsive visibility will take effect only on preview or live page, and not while editing in Elementor."
+msgstr "響應可見性僅在預覽頁面或實際頁面上有效，而在 Elementor 中編輯時則無效。"
+
+#: includes/base/widget-base.php:1009
+msgid "Deprecated"
+msgstr "棄用"
+
+#: includes/managers/icons.php:527
+msgid "Hurray! The upgrade process to Font Awesome 5 was completed successfully."
+msgstr "讚啦！ 到 Font Awesome 5 的升級過程已成功完成。"
+
+#: includes/managers/icons.php:511
+msgid "Upgrade To Font Awesome 5"
+msgstr "升級到 Font Awesome 5"
+
+#: includes/managers/icons.php:500
+msgid "This action is not reversible and cannot be undone by rolling back to previous versions."
+msgstr "此操作不可撤銷，無法通過退回到以前的版本來撤銷。"
+
+#: includes/managers/icons.php:495
+msgid "Please note that the upgrade process may cause some of the previously used Font Awesome 4 icons to look a bit different due to minor design changes made by Font Awesome."
+msgstr "請注意，由於 Font Awesome 所做的微小設計更改，升級過程可能會導致某些以前使用的 Font Awesome 4 圖標看起來有些不同。"
+
+#: includes/managers/icons.php:493
+msgid "By upgrading, whenever you edit a page containing a Font Awesome 4 icon, Elementor will convert it to the new Font Awesome 5 icon."
+msgstr "通過升級，每當您編輯包含 Font Awesome 4 圖示的頁面時，Elementor 都會將其轉換為新的 Font Awesome 5 圖示。"
+
+#: includes/managers/icons.php:492
+msgid "Access 1,500+ amazing Font Awesome 5 icons and enjoy faster performance and design flexibility."
+msgstr "存取 1,500 多個驚人的 Font Awesome 5 圖示，並享受更快的性能和設計靈活性。"
+
+#: includes/managers/icons.php:479
+msgid "Font Awesome 4 support script (shim.js) is a script that makes sure all previously selected Font Awesome 4 icons are displayed correctly while using Font Awesome 5 library."
+msgstr "Font Awesome 4 支援腳本（shim.js）是一個腳本，可確保在使用 Font Awesome 5 庫時正確顯示所有先前選擇的 Font Awesome 4 圖示。"
+
+#: includes/managers/icons.php:211
+msgid "All Icons"
+msgstr "全部圖示"
+
+#: includes/managers/icons.php:121
+msgid "Font Awesome - Brands"
+msgstr "Font Awesome - 品牌"
+
+#: includes/managers/icons.php:109
+msgid "Font Awesome - Solid"
+msgstr "Font Awesome - 實心"
+
+#: includes/managers/icons.php:97
+msgid "Font Awesome - Regular"
+msgstr "Font Awesome - 一般"
+
+#: core/debug/classes/htaccess.php:11
+msgid "Your site's .htaccess file appears to be missing."
+msgstr "您網站的 .htaccess 檔案似乎丟失了。"
+
+#: core/debug/classes/theme-missing.php:22
+msgid "Some of your theme files are missing."
+msgstr "您的某些佈景主題檔案丟失了。"
+
+#: includes/admin-templates/beta-tester.php:37 assets/js/beta-tester.js:426
+msgid "Sign Up"
+msgstr "註冊"
+
+#: includes/controls/icons.php:88 includes/controls/icons.php:114
+#: includes/controls/icons.php:198 assets/js/editor.js:9555
+msgid "Icon Library"
+msgstr "圖示庫"
+
+#: core/editor/editor.php:199
+msgid "Document not found."
+msgstr "檔案不存在。"
+
+#: includes/controls/icons.php:89 includes/controls/icons.php:110
+#: includes/controls/icons.php:194
+msgid "Upload SVG"
+msgstr "上傳 SVG 檔案"
+
+#: includes/controls/groups/background.php:599
+msgid "Play Once"
+msgstr "撥放一次"
+
+#: includes/controls/media.php:191
+msgid "Choose Video"
+msgstr "選擇影片"
+
+#: includes/managers/icons.php:486 includes/managers/icons.php:490
+#: includes/managers/icons.php:505
+msgid "Font Awesome Upgrade"
+msgstr "升級 Font Awesome"
+
+#: includes/elements/container.php:1338 includes/widgets/common.php:468
+msgid "Vertical Orientation"
+msgstr "垂直方向"
+
+#: includes/elements/container.php:1235 includes/widgets/common.php:365
+msgid "Horizontal Orientation"
+msgstr "水平方向"
+
+#: core/experiments/manager.php:265 includes/elements/container.php:1196
+#: includes/widgets/common.php:332
+msgid "Please note!"
+msgstr "請注意！"
+
+#: includes/settings/controls.php:236
+msgid "Super Admin"
+msgstr "超級管理員"
+
+#: includes/settings/settings.php:209
+msgid "Get Help"
+msgstr "取得幫助"
+
+#: includes/elements/container.php:429 includes/elements/section.php:477
+msgid "Hidden"
+msgstr "隱藏"
+
+#: includes/elements/container.php:423 includes/elements/section.php:472
+msgid "Overflow"
+msgstr "溢出"
+
+#: includes/elements/column.php:211
+msgid "Horizontal Align"
+msgstr "水平對齊"
+
+#: includes/elements/column.php:183 includes/elements/section.php:444
+#: includes/widgets/common.php:306 includes/widgets/image-carousel.php:553
+msgid "Vertical Align"
+msgstr "垂直對齊"
+
+#: includes/elements/container.php:1260 includes/elements/container.php:1299
+#: includes/elements/container.php:1362 includes/elements/container.php:1400
+#: includes/widgets/common.php:390 includes/widgets/common.php:429
+#: includes/widgets/common.php:492 includes/widgets/common.php:530
+#: includes/widgets/common.php:812
+msgid "Offset"
+msgstr "偏移量"
+
+#: includes/elements/container.php:1216 includes/widgets/common.php:351
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/elements/container.php:1215 includes/widgets/common.php:350
+msgid "Absolute"
+msgstr "絕對"
+
+#: includes/elements/container.php:1196 includes/widgets/common.php:332
+msgid "Custom positioning is not considered best practice for responsive web design and should not be used too frequently."
+msgstr "自訂定位不被認為是響應式 Web 設計的最佳實踐，因此不應太頻繁使用。"
+
+#: includes/elements/column.php:825 includes/elements/container.php:1489
+#: includes/elements/section.php:1261 includes/widgets/common.php:617
+msgid "Motion Effects"
+msgstr "動作特效"
+
+#: includes/elements/column.php:193 includes/elements/column.php:221
+#: includes/elements/section.php:454
+msgid "Space Evenly"
+msgstr "平均間距"
+
+#: includes/elements/column.php:192 includes/elements/column.php:220
+#: includes/elements/section.php:453
+msgid "Space Around"
+msgstr "平均（含外部）間距"
+
+#: modules/safe-mode/module.php:391
+msgid "Having problems loading Elementor? Please enable Safe Mode to troubleshoot."
+msgstr "載入 Elementor 時遇到問題？請啟用安全模式進行故障排除。"
+
+#: modules/safe-mode/module.php:289
+msgid "The issue was probably caused by one of your plugins or theme."
+msgstr "該問題可能是由您的外掛或佈景主題之一引起的。"
+
+#. translators: %s: Accepted chars.
+#: includes/widgets/menu-anchor.php:110
+msgid "Note: The ID link ONLY accepts these chars: %s"
+msgstr "注意：ID 連結僅接受以下字元：%s"
+
+#: core/base/db-upgrades-manager.php:89
+msgid "Your site database needs to be updated to the latest version."
+msgstr "%s 您的網站資料庫需要更新到最新版本。"
+
+#: includes/controls/groups/background.php:282
+#: includes/controls/groups/background.php:487
+msgctxt "Background Control"
+msgid "Custom"
+msgstr "自訂"
+
+#: modules/safe-mode/module.php:385 modules/safe-mode/module.php:397
+msgid "Can't Edit?"
+msgstr "無法編輯？"
+
+#: includes/controls/media.php:197 includes/widgets/video.php:201
+msgid "Choose File"
+msgstr "選擇檔案"
+
+#: includes/widgets/read-more.php:88
+msgid "Continue reading"
+msgstr "繼續閱讀"
+
+#. translators: %s: Current post name.
+#: includes/frontend.php:1430
+msgid "Continue reading %s"
+msgstr "繼續閱讀 %s"
+
+#: modules/safe-mode/module.php:279 modules/safe-mode/module.php:509
+msgid "Disable Safe Mode"
+msgstr "停用安全模式"
+
+#: core/upgrade/manager.php:40
+msgid "Elementor Data Updater"
+msgstr "Elementor 資料更新器"
+
+#: modules/safe-mode/module.php:387
+msgid "Enable Safe Mode"
+msgstr "啟用安全模式"
+
+#. translators: %d: Interval in minutes.
+#: core/base/background-process/wp-background-process.php:438
+msgid "Every %d Minutes"
+msgstr "每 %d 分鐘"
+
+#: includes/widgets/google-maps.php:132
+msgid "Location"
+msgstr "位置"
+
+#: includes/widgets/read-more.php:41 includes/widgets/read-more.php:84
+msgid "Read More"
+msgstr "閱讀更多"
+
+#: includes/widgets/read-more.php:117
+msgid "Read More Text"
+msgstr "閱讀更多文字"
+
+#: modules/safe-mode/module.php:42
+msgid "Safe Mode"
+msgstr "安全模式"
+
+#: includes/template-library/sources/local.php:320
+msgctxt "Template Library"
+msgid "All Categories"
+msgstr "全部分類"
+
+#: includes/template-library/sources/local.php:318
+msgctxt "Template Library"
+msgid "Categories"
+msgstr "分類"
+
+#: includes/template-library/sources/local.php:319
+msgctxt "Template Library"
+msgid "Category"
+msgstr "分類"
+
+#: includes/template-library/sources/local.php:1346
+msgctxt "Template Library"
+msgid "Filter by category"
+msgstr "按分類篩選"
+
+#: core/app/app.php:40 core/app/app.php:41
+#: core/app/modules/site-editor/module.php:31
+#: core/common/modules/finder/categories/general.php:72
+#: includes/template-library/sources/local.php:1642
+#: assets/js/app-packages.js:7506 assets/js/editor.js:42504
+msgid "Theme Builder"
+msgstr "主題建構器"
+
+#: modules/safe-mode/module.php:95
+msgid "Cannot enable Safe Mode"
+msgstr "無法啟用安全模式"
+
+#: core/common/modules/finder/categories/general.php:49
+msgctxt "Template Library"
+msgid "Saved Templates"
+msgstr "已儲存範本"
+
+#: includes/widgets/video.php:190
+msgid "External URL"
+msgstr "外部網址"
+
+#: includes/widgets/image-gallery.php:159
+msgid "Order By"
+msgstr "排序"
+
+#: includes/frontend.php:1423
+msgid "(more&hellip;)"
+msgstr "（更多 &hellip;）"
+
+#: includes/controls/groups/background.php:361
+msgctxt "Background Control"
+msgid "Y Position"
+msgstr "Y 位置"
+
+#: includes/controls/groups/background.php:295
+msgctxt "Background Control"
+msgid "X Position"
+msgstr "X 位置"
+
+#: includes/settings/settings.php:358
+msgid "Popup Builder lets you take advantage of all the amazing features in Elementor, so you can build beautiful & highly converting popups. Go pro and start designing your popups today."
+msgstr "彈出視窗建構器使您可以利用 Elementor 中的所有驚人功能，從而可以構建美觀且轉換率高的彈出視窗。 成為專業人士，立即開始設計彈出窗口。"
+
+#: includes/settings/settings.php:357
+msgid "Get Popup Builder"
+msgstr "取得彈出視窗建構器"
+
+#: includes/settings/settings.php:183
+#: includes/template-library/sources/local.php:1643 assets/js/app.js:13302
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2147
+msgid "Popups"
+msgstr "彈出視窗"
+
+#: modules/safe-mode/module.php:302
+msgid "Still experiencing issues?"
+msgstr "仍然遇到問題？"
+
+#: modules/safe-mode/module.php:286
+msgid "Editor successfully loaded?"
+msgstr "編輯器是否成功載入？"
+
+#: modules/safe-mode/module.php:277
+msgid "Safe Mode ON"
+msgstr "安全模式 ON"
+
+#: modules/safe-mode/module.php:51
+msgid "Safe Mode allows you to troubleshoot issues by only loading the editor, without loading the theme or any other plugin."
+msgstr "安全模式允許您僅通過載入編輯器而不載入主題或任何其他外掛來解決問題。"
+
+#: core/base/db-upgrades-manager.php:126
+msgid "The database update process is now complete. Thank you for updating to the latest version!"
+msgstr "%s 資料庫更新過程現已完成。 感謝您更新到最新版本！"
+
+#: core/admin/menu/main.php:34 core/admin/menu/main.php:35
+#: includes/template-library/sources/local.php:221
+#: includes/template-library/sources/local.php:239
+msgctxt "Template Library"
+msgid "Templates"
+msgstr "範本"
+
+#: modules/library/documents/not-supported.php:61
+msgid "Not Supported"
+msgstr "不支援"
+
+#: core/common/modules/finder/categories/site.php:82
+msgid "Users"
+msgstr "用戶數"
+
+#: core/common/modules/finder/categories/site.php:76 assets/js/app.js:13892
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: includes/widgets/image.php:163
+msgid "Attachment Caption"
+msgstr "附件標題"
+
+#: core/common/modules/connect/admin.php:24
+#: core/common/modules/connect/admin.php:25
+#: core/common/modules/connect/apps/connect.php:11
+msgid "Connect"
+msgstr "連接"
+
+#: core/common/modules/connect/apps/base-app.php:214
+msgid "Connected Successfully."
+msgstr "已成功連接。"
+
+#: core/common/modules/finder/categories/create.php:27
+#: assets/js/editor.js:40782
+msgid "Create"
+msgstr "創建"
+
+#: includes/widgets/image.php:164 includes/widgets/image.php:173
+msgid "Custom Caption"
+msgstr "自訂標題"
+
+#: core/common/modules/finder/categories/site.php:52
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: core/base/document.php:1597
+msgid "Future"
+msgstr "未來"
+
+#: includes/editor-templates/hotkeys.php:88
+msgid "Go To"
+msgstr "去到"
+
+#: core/common/modules/finder/categories/site.php:46
+msgid "Homepage"
+msgstr "首頁"
+
+#: includes/editor-templates/hotkeys.php:143 assets/js/editor.js:7982
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤快捷鍵"
+
+#: core/common/modules/finder/categories/site.php:58
+msgid "Menus"
+msgstr "選單"
+
+#: includes/widgets/star-rating.php:88 includes/widgets/star-rating.php:108
+msgid "Rating"
+msgstr "評分"
+
+#: includes/widgets/star-rating.php:95
+msgid "Rating Scale"
+msgstr "評分量表"
+
+#: includes/editor-templates/hotkeys.php:26
+msgid "Redo"
+msgstr "重做"
+
+#: includes/widgets/star-rating.php:45
+msgid "Star Rating"
+msgstr "星等"
+
+#: includes/widgets/star-rating.php:266
+msgid "Stars"
+msgstr "星"
+
+#: includes/editor-templates/hotkeys.php:18
+msgid "Undo"
+msgstr "復原"
+
+#: includes/widgets/star-rating.php:139
+msgid "Unmarked Style"
+msgstr "無標記的樣式"
+
+#: includes/widgets/video.php:440
+msgid "Any Video"
+msgstr "任一影音"
+
+#: includes/widgets/video.php:439
+msgid "Current Video Channel"
+msgstr "當前影音頻道"
+
+#: includes/widgets/star-rating.php:321
+msgid "Unmarked Color"
+msgstr "未標記的顏色"
+
+#: includes/widgets/star-rating.php:147
+msgid "Outline"
+msgstr "大綱"
+
+#: includes/editor-templates/hotkeys.php:151
+msgid "Quit"
+msgstr "離開"
+
+#: includes/editor-templates/hotkeys.php:100
+msgid "Show / Hide Panel"
+msgstr "顯示 / 隱藏面板"
+
+#: core/common/modules/finder/template.php:13
+msgid "Type to find anything in Elementor"
+msgstr "輸入以查找 Elementor 中的任何內容"
+
+#: includes/editor-templates/hotkeys.php:92 assets/js/admin-top-bar.js:477
+#: assets/js/common.js:5506 assets/js/editor.js:32165
+msgid "Finder"
+msgstr "查找器"
+
+#: core/common/modules/connect/apps/base-app.php:83
+msgid "Disconnect"
+msgstr "中斷連接"
+
+#: core/common/modules/connect/apps/base-app.php:226
+msgid "Disconnected Successfully."
+msgstr "已成功中斷連接。"
+
+#: core/common/modules/finder/categories/site.php:70
+msgid "Customizer"
+msgstr "外觀自訂器"
+
+#: includes/widgets/video.php:519
+msgid "Poster"
+msgstr "發文者"
+
+#: includes/editor-templates/navigator.php:46
+msgid "Empty"
+msgstr "空"
+
+#: includes/controls/groups/css-filter.php:132
+msgctxt "Filter Control"
+msgid "Hue"
+msgstr "色調"
+
+#: core/admin/admin-notices.php:287
+msgid "Hide Notification"
+msgstr "隱藏通知"
+
+#: includes/widgets/video.php:402
+msgid "Lazy Load"
+msgstr "延後載入"
+
+#: includes/widgets/video.php:135 includes/widgets/video.php:157
+#: includes/widgets/video.php:178 includes/widgets/video.php:234
+msgid "Enter your URL"
+msgstr "輸入你的連結"
+
+#: includes/widgets/accordion.php:126 includes/widgets/accordion.php:130
+#: includes/widgets/icon-box.php:160 includes/widgets/image-box.php:137
+#: includes/widgets/tabs.php:129 includes/widgets/tabs.php:133
+#: includes/widgets/testimonial.php:101 includes/widgets/text-editor.php:114
+#: includes/widgets/toggle.php:130 includes/widgets/toggle.php:134
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "以下是為了能夠滿足段落所需的長度而定義的無意義內文，請自行參酌編排。"
+
+#: core/settings/editor-preferences/model.php:90
+msgid "Editing Handles"
+msgstr "編輯處理"
+
+#: includes/settings/settings.php:255
+msgid "Create Your First Post"
+msgstr "創建您的第一篇文章"
+
+#: includes/settings/settings.php:200 includes/settings/settings.php:268
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:961
+msgid "Getting Started"
+msgstr "入門"
+
+#: core/debug/inspector.php:49
+msgid "Debug Bar"
+msgstr "除錯列"
+
+#: includes/settings/settings.php:252
+msgid "Create Your First Page"
+msgstr "創建您的第一張頁面"
+
+#: includes/widgets/inner-section.php:35 assets/js/editor.js:23150
+msgid "Inner Section"
+msgstr "內部段"
+
+#: includes/editor-templates/navigator.php:52
+msgid "Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move around any section, column, or widget."
+msgstr "用內容填充頁面後，此視窗將為您提供所有頁面元素的概覽顯示。 這樣，您可以輕鬆地在任何段、欄或視窗小工具之間移動。"
+
+#: includes/editor-templates/navigator.php:51
+msgid "Easy Navigation is Here!"
+msgstr "輕鬆導覽就在這裡！"
+
+#: includes/editor-templates/hotkeys.php:126
+#: includes/editor-templates/navigator.php:12
+#: includes/editor-templates/panel.php:69
+#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:15576
+#: assets/js/editor.js:25810
+msgid "Navigator"
+msgstr "導覽器"
+
+#: includes/editor-templates/library-layout.php:13
+#: includes/settings/settings.php:271 includes/settings/settings.php:272
+#: assets/js/app-packages.js:3787 assets/js/app.js:5273
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1485
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:1756
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2020
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2214
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2563
+msgid "Skip"
+msgstr "跳過"
+
+#: includes/controls/url.php:68 modules/shapes/widgets/text-path.php:148
+msgid "Paste URL or type"
+msgstr "貼上或輸入 URL"
+
+#: core/admin/admin-notices.php:281
+msgid "Happy To Help"
+msgstr "樂意協助"
+
+#: core/admin/admin-notices.php:277
+msgid ""
+"You created over 10 pages with Elementor. Great job! If you can spare a minute,\n"
+"\t\t\t\tplease help us by leaving a five star review on WordPress.org."
+msgstr "您使用 Elementor 創建了 10 多個頁面，很棒！ 如果您有時間，請在 WordPress.org 上留下五星級評論，以幫助我們。"
+
+#: core/admin/admin-notices.php:276
+msgid "Congrats!"
+msgstr "恭喜！"
+
+#: core/settings/editor-preferences/model.php:92
+msgid "Show editing handles when hovering over the element edit button."
+msgstr "將滑鼠游標懸停在元素編輯按鈕上時顯示編輯處理。"
+
+#: includes/settings/settings.php:277
+msgid "Welcome to Elementor"
+msgstr "歡迎使用Elementor"
+
+#: core/kits/documents/tabs/settings-lightbox.php:76 includes/frontend.php:1303
+#: includes/widgets/google-maps.php:149
+msgid "Zoom"
+msgstr "放大"
+
+#: core/debug/inspector.php:57
+msgid "Debug Bar adds an admin bar menu that lists all the templates that are used on a page that is being displayed."
+msgstr "除錯列諌新加了一個管理選單，該選單列出了正在顯示的頁面上使用的所有版型。"
+
+#: core/document-types/page-base.php:41
+msgid "Single"
+msgstr "單頁"
+
+#: includes/widgets/video.php:374
+msgid "Logo"
+msgstr "標誌"
+
+#: includes/widgets/video.php:347
+msgid "Video Info"
+msgstr "影片資訊"
+
+#: includes/widgets/video.php:361
+msgid "Modest Branding"
+msgstr "推廣品牌"
+
+#: includes/widgets/video.php:220
+msgid "URL"
+msgstr "網址"
+
+#: core/app/modules/site-editor/module.php:32
+#: core/common/modules/finder/categories/site.php:26 core/kits/manager.php:393
+#: includes/managers/elements.php:292
+msgid "Site"
+msgstr "網站"
+
+#: includes/elements/column.php:406 includes/elements/container.php:705
+#: includes/elements/section.php:697 includes/widgets/heading.php:266
+msgid "Blend Mode"
+msgstr "混合模式"
+
+#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:14778
+#: assets/js/editor.js:25012
+msgid "Copy"
+msgstr "複製"
+
+#: includes/widgets/video.php:110
+msgid "Source"
+msgstr "來源"
+
+#: includes/widgets/traits/button-trait.php:214
+msgid "Button ID"
+msgstr "按鈕 ID"
+
+#: includes/managers/elements.php:296
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/controls/groups/css-filter.php:98
+msgctxt "Filter Control"
+msgid "Contrast"
+msgstr "對比"
+
+#: includes/controls/groups/css-filter.php:81
+msgctxt "Filter Control"
+msgid "Brightness"
+msgstr "亮度"
+
+#: includes/controls/groups/css-filter.php:62
+msgctxt "Filter Control"
+msgid "Blur"
+msgstr "模糊"
+
+#: includes/controls/groups/background.php:587 includes/widgets/video.php:255
+msgid "End Time"
+msgstr "結束時間"
+
+#: includes/controls/groups/background.php:575 includes/widgets/video.php:245
+msgid "Start Time"
+msgstr "開始時間"
+
+#: includes/widgets/video.php:117
+msgid "Self Hosted"
+msgstr "自有主機"
+
+#: includes/widgets/audio.php:185
+msgid "Artwork"
+msgstr "原圖"
+
+#: includes/managers/elements.php:285
+msgid "Pro"
+msgstr "專業版"
+
+#: includes/controls/groups/css-filter.php:115
+msgctxt "Filter Control"
+msgid "Saturation"
+msgstr "飽和"
+
+#: core/admin/feedback.php:112
+msgid "I have Elementor Pro"
+msgstr "我已有 Elementor 專業版"
+
+#: includes/widgets/video.php:116
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: includes/controls/groups/css-filter.php:166
+msgctxt "Filter Control"
+msgid "CSS Filters"
+msgstr "CSS 濾鏡"
+
+#: includes/controls/groups/background.php:589 includes/widgets/video.php:257
+msgid "Specify an end time (in seconds)"
+msgstr "定義結束時問(秒)"
+
+#: includes/controls/groups/background.php:577 includes/widgets/video.php:247
+msgid "Specify a start time (in seconds)"
+msgstr "定義開始時間(秒)"
+
+#: core/admin/feedback.php:114
+msgid "Wait! Don't deactivate Elementor. You have to activate both Elementor and Elementor Pro in order for the plugin to work."
+msgstr "稍等！不要停用 Elementor，您必須同時啟用 Elementor 和 Elementor Pro 才能使外掛正常工作。"
+
+#: core/debug/inspector.php:115
+msgid "Elementor Debugger"
+msgstr "Elementor 偵錯器"
+
+#: includes/editor-templates/global.php:34
+msgid "Drag widget here"
+msgstr "將小工具拖放至這裡"
+
+#: core/admin/admin.php:174 assets/js/admin.js:5400 assets/js/gutenberg.js:796
+msgid "Back to WordPress Editor"
+msgstr "回去用 WordPress 編輯器"
+
+#. translators: %s: Document title.
+#: core/documents-manager.php:367
+msgid "Elementor %s"
+msgstr "Elementor %s"
+
+#. translators: %s: Template type label.
+#: core/base/document.php:173
+#: core/common/modules/finder/categories/create.php:86
+#: includes/template-library/sources/local.php:1320
+msgid "Add New %s"
+msgstr "新增 %s"
+
+#. translators: %d: Number of rows.
+#: includes/utils.php:197
+msgid "%d row affected."
+msgid_plural "%d rows affected."
+msgstr[0] "%d 列受到影響。"
+
+#: modules/page-templates/module.php:157
+msgctxt "Page Template"
+msgid "Elementor Canvas"
+msgstr "Elementor 畫布"
+
+#: core/kits/documents/tabs/theme-style-images.php:95
+#: core/kits/documents/tabs/theme-style-images.php:166
+#: includes/elements/column.php:375 includes/elements/column.php:449
+#: includes/elements/container.php:659 includes/elements/container.php:771
+#: includes/elements/section.php:651 includes/elements/section.php:755
+#: includes/widgets/image-box.php:322 includes/widgets/image-box.php:376
+#: includes/widgets/image.php:393 includes/widgets/image.php:427
+msgid "Opacity"
+msgstr "不透明度"
+
+#: modules/page-templates/module.php:158
+msgctxt "Page Template"
+msgid "Elementor Full Width"
+msgstr "Elementor 全寬"
+
+#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:579
+#: includes/plugin.php:592 assets/js/app.js:14217
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1166
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3875
+msgid "Something went wrong."
+msgstr "執行時發生錯誤。"
+
+#: includes/widgets/image.php:290
+msgid "Max Width"
+msgstr "最大寬度"
+
+#: includes/elements/container.php:1210 includes/widgets/common.php:345
+#: includes/widgets/common.php:1495 includes/widgets/divider.php:736
+#: includes/widgets/divider.php:876 includes/widgets/image-carousel.php:413
+#: includes/widgets/image-carousel.php:477 includes/widgets/tabs.php:152
+msgid "Position"
+msgstr "位置"
+
+#. translators: 1: Elementor, 2: Link to plugin review
+#: core/admin/admin.php:358
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr "覺得 %1$s 好用的話，請給予我們 %2$s 評價，我們非常感謝您的支持。"
+
+#: core/common/modules/finder/categories/general.php:67
+msgid "Knowledge Base"
+msgstr "知識庫"
+
+#: modules/page-templates/module.php:347
+msgid "This template includes the header, full-width content and footer"
+msgstr "該版型包含 Header, Full-width 內容及 Footer"
+
+#: modules/page-templates/module.php:335
+msgid "No header, no footer, just Elementor"
+msgstr "用了 Elementor 就不用再為 Header 及 Footer 設計而糾結了"
+
+#: modules/page-templates/module.php:292
+msgid "Page Layout"
+msgstr "頁面佈局"
+
+#: modules/history/views/revisions-panel-template.php:70
+msgid "Current"
+msgstr "目前"
+
+#: includes/widgets/counter.php:181
+msgid "Separator"
+msgstr "分隔符號"
+
+#: modules/landing-pages/module.php:285 assets/js/app-packages.js:5919
+msgid "Add New"
+msgstr "新增"
+
+#: includes/template-library/sources/local.php:1186
+msgid "All"
+msgstr "全部"
+
+#: includes/settings/settings.php:314
+msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
+msgstr "自訂字型允許您添加自己專屬的字型，並將它們用於您的 Elementor 項目以創建獨特的品牌語言。"
+
+#: core/kits/documents/tabs/global-typography.php:177
+#: includes/settings/settings.php:147 includes/settings/settings.php:148
+msgid "Custom Fonts"
+msgstr "自訂字型"
+
+#: core/document-types/page.php:41 modules/library/documents/page.php:61
+#: assets/js/editor.js:10814
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:2135
+msgid "Pages"
+msgstr "頁面"
+
+#: includes/editor-templates/global.php:69
+msgid "This tag has no settings."
+msgstr "該標籤沒有設置。"
+
+#. translators: %s: Document title.
+#: core/base/document.php:1040 core/settings/page/model.php:126
+#: includes/editor-templates/panel.php:67
+msgid "%s Settings"
+msgstr "%s 設置"
+
+#: core/document-types/page-base.php:109
+msgid "Body Style"
+msgstr "Body 樣式"
+
+#: core/base/document.php:165
+msgid "Document"
+msgstr "文件"
+
+#: core/document-types/page-base.php:175
+msgid "Featured Image"
+msgstr "精選圖片"
+
+#: includes/frontend.php:1305 includes/widgets/video.php:827
+msgid "Play Video"
+msgstr "播放影音"
+
+#: includes/template-library/sources/local.php:1280
+msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
+msgstr "增加版型並在您的網站上重複使用它們， 可輕鬆匯出並匯入到任何其他項目，實現優化的工作流程。"
+
+#. translators: %s: Template type label.
+#: includes/template-library/sources/local.php:1313
+msgid "Create Your First %s"
+msgstr "建立您的第一個 %s"
+
+#: includes/template-library/sources/local.php:223
+msgctxt "Template Library"
+msgid "My Templates"
+msgstr "我的版型"
+
+#: includes/admin-templates/new-template.php:97
+msgid "Create Template"
+msgstr "建立版型"
+
+#: includes/admin-templates/new-template.php:91
+msgid "Name your template"
+msgstr "為您的版型命名"
+
+#: includes/admin-templates/new-template.php:66
+msgid "Select the type of template you want to work on"
+msgstr "選擇您想要處理的版型類型"
+
+#: includes/admin-templates/new-template.php:64
+msgid "Choose Template Type"
+msgstr "選擇版型類型"
+
+#: includes/admin-templates/new-template.php:49
+msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
+msgstr "使用版型創建網站各個部位，並在需要時單擊一次即可重複使用它們。"
+
+#: includes/settings/settings.php:313
+msgid "Add Your Custom Fonts"
+msgstr "添加您的自訂字型"
+
+#: includes/editor-templates/templates.php:180
+msgid "More actions"
+msgstr "更多動作"
+
+#: includes/editor-templates/templates.php:100
+msgid "Search Templates:"
+msgstr "搜尋版型:"
+
+#: includes/controls/groups/border.php:68
+msgctxt "Border Control"
+msgid "Groove"
+msgstr "Groove"
+
+#: core/role-manager/role-manager.php:170
+msgid "Want to give access only to content?"
+msgstr "要給內容設定存取權限嗎？"
+
+#: core/role-manager/role-manager.php:135
+msgid "No access to editor"
+msgstr "不給使用編輯器"
+
+#: core/role-manager/role-manager.php:128
+msgid "Role Excluded"
+msgstr "排除角色"
+
+#: core/role-manager/role-manager.php:92
+msgid "Manage What Your Users Can Edit In Elementor"
+msgstr "管理你的使用者誰能使用 Elementor 編輯內容"
+
+#: core/common/modules/finder/categories/general.php:61
+#: core/role-manager/role-manager.php:32
+msgid "Role Manager"
+msgstr "角色管理員"
+
+#: core/common/modules/ajax/module.php:161
+msgid "Action not found."
+msgstr "找不著該動作。"
+
+#: includes/template-library/manager.php:565
+msgid "Post not found."
+msgstr "找不著文章。"
+
+#: core/common/modules/ajax/module.php:130
+msgid "Token Expired."
+msgstr "令牌已過期。"
+
+#: includes/widgets/common.php:223 includes/widgets/icon-list.php:104
+#: includes/widgets/icon-list.php:196
+msgid "Inline"
+msgstr "一致排列"
+
+#: includes/admin-templates/new-template.php:94
+msgid "Enter template name (optional)"
+msgstr "輸入版型名稱 (選填)"
+
+#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:568
+msgid "Fallback"
+msgstr "倒退"
+
+#: includes/widgets/image-carousel.php:137
+msgid "Set how many slides are scrolled per swipe."
+msgstr "設置每次滑動滾動的幻燈片數量。"
+
+#: includes/controls/groups/background.php:447
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr "注意：附件固定只能在桌上電腦使用。"
+
+#: core/admin/admin.php:409
+msgid "Create New Post"
+msgstr "建立新文章"
+
+#: includes/fonts.php:69
+msgid "Google Early Access"
+msgstr "Google網路字型 (Early Access)"
+
+#: modules/history/revisions-manager.php:157
+msgid "Current Version"
+msgstr "目前版本"
+
+#: includes/widgets/video.php:391
+msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
+msgstr "當您打開隱私模式時，除非播放視頻，否則 YouTube 不會在您的網站上儲存相關訪客的訊息。"
+
+#: includes/widgets/video.php:389
+msgid "Privacy Mode"
+msgstr "隱私模式"
+
+#: includes/widgets/shortcode.php:106
+msgid "Enter your shortcode"
+msgstr "輸入您的短碼"
+
+#: includes/widgets/image.php:176
+msgid "Enter your image caption"
+msgstr "輸入您的圖片標題"
+
+#: includes/widgets/html.php:95
+msgid "Enter your code"
+msgstr "輸入您的代碼"
+
+#: includes/widgets/alert.php:127 includes/widgets/icon-box.php:161
+#: includes/widgets/image-box.php:138
+msgid "Enter your description"
+msgstr "輸入你的描述"
+
+#: includes/widgets/alert.php:330 includes/widgets/alert.php:362
+msgid "Dismiss alert"
+msgstr "關閉警示"
+
+#: includes/widgets/alert.php:114
+msgid "This is an Alert"
+msgstr "這是一個警示"
+
+#: core/admin/admin-notices.php:538
+msgid "Dismiss"
+msgstr "關閉"
+
+#. translators: %s: Document title.
+#: core/base/document.php:148
+msgid "Hurray! Your %s is live."
+msgstr "萬歲! 你的頁面已經上線。"
+
+#: core/kits/documents/kit.php:169
+msgid "Published"
+msgstr "已發佈"
+
+#: core/common/modules/finder/template.php:19 assets/js/editor.js:11946
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1828
+msgid "No Results Found"
+msgstr "未能找到任何回應訊息"
+
+#: includes/editor-templates/templates.php:245
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2399
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2784
+msgid "or"
+msgstr "或"
+
+#: includes/editor-templates/templates.php:233
+#: includes/editor-templates/templates.php:249
+#: includes/editor-templates/templates.php:262
+msgid "Want to learn more about the Elementor library?"
+msgstr "想要了解更多關於 Elementor 版型庫？"
+
+#: includes/editor-templates/templates.php:121
+msgid "Creation Date"
+msgstr "建立日期"
+
+#: includes/editor-templates/templates.php:101
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/editor-templates/templates.php:70
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3858
+msgid "Popular"
+msgstr "熱門"
+
+#: includes/editor-templates/templates.php:68
+msgid "Trend"
+msgstr "趨勢"
+
+#: includes/editor-templates/templates.php:66
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3855
+msgid "New"
+msgstr "新建"
+
+#: core/kits/views/panel.php:44 includes/controls/icons.php:82
+#: includes/controls/media.php:214 includes/controls/media.php:260
+#: includes/editor-templates/repeater.php:27
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:986
+msgid "Remove"
+msgstr "移除"
+
+#: includes/editor-templates/panel.php:129
+#: includes/editor-templates/panel.php:130
+msgid "Hide Panel"
+msgstr "隱藏面板"
+
+#: includes/editor-templates/panel.php:115
+msgid "Save Draft"
+msgstr "儲存草稿"
+
+#: includes/editor-templates/panel.php:95 assets/js/editor.js:22738
+msgid "Publish"
+msgstr "發佈"
+
+#: includes/editor-templates/panel.php:83
+#: includes/editor-templates/panel.php:86
+msgid "Preview Changes"
+msgstr "預覽變更"
+
+#: includes/controls/popover-toggle.php:71
+#: includes/controls/popover-toggle.php:73
+msgid "Back to default"
+msgstr "回到預設"
+
+#: includes/controls/groups/typography.php:182
+msgctxt "Typography Control"
+msgid "Underline"
+msgstr "底線"
+
+#: includes/controls/groups/typography.php:177
+msgctxt "Typography Control"
+msgid "Decoration"
+msgstr "裝飾"
+
+#: includes/controls/dimensions.php:142
+msgid "Unlinked values"
+msgstr "取消關聯的值"
+
+#: core/admin/admin-notices.php:144
+msgid "Update Elementor Now"
+msgstr "立即更新 Elementor"
+
+#: includes/widgets/heading.php:117
+msgid "Add Your Heading Text Here"
+msgstr "請在這裡輸入標題"
+
+#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3444
+#: assets/js/app.js:4930
+msgid "Select File"
+msgstr "選取檔案"
+
+#: includes/editor-templates/templates.php:244
+msgid "Drag & drop your .JSON or .zip template file"
+msgstr "將 JSON 或 ZIP 格式範本檔案拖放到這裡"
+
+#: includes/editor-templates/templates.php:243
+msgid "Import Template to Your Library"
+msgstr "匯入範本至範本庫"
+
+#: includes/editor-templates/templates.php:234
+#: includes/editor-templates/templates.php:250
+#: includes/editor-templates/templates.php:263
+#: includes/widgets/traits/button-trait.php:58
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:2796
+msgid "Click here"
+msgstr "點擊這裡"
+
+#: includes/editor-templates/templates.php:158
+msgid "Favorite"
+msgstr "我的最愛"
+
+#: includes/editor-templates/templates.php:117
+msgid "Created By"
+msgstr "建立者"
+
+#: includes/editor-templates/templates.php:92
+msgid "My Favorites"
+msgstr "我的最愛"
+
+#: includes/editor-templates/templates.php:10
+#: includes/editor-templates/templates.php:11
+msgid "Import Template"
+msgstr "匯入範本"
+
+#: includes/editor-templates/repeater.php:14
+msgid "Drag & Drop"
+msgstr "拖放"
+
+#: includes/editor-templates/panel.php:100
+#: includes/editor-templates/panel.php:102
+msgid "Save Options"
+msgstr "儲存設定"
+
+#: includes/controls/groups/typography.php:183
+msgctxt "Typography Control"
+msgid "Overline"
+msgstr "頂線"
+
+#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:16733
+#: assets/js/editor-document.js:17004 assets/js/editor.js:27438
+#: assets/js/editor.js:27709
+msgid "Save as Template"
+msgstr "另存為範本"
+
+#: includes/editor-templates/hotkeys.php:67
+#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:14763
+#: assets/js/editor.js:24997 assets/js/editor.js:46044
+msgid "Duplicate"
+msgstr "再製"
+
+#: core/document-types/page-base.php:164
+msgid "Excerpt"
+msgstr "內容摘要"
+
+#. translators: 1: Editing date, 2: Author display name.
+#: core/base/document.php:1311
+msgid "Last edited on %1$s by %2$s"
+msgstr "最後由「%2$s」於 %1$s 進行編輯"
+
+#. translators: 1: Saving date, 2: Author display name.
+#: core/base/document.php:1308
+msgid "Draft saved on %1$s by %2$s"
+msgstr "草稿已由「%2$s」儲存於 %1$s"
+
+#: core/base/document.php:1303
+msgctxt "revision date format"
+msgid "M j, H:i"
+msgstr "n 月 j 日a g:i"
+
+#: core/admin/admin.php:493
+msgid "Blog"
+msgstr "外掛部落格"
+
+#: core/admin/admin.php:474
+msgid "(opens in a new window)"
+msgstr "(在新視窗中開啟)"
+
+#: core/admin/admin.php:455
+msgid "News & Updates"
+msgstr "Elementor 最新消息及更新"
+
+#: core/admin/admin.php:444
+msgctxt "Dashboard Overview Widget Recently Date"
+msgid "M jS"
+msgstr "n 月 j 日"
+
+#: core/admin/admin.php:437
+msgid "Recently Edited"
+msgstr "最新編輯"
+
+#: core/admin/admin.php:406
+msgid "Create New Page"
+msgstr "建立新頁面"
+
+#: core/admin/admin.php:378
+msgid "Elementor Overview"
+msgstr "Elementor 概述"
+
+#: includes/widgets/accordion.php:177 includes/widgets/toggle.php:181
+msgid "Active Icon"
+msgstr "活躍的圖示"
+
+#: includes/editor-templates/panel-elements.php:39
+msgid "Search Widget:"
+msgstr "搜尋小工具:"
+
+#: includes/controls/groups/typography.php:184
+msgctxt "Typography Control"
+msgid "Line Through"
+msgstr "通過線"
+
+#: includes/template-library/sources/local.php:472
+#: includes/template-library/sources/local.php:550
+#: includes/template-library/sources/local.php:692
+#: modules/history/revisions-manager.php:264
+msgid "Access denied."
+msgstr "拒絕存取。"
+
+#: includes/settings/settings.php:477
+msgid "Disable Default Fonts"
+msgstr "禁用預設字型"
+
+#: includes/elements/column.php:218 includes/widgets/accordion.php:388
+#: includes/widgets/common.php:318 includes/widgets/image-carousel.php:565
+#: includes/widgets/tabs.php:179 includes/widgets/tabs.php:209
+#: includes/widgets/toggle.php:407
+msgid "End"
+msgstr "結束"
+
+#: includes/elements/column.php:216 includes/widgets/accordion.php:384
+#: includes/widgets/common.php:310 includes/widgets/image-carousel.php:557
+#: includes/widgets/tabs.php:171 includes/widgets/tabs.php:201
+#: includes/widgets/toggle.php:403
+msgid "Start"
+msgstr "開始"
+
+#: core/debug/loading-inspection-manager.php:36
+msgid "We're sorry, but something went wrong. Click on 'Learn more' and follow each of the steps to quickly solve it."
+msgstr "我們很抱歉，但是出現了一些問題。 點擊「了解更多」，然後按照每個步驟快速解決問題。"
+
+#: core/debug/classes/inspection-base.php:25
+#: core/debug/loading-inspection-manager.php:37
+msgid "The preview could not be loaded"
+msgstr "此預覽無法載入"
+
+#: core/admin/admin-notices.php:148 core/admin/admin-notices.php:183
+msgid "Update Notification"
+msgstr "更新通知"
+
+#. Author URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Plugin URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: modules/history/views/history-panel-template.php:25
+msgid "Once you start working, you'll be able to redo / undo any action you make in the editor."
+msgstr "一旦你開始工作，你將能夠重做 / 回復你在編輯器中所做的任何動作。"
+
+#: modules/history/views/history-panel-template.php:24
+msgid "No History Yet"
+msgstr "尚無記錄"
+
+#: modules/history/views/history-panel-template.php:17
+msgid "Switch to Revisions tab for older versions"
+msgstr "切換到舊版本的修訂選項書籤"
+
+#: includes/editor-templates/hotkeys.php:14
+#: includes/editor-templates/templates.php:124
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:45730
+msgid "Actions"
+msgstr "動作"
+
+#: includes/editor-templates/hotkeys.php:117
+#: includes/editor-templates/panel.php:73
+#: includes/editor-templates/panel.php:75 assets/js/editor.js:46418
+msgid "History"
+msgstr "修訂記錄"
+
+#: core/kits/documents/tabs/settings-lightbox.php:152
+#: includes/widgets/video.php:765
+msgid "UI Hover Color"
+msgstr "UI 懸停顏色"
+
+#: core/kits/documents/tabs/settings-lightbox.php:141
+#: includes/widgets/video.php:753
+msgid "UI Color"
+msgstr "UI 顏色"
+
+#: modules/history/views/history-panel-template.php:10
+#: modules/history/views/revisions-panel-template.php:26
+#: assets/js/editor.js:45733
+msgid "Revisions"
+msgstr "內容修訂"
+
+#: includes/widgets/video.php:714
+msgctxt "Text Shadow Control"
+msgid "Shadow"
+msgstr "陰影"
+
+#: includes/widgets/video.php:311
+msgid "Mute"
+msgstr "靜音"
+
+#: includes/template-library/sources/local.php:919
+msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
+msgstr "為 Elementor 版型選擇一個 JSON 檔或一個 .zip 壓縮檔，並將它們新增到版型庫的版型列表中。"
+
+#: core/kits/documents/tabs/settings-lightbox.php:45
+msgid "Image Lightbox"
+msgstr "圖片燈箱效果"
+
+#: core/kits/documents/tabs/settings-lightbox.php:48
+msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
+msgstr "啟用全部圖片的連結皆使用燈箱彈出視窗效果， 將讓圖片檔案能在任何頁面中都能有燈箱效果。"
+
+#: includes/controls/groups/text-shadow.php:61
+#: includes/controls/groups/text-shadow.php:85
+msgctxt "Text Shadow Control"
+msgid "Text Shadow"
+msgstr "文字陰影"
+
+#. translators: %s: Elementor version.
+#: includes/settings/tools.php:343
+msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+msgstr "Elementor 版本 %s 遇到了問題？在問題出現之前回復到以前的版本。"
+
+#: core/common/modules/finder/categories/tools.php:77
+#: includes/settings/tools.php:336
+msgid "Version Control"
+msgstr "版本控制"
+
+#: includes/settings/settings.php:493
+msgid "Integrations"
+msgstr "整合"
+
+#: includes/elements/column.php:860 includes/elements/container.php:1524
+#: includes/elements/section.php:1296 includes/widgets/common.php:652
+msgid "Animation Delay"
+msgstr "動畫延遲"
+
+#: includes/controls/url.php:106
+msgid "Open in new window"
+msgstr "在新視窗中開啟"
+
+#: includes/controls/groups/box-shadow.php:72
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr "大綱"
+
+#: includes/controls/groups/box-shadow.php:69
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr "位置"
+
+#. translators: %s: WordPress version.
+#: elementor.php:97
+msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "Elementor 需要 WordPress 版本 %s+. 因為你使用的是較早的版本，因此本外掛目前未被啟用。"
+
+#: includes/elements/column.php:761 includes/elements/container.php:1438
+#: includes/elements/section.php:1217 includes/widgets/common.php:568
+msgid "Z-Index"
+msgstr "Z-Index"
+
+#: includes/settings/tools.php:380
+msgid "Beta Tester"
+msgstr "Beta 測試者"
+
+#: includes/settings/tools.php:369
+msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or Elementor Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
+msgstr "開啟 Beta 測試者模式，當有新的 Elementor 或 Elementor Pro 測試版本可用時將收到通知，Beta 版本並不會自動安裝，你可以選擇忽略它。"
+
+#: includes/settings/tools.php:366
+msgid "Become a Beta Tester"
+msgstr "成為 Beta 測試者"
+
+#: includes/settings/tools.php:352
+msgid "Rollback Version"
+msgstr "回復版本"
+
+#: includes/settings/settings.php:536
+msgid "Switch Editor Loader Method"
+msgstr "切換編輯器裝載方法"
+
+#: includes/rollback.php:165 includes/settings/tools.php:167
+#: includes/settings/tools.php:339 assets/js/admin.js:5572
+msgid "Rollback to Previous Version"
+msgstr "回復到前一個版本"
+
+#: core/kits/documents/tabs/settings-layout.php:85
+#: includes/elements/column.php:234
+msgid "Widgets Space"
+msgstr "小工具空白間隔"
+
+#: includes/controls/url.php:110
+msgid "Add nofollow"
+msgstr "新增不跟隨"
+
+#: includes/controls/url.php:99
+msgid "Link Options"
+msgstr "連結選項"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:139
+#: core/kits/documents/tabs/theme-style-images.php:203
+#: includes/controls/groups/background.php:700 includes/elements/column.php:321
+#: includes/elements/column.php:480 includes/elements/column.php:587
+#: includes/elements/container.php:591 includes/elements/container.php:802
+#: includes/elements/container.php:923 includes/elements/section.php:600
+#: includes/elements/section.php:786 includes/elements/section.php:892
+#: includes/widgets/common.php:1224 includes/widgets/common.php:1338
+#: includes/widgets/google-maps.php:240 includes/widgets/image-box.php:340
+#: includes/widgets/image.php:453 modules/shapes/widgets/text-path.php:454
+#: modules/shapes/widgets/text-path.php:628
+msgid "Transition Duration"
+msgstr "轉場持續期間"
+
+#: includes/settings/tools.php:360
+msgid "Warning: Please backup your database before making the rollback."
+msgstr "警告：請在執行回復之前備份你的資料庫"
+
+#: includes/settings/tools.php:388
+msgid "Please Note: We do not recommend updating to a beta version on production sites."
+msgstr "請注意：我們不建議在正式網站上更新到 Beta 版本"
+
+#: core/kits/documents/tabs/settings-layout.php:104
+msgid "Sets the default space between widgets (Default: 20)"
+msgstr "設置小工具之間的預設空白間距(預設: 20)"
+
+#: includes/settings/settings.php:523
+msgid "CSS Print Method"
+msgstr "CSS 列印方法"
+
+#: includes/settings/settings.php:532
+msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
+msgstr "在頁面頂部使用嵌入內部 CSS ， 解決伺服器器配置衝突和管理開發環境。"
+
+#: includes/settings/settings.php:532
+msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
+msgstr "對所有生成的樣式表使用外部 CSS 檔案，選擇此設置以獲得更好的性能（推薦）。"
+
+#: includes/settings/settings.php:530
+msgid "Internal Embedding"
+msgstr "內部嵌入"
+
+#: includes/settings/settings.php:529
+msgid "External File"
+msgstr "外部檔案"
+
+#: includes/settings/settings.php:544
+msgid "For troubleshooting server configuration conflicts."
+msgstr "為了解決伺服器設置衝突問題。"
+
+#: core/debug/inspector.php:55 includes/settings/settings.php:542
+#: includes/settings/settings.php:554 includes/settings/tools.php:386
+#: modules/safe-mode/module.php:48 assets/js/admin.js:867
+#: assets/js/app-packages.js:3783 assets/js/app.js:5269
+#: assets/js/common.js:2572 assets/js/editor.js:34359
+msgid "Enable"
+msgstr "啟用"
+
+#: core/debug/inspector.php:54 includes/settings/settings.php:541
+#: includes/settings/settings.php:553 includes/settings/tools.php:385
+#: modules/safe-mode/module.php:47
+msgid "Disable"
+msgstr "停用"
+
+#: core/base/document.php:1603
+msgid "Status"
+msgstr "狀態"
+
+#: includes/widgets/common.php:1600 includes/widgets/spacer.php:108
+#: includes/widgets/text-editor.php:338
+msgid "Space"
+msgstr "空白間隔"
+
+#: includes/widgets/text-editor.php:120 includes/widgets/text-editor.php:252
+msgid "Drop Cap"
+msgstr "下拉"
+
+#: core/kits/documents/tabs/settings-layout.php:119
+msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
+msgstr "Elementor 可以隱藏頁面標題，這適用具有〝h1.entry-title〞選擇器的主題，如果您的主題選擇器不一樣，請在上方輸入。"
+
+#: core/kits/documents/tabs/settings-layout.php:115
+msgid "Page Title Selector"
+msgstr "頁面標題選擇器"
+
+#: includes/admin-templates/new-template.php:69
+#: includes/settings/controls.php:155
+msgid "Select"
+msgstr "選擇"
+
+#: core/document-types/page-base.php:87
+msgid "Hide Title"
+msgstr "隱藏標題"
+
+#: includes/maintenance-mode.php:283
+msgid "Maintenance Mode ON"
+msgstr "開啟維護模式"
+
+#: includes/maintenance-mode.php:251
+msgid "Choose Template"
+msgstr "選擇版型"
+
+#: includes/maintenance-mode.php:370
+msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
+msgstr "要啟用維護模式，您必須設置維護模式頁面的版型。"
+
+#: includes/maintenance-mode.php:292 includes/maintenance-mode.php:369
+#: assets/js/app.js:12463
+msgid "Edit Template"
+msgstr "編輯版型"
+
+#: includes/maintenance-mode.php:243
+msgid "Roles"
+msgstr "角色"
+
+#: includes/maintenance-mode.php:237
+msgid "Logged In"
+msgstr "登入"
+
+#: includes/maintenance-mode.php:231
+msgid "Who Can Access"
+msgstr "誰能夠存取"
+
+#: includes/maintenance-mode.php:226
+msgid "Coming Soon returns HTTP 200 code, meaning the site is ready to be indexed."
+msgstr "即將推出回應 HTTP 200 代碼，意味著該站點已準備好進行索引。"
+
+#: includes/maintenance-mode.php:223
+msgid "Maintenance Mode returns HTTP 503 code, so search engines know to come back a short time later. It is not recommended to use this mode for more than a couple of days."
+msgstr "維護模式回應 HTTP 503 代碼，所以搜尋引擎知道稍後再回來。 不建議使用此模式超過兩天。"
+
+#: includes/maintenance-mode.php:217
+msgid "Maintenance"
+msgstr "維護"
+
+#: includes/maintenance-mode.php:216
+msgid "Coming Soon"
+msgstr "即將推出"
+
+#: core/kits/documents/kit.php:168 includes/maintenance-mode.php:215
+#: assets/js/editor.js:46043
+msgid "Disabled"
+msgstr "已停用"
+
+#: includes/maintenance-mode.php:210
+msgid "Choose Mode"
+msgstr "選擇模式"
+
+#: includes/maintenance-mode.php:206
+msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
+msgstr "將您的整個網站設置為「維護模式」，意味著該網站暫時進行維護，或將其設置為「即將推出」模式，這意味著該站點處於離線狀態，直到它準備啟動。"
+
+#: core/common/modules/finder/categories/tools.php:62
+#: includes/maintenance-mode.php:201 includes/maintenance-mode.php:205
+msgid "Maintenance Mode"
+msgstr "維護模式"
+
+#: includes/maintenance-mode.php:220
+msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
+msgstr "選擇即將推出模式（返回 HTTP 200 ）或維護模式（返回 HTTP503 ）。"
+
+#: includes/editor-templates/hotkeys.php:51 assets/js/editor-document.js:14802
+#: assets/js/editor.js:25036
+msgid "Paste Style"
+msgstr "貼上樣式"
+
+#: core/common/modules/finder/categories/edit.php:118
+#: assets/js/editor-document.js:5268 assets/js/editor.js:18039
+msgid "Template"
+msgstr "範本"
+
+#: includes/elements/container.php:1105 includes/elements/section.php:1067
+msgid "Bring to Front"
+msgstr "帶到前面"
+
+#: core/kits/documents/tabs/settings-lightbox.php:18
+#: includes/widgets/image-carousel.php:210
+#: includes/widgets/image-gallery.php:142 includes/widgets/image.php:219
+#: includes/widgets/video.php:605 includes/widgets/video.php:729
+msgid "Lightbox"
+msgstr "燈箱"
+
+#: includes/elements/column.php:191 includes/elements/column.php:219
+#: includes/elements/section.php:452 includes/widgets/icon-list.php:217
+#: includes/widgets/toggle.php:279
+msgid "Space Between"
+msgstr "之間的空間"
+
+#: includes/widgets/icon-list.php:209
+msgid "List"
+msgstr "列表"
+
+#: includes/shapes.php:209
+msgctxt "Shapes"
+msgid "Book"
+msgstr "書"
+
+#: includes/shapes.php:205
+msgctxt "Shapes"
+msgid "Split"
+msgstr "分割"
+
+#: includes/shapes.php:197
+msgctxt "Shapes"
+msgid "Waves Pattern"
+msgstr "波浪樣式"
+
+#: includes/shapes.php:193
+msgctxt "Shapes"
+msgid "Waves Brush"
+msgstr "波浪筆刷"
+
+#: includes/shapes.php:188
+msgctxt "Shapes"
+msgid "Waves"
+msgstr "波浪"
+
+#: includes/shapes.php:183
+msgctxt "Shapes"
+msgid "Curve Asymmetrical"
+msgstr "非對稱曲線"
+
+#: includes/shapes.php:179
+msgctxt "Shapes"
+msgid "Curve"
+msgstr "曲線"
+
+#: includes/shapes.php:176
+msgctxt "Shapes"
+msgid "Fan Opacity"
+msgstr "扇形不透明度"
+
+#: includes/shapes.php:172
+msgctxt "Shapes"
+msgid "Tilt Opacity"
+msgstr "傾斜不透明度"
+
+#: includes/shapes.php:167
+msgctxt "Shapes"
+msgid "Tilt"
+msgstr "傾斜"
+
+#: includes/shapes.php:162
+msgctxt "Shapes"
+msgid "Triangle Asymmetrical"
+msgstr "不對稱三角形"
+
+#: includes/shapes.php:158
+msgctxt "Shapes"
+msgid "Triangle"
+msgstr "三角形"
+
+#: includes/shapes.php:153
+msgctxt "Shapes"
+msgid "Pyramids"
+msgstr "金字塔"
+
+#: includes/shapes.php:150
+msgctxt "Shapes"
+msgid "Zigzag"
+msgstr "曲折"
+
+#: includes/shapes.php:144
+msgctxt "Shapes"
+msgid "Clouds"
+msgstr "雲"
+
+#: includes/shapes.php:138
+msgctxt "Shapes"
+msgid "Drops"
+msgstr "降低"
+
+#: includes/shapes.php:134
+msgctxt "Shapes"
+msgid "Mountains"
+msgstr "山"
+
+#: includes/elements/container.php:1092 includes/elements/section.php:1054
+msgid "Invert"
+msgstr "反轉"
+
+#: includes/elements/container.php:1078 includes/elements/section.php:1040
+msgid "Flip"
+msgstr "翻轉"
+
+#: includes/elements/container.php:974 includes/elements/section.php:936
+msgid "Shape Divider"
+msgstr "形狀分隔線"
+
+#: includes/shapes.php:201
+msgctxt "Shapes"
+msgid "Arrow"
+msgstr "箭號"
+
+#: includes/widgets/tabs.php:237
+msgid "Navigation Width"
+msgstr "導覽列寬度"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:167
+#: core/kits/documents/tabs/theme-style-images.php:134
+#: core/kits/documents/tabs/theme-style-typography.php:156
+#: includes/elements/column.php:306 includes/elements/column.php:434
+#: includes/elements/column.php:552 includes/elements/container.php:576
+#: includes/elements/container.php:748 includes/elements/container.php:888
+#: includes/elements/section.php:585 includes/elements/section.php:740
+#: includes/elements/section.php:857 includes/widgets/common.php:688
+#: includes/widgets/common.php:1209 includes/widgets/common.php:1303
+#: includes/widgets/google-maps.php:225 includes/widgets/icon-box.php:301
+#: includes/widgets/icon-list.php:412 includes/widgets/icon-list.php:505
+#: includes/widgets/icon.php:248 includes/widgets/image-box.php:361
+#: includes/widgets/image.php:420 includes/widgets/traits/button-trait.php:309
+#: modules/shapes/widgets/text-path.php:427
+#: modules/shapes/widgets/text-path.php:567
+msgid "Hover"
+msgstr "懸停"
+
+#: includes/elements/column.php:773 includes/elements/container.php:1450
+#: includes/elements/section.php:1229 includes/widgets/common.php:579
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: includes/elements/column.php:779 includes/elements/container.php:1456
+#: includes/elements/section.php:1235 includes/widgets/common.php:585
+#: includes/widgets/traits/button-trait.php:220
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "請輸入自訂ID，不需 # ，如：123"
+
+#: includes/controls/groups/background.php:202
+msgctxt "Background Control"
+msgid "Angle"
+msgstr "角度"
+
+#: includes/controls/groups/background.php:191
+msgctxt "Background Control"
+msgid "Radial"
+msgstr "放射"
+
+#: includes/controls/groups/background.php:190
+msgctxt "Background Control"
+msgid "Linear"
+msgstr "線性"
+
+#: includes/controls/groups/background.php:187
+msgctxt "Background Control"
+msgid "Type"
+msgstr "類型"
+
+#: includes/controls/groups/background.php:161
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr "第二顏色"
+
+#: includes/controls/groups/background.php:146
+#: includes/controls/groups/background.php:172
+msgctxt "Background Control"
+msgid "Location"
+msgstr "定位"
+
+#: includes/controls/groups/background.php:99
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr "漸層色彩"
+
+#: core/admin/admin.php:328
+msgid "Video Tutorials"
+msgstr "影片教學"
+
+#: core/admin/admin.php:328
+msgid "View Elementor Video Tutorials"
+msgstr "觀看 Elementor 影片教學"
+
+#: core/admin/admin.php:327
+msgid "Docs & FAQs"
+msgstr "輔助文件與常見問題"
+
+#: core/admin/admin.php:327
+msgid "View Elementor Documentation"
+msgstr "檢視 Elementor 設定文件"
+
+#: includes/settings/settings.php:481
+msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
+msgstr "選擇此選項將關閉 Elementor 的全域字型，Elementor 會使用您佈景主題的字型。"
+
+#: includes/settings/settings.php:473
+msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
+msgstr "選擇此選項關閉 Elementor 的全域顏色設定，Elementor 會使用佈景主題的配色。"
+
+#: modules/history/revisions-manager.php:160
+msgid "Autosave"
+msgstr "自動存檔"
+
+#: includes/utils.php:169
+msgid "The `from` and `to` URL's must be different"
+msgstr "「來源」與「目的」的網址必須不一樣"
+
+#: includes/settings/tools.php:327
+msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "鍵入您的舊與新 WordPress 安裝網址，用來更新全部 Elementor 資料（通常與網址替換或改用 HTTPS 有關）。"
+
+#: includes/settings/tools.php:323
+msgid "Update Site Address (URL)"
+msgstr "更新網站位址 (URL)"
+
+#. translators: %s: WordPress backups documentation.
+#: includes/settings/tools.php:313
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>重要︰</strong>強烈建議您在使用替換網址之前<a target=\"_blank\" href=\"%s\">備份</a>您的資料庫。"
+
+#: core/common/modules/finder/categories/tools.php:56
+#: includes/settings/tools.php:307 includes/settings/tools.php:318
+#: includes/settings/tools.php:326
+msgid "Replace URL"
+msgstr "替換網址"
+
+#. translators: 1: Human readable time difference, 2: Date.
+#: modules/history/revisions-manager.php:179
+msgid "%1$s ago (%2$s)"
+msgstr "%1$s 前 (%2$s)"
+
+#: modules/history/revisions-manager.php:151
+msgctxt "revision date format"
+msgid "M j @ H:i"
+msgstr "M j @ H:i"
+
+#: modules/history/views/revisions-panel-template.php:36
+msgid "It looks like the post revision feature is unavailable in your website."
+msgstr "看來您的網站上沒有修訂版本功能。"
+
+#: modules/history/views/revisions-panel-template.php:34
+msgid "Revision history lets you save your previous versions of your work, and restore them any time."
+msgstr "修訂歷史記錄可以保存您以前的工作版本，並隨時恢復。"
+
+#: modules/history/views/revisions-panel-template.php:63
+msgid "By"
+msgstr "透過"
+
+#: modules/history/views/revisions-panel-template.php:47
+msgid "No Revisions Saved Yet"
+msgstr "沒有保存修訂"
+
+#: includes/utils.php:174
+msgid "The `from` and `to` URL's must be valid URL's"
+msgstr "「來源」與「目的」必須是有效網址"
+
+#: modules/history/revisions-manager.php:163
+msgid "Revision"
+msgstr "內容修訂"
+
+#: includes/widgets/counter.php:170
+msgid "Thousand Separator"
+msgstr "千位數分隔"
+
+#: includes/controls/groups/background.php:272
+#: includes/controls/groups/background.php:431
+#: includes/controls/groups/background.php:462
+#: includes/controls/groups/background.php:483
+msgctxt "Background Control"
+msgid "Default"
+msgstr "預設值"
+
+#: includes/managers/controls.php:978
+msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
+msgstr "自定義CSS可以將CSS代碼添加到任何小工具，並在編輯器中看到它直接呈現。"
+
+#: includes/managers/controls.php:990
+msgid "Meet Our Custom CSS"
+msgstr "認識我們的自訂 CSS 樣式"
+
+#: includes/editor-templates/panel-elements.php:62
+msgid "With this feature, you can save a widget as global, then add it to multiple areas. All areas will be editable from one single place."
+msgstr "使用此功能，您可以將小工具儲存為全域，然後將其添加到多個區域。 所有區域都可以從一個地方編輯。"
+
+#: includes/editor-templates/panel-elements.php:61
+msgid "Meet Our Global Widget"
+msgstr "認識我們的全域小工具"
+
+#: core/admin/admin.php:302 core/admin/admin.php:504
+#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:171
+#: includes/editor-templates/panel-elements.php:23
+#: includes/editor-templates/panel-elements.php:63
+#: includes/managers/controls.php:1058 includes/settings/settings.php:177
+#: includes/settings/settings.php:316 includes/settings/settings.php:338
+#: includes/settings/settings.php:360 includes/settings/settings.php:381
+#: includes/settings/settings.php:631 assets/js/app-packages.js:7138
+#: assets/js/app-packages.js:7428 assets/js/app-packages.js:7463
+#: assets/js/app.js:4678 assets/js/editor.js:9022
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:934
+msgid "Go Pro"
+msgstr "到 Pro 說明頁"
+
+#: includes/editor-templates/panel-elements.php:22
+msgid "Get more with Elementor Pro"
+msgstr "取得更多有關 Elementor Pro"
+
+#: includes/editor-templates/panel-elements.php:11
+#: assets/js/editor-document.js:6849 assets/js/editor.js:31346
+msgid "Global"
+msgstr "全域"
+
+#: includes/widgets/common.php:731 includes/widgets/common.php:893
+#: includes/widgets/common.php:1381 includes/widgets/icon-list.php:263
+#: includes/widgets/text-editor.php:122 includes/widgets/video.php:608
+#: modules/shapes/widgets/text-path.php:204
+msgid "Off"
+msgstr "關"
+
+#: includes/widgets/common.php:730 includes/widgets/common.php:892
+#: includes/widgets/common.php:1380 includes/widgets/icon-list.php:264
+#: includes/widgets/text-editor.php:123 includes/widgets/video.php:609
+#: modules/shapes/widgets/text-path.php:203
+msgid "On"
+msgstr "開"
+
+#: core/kits/documents/tabs/settings-custom-css.php:17
+#: includes/managers/controls.php:972
+msgid "Custom CSS"
+msgstr "自訂 CSS"
+
+#: includes/widgets/traits/button-trait.php:37
+msgid "Extra Large"
+msgstr "超大"
+
+#: includes/widgets/traits/button-trait.php:33
+msgid "Extra Small"
+msgstr "超小"
+
+#: includes/settings/settings.php:487
+msgid "Improve Elementor"
+msgstr "改善 Elementor"
+
+#: includes/frontend.php:1148
+msgid "Invalid Data: The Template ID cannot be the same as the currently edited template. Please choose a different one."
+msgstr "無效資料：版型 ID 不能與當前編輯的版型相同， 請另選其它。"
+
+#: includes/base/widget-base.php:296 includes/base/widget-base.php:305
+msgid "Skin"
+msgstr "皮膚"
+
+#: includes/editor-templates/panel.php:149
+msgid "Update changes to page"
+msgstr "套用更新至頁面"
+
+#: includes/editor-templates/panel.php:168
+msgid "%s are disabled"
+msgstr "%s 已停用"
+
+#: core/admin/admin-notices.php:243
+msgid "No thanks"
+msgstr "不用了，謝謝"
+
+#: core/kits/documents/tabs/settings-layout.php:134
+msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
+msgstr "輸入拉伸段以適應父元素選擇器（例如#primary / .wrapper / main等），留空以適合頁面寬度。"
+
+#: core/kits/documents/tabs/settings-layout.php:131
+msgid "Stretched Section Fit To"
+msgstr "拉伸段以適應"
+
+#: core/kits/documents/tabs/settings-layout.php:73
+msgid "Sets the default width of the content area (Default: 1140)"
+msgstr "設置內容區域的預設寬度 (預設值：1140)"
+
+#: includes/elements/section.php:494
+msgid "Stretch the section to the full width of the page using JS."
+msgstr "使用 JS 將此段拉伸到頁面的整個寬度。"
+
+#: includes/elements/section.php:488
+msgid "Stretch Section"
+msgstr "拉伸段"
+
+#: core/admin/admin-notices.php:232 includes/elements/section.php:494
+#: includes/settings/settings-page.php:374
+msgid "Learn more."
+msgstr "學習更多。"
+
+#: includes/elements/section.php:1327
+msgid "Reverse Columns"
+msgstr "反轉欄位排序"
+
+#: core/breakpoints/manager.php:313
+#: core/settings/editor-preferences/model.php:133
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4520
+msgid "Mobile"
+msgstr "手機"
+
+#: includes/controls/dimensions.php:135 includes/controls/dimensions.php:138
+msgid "Link values together"
+msgstr "將值連結在一起"
+
+#: includes/widgets/shortcode.php:42 includes/widgets/shortcode.php:99
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: includes/template-library/sources/remote.php:46
+msgid "Remote"
+msgstr "遠端"
+
+#: includes/template-library/sources/local.php:926
+msgid "Import Now"
+msgstr "立即匯入"
+
+#: includes/template-library/sources/local.php:889
+msgid "Export Template"
+msgstr "匯出版型"
+
+#: includes/template-library/sources/local.php:476
+msgid "(no title)"
+msgstr "(無標題)"
+
+#: includes/template-library/sources/local.php:277
+msgctxt "Template Library"
+msgid "Type"
+msgstr "類型"
+
+#: includes/template-library/sources/local.php:237
+msgctxt "Template Library"
+msgid "No Templates found in Trash"
+msgstr "在回收桶裡未發現任何版型"
+
+#: includes/template-library/sources/local.php:236
+msgctxt "Template Library"
+msgid "No Templates found"
+msgstr "未發現任何版型"
+
+#: includes/template-library/sources/local.php:235
+msgctxt "Template Library"
+msgid "Search Template"
+msgstr "搜尋版型"
+
+#: includes/template-library/sources/local.php:234
+msgctxt "Template Library"
+msgid "View Template"
+msgstr "檢視版型"
+
+#: includes/template-library/sources/local.php:233
+msgctxt "Template Library"
+msgid "All Templates"
+msgstr "全部版型"
+
+#: includes/template-library/sources/local.php:232
+msgctxt "Template Library"
+msgid "New Template"
+msgstr "新版型"
+
+#: includes/template-library/sources/local.php:231
+msgctxt "Template Library"
+msgid "Edit Template"
+msgstr "編輯版型"
+
+#: includes/template-library/sources/local.php:230
+msgctxt "Template Library"
+msgid "Add New Template"
+msgstr "新增版型"
+
+#: includes/template-library/sources/local.php:229
+msgctxt "Template Library"
+msgid "Add New"
+msgstr "新增"
+
+#: includes/template-library/sources/local.php:201
+msgid "Local"
+msgstr "本地"
+
+#: includes/settings/tools.php:299
+msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
+msgstr "Elementor 版型庫每天自動更新，您也可以透過點擊同步按鈕手動更新它。"
+
+#: includes/editor-templates/templates.php:14
+#: includes/editor-templates/templates.php:15 includes/settings/tools.php:295
+#: includes/settings/tools.php:298
+msgid "Sync Library"
+msgstr "同步版型庫"
+
+#: core/common/modules/finder/categories/tools.php:28
+#: core/common/modules/finder/categories/tools.php:50
+#: includes/settings/tools.php:28 includes/settings/tools.php:29
+#: includes/settings/tools.php:49 includes/settings/tools.php:50
+#: includes/settings/tools.php:421
+msgid "Tools"
+msgstr "工具"
+
+#: core/document-types/page.php:37 modules/library/documents/page.php:57
+#: assets/js/editor.js:11108
+msgid "Page"
+msgstr "頁面"
+
+#: includes/utils.php:187 assets/js/editor.js:11274
+msgid "An error occurred"
+msgstr "發生錯誤"
+
+#: includes/editor-templates/templates.php:224
+msgid "Enter Template Name"
+msgstr "輸入版型名稱"
+
+#: includes/editor-templates/templates.php:190
+#: includes/template-library/sources/local.php:1104 assets/js/app.js:14351
+msgid "Export"
+msgstr "匯出"
+
+#: includes/editor-templates/templates.php:134
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr "敬請關注！ 更棒的版型即將推出。"
+
+#: includes/editor-templates/templates.php:176
+#: includes/editor-templates/templates.php:200 assets/js/editor.js:9349
+msgid "Insert"
+msgstr "插入"
+
+#: core/common/modules/connect/apps/library.php:15 assets/js/editor.js:11494
+msgid "Library"
+msgstr "版型庫"
+
+#: includes/editor-templates/global.php:18
+#: includes/editor-templates/library-layout.php:15
+#: includes/editor-templates/library-layout.php:16
+#: includes/editor-templates/responsive-bar.php:65
+#: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1308
+#: assets/js/app-packages.js:2910 assets/js/app-packages.js:5205
+#: assets/js/app-packages.js:5823 assets/js/app.js:4066 assets/js/app.js:6579
+#: assets/js/app.js:7045 assets/js/app.js:9488 assets/js/app.js:10488
+#: assets/js/app.js:14277 assets/js/editor.js:42815
+msgid "Close"
+msgstr "關閉"
+
+#: includes/editor-templates/global.php:37
+#: includes/editor-templates/global.php:52
+msgid "Select your Structure"
+msgstr "選擇你的架構"
+
+#: includes/editor-templates/global.php:31
+msgid "Add Template"
+msgstr "新增版型"
+
+#: includes/editor-templates/templates.php:37
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1437
+msgid "Back to Library"
+msgstr "回到版型庫"
+
+#: includes/editor-templates/hotkeys.php:134
+msgid "Template Library"
+msgstr "版型庫"
+
+#: includes/template-library/sources/local.php:228
+msgctxt "Template Library"
+msgid "Template"
+msgstr "範本"
+
+#: includes/template-library/sources/local.php:917
+msgid "Import Templates"
+msgstr "匯入版型"
+
+#: includes/template-library/sources/local.php:385
+#: includes/template-library/sources/local.php:1641 assets/js/app.js:13301
+msgid "Saved Templates"
+msgstr "已存版型"
+
+#. translators: %s: WordPress child themes documentation.
+#: modules/system-info/reporters/theme.php:207
+msgctxt "System Info"
+msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
+msgstr "如果要修改主題的源碼，建議您使用<a href=\"%s\">子主題</a>。"
+
+#: core/kits/documents/tabs/global-typography.php:28
+#: core/kits/documents/tabs/global-typography.php:47 assets/js/app.js:13319
+#: assets/js/editor.js:42542
+msgid "Global Fonts"
+msgstr "全域字型"
+
+#: core/admin/admin-notices.php:329 core/admin/admin-notices.php:370
+#: core/admin/admin-notices.php:412 core/admin/admin-notices.php:454
+#: core/admin/admin-notices.php:496
+#: core/app/modules/import-export/module.php:309
+#: core/app/modules/import-export/module.php:321
+#: core/experiments/manager.php:218 core/experiments/manager.php:231
+#: core/experiments/manager.php:244 core/experiments/manager.php:257
+#: core/experiments/manager.php:267 core/experiments/manager.php:295
+#: includes/controls/url.php:76 includes/settings/settings.php:376
+#: modules/safe-mode/module.php:392 modules/safe-mode/module.php:401
+#: modules/safe-mode/mu-plugin/elementor-safe-mode.php:104
+#: assets/js/app-packages.js:3651 assets/js/app-packages.js:7226
+#: assets/js/app-packages.js:7362 assets/js/app.js:5137 assets/js/app.js:9828
+#: assets/js/app.js:11109 assets/js/app.js:12618 assets/js/app.js:12984
+#: assets/js/app.js:13024 assets/js/app.js:14276 assets/js/editor.js:14952
+#: assets/js/editor.js:23692 assets/js/editor.js:23724
+#: assets/js/editor.js:35001
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:1186
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3878
+msgid "Learn More"
+msgstr "進一步了解"
+
+#: includes/widgets/icon-box.php:337 includes/widgets/icon.php:286
+#: includes/widgets/image-box.php:298 includes/widgets/image.php:470
+#: includes/widgets/social-icons.php:539
+#: includes/widgets/traits/button-trait.php:362
+#: modules/shapes/widgets/text-path.php:446
+msgid "Hover Animation"
+msgstr "懸停動畫"
+
+#: includes/controls/groups/background.php:486
+msgctxt "Background Control"
+msgid "Contain"
+msgstr "完整放置"
+
+#: includes/elements/column.php:848 includes/elements/container.php:1512
+#: includes/elements/section.php:1284 includes/widgets/common.php:640
+msgid "Fast"
+msgstr "快"
+
+#: includes/elements/column.php:846 includes/elements/container.php:1510
+#: includes/elements/section.php:1282 includes/widgets/common.php:638
+msgid "Slow"
+msgstr "慢"
+
+#: core/schemes/typography.php:78
+msgid "Default Fonts"
+msgstr "預設字型"
+
+#: core/schemes/color.php:80
+msgid "Color Palettes"
+msgstr "調色盤"
+
+#: includes/elements/column.php:833 includes/elements/container.php:1497
+#: includes/elements/section.php:1269 includes/widgets/common.php:625
+#: includes/widgets/video.php:816
+msgid "Entrance Animation"
+msgstr "進場動畫"
+
+#: includes/controls/groups/box-shadow.php:61
+#: includes/controls/groups/box-shadow.php:96
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr "方框陰影"
+
+#: includes/controls/box-shadow.php:73 includes/controls/text-shadow.php:76
+#: includes/widgets/tabs.php:157
+msgid "Vertical"
+msgstr "垂直"
+
+#: includes/controls/box-shadow.php:68 includes/controls/text-shadow.php:71
+#: includes/widgets/tabs.php:156
+msgid "Horizontal"
+msgstr "水平"
+
+#: includes/controls/box-shadow.php:83
+msgid "Spread"
+msgstr "擴散"
+
+#: includes/controls/box-shadow.php:78 includes/controls/text-shadow.php:66
+msgid "Blur"
+msgstr "模糊"
+
+#: includes/controls/groups/box-shadow.php:73
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr "插入"
+
+#: includes/settings/settings.php:469
+msgid "Disable Default Colors"
+msgstr "停用預設顏色"
+
+#: includes/widgets/testimonial.php:171
+msgid "Aside"
+msgstr "在旁邊"
+
+#: includes/widgets/testimonial.php:45 includes/widgets/testimonial.php:88
+msgid "Testimonial"
+msgstr "見證"
+
+#: includes/widgets/social-icons.php:189 includes/widgets/social-icons.php:347
+msgid "Official Color"
+msgstr "官方顏色"
+
+#: includes/widgets/social-icons.php:261
+msgid "Rounded"
+msgstr "圓角"
+
+#: includes/widgets/progress.php:101
+msgid "My Skill"
+msgstr "我的技能"
+
+#: includes/widgets/social-icons.php:42 includes/widgets/social-icons.php:85
+#: includes/widgets/social-icons.php:227
+msgid "Social Icons"
+msgstr "社交網路服務圖示"
+
+#: includes/widgets/audio.php:232
+msgid "Username"
+msgstr "用戶名稱"
+
+#: includes/widgets/audio.php:221
+msgid "Play Counts"
+msgstr "播放計數"
+
+#: includes/widgets/audio.php:210
+msgid "Comments"
+msgstr "評論"
+
+#: includes/widgets/audio.php:199
+msgid "Share Button"
+msgstr "分享按鈕"
+
+#: includes/widgets/audio.php:174 includes/widgets/video.php:506
+msgid "Download Button"
+msgstr "下載按鈕"
+
+#: includes/widgets/audio.php:163
+msgid "Like Button"
+msgstr "「讚」按鈕"
+
+#: includes/widgets/audio.php:152
+msgid "Buy Button"
+msgstr "購買按鈕"
+
+#: includes/widgets/audio.php:122
+msgid "Visual Player"
+msgstr "影音播放器"
+
+#: includes/widgets/audio.php:53 includes/widgets/audio.php:96
+msgid "SoundCloud"
+msgstr "聲音雲"
+
+#: includes/elements/column.php:347 includes/elements/container.php:623
+#: includes/elements/section.php:626
+msgid "Background Overlay"
+msgstr "背景覆蓋"
+
+#: includes/elements/section.php:287
+msgid "Extended"
+msgstr "擴展"
+
+#: core/admin/feedback.php:117
+msgid "Other"
+msgstr "其它"
+
+#: core/admin/feedback.php:100
+msgid "I found a better plugin"
+msgstr "我發現了更好用的外掛"
+
+#: core/admin/admin-notices.php:152 core/base/db-upgrades-manager.php:93
+msgid "Update Now"
+msgstr "立即更新"
+
+#. translators: %s: Elementor version.
+#: core/admin/admin-notices.php:139
+msgid "View Elementor version %s details"
+msgstr "查看 Elementor 版本 %s 詳細信息"
+
+#. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
+#. Update URL, 5: Accessibility text.
+#: core/admin/admin-notices.php:135
+msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
+msgstr "有一個 Elementor Page Builder 新版本可用。<a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">查看版本 %3$s 詳請</a> 或 <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">立即更新</a>。"
+
+#: core/admin/feedback.php:101
+msgid "Please share which plugin"
+msgstr "煩請告知是哪個外掛"
+
+#: core/admin/feedback.php:96
+msgid "I no longer need the plugin"
+msgstr "不再使用這個外掛"
+
+#: core/admin/feedback.php:104
+msgid "I couldn't get the plugin to work"
+msgstr "無法透過這個外掛達成使用目的"
+
+#: core/admin/feedback.php:108
+msgid "It's a temporary deactivation"
+msgstr "暫時停用外掛"
+
+#: core/admin/feedback.php:118
+msgid "Please share the reason"
+msgstr "煩請告知原因"
+
+#: core/admin/feedback.php:126
+msgid "Quick Feedback"
+msgstr "快速意見反應"
+
+#: core/admin/feedback.php:134
+msgid "If you have a moment, please share why you are deactivating Elementor:"
+msgstr "如果願意，請告訴我們停用 Elementor 的原因:"
+
+#: includes/widgets/image-carousel.php:186 includes/widgets/image.php:195
+msgid "Custom URL"
+msgstr "客製 URL"
+
+#: core/kits/documents/tabs/settings-background.php:18
+#: includes/elements/column.php:273 includes/elements/container.php:538
+#: includes/elements/section.php:553 includes/widgets/accordion.php:287
+#: includes/widgets/accordion.php:452 includes/widgets/common.php:1182
+#: includes/widgets/toggle.php:314 includes/widgets/toggle.php:471
+#: includes/widgets/traits/button-trait.php:286
+#: includes/widgets/traits/button-trait.php:331
+msgid "Background"
+msgstr "背景"
+
+#: includes/elements/section.php:289
+msgid "Wider"
+msgstr "寬闊"
+
+#: core/common/modules/finder/categories/general.php:29
+#: core/role-manager/role-manager.php:60 includes/managers/elements.php:288
+#: includes/settings/settings.php:448 includes/settings/tools.php:282
+msgid "General"
+msgstr "一般"
+
+#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:14790
+#: assets/js/editor-document.js:16279 assets/js/editor-document.js:18490
+#: assets/js/editor.js:25024 assets/js/editor.js:26984
+#: assets/js/editor.js:37106 assets/js/editor.js:38152
+msgid "Paste"
+msgstr "貼上"
+
+#: includes/widgets/video.php:480
+msgid "Intro Byline"
+msgstr "逐行介紹"
+
+#: includes/widgets/accordion.php:424 includes/widgets/divider.php:760
+#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:349
+#: includes/widgets/icon-box.php:537 includes/widgets/image-box.php:225
+#: includes/widgets/image-box.php:461 includes/widgets/image-carousel.php:581
+#: includes/widgets/image-gallery.php:191 includes/widgets/image.php:602
+#: includes/widgets/social-icons.php:428 includes/widgets/star-rating.php:291
+#: includes/widgets/toggle.php:443
+msgid "Spacing"
+msgstr "間距"
+
+#: includes/widgets/image-carousel.php:418
+#: includes/widgets/image-carousel.php:481
+msgid "Outside"
+msgstr "外面"
+
+#: includes/widgets/image-carousel.php:417
+#: includes/widgets/image-carousel.php:482
+msgid "Inside"
+msgstr "裡面"
+
+#: includes/controls/groups/background.php:776
+#: includes/widgets/image-carousel.php:375
+msgid "Direction"
+msgstr "方向"
+
+#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:253
+msgid "Additional Options"
+msgstr "其它選項"
+
+#: includes/widgets/image-carousel.php:168
+msgid "Arrows and Dots"
+msgstr "箭頭與點"
+
+#: includes/widgets/alert.php:194
+msgid "Left Border Width"
+msgstr "左邊線寬度"
+
+#: includes/elements/column.php:842 includes/elements/container.php:1506
+#: includes/elements/section.php:1278 includes/widgets/common.php:634
+#: includes/widgets/counter.php:159
+msgid "Animation Duration"
+msgstr "動畫持續時間"
+
+#: includes/widgets/image-carousel.php:151
+msgid "Image Stretch"
+msgstr "圖片拉伸"
+
+#: includes/widgets/image-carousel.php:45
+#: includes/widgets/image-carousel.php:88
+msgid "Image Carousel"
+msgstr "圖片轉盤"
+
+#: includes/widgets/image-carousel.php:364
+msgid "Animation Speed"
+msgstr "動畫速度"
+
+#: includes/controls/groups/image-size.php:297
+msgid "You can crop the original image size to any custom size. You can also set a single value for height or width in order to keep the original size ratio."
+msgstr "您可以將原始圖片尺寸裁剪為任何自定義尺寸，您也可以只單為高度或寬度設定一個值，以保持原始尺寸比例。"
+
+#: includes/widgets/audio.php:243 includes/widgets/video.php:494
+msgid "Controls Color"
+msgstr "控制顏色"
+
+#: includes/widgets/video.php:466
+msgid "Intro Portrait"
+msgstr "介紹行動裝置"
+
+#: includes/widgets/video.php:452
+msgid "Intro Title"
+msgstr "介紹標題"
+
+#: includes/widgets/video.php:268
+msgid "Video Options"
+msgstr "影音選項"
+
+#: includes/widgets/video.php:115
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/widgets/video.php:44 includes/widgets/video.php:103
+#: includes/widgets/video.php:623
+msgid "Video"
+msgstr "影音"
+
+#: includes/widgets/image-gallery.php:263
+msgid "Display"
+msgstr "顯示"
+
+#: includes/controls/image-dimensions.php:81
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "該伺服器沒有安裝和/或啟用 ImageMagick 或 GD！ 要 WordPress 能夠調整圖像大小，就必需要有前述函式庫。 請聯繫您的伺服器管理員以啟用此操作，然後再繼續。"
+
+#: includes/controls/groups/image-size.php:295
+msgctxt "Image Size Control"
+msgid "Image Dimension"
+msgstr "圖片尺寸"
+
+#: includes/controls/groups/image-size.php:378
+msgctxt "Image Size Control"
+msgid "Custom"
+msgstr "自訂"
+
+#: includes/controls/groups/border.php:67
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr "虛線"
+
+#: includes/controls/groups/border.php:66
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr "點線"
+
+#: includes/controls/groups/border.php:65
+msgctxt "Border Control"
+msgid "Double"
+msgstr "雙實線"
+
+#: includes/controls/groups/border.php:64
+msgctxt "Border Control"
+msgid "Solid"
+msgstr "實線"
+
+#: includes/widgets/video.php:320
+msgid "Loop"
+msgstr "循環播放"
+
+#: includes/widgets/image-carousel.php:352
+msgid "Fade"
+msgstr "淡化"
+
+#: includes/widgets/image-carousel.php:347
+msgid "Effect"
+msgstr "特效"
+
+#: includes/controls/groups/image-size.php:375
+msgctxt "Image Size Control"
+msgid "Full"
+msgstr "Full"
+
+#: includes/widgets/icon-box.php:513 includes/widgets/image-box.php:437
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: includes/controls/groups/background.php:661
+#: includes/widgets/image-carousel.php:333
+msgid "Infinite Loop"
+msgstr "無限循環"
+
+#: includes/widgets/image-carousel.php:170
+msgid "Dots"
+msgstr "點"
+
+#: includes/controls/groups/image-size.php:290
+msgctxt "Image Size Control"
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: includes/controls/groups/typography.php:185
+msgctxt "Typography Control"
+msgid "None"
+msgstr "無"
+
+#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:218
+#: includes/widgets/image-box.php:186 includes/widgets/toggle.php:211
+msgid "Title HTML Tag"
+msgstr "標題使用的 HTML 標籤"
+
+#: includes/widgets/icon-box.php:146 includes/widgets/image-box.php:123
+msgid "This is the heading"
+msgstr "這是標題"
+
+#: includes/elements/column.php:795 includes/elements/container.php:1472
+#: includes/elements/section.php:1251 includes/widgets/common.php:600
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr "新增你的自訂 class（不包含 . ），例如：my-class"
+
+#: core/kits/documents/tabs/global-typography.php:195
+msgid "The list of fonts used if the chosen font is not available."
+msgstr "若所選字型不能用，則使用的字型列表。"
+
+#: includes/managers/elements.php:329
+msgid "Pojo Themes"
+msgstr "Pojo 主題"
+
+#: includes/widgets/wordpress.php:234
+msgid "Form"
+msgstr "表單"
+
+#: modules/system-info/reporters/server.php:122
+msgctxt "System Info"
+msgid "We recommend to use php 5.4 or higher"
+msgstr "我們建議使用 PHP 5.4 或更新的版本"
+
+#: includes/editor-templates/panel-elements.php:10
+#: assets/js/editor-document.js:5857 assets/js/editor-document.js:8038
+#: assets/js/editor-document.js:8569 assets/js/editor.js:18628
+#: assets/js/editor.js:31343
+msgid "Elements"
+msgstr "元素"
+
+#: core/admin/admin.php:298 core/admin/menu/main.php:75
+#: core/common/modules/finder/categories/settings.php:28
+#: core/dynamic-tags/base-tag.php:171 includes/editor-templates/panel.php:65
+#: includes/editor-templates/responsive-bar.php:61
+#: includes/managers/controls.php:304 includes/settings/settings.php:414
+#: includes/settings/settings.php:593 assets/js/editor.js:10300
+#: assets/js/editor.js:32149 assets/js/editor.js:42965
+msgid "Settings"
+msgstr "設定"
+
+#: includes/controls/groups/typography.php:172
+msgctxt "Typography Control"
+msgid "Oblique"
+msgstr "斜體"
+
+#: includes/controls/groups/typography.php:171
+msgctxt "Typography Control"
+msgid "Italic"
+msgstr "斜體"
+
+#: includes/controls/groups/typography.php:160
+#: includes/controls/groups/typography.php:170
+msgctxt "Typography Control"
+msgid "Normal"
+msgstr "一般"
+
+#: includes/controls/groups/typography.php:159
+msgctxt "Typography Control"
+msgid "Capitalize"
+msgstr "大寫"
+
+#: includes/controls/groups/typography.php:158
+msgctxt "Typography Control"
+msgid "Lowercase"
+msgstr "小寫"
+
+#: includes/controls/groups/typography.php:157
+msgctxt "Typography Control"
+msgid "Uppercase"
+msgstr "大寫"
+
+#. Author of the plugin
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#: includes/widgets/video.php:592 includes/widgets/video.php:658
+msgid "Play Icon"
+msgstr "播放圖示"
+
+#: includes/widgets/video.php:544 includes/widgets/video.php:551
+msgid "Image Overlay"
+msgstr "圖片覆蓋"
+
+#: includes/widgets/video.php:436
+msgid "Suggested Videos"
+msgstr "建議的影片"
+
+#: includes/widgets/video.php:631
+msgid "Aspect Ratio"
+msgstr "長寬比"
+
+#: includes/widgets/video.php:114
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/widgets/toggle.php:113
+msgid "Toggle Content"
+msgstr "切換內容"
+
+#: includes/widgets/toggle.php:100
+msgid "Toggle Title"
+msgstr "切換標題"
+
+#: includes/widgets/toggle.php:133
+msgid "Toggle #2"
+msgstr "切換 #2"
+
+#: includes/widgets/toggle.php:129
+msgid "Toggle #1"
+msgstr "切換 #1"
+
+#: includes/widgets/toggle.php:124
+msgid "Toggle Items"
+msgstr "切換項目"
+
+#: includes/widgets/toggle.php:46 includes/widgets/toggle.php:89
+#: includes/widgets/toggle.php:241
+msgid "Toggle"
+msgstr "切換"
+
+#: includes/widgets/tabs.php:113 includes/widgets/tabs.php:114
+msgid "Tab Content"
+msgstr "標籤內容"
+
+#: includes/widgets/tabs.php:100 includes/widgets/tabs.php:101
+msgid "Tab Title"
+msgstr "標籤標題"
+
+#: includes/widgets/tabs.php:132
+msgid "Tab #2"
+msgstr "標籤 #2"
+
+#: includes/widgets/tabs.php:128
+msgid "Tab #1"
+msgstr "標籤 #1"
+
+#: includes/widgets/tabs.php:123
+msgid "Tabs Items"
+msgstr "分頁項目"
+
+#: includes/widgets/tabs.php:46 includes/widgets/tabs.php:89
+#: includes/widgets/tabs.php:229
+msgid "Tabs"
+msgstr "分頁"
+
+#: includes/widgets/image-carousel.php:283
+msgid "Pause on Hover"
+msgstr "暫停在懸停"
+
+#: includes/widgets/image-carousel.php:318
+msgid "Autoplay Speed"
+msgstr "自動播放速度"
+
+#: includes/widgets/image-carousel.php:169
+#: includes/widgets/image-carousel.php:401
+msgid "Arrows"
+msgstr "箭頭"
+
+#: includes/widgets/image-carousel.php:351
+msgid "Slide"
+msgstr "滑動"
+
+#: includes/widgets/sidebar.php:89 includes/widgets/sidebar.php:109
+msgid "Choose Sidebar"
+msgstr "選擇側欄"
+
+#: includes/widgets/sidebar.php:87
+msgid "No sidebars were found"
+msgstr "未發現側欄"
+
+#: includes/widgets/progress.php:275
+msgid "Title Style"
+msgstr "標題樣式"
+
+#: includes/widgets/progress.php:159
+msgid "Web Designer"
+msgstr "網站設計師"
+
+#: includes/widgets/progress.php:158
+msgid "e.g. Web Designer"
+msgstr "例：網站設計師"
+
+#: includes/widgets/progress.php:153 includes/widgets/progress.php:234
+msgid "Inner Text"
+msgstr "內文"
+
+#: includes/widgets/progress.php:140
+msgid "Display Percentage"
+msgstr "顯示百分比"
+
+#: includes/widgets/progress.php:125
+msgid "Percentage"
+msgstr "百分比"
+
+#: includes/widgets/progress.php:45 includes/widgets/progress.php:88
+#: includes/widgets/progress.php:178
+msgid "Progress Bar"
+msgstr "進度條"
+
+#: includes/widgets/menu-anchor.php:95
+msgid "For Example: About"
+msgstr "例如：關於"
+
+#: includes/widgets/menu-anchor.php:93
+msgid "The ID of Menu Anchor."
+msgstr "選單錨點的 ID。"
+
+#: includes/widgets/menu-anchor.php:96
+msgid "This ID will be the CSS ID you will have to use in your own page, Without #."
+msgstr "此 ID 將是您將在自己的頁面中使用的 CSS ID，不需 # 。"
+
+#: includes/widgets/menu-anchor.php:86
+msgid "Anchor"
+msgstr "錨點"
+
+#: includes/widgets/menu-anchor.php:43
+msgid "Menu Anchor"
+msgstr "選單錨點"
+
+#: includes/widgets/image-box.php:161 includes/widgets/testimonial.php:167
+msgid "Image Position"
+msgstr "圖片位置"
+
+#: includes/widgets/image-carousel.php:597
+#: includes/widgets/image-gallery.php:208
+msgid "Image Spacing"
+msgstr "圖片間距"
+
+#: includes/widgets/testimonial.php:280
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: includes/widgets/image-box.php:45 includes/widgets/image-box.php:88
+msgid "Image Box"
+msgstr "圖片方框"
+
+#: includes/widgets/social-icons.php:485
+msgid "Icon Hover"
+msgstr "圖示懸停"
+
+#: includes/widgets/common.php:695 includes/widgets/common.php:707
+#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:421
+#: includes/widgets/icon.php:336 modules/shapes/widgets/text-path.php:271
+msgid "Rotate"
+msgstr "旋轉"
+
+#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:283
+#: includes/widgets/icon-box.php:321 includes/widgets/icon.php:229
+#: includes/widgets/icon.php:269 includes/widgets/social-icons.php:212
+#: includes/widgets/social-icons.php:370 includes/widgets/social-icons.php:508
+#: includes/widgets/text-editor.php:293
+msgid "Secondary Color"
+msgstr "次要顏色"
+
+#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:267
+#: includes/widgets/icon-box.php:308 includes/widgets/icon.php:212
+#: includes/widgets/icon.php:255 includes/widgets/social-icons.php:198
+#: includes/widgets/social-icons.php:356 includes/widgets/social-icons.php:493
+#: includes/widgets/text-editor.php:278
+msgid "Primary Color"
+msgstr "主要顏色"
+
+#: includes/widgets/icon-box.php:127 includes/widgets/icon.php:142
+#: includes/widgets/social-icons.php:262
+msgid "Square"
+msgstr "矩形"
+
+#: includes/widgets/common.php:125 includes/widgets/icon-box.php:126
+#: includes/widgets/icon.php:141 includes/widgets/social-icons.php:263
+#: modules/shapes/module.php:22
+msgid "Circle"
+msgstr "圓形"
+
+#: includes/widgets/common.php:1389 includes/widgets/icon-box.php:123
+#: includes/widgets/icon.php:138 includes/widgets/social-icons.php:257
+msgid "Shape"
+msgstr "形狀"
+
+#: includes/widgets/divider.php:795 includes/widgets/icon-box.php:113
+#: includes/widgets/icon.php:128 includes/widgets/text-editor.php:268
+msgid "Framed"
+msgstr "框架"
+
+#: includes/widgets/divider.php:794 includes/widgets/icon-box.php:112
+#: includes/widgets/icon.php:127 includes/widgets/text-editor.php:267
+msgid "Stacked"
+msgstr "堆疊"
+
+#: includes/widgets/icon-list.php:123 includes/widgets/icon-list.php:124
+msgid "List Item"
+msgstr "列表項目"
+
+#: includes/widgets/icon-list.php:178
+msgid "List Item #3"
+msgstr "列表項目 #3"
+
+#: includes/widgets/icon-list.php:171
+msgid "List Item #2"
+msgstr "列表項目 #2"
+
+#: includes/widgets/icon-list.php:164
+msgid "List Item #1"
+msgstr "列表項目 #1"
+
+#: includes/widgets/icon-list.php:45 includes/widgets/icon-list.php:88
+msgid "Icon List"
+msgstr "圖示列表"
+
+#: includes/widgets/traits/button-trait.php:186
+msgid "Icon Spacing"
+msgstr "圖示間距"
+
+#: includes/widgets/icon-box.php:45 includes/widgets/icon-box.php:88
+msgid "Icon Box"
+msgstr "圖示方框"
+
+#: includes/widgets/html.php:85
+msgid "HTML Code"
+msgstr "HTML 代碼"
+
+#: includes/widgets/html.php:42
+msgid "HTML"
+msgstr "HTML"
+
+#: core/kits/documents/tabs/theme-style-typography.php:191
+msgid "H6"
+msgstr "H6"
+
+#: core/kits/documents/tabs/theme-style-typography.php:190
+msgid "H5"
+msgstr "H5"
+
+#: core/kits/documents/tabs/theme-style-typography.php:189
+msgid "H4"
+msgstr "H4"
+
+#: core/kits/documents/tabs/theme-style-typography.php:188
+msgid "H3"
+msgstr "H3"
+
+#: core/kits/documents/tabs/theme-style-typography.php:187
+msgid "H2"
+msgstr "H2"
+
+#: core/kits/documents/tabs/theme-style-typography.php:186
+msgid "H1"
+msgstr "H1"
+
+#: includes/elements/column.php:261 includes/elements/container.php:457
+#: includes/elements/section.php:518 includes/widgets/divider.php:525
+#: includes/widgets/heading.php:156
+msgid "HTML Tag"
+msgstr "HTML 標籤"
+
+#: includes/widgets/alert.php:113 includes/widgets/heading.php:116
+#: includes/widgets/icon-box.php:147 includes/widgets/image-box.php:124
+#: includes/widgets/progress.php:100
+msgid "Enter your title"
+msgstr "輸入你的標題"
+
+#: includes/widgets/heading.php:45
+msgid "Heading"
+msgstr "標題"
+
+#: includes/widgets/google-maps.php:128
+msgid "London Eye, London, United Kingdom"
+msgstr "台灣屏東縣內埔鄉國立屏東科技大學"
+
+#: includes/widgets/google-maps.php:103 includes/widgets/google-maps.php:200
+msgid "Map"
+msgstr "地圖"
+
+#: includes/widgets/google-maps.php:44
+msgid "Google Maps"
+msgstr "Google 地圖"
+
+#: core/kits/documents/tabs/settings-lightbox.php:101
+#: core/kits/documents/tabs/settings-lightbox.php:118
+#: includes/widgets/image-carousel.php:227
+#: includes/widgets/image-carousel.php:233
+#: includes/widgets/image-carousel.php:643
+#: includes/widgets/image-gallery.php:255 includes/widgets/image.php:159
+#: includes/widgets/image.php:516
+msgid "Caption"
+msgstr "標題"
+
+#: core/kits/documents/tabs/theme-style-images.php:21
+#: core/kits/documents/tabs/theme-style-images.php:51
+#: includes/widgets/image-gallery.php:183
+msgid "Images"
+msgstr "圖片"
+
+#: includes/widgets/image-gallery.php:163
+msgid "Random"
+msgstr "隨機"
+
+#: includes/widgets/image-carousel.php:185
+#: includes/widgets/image-gallery.php:132 includes/widgets/image.php:194
+msgid "Media File"
+msgstr "媒體檔案"
+
+#: includes/widgets/image-gallery.php:133
+msgid "Attachment Page"
+msgstr "附件頁"
+
+#: includes/controls/gallery.php:88 includes/widgets/image-carousel.php:95
+#: includes/widgets/image-gallery.php:94
+msgid "Add Images"
+msgstr "新增圖片"
+
+#: includes/widgets/image-gallery.php:87
+msgid "Image Gallery"
+msgstr "圖庫"
+
+#: includes/widgets/divider.php:677 includes/widgets/star-rating.php:246
+msgid "Gap"
+msgstr "間距"
+
+#: includes/widgets/divider.php:592 includes/widgets/icon-list.php:297
+msgid "Weight"
+msgstr "重"
+
+#: includes/widgets/spacer.php:42 includes/widgets/spacer.php:101
+msgid "Spacer"
+msgstr "空白間隔"
+
+#: includes/widgets/divider.php:46 includes/widgets/divider.php:356
+#: includes/widgets/divider.php:515 includes/widgets/divider.php:565
+#: includes/widgets/icon-list.php:261
+msgid "Divider"
+msgstr "分隔線"
+
+#: includes/widgets/counter.php:222
+msgid "Number"
+msgstr "數字"
+
+#: includes/widgets/counter.php:203 includes/widgets/counter.php:204
+msgid "Cool Number"
+msgstr "修飾數字"
+
+#: includes/widgets/counter.php:152
+msgid "Plus"
+msgstr "加"
+
+#: includes/widgets/counter.php:146
+msgid "Number Suffix"
+msgstr "數字後綴"
+
+#: includes/widgets/counter.php:133
+msgid "Number Prefix"
+msgstr "數字前綴"
+
+#: includes/widgets/counter.php:121
+msgid "Ending Number"
+msgstr "結束數字"
+
+#: includes/widgets/counter.php:109
+msgid "Starting Number"
+msgstr "開始數字"
+
+#: core/kits/documents/tabs/settings-lightbox.php:56
+#: includes/widgets/counter.php:45 includes/widgets/counter.php:102
+msgid "Counter"
+msgstr "計數器"
+
+#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:269
+#: includes/widgets/video.php:277
+msgid "Autoplay"
+msgstr "自動播放"
+
+#: includes/widgets/image-carousel.php:135
+msgid "Slides to Scroll"
+msgstr "幻燈片捲動"
+
+#: includes/widgets/image-carousel.php:119
+msgid "Slides to Show"
+msgstr "顯示幻燈片"
+
+#: includes/widgets/common.php:1403 includes/widgets/image-box.php:217
+#: includes/widgets/image-carousel.php:545 includes/widgets/image.php:45
+#: includes/widgets/image.php:104 includes/widgets/image.php:247
+#: includes/widgets/testimonial.php:269
+msgid "Image"
+msgstr "圖片"
+
+#: core/dynamic-tags/tag.php:102 includes/widgets/traits/button-trait.php:177
+msgid "After"
+msgstr "之後"
+
+#: core/dynamic-tags/tag.php:95 includes/widgets/traits/button-trait.php:176
+msgid "Before"
+msgstr "之前"
+
+#: includes/widgets/icon-box.php:184
+#: includes/widgets/traits/button-trait.php:172
+msgid "Icon Position"
+msgstr "圖示位置"
+
+#: includes/widgets/accordion.php:149 includes/widgets/accordion.php:369
+#: includes/widgets/divider.php:487 includes/widgets/divider.php:548
+#: includes/widgets/divider.php:779 includes/widgets/icon-box.php:95
+#: includes/widgets/icon-box.php:240 includes/widgets/icon-list.php:134
+#: includes/widgets/icon-list.php:388 includes/widgets/icon.php:44
+#: includes/widgets/icon.php:103 includes/widgets/icon.php:110
+#: includes/widgets/icon.php:195 includes/widgets/social-icons.php:94
+#: includes/widgets/social-icons.php:335 includes/widgets/star-rating.php:123
+#: includes/widgets/toggle.php:153 includes/widgets/toggle.php:388
+#: includes/widgets/traits/button-trait.php:159
+msgid "Icon"
+msgstr "圖示"
+
+#: includes/widgets/common.php:1441 includes/widgets/divider.php:617
+#: includes/widgets/divider.php:805 includes/widgets/heading.php:139
+#: includes/widgets/icon-box.php:369 includes/widgets/icon-list.php:425
+#: includes/widgets/icon.php:298 includes/widgets/image-carousel.php:430
+#: includes/widgets/image-carousel.php:494
+#: includes/widgets/social-icons.php:385 includes/widgets/star-rating.php:274
+#: includes/widgets/text-editor.php:316
+#: includes/widgets/traits/button-trait.php:147 includes/widgets/video.php:687
+#: modules/shapes/widgets/text-path.php:235
+msgid "Size"
+msgstr "尺寸"
+
+#: includes/elements/column.php:705 includes/elements/section.php:1162
+#: includes/widgets/heading.php:192 includes/widgets/icon-box.php:500
+#: includes/widgets/image-box.php:424 includes/widgets/image-carousel.php:670
+#: includes/widgets/image-gallery.php:295 includes/widgets/image.php:543
+#: includes/widgets/star-rating.php:186 includes/widgets/tabs.php:183
+#: includes/widgets/tabs.php:213 includes/widgets/text-editor.php:204
+#: includes/widgets/traits/button-trait.php:134
+msgid "Justified"
+msgstr "合理"
+
+#: includes/widgets/heading.php:148
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/widgets/accordion.php:380 includes/widgets/divider.php:448
+#: includes/widgets/heading.php:176 includes/widgets/icon-box.php:484
+#: includes/widgets/icon-list.php:238 includes/widgets/icon-list.php:449
+#: includes/widgets/icon.php:167 includes/widgets/image-box.php:408
+#: includes/widgets/image-carousel.php:654
+#: includes/widgets/image-gallery.php:279 includes/widgets/image.php:134
+#: includes/widgets/image.php:527 includes/widgets/social-icons.php:297
+#: includes/widgets/star-rating.php:170 includes/widgets/tabs.php:167
+#: includes/widgets/tabs.php:197 includes/widgets/tabs.php:368
+#: includes/widgets/testimonial.php:185 includes/widgets/text-editor.php:188
+#: includes/widgets/toggle.php:399 includes/widgets/traits/button-trait.php:118
+#: modules/shapes/widgets/text-path.php:156
+msgid "Alignment"
+msgstr "對齊"
+
+#: includes/widgets/heading.php:147
+msgid "XL"
+msgstr "XL"
+
+#: includes/widgets/button.php:47 includes/widgets/button.php:84
+#: includes/widgets/button.php:95
+msgid "Button"
+msgstr "按鈕"
+
+#: core/common/modules/finder/categories/edit.php:30
+#: includes/controls/popover-toggle.php:68
+msgid "Edit"
+msgstr "編輯"
+
+#: core/kits/documents/tabs/settings-lightbox.php:103
+#: core/kits/documents/tabs/settings-lightbox.php:113
+#: core/kits/documents/tabs/settings-lightbox.php:120
+#: includes/compatibility.php:151 includes/widgets/alert.php:253
+#: includes/widgets/icon-box.php:596 includes/widgets/image-box.php:512
+#: includes/widgets/image-carousel.php:234
+msgid "Description"
+msgstr "描述"
+
+#: core/base/document.php:1581
+#: core/kits/documents/tabs/settings-lightbox.php:96
+#: core/kits/documents/tabs/settings-lightbox.php:100
+#: core/kits/documents/tabs/settings-lightbox.php:117
+#: includes/elements/column.php:122 includes/elements/section.php:236
+#: includes/widgets/accordion.php:279 includes/widgets/alert.php:213
+#: includes/widgets/common.php:181 includes/widgets/counter.php:197
+#: includes/widgets/counter.php:265 includes/widgets/heading.php:104
+#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
+#: includes/widgets/icon-box.php:528 includes/widgets/image-box.php:452
+#: includes/widgets/image-carousel.php:232 includes/widgets/progress.php:95
+#: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
+#: includes/widgets/tabs.php:303 includes/widgets/testimonial.php:143
+#: includes/widgets/testimonial.php:367 includes/widgets/toggle.php:306
+msgid "Title"
+msgstr "標題"
+
+#: includes/widgets/alert.php:145 includes/widgets/audio.php:154
+#: includes/widgets/audio.php:165 includes/widgets/audio.php:176
+#: includes/widgets/audio.php:187 includes/widgets/audio.php:201
+#: includes/widgets/audio.php:212 includes/widgets/audio.php:223
+#: includes/widgets/audio.php:234 includes/widgets/counter.php:174
+#: includes/widgets/image-gallery.php:268 includes/widgets/progress.php:145
+#: includes/widgets/video.php:334 includes/widgets/video.php:349
+#: includes/widgets/video.php:376 includes/widgets/video.php:454
+#: includes/widgets/video.php:468 includes/widgets/video.php:482
+#: includes/widgets/video.php:508 includes/widgets/video.php:553
+msgid "Hide"
+msgstr "隱藏"
+
+#: includes/widgets/alert.php:144 includes/widgets/audio.php:155
+#: includes/widgets/audio.php:166 includes/widgets/audio.php:177
+#: includes/widgets/audio.php:188 includes/widgets/audio.php:202
+#: includes/widgets/audio.php:213 includes/widgets/audio.php:224
+#: includes/widgets/audio.php:235 includes/widgets/counter.php:173
+#: includes/widgets/image-gallery.php:267 includes/widgets/progress.php:144
+#: includes/widgets/video.php:335 includes/widgets/video.php:350
+#: includes/widgets/video.php:377 includes/widgets/video.php:455
+#: includes/widgets/video.php:469 includes/widgets/video.php:483
+#: includes/widgets/video.php:509 includes/widgets/video.php:554
+msgid "Show"
+msgstr "顯示"
+
+#: includes/widgets/alert.php:140
+msgid "Dismiss Button"
+msgstr "關閉按鈕"
+
+#: includes/widgets/accordion.php:97 includes/widgets/alert.php:111
+#: includes/widgets/icon-box.php:141 includes/widgets/image-box.php:118
+#: includes/widgets/tabs.php:98 includes/widgets/toggle.php:98
+msgid "Title & Description"
+msgstr "標題描述"
+
+#: includes/widgets/alert.php:102 includes/widgets/progress.php:117
+#: includes/widgets/traits/button-trait.php:78
+msgid "Danger"
+msgstr "危險"
+
+#: includes/widgets/alert.php:101 includes/widgets/progress.php:116
+#: includes/widgets/traits/button-trait.php:77
+msgid "Warning"
+msgstr "警告"
+
+#: includes/widgets/alert.php:100 includes/widgets/progress.php:115
+#: includes/widgets/traits/button-trait.php:76
+msgid "Success"
+msgstr "成功"
+
+#: includes/widgets/alert.php:99 includes/widgets/progress.php:114
+#: includes/widgets/traits/button-trait.php:75 assets/js/app-packages.js:7215
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:3475
+msgid "Info"
+msgstr "資訊"
+
+#: includes/editor-templates/templates.php:113
+#: includes/elements/container.php:1005 includes/elements/section.php:967
+#: includes/template-library/sources/local.php:1612
+#: includes/widgets/alert.php:95 includes/widgets/progress.php:109
+#: includes/widgets/traits/button-trait.php:70
+msgid "Type"
+msgstr "類型"
+
+#: includes/widgets/alert.php:45 includes/widgets/alert.php:88
+#: includes/widgets/alert.php:164
+msgid "Alert"
+msgstr "警告"
+
+#: includes/widgets/accordion.php:313 includes/widgets/accordion.php:412
+#: includes/widgets/image-carousel.php:529 includes/widgets/tabs.php:326
+#: includes/widgets/toggle.php:341 includes/widgets/toggle.php:431
+msgid "Active Color"
+msgstr "動作顏色"
+
+#: includes/widgets/accordion.php:112
+msgid "Accordion Content"
+msgstr "收合容器內容"
+
+#: includes/widgets/accordion.php:140 includes/widgets/alert.php:153
+#: includes/widgets/audio.php:251 includes/widgets/counter.php:211
+#: includes/widgets/divider.php:501 includes/widgets/divider.php:790
+#: includes/widgets/google-maps.php:189 includes/widgets/heading.php:206
+#: includes/widgets/icon-box.php:108 includes/widgets/icon.php:123
+#: includes/widgets/image-box.php:206 includes/widgets/image-carousel.php:242
+#: includes/widgets/image-gallery.php:172 includes/widgets/image.php:236
+#: includes/widgets/progress.php:167 includes/widgets/social-icons.php:324
+#: includes/widgets/spacer.php:133 includes/widgets/tabs.php:143
+#: includes/widgets/testimonial.php:212 includes/widgets/text-editor.php:263
+#: includes/widgets/toggle.php:144 includes/widgets/traits/button-trait.php:204
+#: includes/widgets/video.php:533
+msgid "View"
+msgstr "檢視"
+
+#: includes/widgets/accordion.php:99
+msgid "Accordion Title"
+msgstr "收合容器標題"
+
+#: includes/widgets/accordion.php:129
+msgid "Accordion #2"
+msgstr "收合容器 #2"
+
+#: includes/widgets/accordion.php:125
+msgid "Accordion #1"
+msgstr "收合容器 #1"
+
+#: includes/widgets/accordion.php:120
+msgid "Accordion Items"
+msgstr "收合容器項目"
+
+#: includes/widgets/accordion.php:45 includes/widgets/accordion.php:88
+#: includes/widgets/accordion.php:237
+msgid "Accordion"
+msgstr "收合容器"
+
+#: core/admin/admin-notices.php:238
+msgid "Sure! I'd love to help"
+msgstr "當然！我很樂意幫助"
+
+#: modules/system-info/module.php:181
+msgid "Download System Info"
+msgstr "下載系統資訊"
+
+#: modules/system-info/module.php:161
+msgid "Copy & Paste Info"
+msgstr "複製和貼上資訊"
+
+#: core/common/modules/finder/categories/general.php:55
+#: modules/system-info/module.php:133 modules/system-info/module.php:159
+msgid "System Info"
+msgstr "系統資訊"
+
+#: includes/editor-templates/templates.php:109
+#: includes/widgets/testimonial.php:131 includes/widgets/testimonial.php:322
+msgid "Name"
+msgstr "名稱"
+
+#: includes/controls/switcher.php:73 includes/managers/icons.php:476
+#: includes/widgets/audio.php:127 includes/widgets/image-carousel.php:155
+#: includes/widgets/image-carousel.php:216
+#: includes/widgets/image-carousel.php:274
+#: includes/widgets/image-carousel.php:288
+#: includes/widgets/image-carousel.php:306
+#: includes/widgets/image-carousel.php:338
+#: includes/widgets/image-gallery.php:148 includes/widgets/image.php:225
+msgid "No"
+msgstr "否"
+
+#: includes/controls/switcher.php:74 includes/managers/icons.php:477
+#: includes/widgets/audio.php:126 includes/widgets/image-carousel.php:156
+#: includes/widgets/image-carousel.php:215
+#: includes/widgets/image-carousel.php:273
+#: includes/widgets/image-carousel.php:287
+#: includes/widgets/image-carousel.php:305
+#: includes/widgets/image-carousel.php:337
+#: includes/widgets/image-gallery.php:147 includes/widgets/image.php:224
+#: assets/js/app.js:11822
+msgid "Yes"
+msgstr "是"
+
+#: core/role-manager/role-manager.php:65
+msgid "Exclude Roles"
+msgstr "排除角色"
+
+#: core/base/document.php:1573
+#: core/common/modules/finder/categories/settings.php:50
+msgid "General Settings"
+msgstr "一般設定"
+
+#: core/schemes/typography.php:96
+msgid "Accent Text"
+msgstr "摘要"
+
+#: core/schemes/typography.php:95
+msgid "Body Text"
+msgstr "內文"
+
+#: core/schemes/typography.php:94
+msgid "Secondary Headline"
+msgstr "次要標題"
+
+#: core/schemes/typography.php:93
+msgid "Primary Headline"
+msgstr "主要標題"
+
+#: core/kits/documents/tabs/global-colors.php:93
+#: core/kits/documents/tabs/global-typography.php:144 core/schemes/color.php:98
+msgid "Accent"
+msgstr "摘要"
+
+#: core/kits/documents/tabs/global-colors.php:83
+#: core/kits/documents/tabs/global-typography.php:130 core/schemes/color.php:96
+msgid "Secondary"
+msgstr "次要"
+
+#: core/kits/documents/tabs/global-colors.php:78
+#: core/kits/documents/tabs/global-typography.php:123 core/schemes/color.php:95
+msgid "Primary"
+msgstr "主要"
+
+#: includes/managers/elements.php:334
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/widgets/image-carousel.php:164
+#: includes/widgets/image-carousel.php:390
+msgid "Navigation"
+msgstr "導航列"
+
+#: includes/managers/elements.php:281
+msgid "Basic"
+msgstr "基本"
+
+#: includes/elements/container.php:1557 includes/elements/section.php:1339
+msgid "Visibility"
+msgstr "可見"
+
+#: includes/widgets/video.php:797
+msgid "Content Position"
+msgstr "內容位置"
+
+#: includes/elements/column.php:189 includes/elements/section.php:427
+#: includes/elements/section.php:450 includes/widgets/icon-box.php:517
+#: includes/widgets/image-box.php:441
+msgid "Middle"
+msgstr "中央"
+
+#: includes/elements/section.php:425
+msgid "Stretch"
+msgstr "拉伸"
+
+#: includes/elements/section.php:421
+msgid "Column Position"
+msgstr "欄位置"
+
+#: includes/elements/section.php:347 includes/elements/section.php:396
+msgid "Minimum Height"
+msgstr "最小高度"
+
+#: includes/elements/container.php:397 includes/elements/section.php:337
+#: includes/elements/section.php:386
+msgid "Min Height"
+msgstr "最小高度"
+
+#: includes/elements/section.php:336 includes/elements/section.php:385
+msgid "Fit To Screen"
+msgstr "使適應螢幕"
+
+#: includes/controls/image-dimensions.php:100
+#: includes/elements/container.php:1059 includes/elements/section.php:331
+#: includes/elements/section.php:380 includes/elements/section.php:1021
+#: includes/widgets/google-maps.php:167 includes/widgets/icon-list.php:339
+#: includes/widgets/image.php:325 includes/widgets/progress.php:211
+msgid "Height"
+msgstr "高度"
+
+#: includes/elements/section.php:288
+msgid "Wide"
+msgstr "寬"
+
+#: includes/elements/section.php:286
+msgid "Narrow"
+msgstr "狹窄"
+
+#: includes/elements/section.php:285
+msgid "No Gap"
+msgstr "沒有間距"
+
+#: includes/elements/section.php:280 includes/widgets/text-editor.php:149
+msgid "Columns Gap"
+msgstr "欄間距"
+
+#: core/kits/documents/tabs/settings-layout.php:55
+#: includes/elements/container.php:309 includes/elements/section.php:245
+#: includes/widgets/video.php:778
+msgid "Content Width"
+msgstr "內容寬度"
+
+#: includes/elements/container.php:314 includes/elements/section.php:250
+#: includes/widgets/common.php:222 includes/widgets/icon-list.php:195
+msgid "Full Width"
+msgstr "全寬"
+
+#: includes/elements/container.php:313 includes/elements/section.php:249
+msgid "Boxed"
+msgstr "方框"
+
+#: includes/controls/image-dimensions.php:95
+#: includes/elements/container.php:328 includes/elements/container.php:1030
+#: includes/elements/section.php:259 includes/elements/section.php:992
+#: includes/widgets/common.php:217 includes/widgets/common.php:239
+#: includes/widgets/divider.php:421 includes/widgets/icon-list.php:321
+#: includes/widgets/image-box.php:248 includes/widgets/image.php:255
+#: modules/shapes/widgets/text-path.php:540
+#: modules/shapes/widgets/text-path.php:606
+msgid "Width"
+msgstr "寬度"
+
+#: includes/elements/column.php:156
+msgid "Column Width"
+msgstr "欄寬度"
+
+#: includes/elements/column.php:788 includes/elements/container.php:1465
+#: includes/elements/section.php:1244 includes/widgets/common.php:594
+msgid "CSS Classes"
+msgstr "CSS 類別"
+
+#: includes/elements/column.php:217 includes/elements/column.php:697
+#: includes/elements/section.php:1154 includes/widgets/common.php:314
+#: includes/widgets/common.php:1127 includes/widgets/common.php:1155
+#: includes/widgets/divider.php:456 includes/widgets/divider.php:744
+#: includes/widgets/divider.php:884 includes/widgets/heading.php:184
+#: includes/widgets/icon-box.php:492 includes/widgets/icon-list.php:246
+#: includes/widgets/icon-list.php:457 includes/widgets/icon.php:175
+#: includes/widgets/image-box.php:416 includes/widgets/image-carousel.php:561
+#: includes/widgets/image-carousel.php:662
+#: includes/widgets/image-gallery.php:287 includes/widgets/image.php:142
+#: includes/widgets/image.php:535 includes/widgets/social-icons.php:305
+#: includes/widgets/star-rating.php:178 includes/widgets/tabs.php:175
+#: includes/widgets/tabs.php:205 includes/widgets/tabs.php:376
+#: includes/widgets/testimonial.php:194 includes/widgets/text-editor.php:196
+#: includes/widgets/traits/button-trait.php:126 includes/widgets/video.php:801
+#: modules/shapes/widgets/text-path.php:165
+msgid "Center"
+msgstr "置中"
+
+#: includes/elements/column.php:640 includes/elements/section.php:1097
+msgid "Heading Color"
+msgstr "標題顏色"
+
+#: includes/elements/column.php:60
+msgid "Column"
+msgstr "欄"
+
+#: includes/elements/section.php:78 modules/library/documents/section.php:43
+#: assets/js/container-converter.js:942 assets/js/editor.js:11109
+msgid "Section"
+msgstr "段"
+
+#: includes/elements/section.php:531 includes/elements/section.php:539
+msgid "Structure"
+msgstr "結構"
+
+#: core/common/modules/finder/categories/settings.php:55
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:721
+#: includes/elements/section.php:1178 includes/managers/controls.php:301
+#: includes/settings/settings.php:518 assets/js/editor.js:10306
+#: assets/js/editor.js:31148
+msgid "Advanced"
+msgstr "進階"
+
+#: includes/managers/controls.php:300 includes/widgets/divider.php:363
+#: includes/widgets/icon-list.php:275 assets/js/editor.js:10303
+#: assets/js/editor.js:31145
+msgid "Style"
+msgstr "樣式"
+
+#: includes/managers/controls.php:299 includes/widgets/accordion.php:110
+#: includes/widgets/accordion.php:444 includes/widgets/alert.php:125
+#: includes/widgets/icon-box.php:476 includes/widgets/image-box.php:132
+#: includes/widgets/image-box.php:400 includes/widgets/tabs.php:112
+#: includes/widgets/tabs.php:396 includes/widgets/testimonial.php:95
+#: includes/widgets/testimonial.php:224 includes/widgets/toggle.php:111
+#: includes/widgets/toggle.php:463 assets/js/app.js:13309
+#: assets/js/app.js:13888 assets/js/editor.js:31142
+msgid "Content"
+msgstr "內容"
+
+#: includes/widgets/image-gallery.php:118 includes/widgets/social-icons.php:272
+#: includes/widgets/text-editor.php:136
+msgid "Columns"
+msgstr "欄"
+
+#: core/schemes/color.php:147
+msgid "More Palettes"
+msgstr "更多調色盤"
+
+#: core/schemes/color.php:134 core/schemes/color.php:289
+msgid "Color Palette"
+msgstr "調色盤"
+
+#: core/schemes/base-ui.php:119 includes/controls/image-dimensions.php:102
+#: includes/editor-templates/panel.php:151
+#: modules/history/views/revisions-panel-template.php:18
+#: assets/js/editor.js:11004
+msgid "Apply"
+msgstr "套用"
+
+#: core/schemes/base-ui.php:115
+#: modules/history/views/revisions-panel-template.php:13
+#: assets/js/editor.js:5964
+msgid "Discard"
+msgstr "棄置"
+
+#: core/schemes/base-ui.php:109 includes/controls/structure.php:65
+msgid "Reset"
+msgstr "重設"
+
+#: includes/editor-templates/templates.php:172 assets/js/editor.js:30502
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/editor-templates/hotkeys.php:75
+#: includes/editor-templates/templates.php:18
+#: includes/editor-templates/templates.php:19
+#: includes/editor-templates/templates.php:218
+#: includes/editor-templates/templates.php:229 assets/js/editor.js:5963
+msgid "Save"
+msgstr "儲存"
+
+#: core/admin/admin.php:497 core/admin/menu/main.php:41
+msgid "Help"
+msgstr "幫助"
+
+#: core/breakpoints/manager.php:323
+#: core/settings/editor-preferences/model.php:134
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4511
+msgid "Tablet"
+msgstr "平板"
+
+#: core/settings/editor-preferences/model.php:135
+#: includes/base/element-base.php:704 includes/editor-templates/panel.php:242
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:4504
+msgid "Desktop"
+msgstr "桌面"
+
+#: includes/editor-templates/hotkeys.php:108
+#: includes/editor-templates/panel.php:78
+#: includes/editor-templates/panel.php:80
+msgid "Responsive Mode"
+msgstr "響應模式"
+
+#: includes/editor-templates/panel.php:59
+#: includes/editor-templates/panel.php:60
+msgid "Widgets Panel"
+msgstr "小工具面板"
+
+#: includes/editor-templates/panel.php:54
+#: includes/editor-templates/panel.php:55
+msgid "Menu"
+msgstr "選單"
+
+#: includes/editor-templates/panel-elements.php:40
+msgid "Search Widget..."
+msgstr "搜尋小工具..."
+
+#: includes/editor-templates/global.php:24
+msgid "Add New Section"
+msgstr "新增段"
+
+#: core/admin/admin.php:197 includes/editor-templates/editor-wrapper.php:50
+#: includes/editor-templates/templates.php:50 modules/gutenberg/module.php:121
+#: assets/js/app-packages.js:6774
+#: assets/js/kit-library.c7db5f02248493fe3f04.bundle.js:243
+#: assets/js/onboarding.a7b6b26c425933f57bce.bundle.js:53
+msgid "Loading"
+msgstr "載入中"
+
+#. Plugin Name of the plugin
+#: core/admin/admin.php:247 core/admin/admin.php:359 core/admin/admin.php:417
+#: core/admin/menu/main.php:17 core/admin/menu/main.php:18 core/app/view.php:23
+#: core/documents-manager.php:363 core/upgrade/custom-tasks-manager.php:29
+#: core/upgrade/manager.php:36 includes/editor-templates/editor-wrapper.php:30
+#: includes/plugin.php:871 includes/settings/settings.php:76
+#: includes/settings/settings.php:77 includes/settings/settings.php:596
+#: modules/compatibility-tag/module.php:36 assets/js/app-packages.js:2632
+#: assets/js/app.js:3788
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/controls/repeater.php:172
+msgid "Add Item"
+msgstr "新增項目"
+
+#: core/kits/views/trash-kit-confirmation.php:30
+#: includes/editor-templates/hotkeys.php:60
+#: includes/editor-templates/templates.php:185
+#: assets/js/editor-document.js:14844 assets/js/editor.js:11262
+#: assets/js/editor.js:14654 assets/js/editor.js:23385
+#: assets/js/editor.js:25078 assets/js/editor.js:43176
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/controls/icon.php:871 includes/controls/icon.php:872
+msgid "Select Icon"
+msgstr "選擇圖示"
+
+#: core/kits/manager.php:133 includes/elements/section.php:290
+#: includes/maintenance-mode.php:238 includes/widgets/common.php:134
+#: includes/widgets/common.php:224 includes/widgets/common.php:1446
+#: includes/widgets/common.php:1507 includes/widgets/image-carousel.php:585
+#: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:190
+#: includes/widgets/social-icons.php:348 modules/shapes/module.php:29
+#: assets/js/editor.js:40602
+msgid "Custom"
+msgstr "自訂"
+
+#: includes/controls/groups/typography.php:212
+msgctxt "Typography Control"
+msgid "Letter Spacing"
+msgstr "字元間距"
+
+#: includes/controls/groups/typography.php:190
+msgctxt "Typography Control"
+msgid "Line-Height"
+msgstr "行高"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:92
+#: core/kits/documents/tabs/theme-style-form-fields.php:119
+#: core/kits/documents/tabs/theme-style-images.php:63
+#: core/kits/documents/tabs/theme-style-typography.php:126
+#: includes/controls/groups/typography.php:146 includes/elements/column.php:283
+#: includes/elements/column.php:360 includes/elements/column.php:409
+#: includes/elements/column.php:515 includes/elements/column.php:847
+#: includes/elements/container.php:551 includes/elements/container.php:636
+#: includes/elements/container.php:708 includes/elements/container.php:850
+#: includes/elements/container.php:1511 includes/elements/section.php:563
+#: includes/elements/section.php:636 includes/elements/section.php:700
+#: includes/elements/section.php:822 includes/elements/section.php:1283
+#: includes/widgets/common.php:639 includes/widgets/common.php:688
+#: includes/widgets/common.php:1192 includes/widgets/common.php:1266
+#: includes/widgets/google-maps.php:209 includes/widgets/heading.php:269
+#: includes/widgets/icon-box.php:260 includes/widgets/icon.php:205
+#: includes/widgets/image-box.php:307 includes/widgets/image.php:386
+#: includes/widgets/traits/button-trait.php:264
+#: modules/shapes/widgets/text-path.php:403
+#: modules/shapes/widgets/text-path.php:501
+msgid "Normal"
+msgstr "一般"
+
+#: includes/controls/groups/typography.php:165
+msgctxt "Typography Control"
+msgid "Style"
+msgstr "樣式"
+
+#: includes/controls/groups/typography.php:152
+msgctxt "Typography Control"
+msgid "Transform"
+msgstr "轉換"
+
+#: includes/controls/groups/typography.php:132
+msgctxt "Typography Control"
+msgid "Weight"
+msgstr "重"
+
+#: includes/controls/groups/typography.php:106
+msgctxt "Typography Control"
+msgid "Family"
+msgstr "字型系列"
+
+#: includes/controls/groups/typography.php:113
+msgctxt "Typography Control"
+msgid "Size"
+msgstr "尺寸"
+
+#: includes/controls/groups/border.php:76
+msgctxt "Border Control"
+msgid "Width"
+msgstr "寬度"
+
+#: includes/widgets/divider.php:323 includes/widgets/icon-list.php:281
+msgid "Dashed"
+msgstr "虛線"
+
+#: includes/widgets/divider.php:322 includes/widgets/icon-list.php:280
+msgid "Dotted"
+msgstr "點線"
+
+#: includes/widgets/divider.php:321 includes/widgets/icon-list.php:279
+msgid "Double"
+msgstr "雙實線"
+
+#: includes/widgets/divider.php:320 includes/widgets/icon-list.php:278
+#: includes/widgets/star-rating.php:143
+msgid "Solid"
+msgstr "實線"
+
+#: core/kits/documents/tabs/settings-lightbox.php:99
+#: core/kits/documents/tabs/settings-lightbox.php:116
+#: includes/controls/animation.php:153 includes/controls/groups/border.php:63
+#: includes/controls/hover-animation.php:125 includes/controls/icons.php:106
+#: includes/controls/icons.php:190 includes/elements/container.php:982
+#: includes/elements/section.php:944 includes/widgets/divider.php:479
+#: includes/widgets/image-carousel.php:171
+#: includes/widgets/image-carousel.php:184
+#: includes/widgets/image-carousel.php:231
+#: includes/widgets/image-gallery.php:134 includes/widgets/image.php:162
+#: includes/widgets/image.php:193
+msgid "None"
+msgstr "無"
+
+#: includes/controls/groups/border.php:60
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr "邊線類型"
+
+#: includes/controls/groups/background.php:634
+msgctxt "Background Control"
+msgid "Background Fallback"
+msgstr "背景背後"
+
+#: includes/controls/groups/background.php:554
+msgctxt "Background Control"
+msgid "Video Link"
+msgstr "影音連結"
+
+#: includes/controls/groups/background.php:484
+msgctxt "Background Control"
+msgid "Auto"
+msgstr "自動"
+
+#: includes/controls/groups/background.php:478
+msgctxt "Background Control"
+msgid "Size"
+msgstr "尺寸"
+
+#: includes/controls/groups/background.php:466
+msgctxt "Background Control"
+msgid "Repeat-y"
+msgstr "重覆Y軸"
+
+#: includes/controls/groups/background.php:465
+msgctxt "Background Control"
+msgid "Repeat-x"
+msgstr "重覆X軸"
+
+#: includes/controls/groups/background.php:463
+msgctxt "Background Control"
+msgid "No-repeat"
+msgstr "不重覆"
+
+#: includes/controls/groups/background.php:457
+#: includes/controls/groups/background.php:464
+msgctxt "Background Control"
+msgid "Repeat"
+msgstr "重覆"
+
+#: includes/controls/groups/background.php:433
+msgctxt "Background Control"
+msgid "Fixed"
+msgstr "固定"
+
+#: includes/controls/groups/background.php:432
+msgctxt "Background Control"
+msgid "Scroll"
+msgstr "捲軸"
+
+#: includes/controls/groups/background.php:427
+msgctxt "Background Control"
+msgid "Attachment"
+msgstr "附件"
+
+#: includes/controls/groups/background.php:236
+#: includes/controls/groups/background.php:281
+#: includes/controls/groups/background.php:743
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr "下右"
+
+#: includes/controls/groups/background.php:234
+#: includes/controls/groups/background.php:279
+#: includes/controls/groups/background.php:741
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr "下中"
+
+#: includes/controls/groups/background.php:235
+#: includes/controls/groups/background.php:280
+#: includes/controls/groups/background.php:742
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr "下左"
+
+#: includes/controls/groups/background.php:230
+#: includes/controls/groups/background.php:275
+#: includes/controls/groups/background.php:737
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr "中右"
+
+#: includes/controls/groups/background.php:228
+#: includes/controls/groups/background.php:273
+#: includes/controls/groups/background.php:735
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr "置中"
+
+#: includes/controls/groups/background.php:229
+#: includes/controls/groups/background.php:274
+#: includes/controls/groups/background.php:736
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr "中左"
+
+#: includes/controls/groups/background.php:233
+#: includes/controls/groups/background.php:278
+#: includes/controls/groups/background.php:740
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr "上右"
+
+#: includes/controls/groups/background.php:231
+#: includes/controls/groups/background.php:276
+#: includes/controls/groups/background.php:738
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr "上中"
+
+#: includes/controls/groups/background.php:232
+#: includes/controls/groups/background.php:277
+#: includes/controls/groups/background.php:739
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr "上左"
+
+#: includes/controls/groups/background.php:225
+#: includes/controls/groups/background.php:267
+msgctxt "Background Control"
+msgid "Position"
+msgstr "位置"
+
+#: includes/controls/groups/background.php:256
+msgctxt "Background Control"
+msgid "Background Image"
+msgstr "背景圖片"
+
+#: includes/controls/groups/background.php:250
+msgctxt "Background Control"
+msgid "Image"
+msgstr "圖片"
+
+#: includes/controls/groups/background.php:127
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr "背景類型"
+
+#: includes/controls/groups/background.php:95
+msgctxt "Background Control"
+msgid "Classic"
+msgstr "經典"
+
+#: includes/fonts.php:68
+msgid "Google"
+msgstr "Google"
+
+#: includes/fonts.php:67
+msgid "System"
+msgstr "系統"
+
+#: core/kits/documents/tabs/theme-style-typography.php:116
+#: includes/elements/container.php:466 includes/widgets/audio.php:103
+#: includes/widgets/heading.php:124 includes/widgets/icon-box.php:171
+#: includes/widgets/icon-list.php:147 includes/widgets/icon.php:155
+#: includes/widgets/image-box.php:148 includes/widgets/image-carousel.php:180
+#: includes/widgets/image-carousel.php:194
+#: includes/widgets/image-gallery.php:128 includes/widgets/image.php:189
+#: includes/widgets/image.php:203 includes/widgets/social-icons.php:170
+#: includes/widgets/testimonial.php:155
+#: includes/widgets/traits/button-trait.php:102 includes/widgets/video.php:126
+#: includes/widgets/video.php:148 includes/widgets/video.php:169
+#: modules/shapes/widgets/text-path.php:142
+msgid "Link"
+msgstr "連結"
+
+#: includes/controls/dimensions.php:90 includes/elements/column.php:190
+#: includes/elements/container.php:991 includes/elements/container.php:1348
+#: includes/elements/section.php:428 includes/elements/section.php:451
+#: includes/elements/section.php:953 includes/widgets/common.php:478
+#: includes/widgets/common.php:1159 includes/widgets/icon-box.php:518
+#: includes/widgets/image-box.php:442
+msgid "Bottom"
+msgstr "下"
+
+#: includes/controls/dimensions.php:88 includes/elements/column.php:188
+#: includes/elements/container.php:990 includes/elements/container.php:1344
+#: includes/elements/section.php:426 includes/elements/section.php:449
+#: includes/elements/section.php:952 includes/widgets/common.php:474
+#: includes/widgets/common.php:1151 includes/widgets/icon-box.php:193
+#: includes/widgets/icon-box.php:516 includes/widgets/image-box.php:170
+#: includes/widgets/image-box.php:440 includes/widgets/testimonial.php:172
+#: includes/widgets/video.php:802
+msgid "Top"
+msgstr "上"
+
+#: core/admin/admin.php:178 core/admin/admin.php:186 core/base/document.php:493
+#: modules/admin-bar/module.php:123 modules/gutenberg/module.php:100
+#: modules/gutenberg/module.php:110
+msgid "Edit with Elementor"
+msgstr "使用 Elementor 編輯"
+
+#: modules/gutenberg/module.php:97
+msgid "&#8592; Back to WordPress Editor"
+msgstr "&#8592; 回到 WordPress 編輯器"
+
+#: includes/controls/dimensions.php:91 includes/elements/column.php:693
+#: includes/elements/container.php:1226 includes/elements/section.php:1150
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1123 includes/widgets/divider.php:452
+#: includes/widgets/divider.php:740 includes/widgets/divider.php:880
+#: includes/widgets/heading.php:180 includes/widgets/icon-box.php:189
+#: includes/widgets/icon-box.php:488 includes/widgets/icon-list.php:242
+#: includes/widgets/icon-list.php:453 includes/widgets/icon.php:171
+#: includes/widgets/image-box.php:166 includes/widgets/image-box.php:412
+#: includes/widgets/image-carousel.php:379
+#: includes/widgets/image-carousel.php:658
+#: includes/widgets/image-gallery.php:283 includes/widgets/image.php:138
+#: includes/widgets/image.php:531 includes/widgets/social-icons.php:301
+#: includes/widgets/star-rating.php:174 includes/widgets/tabs.php:372
+#: includes/widgets/testimonial.php:190 includes/widgets/text-editor.php:192
+#: includes/widgets/traits/button-trait.php:122
+#: modules/shapes/widgets/text-path.php:161
+msgid "Left"
+msgstr "左"
+
+#: includes/controls/dimensions.php:89 includes/elements/column.php:701
+#: includes/elements/container.php:1227 includes/elements/section.php:1158
+#: includes/widgets/common.php:359 includes/widgets/common.php:360
+#: includes/widgets/common.php:1131 includes/widgets/divider.php:460
+#: includes/widgets/divider.php:748 includes/widgets/divider.php:888
+#: includes/widgets/heading.php:188 includes/widgets/icon-box.php:197
+#: includes/widgets/icon-box.php:496 includes/widgets/icon-list.php:250
+#: includes/widgets/icon-list.php:461 includes/widgets/icon.php:179
+#: includes/widgets/image-box.php:174 includes/widgets/image-box.php:420
+#: includes/widgets/image-carousel.php:380
+#: includes/widgets/image-carousel.php:666
+#: includes/widgets/image-gallery.php:291 includes/widgets/image.php:146
+#: includes/widgets/image.php:539 includes/widgets/social-icons.php:309
+#: includes/widgets/star-rating.php:182 includes/widgets/tabs.php:380
+#: includes/widgets/testimonial.php:198 includes/widgets/text-editor.php:200
+#: includes/widgets/traits/button-trait.php:130
+#: modules/shapes/widgets/text-path.php:169
+msgid "Right"
+msgstr "右"
+
+#: core/experiments/manager.php:338
+#: core/settings/editor-preferences/model.php:132
+#: includes/base/widget-base.php:281 includes/controls/animation.php:152
+#: includes/controls/font.php:66 includes/controls/groups/background.php:715
+#: includes/controls/groups/background.php:734
+#: includes/controls/groups/typography.php:145
+#: includes/controls/groups/typography.php:156
+#: includes/controls/groups/typography.php:169
+#: includes/controls/groups/typography.php:181
+#: includes/editor-templates/panel.php:213 includes/elements/column.php:187
+#: includes/elements/column.php:215 includes/elements/column.php:255
+#: includes/elements/container.php:428 includes/elements/container.php:451
+#: includes/elements/container.php:1214 includes/elements/section.php:284
+#: includes/elements/section.php:335 includes/elements/section.php:384
+#: includes/elements/section.php:448 includes/elements/section.php:476
+#: includes/elements/section.php:512 includes/settings/settings.php:565
+#: includes/widgets/common.php:221 includes/widgets/common.php:349
+#: includes/widgets/divider.php:793 includes/widgets/heading.php:143
+#: includes/widgets/icon-box.php:111 includes/widgets/icon-list.php:100
+#: includes/widgets/icon.php:126 includes/widgets/image-carousel.php:122
+#: includes/widgets/image-carousel.php:139
+#: includes/widgets/image-carousel.php:214
+#: includes/widgets/image-carousel.php:584
+#: includes/widgets/image-gallery.php:146
+#: includes/widgets/image-gallery.php:162
+#: includes/widgets/image-gallery.php:194 includes/widgets/image.php:223
+#: includes/widgets/image.php:362 includes/widgets/progress.php:113
+#: includes/widgets/text-editor.php:131 includes/widgets/text-editor.php:266
+#: includes/widgets/traits/button-trait.php:74
+#: modules/page-templates/module.php:296
+#: modules/shapes/widgets/text-path.php:187 assets/js/editor.js:40593
+#: assets/js/editor.js:40605
+msgid "Default"
+msgstr "預設值"
+
+#: includes/elements/container.php:471 includes/widgets/icon-box.php:176
+#: includes/widgets/icon-list.php:152 includes/widgets/icon.php:160
+#: includes/widgets/image-box.php:153 includes/widgets/image-carousel.php:196
+#: includes/widgets/image.php:208 includes/widgets/social-icons.php:178
+#: includes/widgets/testimonial.php:160
+#: includes/widgets/traits/button-trait.php:107
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#. translators: %s: PHP version.
+#: elementor.php:81
+msgid "Elementor requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr "Elementor 需要 PHP %s 以上的版本，外掛目前未能作動。"
+
+#: includes/widgets/video.php:332
+msgid "Player Controls"
+msgstr "播放器管理"
+
+#: modules/system-info/module.php:199
+msgid "You don't have permissions to download this file"
+msgstr "您無權下載此檔案"
+
+#: includes/widgets/accordion.php:264 includes/widgets/alert.php:183
+#: includes/widgets/social-icons.php:524 includes/widgets/tabs.php:280
+#: includes/widgets/toggle.php:267 includes/widgets/traits/button-trait.php:347
+msgid "Border Color"
+msgstr "框線色彩"
+
+#: includes/widgets/accordion.php:245 includes/widgets/divider.php:939
+#: includes/widgets/icon-box.php:445 includes/widgets/icon.php:358
+#: includes/widgets/tabs.php:260 includes/widgets/text-editor.php:377
+#: includes/widgets/toggle.php:249
+msgid "Border Width"
+msgstr "框線寬度"
+
+#: includes/settings/settings.php:460
+msgid "Post Types"
+msgstr "內容類型"
+
+#: core/kits/documents/tabs/global-colors.php:88
+#: core/kits/documents/tabs/global-typography.php:137 core/schemes/color.php:97
+#: includes/widgets/divider.php:483 includes/widgets/divider.php:510
+#: includes/widgets/divider.php:700 includes/widgets/icon-list.php:120
+#: includes/widgets/icon-list.php:482
+#: includes/widgets/traits/button-trait.php:59
+#: modules/shapes/widgets/text-path.php:94
+#: modules/shapes/widgets/text-path.php:302
+msgid "Text"
+msgstr "文字"
+
+#: core/schemes/color.php:66
+msgid "Colors"
+msgstr "色彩"
+
+#: includes/elements/column.php:665 includes/elements/section.php:1122
+msgid "Link Color"
+msgstr "連結色彩"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:73
+#: core/kits/documents/tabs/theme-style-form-fields.php:90
+#: core/kits/documents/tabs/theme-style-form-fields.php:108
+#: core/kits/documents/tabs/theme-style-typography.php:19
+#: core/kits/documents/tabs/theme-style-typography.php:38
+#: core/kits/documents/tabs/theme-style-typography.php:68
+#: core/kits/documents/tabs/theme-style-typography.php:145
+#: core/kits/documents/tabs/theme-style-typography.php:175
+#: core/kits/documents/tabs/theme-style-typography.php:221
+#: core/schemes/typography.php:64 includes/elements/column.php:631
+#: includes/elements/section.php:1089 assets/js/editor-modules.js:2605
+#: assets/js/editor.js:37803
+msgid "Typography"
+msgstr "排版樣式"
+
+#: includes/elements/column.php:505 includes/elements/container.php:837
+#: includes/elements/section.php:812 includes/widgets/common.php:1256
+msgid "Border"
+msgstr "框線"
+
+#: core/kits/documents/tabs/settings-layout.php:24
+#: includes/elements/column.php:113 includes/elements/container.php:1147
+#: includes/elements/section.php:227 includes/managers/controls.php:303
+#: includes/widgets/common.php:172 includes/widgets/icon-list.php:95
+#: assets/js/editor.js:31151
+msgid "Layout"
+msgstr "版面配置"
+
+#: core/kits/documents/tabs/settings-lightbox.php:163
+#: core/kits/documents/tabs/theme-style-buttons.php:99
+#: core/kits/documents/tabs/theme-style-buttons.php:174
+#: core/kits/documents/tabs/theme-style-form-fields.php:177
+#: core/kits/documents/tabs/theme-style-typography.php:56
+#: includes/elements/column.php:653 includes/elements/section.php:1110
+#: includes/widgets/alert.php:221 includes/widgets/alert.php:261
+#: includes/widgets/counter.php:230 includes/widgets/counter.php:273
+#: includes/widgets/heading.php:225 includes/widgets/icon-list.php:490
+#: includes/widgets/image-carousel.php:684
+#: includes/widgets/image-gallery.php:312 includes/widgets/image.php:557
+#: includes/widgets/progress.php:283 includes/widgets/star-rating.php:213
+#: includes/widgets/testimonial.php:232 includes/widgets/testimonial.php:330
+#: includes/widgets/testimonial.php:375 includes/widgets/text-editor.php:217
+#: includes/widgets/traits/button-trait.php:272
+#: includes/widgets/traits/button-trait.php:317
+msgid "Text Color"
+msgstr "文字色彩"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:153
+#: core/kits/documents/tabs/theme-style-buttons.php:228
+#: core/kits/documents/tabs/theme-style-form-fields.php:222
+#: core/kits/documents/tabs/theme-style-images.php:83
+#: core/kits/documents/tabs/theme-style-images.php:154
+#: includes/elements/column.php:530 includes/elements/column.php:567
+#: includes/elements/container.php:864 includes/elements/container.php:903
+#: includes/elements/section.php:836 includes/elements/section.php:872
+#: includes/widgets/common.php:1281 includes/widgets/common.php:1318
+#: includes/widgets/divider.php:953 includes/widgets/icon-box.php:459
+#: includes/widgets/icon.php:372 includes/widgets/image-box.php:285
+#: includes/widgets/image-carousel.php:629
+#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
+#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
+#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
+#: includes/widgets/traits/button-trait.php:385
+msgid "Border Radius"
+msgstr "框線圓角半徑"
+
+#: includes/controls/groups/typography.php:331
+msgctxt "Typography Control"
+msgid "Typography"
+msgstr "排版樣式"
+
+#: includes/controls/groups/border.php:88
+msgctxt "Border Control"
+msgid "Color"
+msgstr "色彩"
+
+#: includes/controls/groups/background.php:136
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: includes/controls/groups/background.php:133
+msgctxt "Background Control"
+msgid "Color"
+msgstr "色彩"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:78
+#: core/kits/documents/tabs/theme-style-typography.php:133
+#: core/kits/documents/tabs/theme-style-typography.php:163
+#: core/kits/documents/tabs/theme-style-typography.php:209
+#: includes/controls/box-shadow.php:104 includes/controls/text-shadow.php:97
+#: includes/elements/column.php:417 includes/elements/container.php:716
+#: includes/elements/container.php:1016 includes/elements/section.php:708
+#: includes/elements/section.php:978 includes/widgets/accordion.php:298
+#: includes/widgets/accordion.php:400 includes/widgets/accordion.php:463
+#: includes/widgets/divider.php:576 includes/widgets/divider.php:711
+#: includes/widgets/icon-box.php:554 includes/widgets/icon-box.php:605
+#: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
+#: includes/widgets/image-box.php:478 includes/widgets/image-box.php:521
+#: includes/widgets/image-carousel.php:450
+#: includes/widgets/image-carousel.php:514 includes/widgets/progress.php:186
+#: includes/widgets/progress.php:243 includes/widgets/social-icons.php:185
+#: includes/widgets/social-icons.php:343 includes/widgets/star-rating.php:309
+#: includes/widgets/tabs.php:312 includes/widgets/tabs.php:405
+#: includes/widgets/toggle.php:326 includes/widgets/toggle.php:419
+#: includes/widgets/toggle.php:482 includes/widgets/video.php:671
+#: modules/shapes/widgets/text-path.php:410
+#: modules/shapes/widgets/text-path.php:434
+#: modules/shapes/widgets/text-path.php:508
+#: modules/shapes/widgets/text-path.php:528
+#: modules/shapes/widgets/text-path.php:574
+#: modules/shapes/widgets/text-path.php:594 assets/js/editor.js:43118
+#: assets/js/editor.js:43164
+msgid "Color"
+msgstr "色彩"
+
+#: core/kits/documents/tabs/settings-lightbox.php:130
+#: core/kits/documents/tabs/theme-style-form-fields.php:189
+#: includes/widgets/alert.php:172 includes/widgets/image.php:572
+#: includes/widgets/progress.php:200 includes/widgets/tabs.php:291
+#: includes/widgets/video.php:742
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: core/document-types/page-base.php:132
+#: core/kits/documents/tabs/theme-style-buttons.php:244
+#: core/kits/documents/tabs/theme-style-form-fields.php:160
+#: includes/elements/column.php:749 includes/elements/container.php:1167
+#: includes/elements/section.php:1205 includes/widgets/accordion.php:355
+#: includes/widgets/accordion.php:496 includes/widgets/common.php:202
+#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:386
+#: includes/widgets/icon.php:316 includes/widgets/social-icons.php:402
+#: includes/widgets/toggle.php:374 includes/widgets/toggle.php:515
+#: includes/widgets/traits/button-trait.php:407
+msgid "Padding"
+msgstr "邊框間距"
+
+#: core/common/modules/finder/categories/site.php:64
+msgid "Themes"
+msgstr "佈景主題"
+
+#: includes/controls/media.php:188 includes/widgets/image-box.php:95
+#: includes/widgets/image.php:111 includes/widgets/testimonial.php:108
+#: includes/widgets/video.php:562
+msgid "Choose Image"
+msgstr "選取圖片"
+
+#: includes/elements/column.php:878 includes/elements/container.php:1549
+#: includes/elements/section.php:1315 includes/managers/controls.php:302
+#: includes/widgets/common.php:1624
+msgid "Responsive"
+msgstr "回應式"
+
+#: includes/widgets/sidebar.php:42 includes/widgets/sidebar.php:102
+msgid "Sidebar"
+msgstr "資訊欄"
+
+#: includes/elements/column.php:730 includes/elements/container.php:1155
+#: includes/elements/section.php:1186 includes/widgets/common.php:190
+msgid "Margin"
+msgstr "邊界"
+
+#: includes/controls/groups/background.php:499
+msgctxt "Background Control"
+msgid "Width"
+msgstr "寬度"
+
+#: includes/widgets/text-editor.php:46 includes/widgets/text-editor.php:105
+#: includes/widgets/text-editor.php:180
+msgid "Text Editor"
+msgstr "內容編輯器"
+
+#: includes/widgets/icon-list.php:517
+msgid "Text Indent"
+msgstr "文字內縮"
+
+#: includes/widgets/alert.php:128
+msgid "I am a description. Click the edit button to change this text."
+msgstr "這是內容說明，點擊編輯按鈕以變更內容。"
+
+#: modules/system-info/module.php:163
+msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
+msgstr "您可以使用 Ctrl + C / Ctrl + V 將以下資訊複製為簡單內容："
+
+#: includes/elements/column.php:689 includes/elements/section.php:1146
+msgid "Text Align"
+msgstr "文字對齊"
+
+#: includes/elements/column.php:677 includes/elements/section.php:1134
+msgid "Link Hover Color"
+msgstr "游標暫留連結色彩"
+
+#: includes/widgets/heading.php:145 includes/widgets/traits/button-trait.php:35
+msgid "Medium"
+msgstr "中型"
+
+#: includes/controls/groups/background.php:485
+msgctxt "Background Control"
+msgid "Cover"
+msgstr "覆蓋全區"

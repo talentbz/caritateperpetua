@@ -1,0 +1,110 @@
+# Translation of Themes - Hello Elementor in Ukrainian
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-24 18:22:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Theme Name of the theme
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#. Description of the theme
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "Проста і легка тема для плагіна Elementor"
+
+#: includes/admin-functions.php:47
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "Hello це легка тема для початку роботи. Ми рекомендуємо використовувати її разом із плагіном Elementor, вони прекрасно працюють разом!"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:48
+msgid "Install Elementor"
+msgstr "Встановити Elementor"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:65
+#: includes/customizer/elementor-upsell.php:68
+msgid "Activate Elementor"
+msgstr "Активувати Elementor"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "Дякуємо за встановлення теми Hello!"
+
+#: includes/admin-functions.php:142
+msgid "Learn more about Elementor"
+msgstr "Дізнайтеся більше про Elementor"
+
+#: includes/admin-functions.php:38
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "Тема Hello - це легка стартова тема, розроблена для ідеальної роботи з плагіном Elementor Page Builder."
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Коментарі вимкнені."
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s Відповідь"
+msgstr[1] "%1$s Відповіді"
+msgstr[2] "%1$s Відповідей"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Один відгук"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "новіші %s"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "Здається, ми не можемо знайти те, що ви шукаєте."
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "Результати пошуку для: "
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:31
+msgid "Home"
+msgstr "Головна сторінка"
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "Схоже на те, що тут нічого не було знайдено."
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "Сторінка не знайдена."
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s старіші"
+
+#: template-parts/single.php:26
+msgid "Tagged "
+msgstr "Позначено"
+
+#. Author URI of the theme
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr "Команда Elementor"

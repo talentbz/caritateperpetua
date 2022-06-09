@@ -1,0 +1,427 @@
+@include media-breakpoint-down(lg) {
+    .cfw-input-wrap-row > [class*="col-"]:not(:last-child) {
+        margin-bottom: 0.8em !important;
+    }
+
+    .cfw-input-wrap-row.cfw-state-hidden > [class*="col-"]:nth-child(2) {
+        margin-bottom: 0 !important;
+    }
+}
+
+.cfw-input-wrap-row > div {
+    transition: all .3s ease-in-out;
+}
+
+.cfw-input-wrap-row:not(:last-child) {
+    margin-bottom: 0.8em;
+}
+
+.cfw-input-wrap {
+    position: relative;
+
+    abbr.required {
+        display: none;
+    }
+
+    &:not(.cfw-check-input).cfw-floating-label {
+        input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"], select, textarea {
+            padding: 1.35em 0.8em 0.28em 0.8em;
+        }
+
+        /**
+        Firefox style fixes
+         */
+        @supports (-moz-appearance:none) {
+            select {
+                padding: 1.25em 0.8em 0.28em 0.5em;
+            }
+        }
+
+        label {
+            opacity: 1;
+            z-index: 1000;
+        }
+    }
+
+    &:not(.cfw-check-input).cfw-nonfloating-select-label.cfw-select-input {
+        margin-bottom: 0.6em;
+
+        label {
+            transition: none;
+            opacity: 1 !important;
+            position: relative;
+            display: block;
+            color: #666;
+            padding: 0;
+            margin: 0 !important;
+            font-size: 1em !important;
+        }
+    }
+
+    ::-webkit-input-placeholder {
+        color: #737373 !important;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: #737373 !important;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: #737373 !important;
+    }
+
+    :-ms-input-placeholder {
+        color: #737373 !important;
+    }
+}
+
+// TODO: This is probably removeable
+p.cfw-input-wrap {
+    margin-bottom: 0;
+}
+
+.cfw-input-wrap {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="password"],
+    select,
+    textarea {
+
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        appearance: none !important;
+        background: #fff;
+        transition: all .2s ease;
+        color: #333;
+        padding: 0.82em;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: normal !important;
+        border-radius: 5px !important;
+        border: 1px solid #d9d9d9 !important;
+        box-shadow: none !important;
+        transition-delay: 0s, 0s;
+        transition-duration: 0.2s, 0s;
+        transition-property: all, width;
+        transition-timing-function: ease-out, ease;
+        height: auto !important;
+
+        &::placeholder {
+            color: #ccc;
+        }
+
+        &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 2px var(--cfw-buttons-primary-background-color);
+        }
+    }
+
+    fieldset {
+        border-color: #d9d9d9;
+        border-radius: 5px;
+        box-shadow: none;
+        border-style: solid;
+        border-width: 1px;
+
+        label {
+            margin-bottom: 0.5em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    select[multiple] {
+        padding-top: 1.35em;
+    }
+}
+
+input[type="checkbox"], main.checkoutwc input[type="checkbox"] {
+    appearance: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 18px !important;
+    height: 18px !important;
+    min-width: 18px !important;
+    vertical-align: -4px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0 0 0 0 #000000 inset;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    margin-right: 0.5em !important;
+
+    &:checked {
+        border: none;
+        box-shadow: 0 0 0 10px #000000 inset;
+
+        &:after {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    &:after {
+        width: 10px;
+        height: 8px;
+        margin-left: -5px;
+        margin-top: -4px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zIiBoZWlnaHQ9IjgiIHZpZXdCb3g9IjguOSAwLjMgMTAuMyA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDguOSAwLjMgMTAuMyA4Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIuNiA4LjFsLTMuNy0zLjggMS0xLjEgMi43IDIuNyA1LjUtNS40IDEgMXoiLz48L3N2Zz4=), none;
+
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: scale(0.2);
+        transition: all 0.2s ease-in-out 0.1s;
+        opacity: 0;
+    }
+}
+
+.cfw-input-wrap:not(.cfw-check-input) label {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    color: #737373;
+    transition: all .2s ease-out;
+    font-size: 12px;
+    margin-top: .25em;
+    padding: 0 1.16em;
+    line-height: 1.625;
+    opacity: 0;
+    height: auto;
+    width: auto;
+    clip-path: none;
+    clip: unset;
+
+    abbr[title] {
+        text-decoration: none;
+    }
+}
+
+// Style so label doesn't wrap under checkbox
+.cfw-check-input {
+    display: flex;
+}
+
+// WooCommerce native checkboxes
+// Style so label doesn't wrap under checkbox
+.woocommerce-form__label-for-checkbox, .woocommerce-SavedPaymentMethods-saveNew {
+    display: flex;
+
+    .required {
+        display: none;
+    }
+}
+
+.validate-required {
+    .woocommerce-form__label-for-checkbox span:after {
+        content: "*";
+        margin-left: 1px;
+    }
+}
+
+.form-row label.checkbox {
+    display: flex;
+}
+
+.cfw-input-wrap-row > div > .form-row {
+    margin-left: 10px;
+}
+
+// Radio button styles
+input[type="radio"] {
+    appearance: none;
+    background-color: white;
+    border-radius: 50%;
+    width: 18px !important;
+    height: 18px !important;
+    min-width: 18px !important;
+    box-shadow: 0 0 0 0 #000000 inset;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    vertical-align: -4px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    margin-right: 0.5em;
+
+    &:after {
+        transform: scale(1);
+        opacity: 1;
+        width: 4px;
+        height: 4px;
+        margin-left: -2px;
+        margin-top: -2px;
+        background-color: #fff;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transition: all 0.2s ease-in-out 0.1s;
+    }
+
+    &:checked {
+        border: none;
+        box-shadow: 0 0 0 10px #000000 inset
+    }
+}
+
+// Select Dropdown Arrow
+.cfw-select-input:not(.cfw-select2):after {
+    content: '';
+    background: url('data:image/svg+xml;utf8,<svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256"/></svg>') no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    pointer-events: none; // allow pass through to select element
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 8px;
+    top: 50%;
+    transform: translateY(calc(-50% + 2px)) rotate(90deg);
+}
+
+.cfw-hidden-input label {
+    display: none;
+}
+
+// Old form.scss
+/**
+ * Deprecated
+ * Fallback for bourbon equivalent
+ */
+@mixin clearfix() {
+    *zoom: 1;
+
+    &::before,
+    &::after {
+        content: ' ';
+        display: table;
+    }
+
+    &::after {
+        clear: both;
+    }
+}
+
+/**
+ * Forms
+ */
+.clear {
+    @include clearfix();
+}
+
+fieldset {
+    margin-top: 0.5em; /* for WooCommerce Subscription Gifting */
+    padding: 0;
+    border: 0;
+    min-width: inherit;
+}
+
+form {
+    #payment, #wc_checkout_add_ons {
+        .form-row:not(.cfw-input-wrap-row) {
+            padding: 0;
+            @include clearfix();
+
+            label {
+                display: block;
+
+                &.checkbox {
+                    display: inline;
+                }
+            }
+
+            select {
+                width: 100%;
+                background-color: #fff;
+            }
+
+            .input-text {
+                box-sizing: border-box;
+                width: 100%;
+            }
+        }
+
+        .form-row-first {
+            float: left;
+
+            /*rtl:raw:
+            float: right;
+            */
+        }
+
+        .form-row-last {
+            float: right;
+        }
+
+        .form-row-first,
+        .form-row-last {
+            width: 47%;
+            overflow: visible;
+
+            @include media-breakpoint-down(lg) {
+                width: 100%;
+                float: none;
+
+                [class^="col-lg-"] {
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .form-row-wide {
+            clear: both;
+        }
+    }
+}
+
+#payment {
+    .form-row {
+        select {
+            width: auto;
+        }
+    }
+}
+
+main.checkoutwc input[type=checkbox], input.input-checkbox {
+    margin-right: 0.5em;
+    margin-left: 0;
+}
+
+main.checkoutwc p.form-row {
+    margin: 0.5em 0;
+}
+
+// Non-floating labels
+.cfw-label-style-normal .cfw-input-wrap:not(.cfw-check-input) label {
+    position: relative;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 4px;
+    padding: 0;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.cfw-label-style-normal {
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label input[type="text"],
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label input[type="email"],
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label input[type="tel"],
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label input[type="password"],
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label input[type="number"],
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label select,
+    .cfw-input-wrap:not(.cfw-check-input).cfw-floating-label textarea {
+        padding: 0.82em;
+    }
+}

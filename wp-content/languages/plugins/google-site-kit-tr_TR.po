@@ -1,0 +1,966 @@
+# Translation of Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-31 17:50:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release)\n"
+
+#: includes/Modules/AdSense.php:175
+msgid "AdSense site status"
+msgstr "AdSense site durumu"
+
+#: includes/Core/Authentication/Setup.php:134
+msgid "The request to the authentication proxy has failed. Please, try again later."
+msgstr "Kimlik doğrulama proxy sunucusuna yapılan istek başarısız oldu. Lütfen daha sonra tekrar deneyin."
+
+#: includes/Core/Authentication/Google_Proxy.php:471
+msgid "Failed to retrieve redirect URL."
+msgstr "Yönlendirme URL'si alınamadı."
+
+#: includes/Core/Authentication/Google_Proxy.php:145
+msgid "Missing site_id or site_code parameter for setup URL."
+msgstr "Kurulum URL'si için site_id veya site_code parametresi eksik."
+
+#: includes/Core/Authentication/Google_Proxy.php:142
+msgid "Missing code parameter for setup URL."
+msgstr "Kurulum URL'si için code parametresi eksik."
+
+#: includes/Modules/PageSpeed_Insights.php:182
+msgid "https://pagespeed.web.dev"
+msgstr "https://pagespeed.web.dev"
+
+#: includes/Core/Authentication/Setup.php:171
+msgid "Verifying site ownership requires a token and verification method."
+msgstr "Site sahipliğini doğrulamak için bir belirteç ve doğrulama yöntemi gerekir."
+
+#: includes/Core/Authentication/Setup.php:167
+#: includes/Core/Authentication/Setup.php:224
+msgid "Invalid request."
+msgstr "Geçersiz istek."
+
+#. translators: %s: Current URL
+#: includes/Core/Authentication/Authentication.php:1076
+msgid "New URL: %s"
+msgstr "Yeni URL: %s"
+
+#. translators: %s: Previous URL
+#: includes/Core/Authentication/Authentication.php:1071
+msgid "Old URL: %s"
+msgstr "Eski URL: %s"
+
+#: includes/Core/Authentication/Authentication.php:1479
+msgid "Please try again."
+msgstr "Lütfen tekrar deneyin."
+
+#: includes/Core/Authentication/Authentication.php:1474
+msgid "The link you followed has expired."
+msgstr "Takip ettiğiniz bağlantının süresi doldu."
+
+#: includes/Modules/Analytics_4.php:204
+msgid "You’ll need to grant Site Kit permission to create a new Analytics 4 Measurement ID for this site on your behalf."
+msgstr "Site Kit'in bu site için sizin adınıza yeni bir Analytics 4 Ölçüm Kimliği oluşturmasına izin vermeniz gerekir."
+
+#: includes/Core/Util/Debug_Data.php:316
+msgid "Verified outside of Site Kit"
+msgstr "Site Kit dışında doğrulandı"
+
+#: includes/Core/Util/Debug_Data.php:309
+msgid "Verified through meta tag"
+msgstr "Meta etiket üzerinden doğrulandı"
+
+#: includes/Core/Util/Debug_Data.php:301
+msgid "Verified through file"
+msgstr "Dosya üzerinden doğrulandı"
+
+#: includes/Core/Util/Debug_Data.php:293
+msgid "Not verified"
+msgstr "Doğrulanmadı"
+
+#: includes/Core/Util/Debug_Data.php:284
+msgid "Verification Status"
+msgstr "Doğrulanma Durumu"
+
+#. translators: %s: module name
+#: includes/Core/Modules/Module.php:408
+msgid "Site Kit can’t access the relevant data from %s because you haven’t granted all permissions requested during setup."
+msgstr "Kurulum esnasında istenen tüm izinleri vermediğiniz için Site Kit, %s modülünden ilgili verilere ulaşamıyor."
+
+#: includes/Modules/Idea_Hub.php:576
+msgid "Unable to draft post."
+msgstr "Yazı taslağı oluşturulamadı."
+
+#. translators: %1$s: parameter name, %2$s expected type, %3$s received type
+#: includes/Modules/Idea_Hub.php:557
+msgid "Wrong parameter type for %1$s, expected %2$s, received %3$s"
+msgstr "%1$s için yanlış parametre türü: Beklenen %2$s, alınan %3$s"
+
+#. translators: %s: Missing parameter name
+#: includes/Modules/Idea_Hub.php:547
+msgid "Request idea parameter is empty: %s."
+msgstr "Fikir isteği parametresi boş: %s."
+
+#. translators: %s: Idea Hub Idea Title
+#: includes/Modules/Idea_Hub.php:207
+msgid "Idea Hub Draft “%s”"
+msgstr "Idea Hub Taslağı “%s“"
+
+#. translators: %s: List of invalid parameters.
+#: includes/Modules/Analytics_4.php:421
+msgid "Invalid parameter(s): %s"
+msgstr "Geçersiz parametreler: %s"
+
+#: includes/Core/Admin/Available_Tools.php:50
+msgid "Resetting will disconnect all users and remove all Site Kit settings and data within WordPress. You and any other users who wish to use Site Kit will need to reconnect to restore access."
+msgstr "Sıfırlama işlemi, tüm kullanıcıların bağlantısını kesip WordPress'teki tüm Site Kit ayarlarını ve verilerini kaldırır. Site Kit'i kullanmak için hem sizin hem de diğer kullanıcıların, erişimi geri yüklemek üzere yeniden bağlanmanız gerekir."
+
+#: includes/Modules/Analytics_4.php:199
+msgid "You’ll need to grant Site Kit permission to create a new Analytics 4 property on your behalf."
+msgstr "Sizin adınıza yeni bir Analytics 4 mülkü oluşturması için Site Kit'e izin vermeniz gerekir."
+
+#: includes/Modules/Analytics_4.php:178
+msgid "Analytics 4 snippet placed"
+msgstr "Analytics 4 snippet'i yerleştirildi"
+
+#: includes/Modules/Analytics_4.php:173
+msgid "Analytics 4 measurement ID"
+msgstr "Analytics 4 ölçüm kimliği"
+
+#: includes/Modules/Analytics_4.php:168
+msgid "Analytics 4 web data stream ID"
+msgstr "Analytics 4 web veri akışı kimliği"
+
+#: includes/Modules/Analytics_4.php:163
+msgid "Analytics 4 property ID"
+msgstr "Analytics 4 mülk kimliği"
+
+#: includes/Core/Authentication/Google_Proxy.php:286
+msgid "Failed to parse response."
+msgstr "Yanıt ayrıştırılamadı."
+
+#: includes/Core/Authentication/Google_Proxy.php:241
+#: includes/Core/Authentication/Google_Proxy.php:537
+msgid "OAuth credentials haven't been found."
+msgstr "OAuth kimlik bilgileri bulunamadı."
+
+#: includes/Modules/AdSense.php:184
+msgid "Web Stories Ad Unit ID"
+msgstr "Web Hikayeleri Reklam Birimi Kimliği"
+
+#: includes/Core/Util/Debug_Data.php:450
+msgid "Features"
+msgstr "Özellikler"
+
+#: includes/Core/Admin/Plugin_Row_Meta.php:51
+msgid "Support"
+msgstr "Destek"
+
+#: includes/Core/Modules/Module.php:395
+msgid "You’ll need to grant Site Kit permission to do this."
+msgstr "Site Kit’e bunu yapması için izin vermeniz gerekiyor."
+
+#: includes/Core/Util/Debug_Data.php:403
+msgid "User Capabilities"
+msgstr "Kullanıcı yetkinlikleri"
+
+#: includes/Core/REST_API/REST_Routes.php:176
+msgid "Missing settings data."
+msgstr "Ayarlar verisi eksik."
+
+#: includes/Core/Authentication/Authentication.php:1481
+#: dist/assets/js/googlesitekit-user-input-50eac8369ad6b23ca056.js:34
+msgid "Something went wrong."
+msgstr "Bir sorun oldu."
+
+#: includes/Core/Admin/Screens.php:468
+msgid "User Input"
+msgstr "Kullanıcı Girişi"
+
+#: includes/Core/Authentication/Authentication.php:1332
+#: includes/Core/Authentication/Setup.php:123
+msgid "Site Kit is not configured to use the authentication proxy."
+msgstr "Site Kit, kimlik doğrulama proxy’sini kullanmak için yapılandırılmadı."
+
+#: includes/Core/Authentication/Authentication.php:1059
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:40
+msgid "Looks like the URL of your site has changed. In order to continue using Site Kit, you’ll need to reconnect, so that your plugin settings are updated with the new URL."
+msgstr "Sitenizin URL’sinin değiştiği anlaşılıyor. Site Kit'i kullanmaya devam etmek için yeniden bağlanmanız gerekiyor. Bu şekilde, eklenti ayarları yeni URL kullanılacak şekilde güncellenecektir."
+
+#: includes/Core/Authentication/Authentication.php:1061
+msgid "Reconnect"
+msgstr "Tekrar bağla"
+
+#: includes/Core/Modules/Modules.php:1281
+msgid "Owner login."
+msgstr "Sahip girişi."
+
+#: includes/Core/Modules/Modules.php:1276
+msgid "Owner ID."
+msgstr "Sahip no."
+
+#: includes/Core/Util/Debug_Data.php:340
+msgid "Connected user count"
+msgstr "Bağlı kullanıcı sayısı"
+
+#. translators: 1: Title prefix. 2: Title.
+#: includes/Core/Util/Entity_Factory.php:498
+msgctxt "archive title"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/Core/Util/Entity_Factory.php:408
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: includes/Core/Util/Entity_Factory.php:407
+msgctxt "date archive title prefix"
+msgid "Day:"
+msgstr "Gün:"
+
+#: includes/Core/Util/Entity_Factory.php:401
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: includes/Core/Util/Entity_Factory.php:400
+msgctxt "date archive title prefix"
+msgid "Month:"
+msgstr "Ay:"
+
+#: includes/Core/Util/Entity_Factory.php:395
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: includes/Core/Util/Entity_Factory.php:394
+msgctxt "date archive title prefix"
+msgid "Year:"
+msgstr "Yıl:"
+
+#: includes/Core/Util/Entity_Factory.php:341
+msgctxt "author archive title prefix"
+msgid "Author:"
+msgstr "Yazar:"
+
+#. translators: %s: Taxonomy singular name.
+#: includes/Core/Util/Entity_Factory.php:313
+msgctxt "taxonomy term archive title prefix"
+msgid "%s:"
+msgstr "%s:"
+
+#: includes/Core/Util/Entity_Factory.php:304
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Sohbetler"
+
+#: includes/Core/Util/Entity_Factory.php:301
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Ses"
+
+#: includes/Core/Util/Entity_Factory.php:298
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Durumlar"
+
+#: includes/Core/Util/Entity_Factory.php:295
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: includes/Core/Util/Entity_Factory.php:292
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Alıntılar"
+
+#: includes/Core/Util/Entity_Factory.php:289
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videolar"
+
+#: includes/Core/Util/Entity_Factory.php:286
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Görseller"
+
+#: includes/Core/Util/Entity_Factory.php:283
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: includes/Core/Util/Entity_Factory.php:280
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Yan sütunlar"
+
+#: includes/Core/Util/Entity_Factory.php:274
+msgctxt "tag archive title prefix"
+msgid "Tag:"
+msgstr "Etiket:"
+
+#: includes/Core/Util/Entity_Factory.php:270
+msgctxt "category archive title prefix"
+msgid "Category:"
+msgstr "Kategori:"
+
+#: includes/Core/Util/Entity_Factory.php:366
+msgctxt "post type archive title prefix"
+msgid "Archives:"
+msgstr "Arşivler:"
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:297
+msgid "Looks like your site is not allowed access to Google account data and can’t display stats in the dashboard."
+msgstr "Sitenizin Google hesabı verilerine erişim izni olmadığı ve istatistikleri kontrol panelinde görüntüleyemediği anlaşılıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:301
+msgid "Looks like the verification token for your site is missing."
+msgstr "Sitenizin doğrulama jetonunun eksik olduğu anlaşılıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:299
+msgid "Looks like there is no Search Console property for your site."
+msgstr "Sitenizde Search Console mülkü olmadığı anlaşılıyor."
+
+#. translators: %s: setup screen URL
+#. translators: %s: Reconnect URL
+#: includes/Core/Authentication/Authentication.php:1203
+#: dist/assets/js/googlesitekit-adminbar-04aec0e4fdd9887712dc.js:58
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:62
+#: dist/assets/js/googlesitekit-dashboard-details-06449b448bb424d0fea2.js:64
+#: dist/assets/js/googlesitekit-module-7d45896a6390e2e3118d.js:62
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:90
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:90
+#: dist/assets/js/googlesitekit-modules-idea-hub-088d45c4a891158123c2.js:30
+#: dist/assets/js/googlesitekit-modules-optimize-c0c2f31aff0c4677e6b6.js:30
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-bad62f23e37764448ba6.js:30
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:62
+#: dist/assets/js/googlesitekit-modules-subscribe-with-google-4eca870fb9e4e480530c.js:24
+#: dist/assets/js/googlesitekit-modules-tagmanager-6a0860ce7f93e4545b0d.js:40
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:54
+#: dist/assets/js/googlesitekit-user-input-50eac8369ad6b23ca056.js:42
+#: dist/assets/js/googlesitekit-widgets-12095ba7cec0e3aff6e8.js:44
+#: dist/assets/js/googlesitekit-wp-dashboard-c19b73547693d288428b.js:68
+msgid "To fix this, <a href=\"%s\">redo the plugin setup</a>."
+msgstr "Bunu düzeltmek için <a href=\"%s\">eklenti kurulumunu yeniden yapın</a>."
+
+#: includes/Modules/Analytics.php:239
+msgid "Analytics view ID"
+msgstr "Analytics görünüm kimliği"
+
+#: includes/Core/Util/Entity_Factory.php:250
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: includes/Core/Modules/Module.php:348
+msgid "Invalid datapoint request."
+msgstr "Geçersiz veri noktası isteği."
+
+#: includes/Modules/Analytics.php:432
+msgid "Analytics provisioning requires connecting via the Site Kit Service."
+msgstr "Analytics temel hazırlığı, Site Kit Hizmeti üzerinden bağlantı gerektirir."
+
+#: includes/Modules/Tag_Manager.php:238
+msgid "Additional permissions are required to create a new Tag Manager container on your behalf."
+msgstr "Sizin adınıza yeni bir Etiket Yöneticisi kapsayıcı oluşturmak için ek izinler gerekiyor."
+
+#: includes/Modules/Analytics.php:362
+msgid "You’ll need to grant Site Kit permission to create a new Analytics view on your behalf."
+msgstr "Sizin adınıza yeni bir Analytics görünümü oluşturması için Site Kit iznini onaylamanız gerekecek."
+
+#: includes/Modules/Analytics.php:367
+msgid "You’ll need to grant Site Kit permission to create a new Analytics property on your behalf."
+msgstr "Sizin adınıza yeni bir Analytics mülkü oluşturması için Site Kit iznini onaylamanız gerekecek."
+
+#: includes/Modules/Analytics.php:357
+msgid "You’ll need to grant Site Kit permission to create a new Analytics account on your behalf."
+msgstr "Sizin adınıza yeni bir Analytics hesabı oluşturması için Site Kit iznini onaylamanız gerekecek."
+
+#: includes/Core/Authentication/Setup.php:163
+#: includes/Core/Authentication/Setup.php:220 includes/Core/Util/Reset.php:265
+msgid "You don't have permissions to set up Site Kit."
+msgstr "Site Kit'i ayarlama izniniz yok."
+
+#: includes/Core/Authentication/Authentication.php:758
+#: includes/Core/Authentication/Authentication.php:778
+#: includes/Core/Authentication/Authentication.php:807
+msgid "You don't have permissions to authenticate with Site Kit."
+msgstr "Site Kit ile kimlik doğrulama izniniz yok."
+
+#: includes/Core/Modules/Modules.php:1029
+msgid "Settings to set."
+msgstr "Ayarlanacak ayarlar."
+
+#: includes/Core/Modules/Modules.php:1001
+#: includes/Core/Modules/Modules.php:1018
+msgid "Module does not support settings."
+msgstr "Modül, ayarları desteklemiyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:283
+msgid "The Site Kit setup was interrupted because you did not grant the necessary permissions."
+msgstr "Gerekli izinleri onaylamadığınız için Site Kit kurulumu kesildi."
+
+#: includes/Core/Util/Debug_Data.php:220
+msgid "AMP Mode"
+msgstr "AMP Modu"
+
+#: includes/Core/Util/Debug_Data.php:216
+msgid "Secondary"
+msgstr "İkincil"
+
+#: includes/Core/Util/Debug_Data.php:215
+msgid "Primary"
+msgstr "Birincil"
+
+#: includes/Core/Util/Debug_Data.php:190
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:73
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:53
+msgid "None"
+msgstr "Yok"
+
+#: includes/Core/Util/Debug_Data.php:173
+msgid "WordPress Version"
+msgstr "WordPress Sürümü"
+
+#: includes/Core/Util/Debug_Data.php:169
+msgid "PHP Version"
+msgstr "PHP Sürümü"
+
+#: includes/Core/Util/Debug_Data.php:165
+msgid "Version"
+msgstr "Sürüm"
+
+#: includes/Core/Util/Debug_Data.php:271
+msgid "Not authenticated"
+msgstr "Kimliği doğrulanmadı"
+
+#: includes/Core/Util/Debug_Data.php:239
+msgid "Not connected"
+msgstr "Bağlı değil"
+
+#: includes/Core/Util/Debug_Data.php:251
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:73
+msgid "Site Status"
+msgstr "Site Durumu"
+
+#: includes/Core/Util/Debug_Data.php:384
+msgid "Required scopes"
+msgstr "Gerekli kapsamlar"
+
+#: includes/Modules/Search_Console.php:151
+msgid "Search Console property"
+msgstr "Arama konsolu mülkü"
+
+#: includes/Modules/Tag_Manager.php:175
+msgid "Tag Manager account ID"
+msgstr "Tag Manager hesap kimliği"
+
+#: includes/Modules/Tag_Manager.php:180
+msgid "Tag Manager container ID"
+msgstr "Tag Manager kapsayıcı kimliği"
+
+#: includes/Modules/Tag_Manager.php:185
+msgid "Tag Manager AMP container ID"
+msgstr "Tag Manager AMP kapsayıcı kimliği"
+
+#: includes/Modules/Tag_Manager.php:190
+msgid "Tag Manager snippet placed"
+msgstr "Tag Manager kod parçası yerleştirildi"
+
+#: includes/Modules/Analytics.php:229
+msgid "Analytics account ID"
+msgstr "Analytics hesap kimliği"
+
+#: includes/Modules/Analytics.php:234
+msgid "Analytics property ID"
+msgstr "Analytics mülk kimliği"
+
+#: includes/Modules/Analytics.php:244
+msgid "Analytics snippet placed"
+msgstr "Analytics kod parçası yerleştirildi"
+
+#: includes/Core/Util/Requires_Javascript_Trait.php:36
+msgid "The Site Kit by Google plugin requires JavaScript to be enabled in your browser."
+msgstr "Site Kit by Google eklentisi için tarayıcınızda JavaScript’in etkinleştirilmesi gerekiyor."
+
+#: includes/Core/Util/Debug_Data.php:356
+msgid "Active Modules"
+msgstr "Etkin Modüller"
+
+#: includes/Core/Util/Debug_Data.php:270
+msgid "Authenticated"
+msgstr "Kimlik Doğrulandı"
+
+#: includes/Core/Util/Debug_Data.php:268
+msgid "User Status"
+msgstr "Kullanıcı Durumu"
+
+#: includes/Core/Util/Debug_Data.php:238
+msgid "Connected through OAuth client credentials"
+msgstr "OAuth istemci kimlik bilgileri üzerinden bağlandı"
+
+#: includes/Core/Util/Debug_Data.php:237
+msgid "Connected through site credentials"
+msgstr "Site kimlik bilgileri üzerinden bağlandı"
+
+#: includes/Core/Util/Debug_Data.php:177
+msgid "Reference Site URL"
+msgstr "Referans Site URL’si"
+
+#: includes/Modules/AdSense.php:179
+msgid "AdSense snippet placed"
+msgstr "AdSense snippet’i yerleştirildi"
+
+#: includes/Modules/AdSense.php:171
+msgid "AdSense account status"
+msgstr "AdSense hesabının durumu"
+
+#: includes/Modules/AdSense.php:166
+msgid "AdSense client ID"
+msgstr "AdSense istemci kimliği"
+
+#: includes/Modules/AdSense.php:161
+msgid "AdSense account ID"
+msgstr "AdSense hesabı kimliği"
+
+#: includes/Modules/Optimize.php:162
+msgid "Optimize ID"
+msgstr "Optimize Kimliği"
+
+#. translators: used between list items, there is a space after the comma.
+#: includes/Core/Util/Debug_Data.php:359
+#: dist/assets/js/googlesitekit-activation-e59ff8d7c29297c0aa6c.js:24
+#: dist/assets/js/googlesitekit-adminbar-04aec0e4fdd9887712dc.js:50
+#: dist/assets/js/googlesitekit-api-c19b175a03e9bff8a6d4.js:14
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:56
+#: dist/assets/js/googlesitekit-dashboard-details-06449b448bb424d0fea2.js:56
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:36
+#: dist/assets/js/googlesitekit-datastore-forms-07a9b7ab565e79b36c43.js:14
+#: dist/assets/js/googlesitekit-datastore-site-96a1b072f093a963ed76.js:14
+#: dist/assets/js/googlesitekit-datastore-ui-05a63cdc8e7b4c863993.js:14
+#: dist/assets/js/googlesitekit-datastore-user-a65f06143cf286c451ee.js:14
+#: dist/assets/js/googlesitekit-idea-hub-post-list-41858fb1d354f0547dd4.js:22
+#: dist/assets/js/googlesitekit-module-7d45896a6390e2e3118d.js:54
+#: dist/assets/js/googlesitekit-modules-6929643090630b3978c7.js:14
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:84
+#: dist/assets/js/googlesitekit-modules-analytics-4-8461bfb7a64f16447511.js:18
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:64
+#: dist/assets/js/googlesitekit-modules-idea-hub-088d45c4a891158123c2.js:22
+#: dist/assets/js/googlesitekit-modules-optimize-c0c2f31aff0c4677e6b6.js:24
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-bad62f23e37764448ba6.js:16
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:52
+#: dist/assets/js/googlesitekit-modules-subscribe-with-google-4eca870fb9e4e480530c.js:18
+#: dist/assets/js/googlesitekit-modules-tagmanager-6a0860ce7f93e4545b0d.js:34
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:32
+#: dist/assets/js/googlesitekit-user-input-50eac8369ad6b23ca056.js:32
+#: dist/assets/js/googlesitekit-widgets-12095ba7cec0e3aff6e8.js:38
+#: dist/assets/js/googlesitekit-wp-dashboard-c19b73547693d288428b.js:62
+msgid ", "
+msgstr ", "
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:303
+msgid "Unable to authenticate Site Kit, as no client credentials exist."
+msgstr "İstemci kimlik bilgisi olmadığından Site Kite kimliği doğrulanamıyor."
+
+#: includes/Core/Admin/Dashboard.php:112
+msgid "Site Kit Summary"
+msgstr "Site Kit Özeti"
+
+#: includes/Core/Notifications/Notification.php:69
+#: dist/assets/js/googlesitekit-activation-e59ff8d7c29297c0aa6c.js:13
+#: dist/assets/js/googlesitekit-adminbar-04aec0e4fdd9887712dc.js:39
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:41
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:45
+#: dist/assets/js/googlesitekit-dashboard-details-06449b448bb424d0fea2.js:43
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:21
+#: dist/assets/js/googlesitekit-idea-hub-post-list-41858fb1d354f0547dd4.js:11
+#: dist/assets/js/googlesitekit-module-7d45896a6390e2e3118d.js:43
+#: dist/assets/js/googlesitekit-module-7d45896a6390e2e3118d.js:56
+#: dist/assets/js/googlesitekit-modules-idea-hub-088d45c4a891158123c2.js:3
+#: dist/assets/js/googlesitekit-modules-idea-hub-088d45c4a891158123c2.js:22
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:21
+#: dist/assets/js/googlesitekit-user-input-50eac8369ad6b23ca056.js:21
+#: dist/assets/js/googlesitekit-wp-dashboard-c19b73547693d288428b.js:47
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: includes/Core/Util/User_Input_Settings.php:181
+#: includes/Core/Util/User_Input_Settings.php:231
+msgid "Not Connected"
+msgstr "Bağlı Değil"
+
+#: includes/Modules/AdSense.php:619
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:58
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:41
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:43
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:61
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:69
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:73
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:84
+msgctxt "Service name"
+msgid "AdSense"
+msgstr "AdSense"
+
+#: includes/Modules/PageSpeed_Insights.php:179
+#: dist/assets/js/googlesitekit-modules-pagespeed-insights-bad62f23e37764448ba6.js:26
+msgctxt "Service name"
+msgid "PageSpeed Insights"
+msgstr "PageSpeed Insights"
+
+#: includes/Modules/Analytics.php:994
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:41
+#: dist/assets/js/googlesitekit-modules-adsense-5f604ec3546839f246d6.js:73
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:29
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:33
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:37
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:45
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:53
+#: dist/assets/js/googlesitekit-modules-analytics-f6cbd5bf9ebcc39cee3e.js:78
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:58
+msgctxt "Service name"
+msgid "Analytics"
+msgstr "Analytics"
+
+#: includes/Modules/Optimize.php:197
+#: dist/assets/js/googlesitekit-modules-optimize-c0c2f31aff0c4677e6b6.js:1
+#: dist/assets/js/googlesitekit-modules-optimize-c0c2f31aff0c4677e6b6.js:13
+msgctxt "Service name"
+msgid "Optimize"
+msgstr "Optimize"
+
+#: includes/Modules/Search_Console.php:491
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:25
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:31
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:35
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:54
+#: dist/assets/js/googlesitekit-modules-search-console-075bbd92e75b85b612b0.js:58
+msgctxt "Service name"
+msgid "Search Console"
+msgstr "Arama konsolu"
+
+#: includes/Core/Admin/Available_Tools.php:47
+#: includes/Core/Admin/Available_Tools.php:61
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:17
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:19
+msgid "Reset Site Kit"
+msgstr "Site Kit’i sıfırlayın"
+
+#: includes/Modules/Tag_Manager.php:455
+#: dist/assets/js/googlesitekit-modules-tagmanager-6a0860ce7f93e4545b0d.js:34
+msgctxt "Service name"
+msgid "Tag Manager"
+msgstr "Etiket Yöneticisi"
+
+#: includes/Core/REST_API/Exception/Invalid_Datapoint_Exception.php:38
+msgid "Invalid datapoint."
+msgstr "Geçersiz veri noktası."
+
+#. translators: %s: Missing parameter name
+#: includes/Core/Dismissals/REST_Dismissals_Controller.php:109
+#: includes/Core/Feature_Tours/REST_Feature_Tours_Controller.php:108
+#: includes/Core/Notifications/Notifications.php:285
+#: includes/Core/User_Surveys/REST_User_Surveys_Controller.php:202
+#: includes/Modules/AdSense.php:235 includes/Modules/AdSense.php:240
+#: includes/Modules/AdSense.php:251 includes/Modules/AdSense.php:261
+#: includes/Modules/AdSense.php:346 includes/Modules/AdSense.php:357
+#: includes/Modules/AdSense.php:365 includes/Modules/Analytics.php:416
+#: includes/Modules/Analytics.php:420 includes/Modules/Analytics.php:424
+#: includes/Modules/Analytics.php:428 includes/Modules/Analytics.php:484
+#: includes/Modules/Analytics.php:492 includes/Modules/Analytics.php:503
+#: includes/Modules/Analytics.php:514 includes/Modules/Analytics.php:671
+#: includes/Modules/Analytics.php:679 includes/Modules/Analytics.php:695
+#: includes/Modules/Analytics_4.php:346 includes/Modules/Analytics_4.php:357
+#: includes/Modules/Analytics_4.php:368 includes/Modules/Analytics_4.php:383
+#: includes/Modules/Analytics_4.php:394 includes/Modules/Analytics_4.php:412
+#: includes/Modules/Idea_Hub.php:537 includes/Modules/Idea_Hub.php:607
+#: includes/Modules/PageSpeed_Insights.php:99
+#: includes/Modules/Search_Console.php:225
+#: includes/Modules/Site_Verification.php:173
+#: includes/Modules/Tag_Manager.php:263 includes/Modules/Tag_Manager.php:271
+#: includes/Modules/Tag_Manager.php:314 includes/Modules/Tag_Manager.php:322
+msgid "Request parameter is empty: %s."
+msgstr "İstek parametresi boş: %s."
+
+#: includes/Core/Authentication/Authentication.php:1112
+msgid "Click here"
+msgstr "Buraya tıklayın"
+
+#: includes/Core/Authentication/Authentication.php:1108
+msgid "You need to reauthenticate your Google account."
+msgstr "Google hesabınızı yeniden doğrulamanız gerekiyor."
+
+#: includes/Core/Modules/Modules.php:1227
+msgid "Name of the module."
+msgstr "Modülün adı."
+
+#: includes/Core/Util/REST_Entity_Search_Controller.php:133
+msgid "Text content to search for."
+msgstr "Aranacak metin içeriği."
+
+#: includes/Modules/AdSense.php:180 includes/Modules/Analytics.php:245
+#: includes/Modules/Analytics_4.php:179 includes/Modules/Tag_Manager.php:191
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/Core/Util/Debug_Data.php:221 includes/Modules/AdSense.php:180
+#: includes/Modules/Analytics.php:245 includes/Modules/Analytics_4.php:179
+#: includes/Modules/Tag_Manager.php:191
+msgid "No"
+msgstr "Hayır"
+
+#: includes/Core/Modules/Modules.php:898 includes/Core/Modules/Modules.php:943
+#: includes/Core/Modules/Modules.php:981 includes/Core/Modules/Modules.php:1041
+#: includes/Core/Modules/Modules.php:1099
+#: includes/Core/Modules/Modules.php:1222
+msgid "Identifier for the module."
+msgstr "Modül için tanımlayıcı."
+
+#: includes/Core/Modules/Modules.php:1252
+msgid "Whether the module setup has been completed."
+msgstr "Modül kurulumunun tamamlanıp tamamlanmadığı."
+
+#: includes/Core/Admin/Screen.php:129
+#: dist/assets/js/googlesitekit-activation-e59ff8d7c29297c0aa6c.js:9
+#: dist/assets/js/googlesitekit-dashboard-c7943bedbfb651796f12.js:33
+#: dist/assets/js/googlesitekit-dashboard-details-06449b448bb424d0fea2.js:33
+#: dist/assets/js/googlesitekit-dashboard-splash-3c1aabf9cbd2f764ea9e.js:9
+#: dist/assets/js/googlesitekit-module-7d45896a6390e2e3118d.js:33
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:9
+#: dist/assets/js/googlesitekit-user-input-50eac8369ad6b23ca056.js:9
+msgid "Site Kit"
+msgstr "Site Kit"
+
+#: includes/Modules/Analytics.php:997 includes/Modules/Analytics_4.php:509
+msgid "https://analytics.google.com/analytics/web"
+msgstr "https://analytics.google.com/analytics/web"
+
+#: includes/Modules/Analytics.php:471
+msgid "Analytics module needs to be configured."
+msgstr "Analytics modülünün yapılandırılması gerekiyor."
+
+#: includes/Modules/Site_Verification.php:359
+msgid "https://www.google.com/webmasters/verification/home"
+msgstr "https://www.google.com/webmasters/verification/home"
+
+#: includes/Modules/Site_Verification.php:180
+msgid "Unknown user."
+msgstr "Bilinmeyen kullanıcı."
+
+#: includes/Modules/Optimize.php:200
+msgid "https://optimize.google.com/optimize/home/"
+msgstr "https://optimize.google.com/optimize/home/"
+
+#: includes/Modules/AdSense.php:512
+msgid "Invalid date range."
+msgstr "Geçersiz tarih aralığı."
+
+#: includes/Modules/Tag_Manager.php:458
+msgid "https://tagmanager.google.com/"
+msgstr "https://tagmanager.google.com/"
+
+#: includes/Modules/Search_Console.php:494
+msgid "https://search.google.com/search-console"
+msgstr "https://search.google.com/search-console"
+
+#. Author URI of the plugin
+msgid "https://opensource.google.com"
+msgstr "https://opensource.google.com"
+
+#. Author of the plugin
+msgid "Google"
+msgstr "Google"
+
+#. Plugin URI of the plugin
+msgid "https://sitekit.withgoogle.com"
+msgstr "https://sitekit.withgoogle.com"
+
+#. Plugin Name of the plugin
+#: includes/Core/Admin/Screen.php:87 includes/Core/Util/Debug_Data.php:118
+msgid "Site Kit by Google"
+msgstr "Google tarafından Site Kit"
+
+#: google-site-kit.php:49
+msgid "Error Activating"
+msgstr "Etkinleştirme hatası"
+
+#: includes/Modules/Search_Console.php:253
+msgid "Error adding the site to Search Console."
+msgstr "Site Search Console'a eklenirken hata oluştu."
+
+#. translators: %s: error code from API
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:312
+msgid "Unknown Error (code: %s)."
+msgstr "Bilinmeyen hata (kod: %s)."
+
+#. Description of the plugin
+msgid "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web."
+msgstr "Site Kit, WordPress kullanıcılarının web'de başarılı olması için Google'ın sunduğu tüm özellikleri tek bir uygulamada barındıran bir çözümdür."
+
+#. translators: 1: Invalid parameter name, 2: list of valid values
+#: includes/Modules/PageSpeed_Insights.php:113
+#: includes/Modules/Tag_Manager.php:283
+msgid "Request parameter %1$s is not one of %2$s"
+msgstr "%1$s istek parametresi %2$s listesinden biri değil"
+
+#: includes/Modules/Search_Console.php:492
+msgid "Google Search Console and helps you understand how Google views your site and optimize its performance in search results."
+msgstr "Google arama konsolu, Google'ın sitenizi nasıl gördüğünü anlamanıza ve arama sonuçlarındaki performansını optimize etmenize yardımcı olur."
+
+#: includes/Modules/Site_Verification.php:357
+msgid "Google Site Verification allows you to manage ownership of your site."
+msgstr "Google site doğrulaması sitenizin sahipliğini yönetmenize izin veri."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:309
+msgid "Unable to receive access token because of an unsupported grant type."
+msgstr "Desteklenmeyen izin türü nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:307
+msgid "Unable to receive access token because of an unauthorized client."
+msgstr "Yetkilendirilmemiş istemci nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:293
+msgid "Unable to receive access token because of an invalid authorization code or refresh token."
+msgstr "Geçersiz yetkilendirme kodu veya yenileme jetonu nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:289
+msgid "Unable to receive access token because of an invalid client."
+msgstr "Geçersiz bir istemci nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:295
+msgid "Unable to receive access token because of an invalid OAuth request."
+msgstr "Geçersiz bir OAuth isteği nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:285
+msgid "Unable to receive access token because of an unknown error."
+msgstr "Bilinmeyen bir hata nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:291
+msgid "Unable to receive access token because of an empty authorization code."
+msgstr "Boş bir yetkilendirme kodu nedeniyle erişim jetonu alınamıyor."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:287
+msgid "Internal error that the Google login redirect failed."
+msgstr "Google girişi yönlendirmesinin başarısız olduğu dahili hata."
+
+#: includes/Core/Authentication/Clients/OAuth_Client_Base.php:305
+msgid "Unable to refresh access token, as no refresh token exists."
+msgstr "Herhangi bir yenileme jetonu olmadığından erişim jetonu yenilenemedi."
+
+#: includes/Core/Modules/Modules.php:1265
+msgid "List of slugs of other modules depending on the module."
+msgstr "Modüle bağlı diğer modüllerin jeton listesi."
+
+#: includes/Core/Modules/Modules.php:1257
+msgid "List of slugs of other modules that the module depends on."
+msgstr "Modülün bağlı olduğu diğer modüllerin jeton listesi."
+
+#: includes/Core/Modules/Modules.php:1248
+msgid "Whether the module is active."
+msgstr "Modülün etkin olup olmadığı."
+
+#: includes/Core/Modules/Modules.php:1243
+msgid "Whether the module is internal, thus without any UI."
+msgstr "Modülün dahili olup olmadığı, yani herhangi bir kullanıcı arayüzü olup olmadığı."
+
+#: includes/Core/Modules/Modules.php:1237
+msgid "The module homepage."
+msgstr "Modül ana sayfası."
+
+#: includes/Core/Modules/Modules.php:1232
+msgid "Description of the module."
+msgstr "Modülün açıklaması."
+
+#: includes/Core/Modules/Modules.php:1104
+msgid "Module data point to address."
+msgstr "Modül verisi noktasından adrese."
+
+#: includes/Core/Modules/Modules.php:1087
+msgid "Data to set."
+msgstr "Veri ayarlanacak."
+
+#: includes/Core/Modules/Modules.php:861
+msgid "An internal error occurred while trying to deactivate the module."
+msgstr "Modül devre dışı bırakılmaya çalışılırken dahili bir hata oluştu."
+
+#. translators: %s: module name
+#: includes/Core/Modules/Modules.php:856
+msgid "Module cannot be deactivated because deactivation of dependant %s failed."
+msgstr "Bağımlı %s öğesi devre dışı bırakılamadığından modül devre dışı bırakılamadı."
+
+#: includes/Core/Modules/Modules.php:847
+msgid "An internal error occurred while trying to activate the module."
+msgstr "Modül etkinleştirilmeye çalışılırken dahili bir hata oluştu."
+
+#. translators: %s: module name
+#: includes/Core/Modules/Modules.php:843
+msgid "Module cannot be activated because of inactive dependency %s."
+msgstr "Devre dışı olan bağımlı %s nedeniyle modül etkinleştirilemedi."
+
+#: includes/Core/Modules/Modules.php:920 includes/Core/Modules/Modules.php:959
+#: includes/Core/Modules/Modules.php:997 includes/Core/Modules/Modules.php:1014
+#: includes/Core/Modules/Modules.php:1057
+#: includes/Core/Modules/Modules.php:1074
+msgid "Invalid module slug."
+msgstr "Geçersiz modül anahtarı."
+
+#. translators: %s: service identifier
+#: includes/Core/Modules/Module.php:613
+msgid "Google service identified by %s does not exist."
+msgstr "%s tarafından tanımlanan Google hizmeti mevcut değil."
+
+#: includes/Core/Modules/Module.php:601 includes/Core/Modules/Module.php:605
+msgid "Google services not set up correctly."
+msgstr "Google hizmetleri doğru bir şekilde kurulmadı."
+
+#: includes/Core/Modules/Module.php:577
+msgid "Google client not set up correctly."
+msgstr "Google istemcisi doğru bir şekilde kurulmadı."
+
+#. translators: %s: module slug
+#: includes/Core/Modules/Modules.php:516 includes/Core/Modules/Modules.php:537
+#: includes/Core/Modules/Modules.php:558
+msgid "Invalid module slug %s."
+msgstr "Geçersiz modül anahtarı %s."
+
+#: includes/Core/Admin/Plugin_Action_Links.php:61
+#: includes/Core/Admin/Screens.php:396
+#: dist/assets/js/googlesitekit-settings-9e7529f5799e8e3fa4ef.js:34
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/Core/Admin/Screens.php:332 includes/Core/Admin/Screens.php:416
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: includes/Plugin.php:84
+msgid "Meanwhile, we recommend deactivating it in the network and re-activating it for an individual site."
+msgstr "Bu arada bunu ağda devre dışı bırakıp bağımsız bir sitede yeniden etkinleştirmenizi öneririz."
+
+#: includes/Plugin.php:76
+msgid "The Site Kit by Google plugin is <strong>not yet compatible</strong> for use in a WordPress multisite network, but we&#8217;re actively working on that."
+msgstr "Site Kit by Google eklentisi, WordPress birden çok siteli ağında kullanım için <strong>henüz uyumlu değil</strong> ancak bunun için elimizden geleni yapıyoruz."
+
+#: includes/Modules/Analytics.php:995 includes/Modules/Analytics_4.php:507
+msgid "Get a deeper understanding of your customers. Google Analytics gives you the free tools you need to analyze data for your business in one place."
+msgstr "Müşterilerinizi daha iyi anlayın. Google Analytics, işinizi tek bir yerden analiz etmeniz için ihtiyacınız olan tüm ücretsiz araçları sağlar."
+
+#: includes/Modules/AdSense.php:620
+msgid "Earn money by placing ads on your website. It’s free and easy."
+msgstr "Web sitenize reklamlar yerleştirerek para kazanın. Ücretsiz ve kolay."
+
+#: includes/Modules/AdSense.php:336
+msgid "Go to AdSense"
+msgstr "AdSense’e git"
+
+#: includes/Modules/AdSense.php:547
+msgid "AdSense account ID not set."
+msgstr "AdSense hesabının kimliği ayarlanmadı."
+
+#. translators: %s: version number
+#: google-site-kit.php:48
+msgid "Site Kit requires PHP version %s"
+msgstr "Site Kit PHP’nin %s sürümünü gerektirir"

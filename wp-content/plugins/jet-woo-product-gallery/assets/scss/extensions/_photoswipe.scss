@@ -1,0 +1,84 @@
+.jet-woo-product-gallery-pswp {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	touch-action: none;
+	z-index: 999999;
+	outline: 0;
+
+	&[aria-hidden="false"]{
+		display: block;
+		visibility: visible !important;
+	}
+	
+	&.pswp--zoomed-in {
+		.pswp__button--zoom:hover {
+			background-position: -132px 0;
+		}
+	}
+	
+	.pswp__button--zoom {
+		display: block;
+	}
+}
+
+.jet-woo-product-gallery__image .jet-woo-product-gallery__trigger:not( .jet-woo-product-gallery__image-link ) {
+	position: absolute;
+	z-index: 2;
+	font-size: 14px;
+	line-height: 1;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #a1a2a4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 10px;
+	
+	.jet-woo-product-gallery__trigger-icon {
+		line-height: 100%;
+	}
+}
+
+.jet-woo-product-gallery__trigger {
+	&--top-right & {
+		top: 0;
+		right: 0;
+	}
+
+	&--bottom-right & {
+		bottom: 0;
+		right: 0;
+	}
+
+	&--bottom-left & {
+		bottom: 0;
+		left: 0;
+	}
+
+	&--top-left & {
+		top: 0;
+		left: 0;
+	}
+
+	&--center & {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	&--show-on-hover & {
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	&--show-on-hover .jet-woo-product-gallery__image:hover & {
+		opacity: 1;
+		visibility: visible;
+	}
+}

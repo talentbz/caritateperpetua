@@ -1,0 +1,561 @@
+# Translation of Plugins - Variation Swatches for WooCommerce - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Variation Swatches for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-28 07:14:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Variation Swatches for WooCommerce - Development (trunk)\n"
+
+#: includes/functions.php:452
+msgid "Use Transient Cache for PageSpeed Score. If you use any caching plugin you do not have to use it"
+msgstr "Usa la caché de datos transitorios para la puntuación de PageSpeed. No tienes que usarlo si usas algún plugin de caché"
+
+#: includes/functions.php:445
+msgid "Defer Load JS for PageSpeed Score. If you use any caching plugin or your server have HTTP2 support you do not have to use it"
+msgstr "Aplazar la carga de JS para la puntuación de PageSpeed. No tienes que usarlo si usas algún plugin de caché o tu servidor tiene compatibilidad para HTTP2"
+
+#: includes/functions.php:379
+msgid "Disabled attribute will be hide / blur. %sNote: Disable ajax threshold doesn't apply this feature.%s"
+msgstr "El atributo desactivado se ocultará/difuminará. %sNota: La desactivación del umbral Ajax no se aplica a esta característica.%s"
+
+#: includes/deactive-feedback-dialog.php:44
+msgid "Send feedback &amp; Deactivate"
+msgstr "Enviar los comentarios y desactivar"
+
+#: includes/functions.php:369
+msgid "Variation label separator. Default: %s."
+msgstr "Separador de la etiqueta de la variación. Por defecto: %s."
+
+#: includes/functions.php:368
+msgid "Variation label separator"
+msgstr "Separador de la etiqueta de la variación"
+
+#: includes/class-wvs-settings-api.php:144
+msgid "Swatches"
+msgstr "Muestras"
+
+#: includes/class-wvs-settings-api.php:143
+msgid "Variation Swatches for WooCommerce Settings"
+msgstr "Ajustes de Variation Swatches for WooCommerce"
+
+#: includes/functions.php:1909
+msgid "Additional Variation Images Gallery for WooCommerce"
+msgstr "Additional Variation Images Gallery for WooCommerce"
+
+#: includes/functions.php:1909
+msgid "Want to add more image? Install"
+msgstr "¿Quieres añadir más imágenes? Instala"
+
+#: includes/functions.php:1908
+msgid "Plugin Installed. Please refresh this page."
+msgstr "Plugin instalado. Por favor, refresca esta página."
+
+#: includes/functions.php:1907
+msgid "Installing Plugin..."
+msgstr "Instalando el plugin..."
+
+#: includes/functions.php:360
+msgid "Show selected attribute variation name beside the title"
+msgstr "Mostrar el nombre de la variación del atributo seleccionado junto al título"
+
+#: includes/functions.php:359
+msgid "Show selected attribute"
+msgstr "Mostrar el atributo seleccionado"
+
+#: includes/class-wvs-settings-api.php:754
+msgid "NEW"
+msgstr "NUEVO"
+
+#: includes/class-wvs-settings-api.php:599
+msgid "Reset all"
+msgstr "Restablecer todo"
+
+#: includes/class-wvs-settings-api.php:599
+msgid "Are you sure to reset current settings?"
+msgstr "¿Estás seguro de restablecer los ajustes actuales?"
+
+#: includes/class-wvs-settings-api.php:598
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: includes/functions.php:302
+msgid "Enable default stylesheet"
+msgstr "Activar la hoja de estilos por defecto"
+
+#: includes/functions.php:295
+msgid "Enable tooltip on each product attribute."
+msgstr "Activa la información emergente en cada atributo del producto."
+
+#: woo-variation-swatches.php:1003
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: includes/functions.php:451
+msgid "Use Transient Cache"
+msgstr "Usar la caché de datos transitorios"
+
+#: includes/functions.php:444
+msgid "Defer Load JS"
+msgstr "Aplazar la carga de JS"
+
+#: includes/functions.php:438
+msgid "Change for Performance"
+msgstr "Cambiar para mejorar el rendimiento"
+
+#: includes/functions.php:437
+msgid "Performance Section"
+msgstr "Sección de rendimiento"
+
+#: includes/functions.php:434
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: includes/deactive-feedback-dialog.php:12
+msgid "Close modal panel"
+msgstr "Cerrar el panel emergente"
+
+#: includes/deactive-feedback-dialog.php:10
+msgid "QUICK FEEDBACK"
+msgstr "RESPUESTA RÁPIDA"
+
+#: includes/functions.php:320
+msgid "Convert default dropdowns to button type"
+msgstr "Convertir los desplegables por defecto a tipo de botón"
+
+#: includes/functions.php:319
+msgid "Auto Dropdowns to Button"
+msgstr "Desplegables automáticos a botón"
+
+#: woo-variation-swatches.php:770
+msgid "Variation Swatches for WooCommerce Plugin try to load \"%s\" but template \"%s\" was not found."
+msgstr "El plugin Variation Swatches for WooCommerce ha intentado cargar «%s», pero no se ha encontrado la plantilla «%s»."
+
+#: woo-variation-swatches.php:654
+msgid "<strong>Variation Swatches for WooCommerce</strong> is an add-on of "
+msgstr "<strong>Variation Swatches for WooCommerce</strong> es una extensión de "
+
+#: woo-variation-swatches.php:630
+msgid "It's required to use latest version of PHP to use <strong>Variation Swatches for WooCommerce</strong>."
+msgstr "Es necesario usar la última versión de PHP para utilizar <strong>Variation Swatches for WooCommerce</strong>."
+
+#. Plugin Name of the plugin
+#: woo-variation-swatches.php:667
+msgid "Variation Swatches for WooCommerce"
+msgstr "Variation Swatches for WooCommerce"
+
+#: includes/class-woo-variation-swatches-export-import.php:103
+msgid "Swatches Attributes"
+msgstr "Atributos de las muestras"
+
+#. translators: %s: image URL
+#: includes/class-woo-variation-swatches-export-import.php:234
+msgid "Unable to use image \"%s\"."
+msgstr "No se puede utilizar la imagen «%s»."
+
+#. translators: %s: image URL
+#: includes/class-woo-variation-swatches-export-import.php:225
+msgid "Not able to attach \"%s\"."
+msgstr "No se puede adjuntar «%s»."
+
+#: woo-variation-swatches.php:182
+msgid "I need <strong>specific feature</strong> that you don't support."
+msgstr "Necesito una <strong>característica específica</strong> que no tenéis."
+
+#: woo-variation-swatches.php:172
+msgid "Please provide your email address to contact with you <br>and help you to setup and configure this plugin."
+msgstr "Por favor, facilita tu dirección de correo electrónico para contactar contigo <br>y ayudarte a instalar y configurar este plugin."
+
+#: woo-variation-swatches.php:170
+msgid "Your email address."
+msgstr "Tu dirección de correo electrónico."
+
+#: woo-variation-swatches.php:169
+msgid "I need someone to <strong>setup this plugin.</strong>"
+msgstr "Necesito a alguien para <strong>configurar este plugin.</strong> "
+
+#: includes/tutorials.php:97 includes/tutorials.php:133
+#: includes/tutorials.php:142 includes/tutorials.php:179
+#: includes/tutorials.php:188 includes/tutorials.php:225
+#: includes/tutorials.php:234 includes/tutorials.php:271
+#: includes/tutorials.php:280 includes/tutorials.php:317
+#: includes/tutorials.php:326 includes/tutorials.php:364
+#: includes/tutorials.php:373
+msgid "PRO"
+msgstr "PRO"
+
+#: woo-variation-swatches.php:189
+msgid "Please share the reason"
+msgstr "Por favor, comparte el motivo"
+
+#: woo-variation-swatches.php:188
+msgid "Other"
+msgstr "Otra"
+
+#: woo-variation-swatches.php:183
+msgid "Please share with us."
+msgstr "Por favor, compártelo con nosotros."
+
+#: woo-variation-swatches.php:178
+msgid "<a target=\"_blank\" href=\"https://getwooplugins.com/documentation/woocommerce-variation-swatches/\">Have you checked our documentation?</a>."
+msgstr "<a target=\"_blank\" href=\"https://getwooplugins.com/documentation/woocommerce-variation-swatches/\">¿Has revisado nuestra documentación?</a>."
+
+#: woo-variation-swatches.php:176
+msgid "The plugin is <strong>too complicated to configure.</strong>"
+msgstr "El plugin es <strong>demasiado complicado de configurar.</strong>"
+
+#: woo-variation-swatches.php:165
+msgid "<a target=\"_blank\" href=\"https://getwooplugins.com/tickets/\">Please open a support ticket</a>, we will fix it immediately."
+msgstr "<a target=\"_blank\" href=\"https://getwooplugins.com/tickets/\">Por favor, abre un tique de soporte</a>, lo corregiremos de inmediato."
+
+#: woo-variation-swatches.php:163
+msgid "The plugin <strong>broke my layout</strong> or some functionality."
+msgstr "El plugin <strong>ha roto mi diseño</strong> o alguna funcionalidad."
+
+#: woo-variation-swatches.php:159
+msgid "Please share which plugin"
+msgstr "Por favor, dinos qué plugin"
+
+#: woo-variation-swatches.php:158
+msgid "I found a better plugin"
+msgstr "He encontrado un plugin mejor"
+
+#: woo-variation-swatches.php:153
+msgid "I no longer need the plugin"
+msgstr "Ya no necesito el plugin"
+
+#: woo-variation-swatches.php:149
+msgid "It converts variation select box to beautiful swatches. <br> <a target=\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Please check live demo</a>."
+msgstr "Convierte la caja de selección de variaciones en unas bonitas muestras. <br> <a target=\"_blank\" href=\"https://bit.ly/deactivate-dialogue\">Por favor, echa un vistazo a la demostración en vivo</a>."
+
+#: woo-variation-swatches.php:147
+msgid "I couldn't understand how to make it work."
+msgstr "No he podido entender cómo hacerlo funcionar."
+
+#: woo-variation-swatches.php:142
+msgid "It's a temporary deactivation."
+msgstr "Es una desactivación temporal."
+
+#: includes/functions.php:257
+msgid "How to setup and use this plugin"
+msgstr "Cómo configurar y usar este plugin"
+
+#: includes/functions.php:256
+msgid "How to tutorials"
+msgstr "Tutoriales de uso"
+
+#: includes/functions.php:253
+msgid "Tutorials"
+msgstr "Tutoriales"
+
+#: includes/deactive-feedback-dialog.php:48
+msgid "Skip &amp; Deactivate"
+msgstr "Omitir y desactivar"
+
+#: includes/deactive-feedback-dialog.php:44
+msgid "Deactivating..."
+msgstr "Desactivando..."
+
+#: includes/deactive-feedback-dialog.php:18
+msgid "May we have a little info about why you are deactivating?"
+msgstr "¿Podrías darnos algo de información sobre por qué lo estás desactivando?"
+
+#: includes/functions.php:512
+msgid "Show single attribute as catalog mode on shop / archive pages"
+msgstr "Mostrar un atributo individual como modo de catálogo en las páginas de la tienda/archivo"
+
+#: includes/functions.php:511
+msgid "Catalog mode"
+msgstr "Modo de catálogo"
+
+#: includes/functions.php:508
+msgid "Special Attribute"
+msgstr "Atributo especial"
+
+#: includes/functions.php:490
+msgid "Advanced change some visual styles on shop / archive page"
+msgstr "Cambio avanzado de algunos estilos visuales en la página de la tienda/archivo"
+
+#: includes/functions.php:382
+msgid "Blur without cross"
+msgstr "Desenfoque sin cruz"
+
+#: includes/functions.php:381
+msgid "Blur with cross"
+msgstr "Desenfoque con cruz"
+
+#: includes/functions.php:468
+msgid "Change some visual styles"
+msgstr "Cambiar algunos estilos visuales"
+
+#: includes/functions.php:467
+msgid "Visual Styling"
+msgstr "Estilo visual"
+
+#: includes/functions.php:464
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/functions.php:486
+msgid "Archive / Shop"
+msgstr "Archivo/tienda"
+
+#: includes/functions.php:420
+msgid "Single product variation item font size"
+msgstr "Tamaño de la fuente del artículo de la variación de un producto individual"
+
+#: includes/functions.php:419
+msgid "Font Size"
+msgstr "Tamaño de la fuente"
+
+#: woo-variation-swatches.php:580
+msgid "Go Pro"
+msgstr "Ir a Pro"
+
+#: woo-variation-swatches.php:565
+msgid "Please open a ticket."
+msgstr "Por favor, abre un tique de soporte."
+
+#: includes/functions.php:410
+msgid "Variation item height"
+msgstr "Altura del elemento de la variación"
+
+#: includes/functions.php:409
+msgid "Height"
+msgstr "Altura"
+
+#: includes/functions.php:400
+msgid "Variation item width"
+msgstr "Anchura del elemento de la variación"
+
+#: includes/functions.php:399
+msgid "Width"
+msgstr "Anchura"
+
+#. Description of the plugin
+msgid "Beautiful colors, images and buttons variation swatches for woocommerce product attributes. Requires WooCommerce 3.2+"
+msgstr "Muestras de variación de colores, imágenes y botones para los atributos de los productos de WooCommerce. Requiere WooCommerce 3.2+"
+
+#: woo-variation-swatches.php:667
+msgid "Currently, you are using older version of WooCommerce. It's recommended to use latest version of WooCommerce to work with %s."
+msgstr "Actualmente estás usando una versión antigua de WooCommerce. Se recomienda usar la última versión de WooCommerce para que funcione con %s."
+
+#: woo-variation-swatches.php:565
+msgid "Facing issue?"
+msgstr "¿Te estás encontrando problemas?"
+
+#: woo-variation-swatches.php:563
+msgid "Read Documentation"
+msgstr "Leer la documentación"
+
+#: includes/functions.php:383
+msgid "Hide"
+msgstr "Ocultar"
+
+#: includes/functions.php:378
+msgid "Attribute behavior"
+msgstr "Comportamiento del atributo"
+
+#: includes/functions.php:349
+msgid "Control the number of enable ajax variation threshold, If you set <code>1</code> all product variation will be load via ajax. Default value is <code>30</code>, <br><span style=\"color: red\">Note: Disable ajax threshold doesn't follow attribute behaviour. It's recommended to keep this number between 30 - 40.</span>"
+msgstr "Controla el número del umbral de activación de variaciones a través de Ajax. Si lo estableces en <code>1</code>, toda la variación del producto se cargará a través de Ajax. El valor por defecto es <code>30</code>.<br><span style=\"color: red\">Nota: La desactivación del umbral Ajax no sigue el comportamiento de los atributos. Se recomienda mantener este número entre 30 - 40.</span>"
+
+#: includes/functions.php:335
+msgid "Advanced change some visual styles"
+msgstr "Cambio avanzado de algunos estilos visuales"
+
+#: includes/functions.php:331
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: includes/functions.php:287 includes/functions.php:334
+#: includes/functions.php:489
+msgid "Visual Section"
+msgstr "Sección visual"
+
+#: includes/functions.php:284
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/class-wvs-settings-api.php:175
+msgid "Clear transient"
+msgstr "Vaciar los datos transitorios"
+
+#: includes/functions.php:342
+msgid "Clear selected attribute on select again"
+msgstr "Vaciar el atributo seleccionado al volver a seleccionarlo"
+
+#: includes/functions.php:341
+msgid "Clear on Reselect"
+msgstr "Vaciar al volver a seleccionar"
+
+#: includes/functions.php:392
+msgid "<span style=\"color: red\">Attribute image size changed by <code>wvs_product_attribute_image_size</code> hook. So this option will not apply any effect.</span>"
+msgstr "<span style=\"color: red\">El tamaño de imagen del atributo lo cambió el gancho <code>wvs_product_attribute_image_size</code>. Por tanto, esta opción no aplicará ningún efecto.</span>"
+
+#: includes/functions.php:391
+msgid "Attribute image size"
+msgstr "Tamaño de la imagen del atributo"
+
+#: woo-variation-swatches.php:463
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: woo-variation-swatches.php:462
+msgid "Add"
+msgstr "Añadir"
+
+#: woo-variation-swatches.php:461
+msgid "Add Attribute"
+msgstr "Añadir un atributo"
+
+#: woo-variation-swatches.php:126
+msgid "The name is how it appears on your site."
+msgstr "El nombre es cómo aparecerá en tu sitio."
+
+#: woo-variation-swatches.php:124
+msgctxt "term name"
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/functions.php:759 includes/functions.php:844
+msgid "Add new %s"
+msgstr "Añadir nuevo %s"
+
+#: includes/functions.php:348
+msgid "Ajax variation threshold"
+msgstr "Umbral de variación de Ajax"
+
+#: includes/class-wvs-customizer.php:34
+msgid "WooCommerce Variation Swatches"
+msgstr "WooCommerce Variation Swatches"
+
+#: includes/functions.php:301
+msgid "Enable Stylesheet"
+msgstr "Activar la hoja de estilo"
+
+#: includes/functions.php:294
+msgid "Enable Tooltip"
+msgstr "Activar la información emergente"
+
+#: includes/functions.php:312
+msgid "Squared Shape"
+msgstr "Forma cuadrada"
+
+#: includes/functions.php:311
+msgid "Rounded Shape"
+msgstr "Forma redondeada"
+
+#: includes/functions.php:309
+msgid "Attribute Shape Style"
+msgstr "Estilo de la forma del atributo"
+
+#: includes/functions.php:308
+msgid "Shape style"
+msgstr "Estilo de la forma"
+
+#: includes/functions.php:288
+msgid "Simple change some visual styles"
+msgstr "Cambio sencillo de algunos estilos visuales"
+
+#: includes/class-wvs-settings-api.php:559
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: includes/class-wvs-settings-api.php:199
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-wvs-settings-api.php:160 includes/functions.php:1796
+msgid "Swatches Settings"
+msgstr "Ajuste de muestras"
+
+#. Author URI of the plugin
+msgid "https://getwooplugins.com/"
+msgstr "https://getwooplugins.com/"
+
+#. Author of the plugin
+msgid "Emran Ahmed"
+msgstr "Emran Ahmed"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-variation-swatches/"
+msgstr "https://es.wordpress.org/plugins/woo-variation-swatches/"
+
+#: woo-variation-swatches.php:642
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: woo-variation-swatches.php:628
+msgid "Please check PHP version requirement."
+msgstr "Por favor, revisa los requisitos de versión de PHP."
+
+#: woo-variation-swatches.php:465
+msgid "Add Media"
+msgstr "Añadir medios"
+
+#: woo-variation-swatches.php:464
+msgid "Use Image"
+msgstr "Usar una imagen"
+
+#: includes/functions.php:1169 includes/functions.php:1181
+#: includes/functions.php:1243 includes/functions.php:1255
+#: includes/functions.php:1318 includes/functions.php:1330
+#: includes/functions.php:1389 includes/functions.php:1402
+#: includes/functions.php:1459 includes/functions.php:1472
+#: includes/functions.php:1540 includes/functions.php:1552
+#: includes/functions.php:1615
+msgid "Choose an option"
+msgstr "Elige una opción"
+
+#: includes/functions.php:759 includes/functions.php:761
+#: includes/functions.php:844 includes/functions.php:846
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: includes/functions.php:753 includes/functions.php:805
+#: includes/functions.php:838
+msgid "Select none"
+msgstr "No seleccionar ninguno"
+
+#: includes/functions.php:752 includes/functions.php:804
+#: includes/functions.php:837
+msgid "Select all"
+msgstr "Seleccionar todos"
+
+#: includes/functions.php:742 includes/functions.php:792
+#: includes/functions.php:821
+msgid "Select terms"
+msgstr "Seleccionar los términos"
+
+#: includes/functions.php:553 woo-variation-swatches.php:460
+msgid "Choose an Image"
+msgstr "Elegir una imagen"
+
+#: includes/functions.php:544
+msgid "Choose a color"
+msgstr "Elige un color"
+
+#: includes/functions.php:146
+msgid "Button"
+msgstr "Botón"
+
+#: includes/functions.php:140 includes/functions.php:552
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/functions.php:134 includes/functions.php:543
+msgid "Color"
+msgstr "Color"
+
+#: includes/class-wvs-term-meta.php:231
+msgid "Remove image"
+msgstr "Eliminar la imagen"
+
+#: includes/class-wvs-term-meta.php:230
+msgid "Upload / Add image"
+msgstr "Subir/añadir una imagen"

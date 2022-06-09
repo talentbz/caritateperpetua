@@ -1,0 +1,424 @@
+# Translation of Themes - Hello Elementor in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-26 17:48:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "一款簡潔、輕量化、專為搭配 Elementor 頁面編輯器的佈景主題。"
+
+#. Theme Name of the theme
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: template-parts/header.php:20
+msgid "Skip to content"
+msgstr "跳至主要內容"
+
+#: includes/settings/settings-header.php:525
+msgid "Create Header"
+msgstr "建立頁首"
+
+#: includes/settings/settings-header.php:523
+msgid "Create a custom header with the new Theme Builder"
+msgstr "使用新式佈景主題編輯器建立自訂頁首"
+
+#: includes/settings/settings-header.php:507
+msgid "Create a custom header with multiple options"
+msgstr "使用多個選項建立自訂頁首"
+
+#: includes/settings/settings-header.php:458
+msgid "Toggle Color"
+msgstr "選單圖示色彩"
+
+#: includes/settings/settings-header.php:432
+msgid "None"
+msgstr "無"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:431
+msgid "Tablet (< %dpx)"
+msgstr "平板裝置 (< %dpx)"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:429
+msgid "Mobile (< %dpx)"
+msgstr "行動裝置 (< %dpx)"
+
+#: includes/settings/settings-header.php:424
+msgid "Breakpoint"
+msgstr "中斷點"
+
+#: includes/settings/settings-header.php:413
+msgid "Dropdown"
+msgstr "下拉式"
+
+#: includes/settings/settings-header.php:412
+msgid "Horizontal"
+msgstr "水平排列"
+
+#: includes/settings/settings-header.php:408
+msgid "Menu Layout"
+msgstr "選單版面配置"
+
+#: includes/settings/settings-footer.php:506
+msgid "Create Footer"
+msgstr "建立頁尾"
+
+#: includes/settings/settings-footer.php:505
+#: includes/settings/settings-header.php:524
+msgid "With the new Theme Builder you can jump directly into each part of your site"
+msgstr "使用新式佈景主題編輯器，便能直接前往這個網站的個別組件。"
+
+#: includes/settings/settings-footer.php:504
+msgid "Create a custom footer with the new Theme Builder"
+msgstr "使用新式佈景主題編輯器建立自訂頁尾"
+
+#: includes/settings/settings-footer.php:490
+#: includes/settings/settings-header.php:509
+msgid "Go Pro"
+msgstr "升級至 Pro 版"
+
+#: includes/settings/settings-footer.php:489
+#: includes/settings/settings-header.php:508
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "升級至 Elementor Pro，便能體驗不受限制的設計及更多功能。"
+
+#: includes/settings/settings-footer.php:488
+msgid "Create a custom footer with multiple options"
+msgstr "使用多個選項建立自訂頁尾"
+
+#: includes/settings/settings-footer.php:433
+msgid "All rights reserved"
+msgstr "著作權所有，並保留一切權利"
+
+#: includes/settings/settings-footer.php:391
+#: includes/settings/settings-header.php:444
+msgid "Color"
+msgstr "色彩"
+
+#: includes/settings/settings-footer.php:383
+#: includes/settings/settings-header.php:400
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "頁面重新載入後，所做的變更才會顯示於預覽中。"
+
+#: includes/settings/settings-footer.php:375
+#: includes/settings/settings-header.php:392
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "前往 [<a href=\"%s\" target=\"_blank\">選單</a>] 管理這個網站的選單。"
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "前往 [<a href=\"%s\" target=\"_blank\">選單</a>] 以建立選單。"
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "There are no menus in your site."
+msgstr "這個網站目前沒有選單。"
+
+#: includes/settings/settings-footer.php:352
+#: includes/settings/settings-header.php:369
+msgid "— Select a Menu —"
+msgstr "— 選取選單 —"
+
+#: includes/settings/settings-footer.php:280
+#: includes/settings/settings-footer.php:332
+#: includes/settings/settings-header.php:270
+#: includes/settings/settings-header.php:283
+#: includes/settings/settings-header.php:342
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title and tagline"
+msgstr "前往 [<a href=\"%s\">網站識別</a>] 管理這個網站的網站標題及網站說明。"
+
+#: includes/settings/settings-footer.php:266
+#: includes/settings/settings-footer.php:320
+#: includes/settings/settings-footer.php:403
+#: includes/settings/settings-footer.php:455
+#: includes/settings/settings-header.php:269
+#: includes/settings/settings-header.php:330
+#: includes/settings/settings-header.php:473
+msgid "Typography"
+msgstr "排版樣式"
+
+#: includes/settings/settings-footer.php:250
+#: includes/settings/settings-footer.php:305
+#: includes/settings/settings-footer.php:440
+#: includes/settings/settings-header.php:253
+#: includes/settings/settings-header.php:315
+msgid "Text Color"
+msgstr "文字色彩"
+
+#: includes/settings/settings-footer.php:221
+#: includes/settings/settings-header.php:224
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "前往 [<a href=\"%s\">網站識別</a>] 管理這個網站的標誌。"
+
+#: includes/settings/settings-footer.php:220
+#: includes/settings/settings-header.php:223
+msgid "Logo Width"
+msgstr "標誌寬度"
+
+#: includes/settings/settings-footer.php:210
+#: includes/settings/settings-header.php:213
+msgid "Title"
+msgstr "標題"
+
+#: includes/settings/settings-footer.php:209
+#: includes/settings/settings-header.php:212
+msgid "Logo"
+msgstr "標誌"
+
+#: includes/settings/settings-footer.php:205
+#: includes/settings/settings-header.php:208
+msgid "Type"
+msgstr "類型"
+
+#: includes/settings/settings-footer.php:183
+#: includes/settings/settings-header.php:179
+msgid "Background"
+msgstr "背景"
+
+#: includes/settings/settings-footer.php:155
+#: includes/settings/settings-header.php:141
+msgid "Gap"
+msgstr "間距"
+
+#: includes/settings/settings-footer.php:127
+#: includes/settings/settings-header.php:113
+msgid "Content Width"
+msgstr "內容寬度"
+
+#: includes/settings/settings-footer.php:116
+#: includes/settings/settings-header.php:102
+msgid "Full Width"
+msgstr "全幅寬度"
+
+#: includes/settings/settings-footer.php:115
+#: includes/settings/settings-header.php:101
+msgid "Boxed"
+msgstr "區塊式"
+
+#: includes/settings/settings-footer.php:113
+#: includes/settings/settings-header.php:99
+msgid "Width"
+msgstr "寬度"
+
+#: includes/settings/settings-footer.php:102
+#: includes/settings/settings-header.php:88
+msgid "Centered"
+msgstr "置中"
+
+#: includes/settings/settings-footer.php:101
+#: includes/settings/settings-header.php:87
+msgid "Inverted"
+msgstr "反向"
+
+#: includes/settings/settings-footer.php:100
+#: includes/settings/settings-header.php:86
+msgid "Default"
+msgstr "預設"
+
+#: includes/settings/settings-footer.php:98
+#: includes/settings/settings-header.php:84
+msgid "Layout"
+msgstr "版面配置"
+
+#: includes/settings/settings-footer.php:86
+#: includes/settings/settings-footer.php:415
+msgid "Copyright"
+msgstr "著作權內容文字"
+
+#: includes/settings/settings-footer.php:74
+#: includes/settings/settings-footer.php:343
+#: includes/settings/settings-footer.php:371
+#: includes/settings/settings-header.php:73
+#: includes/settings/settings-header.php:353
+#: includes/settings/settings-header.php:388
+msgid "Menu"
+msgstr "選單"
+
+#: includes/settings/settings-footer.php:62
+#: includes/settings/settings-footer.php:295
+#: includes/settings/settings-header.php:62
+#: includes/settings/settings-header.php:298
+msgid "Tagline"
+msgstr "網站說明"
+
+#: includes/settings/settings-footer.php:53
+#: includes/settings/settings-footer.php:65
+#: includes/settings/settings-footer.php:77
+#: includes/settings/settings-footer.php:89
+#: includes/settings/settings-header.php:54
+#: includes/settings/settings-header.php:65
+#: includes/settings/settings-header.php:76
+msgid "Hide"
+msgstr "隱藏"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:75
+msgid "Show"
+msgstr "顯示"
+
+#: includes/settings/settings-footer.php:50
+#: includes/settings/settings-footer.php:195
+#: includes/settings/settings-header.php:51
+#: includes/settings/settings-header.php:191
+msgid "Site Logo"
+msgstr "網站標誌"
+
+#: includes/elementor-functions.php:208
+msgid "Use this experiment to design header and footer using Elementor Site Settings. <a href=\"%s\" target=\"_blank\">Learn More</a>"
+msgstr "使用 Elementor [網站設定] 這項實驗性功能設計頁首及頁尾。<a href=\"%s\" target=\"_blank\">進一步了解</a>"
+
+#: includes/elementor-functions.php:207
+msgid "Hello Theme Header & Footer"
+msgstr "Hello 佈景主題的頁首及頁尾"
+
+#: includes/customizer/elementor-upsell.php:84
+msgid "Start Here"
+msgstr "點擊這裡以開始"
+
+#: includes/customizer/elementor-upsell.php:82
+msgid "Create cross-site Header and Footer using Elementor & Hello theme"
+msgstr "使用 Elementor 及 Hello 佈景主題建立跨網站頁首及頁尾"
+
+#: includes/customizer/elementor-upsell.php:81
+msgid "Set Your Header &amp; Footer"
+msgstr "設定網站的頁首及頁尾"
+
+#: includes/customizer/elementor-upsell.php:74
+msgid "You need Elementor version 3.1.0 or above to create a cross-site Header and Footer."
+msgstr "這個佈景主題需要 Elementor version 3.1.0 或更新版本以建立跨網站頁首及頁尾。"
+
+#: includes/customizer/elementor-upsell.php:73
+#: includes/customizer/elementor-upsell.php:76
+msgid "Update Elementor"
+msgstr "更新 Elementor"
+
+#: includes/customizer/elementor-upsell.php:60
+msgid "Install &amp; Activate"
+msgstr "安裝並啟用"
+
+#: includes/customizer/elementor-upsell.php:49
+#: includes/customizer/elementor-upsell.php:66
+msgid "Create a cross-site Header and Footer using Elementor & Hello theme"
+msgstr "使用 Elementor 及 Hello 佈景主題建立跨網站頁首及頁尾"
+
+#: includes/customizer-functions.php:19
+msgid "Header &amp; Footer"
+msgstr "頁首及頁尾"
+
+#: includes/admin-functions.php:136
+msgid "Get Elementor"
+msgstr "取得 Elementor"
+
+#: functions.php:37 includes/settings/settings-footer.php:21
+#: includes/settings/settings-footer.php:42
+msgid "Footer"
+msgstr "頁尾"
+
+#: functions.php:36 includes/settings/settings-header.php:23
+#: includes/settings/settings-header.php:43
+msgid "Header"
+msgstr "頁首"
+
+#: includes/admin-functions.php:47
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "Hello Elementor 佈景主題是一款輕量化入門佈景主題，建議與 Elementor 頁面編輯器外掛搭配使用，相得益彰。"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "感謝安裝 Hello Elementor 佈景主題！"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:48
+msgid "Install Elementor"
+msgstr "安裝 Elementor"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:65
+#: includes/customizer/elementor-upsell.php:68
+msgid "Activate Elementor"
+msgstr "啟用 Elementor"
+
+#: includes/admin-functions.php:142
+msgid "Learn more about Elementor"
+msgstr "進一步了解 Elementor"
+
+#: includes/admin-functions.php:38
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "Hello Elementor 佈景主題是一款輕量化入門佈景主題，專為搭配 Elementor 頁面編輯器而設計。"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s 則留言"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "1 則留言"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "較新 %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s 較舊"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "目前找不到符合條件的項目。"
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "搜尋結果: "
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:31
+msgid "Home"
+msgstr "首頁"
+
+#: template-parts/single.php:26
+msgid "Tagged "
+msgstr "標籤: "
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "在這裡找不到符合條件的項目。"
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "很抱歉，找不到符合條件的頁面。"
+
+#. Author URI of the theme
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr "Elementor Team"

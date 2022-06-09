@@ -1,0 +1,575 @@
+# Translation of Plugins - Direct Checkout for WooCommerce - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Direct Checkout for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-31 21:56:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Direct Checkout for WooCommerce - Stable (latest release)\n"
+
+#. Plugin URI of the plugin
+msgid "https://quadlayers.com/documentation/woocommerce-direct-checkout/"
+msgstr "https://quadlayers.com/documentation/woocommerce-direct-checkout/"
+
+#: includes/controller/general.php:102 includes/controller/general.php:103
+msgid "Replace cart url"
+msgstr "Sostituisci l'URL del carrello"
+
+#: includes/controller/general.php:115 includes/controller/general.php:116
+msgid "Replace cart url with custom url"
+msgstr "Sostituisci l'URL del carrello con l'URL personalizzato"
+
+#: includes/controller/products.php:102
+msgid "Default"
+msgstr "Predefinito"
+
+#: includes/controller/products.php:97
+msgid "Select the WooCommerce button type."
+msgstr "Seleziona il tipo di pulsante WooCommerce."
+
+#: includes/controller/products.php:103
+msgid "Alternative"
+msgstr "Alternativo"
+
+#: includes/controller/products.php:96
+msgid "Add quick purchase button type"
+msgstr "Aggiungi il tipo di pulsante \"Acquisto veloce\""
+
+#: includes/controller/products.php:54 includes/controller/products.php:198
+msgid "Display alert when product is added to the cart."
+msgstr "Visualizza avviso quando il prodotto viene aggiunto al carrello."
+
+#: includes/suggestions.php:130
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "Preferiti"
+
+#: includes/suggestions.php:129
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "Raccomandati"
+
+#: includes/suggestions.php:128
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "Popolari"
+
+#: includes/suggestions.php:127
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "In evidenza"
+
+#: includes/suggestions.php:125
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Beta test"
+
+#: includes/suggestions.php:122
+msgid "Search Results"
+msgstr "Risultati di ricerca"
+
+#: includes/controller/suggestions.php:31
+#: includes/controller/suggestions.php:58
+#: includes/view/backend/pages/parts/header.php:3
+msgid "Suggestions"
+msgstr "Suggerimenti"
+
+#: includes/view/backend/pages/parts/header.php:5
+msgid "Thanks for using our product! We recommend these extensions that will add new features to stand out your business and improve your sales."
+msgstr "Grazie per aver utilizzato il nostro prodotto! Consigliamo queste estensioni che aggiungeranno nuove funzionalità per far risaltare la tua attività e migliorare le tue vendite."
+
+#: includes/controller/products.php:42 includes/controller/products.php:186
+msgid "Add products to cart via ajax."
+msgstr "Aggiungi prodotti al carrello tramite Ajax."
+
+#: includes/controller/products.php:41 includes/controller/products.php:185
+msgid "Add ajax add to cart"
+msgstr "Aggiunta al carrello via AJAX."
+
+#: includes/controller/products.php:322
+#: includes/view/backend/pages/parts/header.php:9
+#: includes/view/backend/pages/parts/tabs.php:3
+msgid "Documentation"
+msgstr "Documentazione"
+
+#. Plugin Name of the plugin
+msgid "Direct Checkout for WooCommerce"
+msgstr "Direct Checkout for WooCommerce"
+
+#: includes/notices.php:50
+msgid "Yes, of course!"
+msgstr "Sì, naturalmente!"
+
+#: includes/notices.php:45
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr "Ciao! Grazie per aver scelto il plugin %s!"
+
+#: includes/notices.php:47
+msgid "Could you please give it a 5-star rating on WordPress? We know its a big favor, but we've worked very much and very hard to release this great product. Your feedback will boost our motivation and help us promote and continue to improve this product."
+msgstr "Potresti per favore dargli una valutazione a 5 stelle su WordPress? Sappiamo che è un grande favore, ma abbiamo lavorato molto e molto duramente per rilasciare questo fantastico prodotto. Il tuo feedback aumenterà la nostra motivazione e ci aiuterà a promuovere e continuare a migliorare questo prodotto."
+
+#: includes/view/backend/pages/premium.php:66
+msgid "The Quick purchase button allows you to include a direct button in the single products, variable, grouped and virtual products wich redirects user to the checkout page."
+msgstr "Il pulsante Acquisto rapido ti consente di includere un pulsante diretto nei prodotti singoli, variabili, raggruppati e virtuali, che reindirizza l'utente alla pagina di pagamento."
+
+#: includes/controller/checkout.php:105
+msgid "Phone"
+msgstr "Telefono"
+
+#: includes/controller/checkout.php:104
+msgid "Company"
+msgstr "Società"
+
+#: includes/controller/checkout.php:103
+msgid "Address 2"
+msgstr "Indirizzo 2"
+
+#: includes/controller/checkout.php:102
+msgid "Address 1"
+msgstr "Indirizzo 1"
+
+#: includes/controller/checkout.php:101
+msgid "Postcode"
+msgstr "CAP"
+
+#: includes/controller/checkout.php:100
+msgid "City"
+msgstr "Città"
+
+#: includes/controller/checkout.php:99
+msgid "State"
+msgstr "Stato"
+
+#: includes/controller/checkout.php:97
+msgid "Last Name"
+msgstr "Cognome"
+
+#: includes/controller/checkout.php:96
+msgid "First Name"
+msgstr "Nome"
+
+#: includes/controller/checkout.php:76
+msgid "Remove coupon form"
+msgstr "Rimuovi il modulo relativo al coupon"
+
+#: includes/controller/archives.php:59
+msgid "Downloadable Products"
+msgstr "Prodotti scaricabili"
+
+#: includes/controller/archives.php:58
+msgid "Variable Products"
+msgstr "Prodotti variabili"
+
+#: includes/controller/archives.php:56
+msgid "Grouped Products"
+msgstr "Prodotti raggruppati"
+
+#: includes/controller/archives.php:55
+msgid "Simple Products"
+msgstr "Prodotti semplici"
+
+#: includes/controller/archives.php:24 includes/controller/archives.php:32
+#: includes/view/frontend/archives.php:21
+msgid "Archives"
+msgstr "Archivi"
+
+#: includes/view/backend/pages/premium.php:12
+msgid "Get Support"
+msgstr "Ottieni supporto"
+
+#: includes/controller/premium.php:21 includes/controller/premium.php:34
+#: includes/notices.php:84 includes/view/backend/pages/premium.php:6
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/controller/archives.php:68 includes/controller/products.php:81
+#: includes/view/backend/pages/parts/header.php:8
+msgid "Purchase"
+msgstr "Acquista"
+
+#: includes/controller/products.php:28 includes/controller/products.php:36
+msgid "Products"
+msgstr "Prodotti"
+
+#: includes/view/frontend/general.php:47
+msgid "View cart"
+msgstr "Visualizza carrello"
+
+#: includes/controller/general.php:30 includes/controller/general.php:39
+msgid "General"
+msgstr "Generali"
+
+#. Author of the plugin
+#: includes/quadlayers/widget.php:77
+#: includes/view/backend/pages/parts/header.php:25
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#: includes/notices.php:85
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/controller/archives.php:44 includes/controller/archives.php:78
+#: includes/controller/checkout.php:44 includes/controller/checkout.php:121
+#: includes/controller/checkout.php:133 includes/controller/checkout.php:145
+#: includes/controller/checkout.php:157 includes/controller/checkout.php:169
+#: includes/controller/checkout.php:181 includes/controller/checkout.php:193
+#: includes/controller/general.php:52 includes/controller/general.php:64
+#: includes/controller/general.php:75 includes/controller/general.php:108
+#: includes/controller/products.php:48 includes/controller/products.php:60
+#: includes/controller/products.php:72 includes/controller/products.php:91
+#: includes/controller/products.php:141 includes/controller/products.php:192
+#: includes/controller/products.php:204 includes/controller/products.php:218
+#: includes/controller/products.php:242
+msgid "No"
+msgstr "No"
+
+#: includes/controller/archives.php:43 includes/controller/archives.php:77
+#: includes/controller/checkout.php:43 includes/controller/checkout.php:120
+#: includes/controller/checkout.php:132 includes/controller/checkout.php:144
+#: includes/controller/checkout.php:156 includes/controller/checkout.php:168
+#: includes/controller/checkout.php:180 includes/controller/checkout.php:192
+#: includes/controller/general.php:51 includes/controller/general.php:63
+#: includes/controller/general.php:77 includes/controller/products.php:47
+#: includes/controller/products.php:59 includes/controller/products.php:71
+#: includes/controller/products.php:90 includes/controller/products.php:140
+#: includes/controller/products.php:191 includes/controller/products.php:203
+#: includes/controller/products.php:217 includes/controller/products.php:241
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/notices.php:53
+msgid "Report a bug"
+msgstr "Segnala un bug"
+
+#: includes/controller/checkout.php:175
+msgid "Try to remove the columns and display the checkout form and order review in one column."
+msgstr "Prova a rimuovere le colonne e a visualizzare il modulo di pagamento e la revisione dell'ordine in una colonna."
+
+#: includes/controller/checkout.php:162
+msgid "Remove checkout gateway icons"
+msgstr "Rimuovi le icone del gateway di pagamento"
+
+#: includes/controller/checkout.php:151
+msgid "Simplifies the checkout process removing the terms and conditions."
+msgstr "Semplifica il processo di pagamento rimuovendo i termini e le condizioni."
+
+#: includes/controller/checkout.php:150
+msgid "Remove checkout terms and conditions"
+msgstr "Rimuovi i termini e le condizioni di pagamento"
+
+#: includes/controller/checkout.php:163
+msgid "Simplifies the checkout view by removing the payment gateway icons."
+msgstr "Semplifica la visualizzazione di pagamento rimuovendo le icone del gateway di pagamento."
+
+#: includes/controller/checkout.php:127
+msgid "Simplifies the checkout process removing the order notes."
+msgstr "Semplifica il processo di pagamento rimuovendo le note dell'ordine."
+
+#: includes/controller/checkout.php:126
+msgid "Remove checkout order comments"
+msgstr "Rimuovi i commenti sull'ordine di pagamento"
+
+#: includes/controller/checkout.php:115
+msgid "Simplifies the checkout process removing the shipping address."
+msgstr "Semplifica il processo di pagamento rimuovendo l'indirizzo di spedizione."
+
+#: includes/controller/checkout.php:114
+msgid "Remove checkout shipping address"
+msgstr "Rimuovi l'indirizzo di spedizione per il checkout"
+
+#: includes/controller/checkout.php:91
+msgid "Simplifies the checkout process removing the unnecessary checkout fields."
+msgstr "Semplifica il processo di pagamento rimuovendo i campi di pagamento non necessari."
+
+#: includes/controller/checkout.php:84
+msgid "Add a custom class to the cart table form in the checkot."
+msgstr "Aggiungi una classe personalizzata al modulo tabella carrello nel checkout."
+
+#: includes/controller/checkout.php:78
+msgid "Move to checkout order"
+msgstr "Passa all'ordine di pagamento"
+
+#: includes/controller/checkout.php:75
+msgid "Leave coupon form"
+msgstr "Lascia il modulo coupon"
+
+#: includes/controller/checkout.php:70
+msgid "Simplifies the checkout process removing the coupon form."
+msgstr "Semplifica il processo di pagamento rimuovendo il modulo coupon."
+
+#: includes/controller/checkout.php:59
+msgid "Quantity"
+msgstr "Quantità"
+
+#: includes/controller/checkout.php:58
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/controller/checkout.php:57
+msgid "Name"
+msgstr "Nome"
+
+#: includes/controller/checkout.php:56
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/controller/checkout.php:55
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: includes/controller/checkout.php:50
+msgid "Include this fields inside the checkout cart."
+msgstr "Includi questi campi nel carrello."
+
+#: includes/controller/checkout.php:49
+msgid "Add cart to checkout fields"
+msgstr "Aggiungi il carrello ai campi di pagamento"
+
+#: includes/controller/checkout.php:37
+msgid "Add cart to checkout"
+msgstr "Aggiungi carrello alla cassa"
+
+#: includes/controller/archives.php:72
+msgid "Add product quick view modal button."
+msgstr "Aggiungi pulsante modale visualizzazione rapida prodotto."
+
+#: includes/controller/archives.php:71
+msgid "Add quick view button"
+msgstr "Aggiungi pulsante di visualizzazione rapida"
+
+#: includes/controller/archives.php:57
+msgid "Virtual Products"
+msgstr "Prodotti virtuali"
+
+#: includes/controller/archives.php:50
+msgid "Replace \"Add to cart\" text in product types."
+msgstr "Sostituisci il testo \"Aggiungi al carrello\" nei tipi di prodotto."
+
+#: includes/view/backend/pages/premium.php:59
+msgid "This is especially useful for the variable products because it allows users to select the products attributes and include directly into the cart."
+msgstr "Ciò è particolarmente utile per i prodotti variabili perché consente agli utenti di selezionare gli attributi dei prodotti e includerli direttamente nel carrello."
+
+#: includes/view/backend/pages/premium.php:56
+msgid "This option allows you to include a button which displays a quick view in the WooCommerce shop page and products categories."
+msgstr "Questa opzione ti consente di includere un pulsante che visualizza una rapida visualizzazione nella pagina del negozio WooCommerce e nelle categorie di prodotti."
+
+#: includes/view/backend/pages/premium.php:54
+msgid "Quick view in product archives"
+msgstr "Vista rapida negli archivi del prodotto"
+
+#: includes/view/backend/pages/premium.php:50
+msgid "If you want to give the option to the user to make a direct purchase or the default add to cart product you can include a direct purchase button to the products page."
+msgstr "Se si desidera dare all'utente la possibilità di effettuare un acquisto diretto o il prodotto Aggiungi al carrello predefinito, è possibile includere un pulsante di acquisto diretto nella pagina dei prodotti."
+
+#: includes/view/backend/pages/premium.php:30
+msgid "This option allows you to simplify the checkout page by removing the two columns in the checkout page."
+msgstr "Questa opzione ti consente di semplificare la pagina di pagamento rimuovendo le due colonne nella pagina di pagamento."
+
+#: includes/controller/checkout.php:174
+#: includes/view/backend/pages/premium.php:28
+msgid "Remove checkout columns"
+msgstr "Rimuovi colonne di pagamento"
+
+#: includes/controller/general.php:58
+msgid "Replace \"View Cart\" link with direct checkout."
+msgstr "Sostituisci il link \"Visualizza carrello\" con il pagamento diretto."
+
+#: includes/controller/general.php:46
+msgid "Replace \"View Cart\" alert with direct checkout."
+msgstr "Sostituisci l'avviso \"Visualizza carrello\" con il pagamento diretto."
+
+#: includes/controller/general.php:41
+msgid "Simplifies the checkout process."
+msgstr "Semplifica il processo di pagamento."
+
+#. Description of the plugin
+msgid "Simplifies the checkout process to improve your sales rate."
+msgstr "Semplifica la procedura di pagamento per migliorare la tua percentuale di vendita."
+
+#: includes/controller/products.php:108 includes/controller/products.php:247
+msgid "Add quick purchase class"
+msgstr "Aggiungi una classe di acquisto rapido"
+
+#: includes/controller/products.php:85
+msgid "Add a quick purchase button to the products pages."
+msgstr "Aggiungi un pulsante di acquisto rapido alle pagine dei prodotti."
+
+#: includes/controller/products.php:84 includes/controller/products.php:234
+msgid "Add quick purchase button"
+msgstr "Aggiungi pulsante di acquisto rapido"
+
+#: includes/controller/archives.php:65 includes/controller/products.php:78
+#: includes/controller/products.php:225
+msgid "Replace \"Add to cart\" text with this text."
+msgstr "Sostituisci il testo \"Aggiungi al carrello\" con questo testo."
+
+#: includes/controller/general.php:90 includes/controller/general.php:110
+msgid "Custom URL"
+msgstr "URL personalizzato"
+
+#: includes/controller/checkout.php:24 includes/controller/checkout.php:32
+#: includes/controller/general.php:89 includes/controller/general.php:109
+#: includes/controller/products.php:122 includes/controller/products.php:272
+#: includes/view/frontend/general.php:34 includes/view/frontend/general.php:47
+msgid "Checkout"
+msgstr "Pagamento"
+
+#: includes/controller/general.php:88 includes/controller/products.php:121
+#: includes/controller/products.php:271
+msgid "Cart"
+msgstr "Carrello"
+
+#: includes/controller/general.php:83 includes/controller/general.php:96
+msgid "Redirect to the cart or checkout page after successful addition."
+msgstr "Reindirizzamento al carrello o alla pagina di pagamento dopo l'aggiunta corretta."
+
+#: includes/controller/general.php:69
+msgid "Added to cart redirect"
+msgstr "Aggiunto al reindirizzamento del carrello"
+
+#: includes/controller/backend.php:31 includes/controller/backend.php:36
+#: includes/controller/products.php:283
+msgid "Direct Checkout"
+msgstr "Pagamento diretto"
+
+#: includes/controller/products.php:267
+msgid "Redirect quick purchase to the cart or checkout page."
+msgstr "Reindirizza l'acquisto rapido al carrello o alla pagina di pagamento."
+
+#: includes/controller/products.php:258
+msgid "Add quick purchase custom text."
+msgstr "Aggiungi testo personalizzato per l'acquisto rapido."
+
+#: includes/controller/products.php:249
+msgid "Add quick purchase custom class."
+msgstr "Aggiungi classe personalizzata di acquisto rapido."
+
+#: includes/controller/products.php:236
+msgid "Add quick purchase button to single product page."
+msgstr "Aggiungi il pulsante di acquisto rapido alla pagina del singolo prodotto."
+
+#: includes/controller/products.php:134
+msgid "Add default attributes in variable products"
+msgstr "Aggiungi attributi predefiniti nei prodotti variabili"
+
+#: includes/controller/products.php:131 includes/controller/products.php:323
+#: includes/view/backend/pages/premium.php:11
+msgid "Purchase Now"
+msgstr "Acquista ora"
+
+#: includes/controller/products.php:128
+msgid "Add a custom text to the quick purchase button."
+msgstr "Aggiungi un testo personalizzato al pulsante di acquisto rapido."
+
+#: includes/controller/products.php:127 includes/controller/products.php:256
+msgid "Add quick purchase text"
+msgstr "Aggiungi testo di acquisto rapido"
+
+#: includes/controller/products.php:116
+msgid "Redirect the quick purchase button to the cart or checkout page."
+msgstr "Reindirizza il pulsante di acquisto rapido al carrello o alla pagina di pagamento."
+
+#: includes/controller/products.php:115 includes/controller/products.php:265
+msgid "Redirect quick purchase to"
+msgstr "Reindirizza acquisto rapido a"
+
+#: includes/controller/products.php:109
+msgid "Add a custom class to the quick purchase button."
+msgstr "Aggiungi una classe personalizzata al pulsante di acquisto rapido."
+
+#. Author URI of the plugin
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"
+
+#: includes/view/backend/pages/premium.php:18
+msgid "%s allows you to include the cart form in the checkout page allowing your users to edit the cart and confirm the order on the same page."
+msgstr "%s ti consente di includere il modulo del carrello nella pagina di pagamento consentendo agli utenti di modificare il carrello e confermare l'ordine nella stessa pagina."
+
+#: includes/controller/checkout.php:98
+msgid "Country"
+msgstr "Paese"
+
+#: includes/view/backend/pages/premium.php:64
+msgid "Quick purchase"
+msgstr "Acquisto rapido"
+
+#: includes/view/backend/pages/premium.php:48
+msgid "Quick purchase on single products"
+msgstr "Acquisto rapido per prodotti singoli"
+
+#: includes/controller/checkout.php:38
+msgid "Simplifies the checkout process including the shopping cart page inside checkout."
+msgstr "Semplifica il processo di pagamento, includendo la pagina del carrello all'interno del riepilogo ordine."
+
+#: includes/controller/checkout.php:69
+msgid "Remove checkout coupon form"
+msgstr "Rimuovere il modulo coupon di pagamento"
+
+#: includes/controller/general.php:57
+msgid "Added to cart link"
+msgstr "Aggiunto al link del carrello"
+
+#: includes/controller/general.php:45
+msgid "Added to cart alert"
+msgstr "Aggiunto alla alert del carrello"
+
+#: includes/controller/checkout.php:90
+#: includes/view/backend/pages/premium.php:22
+msgid "Remove checkout fields"
+msgstr "Rimuovere i campi del pagamento"
+
+#: includes/controller/checkout.php:139
+msgid "Simplifies the checkout process removing the policy text."
+msgstr "Semplificare il processo di pagamento rimuovendo il testo della politica."
+
+#: includes/controller/archives.php:64 includes/controller/products.php:77
+#: includes/controller/products.php:223
+msgid "Replace Add to cart text content"
+msgstr "Sostituire Aggiungi al carrello contenuto del testo"
+
+#: includes/controller/archives.php:37 includes/controller/archives.php:38
+#: includes/controller/products.php:65 includes/controller/products.php:66
+#: includes/controller/products.php:211 includes/controller/products.php:213
+msgid "Replace Add to cart text"
+msgstr "Sostituire Aggiungi al carrello testo"
+
+#: includes/controller/general.php:70
+msgid "Add to cart button behaviour."
+msgstr "Aggiungere al carrello il comportamento dei pulsanti."
+
+#: includes/view/backend/pages/premium.php:42
+msgid "Checkout redirect"
+msgstr "Reindirizzare al pagamento"
+
+#: includes/controller/checkout.php:187
+msgid "Remove the billing address of the customer in the order received page."
+msgstr "Rimuovi l'indirizzo di fatturazione del cliente nella pagina dell'ordine."
+
+#: includes/controller/checkout.php:138
+msgid "Remove checkout policy text"
+msgstr "Rimuovi il testo della politica di pagamento"
+
+#: includes/controller/checkout.php:83
+msgid "Add custom class to cart table"
+msgstr "Aggiungi una categoria personalizzata al carrello"
+
+#: includes/controller/archives.php:49
+msgid "Replace Add to cart text in"
+msgstr "Sostituire il testo Aggiungi al carrello"
+
+#: includes/controller/general.php:95
+msgid "Added to cart redirect to custom url"
+msgstr "Aggiunto al carrello reindirizza all'URL personalizzato"
+
+#: includes/controller/products.php:135
+msgid "Add default attributes in all variable products to avoid disabled Add to cart button."
+msgstr "Aggiungi gli attributi predefiniti su tutti i prodotti per evitare la disabilitazione del pulsante \"Aggiungi al carrello\"."
+
+#: includes/controller/checkout.php:77
+msgid "Remove coupon toggle"
+msgstr "Rimuovi l'attivazione/disattivazione del coupon"

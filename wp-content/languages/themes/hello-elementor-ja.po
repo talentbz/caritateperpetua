@@ -1,0 +1,416 @@
+# Translation of Themes - Hello Elementor in Japanese
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-06 12:56:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "Elementor ページビルダー用のプレーンで軽いテーマ。"
+
+#: template-parts/header.php:20
+msgid "Skip to content"
+msgstr "コンテンツにスキップ"
+
+#: includes/settings/settings-header.php:525
+msgid "Create Header"
+msgstr "ヘッダー作成"
+
+#: includes/settings/settings-header.php:523
+msgid "Create a custom header with the new Theme Builder"
+msgstr "新しいテーマビルダーを使ってカスタムヘッダーを作る"
+
+#: includes/settings/settings-header.php:507
+msgid "Create a custom header with multiple options"
+msgstr "複数のオプションをもったカスタムヘッダーを作る"
+
+#: includes/settings/settings-header.php:458
+msgid "Toggle Color"
+msgstr "トグルの色"
+
+#: includes/settings/settings-header.php:432
+msgid "None"
+msgstr "なし"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:431
+msgid "Tablet (< %dpx)"
+msgstr "タブレット ( %d px より小さい)"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:429
+msgid "Mobile (< %dpx)"
+msgstr "モバイル ( %d px より小さい)"
+
+#: includes/settings/settings-header.php:424
+msgid "Breakpoint"
+msgstr "分岐点"
+
+#: includes/settings/settings-header.php:413
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: includes/settings/settings-header.php:412
+msgid "Horizontal"
+msgstr "水平"
+
+#: includes/settings/settings-header.php:408
+msgid "Menu Layout"
+msgstr "メニューのレイアウト"
+
+#: includes/settings/settings-footer.php:506
+msgid "Create Footer"
+msgstr "フッターを作る"
+
+#: includes/settings/settings-footer.php:505
+#: includes/settings/settings-header.php:524
+msgid "With the new Theme Builder you can jump directly into each part of your site"
+msgstr "新しいテーマビルダーを使うと、サイトの各部分に直接アクセスできます。"
+
+#: includes/settings/settings-footer.php:504
+msgid "Create a custom footer with the new Theme Builder"
+msgstr "新しいテーマビルダーでカスタムフッターを作成"
+
+#: includes/settings/settings-footer.php:490
+#: includes/settings/settings-header.php:509
+msgid "Go Pro"
+msgstr "プロに移行"
+
+#: includes/settings/settings-footer.php:489
+#: includes/settings/settings-header.php:508
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "Elementor Pro にアップグレードすると、自由なデザインと多くの機能を利用できます。"
+
+#: includes/settings/settings-footer.php:488
+msgid "Create a custom footer with multiple options"
+msgstr "複数のオプションを持つカスタムフッターを作成"
+
+#: includes/settings/settings-footer.php:391
+#: includes/settings/settings-header.php:444
+msgid "Color"
+msgstr "色"
+
+#: includes/settings/settings-footer.php:383
+#: includes/settings/settings-header.php:400
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "変更がプレビューに反映されるのは、ページが更新された後です。"
+
+#: includes/settings/settings-footer.php:375
+#: includes/settings/settings-header.php:392
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "<a href=\"%s\" target=\"_blank\">メニュー画面</a> に移動して、メニューを管理します。"
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "<a href=\"%s\" target=\"_blank\">メニュー画面</a> に移動して作成してください。"
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "There are no menus in your site."
+msgstr "あなたのサイトにはメニューがありません。"
+
+#: includes/settings/settings-footer.php:352
+#: includes/settings/settings-header.php:369
+msgid "— Select a Menu —"
+msgstr "— メニューを選択 —"
+
+#: includes/settings/settings-footer.php:280
+#: includes/settings/settings-footer.php:332
+#: includes/settings/settings-header.php:270
+#: includes/settings/settings-header.php:283
+#: includes/settings/settings-header.php:342
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title and tagline"
+msgstr "サイトのタイトルとキャッチフレーズを管理するには <a href=\"%s\">サイトアイデンティティ</a> にアクセスします。"
+
+#: includes/settings/settings-footer.php:250
+#: includes/settings/settings-footer.php:305
+#: includes/settings/settings-footer.php:440
+#: includes/settings/settings-header.php:253
+#: includes/settings/settings-header.php:315
+msgid "Text Color"
+msgstr "テキスト色"
+
+#: includes/settings/settings-footer.php:221
+#: includes/settings/settings-header.php:224
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "<a href=\"%s\">サイトアイデンティティ</a> に移動してサイトのロゴを管理します"
+
+#: includes/settings/settings-footer.php:220
+#: includes/settings/settings-header.php:223
+msgid "Logo Width"
+msgstr "ロゴの幅"
+
+#: includes/settings/settings-footer.php:210
+#: includes/settings/settings-header.php:213
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/settings/settings-footer.php:209
+#: includes/settings/settings-header.php:212
+msgid "Logo"
+msgstr "ロゴ"
+
+#: includes/settings/settings-footer.php:205
+#: includes/settings/settings-header.php:208
+msgid "Type"
+msgstr "形式"
+
+#: includes/settings/settings-footer.php:183
+#: includes/settings/settings-header.php:179
+msgid "Background"
+msgstr "背景"
+
+#: includes/settings/settings-footer.php:155
+#: includes/settings/settings-header.php:141
+msgid "Gap"
+msgstr "間隔"
+
+#: includes/settings/settings-footer.php:127
+#: includes/settings/settings-header.php:113
+msgid "Content Width"
+msgstr "コンテンツ幅"
+
+#: includes/settings/settings-footer.php:116
+#: includes/settings/settings-header.php:102
+msgid "Full Width"
+msgstr "全幅"
+
+#: includes/settings/settings-footer.php:115
+#: includes/settings/settings-header.php:101
+msgid "Boxed"
+msgstr "ボックスの"
+
+#: includes/settings/settings-footer.php:113
+#: includes/settings/settings-header.php:99
+msgid "Width"
+msgstr "横幅"
+
+#: includes/settings/settings-footer.php:102
+#: includes/settings/settings-header.php:88
+msgid "Centered"
+msgstr "中央の"
+
+#: includes/settings/settings-footer.php:101
+#: includes/settings/settings-header.php:87
+msgid "Inverted"
+msgstr "反転した"
+
+#: includes/settings/settings-footer.php:100
+#: includes/settings/settings-header.php:86
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/settings/settings-footer.php:98
+#: includes/settings/settings-header.php:84
+msgid "Layout"
+msgstr "レイアウト"
+
+#: includes/settings/settings-footer.php:86
+#: includes/settings/settings-footer.php:415
+msgid "Copyright"
+msgstr "著作権"
+
+#: includes/settings/settings-footer.php:74
+#: includes/settings/settings-footer.php:343
+#: includes/settings/settings-footer.php:371
+#: includes/settings/settings-header.php:73
+#: includes/settings/settings-header.php:353
+#: includes/settings/settings-header.php:388
+msgid "Menu"
+msgstr "メニュー"
+
+#: includes/settings/settings-footer.php:62
+#: includes/settings/settings-footer.php:295
+#: includes/settings/settings-header.php:62
+#: includes/settings/settings-header.php:298
+msgid "Tagline"
+msgstr "キャッチフレーズ"
+
+#: includes/settings/settings-footer.php:53
+#: includes/settings/settings-footer.php:65
+#: includes/settings/settings-footer.php:77
+#: includes/settings/settings-footer.php:89
+#: includes/settings/settings-header.php:54
+#: includes/settings/settings-header.php:65
+#: includes/settings/settings-header.php:76
+msgid "Hide"
+msgstr "非表示"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:75
+msgid "Show"
+msgstr "表示"
+
+#: includes/settings/settings-footer.php:50
+#: includes/settings/settings-footer.php:195
+#: includes/settings/settings-header.php:51
+#: includes/settings/settings-header.php:191
+msgid "Site Logo"
+msgstr "サイトのロゴ"
+
+#: includes/elementor-functions.php:207
+msgid "Hello Theme Header & Footer"
+msgstr "Hello テーマヘッダーとフッター"
+
+#: includes/customizer/elementor-upsell.php:82
+msgid "Create cross-site Header and Footer using Elementor & Hello theme"
+msgstr "Elementor と Hello テーマを使ってクロスサイトのヘッダーとフッターを作る"
+
+#: includes/customizer/elementor-upsell.php:81
+msgid "Set Your Header &amp; Footer"
+msgstr "ヘッダーとフッターを設定"
+
+#: includes/customizer/elementor-upsell.php:84
+msgid "Start Here"
+msgstr "ここからスタート"
+
+#: includes/settings/settings-footer.php:433
+msgid "All rights reserved"
+msgstr "All rights reserved"
+
+#: includes/settings/settings-footer.php:266
+#: includes/settings/settings-footer.php:320
+#: includes/settings/settings-footer.php:403
+#: includes/settings/settings-footer.php:455
+#: includes/settings/settings-header.php:269
+#: includes/settings/settings-header.php:330
+#: includes/settings/settings-header.php:473
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: includes/elementor-functions.php:208
+msgid "Use this experiment to design header and footer using Elementor Site Settings. <a href=\"%s\" target=\"_blank\">Learn More</a>"
+msgstr "Elementor Site Settings を使用してヘッダーとフッターをデザインするには、この試みを使用してください。<a href=\"%s\" target=\"_blank\">詳しく知る</a>"
+
+#: includes/customizer/elementor-upsell.php:60
+msgid "Install &amp; Activate"
+msgstr "インストールして有効化"
+
+#: functions.php:37 includes/settings/settings-footer.php:21
+#: includes/settings/settings-footer.php:42
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:36 includes/settings/settings-header.php:23
+#: includes/settings/settings-header.php:43
+msgid "Header"
+msgstr "ヘッダー"
+
+#: includes/customizer/elementor-upsell.php:73
+#: includes/customizer/elementor-upsell.php:76
+msgid "Update Elementor"
+msgstr "Elementor を更新"
+
+#: includes/customizer-functions.php:19
+msgid "Header &amp; Footer"
+msgstr "ヘッダー & フッター"
+
+#: includes/admin-functions.php:47
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "Hello テーマは軽量なスターターテーマです。完全連携している Elementor ページビルダープラグインと一緒にお使いいただくのをおすすめします。"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:48
+msgid "Install Elementor"
+msgstr "Elementor をインストール"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "Hello Theme をインストールしていただき、ありがとうございます。"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:65
+#: includes/customizer/elementor-upsell.php:68
+msgid "Activate Elementor"
+msgstr "Elementor を有効化"
+
+#: includes/admin-functions.php:142
+msgid "Learn more about Elementor"
+msgstr "Elementor についてさらに詳しく"
+
+#: includes/admin-functions.php:38
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "Hello テーマは、Elementor ページビルダープラグインと完全連携するように設計された軽量なスターターテーマです。"
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s件のフィードバック"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "1件のフィードバック"
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "検索結果:"
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:31
+msgid "Home"
+msgstr "ホーム"
+
+#: template-parts/single.php:26
+msgid "Tagged "
+msgstr "タグ:"
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "ここには何も見つかりませんでした。"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "お探しのものが見つかりません。"
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "ページが見つかりません。"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "新 %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s 旧"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "Elementor Team"

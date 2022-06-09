@@ -1,0 +1,4761 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-02 06:39:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/general/settings_inc.guest.tpl.php:35
+#: tpl/general/settings_inc.guest.tpl.php:38
+msgid "Guest Mode failed to test."
+msgstr "Gästläge kunde inte testas."
+
+#: tpl/general/settings_inc.guest.tpl.php:32
+msgid "Guest Mode passed testing."
+msgstr "Gästläge klarade av testning."
+
+#: tpl/general/settings_inc.guest.tpl.php:25
+msgid "Testing"
+msgstr "Testning"
+
+#: tpl/general/settings_inc.guest.tpl.php:24
+msgid "Guest Mode testing result"
+msgstr "Resultat för testning av gästläge"
+
+#: tpl/crawler/blacklist.tpl.php:55
+msgid "Not blocklisted"
+msgstr "Inte blockeringslistad"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:19
+msgid "Learn more about when this is needed"
+msgstr "Läs mer om när detta behövs"
+
+#: src/purge.cls.php:317
+msgid "Cleaned all localized resource entries."
+msgstr "Rensade alla lokaliserade resursinlägg."
+
+#: src/lang.cls.php:112
+msgid "UCSS Allowlist"
+msgstr "UCSS Tillåtelselista"
+
+#: tpl/dash/dashboard.tpl.php:563
+msgid "<b>Last crawled:</b> %d item(s)"
+msgstr "<b>Senast genomsökt:</b> %d objekt"
+
+#: tpl/toolbox/entry.tpl.php:14
+msgid "View .htaccess"
+msgstr "Visa .htaccess"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:56 tpl/toolbox/edit_htaccess.tpl.php:73
+msgid "You can use this code %1$s in %2$s to specify the htaccess file path."
+msgstr "Du kan använda denna kod %1$s i %2$s för att ange sökvägen till .htaccess-filen."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:55 tpl/toolbox/edit_htaccess.tpl.php:72
+msgid "PHP Constant %s is supported."
+msgstr "PHP-konstanten %s stöds."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:52 tpl/toolbox/edit_htaccess.tpl.php:69
+msgid "Default path is"
+msgstr "Standardsökväg är"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:41
+msgid ".htaccess Path"
+msgstr ".htaccess-sökväg"
+
+#: tpl/general/settings.tpl.php:151
+msgid "Please read all warnings before enabling this option."
+msgstr "Läs alla varningar innan detta alternativ aktiveras."
+
+#: tpl/toolbox/purge.tpl.php:80
+msgid "This will delete all generated unique CSS files"
+msgstr "Detta kommer ta bort alla genererade unika CSS-filer"
+
+#: tpl/toolbox/beta_test.tpl.php:53
+msgid "Use latest GitHub Dev/Master commit"
+msgstr "Använd senaste GitHub-commit till Dev-/huvudgrenen"
+
+#: tpl/toolbox/beta_test.tpl.php:49
+msgid "Downgrade not recommended. May cause fatal error due to refactored code."
+msgstr "Nedgradering rekommenderas inte. Kan orsaka allvarliga fel på grund av omstrukturerad kod."
+
+#: tpl/page_optm/settings_tuning.tpl.php:182
+msgid "Listed JS files or inline JS code will not be optimized by %s."
+msgstr "Listade JS-filer eller infogad JS-kod kommer inte optimeras av %s."
+
+#: tpl/page_optm/settings_tuning.tpl.php:97
+msgid "Listed URI will not generate UCSS."
+msgstr "Listad URI kommer inte generera UCSS."
+
+#: tpl/page_optm/settings_tuning.tpl.php:79
+msgid "The selector must exist in the CSS. Parent classes in the HTML will not work."
+msgstr "Klassen (selector) måste finnas i CSS:en. Överordnade klasser i HTML kommer inte fungera."
+
+#: tpl/page_optm/settings_tuning.tpl.php:75
+msgid "Wildcard %s supported."
+msgstr "Jockertecken %s stöds."
+
+#: tpl/page_optm/settings_media.tpl.php:229
+msgid "Note: this option only works when %1$s is %2$s."
+msgstr "Obs: detta alternativ fungerar endast när %1$s är %2$s."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Delayed"
+msgstr "Försenad"
+
+#: tpl/page_optm/settings_css.tpl.php:182
+msgid "This option is bypassed due to %s option."
+msgstr "Detta alternativ förbigås på grund av alternativet %s."
+
+#: tpl/page_optm/settings_css.tpl.php:177
+msgid "Elements with attribute %s in HTML code will be excluded."
+msgstr "Element med attributet %s i HTML-kod kommer att exkluderas."
+
+#: tpl/page_optm/settings_css.tpl.php:136
+msgid "This option will automatically bypass %s option."
+msgstr "Detta alternativ kommer automatiskt förbigå alternativet %s."
+
+#: tpl/page_optm/settings_css.tpl.php:118
+#: tpl/page_optm/settings_css.tpl.php:228
+msgid "Run %s Queue Manually"
+msgstr "Kör %s kö manuellt"
+
+#: tpl/page_optm/settings_css.tpl.php:72
+msgid "This option is bypassed because %1$s option is %2$s."
+msgstr "Detta alternativ förbigås på grund av att alternativet %1$s är %2$s."
+
+#: tpl/page_optm/settings_css.tpl.php:67
+msgid "Automatic generation of unique CSS is in the background via a cron-based queue."
+msgstr "Automatiskt generering av unik CSS i bakgrunden via en cron-baserad kö."
+
+#: tpl/page_optm/entry.tpl.php:8 tpl/page_optm/settings_html.tpl.php:7
+msgid "HTML Settings"
+msgstr "HTML-inställningar"
+
+#: tpl/inc/in_upgrading.php:5
+msgid "LiteSpeed cache plugin upgraded. Please refresh the page to complete the configuration data upgrade."
+msgstr "”LiteSpeed cache”-tillägget har uppgraderats. Uppdatera sidan för att slutföra uppgraderingen av konfigurationsdata."
+
+#: tpl/general/settings_tuning.tpl.php:50
+msgid "Listed IPs will be considered as Guest Mode visitors."
+msgstr "Listade IP:n kommer att betraktas som gästlägesbesökare."
+
+#: tpl/general/settings_tuning.tpl.php:28
+msgid "Listed User Agents will be considered as Guest Mode visitors."
+msgstr "Listade användaragenter kommer att betraktas som gästlägesbesökare."
+
+#: tpl/general/settings.tpl.php:208
+msgid "Please make sure this IP is the correct one for visiting your site."
+msgstr "Se till att detta är rätta IP:t för att besöka din webbplats."
+
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:190
+msgid "You need to turn %s on to get maximum result."
+msgstr "Du måste slå på %s för att få bästa resultat."
+
+#: tpl/general/settings.tpl.php:172
+msgid "This option only works when turning %s on."
+msgstr "Detta alternativ fungerar endast när %s är på."
+
+#: tpl/dash/dashboard.tpl.php:300 tpl/dash/dashboard.tpl.php:389
+#: tpl/dash/dashboard.tpl.php:432 tpl/dash/dashboard.tpl.php:465
+#: tpl/dash/dashboard.tpl.php:498 tpl/dash/dashboard.tpl.php:530
+msgid "More"
+msgstr "Visa mer"
+
+#: tpl/dash/dashboard.tpl.php:160
+msgid "Remaining Daily Quota"
+msgstr "Kvarstående daglig kvot"
+
+#: tpl/crawler/summary.tpl.php:183
+msgid "Successfully Crawled"
+msgstr "Genomsökning klar"
+
+#: tpl/crawler/summary.tpl.php:182
+msgid "Already Cached"
+msgstr "Redan cachelagrad"
+
+#: tpl/cdn/settings.tpl.php:214
+msgid "Optional when API token used."
+msgstr "Valfritt när API-token används."
+
+#: tpl/cdn/settings.tpl.php:198
+msgid "Global API Key / API Token"
+msgstr "Global API-nyckel/API-token"
+
+#: tpl/cdn/settings.tpl.php:194
+msgid "This can be managed from %1$s%2$s tab."
+msgstr "Detta kan hanteras från fliken %1$s%2$s."
+
+#: tpl/cache/settings_inc.object.tpl.php:41
+msgid "Use external object cache functionality."
+msgstr "Använd extern objektcache-funktionalitet."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:18
+msgid "Serve a separate cache copy for mobile visitors."
+msgstr "Tillhandahåll en separat cache-kopia till mobila användare."
+
+#: thirdparty/woocommerce.content.tpl.php:31
+msgid "Use ESI for Cart"
+msgstr "Använd ESI för varukorg"
+
+#: src/purge.cls.php:249
+msgid "Cleaned all Unique CSS files."
+msgstr "Rensade alla unika CSS-filer."
+
+#: src/lang.cls.php:166
+msgid "Add Missing Sizes"
+msgstr "Lägg till saknade storlekar"
+
+#: src/lang.cls.php:141
+msgid "Optimize for Guests Only"
+msgstr "Optimera för endast gäster"
+
+#: src/lang.cls.php:137
+msgid "Guest Mode JS Excludes"
+msgstr "JS-exkludering för gästläge"
+
+#: src/lang.cls.php:120
+msgid "CCSS Per URL"
+msgstr "CCSS per URL"
+
+#: src/lang.cls.php:113
+msgid "UCSS URI Excludes"
+msgstr "URI-exkluderingar för UCSS"
+
+#: src/lang.cls.php:111
+msgid "UCSS Inline"
+msgstr "Infogad UCSS"
+
+#: src/lang.cls.php:69
+msgid "Guest Optimization"
+msgstr "Gästoptimering"
+
+#: src/lang.cls.php:68
+msgid "Guest Mode"
+msgstr "Gästläge"
+
+#: src/lang.cls.php:56
+msgid "Guest Mode IPs"
+msgstr "IP:n för gästläge"
+
+#: src/lang.cls.php:55
+msgid "Guest Mode User Agents"
+msgstr "Användaragenter för gästläge"
+
+#: src/error.cls.php:96
+msgid "Online node needs to be redetected."
+msgstr "Onlinenoden måste upptäckas igen."
+
+#: src/error.cls.php:92
+msgid "The current server is under heavy load."
+msgstr "Nuvarande servern är under hård belastning."
+
+#: src/doc.cls.php:37
+msgid "Please see %s for more details."
+msgstr "Se %s för mer information."
+
+#: src/css.cls.php:532
+msgid "%1$s %2$s files left in queue"
+msgstr "%1$s %2$s filer kvar i kö"
+
+#: src/cloud.cls.php:665
+msgid "Redetected node"
+msgstr "Återupptäckt nod"
+
+#: src/cloud.cls.php:432
+msgid "No available Cloud Node after checked server load."
+msgstr "Ingen tillgänglig moln-nod efter kontrollerad belastningen på servern."
+
+#: src/lang.cls.php:125
+msgid "Localization Files"
+msgstr "Lokaliseringsfiler"
+
+#: cli/purge.cls.php:247
+msgid "Purged!"
+msgstr "Tömd!"
+
+#: tpl/page_optm/settings_localization.tpl.php:120
+msgid "Resources listed here will be copied and replaced with local URLs."
+msgstr "Resurser som listas här kommer kopieras och ersättas med lokaler URL:er."
+
+#: tpl/toolbox/beta_test.tpl.php:36
+msgid "Use latest GitHub Master commit"
+msgstr "Använd senaste GitHub-commit till huvudgrenen"
+
+#: tpl/toolbox/beta_test.tpl.php:34
+msgid "Use latest GitHub Dev commit"
+msgstr "Använd senaste GitHub-commit till grenen Dev"
+
+#: src/crawler-map.cls.php:317
+msgid "No valid sitemap parsed for crawler."
+msgstr "Ingen giltig webbplatskarta analyserad för indexeringsrobot."
+
+#: src/lang.cls.php:109
+msgid "CSS Combine External and Inline"
+msgstr "Kombinera extern och infogad CSS"
+
+#: tpl/page_optm/settings_css.tpl.php:150
+msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
+msgstr "Inkludera extern CSS och infogad CSS i en kombinerad fil när %1$s också är aktiverat. Detta alternativ hjälper till att upprätthålla prioriteringarna för CSS, vilket bör minimera potentiella fel orsakade av CSS-kombinering."
+
+#: tpl/page_optm/settings_css.tpl.php:30
+msgid "Minify CSS files and inline CSS code."
+msgstr "Minifiera CSS-filer och infogad CSS-kod."
+
+#: tpl/page_optm/settings_tuning.tpl.php:38
+#: tpl/page_optm/settings_tuning.tpl.php:59
+#: tpl/page_optm/settings_tuning.tpl.php:83
+#: tpl/page_optm/settings_tuning.tpl.php:168
+msgid "Predefined list will also be combined w/ the above settings"
+msgstr "Fördefinierad lista kommer också att kombineras med ovanstående inställningar"
+
+#: tpl/page_optm/entry.tpl.php:11
+msgid "Localization"
+msgstr "Lokalisering"
+
+#: tpl/page_optm/settings_js.tpl.php:34
+msgid "Combine all local JS files into a single file."
+msgstr "Kombinera alla lokala JS-filer i en enda fil."
+
+#: tpl/page_optm/settings_tuning.tpl.php:161
+msgid "Listed JS files or inline JS code will not be deferred."
+msgstr "Listade JS-filer eller infogad JS-kod kommer inte skjutas upp."
+
+#: tpl/general/settings.tpl.php:94
+msgid "Request submitted. Please wait, then refresh the page to see approval notification."
+msgstr "Begäran skickad. Vänta och uppdatera sedan sidan för att se godkännandenotis."
+
+#: src/data.upgrade.func.php:102
+msgid "Click here to settings"
+msgstr "Klicka här för inställningar"
+
+#: src/data.upgrade.func.php:101
+msgid "JS Defer"
+msgstr "Uppskjuten JS"
+
+#: src/data.upgrade.func.php:101
+msgid "LiteSpeed Cache upgraded successfully. NOTE: Due to changes in this version, the settings %1$s and %2$s have been turned OFF. Please turn them back on manually and verify that your site layout is correct, and you have no JS errors."
+msgstr "LiteSpeed Cache uppgraderades utan problem. OBSERVERA: På grund av ändringar i denna version har inställningarna %1$s och %2$s stängts av. Slå på dem igen manuellt och kontrollera att din webbplats layout är korrekt och att du inte har några JS-fel."
+
+#: src/lang.cls.php:116
+msgid "JS Combine External and Inline"
+msgstr "Kombinera extern och infogad JS"
+
+#: src/admin-display.cls.php:460
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#: tpl/cache/settings-esi.tpl.php:93
+msgid "The latest data file is"
+msgstr "Den senaste datafilen är"
+
+#: tpl/cache/settings-esi.tpl.php:92
+msgid "The list will be merged with the predefined nonces in your local data file."
+msgstr "Listan slås samman med de fördefinierade engångskoderna (nonces) i din lokala datafil."
+
+#: tpl/page_optm/settings_css.tpl.php:43
+msgid "Combine CSS files and inline CSS code."
+msgstr "Kombinera CSS-filer och infogad CSS-kod."
+
+#: tpl/page_optm/settings_js.tpl.php:21
+msgid "Minify JS files and inline JS codes."
+msgstr "Minifiera JS-filer och infogade JS-koder."
+
+#: tpl/page_optm/settings_tuning.tpl.php:52
+msgid "Listed JS files or inline JS code will not be minified/combined."
+msgstr "Listade JS-filer eller infogad JS-kod kommer inte minifieras eller kombineras."
+
+#: tpl/page_optm/settings_tuning.tpl.php:31
+msgid "Listed CSS files or inline CSS code will not be minified/combined."
+msgstr "Listade CSS-filer eller infogad CSS-kod kommer inte minifieras eller kombineras."
+
+#: src/css.cls.php:60 src/root.cls.php:176
+msgid "Queue cleared successfully."
+msgstr "Kö rensades utan problem."
+
+#: src/admin-display.cls.php:935
+msgid "This setting is overwritten by the Network setting"
+msgstr "Denna inställning skrivs över av nätverksinställningen"
+
+#: src/lang.cls.php:155
+msgid "LQIP Excludes"
+msgstr "LQIP-exkluderade"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:122
+msgid "These images will not generate LQIP."
+msgstr "Dessa bilder genererar inte LQIP."
+
+#: tpl/toolbox/import_export.tpl.php:52
+msgid "Are you sure you want to reset all settings back to the default settings?"
+msgstr "Är du säker på att du vill återställa alla inställningar tillbaka till standardinställningarna?"
+
+#: tpl/page_optm/settings_html.tpl.php:142
+msgid "This option will remove all %s tags from HTML."
+msgstr "Detta alternativ kommer ta bort alla %s-taggar från HTML-koden."
+
+#: tpl/general/settings.tpl.php:116
+msgid "Are you sure you want to clear all cloud nodes?"
+msgstr "Är du säker på att du vill rensa alla moln-noder?"
+
+#: src/lang.cls.php:139
+msgid "Remove Noscript Tags"
+msgstr "Ta bort ”noscript”-taggar"
+
+#: src/error.cls.php:84
+msgid "The site is not registered on QUIC.cloud."
+msgstr "Webbplatsen är inte registrerad på QUIC.cloud."
+
+#: src/error.cls.php:43
+msgid "Click here to change."
+msgstr "Klicka här för att ändra."
+
+#: src/cloud.cls.php:763 src/error.cls.php:48
+msgid "Click here to set."
+msgstr "Klicka här för att ange."
+
+#: src/cloud.cls.php:762
+msgid "Site not recognized. Domain Key has been automatically removed. Please request a new one."
+msgstr "Webbplatsen känns inte igen. Domännyckel har tagits bort automatiskt. Begär en ny."
+
+#: src/lang.cls.php:124
+msgid "Localize Resources"
+msgstr "Lokalisera resurser"
+
+#: tpl/cache/settings_inc.browser.tpl.php:14
+msgid "Setting Up Custom Headers"
+msgstr "Ställer in anpassade headers"
+
+#: tpl/toolbox/purge.tpl.php:89
+msgid "This will delete all localized resources"
+msgstr "Detta kommer ta bort alla lokaliserade resurser"
+
+#: src/gui.cls.php:535 src/gui.cls.php:695 tpl/toolbox/purge.tpl.php:88
+msgid "Localized Resources"
+msgstr "Lokaliserade resurser"
+
+#: tpl/page_optm/settings_localization.tpl.php:125
+msgid "Comments are supported. Start a line with a %s to turn it into a comment line."
+msgstr "Kommentarer stöds. Inled en rad med en %s för att göra den till en kommentarsrad."
+
+#: tpl/page_optm/settings_localization.tpl.php:121
+msgid "HTTPS sources only."
+msgstr "Endast HTTPS-källor."
+
+#: tpl/page_optm/settings_localization.tpl.php:94
+msgid "Localize external resources."
+msgstr "Lokalisera externa resurser."
+
+#: tpl/page_optm/settings_localization.tpl.php:17
+msgid "Localization Settings"
+msgstr "Inställningar för lokalisering"
+
+#: tpl/page_optm/settings_css.tpl.php:64
+msgid "Use QUIC.cloud online service to generate unique CSS."
+msgstr "Använd onlinetjänsten på QUIC.cloud för att skapa unik CSS."
+
+#: src/lang.cls.php:110
+msgid "Generate UCSS"
+msgstr "Generera UCSS"
+
+#: tpl/dash/dashboard.tpl.php:464 tpl/toolbox/purge.tpl.php:79
+msgid "Unique CSS"
+msgstr "Unik CSS"
+
+#: tpl/toolbox/purge.tpl.php:116
+msgid "Purge the cache entries created by this plugin except for Critical CSS & Unique CSS & LQIP caches"
+msgstr "Töm cacheinläggen som skapats av detta tillägg förutom cacher för kritisk CSS-, unik CSS och LQIP"
+
+#: tpl/toolbox/report.tpl.php:41
+msgid "LiteSpeed Report"
+msgstr "LiteSpeed-rapport"
+
+#: tpl/img_optm/summary.tpl.php:222
+msgid "Image Thumbnail Group Sizes"
+msgstr "Gruppstorlekar för bildminiatyrer"
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:14
+msgid "Ignore certain query strings when caching. (LSWS %s required)"
+msgstr "Ignorera vissa query-strängar vid cachelagring. (LSWS %s krävs)"
+
+#: tpl/cache/settings-purge.tpl.php:115
+msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
+msgstr "För URL:er med jokertecken kan det finnas en fördröjning vid initiering av schemalagd rensning."
+
+#: tpl/cache/settings-purge.tpl.php:91
+msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
+msgstr "Detta alternativ kan tillhandahåll inaktuellt innehåll. Aktivera inte det här alternativet om det inte är okej för dig."
+
+#: src/lang.cls.php:97
+msgid "Serve Stale"
+msgstr "Tillhandahåll inaktuellt innehåll"
+
+#: src/admin-display.cls.php:932
+msgid "This setting is overwritten by the primary site setting"
+msgstr "Denna inställning skrivs över av inställningen for huvudwebbplatsen"
+
+#: src/img-optm.cls.php:964
+msgid "One or more pulled images does not match with the notified image md5"
+msgstr "En eller flera hämtade bilder matchar inte med MD5 för den meddelade bilden"
+
+#: src/img-optm.cls.php:947
+msgid "Some optimized image file(s) has expired and was cleared."
+msgstr "Några optimerade bildfiler har löpt ut och rensades."
+
+#: src/error.cls.php:64
+msgid "You have too many notified images, please pull down notified images first."
+msgstr "Du har för många meddelade bilder, hämta meddelade bilder först."
+
+#: src/error.cls.php:60
+msgid "You have too many requested images, please try again in a few minutes."
+msgstr "Du har för många begärda bilder. Försök igen om några minuter."
+
+#: src/img-optm.cls.php:1025
+msgid "Pulled WebP image md5 does not match the notified WebP image md5."
+msgstr "MD5 för hämtad WebP-bild matchar inte med MD5 för meddelade WebP-bilden."
+
+#: tpl/inc/admin_footer.php:11
+msgid "Read LiteSpeed Documentation"
+msgstr "Läs dokumentationen för LiteSpeed"
+
+#: src/error.cls.php:80
+msgid "There is proceeding queue not pulled yet. Queue info: %s."
+msgstr "Det finns en pågående kö som inte hämtats än. Köinformation: %s."
+
+#: src/lang.cls.php:222
+msgid "Sitemap Timeout"
+msgstr "Tidsgräns för webbplatskarta"
+
+#: tpl/crawler/settings-sitemap.tpl.php:49
+msgid "Specify the timeout while parsing the sitemap."
+msgstr "Ange tidsgränsen när webbplatskartan analyseras."
+
+#: tpl/page_optm/settings_localization.tpl.php:79
+msgid "Specify how long, in seconds, Gravatar files are cached."
+msgstr "Specificera hur länge i sekunder Gravatar-filer är cachelagrade."
+
+#: tpl/general/settings.tpl.php:112
+msgid "A Domain Key is required for QUIC.cloud online services."
+msgstr "Det krävs en domännyckel för onlinetjänsten QUIC.cloud."
+
+#: src/img-optm.cls.php:547
+msgid "Cleared %1$s invalid images."
+msgstr "Rensade %1$s ogiltiga bilder."
+
+#: src/img-optm.cls.php:509
+msgid "Bypassed %1$s duplicated images."
+msgstr "Hoppade över %1$s duplicerade bilder."
+
+#: tpl/general/settings.tpl.php:16
+msgid "Request Domain Key"
+msgstr "Begär domännyckel"
+
+#: tpl/general/entry.tpl.php:20
+msgid "LiteSpeed Cache General Settings"
+msgstr "Allmänna inställningar för LiteSpeed Cache"
+
+#: tpl/toolbox/purge.tpl.php:107
+msgid "This will delete all cached Gravatar files"
+msgstr "Detta kommer ta bort alla cachelagrade Gravatar-filer"
+
+#: tpl/toolbox/settings-debug.tpl.php:140
+msgid "Prevent any debug log of listed pages."
+msgstr "Förhindra att felsökning av listade sidor loggas."
+
+#: tpl/toolbox/settings-debug.tpl.php:126
+msgid "Only log listed pages."
+msgstr "Logga endast listade sidor."
+
+#: tpl/toolbox/settings-debug.tpl.php:85
+msgid "Specify the maximum size of the log file."
+msgstr "Specificera maximal storlek på loggfilen."
+
+#: tpl/toolbox/settings-debug.tpl.php:37
+msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
+msgstr "För att förhindra att disken fylls bör denna inställning vara AV när allt fungerar."
+
+#: tpl/toolbox/beta_test.tpl.php:54
+msgid "Press the %s button to stop beta testing and go back to the current release from the WordPress Plugin Directory."
+msgstr "Klicka på knappen %s för att avsluta beta-testning och återgå till aktuell utgåva från WordPress tilläggskatalog."
+
+#: tpl/toolbox/beta_test.tpl.php:38 tpl/toolbox/beta_test.tpl.php:54
+msgid "Use latest WordPress release version"
+msgstr "Använd senaste WordPress-utgåva"
+
+#: tpl/toolbox/beta_test.tpl.php:38
+msgid "OR"
+msgstr "OR"
+
+#: tpl/toolbox/beta_test.tpl.php:29
+msgid "Use this section to switch plugin versions. To beta test a GitHub commit, enter the commit URL in the field below."
+msgstr "Använd denna sektion för att byta tilläggsversion. För att betatesta en GitHub-commit, skriv in commit-URL i fältet nedan."
+
+#: tpl/toolbox/import_export.tpl.php:53
+msgid "Reset Settings"
+msgstr "Återställ inställningar"
+
+#: tpl/toolbox/entry.tpl.php:32
+msgid "LiteSpeed Cache Toolbox"
+msgstr "Verktygslåda för LiteSpeed Cache"
+
+#: tpl/toolbox/entry.tpl.php:25
+msgid "Beta Test"
+msgstr "Beta-test"
+
+#: tpl/toolbox/entry.tpl.php:24
+msgid "Log View"
+msgstr "Logg-visning"
+
+#: tpl/toolbox/entry.tpl.php:23 tpl/toolbox/settings-debug.tpl.php:10
+msgid "Debug Settings"
+msgstr "Inställningar för felsökning"
+
+#: tpl/toolbox/heartbeat.tpl.php:94
+msgid "Turn ON to control heartbeat in backend editor."
+msgstr "Slå PÅ för att styra hjärtslag i redigeraren back-end."
+
+#: tpl/toolbox/heartbeat.tpl.php:78 tpl/toolbox/heartbeat.tpl.php:108
+msgid "WordPress valid interval is %s seconds"
+msgstr "Giltigt intervall för WordPress är %s sekunder"
+
+#: tpl/toolbox/heartbeat.tpl.php:64
+msgid "Turn ON to control heartbeat on backend."
+msgstr "Slå PÅ för att styra hjärtslag i back-end."
+
+#: tpl/toolbox/heartbeat.tpl.php:49 tpl/toolbox/heartbeat.tpl.php:79
+#: tpl/toolbox/heartbeat.tpl.php:109
+msgid "Set to %1$s to forbid heartbeat on %2$s."
+msgstr "Ställ in på %1$s för att förbjuda hjärtslag i %2$s."
+
+#: tpl/toolbox/heartbeat.tpl.php:48
+msgid "WordPress valid interval is %s seconds."
+msgstr "Giltigt intervall för WordPress är %s sekunder."
+
+#: tpl/toolbox/heartbeat.tpl.php:47 tpl/toolbox/heartbeat.tpl.php:77
+#: tpl/toolbox/heartbeat.tpl.php:107
+msgid "Specify the %s heartbeat interval in seconds."
+msgstr "Specificera hjärtslagsintervallet %s i sekunder."
+
+#: tpl/toolbox/heartbeat.tpl.php:34
+msgid "Turn ON to control heartbeat on frontend."
+msgstr "Slå PÅ för att styra hjärtslag i front-end."
+
+#: tpl/toolbox/heartbeat.tpl.php:15
+msgid "Disable WordPress interval heartbeat to reduce server load."
+msgstr "Inaktivera WordPress hjärtslagsintervall för att minska belastningen på servern."
+
+#: tpl/toolbox/heartbeat.tpl.php:9
+msgid "Heartbeat Control"
+msgstr "Styrning av hjärtslag"
+
+#: tpl/toolbox/report.tpl.php:86
+msgid "provide more information here to assist the LiteSpeed team with debugging."
+msgstr "ge mer information här för att hjälpa LiteSpeed-teamet med felsökning."
+
+#: tpl/toolbox/report.tpl.php:85
+msgid "Optional"
+msgstr "Valfritt"
+
+#: tpl/toolbox/report.tpl.php:67 tpl/toolbox/report.tpl.php:69
+msgid "Generate Link for Current User"
+msgstr "Generera länk för nuvarande användare"
+
+#: tpl/toolbox/report.tpl.php:63
+msgid "Passwordless Link"
+msgstr "Lösenordslös länk"
+
+#: tpl/toolbox/report.tpl.php:57
+msgid "System Information"
+msgstr "Systeminformation"
+
+#: tpl/toolbox/report.tpl.php:35
+msgid "Go to plugins list"
+msgstr "Gå till lista för tillägg"
+
+#: tpl/toolbox/report.tpl.php:34
+msgid "Install DoLogin Security"
+msgstr "Installera DoLogin Security"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Check my public IP from"
+msgstr "Kontrollera mitt offentliga IP från"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Your server IP"
+msgstr "Din servers IP"
+
+#: tpl/crawler/settings-general.tpl.php:120
+msgid "Specify the timeout while crawling each URL."
+msgstr "Ange tidsgränsen när varje URL genomsöks."
+
+#: tpl/crawler/settings-general.tpl.php:76
+msgid "Specify time in seconds for the time between each run interval."
+msgstr "Specificera tid i sekunder tiden mellan varje intervallkörning."
+
+#: tpl/crawler/settings-general.tpl.php:22
+msgid "This will enable crawler cron."
+msgstr "Detta kommer aktivera Cron för genomsökningar."
+
+#: tpl/crawler/settings-general.tpl.php:9
+msgid "Crawler General Settings"
+msgstr "Allmänna inställningar för indexeringsrobotar"
+
+#: tpl/crawler/blacklist.tpl.php:46
+msgid "Remove from Blocklist"
+msgstr "Ta bort från blockeringslista"
+
+#: tpl/crawler/blacklist.tpl.php:16
+msgid "Empty blocklist"
+msgstr "Töm blockeringslista"
+
+#: tpl/crawler/blacklist.tpl.php:15
+msgid "Are you sure to delete all existing blocklist items?"
+msgstr "Är du säker på att ta bort alla befintliga inlägg på blockeringslistan?"
+
+#: tpl/crawler/blacklist.tpl.php:56 tpl/crawler/map.tpl.php:69
+msgid "Blocklisted due to not cacheable"
+msgstr "Blockeringslistad eftersom det inte är möjligt att cachelagra"
+
+#: tpl/crawler/map.tpl.php:58
+msgid "Add to Blocklist"
+msgstr "Lägg till i blockeringslista"
+
+#: tpl/crawler/blacklist.tpl.php:33 tpl/crawler/map.tpl.php:45
+msgid "Operation"
+msgstr "Åtgärd"
+
+#: tpl/crawler/map.tpl.php:37
+msgid "Sitemap Total"
+msgstr "Totalt för webbplatskarta"
+
+#: tpl/crawler/map.tpl.php:33
+msgid "Sitemap List"
+msgstr "Lista för webbplatskarta"
+
+#: tpl/crawler/map.tpl.php:20
+msgid "Refresh Crawler Map"
+msgstr "Uppdatera webbplatskarta för indexeringsrobotar"
+
+#: tpl/crawler/map.tpl.php:16
+msgid "Clean Crawler Map"
+msgstr "Rensa webbplatskarta för indexeringsrobotar"
+
+#: tpl/crawler/entry.tpl.php:11
+msgid "Sitemap Settings"
+msgstr "Inställning för webbplatskarta"
+
+#: tpl/crawler/entry.tpl.php:10
+msgid "Simulation Settings"
+msgstr "Inställningar för simulering"
+
+#: tpl/crawler/blacklist.tpl.php:21 tpl/crawler/entry.tpl.php:8
+msgid "Blocklist"
+msgstr "Blockeringslista"
+
+#: tpl/crawler/entry.tpl.php:7
+msgid "Map"
+msgstr "Karta"
+
+#: tpl/crawler/entry.tpl.php:6
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: tpl/crawler/settings-sitemap.tpl.php:9
+msgid "Crawler Sitemap Settings"
+msgstr "Inställningar för webbplatskartor för indexeringsrobot (crawler)"
+
+#: tpl/crawler/summary.tpl.php:189
+msgid "Crawlers cannot run concurrently."
+msgstr "Indexeringsrobotar kan inte köra samtidigt."
+
+#: tpl/crawler/map.tpl.php:68
+msgid "Cache Miss"
+msgstr "Cache-miss"
+
+#: tpl/crawler/map.tpl.php:67
+msgid "Cache Hit"
+msgstr "Cache-träff"
+
+#: tpl/crawler/summary.tpl.php:181
+msgid "Waiting to be Crawled"
+msgstr "Väntar på att genomsökas"
+
+#: tpl/crawler/blacklist.tpl.php:57 tpl/crawler/map.tpl.php:70
+#: tpl/crawler/summary.tpl.php:160 tpl/crawler/summary.tpl.php:184
+msgid "Blocklisted"
+msgstr "Blockeringslistad"
+
+#: tpl/crawler/summary.tpl.php:159
+msgid "Miss"
+msgstr "Miss"
+
+#: tpl/crawler/summary.tpl.php:158
+msgid "Hit"
+msgstr "Träff"
+
+#: tpl/crawler/summary.tpl.php:157
+msgid "Waiting"
+msgstr "Väntar"
+
+#: tpl/crawler/summary.tpl.php:126
+msgid "Running"
+msgstr "Kör"
+
+#: tpl/crawler/settings-simulation.tpl.php:51
+msgid "Use %1$s in %2$s to indicate this cookie has not been set."
+msgstr "Använd %1$s i %2$s för att indikera att denna cookien inte har angetts."
+
+#: src/admin-display.cls.php:209
+msgid "Add new cookie to simulate"
+msgstr "Lägg till ny cookie att simulera"
+
+#: src/admin-display.cls.php:208
+msgid "Remove cookie simulation"
+msgstr "Ta bort simulering av cookie"
+
+#: tpl/crawler/settings-simulation.tpl.php:9
+msgid "Crawler Simulation Settings"
+msgstr "Inställningar för genomsökningssimulering"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:44
+msgid "Htaccess rule is: %s"
+msgstr "Regel för htaccess är: %s"
+
+#: tpl/cache/more_settings_tip.tpl.php:15
+msgid "More settings available under %s menu"
+msgstr "Fler inställningar finns tillgängliga under menyn %s"
+
+#: tpl/cache/settings_inc.browser.tpl.php:42
+msgid "The amount of time, in seconds, that files will be stored in browser cache before expiring."
+msgstr "Tid, i sekunder, som filer kommer att lagras i webbläsarens cache innan de löper ut."
+
+#: tpl/cache/settings_inc.browser.tpl.php:13
+msgid "OpenLiteSpeed users please check this"
+msgstr "Användare av OpenLiteSpeed ska markera detta alternativ"
+
+#: tpl/cache/settings_inc.browser.tpl.php:6
+msgid "Browser Cache Settings"
+msgstr "Inställningar för cachelagring i webbläsare"
+
+#: tpl/cache/settings-cache.tpl.php:34
+msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
+msgstr "Med QUIC.cloud CDN aktiverat kan du fortfarande se cache-headers från din lokala server."
+
+#: tpl/cache/settings-esi.tpl.php:104
+msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
+msgstr "En valfri andra parameter kan användas för att specificera cachelagrings-kontroll. Använd ett mellanslag för att separera"
+
+#: tpl/cache/settings-esi.tpl.php:102
+msgid "The above nonces will be converted to ESI automatically."
+msgstr "Engångskoderna ovan kommer automatiskt att konverteras till ESI."
+
+#: tpl/cache/entry.tpl.php:15 tpl/cache/entry_network.tpl.php:10
+msgid "Browser"
+msgstr "Webbläsare"
+
+#: tpl/cache/entry.tpl.php:14 tpl/cache/entry_network.tpl.php:9
+msgid "Object"
+msgstr "Objekt"
+
+#: tpl/cache/settings_inc.object.tpl.php:91
+#: tpl/cache/settings_inc.object.tpl.php:92
+msgid "Default port for %1$s is %2$s."
+msgstr "Standardport för %1$s är %2$s."
+
+#: tpl/cache/settings_inc.object.tpl.php:27
+msgid "Object Cache Settings"
+msgstr "Inställningar för objektcache"
+
+#: tpl/cache/settings-ttl.tpl.php:52
+msgid "Specify how long, in seconds, the front page is cached."
+msgstr "Specificera hur länge i sekunder startsidan är cachelagrad."
+
+#: tpl/cache/entry.tpl.php:7 tpl/cache/settings-ttl.tpl.php:7
+msgid "TTL"
+msgstr "TTL"
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "Swap"
+msgstr "Växla"
+
+#: tpl/page_optm/settings_localization.tpl.php:57
+msgid "Avatar list in queue waiting for update"
+msgstr "Lista med profilbilder i kö som väntar på uppdatering"
+
+#: tpl/page_optm/settings_localization.tpl.php:44
+msgid "Refresh Gravatar cache by cron."
+msgstr "Uppdatera Gravatar-cache med cron."
+
+#: tpl/page_optm/settings_localization.tpl.php:31
+msgid "Accelerates the speed by caching Gravatar (Globally Recognized Avatars)."
+msgstr "Förbättrar hastigheten genom att cachelagra Gravatar (Globally Recognized Avatars)."
+
+#: tpl/page_optm/settings_localization.tpl.php:30
+msgid "Store Gravatar locally."
+msgstr "Lagra Gravatar lokalt."
+
+#: tpl/page_optm/settings_localization.tpl.php:12
+msgid "Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
+msgstr "Kunde inte skapa profilbildstabell. Följ <a %s>instruktionerna för att skapa tabeller från LiteSpeed Wikin</a> för att slutföra installationen."
+
+#: tpl/page_optm/settings_media.tpl.php:138
+msgid "pixels"
+msgstr "pixlar"
+
+#: tpl/page_optm/settings_media.tpl.php:121
+msgid "Specify the quality when generating LQIP."
+msgstr "Ange kvaliteten vid generering av LQIP."
+
+#: tpl/page_optm/settings_media.tpl.php:92
+msgid "Specify the responsive placeholder SVG color."
+msgstr "Ange den responsiva platshållarens SVG-färg."
+
+#: tpl/page_optm/settings_media.tpl.php:78
+msgid "Variables %s will be replaced with the configured background color."
+msgstr "%s-variabler kommer ersättas med den konfigurerade bakgrundsfärgen."
+
+#: tpl/page_optm/settings_media.tpl.php:77
+msgid "Variables %s will be replaced with the corresponding image properties."
+msgstr "Variablerna %s kommer att ersättas med motsvarande bildegenskaper."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:108
+msgid "Prevent any lazy load of listed pages."
+msgstr "Förhindra all uppskjuten inläsning av listade sidor."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:94
+msgid "Iframes having these parent class names will not be lazy loaded."
+msgstr "Iframes som innehåller dessa överordnade klassnamn kommer inte laddas med uppskjuten inläsning."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:79
+msgid "Iframes containing these class names will not be lazy loaded."
+msgstr "Iframes som innehåller dessa klassnamn kommer inte laddas med uppskjuten inläsning."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:65
+msgid "Images having these parent class names will not be lazy loaded."
+msgstr "Bilder som innehåller dessa överordnad klassnamn kommer inte laddas med uppskjuten inläsning."
+
+#: tpl/page_optm/entry.tpl.php:19
+msgid "LiteSpeed Cache Page Optimization"
+msgstr "LiteSpeed Cache sidoptimering"
+
+#: tpl/page_optm/entry.tpl.php:10 tpl/page_optm/settings_media_exc.tpl.php:7
+msgid "Media Excludes"
+msgstr "Exkluderade media"
+
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:16
+msgid "CSS Settings"
+msgstr "Inställningar för CSS"
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "%s is recommended."
+msgstr "%s är rekommenderat."
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Deferred"
+msgstr "Uppskjuten"
+
+#: tpl/page_optm/settings_css.tpl.php:267
+msgid "Default"
+msgstr "Standard"
+
+#: tpl/page_optm/settings_html.tpl.php:50
+msgid "This can improve the page loading speed."
+msgstr "Detta kan förbättra laddningstiden för sidor."
+
+#: tpl/banner/new_version_dev.tpl.php:16
+msgid "New developer version %s is available now."
+msgstr "Ny utvecklarversion %s är tillgänglig nu."
+
+#: tpl/banner/new_version_dev.tpl.php:12
+msgid "New Developer Version Available!"
+msgstr "Ny version för utvecklare tillgänglig!"
+
+#: tpl/banner/cloud_promo.tpl.php:51
+msgid "Dismiss this notice"
+msgstr "Avfärda denna notis"
+
+#: tpl/banner/cloud_promo.tpl.php:39
+msgid "Tweet this"
+msgstr "Twittra detta"
+
+#: tpl/banner/cloud_promo.tpl.php:22
+msgid "Tweet preview"
+msgstr "Förhandsgranska tweet"
+
+#: tpl/banner/cloud_promo.tpl.php:17
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: tpl/banner/cloud_promo.tpl.php:13
+msgid "You just unlocked a promotion from QUIC.cloud!"
+msgstr "Du låste precis upp en kampanj från QUIC.cloud!"
+
+#: tpl/img_optm/settings.tpl.php:169
+msgid "The image compression quality setting of WordPress out of 100."
+msgstr "Inställningen för WordPress bildkomprimeringskvalité i en skala från 0 till 100."
+
+#: tpl/img_optm/entry.tpl.php:7 tpl/img_optm/entry.tpl.php:13
+#: tpl/img_optm/network_settings.tpl.php:9 tpl/img_optm/settings.tpl.php:9
+msgid "Image Optimization Settings"
+msgstr "Inställningar för bildoptimering"
+
+#: tpl/img_optm/summary.tpl.php:373
+msgid "Are you sure to destroy all optimized images?"
+msgstr "Är du säker på att du vill förstöra alla optimerade bilder?"
+
+#: tpl/img_optm/summary.tpl.php:365
+msgid "Use Optimized Files"
+msgstr "Använd optimerade filer"
+
+#: tpl/img_optm/summary.tpl.php:364
+msgid "Switch back to using optimized images on your site"
+msgstr "Växla tillbaks till att använda optimerade bilder på din webbplats"
+
+#: tpl/img_optm/summary.tpl.php:361
+msgid "Use Original Files"
+msgstr "Använd ursprungliga filer"
+
+#: tpl/img_optm/summary.tpl.php:360
+msgid "Use original images (unoptimized) on your site"
+msgstr "Använd ursprungliga bilder (inte optimerade) på din webbplats"
+
+#: tpl/img_optm/summary.tpl.php:355
+msgid "You can quickly switch between using original (unoptimized versions) and optimized image files. It will affect all images on your website, both regular and webp versions if available."
+msgstr "Du kan snabbt växla mellan att använda ursprungliga (inte optimerade versioner) och optimerade bildfiler. Valet påverkar alla bilder på din webbplats, både vanliga versioner och WebP-versioner om de är tillgängliga."
+
+#: tpl/img_optm/summary.tpl.php:352
+msgid "Optimization Tools"
+msgstr "Verktyg för optimering"
+
+#: tpl/img_optm/summary.tpl.php:325
+msgid "Rescan New Thumbnails"
+msgstr "Skanna nya miniatyrer"
+
+#: tpl/img_optm/summary.tpl.php:317
+msgid "Congratulations, all requested!"
+msgstr "Grattis, alla begärda!"
+
+#: tpl/img_optm/summary.tpl.php:290
+msgid "Congratulations, all gathered!"
+msgstr "Grattis, alla är insamlade!"
+
+#: tpl/img_optm/summary.tpl.php:287
+msgid "Images not yet gathered"
+msgstr "Bilder har inte samlats in än"
+
+#: tpl/img_optm/summary.tpl.php:282 tpl/img_optm/summary.tpl.php:309
+msgid "What is an image group?"
+msgstr "Vad är en bildgrupp?"
+
+#: tpl/img_optm/summary.tpl.php:233
+msgid "Delete all backups of the original images"
+msgstr "Ta bort alla säkerhetskopior av de ursprungliga bilderna"
+
+#: tpl/img_optm/summary.tpl.php:215
+msgid "Calculate Backups Disk Space"
+msgstr "Beräkna diskutrymme för säkerhetskopior"
+
+#: tpl/img_optm/summary.tpl.php:100
+msgid "Optimization Status"
+msgstr "Status för optimering"
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Gather Image Data"
+msgstr "Samla bilddata"
+
+#: tpl/img_optm/summary.tpl.php:72
+msgid "Current limit is"
+msgstr "Nuvarande gräns är"
+
+#: tpl/img_optm/summary.tpl.php:66
+msgid "You can request a maximum of %s images at once."
+msgstr "Du kan maximalt begära %s bilder åt gången."
+
+#: tpl/img_optm/summary.tpl.php:61
+msgid "Optimize images with our QUIC.cloud server"
+msgstr "Optimera bilder med vår QUIC.cloud-server"
+
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:91
+#: tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Current closest Cloud server is %s.&#10; Click to redetect."
+msgstr "Nuvarande närmsta molnserver är %s.&#10; Klicka för att upptäcka igen."
+
+#: tpl/db_optm/settings.tpl.php:37
+msgid "Revisions newer than this many days will be kept when cleaning revisions."
+msgstr "Versioner som är nyare än så här många dagar kommer behållas vid rensning av versioner."
+
+#: tpl/db_optm/settings.tpl.php:35
+msgid "Day(s)"
+msgstr "dag/dagar"
+
+#: tpl/db_optm/settings.tpl.php:23
+msgid "Specify the number of most recent revisions to keep when cleaning revisions."
+msgstr "Ange antalet versioner av senaste ändringar som ska behållas vid rensning av versioner."
+
+#: tpl/db_optm/entry.tpl.php:17
+msgid "LiteSpeed Cache Database Optimization"
+msgstr "Databasoptimering för LiteSpeed Cache"
+
+#: tpl/db_optm/entry.tpl.php:10 tpl/db_optm/settings.tpl.php:10
+msgid "DB Optimization Settings"
+msgstr "Inställningar för DB-optimering"
+
+#: tpl/db_optm/manage.tpl.php:166
+msgid "Option Name"
+msgstr "Namn på alternativ"
+
+#: tpl/db_optm/manage.tpl.php:151
+msgid "Database Summary"
+msgstr "Databas-sammanfattning"
+
+#: tpl/db_optm/manage.tpl.php:130
+msgid "We are good. No table uses MyISAM engine."
+msgstr "Allt är ok. Ingen tabell använder MyISAM-motorn."
+
+#: tpl/db_optm/manage.tpl.php:122
+msgid "Convert to InnoDB"
+msgstr "Konvertera till InnoDB"
+
+#: tpl/db_optm/manage.tpl.php:108
+msgid "Tool"
+msgstr "Verktyg"
+
+#: tpl/db_optm/manage.tpl.php:107
+msgid "Engine"
+msgstr "Motor"
+
+#: tpl/db_optm/manage.tpl.php:106
+msgid "Table"
+msgstr "Tabell"
+
+#: tpl/db_optm/manage.tpl.php:99
+msgid "Database Table Engine Converter"
+msgstr "Motor för konvertering av databastabell"
+
+#: tpl/db_optm/manage.tpl.php:51
+msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
+msgstr "Rensa versioner äldre än %1$s dag/dagar, exklusive de %2$s senaste versionerna"
+
+#: tpl/dash/dashboard.tpl.php:537
+msgid "Currently active crawler"
+msgstr "Nuvarande aktiv indexeringsrobot"
+
+#: tpl/dash/dashboard.tpl.php:534
+msgid "Crawler(s)"
+msgstr "Indexeringsrobot(ar)"
+
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:529
+msgid "Crawler Status"
+msgstr "Status för indexeringsrobot"
+
+#: tpl/dash/dashboard.tpl.php:448 tpl/dash/dashboard.tpl.php:481
+#: tpl/dash/dashboard.tpl.php:513
+msgid "Force cron"
+msgstr "Tvinga Cron"
+
+#: tpl/dash/dashboard.tpl.php:445 tpl/dash/dashboard.tpl.php:478
+#: tpl/dash/dashboard.tpl.php:511
+msgid "Requests in queue"
+msgstr "Förfrågningar i kö"
+
+#: tpl/dash/dashboard.tpl.php:440 tpl/dash/dashboard.tpl.php:473
+#: tpl/dash/dashboard.tpl.php:506
+msgid "Time to execute previous request"
+msgstr "Tid som föregående begäran tog att utföra"
+
+#: tpl/dash/dashboard.tpl.php:417
+msgid "Cache Stats"
+msgstr "Statistik för cache"
+
+#: tpl/dash/dashboard.tpl.php:395
+msgid "Private Cache"
+msgstr "Privat cache"
+
+#: tpl/dash/dashboard.tpl.php:394
+msgid "Public Cache"
+msgstr "Offentlig cache"
+
+#: tpl/dash/dashboard.tpl.php:388
+msgid "Cache Status"
+msgstr "Status för cache"
+
+#: tpl/dash/dashboard.tpl.php:360
+msgid "Last Pull"
+msgstr "Senaste hämtning"
+
+#: tpl/dash/dashboard.tpl.php:325
+msgid "Images Requested"
+msgstr "Bilder som begärts"
+
+#: tpl/dash/dashboard.tpl.php:310
+msgid "Image Groups Prepared"
+msgstr "Förberedda bildgrupper"
+
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
+msgid "Image Optimization Summary"
+msgstr "Sammanfattning av bildoptimering"
+
+#: tpl/dash/dashboard.tpl.php:238
+msgid "Refresh page score"
+msgstr "Uppdatera sidpoäng"
+
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:91 tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "Är du säker på att du vill återupptäcka den närmaste molnservern för denna tjänst?"
+
+#: tpl/dash/dashboard.tpl.php:227
+msgid "Current closest Cloud server is %s.&#10;Click to redetect."
+msgstr "Nuvarande närmsta molnserver är %s.&#10;Klicka för att upptäcka igen."
+
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:456 tpl/dash/dashboard.tpl.php:489
+#: tpl/dash/dashboard.tpl.php:521
+msgid "Last requested"
+msgstr "Senast begärd"
+
+#: tpl/dash/dashboard.tpl.php:181
+msgid "Refresh page load time"
+msgstr "Uppdatera laddningstid för sida"
+
+#: tpl/dash/dashboard.tpl.php:169
+msgid "Go to QUIC.cloud dashboard"
+msgstr "Gå till adminpanel för QUIC.cloud"
+
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/dashboard.tpl.php:497
+msgid "Low Quality Image Placeholder"
+msgstr "Platshållarbild i låg kvalitet"
+
+#: tpl/dash/dashboard.tpl.php:45
+msgid "Sync data from Cloud"
+msgstr "Synkronisera data från molnet"
+
+#: tpl/dash/dashboard.tpl.php:42
+msgid "QUIC.cloud Service Usage Statistics"
+msgstr "Statistik över användning av tjänsten QUIC.cloud"
+
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
+msgid "Total images optimized in this month"
+msgstr "Totalt antal optimerade bilder denna månad"
+
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
+msgid "Total Usage"
+msgstr "Total användning"
+
+#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:93
+msgid "Pay as You Go Usage Statistics"
+msgstr "Användningsstatistik för ”Betala eftersom”"
+
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:91
+msgid "This Month Usage"
+msgstr "Användning denna månad"
+
+#: tpl/dash/dashboard.tpl.php:128 tpl/dash/network_dash.tpl.php:90
+msgid "PAYG Balance"
+msgstr "Betala eftersom-balans"
+
+#: tpl/dash/network_dash.tpl.php:89
+msgid "Pay as You Go"
+msgstr "Betala eftersom"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Usage"
+msgstr "Användning"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Fast Queue Usage"
+msgstr "Användning av Fast Queue"
+
+#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:29
+msgid "CDN Bandwidth"
+msgstr "Bandbredd för CDN"
+
+#: tpl/dash/network_dash.tpl.php:28
+msgid "CCSS"
+msgstr "CCSS"
+
+#: tpl/dash/network_dash.tpl.php:19
+msgid "Usage Statistics"
+msgstr "Användningsstatistik"
+
+#: tpl/dash/entry.tpl.php:20
+msgid "LiteSpeed Cache Dashboard"
+msgstr "Adminpanel för LiteSpeed Cache"
+
+#: tpl/dash/entry.tpl.php:11
+msgid "Network Dashboard"
+msgstr "Adminpanel för nätverk"
+
+#: tpl/general/settings.tpl.php:128
+msgid "No cloud services currently in use"
+msgstr "Inga molntjänster används för närvarande"
+
+#: tpl/general/settings.tpl.php:116
+msgid "Click to clear all nodes for further redetection."
+msgstr "Klicka för att rensa alla noder för vidare återupptäckning."
+
+#: tpl/general/settings.tpl.php:115
+msgid "Current Cloud Nodes in Service"
+msgstr "Nuvarande moln-noder i tjänst"
+
+#: tpl/general/settings.tpl.php:107
+msgid "Benefits of linking to a QUIC.cloud account"
+msgstr "Fördelar med att länka till ett QUIC.cloud-konto"
+
+#: tpl/general/settings.tpl.php:106
+msgid "You must click the %s button if you wish to associate this site with a QUIC.cloud account."
+msgstr "Du måste klicka på %s-knappen om du vill associera denna webbplats med ett QUIC.cloud-konto."
+
+#: tpl/general/settings.tpl.php:101
+msgid "You must have %1$s first before linking to QUIC.cloud."
+msgstr "Du måste ha %1$s innan du länkar till QUIC.cloud."
+
+#: tpl/general/settings.tpl.php:86
+msgid "Our %s was not allowlisted."
+msgstr "Våra %s listades inte som tillåtna."
+
+#: tpl/general/settings.tpl.php:85
+msgid "The POST callback to %s failed."
+msgstr "POST-återanropet till %s misslyckades."
+
+#: tpl/general/settings.tpl.php:84
+msgid "There are two reasons why we might not be able to communicate with your domain:"
+msgstr "Det finns två skäl till varför vi kanske inte kan kommunicera med din domän:"
+
+#: tpl/general/settings.tpl.php:83
+msgid "There was a problem with retrieving your Domain Key. Please click the %s button to retry."
+msgstr "Det gick inte att hämta din domännyckel. Klicka på %s-knappen för att försöka igen."
+
+#: tpl/general/settings.tpl.php:75 tpl/general/settings.tpl.php:77
+#: tpl/general/settings.tpl.php:106
+msgid "Link to QUIC.cloud"
+msgstr "Länka till QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:73
+msgid "Visit My Dashboard on QUIC.cloud"
+msgstr "Besök min adminpanel på QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:36
+msgid "Next available request time: <code>After %s</code>"
+msgstr "Nästa tillgänglig tid för begäran: <code>om %s</code>"
+
+#: tpl/general/settings.tpl.php:32
+msgid "Approved"
+msgstr "Godkänd"
+
+#: tpl/general/settings.tpl.php:29
+msgid "Requested"
+msgstr "Begärd"
+
+#: tpl/general/settings.tpl.php:24
+msgid "Waiting for Approval"
+msgstr "Väntar på godkännande"
+
+#: tpl/general/settings.tpl.php:20
+msgid "Waiting for Refresh"
+msgstr "Väntar på uppdatering"
+
+#: tpl/general/settings.tpl.php:18
+msgid "Refresh Domain Key"
+msgstr "Uppdatera domännyckel"
+
+#: tpl/crawler/entry.tpl.php:9 tpl/general/entry.tpl.php:6
+#: tpl/general/entry.tpl.php:12 tpl/general/network_settings.tpl.php:8
+#: tpl/general/settings.tpl.php:42
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: tpl/cdn/settings.tpl.php:126
+msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
+msgstr "Ange vilka HTML-elementattribut som ska ersättas med CDN-ompekning."
+
+#: src/admin-display.cls.php:231
+msgid "Add new CDN URL"
+msgstr "Lägg till ny URL för CDN"
+
+#: src/admin-display.cls.php:230
+msgid "Remove CDN URL"
+msgstr "Ta bort URL för CDN"
+
+#: tpl/cdn/settings.tpl.php:35
+msgid "Enable %s CDN API functionality."
+msgstr "Aktivera %s CDN API-funktionalitet."
+
+#: tpl/cdn/manage.tpl.php:23
+msgid "To enable the following functionality, turn ON Cloudflare API in CDN Settings."
+msgstr "För att aktivera följande funktionalitet, slå PÅ ”Cloudflare API” i CDN-inställningarna."
+
+#: tpl/cdn/manage.tpl.php:14
+msgid "To manage QUIC.cloud options, please visit"
+msgstr "För att hantera QUIC.cloud-alternativ besök"
+
+#: tpl/cdn/manage.tpl.php:12
+msgid "QUIC.cloud"
+msgstr "QUIC.cloud"
+
+#: thirdparty/woocommerce.content.tpl.php:16
+msgid "WooCommerce Settings"
+msgstr "Inställningar för WooCommerce"
+
+#: src/doc.cls.php:119 tpl/general/settings.tpl.php:86
+msgid "Current Online Server IPs"
+msgstr "IP-adresser för servrar som är tillgängliga just nu"
+
+#: src/doc.cls.php:118
+msgid "Before generating key, please verify all IPs on this list are allowlisted"
+msgstr "Innan du genererar nyckel, kontrollera att alla IP:n på denna lista är listade som tillåtna"
+
+#: src/doc.cls.php:117
+msgid "For online services to work correctly, you must allowlist all %s server IPs."
+msgstr "För att onlinetjänster ska fungera korrekt måste du lista alla %s-server-IP:n som tillåtna."
+
+#: src/gui.cls.php:545 src/gui.cls.php:705
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
+msgid "LQIP Cache"
+msgstr "LQIP-cache"
+
+#: src/gui.cls.php:84
+msgid "Private Cache Hits"
+msgstr "Privata cache-träffar"
+
+#: src/gui.cls.php:83
+msgid "Private Caches"
+msgstr "Privata cachar"
+
+#: src/gui.cls.php:82
+msgid "Public Cache Hits"
+msgstr "Offentliga cache-träffar"
+
+#: src/gui.cls.php:81
+msgid "Public Caches"
+msgstr "Offentliga cachar"
+
+#: src/admin-settings.cls.php:242 src/admin-settings.cls.php:276
+msgid "Options saved."
+msgstr "Alternativ sparade."
+
+#: src/img-optm.cls.php:1461
+msgid "Removed backups successfully."
+msgstr "Tog bort säkerhetskopior utan problem."
+
+#: src/img-optm.cls.php:1399
+msgid "Calculated backups successfully."
+msgstr "Säkerhetskopiorna har beräknats."
+
+#: src/img-optm.cls.php:1340
+msgid "Rescanned %d images successfully."
+msgstr "%d bilder har genomsökts på nytt."
+
+#: src/img-optm.cls.php:1275 src/img-optm.cls.php:1340
+msgid "Rescanned successfully."
+msgstr "Genomsökt på nytt."
+
+#: src/img-optm.cls.php:1243
+msgid "Destroy all optimization data successfully."
+msgstr "Förstörde alla optimeringsdata utan problem."
+
+#: src/img-optm.cls.php:1172
+msgid "Cleaned up unfinished data successfully."
+msgstr "Rensade upp oavslutade data utan problem."
+
+#: src/img-optm.cls.php:1085
+msgid "Pulled %d image(s)"
+msgstr "Hämtade %d bild/bilder"
+
+#: src/img-optm.cls.php:1008
+msgid "Optimized WebP file expired and was cleared."
+msgstr "Optimerad WebP-fil löpte ut och rensades."
+
+#: src/img-optm.cls.php:888
+msgid "Pull Cron is running"
+msgstr "Hämtning med Cron körs"
+
+#: src/img-optm.cls.php:649
+msgid "No valid image found by Cloud server in the current request."
+msgstr "Ingen giltig bild hittades av moln-servern för den aktuella begäran."
+
+#: src/img-optm.cls.php:626
+msgid "No valid image found in the current request."
+msgstr "Ingen giltig bild hittades för den aktuella begäran."
+
+#: src/img-optm.cls.php:472
+msgid "Pushed %1$s to Cloud server, accepted %2$s."
+msgstr "Skickade %1$s till molnserver, accepterade %2$s."
+
+#: src/img-optm.cls.php:180
+msgid "Gathered %d images successfully."
+msgstr "%d bilder samlades."
+
+#: src/img-optm.cls.php:147
+msgid "No new image gathered."
+msgstr "Ingen ny bild insamlad."
+
+#: src/lang.cls.php:235
+msgid "Revisions Max Age"
+msgstr "Maximal ålder för versioner"
+
+#: src/lang.cls.php:234
+msgid "Revisions Max Number"
+msgstr "Maximalt antal versioner"
+
+#: src/lang.cls.php:232
+msgid "Debug URI Excludes"
+msgstr "Exkluderade felsöknings-URI:er"
+
+#: src/lang.cls.php:231
+msgid "Debug URI Includes"
+msgstr "Inkluderade felsöknings-URI:er"
+
+#: src/lang.cls.php:221
+msgid "Drop Domain from Sitemap"
+msgstr "Släpp domän från webbplatskarta"
+
+#: src/lang.cls.php:216
+msgid "Timeout"
+msgstr "Tidsgräns"
+
+#: src/lang.cls.php:204
+msgid "HTML Attribute To Replace"
+msgstr "HTML-attribut att ersätta"
+
+#: src/lang.cls.php:198
+msgid "Use CDN Mapping"
+msgstr "Använd CDN-ompekning"
+
+#: src/lang.cls.php:197
+msgid "QUIC.cloud CDN"
+msgstr "QUIC.cloud CDN"
+
+#: src/lang.cls.php:195
+msgid "Editor Heartbeat TTL"
+msgstr "Hjärtslags-TTL för redigeraren"
+
+#: src/lang.cls.php:194
+msgid "Editor Heartbeat"
+msgstr "Hjärtslag för redigeraren"
+
+#: src/lang.cls.php:193
+msgid "Backend Heartbeat TTL"
+msgstr "Hjärtslags-TTL för back-end"
+
+#: src/lang.cls.php:192
+msgid "Backend Heartbeat Control"
+msgstr "Styrning av hjärtslag för back-end"
+
+#: src/lang.cls.php:191
+msgid "Frontend Heartbeat TTL"
+msgstr "Hjärtslags-TTL för front-end"
+
+#: src/lang.cls.php:190
+msgid "Frontend Heartbeat Control"
+msgstr "Styrning av hjärtslag för front-end"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:64
+msgid "Backend .htaccess Path"
+msgstr "Sökväg till back-end-.htaccess"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:47
+msgid "Frontend .htaccess Path"
+msgstr "Sökväg till front-end-.htaccess"
+
+#: src/lang.cls.php:180
+msgid "ESI Nonces"
+msgstr "Engångskoder för ESI"
+
+#: src/lang.cls.php:176
+msgid "WordPress Image Quality Control"
+msgstr "Styrning av bildkvalitet i WordPress"
+
+#: src/lang.cls.php:171
+msgid "Create WebP Versions"
+msgstr "Skapa WebP-versioner"
+
+#: src/lang.cls.php:168
+msgid "Auto Pull Cron"
+msgstr "Automatisk hämtning med Cron"
+
+#: src/lang.cls.php:167
+msgid "Auto Request Cron"
+msgstr "Automatisk begäran med Cron"
+
+#: src/lang.cls.php:164
+msgid "Generate LQIP In Background"
+msgstr "Generera LQIP i bakgrunden"
+
+#: src/lang.cls.php:162
+msgid "LQIP Minimum Dimensions"
+msgstr "LQIP minsta mått"
+
+#: src/lang.cls.php:161
+msgid "LQIP Quality"
+msgstr "LQIP-kvalitet"
+
+#: src/lang.cls.php:160
+msgid "LQIP Cloud Generator"
+msgstr "LQIP molngenerator"
+
+#: src/lang.cls.php:159
+msgid "Responsive Placeholder SVG"
+msgstr "SVG som responsiv platshållare"
+
+#: src/lang.cls.php:158
+msgid "Responsive Placeholder Color"
+msgstr "Färg för responsiv platshållare"
+
+#: src/lang.cls.php:156
+msgid "Basic Image Placeholder"
+msgstr "Grundläggande bildplatshållare"
+
+#: src/lang.cls.php:154
+msgid "Lazy Load URI Excludes"
+msgstr "Exkluderade URL:er för uppskjuten inläsning"
+
+#: src/lang.cls.php:153
+msgid "Lazy Load Iframe Parent Class Name Excludes"
+msgstr "Överordnade ”iframe”-klassnamn exkluderade för uppskjuten inläsning"
+
+#: src/lang.cls.php:152
+msgid "Lazy Load Iframe Class Name Excludes"
+msgstr "Exkluderade ”iframe”-klassnamn för uppskjuten inläsning"
+
+#: src/lang.cls.php:151
+msgid "Lazy Load Image Parent Class Name Excludes"
+msgstr "Överordnade bildklassnamn exkluderade för uppskjuten inläsning"
+
+#: src/lang.cls.php:146
+msgid "Gravatar Cache TTL"
+msgstr "TTL för Gravatar-cache"
+
+#: src/lang.cls.php:145
+msgid "Gravatar Cache Cron"
+msgstr "Gravatar-cache med cron"
+
+#: src/gui.cls.php:555 src/gui.cls.php:715 src/lang.cls.php:144
+#: tpl/toolbox/purge.tpl.php:106
+msgid "Gravatar Cache"
+msgstr "Gravatar-cache"
+
+#: src/lang.cls.php:127
+msgid "DNS Prefetch Control"
+msgstr "Styrning av DNS Prefetch"
+
+#: src/lang.cls.php:122
+msgid "Font Display Optimization"
+msgstr "Optimering av visning av typsnitt"
+
+#: src/lang.cls.php:101
+msgid "Force Public Cache URIs"
+msgstr "Tvinga cachelagring av offentliga URL:er"
+
+#: src/lang.cls.php:70
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: src/lang.cls.php:65
+msgid "Default HTTP Status Code Page TTL"
+msgstr "Standard-TTL för HTTP-statuskodsida"
+
+#: src/lang.cls.php:64
+msgid "Default REST TTL"
+msgstr "Standard-TTL för REST"
+
+#: src/lang.cls.php:58
+msgid "Enable Cache"
+msgstr "Aktivera cache"
+
+#: src/lang.cls.php:54
+msgid "Domain Key"
+msgstr "Domännyckel"
+
+#: src/lang.cls.php:53
+msgid "Server IP"
+msgstr "Server-IP"
+
+#: src/lang.cls.php:33
+msgid "Duplicate image files ignored"
+msgstr "Duplicerade bildfiler som ignoreras"
+
+#: src/lang.cls.php:23
+msgid "Images not requested"
+msgstr "Bilder har inte begärts"
+
+#: src/cloud.cls.php:1073
+msgid "Domain Key hash mismatch"
+msgstr "Nyckel-hash för domän stämmer inte"
+
+#: src/cloud.cls.php:1002
+msgid "Congratulations, your Domain Key has been approved! The setting has been updated accordingly."
+msgstr "Grattis, din domännyckel har godkänts! Inställningen har uppdaterats med den."
+
+#: src/cloud.cls.php:951
+msgid "Applied for Domain Key successfully. Please wait for result. Domain Key will be automatically sent to your WordPress."
+msgstr "Ansökte om domännyckel. Väntar på resultatet. Domännyckeln kommer skickas automatiskt till din WordPress-installation."
+
+#: src/cloud.cls.php:754 src/cloud.cls.php:932
+msgid "Failed to communicate with QUIC.cloud server"
+msgstr "Misslyckades att kommunicera med QUIC.clouds server"
+
+#: src/cloud.cls.php:702
+msgid "Good news from QUIC.cloud server"
+msgstr "Goda nyheter från QUIC.clouds server"
+
+#: src/cloud.cls.php:686 src/cloud.cls.php:694 src/cloud.cls.php:943
+msgid "Message from QUIC.cloud server"
+msgstr "Meddelande från QUIC.clouds server"
+
+#: src/cloud.cls.php:551
+msgid "Please try after %1$s for service %2$s."
+msgstr "Försök igen om %1$s för %2$s-tjänsten."
+
+#: src/cloud.cls.php:407
+msgid "No available Cloud Node."
+msgstr "Ingen tillgänglig moln-nod."
+
+#: src/cloud.cls.php:359 src/cloud.cls.php:372 src/cloud.cls.php:407
+#: src/cloud.cls.php:432 src/cloud.cls.php:551 src/cloud.cls.php:907
+msgid "Cloud Error"
+msgstr "Moln-fel"
+
+#: src/data.cls.php:219
+msgid "The database has been upgrading in the background since %s. This message will disappear once upgrade is complete."
+msgstr "Databasen har uppgraderats i bakgrunden sedan %s. Detta meddelande kommer försvinna när uppgraderingen är slutförd."
+
+#: src/media.cls.php:339
+msgid "Restore from backup"
+msgstr "Återställ från säkerhetskopia"
+
+#: src/media.cls.php:329
+msgid "WebP"
+msgstr "WebP"
+
+#: src/media.cls.php:323
+msgid "No backup of unoptimized WebP file exists."
+msgstr "Det finns ingen säkerhetskopia av ej optimerad WebP-fil."
+
+#: src/media.cls.php:310
+msgid "WebP file reduced by %1$s (%2$s)"
+msgstr "WebP-fil reducerad med %1$s (%2$s)"
+
+#: src/media.cls.php:306
+msgid "Currently using original (unoptimized) version of WebP file."
+msgstr "För närvarande används den ursprungliga (ej optimerade) version av WebP-filen."
+
+#: src/media.cls.php:301
+msgid "Currently using optimized version of WebP file."
+msgstr "För närvarande används den optimerade versionen av WebP-filen."
+
+#: src/media.cls.php:285
+msgid "Orig"
+msgstr "Orig"
+
+#: src/media.cls.php:282
+msgid "(no savings)"
+msgstr "(inga besparingar)"
+
+#: src/media.cls.php:282
+msgid "Orig %s"
+msgstr "Orig %s"
+
+#: src/media.cls.php:279
+msgid "Congratulation! Your file was already optimized"
+msgstr "Grattis! Din fil var redan optimerad"
+
+#: src/media.cls.php:270
+msgid "No backup of original file exists."
+msgstr "Det finns ingen säkerhetskopia av den ursprungliga filen."
+
+#: src/media.cls.php:270 src/media.cls.php:323
+msgid "Using optimized version of file. "
+msgstr "Använder optimerad version av filen. "
+
+#: src/media.cls.php:262
+msgid "Orig saved %s"
+msgstr "Sparat %s"
+
+#: src/media.cls.php:256
+msgid "Original file reduced by %1$s (%2$s)"
+msgstr "Ursprunglig fil reducerad med %1$s (%2$s)"
+
+#: src/media.cls.php:252 src/media.cls.php:306
+msgid "Click to switch to optimized version."
+msgstr "Klicka för att växla till den optimerade versionen."
+
+#: src/media.cls.php:252
+msgid "Currently using original (unoptimized) version of file."
+msgstr "För närvarande används den ursprunglig (ej optimerade) versionen av filen."
+
+#: src/media.cls.php:251 src/media.cls.php:305
+msgid "(non-optm)"
+msgstr "(ej optim)"
+
+#: src/media.cls.php:247 src/media.cls.php:301
+msgid "Click to switch to original (unoptimized) version."
+msgstr "Klicka för att växla till den ursprunglig (ej optimerade) versionen."
+
+#: src/media.cls.php:247
+msgid "Currently using optimized version of file."
+msgstr "För närvarande används den optimerade versionen av filen."
+
+#: src/media.cls.php:246 src/media.cls.php:271 src/media.cls.php:300
+#: src/media.cls.php:324
+msgid "(optm)"
+msgstr "(optim)"
+
+#: src/placeholder.cls.php:138
+msgid "LQIP image preview for size %s"
+msgstr "LQIP-bildförhandsgranskning för storleken %s"
+
+#: src/placeholder.cls.php:80 tpl/dash/network_dash.tpl.php:30
+msgid "LQIP"
+msgstr "LQIP"
+
+#: src/crawler.cls.php:981
+msgid "Previously existed in blocklist"
+msgstr "Fanns tidigare i blockeringslistan"
+
+#: src/crawler.cls.php:978
+msgid "Manually added to blocklist"
+msgstr "Manuellt tillagt till blockeringslista"
+
+#: src/htaccess.cls.php:326
+msgid "Mobile Agent Rules"
+msgstr "Regler för mobilagenter"
+
+#: src/crawler-map.cls.php:321
+msgid "Sitemap created successfully: %d items"
+msgstr "Webbplatskarta skapades utan problem: %d objekt"
+
+#: src/crawler-map.cls.php:265
+msgid "Sitemap cleaned successfully"
+msgstr "Webbplatskartan rensad"
+
+#: src/admin-display.cls.php:1097
+msgid "Invalid IP"
+msgstr "Ogiltigt IP"
+
+#: src/admin-display.cls.php:1072
+msgid "Value range"
+msgstr "Värdeintervall"
+
+#: src/admin-display.cls.php:1069
+msgid "Smaller than"
+msgstr "Mindre än"
+
+#: src/admin-display.cls.php:1066
+msgid "Larger than"
+msgstr "Större än"
+
+#: src/admin-display.cls.php:1059
+msgid "Zero, or"
+msgstr "Noll, eller"
+
+#: src/admin-display.cls.php:1047
+msgid "Maximum value"
+msgstr "Maximalt värde"
+
+#: src/admin-display.cls.php:1044
+msgid "Minimum value"
+msgstr "Minsta värde"
+
+#: src/admin-display.cls.php:1026
+msgid "Path must end with %s"
+msgstr "Sökväg måste avslutas med %s"
+
+#: src/admin-display.cls.php:1009
+msgid "Invalid rewrite rule"
+msgstr "Ogiltig omskrivningsregel"
+
+#: src/admin-display.cls.php:939
+msgid "currently set to %s"
+msgstr "just nu satt till %s"
+
+#: src/admin-display.cls.php:929
+msgid "This setting is overwritten by the PHP constant %s"
+msgstr "Denna inställning skrivs över av PHP-konstanten %s"
+
+#: src/admin-display.cls.php:131
+msgid "Toolbox"
+msgstr "Verktygslåda"
+
+#: src/admin-display.cls.php:127
+msgid "Database"
+msgstr "Databas"
+
+#: src/admin-display.cls.php:125 tpl/dash/dashboard.tpl.php:56
+msgid "Page Optimization"
+msgstr "Sidoptimering"
+
+#: src/admin-display.cls.php:115 tpl/dash/entry.tpl.php:6
+msgid "Dashboard"
+msgstr "Adminpanel"
+
+#: src/db-optm.cls.php:243
+msgid "Converted to InnoDB successfully."
+msgstr "Konverterade till InnoDB utan problem."
+
+#: src/purge.cls.php:300
+msgid "Cleaned all Gravatar files."
+msgstr "Rensade alla Gravatar-filer."
+
+#: src/purge.cls.php:283
+msgid "Cleaned all LQIP files."
+msgstr "Rensade alla LQIP-filer."
+
+#: src/error.cls.php:173
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#: src/error.cls.php:157
+msgid "The callback validation to your domain failed due to hash mismatch."
+msgstr "Återanropsvalideringen till din domän misslyckades på grund av hash-felmatchning."
+
+#: src/error.cls.php:153
+msgid "Your application is waiting for approval."
+msgstr "Din applikation väntar på godkännande."
+
+#: src/error.cls.php:149
+msgid "Previous request too recent. Please try again after %s."
+msgstr "Tidigare begäran gjordes alldeles nyss. Försök igen om %s."
+
+#: src/error.cls.php:145
+msgid "Previous request too recent. Please try again later."
+msgstr "Tidigare begäran gjordes alldeles nyss. Försök igen senare."
+
+#: src/error.cls.php:140
+msgid "Crawler disabled by the server admin."
+msgstr "Genomsökning inaktiverat av serveradministratören."
+
+#: src/error.cls.php:136
+msgid "Failed to create table %s! SQL: %s."
+msgstr "Misslyckades att skapa tabell %s! SQL: %s."
+
+#: src/error.cls.php:112
+msgid "Could not find %1$s in %2$s."
+msgstr "Kunde inte hitta %1$s i %2$s."
+
+#: src/error.cls.php:88
+msgid "The domain key is not correct. Please try to sync your domain key again."
+msgstr "Domännyckeln är inte korrekt. Försök att synkronisera din domännyckel igen."
+
+#: src/error.cls.php:76
+msgid "There is proceeding queue not pulled yet."
+msgstr "Det finns en pågående kö som inte hämtats än."
+
+#: src/error.cls.php:72
+msgid "Not enough parameters. Please check if the domain key is set correctly"
+msgstr "Inte tillräckligt med parametrar. Kontrollera om domännyckeln är korrekt inställd"
+
+#: src/error.cls.php:68
+msgid "The image list is empty."
+msgstr "Bildlistan är tom."
+
+#: src/error.cls.php:47
+msgid "You will need to set %s to use the online services."
+msgstr "Du måste ställa in %s för att använda onlinetjänsterna."
+
+#: src/error.cls.php:42
+msgid "The setting %s is currently enabled."
+msgstr "Inställningen %s är för närvarande aktiverad."
+
+#: src/task.cls.php:120
+msgid "Every Minute"
+msgstr "Varje minut"
+
+#: tpl/general/settings.tpl.php:223
+msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
+msgstr "Slå PÅ detta alternativ för att visa de senaste nyheterna automatiskt, inklusive snabbkorrigeringar, nya utgåvor, tillgängliga betaversioner och kampanjer."
+
+#: tpl/toolbox/report.tpl.php:72
+msgid "To grant wp-admin access to the LiteSpeed Support Team, please generate a passwordless link for the current logged-in user to be sent with the report."
+msgstr "För att ge LiteSpeeds supportteam tillgång till wp-admin, ber vi dig generera en lösenordsfri länk för den nuvarande inloggade användaren för att bifoga rapporten."
+
+#: tpl/toolbox/report.tpl.php:75
+msgid "Generated links may be managed under <a %s>Settings</a>."
+msgstr "Genererade länkar kan hanteras under <a %s>Inställningar</a>."
+
+#: tpl/toolbox/report.tpl.php:74
+msgid "Please do NOT share the above passwordless link with anyone."
+msgstr "Dela INTE den lösenordsfria länken ovan med någon."
+
+#: tpl/toolbox/report.tpl.php:31
+msgid "To generate a passwordless link for LiteSpeed Support Team access, you must install %s."
+msgstr "För att generera en lösenordsfri länk för att ge åtkomst till supportteamet för LiteSpeed behöver du installera %s."
+
+#: tpl/banner/cloud_news.tpl.php:23 tpl/banner/cloud_news.tpl.php:30
+msgid "Install"
+msgstr "Installera"
+
+#: tpl/cache/settings-esi.tpl.php:36
+msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
+msgstr "Dessa alternativ är endast tillgängliga med LiteSpeed Enterprise Web Server eller QUIC.cloud CDN."
+
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
+msgid "PageSpeed Score"
+msgstr "PageSpeed-poäng"
+
+#: tpl/banner/score.php:55 tpl/banner/score.php:94
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
+msgid "Improved by"
+msgstr "Förbättrat med"
+
+#: tpl/banner/score.php:45 tpl/banner/score.php:84
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
+msgid "After"
+msgstr "Efter"
+
+#: tpl/banner/score.php:34 tpl/banner/score.php:74
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
+msgid "Before"
+msgstr "Före"
+
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
+msgid "Page Load Time"
+msgstr "Laddningstid för sida"
+
+#: tpl/inc/check_cache_disabled.php:10
+msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
+msgstr "För att använda cache-funktionerna måste du ha en LiteSpeed-webbserver eller använda QUIC.cloud-CDN."
+
+#: src/lang.cls.php:173
+msgid "Preserve EXIF/XMP data"
+msgstr "Behåll EXIF/XMP-data"
+
+#: tpl/toolbox/beta_test.tpl.php:25
+msgid "Try GitHub Version"
+msgstr "Prova GitHub-versionen"
+
+#: tpl/cdn/settings.tpl.php:102
+msgid "If you turn any of the above settings OFF, please remove the related file types from the %s box."
+msgstr "Om du slår AV någon av inställningarna ovan, ta bort de relaterade filtyperna från rutan %s."
+
+#: src/doc.cls.php:89
+msgid "Both full and partial strings can be used."
+msgstr "Både hela och delar av strängar kan användas."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:50
+msgid "Images containing these class names will not be lazy loaded."
+msgstr "Bilder som innehåller dessa klassnamn kommer inte laddas med uppskjuten inläsning."
+
+#: src/lang.cls.php:150
+msgid "Lazy Load Image Class Name Excludes"
+msgstr "Uteslutna bildklassnamn för uppskjuten inläsning"
+
+#: tpl/cache/settings-cache.tpl.php:125 tpl/cache/settings-cache.tpl.php:142
+msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
+msgstr "Till exempel, %1$s definierar en TTL på %2$s sekunder för %3$s."
+
+#: tpl/cache/settings-cache.tpl.php:124 tpl/cache/settings-cache.tpl.php:141
+msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
+msgstr "För att definiera en anpassad TTL för en URI, lägg till ett mellanslag följt av TTL-värdet i slutet av URI:n."
+
+#: tpl/banner/new_version.php:87
+msgid "Maybe Later"
+msgstr "Kanske senare"
+
+#: tpl/banner/new_version.php:81
+msgid "Turn On Auto Upgrade"
+msgstr "Slå på automatisk uppgradering"
+
+#: tpl/banner/new_version.php:71 tpl/banner/new_version_dev.tpl.php:24
+#: tpl/toolbox/beta_test.tpl.php:62
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: tpl/banner/new_version.php:63
+msgid "New release %s is available now."
+msgstr "Ny version %s är tillgänglig nu."
+
+#: tpl/banner/new_version.php:59
+msgid "New Version Available!"
+msgstr "Ny version tillgänglig!"
+
+#: tpl/banner/score.php:124
+msgid "<a %s>Support forum</a> | <a %s>Submit a ticket</a>"
+msgstr "<a %s>Supportforum</a> | <a %s>Skicka in ett ärende</a>"
+
+#: tpl/banner/score.php:122
+msgid "Created with ❤️  by LiteSpeed team."
+msgstr "Skapat av LiteSpeed-teamet med ❤️."
+
+#: tpl/banner/score.php:113
+msgid "Sure I'd love to review!"
+msgstr "Självklart, jag recenserar gärna!"
+
+#: tpl/banner/score.php:24
+msgid "Thank You for Using the LiteSpeed Cache Plugin!"
+msgstr "Tack för att du använder tillägget LiteSpeed Cache!"
+
+#: src/activation.cls.php:504
+msgid "Upgraded successfully."
+msgstr "Uppgraderad utan problem."
+
+#: src/activation.cls.php:495 src/activation.cls.php:500
+msgid "Failed to upgrade."
+msgstr "Misslyckades att uppgradera."
+
+#: src/conf.cls.php:704
+msgid "Changed setting successfully."
+msgstr "Inställning ändrades."
+
+#: tpl/cache/settings-esi.tpl.php:27
+msgid "ESI sample for developers"
+msgstr "ESI-exempel för utvecklare"
+
+#: tpl/cache/settings-esi.tpl.php:20
+msgid "Replace %1$s with %2$s."
+msgstr "Ersätt %1$s med %2$s."
+
+#: tpl/cache/settings-esi.tpl.php:18
+msgid "You can turn shortcodes into ESI blocks."
+msgstr "Du kan förvandla kortkoder till ESI-block."
+
+#: tpl/cache/settings-esi.tpl.php:14
+msgid "WpW: Private Cache vs. Public Cache"
+msgstr "WpW: privat cachelagring jämfört med offentlig cachelagring"
+
+#: tpl/page_optm/settings_html.tpl.php:82
+msgid "Google reCAPTCHA will be bypassed automatically."
+msgstr "Google reCAPTHCA förbigås automatiskt."
+
+#: tpl/crawler/settings-simulation.tpl.php:49
+msgid "To crawl for a particular cookie, enter the cookie name, and the values you wish to crawl for. Values should be one per line. There will be one crawler created per cookie value, per simulated role."
+msgstr "För att söka efter en viss cookie anger du namnet på cookien och värdena du vill söka efter. Det ska vara ett värde per rad. Det kommer att skapas en genomsökning per cookievärde, per simulerad roll."
+
+#: src/admin-display.cls.php:206 tpl/crawler/settings-simulation.tpl.php:51
+msgid "Cookie Values"
+msgstr "Värden för cookie"
+
+#: src/admin-display.cls.php:205
+msgid "Cookie Name"
+msgstr "Namn på cookie"
+
+#: src/lang.cls.php:219
+msgid "Cookie Simulation"
+msgstr "Simulering av cookie"
+
+#: tpl/page_optm/settings_html.tpl.php:100
+msgid "Use Web Font Loader library to load Google Fonts asynchronously while leaving other CSS intact."
+msgstr "Använd Web Font Loader-biblioteket för att ladda Google Fonts asynkront medan övrig CSS lämnas intakt."
+
+#: tpl/general/settings_inc.auto_upgrade.tpl.php:15
+msgid "Turn this option ON to have LiteSpeed Cache updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgstr "Slå PÅ detta alternativ för att LiteSpeed Cache ska uppdateras automatiskt när en ny version släpps. Uppdatera manuellt som vanligt om det är satt på AV."
+
+#: src/lang.cls.php:67
+msgid "Automatically Upgrade"
+msgstr "Uppgradera automatiskt"
+
+#: tpl/toolbox/settings-debug.tpl.php:53
+msgid "Your IP"
+msgstr "Ditt IP"
+
+#: src/import.cls.php:156
+msgid "Reset successfully."
+msgstr "Återställning lyckades utan problem."
+
+#: tpl/toolbox/import_export.tpl.php:50
+msgid "This will reset all settings to default settings."
+msgstr "Detta kommer återställa alla inställningar till standardinställningar."
+
+#: tpl/toolbox/import_export.tpl.php:49
+msgid "Reset All Settings"
+msgstr "Återställ alla inställningar"
+
+#: tpl/page_optm/settings_tuning.tpl.php:134
+msgid "Separate critical CSS files will be generated for paths containing these strings."
+msgstr "Separata kritiska CSS-filer kommer att genereras för sökvägar som innehåller dessa strängar."
+
+#: tpl/page_optm/settings_media.tpl.php:182
+msgid "Size list in queue waiting for cron"
+msgstr "Storlekslista i kö och väntar på Cron"
+
+#: tpl/page_optm/settings_media.tpl.php:158
+msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
+msgstr "Om angivet till %1$s innan platshållaren är lokaliserad kommer %2$s-konfigurationen användas."
+
+#: tpl/page_optm/settings_media.tpl.php:156
+msgid "Automatically generate LQIP in the background via a cron-based queue."
+msgstr "Generera automatiskt LQIP i bakgrunden via en cron-baserad kö."
+
+#: tpl/page_optm/settings_media.tpl.php:62
+msgid "This will generate the placeholder with same dimensions as the image if it has the width and height attributes."
+msgstr "Detta genererar en platshållare med samma mått som bilden om den har bredd- och höjdattribut."
+
+#: tpl/page_optm/settings_media.tpl.php:61
+msgid "Responsive image placeholders can help to reduce layout reshuffle when images are loaded."
+msgstr "Responsiva bildplatshållare kan minska hopp i layouten efter att bilderna lästs in."
+
+#: src/lang.cls.php:157
+msgid "Responsive Placeholder"
+msgstr "Responsiv platshållare"
+
+#: tpl/inc/check_cache_disabled.php:22
+msgid "Please enable LiteSpeed Cache in the plugin settings."
+msgstr "Aktivera LiteSpeed Cache i tilläggets inställningar."
+
+#: tpl/inc/check_cache_disabled.php:15
+msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
+msgstr "Aktivera LSCache-modulen på servernivå, eller fråga ditt webbhotell."
+
+#: src/cloud.cls.php:634 src/cloud.cls.php:650
+msgid "Failed to request via WordPress"
+msgstr "Misslyckades att begära med WordPress"
+
+#. Description of the plugin
+msgid "High-performance page caching and site optimization from LiteSpeed"
+msgstr "Högpresterande cachelagring av sidor och optimering av webbplatser från LiteSpeed"
+
+#: src/img-optm.cls.php:1776
+msgid "Reset the optimized data successfully."
+msgstr "Återställt optimerade data utan problem."
+
+#: src/gui.cls.php:781
+msgid "Update %s now"
+msgstr "Uppdatera %s nu"
+
+#: src/gui.cls.php:776
+msgid "View %1$s version %2$s details"
+msgstr "Visa uppgifter om version %2$s av %1$s"
+
+#: src/gui.cls.php:773
+msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
+msgstr "<a href=\"%1$s\" %2$s>Visa detaljer för version %3$s</a> eller <a href=\"%4$s\" %5$s target=\"_blank\">uppdatera nu</a>."
+
+#: src/gui.cls.php:753
+msgid "Install %s"
+msgstr "Installera %s"
+
+#: src/lang.cls.php:30
+msgid "Images previously optimized"
+msgstr "Bilder som tidigare optimerats"
+
+#: tpl/inc/check_cache_disabled.php:34
+msgid "LSCache caching functions on this page are currently unavailable!"
+msgstr "LSCache cachefunktioner på denna sida är för närvarande inte tillgängliga!"
+
+#: src/cloud.cls.php:711
+msgid "%1$s plugin version %2$s required for this action."
+msgstr "Tillägget %1$s version %2$s krävs för denna åtgärd."
+
+#: tpl/img_optm/settings.tpl.php:62
+msgid "Automatically remove the original image backups after fetching optimized images."
+msgstr "Ta automatiskt bort de ursprungliga säkerhetskopiorna för bilder efter att optimerade bilder har hämtats."
+
+#: src/lang.cls.php:170
+msgid "Remove Original Backups"
+msgstr "Ta bort ursprungliga säkerhetskopior"
+
+#: tpl/img_optm/settings.tpl.php:23
+msgid "Automatically request optimization via cron job."
+msgstr "Begär automatiskt optimering via cron-jobb."
+
+#: tpl/img_optm/summary.tpl.php:186
+msgid "A backup of each image is saved before it is optimized."
+msgstr "En säkerhetskopia av varje bild sparas innan den optimeras."
+
+#: src/img-optm.cls.php:1656
+msgid "Switched images successfully."
+msgstr "Bilder byttes."
+
+#: tpl/img_optm/settings.tpl.php:82
+msgid "This can improve quality but may result in larger images than lossy compression will."
+msgstr "Detta kan ge högre kvalitet men kan resultera i större bilder än om förstörande kompression används."
+
+#: tpl/img_optm/settings.tpl.php:81
+msgid "Optimize images using lossless compression."
+msgstr "Optimera bilder med förlustfri komprimering."
+
+#: src/lang.cls.php:172
+msgid "Optimize Losslessly"
+msgstr "Optimera förlustfritt"
+
+#: tpl/img_optm/settings.tpl.php:109
+msgid "Request WebP versions of original images when doing optimization."
+msgstr "Begär WebP-versioner av originalbilderna när de optimeras."
+
+#: tpl/img_optm/settings.tpl.php:49
+msgid "Optimize images and save backups of the originals in the same folder."
+msgstr "Optimera bilder och spara säkerhetskopior av originalen i samma mapp."
+
+#: src/lang.cls.php:169
+msgid "Optimize Original Images"
+msgstr "Optimera originalbilder"
+
+#: tpl/page_optm/settings_css.tpl.php:174
+msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
+msgstr "När detta alternativ är %s kommer även Google Fonts laddas asynkront."
+
+#: src/purge.cls.php:230
+msgid "Cleaned all Critical CSS files."
+msgstr "Rensade alla kritiska CSS-filer."
+
+#: tpl/page_optm/settings_css.tpl.php:256
+msgid "This will inline the asynchronous CSS library to avoid render blocking."
+msgstr "Detta integrerar det asynkrona CSS-biblioteket för att undvika renderingsblockering."
+
+#: tpl/page_optm/settings_localization.tpl.php:62
+#: tpl/page_optm/settings_media.tpl.php:198
+msgid "Run Queue Manually"
+msgstr "Kör kö manuellt"
+
+#: tpl/page_optm/settings_css.tpl.php:97 tpl/page_optm/settings_css.tpl.php:207
+msgid "URL list in %s queue waiting for cron"
+msgstr "URL-lista i kön %s väntar på cron"
+
+#: tpl/page_optm/settings_css.tpl.php:85 tpl/page_optm/settings_css.tpl.php:195
+msgid "Last requested cost"
+msgstr "Senast begärda kostnad"
+
+#: tpl/dash/dashboard.tpl.php:437 tpl/dash/dashboard.tpl.php:470
+#: tpl/dash/dashboard.tpl.php:503 tpl/page_optm/settings_css.tpl.php:82
+#: tpl/page_optm/settings_css.tpl.php:192
+#: tpl/page_optm/settings_media.tpl.php:170
+msgid "Last generated"
+msgstr "Senast genererad"
+
+#: tpl/page_optm/settings_media.tpl.php:162
+msgid "If set to %s this is done in the foreground, which may slow down page load."
+msgstr "Om angivet till %s så kommer detta göras i förgrunden, vilket kan göra sidladdningen långsammare."
+
+#: tpl/page_optm/settings_css.tpl.php:173
+msgid "Automatic generation of critical CSS is in the background via a cron-based queue."
+msgstr "Automatiskt generering av kritisk CSS i bakgrunden via en cron-baserad kö."
+
+#: tpl/page_optm/settings_css.tpl.php:169
+msgid "Optimize CSS delivery."
+msgstr "Optimera CSS-leverans."
+
+#: tpl/toolbox/purge.tpl.php:71
+msgid "This will delete all generated critical CSS files"
+msgstr "Detta kommer ta bort alla genererade kritiska CSS-filer"
+
+#: tpl/dash/dashboard.tpl.php:431 tpl/toolbox/purge.tpl.php:70
+msgid "Critical CSS"
+msgstr "Kritisk CSS"
+
+#: src/doc.cls.php:36
+msgid "This site utilizes caching in order to facilitate a faster response time and better user experience. Caching potentially stores a duplicate copy of every web page that is on display on this site. All cache files are temporary, and are never accessed by any third party, except as necessary to obtain technical support from the cache plugin vendor. Cache files expire on a schedule set by the site administrator, but may easily be purged by the admin before their natural expiration, if necessary. We may use QUIC.cloud services to process & cache your data temporarily."
+msgstr "Denna webbplats använder cache för att främja en snabbare responstid och en bättre användarupplevelse. Cachelagring skapar potentiellt kopior av alla sidor som visas på denna webbplats. Alla cachefiler är tillfälliga och nås aldrig av en tredje part, förutom vid behov för teknisk support från cachetilläggs-leverantören. Cachefiler löper ut efter en tidsperiod som angetts av webbplatsadministratören, men kan vid behov enkelt rensas tidigare av administratören. Det är möjligt att vi använder molntjänster från QUIC.cloud för att bearbeta och tillfälligt spara dina data."
+
+#: tpl/toolbox/heartbeat.tpl.php:18
+msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
+msgstr "Om detta inaktiveras kan WordPress-åtgärder som utlöses av AJAX sluta fungera."
+
+#: src/utility.cls.php:236
+msgid "right now"
+msgstr "just nu"
+
+#: src/utility.cls.php:236
+msgid "just now"
+msgstr "precis nu"
+
+#: tpl/img_optm/summary.tpl.php:251
+msgid "Saved"
+msgstr "Sparad"
+
+#: tpl/img_optm/summary.tpl.php:245
+#: tpl/page_optm/settings_localization.tpl.php:51
+msgid "Last ran"
+msgstr "Senast körd"
+
+#: tpl/img_optm/settings.tpl.php:67 tpl/img_optm/summary.tpl.php:237
+msgid "You will be unable to Revert Optimization once the backups are deleted!"
+msgstr "Du kommer inte att kunna återställa optimeringen efter att säkerhetskopiorna har tagits bort!"
+
+#: tpl/img_optm/settings.tpl.php:66 tpl/img_optm/summary.tpl.php:236
+msgid "This is irreversible."
+msgstr "Detta är oåterkalleligt."
+
+#: tpl/img_optm/summary.tpl.php:256
+msgid "Remove Original Image Backups"
+msgstr "Ta bort säkerhetskopiorna för originalbild"
+
+#: tpl/img_optm/summary.tpl.php:255
+msgid "Are you sure you want to remove all image backups?"
+msgstr "Är du säker på att du vill ta bort alla säkerhetskopior av bilder?"
+
+#: tpl/crawler/blacklist.tpl.php:25 tpl/img_optm/summary.tpl.php:200
+msgid "Total"
+msgstr "Totalt"
+
+#: tpl/img_optm/summary.tpl.php:197 tpl/img_optm/summary.tpl.php:248
+msgid "Files"
+msgstr "Filer"
+
+#: tpl/img_optm/summary.tpl.php:193
+msgid "Last calculated"
+msgstr "Senast beräknad"
+
+#: tpl/img_optm/summary.tpl.php:208
+msgid "Calculate Original Image Storage"
+msgstr "Beräkna lagringsutrymme för bildoriginal"
+
+#: tpl/img_optm/summary.tpl.php:182
+msgid "Storage Optimization"
+msgstr "Lagringsoptimering"
+
+#: tpl/img_optm/settings.tpl.php:155
+msgid "Enable replacement of WebP in %s elements that were generated outside of WordPress logic."
+msgstr "Aktivera ersättning av WebP i %s-element som genererats utanför WordPress-logiken."
+
+#: src/lang.cls.php:175
+msgid "WebP For Extra srcset"
+msgstr "WebP för extra srcset"
+
+#: tpl/cdn/settings.tpl.php:128 tpl/img_optm/settings.tpl.php:141
+msgid "Use the format %1$s or %2$s (element is optional)."
+msgstr "Använd formatet %1$s eller %2$s (element är valfritt)."
+
+#: tpl/cdn/settings.tpl.php:127 tpl/img_optm/settings.tpl.php:140
+msgid "Only attributes listed here will be replaced."
+msgstr "Endast attribut listade här kommer att ersättas."
+
+#: tpl/img_optm/settings.tpl.php:139
+msgid "Specify which element attributes will be replaced with WebP."
+msgstr "Ange vilka elementattribut som ska ersättas med WebP."
+
+#: src/lang.cls.php:174
+msgid "WebP Attribute To Replace"
+msgstr "WebP-attribut att ersätta"
+
+#: tpl/cdn/settings.tpl.php:165
+msgid "Only files within these directories will be pointed to the CDN."
+msgstr "Bara filer i dessa kataloger kommer att peka mot CDN:et."
+
+#: src/lang.cls.php:206
+msgid "Included Directories"
+msgstr "Inkluderade kataloger"
+
+#: tpl/cache/settings-purge.tpl.php:153
+msgid "A Purge All will be executed when WordPress runs these hooks."
+msgstr "En ”Töm allt” kommer utföras när WordPress kör dessa åtgärds-hookar."
+
+#: src/lang.cls.php:182
+msgid "Purge All Hooks"
+msgstr "Töm alla åtgärds-hookar"
+
+#: src/purge.cls.php:192
+msgid "Purged all caches successfully."
+msgstr "All cache tömdes."
+
+#: src/gui.cls.php:479 src/gui.cls.php:579 src/gui.cls.php:629
+msgid "LSCache"
+msgstr "LSCache"
+
+#: src/gui.cls.php:423
+msgid "Forced cacheable"
+msgstr "Tvingad cachebarhet"
+
+#: src/lang.cls.php:100
+msgid "Force Cache URIs"
+msgstr "Tvinga cachelagring av URI:er"
+
+#: tpl/cache/network_settings-excludes.tpl.php:7
+#: tpl/cache/settings-excludes.tpl.php:7
+msgid "Exclude Settings"
+msgstr "Inställningar för exkluderingar"
+
+#: tpl/toolbox/settings-debug.tpl.php:23
+msgid "This will disable LSCache and all optimization features for debug purpose."
+msgstr "I felsökningssyfte kommer detta inaktivera LSCache och alla optimeringsfunktioner."
+
+#: src/lang.cls.php:224 tpl/inc/disabled_all.php:5
+msgid "Disable All Features"
+msgstr "Inaktivera alla funktioner"
+
+#: src/gui.cls.php:506 src/gui.cls.php:666 tpl/toolbox/purge.tpl.php:61
+msgid "Opcode Cache"
+msgstr "Opcode Cache"
+
+#: src/gui.cls.php:487 src/gui.cls.php:637 tpl/toolbox/purge.tpl.php:43
+msgid "CSS/JS Cache"
+msgstr "CSS/JS cache"
+
+#: src/gui.cls.php:734 tpl/img_optm/summary.tpl.php:175
+msgid "Remove all previous unfinished image optimization requests."
+msgstr "Ta bort alla tidigare oavslutade förfrågningar om bildoptimering."
+
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:177
+msgid "Clean Up Unfinished Data"
+msgstr "Rensa oavslutade data"
+
+#: src/lang.cls.php:31
+msgid "Images failed with other errors"
+msgstr "Bilder misslyckades med andra fel"
+
+#: src/lang.cls.php:34
+msgid "Images with wrong meta"
+msgstr "Bilder med fel meta"
+
+#: tpl/banner/slack.php:23
+msgid "Join Us on Slack"
+msgstr "Kom med oss på Slack"
+
+#: tpl/banner/slack.php:14
+msgid "Join the %s community."
+msgstr "Gå med i %s-communityn."
+
+#: tpl/banner/slack.php:13
+msgid "Want to connect with other LiteSpeed users?"
+msgstr "Vill du komma i kontakt med andra LiteSpeed-användare?"
+
+#: tpl/cdn/settings.tpl.php:203
+msgid "Get it from <a %1$s>%2$s</a>."
+msgstr "Hämta det från <a %1$s>%2$s</a>."
+
+#: tpl/cdn/settings.tpl.php:202
+msgid "Your API key / token is used to access %s APIs."
+msgstr "Din API-nyckel/token används för att få tillgång till %s API:er."
+
+#: tpl/cdn/settings.tpl.php:213
+msgid "Your Email address on %s."
+msgstr "Din e-postadress på %s."
+
+#: tpl/cdn/settings.tpl.php:193
+msgid "Use %s API functionality."
+msgstr "Använd %s API-funktionalitet."
+
+#: tpl/cdn/settings.tpl.php:79
+msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
+msgstr "För att slumpa CDN-värdnamn, definiera flera värdnamn för samma resurser."
+
+#: tpl/inc/admin_footer.php:15
+msgid "Join LiteSpeed Slack community"
+msgstr "Gå med i LiteSpeeds Slack-community"
+
+#: tpl/inc/admin_footer.php:13
+msgid "Visit LSCWP support forum"
+msgstr "Besök LSCWP supportforum"
+
+#: tpl/inc/admin_footer.php:8
+msgid "Rate %s on %s"
+msgstr "Betygsätt %s på %s"
+
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
+msgid "Images notified to pull"
+msgstr "Bilder meddelade om att hämtas"
+
+#: src/lang.cls.php:32
+msgid "Image files missing"
+msgstr "Bildfiler som saknas"
+
+#: tpl/img_optm/summary.tpl.php:280 tpl/img_optm/summary.tpl.php:307
+msgid "What is a group?"
+msgstr "Vad är en grupp?"
+
+#: src/admin-display.cls.php:1165
+msgid "%s image"
+msgstr "%s bild"
+
+#: src/admin-display.cls.php:1162
+msgid "%s group"
+msgstr "%s grupp"
+
+#: src/admin-display.cls.php:1152
+msgid "%s images"
+msgstr "%s bilder"
+
+#: src/admin-display.cls.php:1149
+msgid "%s groups"
+msgstr "%s grupper"
+
+#: src/crawler.cls.php:826
+msgid "Guest"
+msgstr "Gäst"
+
+#: tpl/crawler/settings-simulation.tpl.php:23
+msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
+msgstr "För att genomsöka webbplatsen som en inloggad användare anger du de användar-ID:n som ska simuleras."
+
+#: src/lang.cls.php:218
+msgid "Role Simulation"
+msgstr "Rollsimulering"
+
+#: tpl/crawler/summary.tpl.php:170
+msgid "running"
+msgstr "körs"
+
+#: tpl/db_optm/manage.tpl.php:167
+msgid "Size"
+msgstr "Storlek"
+
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:556
+msgid "Ended reason"
+msgstr "Avslutad anledning"
+
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:549
+msgid "Last interval"
+msgstr "Senaste intervallet"
+
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:542
+msgid "Current crawler started at"
+msgstr "Nuvarande genomsökare började kl"
+
+#: tpl/crawler/summary.tpl.php:78
+msgid "Run time for previous crawler"
+msgstr "Körtid för tidigare genomsökning"
+
+#: tpl/crawler/summary.tpl.php:72 tpl/crawler/summary.tpl.php:79
+msgid "%d seconds"
+msgstr "%d sekunder"
+
+#: tpl/crawler/summary.tpl.php:71
+msgid "Last complete run time for all crawlers"
+msgstr "Sista fullständiga körtid för alla genomsökare"
+
+#: tpl/crawler/summary.tpl.php:57
+msgid "Current sitemap crawl started at"
+msgstr "Nuvarande genomsökning av webbplatskarta började kl"
+
+#: tpl/cache/settings_inc.object.tpl.php:210
+msgid "Save transients in database when %1$s is %2$s."
+msgstr "Spara transienter i databasen när %1$s är %2$s."
+
+#: src/lang.cls.php:94
+msgid "Store Transients"
+msgstr "Lagra transienter"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "If %1$s is %2$s, then %3$s must be populated!"
+msgstr "Om %1$s är %2$s, så måste %3$s vara ifylld!"
+
+#: tpl/crawler/settings-general.tpl.php:146
+msgid "Server allowed max value"
+msgstr "Max-värde servern tillåter"
+
+#: tpl/crawler/settings-general.tpl.php:141
+msgid "Server enforced value"
+msgstr "Framtvingat värde av servern"
+
+#: tpl/crawler/settings-general.tpl.php:40
+msgid "Server allowed min value"
+msgstr "Server tillåter min värde"
+
+#: tpl/cache/more_settings_tip.tpl.php:12
+#: tpl/cache/settings-excludes.tpl.php:61
+#: tpl/cache/settings-excludes.tpl.php:94 tpl/cdn/settings.tpl.php:78
+#: tpl/crawler/settings-general.tpl.php:39
+#: tpl/crawler/settings-general.tpl.php:140
+#: tpl/crawler/settings-general.tpl.php:145
+msgid "NOTE"
+msgstr "NOTERA"
+
+#: src/admin-display.cls.php:1118
+msgid "Server variable(s) %s available to override this setting."
+msgstr "Servervariabel(er) %s finns tillgänglig(a) för att åsidosätta denna inställning."
+
+#: src/admin-display.cls.php:1117 tpl/cache/settings-esi.tpl.php:95
+#: tpl/page_optm/settings_css.tpl.php:176
+#: tpl/page_optm/settings_html.tpl.php:85
+#: tpl/page_optm/settings_media_exc.tpl.php:26
+#: tpl/page_optm/settings_tuning.tpl.php:35
+#: tpl/page_optm/settings_tuning.tpl.php:56
+#: tpl/page_optm/settings_tuning.tpl.php:101
+#: tpl/page_optm/settings_tuning.tpl.php:165
+#: tpl/page_optm/settings_tuning.tpl.php:186
+#: tpl/toolbox/edit_htaccess.tpl.php:54 tpl/toolbox/edit_htaccess.tpl.php:71
+msgid "API"
+msgstr "API"
+
+#: src/purge.cls.php:379
+msgid "Reset the entire opcode cache successfully."
+msgstr "Återställde hela opcode cachen utan problem."
+
+#: src/purge.cls.php:367
+msgid "Opcode cache is not enabled."
+msgstr "Opcode cache är inte aktiverat."
+
+#: src/import.cls.php:132
+msgid "Imported setting file %s successfully."
+msgstr "Importerade inställningsfil %s utan problem."
+
+#: src/import.cls.php:75
+msgid "Import failed due to file error."
+msgstr "Importen misslyckades på grund av filfel."
+
+#: tpl/page_optm/settings_css.tpl.php:44 tpl/page_optm/settings_js.tpl.php:35
+msgid "How to Fix Problems Caused by CSS/JS Optimization."
+msgstr "Hur man åtgärdar problem som orsakas av CSS/JS-optimering."
+
+#: tpl/cache/settings-advanced.tpl.php:50
+msgid "This will generate extra requests to the server, which will increase server load."
+msgstr "Detta kommer att generera extra förfrågningar till servern, vilket ökar belastningen på servern."
+
+#: tpl/cache/settings-advanced.tpl.php:46
+msgid "When a visitor hovers over a page link, preload that page. This will speed up the visit to that link."
+msgstr "När en besökare för pekaren över en länk till en sida, förladda den sidan. Detta kommer snabba upp besöket till den länken."
+
+#: src/lang.cls.php:184
+msgid "Instant Click"
+msgstr "Direktklick"
+
+#: tpl/toolbox/purge.tpl.php:62
+msgid "Reset the entire opcode cache"
+msgstr "Återställ hela opcode cachen"
+
+#: tpl/toolbox/import_export.tpl.php:46
+msgid "This will import settings from a file and override all current LiteSpeed Cache settings."
+msgstr "Detta kommer att importerar inställningar från en fil och åsidosätta alla nuvarande ”LightSpeed Cache”-inställningar."
+
+#: tpl/toolbox/import_export.tpl.php:41
+msgid "Last imported"
+msgstr "Senast importerad"
+
+#: tpl/toolbox/import_export.tpl.php:35
+msgid "Import"
+msgstr "Importera"
+
+#: tpl/toolbox/import_export.tpl.php:27
+msgid "Import Settings"
+msgstr "Importinställningar"
+
+#: tpl/toolbox/import_export.tpl.php:24
+msgid "This will export all current LiteSpeed Cache settings and save them as a file."
+msgstr "Detta kommer att exportera alla nuvarande inställningar för LiteSpeed Cache och spara dem som en fil."
+
+#: tpl/toolbox/import_export.tpl.php:19
+msgid "Last exported"
+msgstr "Senast exporterad"
+
+#: tpl/toolbox/import_export.tpl.php:14
+msgid "Export"
+msgstr "Exportera"
+
+#: tpl/toolbox/import_export.tpl.php:9
+msgid "Export Settings"
+msgstr "Exportinställningar"
+
+#: tpl/toolbox/entry.tpl.php:10
+msgid "Import / Export"
+msgstr "Importera/exportera"
+
+#: tpl/cache/settings_inc.object.tpl.php:144
+msgid "Database to be used"
+msgstr "Databas som ska användas"
+
+#: src/lang.cls.php:89
+msgid "Redis Database ID"
+msgstr "Redis databas-ID"
+
+#: tpl/cache/settings_inc.object.tpl.php:131
+msgid "Specify the password used when connecting."
+msgstr "Ange lösenordet som används när du ansluter."
+
+#: src/lang.cls.php:88
+msgid "Password"
+msgstr "Lösenord"
+
+#: tpl/cache/settings_inc.object.tpl.php:118
+msgid "Only available when %s is installed."
+msgstr "Endast tillgänglig när %s är installerad."
+
+#: src/lang.cls.php:87
+msgid "Username"
+msgstr "Användarnamn"
+
+#: tpl/cache/settings_inc.object.tpl.php:78
+msgid "Your %s Hostname or IP address."
+msgstr "Ditt värdnamn eller IP-adress för %s."
+
+#: src/lang.cls.php:83
+msgid "Method"
+msgstr "Metod"
+
+#: src/purge.cls.php:420
+msgid "Purge all object caches successfully."
+msgstr "All objektcache tömdes."
+
+#: src/purge.cls.php:407
+msgid "Object cache is not enabled."
+msgstr "Objektcache är inte aktiverat."
+
+#: tpl/cache/settings_inc.object.tpl.php:197
+msgid "Improve wp-admin speed through caching. (May encounter expired data)"
+msgstr "Förbättra hastighet i wp-admin genom cachelagring. (Kan stöta på utgångna data)"
+
+#: src/lang.cls.php:93
+msgid "Cache WP-Admin"
+msgstr "Cachelagra WP-Admin"
+
+#: src/lang.cls.php:92
+msgid "Persistent Connection"
+msgstr "Bestående anslutning"
+
+#: src/lang.cls.php:91
+msgid "Do Not Cache Groups"
+msgstr "Cachelagra inte grupper"
+
+#: tpl/cache/settings_inc.object.tpl.php:157
+msgid "Groups cached at the network level."
+msgstr "Grupper cachelagrade på nätverksnivå."
+
+#: src/lang.cls.php:90
+msgid "Global Groups"
+msgstr "Globala grupper"
+
+#: tpl/cache/settings_inc.object.tpl.php:52
+msgid "Connection Test"
+msgstr "Anslutningstest"
+
+#: tpl/cache/settings_inc.object.tpl.php:50
+#: tpl/cache/settings_inc.object.tpl.php:51
+msgid "%s Extension"
+msgstr "%s-utökning"
+
+#: tpl/cache/settings_inc.object.tpl.php:47 tpl/crawler/blacklist.tpl.php:32
+#: tpl/crawler/summary.tpl.php:124
+msgid "Status"
+msgstr "Status"
+
+#: tpl/cache/settings_inc.object.tpl.php:105
+msgid "Default TTL for cached objects."
+msgstr "Standard-TTL för cachelagrade objekt."
+
+#: src/lang.cls.php:86
+msgid "Default Object Lifetime"
+msgstr "Standardlivstid för objekt"
+
+#: src/lang.cls.php:85
+msgid "Port"
+msgstr "Port"
+
+#: src/lang.cls.php:84
+msgid "Host"
+msgstr "Server"
+
+#: src/gui.cls.php:496 src/gui.cls.php:656 src/lang.cls.php:82
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
+msgid "Object Cache"
+msgstr "Objektcache"
+
+#: tpl/cache/settings_inc.object.tpl.php:20
+msgid "Failed"
+msgstr "Misslyckades"
+
+#: tpl/cache/settings_inc.object.tpl.php:17
+msgid "Passed"
+msgstr "Godkänd"
+
+#: tpl/cache/settings_inc.object.tpl.php:14
+msgid "Not Available"
+msgstr "Inte tillgänglig"
+
+#: tpl/toolbox/purge.tpl.php:53
+msgid "Purge all the object caches"
+msgstr "Töm alla objektcacher"
+
+#: src/cdn/cloudflare.cls.php:250 src/cdn/cloudflare.cls.php:272
+msgid "Failed to communicate with Cloudflare"
+msgstr "Misslyckades att kommunicera med Cloudflare"
+
+#: src/cdn/cloudflare.cls.php:263
+msgid "Communicated with Cloudflare successfully."
+msgstr "Kommunicerade med Cloudflare utan problem."
+
+#: src/cdn/cloudflare.cls.php:159
+msgid "No available Cloudflare zone"
+msgstr "Ingen tillgänglig Cloudflare-zon"
+
+#: src/cdn/cloudflare.cls.php:145
+msgid "Notified Cloudflare to purge all successfully."
+msgstr "Meddelade Cloudflare att tömma allt."
+
+#: src/cdn/cloudflare.cls.php:129
+msgid "Cloudflare API is set to off."
+msgstr "Cloudflare API är avstängt."
+
+#: src/cdn/cloudflare.cls.php:112
+msgid "Notified Cloudflare to set development mode to %s successfully."
+msgstr "Meddelade Cloudflare att sätta utvecklingsläget till %s."
+
+#: tpl/cdn/settings.tpl.php:228
+msgid "Once saved, it will be matched with the current list and completed automatically."
+msgstr "När den har sparats kommer den att matchas med den aktuella listan och slutföras automatiskt."
+
+#: tpl/cdn/settings.tpl.php:227
+msgid "You can just type part of the domain."
+msgstr "Du kan bara skriva in en del av domänen."
+
+#: tpl/cdn/settings.tpl.php:219
+msgid "Domain"
+msgstr "Domän"
+
+#: src/lang.cls.php:208
+msgid "Cloudflare API"
+msgstr "Cloudflare API"
+
+#: tpl/cdn/manage.tpl.php:77
+msgid "Purge Everything"
+msgstr "Töm allt"
+
+#: tpl/cdn/manage.tpl.php:71
+msgid "Cloudflare Cache"
+msgstr "Cloudflare Cache"
+
+#: tpl/cdn/manage.tpl.php:65
+msgid "Development Mode will be turned off automatically after three hours."
+msgstr "Utvecklingsläge kommer att stängas av automatiskt efter tre timmar."
+
+#: tpl/cdn/manage.tpl.php:64
+msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
+msgstr "Kringgå Cloudflares cachelagring tillfälligt. Detta gör att ändringar av ursprungsservern kan ses i realtid."
+
+#: tpl/cdn/manage.tpl.php:56
+msgid "Development mode will be automatically turned off in %s."
+msgstr "Utvecklingsläge stängs automatiskt av om %s."
+
+#: tpl/cdn/manage.tpl.php:55
+msgid "Current status is %s."
+msgstr "Nuvarande status är %s."
+
+#: tpl/cdn/manage.tpl.php:49
+msgid "Current status is %1$s since %2$s."
+msgstr "Nuvarande status är %1$s sedan %2$s."
+
+#: tpl/cdn/manage.tpl.php:40
+msgid "Check Status"
+msgstr "Kontrollera status"
+
+#: tpl/cdn/manage.tpl.php:37
+msgid "Turn OFF"
+msgstr "Stäng AV"
+
+#: tpl/cdn/manage.tpl.php:34
+msgid "Turn ON"
+msgstr "Slå PÅ"
+
+#: tpl/cdn/manage.tpl.php:32
+msgid "Development Mode"
+msgstr "Utvecklingsläge"
+
+#: tpl/cdn/manage.tpl.php:29
+msgid "Cloudflare Zone"
+msgstr "Cloudflare-zon"
+
+#: tpl/cdn/manage.tpl.php:28
+msgid "Cloudflare Domain"
+msgstr "Cloudflare-domän"
+
+#: src/gui.cls.php:646 tpl/cdn/manage.tpl.php:17
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: tpl/page_optm/settings_html.tpl.php:34
+msgid "For example"
+msgstr "Till exempel"
+
+#: tpl/page_optm/settings_html.tpl.php:33
+msgid "Prefetching DNS can reduce latency for visitors."
+msgstr "Förhämtning av DNS kan minska svarstiden för besökare."
+
+#: src/lang.cls.php:126
+msgid "DNS Prefetch"
+msgstr "DNS Prefetch"
+
+#: tpl/page_optm/settings_media.tpl.php:31
+msgid "Adding Style to Your Lazy-Loaded Images"
+msgstr "Lägg till en stil på bilder med uppskjuten inläsning"
+
+#: src/admin-display.cls.php:980 src/admin-display.cls.php:985
+#: tpl/cdn/settings.tpl.php:99
+msgid "Default value"
+msgstr "Standardvärde"
+
+#: tpl/cdn/settings.tpl.php:96
+msgid "Static file type links to be replaced by CDN links."
+msgstr "Statiska filtypslänkar som ska ersättas med CDN-länkar."
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:15
+msgid "For example, to drop parameters beginning with %s, %s can be used here."
+msgstr "Till exempel: för att ignorera parametrar som börjar med %s så kan %s användas här."
+
+#: src/lang.cls.php:80
+msgid "Drop Query String"
+msgstr "Ignorera query-sträng"
+
+#: tpl/cache/settings-advanced.tpl.php:32
+msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
+msgstr "Aktivera detta alternativ om du använder både HTTP och HTTPS på samma domän och märker oregelbundenhet i cachelagringen."
+
+#: src/lang.cls.php:183
+msgid "Improve HTTP/HTTPS Compatibility"
+msgstr "Förbättra HTTP/HTTPS-kompatibilitet"
+
+#: tpl/img_optm/summary.tpl.php:378
+msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
+msgstr "Ta bort alla tidigare bildoptimeringsförfrågningar/resultat, återställ slutförda optimeringar och ta bort alla optimeringsfiler."
+
+#: tpl/img_optm/summary.tpl.php:374
+msgid "Destroy All Optimization Data"
+msgstr "Förstör alla optimeringsdata"
+
+#: tpl/img_optm/summary.tpl.php:324
+msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
+msgstr "Sök efter nya ännu inte optimerade miniatyrstorlekar för bilder och skicka nödvändiga bildoptimeringsförfrågningar igen."
+
+#: tpl/img_optm/settings.tpl.php:96
+msgid "This will increase the size of optimized files."
+msgstr "Detta ökar storleken på optimerade filer."
+
+#: tpl/img_optm/settings.tpl.php:95
+msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
+msgstr "Behåll EXIF-data (copyright, GPS, kommentarer, nyckelord och så vidare) vid optimering."
+
+#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
+msgid "Clear Log"
+msgstr "Rensa logg"
+
+#: thirdparty/woocommerce.content.tpl.php:23
+msgid "To test the cart, visit the <a %s>FAQ</a>."
+msgstr "För att testa varukorgen, besök <a %s>vanliga frågor</a>."
+
+#: src/utility.cls.php:239
+msgid " %s ago"
+msgstr " %s sedan"
+
+#: src/media.cls.php:315
+msgid "WebP saved %s"
+msgstr "WebP sparade %s"
+
+#: tpl/toolbox/report.tpl.php:51
+msgid "If you run into any issues, please refer to the report number in your support message."
+msgstr "Om du stöter på problem, hänvisa till rapportnumret i ditt supportmeddelande."
+
+#: tpl/inc/api_key.php:11
+msgid "This will also generate an API key from LiteSpeed's Server."
+msgstr "Detta kommer även att generera en API-nyckel från LiteSpeeds server."
+
+#: tpl/img_optm/summary.tpl.php:133
+msgid "Last pull initiated by cron at %s."
+msgstr "Senaste hämtning initierad av cron för %s."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Images will be pulled automatically if the cron job is running."
+msgstr "Bilder hämtas automatiskt om cronjobbet körs."
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Only press the button if the pull cron job is disabled."
+msgstr "Tryck bara på knappen om cronjobbet för hämtning är inaktiverat."
+
+#: tpl/img_optm/summary.tpl.php:94
+msgid "Pull Images"
+msgstr "Hämta bilder"
+
+#: tpl/img_optm/summary.tpl.php:118
+msgid "This process is automatic."
+msgstr "Denna process är automatisk."
+
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
+msgid "Last Request"
+msgstr "Senaste förfrågan"
+
+#: src/lang.cls.php:27
+msgid "Images failed to pull"
+msgstr "Misslyckades att hämta bilder"
+
+#: src/lang.cls.php:28 src/lang.cls.php:29
+msgid "Images failed to fetch"
+msgstr "Misslyckades att hämta bilder"
+
+#: tpl/img_optm/summary.tpl.php:339
+msgid "Images Pulled"
+msgstr "Bilder hämtade"
+
+#: tpl/toolbox/entry.tpl.php:19
+msgid "Report"
+msgstr "Rapport"
+
+#: tpl/toolbox/report.tpl.php:97
+msgid "Send this report to LiteSpeed. Refer to this report number when posting in the WordPress support forum."
+msgstr "Skicka rapporten till LiteSpeed. Hänvisa till detta rapportnummer när du publicerar i WordPress supportforum."
+
+#: tpl/toolbox/report.tpl.php:93 tpl/toolbox/report.tpl.php:94
+msgid "Send to LiteSpeed"
+msgstr "Skicka till LiteSpeed"
+
+#: tpl/toolbox/report.tpl.php:46
+msgid "Report date"
+msgstr "Rapportdatum"
+
+#: tpl/toolbox/report.tpl.php:45
+msgid "Report number"
+msgstr "Rapportnummer"
+
+#: thirdparty/woocommerce.content.tpl.php:91
+msgid "Privately cache cart when not empty."
+msgstr "Cachelagra varukorg privat när den inte är tom."
+
+#: thirdparty/woocommerce.content.tpl.php:86
+msgid "Privately Cache Cart"
+msgstr "Privat varukorgscache"
+
+#: src/media.cls.php:196
+msgid "LiteSpeed Optimization"
+msgstr "LiteSpeed-optimering"
+
+#: src/lang.cls.php:131
+msgid "Load Google Fonts Asynchronously"
+msgstr "Ladda Google Fonts asynkront"
+
+#: src/lang.cls.php:66
+msgid "Browser Cache TTL"
+msgstr "TTL för webbläsarcache"
+
+#: tpl/img_optm/summary.tpl.php:346
+msgid "Results can be checked in <a %s>Media Library</a>."
+msgstr "Resultat kan kontrolleras i <a %s>Mediabibliotek</a>."
+
+#: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
+#: tpl/dash/dashboard.tpl.php:49 tpl/img_optm/summary.tpl.php:62
+#: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: src/lang.cls.php:26
+msgid "Images optimized and pulled"
+msgstr "Bilder optimerade och hämtade"
+
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
+msgid "Images requested"
+msgstr "Bilder som begärts"
+
+#: tpl/img_optm/summary.tpl.php:314
+msgid "Images not yet requested"
+msgstr "Bilder ännu inte begärda"
+
+#: tpl/img_optm/summary.tpl.php:276 tpl/img_optm/summary.tpl.php:303
+msgid "Images total"
+msgstr "Bilder totalt"
+
+#: src/img-optm.cls.php:1713
+msgid "Switched to optimized file successfully."
+msgstr "Bytte till optimerad fil utan problem."
+
+#: src/img-optm.cls.php:1706
+msgid "Restored original file successfully."
+msgstr "Återställde originalfilen utan problem."
+
+#: src/img-optm.cls.php:1690
+msgid "Enabled WebP file successfully."
+msgstr "Aktiverade WebP-fil utan problem."
+
+#: src/img-optm.cls.php:1684
+msgid "Disabled WebP file successfully."
+msgstr "Inaktiverade WebP-fil utan problem."
+
+#: tpl/img_optm/settings.media_webp.tpl.php:14
+msgid "Significantly improve load time by replacing images with their optimized %s versions."
+msgstr "Förbättra laddningstiden avsevärt genom att ersätta bilder med sina optimerade %s-versioner."
+
+#: src/lang.cls.php:188
+msgid "Image WebP Replacement"
+msgstr "Utbyte av WebP-bild"
+
+#: tpl/cache/settings-excludes.tpl.php:123
+msgid "Selected roles will be excluded from cache."
+msgstr "Valda roller kommer att exkluderas från cache."
+
+#: tpl/general/entry.tpl.php:7 tpl/page_optm/entry.tpl.php:12
+msgid "Tuning"
+msgstr "Finjustering"
+
+#: tpl/page_optm/settings_tuning.tpl.php:228
+msgid "Selected roles will be excluded from all optimizations."
+msgstr "Valda roller kommer att exkluderas från alla optimeringar."
+
+#: src/lang.cls.php:142
+msgid "Role Excludes"
+msgstr "Rollexkluderingar"
+
+#: tpl/general/settings_tuning.tpl.php:7
+#: tpl/page_optm/settings_tuning.tpl.php:18
+msgid "Tuning Settings"
+msgstr "Finjusteringsinställningar"
+
+#: tpl/cache/settings-excludes.tpl.php:96
+msgid "If the tag slug is not found, the tag will be removed from the list on save."
+msgstr "Om etikettens slug inte hittas kommer etiketten att tas bort från listan när du sparar."
+
+#: tpl/cache/settings-excludes.tpl.php:63
+msgid "If the category name is not found, the category will be removed from the list on save."
+msgstr "Om kategorinamnet inte hittas tas kategorin bort från listan när du sparar."
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Send Optimization Request"
+msgstr "Skicka optimeringsbegäran"
+
+#: tpl/img_optm/summary.tpl.php:267
+msgid "Image Information"
+msgstr "Bildinformation"
+
+#: tpl/img_optm/summary.tpl.php:336
+msgid "Total Reduction"
+msgstr "Total reduktion"
+
+#: tpl/img_optm/summary.tpl.php:333
+msgid "Optimization Summary"
+msgstr "Optimeringsöversikt"
+
+#: tpl/img_optm/entry.tpl.php:22
+msgid "LiteSpeed Cache Image Optimization"
+msgstr "LiteSpeed Cache bildoptimering"
+
+#: src/admin-display.cls.php:123 src/gui.cls.php:612
+#: tpl/dash/dashboard.tpl.php:55 tpl/dash/network_dash.tpl.php:27
+msgid "Image Optimization"
+msgstr "Bildoptimering"
+
+#: src/lang.cls.php:136
+msgid "JS Deferred Excludes"
+msgstr "Exkluderingar för uppskjuten JS"
+
+#: tpl/page_optm/settings_media.tpl.php:48
+msgid "For example, %s can be used for a transparent placeholder."
+msgstr "%s kan till exempel användas för en transparent platshållare."
+
+#: tpl/page_optm/settings_media.tpl.php:47
+msgid "By default a gray image placeholder %s will be used."
+msgstr "Som standard kommer en grå bildplatshållare %s att användas."
+
+#: tpl/page_optm/settings_media.tpl.php:46
+msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
+msgstr "Detta kan också fördefinieras i %2$s genom att använda konstanten %1$s, med denna inställning prioriterad."
+
+#: tpl/page_optm/settings_media.tpl.php:45
+msgid "Specify a base64 image to be used as a simple placeholder while images finish loading."
+msgstr "Ange en bas64-bild som ska användas som en platshållare medan andra bilder laddas klart."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:28
+#: tpl/page_optm/settings_tuning.tpl.php:37
+#: tpl/page_optm/settings_tuning.tpl.php:58
+#: tpl/page_optm/settings_tuning.tpl.php:167
+#: tpl/page_optm/settings_tuning.tpl.php:188
+msgid "Elements with attribute %s in html code will be excluded."
+msgstr "Element med attribut %s i HTML-kod kommer att uteslutas."
+
+#: tpl/cache/settings-esi.tpl.php:96
+#: tpl/page_optm/settings_media_exc.tpl.php:27
+#: tpl/page_optm/settings_tuning.tpl.php:36
+#: tpl/page_optm/settings_tuning.tpl.php:57
+#: tpl/page_optm/settings_tuning.tpl.php:102
+#: tpl/page_optm/settings_tuning.tpl.php:166
+#: tpl/page_optm/settings_tuning.tpl.php:187
+msgid "Filter %s is supported."
+msgstr "Filtret %s stöds."
+
+#: tpl/page_optm/settings_media_exc.tpl.php:21
+msgid "Listed images will not be lazy loaded."
+msgstr "Listade bilder kommer inte använda uppskjuten inläsning."
+
+#: src/lang.cls.php:149
+msgid "Lazy Load Image Excludes"
+msgstr "Exkluderade bilder från uppskjuten inläsning"
+
+#: src/gui.cls.php:456
+msgid "No optimization"
+msgstr "Ingen optimering"
+
+#: tpl/page_optm/settings_tuning.tpl.php:202
+msgid "Prevent any optimization of listed pages."
+msgstr "Förhindra all optimering av listade sidor."
+
+#: src/lang.cls.php:140
+msgid "URI Excludes"
+msgstr "Exkluderade URI:er"
+
+#: tpl/page_optm/settings_html.tpl.php:128
+msgid "Stop loading WordPress.org emoji. Browser default emoji will be displayed instead."
+msgstr "Stoppa hämtning av emojier från WordPress.org. Webbläsarens standardemojier kommer visas istället."
+
+#: src/doc.cls.php:92
+msgid "Both full URLs and partial strings can be used."
+msgstr "Både hela URL:er och delar av strängar kan användas."
+
+#: tpl/page_optm/settings_media.tpl.php:213
+msgid "Load iframes only when they enter the viewport."
+msgstr "Hämta endast iframes när de kommer in i visningsområdet."
+
+#: src/lang.cls.php:165
+msgid "Lazy Load Iframes"
+msgstr "Uppskjuten inläsning av iframes"
+
+#: tpl/page_optm/settings_media.tpl.php:28
+#: tpl/page_optm/settings_media.tpl.php:214
+msgid "This can improve page loading time by reducing initial HTTP requests."
+msgstr "Detta kan förbättra laddningstiden för sidan genom att minska de första HTTP-förfrågningarna."
+
+#: tpl/page_optm/settings_media.tpl.php:27
+msgid "Load images only when they enter the viewport."
+msgstr "Hämta endast bilder när de kommer in i visningsområdet."
+
+#: src/lang.cls.php:148
+msgid "Lazy Load Images"
+msgstr "Uppskjuten inläsning av bilder"
+
+#: tpl/page_optm/entry.tpl.php:9 tpl/page_optm/settings_media.tpl.php:14
+msgid "Media Settings"
+msgstr "Mediainställningar"
+
+#: tpl/cache/settings-excludes.tpl.php:36
+msgid "For example, for %s, %s and %s can be used here."
+msgstr "Till exempel kan %s, %s och %s användas här."
+
+#: tpl/cache/settings-esi.tpl.php:107 tpl/cache/settings-purge.tpl.php:110
+#: tpl/cdn/settings.tpl.php:143
+msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
+msgstr "Jokertecken %1$s stöds (matcha noll eller fler tecken). Till exempel, för att matcha %2$s och %3$s, använd %4$s."
+
+#: src/admin-display.cls.php:1133
+msgid "To match the beginning, add %s to the beginning of the item."
+msgstr "Lägg till %s i början av objektet för att matcha början."
+
+#: src/admin-display.cls.php:1131
+msgid "For example, for %s, %s can be used here."
+msgstr "Till exempel kan %s, %s användas här."
+
+#: tpl/banner/score.php:118
+msgid "Maybe later"
+msgstr "Kanske senare"
+
+#: tpl/banner/score.php:117
+msgid "I've already left a review"
+msgstr "Jag har redan lämnat en recension"
+
+#: tpl/banner/slack.php:9
+msgid "Welcome to LiteSpeed"
+msgstr "Välkommen till LiteSpeed"
+
+#: src/lang.cls.php:138
+msgid "Remove WordPress Emoji"
+msgstr "Ta bort WordPress Emoji"
+
+#: src/gui.cls.php:464
+msgid "More settings"
+msgstr "Fler inställningar"
+
+#: src/gui.cls.php:445
+msgid "Private cache"
+msgstr "Privat cache"
+
+#: src/gui.cls.php:434
+msgid "Non cacheable"
+msgstr "Inte möjlig att cachelagra"
+
+#: src/gui.cls.php:411
+msgid "Mark this page as "
+msgstr "Markera denna sida som "
+
+#: src/gui.cls.php:403
+msgid "Purge this page"
+msgstr "Töm denna sida"
+
+#: src/lang.cls.php:123
+msgid "Load JS Deferred"
+msgstr "Skjut upp laddning av JS"
+
+#: src/lang.cls.php:133
+msgid "Critical CSS Rules"
+msgstr "Kritiska CSS-regler"
+
+#: src/lang.cls.php:119 tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Load CSS Asynchronously"
+msgstr "Ladda CSS asynkront"
+
+#: tpl/page_optm/settings_html.tpl.php:115
+msgid "Prevent Google Fonts from loading on all pages."
+msgstr "Förhindra Google Fonts att hämtas på alla sidor."
+
+#: src/lang.cls.php:132
+msgid "Remove Google Fonts"
+msgstr "Ta bort Google Fonts"
+
+#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
+msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
+msgstr "Detta kan förbättra din poäng för hastighet i tjänster som Pingdom, GTmetrix och PageSpeed."
+
+#: tpl/page_optm/settings_html.tpl.php:79
+msgid "Remove query strings from internal static resources."
+msgstr "Ta bort query-strängar från interna statiska resurser."
+
+#: src/lang.cls.php:130
+msgid "Remove Query Strings"
+msgstr "Ta bort querysträngar"
+
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "user agents"
+msgstr "användaragenter"
+
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+msgid "cookies"
+msgstr "cookies"
+
+#: src/lang.cls.php:59 tpl/dash/dashboard.tpl.php:397
+msgid "Browser Cache"
+msgstr "Webbläsarcache"
+
+#: tpl/cache/settings-excludes.tpl.php:90
+msgid "tags"
+msgstr "etiketter"
+
+#: src/lang.cls.php:105
+msgid "Do Not Cache Tags"
+msgstr "Cachelagra inte etiketter"
+
+#: tpl/cache/settings-excludes.tpl.php:97
+msgid "To exclude %1$s, insert %2$s."
+msgstr "För att exkludera %1$s, infoga %2$s."
+
+#: tpl/cache/settings-excludes.tpl.php:57
+msgid "categories"
+msgstr "kategorier"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+#: tpl/cache/settings-excludes.tpl.php:90
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "To prevent %s from being cached, enter them here."
+msgstr "För att förhindra att %s cachelagras, ange dem här."
+
+#: src/lang.cls.php:104
+msgid "Do Not Cache Categories"
+msgstr "Cachelagra inte kategorier"
+
+#: tpl/cache/settings-excludes.tpl.php:35
+msgid "Query strings containing these parameters will not be cached."
+msgstr "Querysträngar som innehåller dessa parametrar kommer inte cachelagras."
+
+#: src/lang.cls.php:103
+msgid "Do Not Cache Query Strings"
+msgstr "Cachelagra inte querysträngar"
+
+#: tpl/cache/settings-excludes.tpl.php:21
+msgid "Paths containing these strings will not be cached."
+msgstr "Sökvägar som innehåller dessa strängar kommer inte att cachelagras."
+
+#: src/lang.cls.php:102
+msgid "Do Not Cache URIs"
+msgstr "Cachelagra inte URI:er"
+
+#: tpl/toolbox/settings-debug.tpl.php:39
+msgid "The logs will be output to %s."
+msgstr "Loggarna kommer matas ut till %s."
+
+#: src/admin-display.cls.php:1135 src/doc.cls.php:74
+msgid "One per line."
+msgstr "Ett per rad."
+
+#: src/lang.cls.php:79
+msgid "Private Cached URIs"
+msgstr "Cachelagrade privata URI:er"
+
+#: tpl/cdn/settings.tpl.php:179
+msgid "Paths containing these strings will not be served from the CDN."
+msgstr "Sökvägar som innehåller dessa strängar kommer inte att betjänas från CDN."
+
+#: src/lang.cls.php:207
+msgid "Exclude Path"
+msgstr "Exkludera sökväg"
+
+#: tpl/cdn/settings.tpl.php:98
+msgid "This will affect all tags containing attributes: %s %s %s."
+msgstr "Detta påverkar alla taggar som innehåller attributen: %s %s %s."
+
+#: src/lang.cls.php:203 tpl/cdn/settings.tpl.php:102
+msgid "Include File Types"
+msgstr "Inkludera filtyper"
+
+#: tpl/cdn/settings.tpl.php:92
+msgid "Serve all JavaScript files through the CDN. This will affect all enqueued WP JavaScript files."
+msgstr "Tillhandahåll alla JavaScript-filer via CDN. Detta kommer påverka alla köade WP-JavaScript-filer."
+
+#: src/lang.cls.php:202
+msgid "Include JS"
+msgstr "Inkludera JS"
+
+#: tpl/cdn/settings.tpl.php:88
+msgid "Serve all CSS files through the CDN. This will affect all enqueued WP CSS files."
+msgstr "Tillhandahåll alla CSS-filer via CDN. Detta kommer påverka alla köade WP-CSS-filer."
+
+#: src/lang.cls.php:201
+msgid "Include CSS"
+msgstr "Inkludera CSS"
+
+#: tpl/cdn/settings.tpl.php:84
+msgid "Serve all image files through the CDN. This will affect all attachments, HTML %s tags, and CSS %s attributes."
+msgstr "Tillhandahåll alla bildfiler via CDN. Detta kommer påverka alla bilagor, HTML %s-taggar och CSS-attribut %s."
+
+#: src/lang.cls.php:200
+msgid "Include Images"
+msgstr "Inkludera bilder"
+
+#: src/admin-display.cls.php:228
+msgid "CDN URL to be used. For example, %s"
+msgstr "CDN-URL som ska användas. Exempelvis, %s"
+
+#: src/lang.cls.php:199
+msgid "CDN URL"
+msgstr "CDN-URL"
+
+#: tpl/cdn/settings.tpl.php:142
+msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
+msgstr "Webbplats-URL som ska tillhandahållas via CDN. Måste börja med %1$s. Exempelvis, %2$s."
+
+#: src/lang.cls.php:205
+msgid "Original URLs"
+msgstr "Ursprungliga URL:er"
+
+#: tpl/cdn/entry.tpl.php:6 tpl/cdn/settings.tpl.php:21
+msgid "CDN Settings"
+msgstr "Inställningar för CDN"
+
+#: src/admin-display.cls.php:121 tpl/cdn/settings.tpl.php:194
+msgid "CDN"
+msgstr "CDN"
+
+#: src/admin-display.cls.php:233 src/admin-display.cls.php:838
+#: src/admin-display.cls.php:865 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:72 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_media.tpl.php:162
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "OFF"
+msgstr "AV"
+
+#: src/admin-display.cls.php:232 src/admin-display.cls.php:837
+#: src/admin-display.cls.php:866 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
+#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_media.tpl.php:159
+#: tpl/page_optm/settings_media.tpl.php:229
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "ON"
+msgstr "PÅ"
+
+#: src/purge.cls.php:351
+msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
+msgstr "Meddelade LiteSpeed-webbserver att tömma alla CSS/JS-inlägg."
+
+#: tpl/page_optm/settings_html.tpl.php:20
+msgid "Minify HTML content."
+msgstr "Minifiera HTML-innehåll."
+
+#: src/lang.cls.php:117
+msgid "HTML Minify"
+msgstr "HTML-minifiering"
+
+#: src/lang.cls.php:129
+msgid "JS Excludes"
+msgstr "JS-exkluderingar"
+
+#: src/data.upgrade.func.php:101 src/lang.cls.php:115
+msgid "JS Combine"
+msgstr "JS-kombinering"
+
+#: src/lang.cls.php:114
+msgid "JS Minify"
+msgstr "JS-minifiering"
+
+#: src/lang.cls.php:128
+msgid "CSS Excludes"
+msgstr "Exkluderad CSS"
+
+#: src/lang.cls.php:108
+msgid "CSS Combine"
+msgstr "CSS-kombinering"
+
+#: src/lang.cls.php:107
+msgid "CSS Minify"
+msgstr "Minifiering av CSS"
+
+#: tpl/toolbox/purge.tpl.php:19 tpl/toolbox/purge.tpl.php:25
+#: tpl/toolbox/purge.tpl.php:31
+msgid "Purge %s Error"
+msgstr "Töm %s-fel"
+
+#: tpl/db_optm/manage.tpl.php:72
+msgid "Database Optimizer"
+msgstr "Databasoptimerare"
+
+#: tpl/db_optm/manage.tpl.php:44
+msgid "Optimize all tables in your database"
+msgstr "Optimera alla tabeller i din databas"
+
+#: tpl/db_optm/manage.tpl.php:43
+msgid "Optimize Tables"
+msgstr "Optimera tabeller"
+
+#: tpl/db_optm/manage.tpl.php:40
+msgid "Clean all transient options"
+msgstr "Rensa alla ”transient”-alternativ"
+
+#: tpl/db_optm/manage.tpl.php:39
+msgid "All Transients"
+msgstr "Alla transienter"
+
+#: tpl/db_optm/manage.tpl.php:36
+msgid "Clean expired transient options"
+msgstr "Alternativ för rensning av förfallna transienter"
+
+#: tpl/db_optm/manage.tpl.php:35
+msgid "Expired Transients"
+msgstr "Förfallna transienter"
+
+#: tpl/db_optm/manage.tpl.php:32
+msgid "Clean all trackbacks and pingbacks"
+msgstr "Rensa alla trackbacks och pingbacks"
+
+#: tpl/db_optm/manage.tpl.php:31
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/pingbacks"
+
+#: tpl/db_optm/manage.tpl.php:28
+msgid "Clean all trashed comments"
+msgstr "Rensa alla kastade kommentarer"
+
+#: tpl/db_optm/manage.tpl.php:27
+msgid "Trashed Comments"
+msgstr "Kastade kommentarer"
+
+#: tpl/db_optm/manage.tpl.php:24
+msgid "Clean all spam comments"
+msgstr "Rensa alla skärppostkommentarer"
+
+#: tpl/db_optm/manage.tpl.php:23
+msgid "Spam Comments"
+msgstr "Skräpkommentarer"
+
+#: tpl/db_optm/manage.tpl.php:20
+msgid "Clean all trashed posts and pages"
+msgstr "Rensa alla kastade inlägg och sidor"
+
+#: tpl/db_optm/manage.tpl.php:19
+msgid "Trashed Posts"
+msgstr "Kastade inlägg"
+
+#: tpl/db_optm/manage.tpl.php:16
+msgid "Clean all auto saved drafts"
+msgstr "Rensa alla automatiskt sparade utkast"
+
+#: tpl/db_optm/manage.tpl.php:15
+msgid "Auto Drafts"
+msgstr "Automatiska utkast"
+
+#: tpl/db_optm/manage.tpl.php:12
+msgid "Clean all post revisions"
+msgstr "Rensa alla inläggsversioner"
+
+#: tpl/db_optm/manage.tpl.php:11
+msgid "Post Revisions"
+msgstr "Inläggsversioner"
+
+#: tpl/db_optm/manage.tpl.php:7
+msgid "Clean All"
+msgstr "Rensa allt"
+
+#: src/db-optm.cls.php:192
+msgid "Optimized all tables."
+msgstr "Optimerade alla tabeller."
+
+#: src/db-optm.cls.php:182
+msgid "Clean all transients successfully."
+msgstr "Alla transienter rensades utan problem."
+
+#: src/db-optm.cls.php:178
+msgid "Clean expired transients successfully."
+msgstr "Utgångna transienter rensades utan problem."
+
+#: src/db-optm.cls.php:174
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "Trackbacks och pingbacks rensades utan problem."
+
+#: src/db-optm.cls.php:170
+msgid "Clean trashed comments successfully."
+msgstr "Slängda kommentarer rensades utan problem."
+
+#: src/db-optm.cls.php:166
+msgid "Clean spam comments successfully."
+msgstr "Skräpkommentarer rensades utan problem."
+
+#: src/db-optm.cls.php:162
+msgid "Clean trashed posts and pages successfully."
+msgstr "Inlägg och sidor rensades utan problem."
+
+#: src/db-optm.cls.php:158
+msgid "Clean auto drafts successfully."
+msgstr "Automatiska utkast rensades utan problem."
+
+#: src/db-optm.cls.php:154
+msgid "Clean post revisions successfully."
+msgstr "Inläggsversioner rensades utan problem."
+
+#: src/db-optm.cls.php:127
+msgid "Clean all successfully."
+msgstr "Allt rensades utan problem."
+
+#: src/lang.cls.php:61
+msgid "Default Private Cache TTL"
+msgstr "Standard-TTL för privat cache"
+
+#: src/lang.cls.php:179
+msgid "Cache Comment Form"
+msgstr "Cachelagra kommentarsformulär"
+
+#: src/lang.cls.php:178
+msgid "Cache Admin Bar"
+msgstr "Cachelagra adminmeny"
+
+#: tpl/cache/settings-esi.tpl.php:12
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "Med ESI (Edge Side Includes), kan sidor levereras från inloggade användares cache."
+
+#: tpl/esi_widget_edit.php:47
+msgid "Private"
+msgstr "Privat"
+
+#: tpl/esi_widget_edit.php:46
+msgid "Public"
+msgstr "Offentlig"
+
+#: tpl/cache/network_settings-purge.tpl.php:7
+#: tpl/cache/settings-purge.tpl.php:7
+msgid "Purge Settings"
+msgstr "Inställningar för tömning"
+
+#: src/lang.cls.php:76
+msgid "Cache PHP Resources"
+msgstr "Cachelagra PHP-resurser"
+
+#: src/lang.cls.php:77 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "Cache Mobile"
+msgstr "Cachelagring för mobiler"
+
+#: tpl/toolbox/settings-debug.tpl.php:72
+msgid "Advanced level will log more details."
+msgstr "Avancerad nivå kommer logga mer detaljer."
+
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Basic"
+msgstr "Grundläggande"
+
+#: src/lang.cls.php:74
+msgid "Cache Login Page"
+msgstr "Cachelagra inloggningssida"
+
+#: tpl/cache/settings-cache.tpl.php:74
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "Cachelagra förfrågningar gjorda av WordPress REST API-anrop."
+
+#: src/lang.cls.php:73
+msgid "Cache REST API"
+msgstr "Cachelagra REST-API"
+
+#: src/lang.cls.php:72
+msgid "Cache Commenters"
+msgstr "Cachelagra kommentatorer"
+
+#: tpl/cache/settings-cache.tpl.php:48
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "Cachelagra frontend-sidor privat, för inloggade användare. (LSWS %s krävs)"
+
+#: src/lang.cls.php:71
+msgid "Cache Logged-in Users"
+msgstr "Cachelagra inloggade användare"
+
+#: tpl/cache/network_settings-cache.tpl.php:7
+#: tpl/cache/settings-cache.tpl.php:7
+msgid "Cache Control Settings"
+msgstr "Inställningar för cachekontroll"
+
+#: tpl/cache/entry.tpl.php:10
+msgid "ESI"
+msgstr "ESI"
+
+#: tpl/cache/entry.tpl.php:9 tpl/cache/entry_network.tpl.php:8
+msgid "Excludes"
+msgstr "Exkluderingar"
+
+#: tpl/cache/entry.tpl.php:8 tpl/cache/entry_network.tpl.php:7
+#: tpl/toolbox/entry.tpl.php:6 tpl/toolbox/purge.tpl.php:142
+msgid "Purge"
+msgstr "Töm"
+
+#: src/admin-display.cls.php:119 tpl/cache/entry.tpl.php:6
+#: tpl/cache/entry_network.tpl.php:6
+msgid "Cache"
+msgstr "Cache"
+
+#: thirdparty/woocommerce.tab.tpl.php:3
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: tpl/cache/settings-purge.tpl.php:131
+msgid "Current server time is %s."
+msgstr "Nuvarande servertid är %s."
+
+#: tpl/cache/settings-purge.tpl.php:130
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "Specificera tiden då listan “%s“ ska tömmas."
+
+#: tpl/cache/settings-purge.tpl.php:106
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "Både %1$s och %2$s är acceptabla."
+
+#: src/lang.cls.php:99 tpl/cache/settings-purge.tpl.php:105
+msgid "Scheduled Purge Time"
+msgstr "Schemalagd tömningstid"
+
+#: src/lang.cls.php:98 tpl/cache/settings-purge.tpl.php:130
+msgid "Scheduled Purge URLs"
+msgstr "Schemalagd tömning av URL:er"
+
+#: tpl/toolbox/settings-debug.tpl.php:113
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "Korta querysträngar i felsökningsloggen för att öka läsbarheten."
+
+#: tpl/toolbox/settings-debug.tpl.php:100
+msgid "Log requested cookie values."
+msgstr "Logga begärda cookievärden."
+
+#: tpl/toolbox/entry.tpl.php:18
+msgid "Heartbeat"
+msgstr "Hjärtslag"
+
+#: tpl/toolbox/settings-debug.tpl.php:83
+msgid "MB"
+msgstr "MB"
+
+#: src/lang.cls.php:228
+msgid "Log File Size Limit"
+msgstr "Storleksbegränsning för loggfil"
+
+#: src/htaccess.cls.php:787
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>Lägg till/ersätt följande koder i början av %1$s:</p> %2$s"
+
+#: src/error.cls.php:104 src/error.cls.php:128
+msgid "%s file not writable."
+msgstr "Filen %s är inte skrivbar."
+
+#: src/error.cls.php:124
+msgid "%s file not readable."
+msgstr "Filen %s är inte läsbar."
+
+#: src/lang.cls.php:230
+msgid "Collapse Query Strings"
+msgstr "Minimera query-strängar"
+
+#: src/lang.cls.php:229
+msgid "Log Cookies"
+msgstr "Logga cookies"
+
+#: tpl/cache/settings-esi.tpl.php:7
+msgid "ESI Settings"
+msgstr "Inställningar för ESI"
+
+#: tpl/esi_widget_edit.php:74
+msgid "A TTL of 0 indicates do not cache."
+msgstr "En TTL på 0 indikerar cachelagra inte."
+
+#: tpl/esi_widget_edit.php:73
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "Rekommenderat värde: 28800 sekunder (8 timmar)."
+
+#: tpl/esi_widget_edit.php:63
+msgid "Widget Cache TTL:"
+msgstr "Widget-cache TTL:"
+
+#: src/lang.cls.php:177 tpl/esi_widget_edit.php:36
+msgid "Enable ESI"
+msgstr "Aktivera ESI"
+
+#: tpl/crawler/summary.tpl.php:50
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "För mer detaljerad information se <a %s>Introduktion för att aktivera Crawler</a>."
+
+#: src/lang.cls.php:220
+msgid "Custom Sitemap"
+msgstr "Anpassad webbplatskarta"
+
+#: tpl/toolbox/purge.tpl.php:244
+msgid "Purge pages by relative or full URL."
+msgstr "Töm sidor med relativ eller fullständig URL."
+
+#: tpl/crawler/summary.tpl.php:49
+msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin or hosting provider."
+msgstr "Genomsökningsfunktionen är inte aktiverad på LiteSpeed-servern. Kontakta din serveradministratör eller ditt webbhotell."
+
+#: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
+#: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
+#: tpl/inc/check_if_network_disable_all.php:18
+#: tpl/page_optm/settings_css.tpl.php:59 tpl/page_optm/settings_css.tpl.php:165
+#: tpl/page_optm/settings_localization.tpl.php:11
+msgid "WARNING"
+msgstr "VARNING"
+
+#: tpl/crawler/summary.tpl.php:106
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>Senast genomsökt:</b> %s objekt"
+
+#: tpl/crawler/summary.tpl.php:63
+msgid "The next complete sitemap crawl will start at"
+msgstr "Nästa fullständiga genomsökning av webbplatskartan börjar kl"
+
+#: src/file.cls.php:172
+msgid "Failed to write to %s."
+msgstr "Misslyckades att skriva till %s."
+
+#: src/file.cls.php:153
+msgid "Folder is not writable: %s."
+msgstr "Mapp är inte skrivbar: %s."
+
+#: src/file.cls.php:145
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr "Kan inte skapa mapp: %1$s. Fel: %2$s"
+
+#: src/file.cls.php:136
+msgid "Folder does not exist: %s"
+msgstr "Mapp finns inte: %s"
+
+#: src/core.cls.php:296
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "Meddelade LiteSpeed-webbserver att tömma listan."
+
+#: tpl/cache/settings-cache.tpl.php:24
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "Besök <a %s>informationssidan</a> för att läsa om hur du testar cachen."
+
+#: src/lang.cls.php:217
+msgid "Server Load Limit"
+msgstr "Belastningsgräns för server"
+
+#: tpl/crawler/settings-general.tpl.php:105
+msgid "Specify Number of Threads to use while crawling."
+msgstr "Ange antal trådar som ska användas vid genomsökning."
+
+#: tpl/crawler/settings-general.tpl.php:91
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "Specificera hur länge i sekunder genomsökaren ska vänta innan den börjar genomsöka webbplatskartan igen."
+
+#: src/lang.cls.php:214
+msgid "Crawl Interval"
+msgstr "Intervall för genomsökning"
+
+#: src/lang.cls.php:213
+msgid "Interval Between Runs"
+msgstr "Intervall mellan körningar"
+
+#: tpl/crawler/settings-general.tpl.php:62
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "Specificera tid i sekunder för varaktigheten av genomsökningsintervallet."
+
+#: tpl/crawler/settings-general.tpl.php:35
+msgid "Specify time in microseconds for the delay between requests during a crawl."
+msgstr "Specificera tid i mikrosekunder för fördröjningen mellan förfrågningar under en genomsökning."
+
+#: tpl/crawler/settings-general.tpl.php:33
+msgid "microseconds"
+msgstr "mikrosekunder"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:33
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "I så fall finns ytterligare en WordPress-installation (ej multisite) på %s"
+
+#: tpl/cache/entry_network.tpl.php:18
+msgid "LiteSpeed Cache Network Cache Settings"
+msgstr "Nätverks-cacheinställningar för LiteSpeed Cache"
+
+#: tpl/toolbox/purge.tpl.php:179
+msgid "Select below for \"Purge by\" options."
+msgstr "Välj nedan för ”Töm enligt”-alternativ."
+
+#: tpl/cdn/entry.tpl.php:14
+msgid "LiteSpeed Cache CDN"
+msgstr "CDN för LiteSpeed Cache"
+
+#: tpl/crawler/summary.tpl.php:221
+msgid "No crawler meta file generated yet"
+msgstr "Ingen metafil för genomsökning är skapad ännu"
+
+#: tpl/crawler/summary.tpl.php:203
+msgid "Show crawler status"
+msgstr "Visa status för genomsökning"
+
+#: tpl/crawler/summary.tpl.php:196
+msgid "Watch Crawler Status"
+msgstr "Se status för genomsökning"
+
+#: tpl/crawler/summary.tpl.php:188
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "Körningsfrekvensen anges av inställningen ”Intervall mellan körningar”."
+
+#: tpl/crawler/summary.tpl.php:114
+msgid "Manually run"
+msgstr "Kör manuellt"
+
+#: tpl/crawler/summary.tpl.php:111
+msgid "Reset position"
+msgstr "Återställ position"
+
+#: tpl/crawler/summary.tpl.php:123
+msgid "Run Frequency"
+msgstr "Körningsfrekvens"
+
+#: tpl/crawler/summary.tpl.php:122
+msgid "Cron Name"
+msgstr "Cronnamn"
+
+#: tpl/crawler/summary.tpl.php:42
+msgid "Crawler Cron"
+msgstr "Crawler Cron"
+
+#: tpl/crawler/summary.tpl.php:36
+msgid "%d minute"
+msgstr "%d minut"
+
+#: tpl/crawler/summary.tpl.php:33
+msgid "%d minutes"
+msgstr "%d minuter"
+
+#: tpl/crawler/summary.tpl.php:26
+msgid "%d hour"
+msgstr "%d timme"
+
+#: tpl/crawler/summary.tpl.php:23
+msgid "%d hours"
+msgstr "%d timmar"
+
+#: tpl/crawler/map.tpl.php:27
+msgid "Generated at %s"
+msgstr "Genererad %s"
+
+#: tpl/crawler/entry.tpl.php:18
+msgid "LiteSpeed Cache Crawler"
+msgstr "LiteSpeed Cache Crawler"
+
+#: src/lang.cls.php:215
+msgid "Threads"
+msgstr "Trådar"
+
+#: src/lang.cls.php:212
+msgid "Run Duration"
+msgstr "Körningstid"
+
+#: src/lang.cls.php:211
+msgid "Delay"
+msgstr "Fördröj"
+
+#: tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "Om det finns några frågor, svarar teamet med glädje på vilka frågor som helst på <a %s>supportforumet</a>."
+
+#: src/admin-display.cls.php:129 src/lang.cls.php:210
+msgid "Crawler"
+msgstr "Crawler"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: src/purge.cls.php:626
+msgid "Notified LiteSpeed Web Server to purge all pages."
+msgstr "Meddelade LiteSpeed-webbserver att tömma alla sidor."
+
+#: tpl/cache/settings-purge.tpl.php:18
+msgid "All pages with Recent Posts Widget"
+msgstr "Alla sidor med widgeten för senaste inlägg"
+
+#: tpl/cache/settings-purge.tpl.php:16
+msgid "Pages"
+msgstr "Sidor"
+
+#: tpl/toolbox/purge.tpl.php:14
+msgid "This will Purge Pages only"
+msgstr "Detta kommer endast tömma sidor"
+
+#: tpl/toolbox/purge.tpl.php:13
+msgid "Purge Pages"
+msgstr "Töm sidor"
+
+#: thirdparty/woocommerce.content.tpl.php:78
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "Om till exempel webbplatsens startsida finns på %1$s kan butikssidan finnas på %2$s."
+
+#: src/css.cls.php:533
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: tpl/crawler/summary.tpl.php:125
+msgid "Activate"
+msgstr "Aktivera"
+
+#: tpl/cdn/settings.tpl.php:209
+msgid "Email Address"
+msgstr "E-postadress"
+
+#: tpl/general/settings.tpl.php:100
+msgid "Warning"
+msgstr "Varning"
+
+#: src/gui.cls.php:754
+msgid "Install Now"
+msgstr "Installera nu"
+
+#: cli/purge.cls.php:191
+msgid "Purged the url!"
+msgstr "Tömde URL:en!"
+
+#: cli/purge.cls.php:140
+msgid "Purged the blog!"
+msgstr "Tömde bloggen!"
+
+#: cli/purge.cls.php:95
+msgid "Purged All!"
+msgstr "Tömde allt!"
+
+#: src/purge.cls.php:645
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "Meddelade LiteSpeed-webbserver att tömma felsidor."
+
+#: tpl/inc/show_error_cookie.php:11
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "Om du använder OpenLiteSpeed måste servern startas om en gång för att ändringarna ska träda i kraft."
+
+#: tpl/inc/show_error_cookie.php:7
+msgid "If not, please verify the setting in the <a href=\"%1$s\">Advanced tab</a>."
+msgstr "Om inte, verifiera inställningen i fliken <a href=\"%1$s\">Avancerat</a>."
+
+#: tpl/inc/show_error_cookie.php:6
+msgid "If the login cookie was recently changed in the settings, please log out and back in."
+msgstr "Om cookien för inloggning nyligen ändrades i inställningarna, logga ut och in igen."
+
+#: tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "Det finns dock inget sätt att känna till alla möjliga anpassningar som implementerades."
+
+#: tpl/inc/show_display_installed.php:7
+msgid "The LiteSpeed Cache plugin is used to cache pages - a simple way to improve the performance of the site."
+msgstr "LiteSpeed Cache-tillägget används för att cachelagra sidor – ett enkelt sätt att förbättra webbplatsens prestanda."
+
+#: tpl/cache/settings-cache.tpl.php:30
+msgid "The network admin setting can be overridden here."
+msgstr "Inställningen för nätverksadministratören kan åsidosättas här."
+
+#: tpl/cache/settings-ttl.tpl.php:22
+msgid "Specify how long, in seconds, public pages are cached."
+msgstr "Specificera hur länge i sekunder offentliga sidor är cachelagrade."
+
+#: tpl/cache/settings-ttl.tpl.php:37
+msgid "Specify how long, in seconds, private pages are cached."
+msgstr "Specificera hur länge i sekunder privata sidor är cachelagrade."
+
+#: tpl/toolbox/purge.tpl.php:235
+msgid "Purge pages by post ID."
+msgstr "Töm sidor efter inläggs-ID."
+
+#: tpl/toolbox/purge.tpl.php:38
+msgid "Purge the LiteSpeed cache entries created by this plugin"
+msgstr "Töm LiteSpeed-cacheinläggen som skapats av detta tillägg"
+
+#: tpl/toolbox/purge.tpl.php:20 tpl/toolbox/purge.tpl.php:26
+#: tpl/toolbox/purge.tpl.php:32
+msgid "Purge %s error pages"
+msgstr "Töm %s felsidor"
+
+#: tpl/toolbox/purge.tpl.php:8
+msgid "This will Purge Front Page only"
+msgstr "Detta kommer endast tömma startsidan"
+
+#: tpl/toolbox/purge.tpl.php:239
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Töm sidor efter etikettnamn – t.ex. bör %2$s användas för URL:en %1$s."
+
+#: tpl/toolbox/purge.tpl.php:245
+msgid "e.g. Use %s or %s."
+msgstr "Använd till exempel %s eller %s."
+
+#: tpl/toolbox/purge.tpl.php:230
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Töm sidor efter kategorinamn – t.ex. bör %2$s användas för URL:en %1$s."
+
+#: tpl/toolbox/purge.tpl.php:133
+msgid "If only the WordPress site should be purged, use Purge All."
+msgstr "Om endast WordPress-webbplatsen ska tömmas, använd ”Töm allt”."
+
+#: src/core.cls.php:291
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "Meddelade LiteSpeed-webbserver att tömma allt."
+
+#: tpl/general/network_settings.tpl.php:20
+msgid "Use Primary Site Configuration"
+msgstr "Använd primär webbplatskonfiguration"
+
+#: tpl/general/network_settings.tpl.php:25
+msgid "This will disable the settings page on all subsites."
+msgstr "Detta kommer inaktivera inställningssidan för alla underwebbplatser."
+
+#: tpl/general/network_settings.tpl.php:24
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "Markera detta alternativ om du vill använda den primära webbplatsens konfiguration för alla underwebbplatser."
+
+#: src/admin-display.cls.php:706 src/admin-display.cls.php:711
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: tpl/inc/check_if_network_disable_all.php:21
+msgid "The following options are selected, but are not editable in this settings page."
+msgstr "Följande alternativ är valda men kan inte redigeras på denna inställningssida."
+
+#: tpl/inc/check_if_network_disable_all.php:20
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "Den valda nätverksadministratören använder den primära webbplatsens konfiguration för alla underwebbplatser."
+
+#: tpl/toolbox/purge.tpl.php:125
+msgid "Empty Entire Cache"
+msgstr "Töm hela cachen"
+
+#: tpl/toolbox/purge.tpl.php:127
+msgid "This action should only be used if things are cached incorrectly."
+msgstr "Denna åtgärd bör endast användas om saker cachelagras felaktigt."
+
+#: tpl/toolbox/purge.tpl.php:126
+msgid "Clears all cache entries related to this site, <i>including other web applications</i>."
+msgstr "Rensar alla cacheinlägg relaterade till denna webbplats <i>inklusive andra webbapplikationer</i>."
+
+#: tpl/toolbox/purge.tpl.php:132
+msgid "This may cause heavy load on the server."
+msgstr "Detta kan orsaka stor belastning på servern."
+
+#: tpl/toolbox/purge.tpl.php:131
+msgid "This will clear EVERYTHING inside the cache."
+msgstr "Detta kommer rensa ALLT i cachen."
+
+#: src/gui.cls.php:579
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed Cache töm allt"
+
+#: tpl/inc/show_display_installed.php:19
+msgid "If you would rather not move at litespeed, you can deactivate this plugin."
+msgstr "Om du inte vill åka i ljusets hastighet kan du inaktivera detta tillägg."
+
+#: tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "Skapa ett inlägg, se till att startsidan är korrekt."
+
+#: tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "Besök webbplatsen medan du är utloggad."
+
+#: tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "Exempel på testfall inkluderar:"
+
+#: tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "Av den anledningen, testa därför webbplatsen för att se till att allt fortfarande fungerar ordentligt."
+
+#: tpl/inc/show_display_installed.php:6
+msgid "This message indicates that the plugin was installed by the server admin."
+msgstr "Detta meddelande indikerar att tillägget installerades av serverns administratör."
+
+#: tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "Tillägget LiteSpeed Cache är installerat!"
+
+#: src/lang.cls.php:225 tpl/toolbox/log_viewer.tpl.php:7
+msgid "Debug Log"
+msgstr "Felsökningslogg"
+
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "Admin IP Only"
+msgstr "Endast IP:n för administratörer"
+
+#: tpl/toolbox/settings-debug.tpl.php:38
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "Alternativet ”IP:n för administratörer” kommer endast mata ut loggmeddelanden vid förfrågningar för IP:n från administratörer."
+
+#: tpl/cache/settings-ttl.tpl.php:82
+msgid "Specify how long, in seconds, REST calls are cached."
+msgstr "Specificera hur länge i sekunder REST-anrop är cachelagrade."
+
+#: tpl/toolbox/report.tpl.php:49
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "Miljörapporten innehåller detaljerad information om WordPress-konfigurationen."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:23
+msgid "The server will determine if the user is logged in based on the existence of this cookie."
+msgstr "Servern kommer avgöra om användaren är inloggad baserat på om denna cookie finns."
+
+#: tpl/cache/settings-purge.tpl.php:50 tpl/cache/settings-purge.tpl.php:89
+#: tpl/cache/settings-purge.tpl.php:113
+#: tpl/page_optm/settings_tuning.tpl.php:77
+msgid "Note"
+msgstr "Obs"
+
+#: thirdparty/woocommerce.content.tpl.php:22
+msgid "After verifying that the cache works in general, please test the cart."
+msgstr "Testa varukorgen efter att du verifierat att cachelagring fungerar i allmänhet."
+
+#: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:15
+msgid "When enabled, the cache will automatically purge when any plugin, theme or the WordPress core is upgraded."
+msgstr "Vid aktivering rensas cachen automatiskt när ett tillägg, tema eller WordPress-kärnan uppgraderas."
+
+#: src/lang.cls.php:96
+msgid "Purge All On Upgrade"
+msgstr "Töm allt vid uppgradering"
+
+#: thirdparty/woocommerce.content.tpl.php:72
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "Använd startsidans TTL för butikssidan"
+
+#: thirdparty/woocommerce.content.tpl.php:43
+msgid "Product Update Interval"
+msgstr "Intervall för produktuppdatering"
+
+#: thirdparty/woocommerce.content.tpl.php:51
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "Töm alltid produkt och kategorier när ändringar på kvantitet eller lagerstatus sker."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "Töm inte kategorier när ändringar på kvantitet eller lagerstatus sker."
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Purge product only when the stock status changes."
+msgstr "Töm produkt endast när lagerstatusen ändras."
+
+#: thirdparty/woocommerce.content.tpl.php:49
+msgid "Purge product and categories only when the stock status changes."
+msgstr "Töm produkt och kategorier endast när lagerstatusen ändras."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge categories only when stock status changes."
+msgstr "Töm kategorier endast när lagerstatusen ändras."
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "Töm produkt när ändring på kvantitet eller lagerstatusen sker."
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:43
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess matchade inte konfigurationsalternativet."
+
+#: tpl/cache/settings-ttl.tpl.php:68 tpl/cache/settings-ttl.tpl.php:83
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "Om detta sätts till ett värde mindre än 30 kommer webbflöden inte cachelagras."
+
+#: tpl/cache/settings-ttl.tpl.php:67
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "Specificera hur länge i sekunder webbflöden är cachelagrade."
+
+#: src/lang.cls.php:63
+msgid "Default Feed TTL"
+msgstr "Standard-TTL för webbflöde"
+
+#: src/error.cls.php:132
+msgid "Failed to get %s file contents."
+msgstr "Misslyckades att hämta innehållet i filen %s."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:16
+msgid "Caching these pages may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Cachelagring av dessa sidor kan förbättra serverprestandan genom att onödiga PHP-anrop undviks."
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:15
+msgid "Some themes and plugins add resources via a PHP request."
+msgstr "Vissa teman och tillägg lägger till resurser via en PHP-begäran."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:15
+msgid "Caching this resource may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Cachelagring av denna resurs kan förbättra serverprestandan genom att onödiga PHP-anrop undviks."
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:14
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico begärs på de flesta sidor."
+
+#: src/lang.cls.php:75
+msgid "Cache favicon.ico"
+msgstr "Cachelagra favicon.ico"
+
+#: tpl/cache/settings-cache.tpl.php:87
+msgid "Disabling this option may negatively affect performance."
+msgstr "Om detta alternativet avaktiveras kan det påverka prestandan negativt."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:42
+msgid "Invalid login cookie. Invalid characters found."
+msgstr "Ogiltig cookie för inloggning. Ogiltiga tecken hittades."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:56
+msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
+msgstr "VARNING: Cookies för inloggning med .htaccess och databas stämmer inte överens."
+
+#: src/error.cls.php:116
+msgid "Invalid login cookie. Please check the %s file."
+msgstr "Ogiltig cookie för inloggning. Kontrollera filen %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:34
+msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
+msgstr "Cachen måste skilja på vem som är inloggad på vilken WordPress-webbplats för att cachelagra korrekt."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:31
+msgid "There is a WordPress installed for %s."
+msgstr "Det finns en WordPress installerad för %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:29
+msgid "Example use case:"
+msgstr "Exempel på användarfall:"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:26
+msgid "The cookie set here will be used for this WordPress installation."
+msgstr "Cookien som anges här kommer användas för denna WordPress-installation."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:25
+msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
+msgstr "Om varje webbapplikation använder samma cookie kan servern förväxla om en användare är inloggad eller inte."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:24
+msgid "This setting is useful for those that have multiple web applications for the same domain."
+msgstr "Denna inställning är användbar för de som har flera webbapplikationer på samma domän."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:22
+msgid "The default login cookie is %s."
+msgstr "Standardcookie för inloggning är %s."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:19
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "MÅSTE VARA UNIK FRÅN ANDRA WEB-APPLIKATIONER."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:18
+msgid "No spaces and case sensitive."
+msgstr "Utan mellanslag och skiftlägeskänsligt."
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:17
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "SYNTAX: alfanumerisk och ”_”."
+
+#: src/lang.cls.php:187
+msgid "Login Cookie"
+msgstr "Cookie för inloggning"
+
+#: tpl/toolbox/settings-debug.tpl.php:58
+msgid "More information about the available commands can be found here."
+msgstr "Mer information om tillgängliga kommandon kan hittas här."
+
+#: tpl/cache/settings-advanced.tpl.php:13
+msgid "These settings are meant for ADVANCED USERS ONLY."
+msgstr "Dessa inställningar är endast avsedda för AVANCERADE ANVÄNDARE."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:82
+msgid "Current %s Contents"
+msgstr "Nuvarande %s-innehåll"
+
+#: tpl/cache/entry.tpl.php:18 tpl/cache/entry_network.tpl.php:11
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: tpl/cache/network_settings-advanced.tpl.php:7
+#: tpl/cache/settings-advanced.tpl.php:7
+msgid "Advanced Settings"
+msgstr "Avancerade inställningar"
+
+#: tpl/toolbox/purge.tpl.php:258
+msgid "Purge List"
+msgstr "Töm lista"
+
+#: tpl/toolbox/purge.tpl.php:177
+msgid "Purge By..."
+msgstr "Töm enligt &hellip;"
+
+#: tpl/crawler/blacklist.tpl.php:31 tpl/crawler/map.tpl.php:43
+#: tpl/toolbox/purge.tpl.php:224
+msgid "URL"
+msgstr "URL"
+
+#: tpl/toolbox/purge.tpl.php:218
+msgid "Tag"
+msgstr "Etikett"
+
+#: tpl/toolbox/purge.tpl.php:212
+msgid "Post ID"
+msgstr "Inläggs-ID"
+
+#: tpl/toolbox/purge.tpl.php:206
+msgid "Category"
+msgstr "Kategori"
+
+#: tpl/inc/show_error_cookie.php:5
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "OBS: Databasens cookie för inloggning matchade inte din cookie för inloggning."
+
+#: src/purge.cls.php:730
+msgid "Purge url %s"
+msgstr "Töm URL %s"
+
+#: src/purge.cls.php:699
+msgid "Purge tag %s"
+msgstr "Töm etikett %s"
+
+#: src/purge.cls.php:672
+msgid "Purge category %s"
+msgstr "Töm kategori %s"
+
+#: tpl/cache/settings-cache.tpl.php:27
+msgid "When disabling the cache, all cached entries for this site will be purged."
+msgstr "När cachelagring inaktiveras kommer alla cacheinlägg för denna webbplats att tömmas."
+
+#: tpl/cache/settings-cache.tpl.php:27 tpl/page_optm/entry.tpl.php:30
+msgid "NOTICE"
+msgstr "OBSERVERA"
+
+#: src/doc.cls.php:104
+msgid "This setting will edit the .htaccess file."
+msgstr "Denna inställning kommer att redigera filen .htaccess."
+
+#: tpl/toolbox/edit_htaccess.tpl.php:36
+msgid "LiteSpeed Cache View .htaccess"
+msgstr "LiteSpeed Cache visa .htaccess"
+
+#: src/error.cls.php:120
+msgid "Failed to back up %s file, aborted changes."
+msgstr "Misslyckades att säkerhetskopiera filen %s, ändringar avbröts."
+
+#: src/lang.cls.php:185
+msgid "Do Not Cache Cookies"
+msgstr "Cachelagra inte cookies"
+
+#: src/lang.cls.php:186
+msgid "Do Not Cache User Agents"
+msgstr "Cachelagra inte användaragenter"
+
+#: tpl/cache/network_settings-cache.tpl.php:19
+msgid "This is to ensure compatibility prior to enabling the cache for all sites."
+msgstr "Detta är för att säkerställa kompatibilitet innan cache för alla webbplatser aktiveras."
+
+#: tpl/cache/network_settings-cache.tpl.php:13
+msgid "Network Enable Cache"
+msgstr "Aktivera cache för nätverk"
+
+#: thirdparty/woocommerce.content.tpl.php:21
+#: tpl/cache/settings-advanced.tpl.php:12
+#: tpl/cache/settings_inc.browser.tpl.php:12 tpl/toolbox/heartbeat.tpl.php:14
+#: tpl/toolbox/report.tpl.php:29
+msgid "NOTICE:"
+msgstr "OBSERVERA:"
+
+#: tpl/cache/settings-purge.tpl.php:53
+msgid "Other checkboxes will be ignored."
+msgstr "Andra kryssrutor kommer att ignoreras."
+
+#: tpl/cache/settings-purge.tpl.php:52
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "Välj ”Alla” om det finns dynamiska widgetar länkade till inlägg på andra sidor än första- eller startsidorna."
+
+#: src/lang.cls.php:78 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "List of Mobile User Agents"
+msgstr "Lista på mobila användaragenter"
+
+#: src/file.cls.php:160 src/file.cls.php:165
+msgid "File %s is not writable."
+msgstr "Fil %s är inte skrivbar."
+
+#: tpl/page_optm/entry.tpl.php:7 tpl/page_optm/settings_js.tpl.php:7
+msgid "JS Settings"
+msgstr "Inställningar för JavaScript"
+
+#: src/gui.cls.php:595 tpl/cdn/entry.tpl.php:7 tpl/cdn/settings.tpl.php:194
+#: tpl/db_optm/entry.tpl.php:6
+msgid "Manage"
+msgstr "Hantera"
+
+#: src/lang.cls.php:62
+msgid "Default Front Page TTL"
+msgstr "Standard-TTL för startsida"
+
+#: src/purge.cls.php:613
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "Meddelade LiteSpeed-webbserver att tömma startsidan."
+
+#: tpl/toolbox/purge.tpl.php:7
+msgid "Purge Front Page"
+msgstr "Töm startsida"
+
+#: tpl/page_optm/settings_localization.tpl.php:127
+#: tpl/toolbox/beta_test.tpl.php:30
+msgid "Example"
+msgstr "Exempel"
+
+#: tpl/cache/settings-excludes.tpl.php:89
+msgid "All tags are cached by default."
+msgstr "Alla etiketter är cachelagrade som standard."
+
+#: tpl/cache/settings-excludes.tpl.php:56
+msgid "All categories are cached by default."
+msgstr "Alla kategorier är cachelagrade som standard."
+
+#: src/admin-display.cls.php:1134
+msgid "To do an exact match, add %s to the end of the URL."
+msgstr "Lägg till %s sist i URL:en för att göra en exakt matchning."
+
+#: src/admin-display.cls.php:1130
+msgid "The URLs will be compared to the REQUEST_URI server variable."
+msgstr "URL:erna kommer jämföras mot servervariablen REQUEST_URI."
+
+#: tpl/cache/settings-purge.tpl.php:54
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "Markera bara de arkivtyper som för närvarande används, de andra kan lämnas avmarkerade."
+
+#: tpl/toolbox/report.tpl.php:81
+msgid "Notes"
+msgstr "Noteringar"
+
+#: tpl/cache/settings-cache.tpl.php:19
+msgid "Use Network Admin Setting"
+msgstr "Använd administrationsinställningar för nätverk"
+
+#: tpl/esi_widget_edit.php:48
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: tpl/cache/network_settings-cache.tpl.php:17
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "Aktiveras LiteSpeed Cache för WordPress här, aktiveras cachelagring för nätverket."
+
+#: tpl/cache/settings_inc.object.tpl.php:7
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: tpl/cache/settings_inc.object.tpl.php:6
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: src/lang.cls.php:106
+msgid "Do Not Cache Roles"
+msgstr "Cachelagra inte roller"
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#. Plugin Name of the plugin
+#: tpl/banner/new_version.php:59 tpl/banner/new_version_dev.tpl.php:12
+#: tpl/cache/more_settings_tip.tpl.php:15 tpl/inc/admin_footer.php:8
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed Cache"
+
+#: tpl/toolbox/settings-debug.tpl.php:36
+msgid "Outputs to WordPress debug log."
+msgstr "Skriver till WordPress felsökningslogg."
+
+#: src/lang.cls.php:227
+msgid "Debug Level"
+msgstr "Felsökningsnivå"
+
+#: tpl/general/settings.tpl.php:82 tpl/general/settings.tpl.php:93
+#: tpl/general/settings.tpl.php:105 tpl/general/settings.tpl.php:172
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:184
+#: tpl/general/settings.tpl.php:190 tpl/general/settings.tpl.php:207
+msgid "Notice"
+msgstr "Notera"
+
+#: tpl/cache/settings-purge.tpl.php:27
+msgid "Term archive (include category, tag, and tax)"
+msgstr "Arkiv för term (inkluderar kategori, etikett och taxonomi)"
+
+#: tpl/cache/settings-purge.tpl.php:25
+msgid "Daily archive"
+msgstr "Dagligt arkiv"
+
+#: tpl/cache/settings-purge.tpl.php:24
+msgid "Monthly archive"
+msgstr "Månatligt arkiv"
+
+#: tpl/cache/settings-purge.tpl.php:23
+msgid "Yearly archive"
+msgstr "Årligt arkiv"
+
+#: tpl/cache/settings-purge.tpl.php:21
+msgid "Post type archive"
+msgstr "Arkiv för inläggstyp"
+
+#: tpl/cache/settings-purge.tpl.php:20
+msgid "Author archive"
+msgstr "Författararkiv"
+
+#: tpl/cache/settings-purge.tpl.php:15
+msgid "Home page"
+msgstr "Startsida"
+
+#: tpl/cache/settings-purge.tpl.php:14
+msgid "Front page"
+msgstr "Startsida"
+
+#: tpl/cache/settings-purge.tpl.php:13
+msgid "All pages"
+msgstr "Alla sidor"
+
+#: tpl/cache/settings-purge.tpl.php:72
+msgid "Select which pages will be automatically purged when posts are published/updated."
+msgstr "Välj de sidor som automatiskt ska tömmas när inlägg publiceras eller uppdateras."
+
+#: tpl/cache/settings-purge.tpl.php:47
+msgid "Auto Purge Rules For Publish/Update"
+msgstr "Regler för automatisk tömning vid publicering/uppdatering"
+
+#: src/lang.cls.php:60
+msgid "Default Public Cache TTL"
+msgstr "Standard-TTL för offentlig cache"
+
+#: src/admin-display.cls.php:949 tpl/cache/settings_inc.object.tpl.php:103
+#: tpl/crawler/settings-general.tpl.php:60
+#: tpl/crawler/settings-general.tpl.php:74
+#: tpl/crawler/settings-general.tpl.php:89 tpl/esi_widget_edit.php:70
+msgid "seconds"
+msgstr "sekunder"
+
+#: src/lang.cls.php:226
+msgid "Admin IPs"
+msgstr "IP:n för administratörer"
+
+#: src/admin-display.cls.php:117
+msgid "General"
+msgstr "Allmänt"
+
+#: tpl/cache/entry.tpl.php:39
+msgid "LiteSpeed Cache Settings"
+msgstr "Inställningar för LiteSpeed Cache"
+
+#: src/purge.cls.php:211
+msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
+msgstr "Meddelade LiteSpeed-webbserver att tömma alla LSCache-inlägg."
+
+#: src/gui.cls.php:471 src/gui.cls.php:479 src/gui.cls.php:487
+#: src/gui.cls.php:496 src/gui.cls.php:506 src/gui.cls.php:516
+#: src/gui.cls.php:526 src/gui.cls.php:535 src/gui.cls.php:545
+#: src/gui.cls.php:555 src/gui.cls.php:621 src/gui.cls.php:629
+#: src/gui.cls.php:637 src/gui.cls.php:646 src/gui.cls.php:656
+#: src/gui.cls.php:666 src/gui.cls.php:676 src/gui.cls.php:686
+#: src/gui.cls.php:695 src/gui.cls.php:705 src/gui.cls.php:715
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
+#: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
+#: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
+#: tpl/toolbox/purge.tpl.php:79 tpl/toolbox/purge.tpl.php:88
+#: tpl/toolbox/purge.tpl.php:97 tpl/toolbox/purge.tpl.php:106
+#: tpl/toolbox/purge.tpl.php:115
+msgid "Purge All"
+msgstr "Töm allt"
+
+#: src/admin-display.cls.php:281 src/gui.cls.php:603
+msgid "Settings"
+msgstr "Inställningar"

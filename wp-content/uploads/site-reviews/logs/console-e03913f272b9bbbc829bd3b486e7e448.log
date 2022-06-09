@@ -1,0 +1,28 @@
+[2022-06-06 13:41:48] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:48] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_terms does not use the InnoDB engine.
+[2022-06-06 13:41:48] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_users does not use the InnoDB engine.
+[2022-06-06 13:41:48] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_terms does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_users does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_3_0_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_4_0_2] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_4_4_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_4_5_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_terms does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_users does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_0_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_2_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_3_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_terms does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_users does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wp_posts does not use the InnoDB engine.
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_9_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_10_3] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_11_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_14_0] has run successfully
+[2022-06-06 13:41:49] DEBUG [Modules\Migrate:163] [Migrate_5_19_0] has run successfully

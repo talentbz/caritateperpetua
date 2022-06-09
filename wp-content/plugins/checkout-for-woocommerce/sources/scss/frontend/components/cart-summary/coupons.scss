@@ -1,0 +1,23 @@
+#cfw-coupons {
+  .cfw-promo-row {
+    justify-content: center;
+  }
+
+  .cfw-input-wrap-row {
+    margin-bottom: 1.25em;
+  }
+
+  .cfw-input-wrap {
+    & > input[type="text"], & > input[type="tel"], & > input[type="email"], & > input[type="password"] {
+      font-size: 14px;
+
+      @include media-breakpoint-down(lg) {
+        font-size: 16px;
+      }
+    }
+
+    .cfw-input-label {
+      padding: 0 1.06em;
+    }
+  }
+}

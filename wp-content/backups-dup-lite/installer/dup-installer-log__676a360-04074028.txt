@@ -1,0 +1,2225 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 07:44:10
+* VERSION: 1.4.5
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.34                                |8.0.18
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-05-04 07:40:28
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.5
+DB__________________: 5.7.33
+DB TABLES___________: 52
+DB ROWS_____________: 5,198
+DB FILE SIZE________: 10.07MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.18 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://minh-emliga-lada.se/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/vhosts/minh-emliga-lada.se/httpdocs/20220504_unicorn_[HASH]_20220504074028_archive.zip"
+SIZE________________: 65.96MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:44:20 - RUNTIME: 9.3824 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'minhemligalada'@'139.99.130.225' (using password: YES) [CODE:2|FILE:/var/www/vhosts/minh-emliga-lada.se/httpdocs/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'minhemligalada'@'139.99.130.225' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'minhemligalada'@'139.99.130.225' (using password: YES) [CODE:2|FILE:/var/www/vhosts/minh-emliga-lada.se/httpdocs/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'minhemligalada'@'139.99.130.225' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:58:33
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.68 -- Build Server: 5.7.33
+FILE SIZE:	dup-database__[HASH].sql (10.06MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/var/www/vhosts/minh-emliga-lada.se/httpdocs/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	On
+
+NOTICE: This servers version [5.5.68] is less than the build version [5.7.33].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_actionscheduler_actions` (  `action_id` bigint(20) unsigned NO...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_actionscheduler_claims` (  `claim_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_actionscheduler_groups` (  `group_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_actionscheduler_logs` (  `log_id` bigint(20) unsigned NOT NULL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_commentmeta` (  `meta_id` bigint(20) unsigned NOT NULL AUTO_IN...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_comments` (  `comment_ID` bigint(20) unsigned NOT NULL AUTO_IN...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_e_events` (  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_e_submissions` (  `id` bigint(20) unsigned NOT NULL AUTO_INCRE...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_e_submissions_actions_log` (  `id` bigint(20) unsigned NOT NUL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_e_submissions_values` (  `id` bigint(20) unsigned NOT NULL AUT...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_hfcm_scripts` (  `script_id` int(10) NOT NULL AUTO_INCREMENT,...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_links` (  `link_id` bigint(20) unsigned NOT NULL AUTO_INCREMEN...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_options` (  `option_id` bigint(20) unsigned NOT NULL AUTO_INCR...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_postmeta` (  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCRE...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_posts` (  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_term_relationships` (  `object_id` bigint(20) unsigned NOT NUL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_term_taxonomy` (  `term_taxonomy_id` bigint(20) unsigned NOT N...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_termmeta` (  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCRE...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_terms` (  `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMEN...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_usermeta` (  `umeta_id` bigint(20) unsigned NOT NULL AUTO_INCR...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_users` (  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_admin_note_actions` (  `action_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_admin_notes` (  `note_id` bigint(20) unsigned NOT NULL AUTO...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_category_lookup` (  `category_tree_id` bigint(20) unsigned ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_customer_lookup` (  `customer_id` bigint(20) unsigned NOT N...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_download_log` (  `download_log_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_order_coupon_lookup` (  `order_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_order_product_lookup` (  `order_item_id` bigint(20) unsigne...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_order_stats` (  `order_id` bigint(20) unsigned NOT NULL,  ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_order_tax_lookup` (  `order_id` bigint(20) unsigned NOT NUL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_product_attributes_lookup` (  `product_id` bigint(20) NOT N...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_product_meta_lookup` (  `product_id` bigint(20) NOT NULL, ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_rate_limits` (  `rate_limit_id` bigint(20) unsigned NOT NUL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_reserved_stock` (  `order_id` bigint(20) NOT NULL,  `produ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_tax_rate_classes` (  `tax_rate_class_id` bigint(20) unsigne...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wc_webhooks` (  `webhook_id` bigint(20) unsigned NOT NULL AUTO...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_api_keys` (  `key_id` bigint(20) unsigned NOT NULL...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_attribute_taxonomies` (  `attribute_id` bigint(20)...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_downloadable_product_permissions` (  `permission_i...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_log` (  `log_id` bigint(20) unsigned NOT NULL AUTO...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_order_itemmeta` (  `meta_id` bigint(20) unsigned N...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_order_items` (  `order_item_id` bigint(20) unsigne...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_payment_tokenmeta` (  `meta_id` bigint(20) unsigne...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_payment_tokens` (  `token_id` bigint(20) unsigned ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_sessions` (  `session_id` bigint(20) unsigned NOT ...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_shipping_zone_locations` (  `location_id` bigint(2...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_shipping_zone_methods` (  `zone_id` bigint(20) uns...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_shipping_zones` (  `zone_id` bigint(20) unsigned N...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_tax_rate_locations` (  `location_id` bigint(20) un...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_woocommerce_tax_rates` (  `tax_rate_id` bigint(20) unsigned NO...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+	NOTICE: utf8mb4_unicode_520_ci replaced by utf8mb4_unicode_ci in query [CREATE TABLE `wp_wpforms_tasks_meta` (  `id` bigint(20) NOT NULL AUTO_INCREMENT...]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+LEGACY COLLATION FALLBACK:
+	Running the following replacements:
+	[{"search":"utf8mb4_unicode_520_ci","replace":"utf8mb4_unicode_ci"}]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	478
+
+wp_actionscheduler_actions: (77)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (5)
+wp_actionscheduler_logs: (221)
+wp_commentmeta: (0)
+wp_comments: (4)
+wp_duplicator_packages: (0)
+wp_e_events: (0)
+wp_e_submissions: (0)
+wp_e_submissions_actions_log: (0)
+wp_e_submissions_values: (0)
+wp_hfcm_scripts: (1)
+wp_links: (0)
+wp_options: (377)
+wp_postmeta: (3567)
+wp_posts: (590)
+wp_term_relationships: (19)
+wp_term_taxonomy: (23)
+wp_termmeta: (7)
+wp_terms: (23)
+wp_usermeta: (43)
+wp_users: (1)
+wp_wc_admin_note_actions: (43)
+wp_wc_admin_notes: (39)
+wp_wc_category_lookup: (6)
+wp_wc_customer_lookup: (2)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (3)
+wp_wc_order_stats: (2)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_attributes_lookup: (3)
+wp_wc_product_meta_lookup: (5)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (33)
+wp_woocommerce_order_items: (3)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (3)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpforms_tasks_meta: (14)
+Removed '81' cache/transient rows
+
+INSERT DATA RUNTIME: 1.1452 sec.
+STEP-2 COMPLETE @ 07:58:35 - RUNTIME: 1.1484 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:58:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Unicorn"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/toprtd/toprtd.agency/ready-for-feedback/unicorn"
+path_new______________: "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+siteurl_______________: "https://minh-emliga-lada.se"
+url_old_______________: "https://ready-for-feedback.toprtd.agency/unicorn"
+url_new_______________: "https://minh-emliga-lada.se"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   221][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_hfcm_scripts"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   377][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3567][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   590][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/toprtd/toprtd.agency/ready-for-feedback/unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  2:"\/home\/toprtd\/toprtd.agency\/ready-for-feedback\/unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  3:"%2Fhome%2Ftoprtd%2Ftoprtd.agency%2Fready-for-feedback%2Funicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  4:"\home\toprtd\toprtd.agency\ready-for-feedback\unicorn" => "/var/www/vhosts/minh-emliga-lada.se/httpdocs"
+	SEARCH  5:"\\home\\toprtd\\toprtd.agency\\ready-for-feedback\\unicorn" => "\/var\/www\/vhosts\/minh-emliga-lada.se\/httpdocs"
+	SEARCH  6:"%5Chome%5Ctoprtd%5Ctoprtd.agency%5Cready-for-feedback%5Cunicorn" => "%2Fvar%2Fwww%2Fvhosts%2Fminh-emliga-lada.se%2Fhttpdocs"
+	SEARCH  7:"//ready-for-feedback.toprtd.agency/unicorn" ======> "//minh-emliga-lada.se"
+	SEARCH  8:"\/\/ready-for-feedback.toprtd.agency\/unicorn" ===> "\/\/minh-emliga-lada.se"
+	SEARCH  9:"%2F%2Fready-for-feedback.toprtd.agency%2Funicorn" => "%2F%2Fminh-emliga-lada.se"
+	SEARCH 10:"http://minh-emliga-lada.se" ======================> "https://minh-emliga-lada.se"
+	SEARCH 11:"http:\/\/minh-emliga-lada.se" ====================> "https:\/\/minh-emliga-lada.se"
+	SEARCH 12:"http%3A%2F%2Fminh-emliga-lada.se" ================> "https%3A%2F%2Fminh-emliga-lada.se"
+--------------------------------------
+SCANNED:	Tables:52 	|	 Rows:5117 	|	 Cells:33543 
+UPDATED:	Tables:5 	|	 Rows:841 	|	 Cells:1110 
+ERRORS:		0 
+RUNTIME:	0.312800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:58:44 - RUNTIME: 0.3426 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

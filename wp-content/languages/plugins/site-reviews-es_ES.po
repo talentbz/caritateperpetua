@@ -1,0 +1,3717 @@
+# Translation of Plugins - Site Reviews - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Site Reviews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-17 11:09:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Site Reviews - Stable (latest release)\n"
+
+#: views/pages/tools/general/import-reviews.php:81
+msgctxt "admin-text"
+msgid "The review GMT date"
+msgstr "Fecha de la reseña GMT"
+
+#: views/partials/notices/premium.php:16
+msgctxt "admin-text"
+msgid "One or more add-ons are not receiving updates. %sSave your license%s in the settings to get the latest updates and priority support."
+msgstr "Una o más extensiones no están recibiendo actualizaciones. %sGuarde su licencia%s en los ajustes para obtener las últimas actualizaciones y soporte prioritario."
+
+#: views/partials/notices/premium.php:10
+msgctxt "admin-text"
+msgid "One or more of your licenses have expired. %sRenew your license%s to get the latest updates and priority support."
+msgstr "Una o más licencias han terminado. %sRenueva tu licencia%s para obtener las últimas actualizaciones y soporte prioritario."
+
+#: views/pages/tools/general/import-reviews.php:17
+msgctxt "admin-text"
+msgid "Any entry in the CSV file that does not contain a required column value will be skipped."
+msgstr "Cualquier registro en el archivo CSV que no contenga un valor de columna obligatorio será omitido."
+
+#: views/pages/tools/general/export-reviews.php:37
+msgctxt "post_type:slug (admin-text)"
+msgid "Export as %s"
+msgstr "Exportar como %s"
+
+#: views/pages/tools/general/export-reviews.php:36
+msgctxt "admin-text"
+msgid "Export as Post IDs"
+msgstr "Exportar como ID de Entrada"
+
+#: views/pages/tools/general/export-reviews.php:13
+msgctxt "admin-text"
+msgid "This tool does not yet support custom fields!"
+msgstr "¡Esta herramienta no es compatible con campos personalizados!"
+
+#: views/pages/tools/general/export-reviews.php:6
+#: views/pages/tools/general/export-reviews.php:41
+msgctxt "admin-text"
+msgid "Export Reviews"
+msgstr "Exportar reseñas"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedUser.php:65
+msgctxt "admin-text"
+msgid "Assigned User"
+msgstr "Usuario asignado"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedPost.php:65
+msgctxt "admin-text"
+msgid "Assigned Post"
+msgstr "Entrada asignada"
+
+#: plugin/Commands/ExportReviews.php:31
+msgctxt "admin-text"
+msgid "No reviews found."
+msgstr "No se han encontrado reseñas"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:23
+msgctxt "admin-text"
+msgid "Any author"
+msgstr "Cualquier autor"
+
+#: views/partials/rollback.php:5
+msgctxt "admin-text"
+msgid "Update progress"
+msgstr "Progreso de la actualización"
+
+#: views/partials/listtable/filter.php:10
+msgctxt "admin-text"
+msgid "Search..."
+msgstr "Buscar..."
+
+#: views/partials/listtable/filter.php:8
+msgctxt "admin-text"
+msgid "Search"
+msgstr "Buscar"
+
+#: views/pages/tools/general/rollback-plugin.php:45
+msgctxt "admin-text"
+msgid "Rolling back to %s, please wait..."
+msgstr "Vuelta atrás de %s, por favor espere..."
+
+#: views/pages/tools/general/rollback-plugin.php:29
+msgctxt "admin-text"
+msgid "You currently have version %s installed of %s. Run this tool to rollback to a previous release."
+msgstr "Actualmente tienes instalada la versión %s de %s. Ejecuta la herramienta de volver atrás a la versión anterior."
+
+#: views/pages/tools/general/rollback-plugin.php:14
+msgctxt "wordpress.org (admin-text)"
+msgid "Unable to connect to %s to get the available plugin versions."
+msgstr "No ha sido posible conectarse a %s para obtener las versiones disponibles del plugin."
+
+#: views/pages/tools/general/rollback-plugin.php:6
+#: views/pages/tools/general/rollback-plugin.php:45
+msgctxt "admin-text"
+msgid "Rollback Plugin"
+msgstr "Volver a la versión anterior del plugin"
+
+#: plugin/Rollback.php:18
+msgctxt "admin-text"
+msgid "Rollback Site Reviews"
+msgstr "Volver a la versión anterior de Site Reviews"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:104
+msgctxt "admin-text"
+msgid "Specific User ID"
+msgstr "ID de usuario específica"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:84
+msgctxt "admin-text"
+msgid "Specific Post ID"
+msgstr "ID de entrada específica"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:59
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:64
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:61
+msgctxt "admin-text"
+msgid "Enter the User IDs"
+msgstr "Introduce el ID del usuario"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:34
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:57
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:39
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:62
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:36
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:59
+msgctxt "admin-text"
+msgid "Separate values with a comma."
+msgstr "Separa los valores con una coma."
+
+#: plugin/Controllers/ToolsController.php:351
+msgctxt "Site Reviews (admin-text)"
+msgid "Sorry, you are not allowed to rollback %s."
+msgstr "Lo sentimos, no tienes permiso para volver atrás %s."
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterType.php:30
+msgctxt "admin-text"
+msgid "Any review type"
+msgstr "Reseña de cualquier tipo"
+
+#: plugin/Commands/EnqueueAdminAssets.php:134
+msgctxt "admin-text"
+msgid "Searching..."
+msgstr "Buscando..."
+
+#: plugin/Commands/EnqueueAdminAssets.php:133
+msgctxt "admin-text"
+msgid "Rollback failed"
+msgstr "Vuelta atrás fallida"
+
+#: plugin/Commands/EnqueueAdminAssets.php:99
+#: plugin/Metaboxes/AuthorMetabox.php:30
+msgctxt "admin-text"
+msgid "Author Unknown"
+msgstr "Autor desconocido"
+
+#: plugin/Commands/EnqueueAdminAssets.php:96
+#: plugin/Overrides/ReviewsListTable.php:67
+msgctxt "admin-text"
+msgid "No Author"
+msgstr "Sin autor"
+
+#: plugin/Controllers/SettingsController.php:162
+msgctxt "admin-text"
+msgid "A license you entered could not be verified for the selected add-on."
+msgstr "La licencia que has introducido no puede ser verificada para la extensión seleccionada."
+
+#: views/pages/addons/index.php:82
+msgctxt "admin-text"
+msgid "Integrate Site Reviews with GamiPress and award your users for submitting and receiving reviews. Includes over 30 activity triggers!"
+msgstr "Integre Site Reviews con GamiPress y premie a sus usuarios por enviar y recibir reseñas. ¡Incluye más de 30 activadores de actividad!"
+
+#: plugin/Integrations/GamiPress/Controller.php:41
+msgid "Write review"
+msgstr "Escribir una reseña"
+
+#: plugin/Integrations/GamiPress/Controller.php:40
+msgid "Get review"
+msgstr "Obtener una reseña"
+
+#: plugin/Integrations/GamiPress/Controller.php:27
+msgctxt "1 point for ... 1 time"
+msgid "writing a review"
+msgstr "escribe una reseña"
+
+#: plugin/Integrations/GamiPress/Controller.php:24
+msgctxt "1 point for ... 1 time"
+msgid "getting a review"
+msgstr "obtén una reseña"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:107
+msgctxt "admin-text"
+msgid "The Profile user (BuddyPress/Ultimate Member)"
+msgstr "Perfil del usuario (BuddyPress/Ultimate Member)"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:28
+msgid "This field requires a valid telephone number."
+msgstr "Este campo requiere un número de teléfono válido"
+
+#: views/pages/tools/console.php:50
+msgctxt "admin-text"
+msgid "Apply"
+msgstr "Aplicar "
+
+#: views/pages/tools/console.php:46
+msgctxt "admin-text"
+msgid "Unknown Level"
+msgstr "Nivel desconocido"
+
+#: views/pages/tools/console.php:44
+msgctxt "admin-text"
+msgid "Level 4: Warnings"
+msgstr "Nivel 4: Advertencias"
+
+#: views/pages/tools/console.php:43
+msgctxt "admin-text"
+msgid "Level 2: Notices"
+msgstr "Nivel 2: Avisos"
+
+#: views/pages/tools/console.php:42
+msgctxt "admin-text"
+msgid "Level 1: Informational"
+msgstr "Nivel 1: Informativo"
+
+#: views/pages/tools/console.php:41
+msgctxt "admin-text"
+msgid "Level 0: Debugging"
+msgstr "Nivel 0: Depuración"
+
+#: views/pages/tools/console.php:39
+msgctxt "admin-text"
+msgid "Level 4: Warnings and errors."
+msgstr "Nivel 4: Advertencias y errores."
+
+#: views/pages/tools/console.php:38
+msgctxt "admin-text"
+msgid "Level 2: Deprecation notices."
+msgstr "Nivel 2: Avisos de caducidad."
+
+#: views/pages/tools/console.php:37
+msgctxt "admin-text"
+msgid "Level 1: Informational entries."
+msgstr "Nivel 1: Registros informativos"
+
+#: views/pages/tools/console.php:36
+msgctxt "admin-text"
+msgid "Level 0: Entries used for debugging."
+msgstr "Nivel 0: Registros usados para depuración."
+
+#: views/pages/tools/console.php:11
+msgctxt "admin-text"
+msgid "Download Log"
+msgstr "Descargar registro"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+msgid "action marked as failed after %s seconds"
+msgstr "acción marcada como fallida después de %s segundos"
+
+#: plugin/Commands/ChangeLogLevel.php:48
+msgctxt "admin-text"
+msgid "Console logging level could not be changed."
+msgstr "No se ha podido cambiar el nivel de registro de la consola."
+
+#: plugin/Commands/ChangeLogLevel.php:43
+msgctxt "admin-text"
+msgid "Console logging has been set to: Level %s"
+msgstr "Registro de consola ha sido establecido a: Nivel %s"
+
+#: views/pages/tools/general/import-reviews.php:140
+msgctxt "admin-text"
+msgid "Detect automatically"
+msgstr "Detectar automáticamente"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:24
+msgctxt "admin-text"
+msgid "No author"
+msgstr "Sin autor"
+
+#: plugin/Addons/Updater.php:237
+msgctxt "admin-text"
+msgid "A valid license key is required to download this update."
+msgstr "Se requiere una clave de licencia válida para descargar esta actualización."
+
+#: config/settings.php:36
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty-Two"
+msgstr "Tema: Twenty Twenty-Two"
+
+#: views/pages/tools/general/import-reviews.php:61
+msgctxt "admin-text"
+msgid "The User ID of the reviewer"
+msgstr "ID de usuario del revisor"
+
+#: config/settings.php:93
+msgctxt "admin-text"
+msgid "Custom Registration URL"
+msgstr "URL de registro personalizada"
+
+#: config/settings.php:69
+msgctxt "admin-text"
+msgid "Custom Login URL"
+msgstr "URL de acceso personalizada"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:106
+msgctxt "admin-text"
+msgid "The Page author"
+msgstr "Página del autor"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:86
+msgctxt "admin-text"
+msgid "The Parent Page"
+msgstr "La página principal"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:85
+msgctxt "admin-text"
+msgid "The Current Page"
+msgstr "La página actual"
+
+#: views/pages/settings/translations.php:29
+msgctxt "admin-text"
+msgid "Custom Text"
+msgstr "Texto personalizado"
+
+#: views/pages/settings/translations.php:3
+msgctxt "admin-text"
+msgid "Custom Text Settings"
+msgstr "Ajustes de texto personalizados"
+
+#: plugin/Modules/Html/Partials/Pagination.php:42
+msgid "Load more"
+msgstr "Cargar más"
+
+#: plugin/Modules/Html/Partials/Pagination.php:41
+msgctxt "screen reader text"
+msgid "Load more reviews"
+msgstr "Cargar más reseñas"
+
+#: plugin/Modules/Html/Partials/Pagination.php:39
+msgid "Loading, please wait..."
+msgstr "Cargando, por favor espera..."
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:97
+msgctxt "admin-text"
+msgid "Yes (page reload)"
+msgstr "Sí (recargar página)"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:93
+msgctxt "admin-text"
+msgid "Yes (AJAX pagination)"
+msgstr "Sí (Paginación AJAX)"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:89
+msgctxt "admin-text"
+msgid "Yes (AJAX load more)"
+msgstr "Sí (Cargar más AJAX)"
+
+#: plugin/Controllers/MenuController.php:141
+msgctxt "admin-text"
+msgid "Strings"
+msgstr "Cadenas"
+
+#: plugin/Commands/ToggleStatus.php:88
+msgctxt "admin-text"
+msgid "Unapproved <span class=\"count\">(%s)</span>"
+msgid_plural "Unapproved <span class=\"count\">(%s)</span>"
+msgstr[0] "No aprobado <span class=\"count\">(%s)</span>"
+msgstr[1] "No aprobados <span class=\"count\">(%s)</span>"
+
+#: plugin/Commands/ToggleStatus.php:80
+msgctxt "admin-text"
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] "Aprobado <span class=\"count\">(%s)</span>"
+msgstr[1] "Aprobados <span class=\"count\">(%s)</span>"
+
+#: config/settings.php:272
+msgctxt "admin-text"
+msgid "Fallback Avatar URL"
+msgstr "URL del avatar de reserva"
+
+#: views/pages/tools/general/import-reviews.php:56
+msgctxt "admin-text"
+msgid "The Users that the review is assigned to (separate multiple IDs with a comma)"
+msgstr "Usuarios a los que está asignada la revisión (separe las múltiples ID con una coma)"
+
+#: views/pages/documentation/support/common-problems-and-solutions.php:84
+msgid "Service Unavailable."
+msgstr "Servicio no disponible."
+
+#: views/pages/addons/index.php:19
+msgctxt "admin-text"
+msgid "Check it out!"
+msgstr "¡Échale un vistazo!"
+
+#: views/pages/addons/index.php:13
+msgctxt "admin-text"
+msgid "Site Reviews Premium"
+msgstr "Site Reviews Premium"
+
+#. translators: %d refers to the total number of taskes completed
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:153
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] "%d tarea programada completada."
+msgstr[1] "%d tareas programadas completadas."
+
+#. translators: %s refers to the exception error message
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+msgid "There was an error running the action scheduler: %s"
+msgstr "Ha habido un error al ejecutar el programador de acciones: %s"
+
+#. translators: %d refers to the total number of batches executed
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:117
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] "%d lote ejecutado."
+msgstr[1] "%d lotes ejecutados."
+
+#. translators: %d refers to how many scheduled taks were found to run
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:100
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] "Encontrada %d tarea programada"
+msgstr[1] "Encontradas %d tareas programadas"
+
+#. translators: 1: action ID 2: exception message
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "Error al procesar la acción %1$s: %2$s"
+
+#. translators: 1: action ID 2: hook name
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr "Acción de procesamiento %1$s completada con el gancho: %2$s"
+
+#. translators: %s refers to the action ID
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "Comenzando el procesado de la acción %s"
+
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr "Se ha perdido la reclamación. Abortando el lote actual."
+
+#. translators: %d: amount of actions
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] "Ejecutando %d acción"
+msgstr[1] "Ejecutando %d acciones"
+
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr "Hay demasiados lotes simultáneos."
+
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid "There are too many concurrent batches, but the run is forced to continue."
+msgstr "Hay demasiados lotes simultáneos, pero la ejecución se ve obligada a continuar."
+
+#. translators: %s php class name
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: vendors/woocommerce/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+msgid "The %s class can only be run within WP CLI."
+msgstr "La clase %s solo puede ejecutarse dentro de WP CLI."
+
+#. translators: 1: source action ID 2: source store class 3: destination action
+#. ID 4: destination store class
+#: vendors/woocommerce/action-scheduler/classes/migration/Runner.php:107
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr "Acción migrada con el ID %1$d en %2$s para ID %3$d en %4$s"
+
+#. translators: %d: amount of actions
+#: vendors/woocommerce/action-scheduler/classes/migration/Runner.php:82
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] "Migrando %d acción"
+msgstr[1] "Migrando %d acciones"
+
+#: vendors/woocommerce/action-scheduler/classes/migration/Controller.php:162
+msgid "Action Scheduler migration in progress. The list of scheduled actions may be incomplete."
+msgstr "Migración del programador de aciones en curso. La lista de acciones programadas puede estar incompleta."
+
+#: vendors/woocommerce/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr "El registro de destino debe estar configurado antes de ejecutar una migración"
+
+#: vendors/woocommerce/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr "El almacenamiento de destino debe estar configurado antes de ejecutar una migración"
+
+#: vendors/woocommerce/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr "El registro de origen debe estar configurado antes de ejecutar una migración"
+
+#: vendors/woocommerce/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr "El almacenamiento de origen debe estar configurado antes de ejecutar una migración"
+
+#: vendors/woocommerce/action-scheduler/classes/migration/ActionMigrator.php:95
+msgid "Unable to remove source migrated action %s"
+msgstr "No ha sido posible eliminar el origen de la acción %s migrada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Grupo de acciones"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "No se han encontrado acciones en la papelera"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "No se han encontrado acciones"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Buscar acciones programadas"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Ver acción"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Nueva acción programada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Editar acción programada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Añadir nueva acción programada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Añadir"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Acciones programadas"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Acción programada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Las acciones programadas son ganchos que se activan en una fecha y hora determinadas."
+
+#. translators: %s: count
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] "En progreso <span class=\"count\">(%s)</span>"
+msgstr[1] "En progreso <span class=\"count\">(%s)</span>"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr "En progreso"
+
+#. translators: %s: count
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Fallido <span class=\"count\">(%s)</span>"
+msgstr[1] "Fallidos <span class=\"count\">(%s)</span>"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr "Fallido"
+
+#. translators: %s is the error message
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1046
+msgid "%s Support for strings longer than this will be removed in a future version."
+msgstr "La compatibilidad de %s con cadenas mayores que esta se eliminarán en una versión futura."
+
+#. translators: %s: action ID
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "No se ha podido marcar el fallo en la acción %s. Error de la base de datos."
+
+#. translators: %s: action ID
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "No se ha podido desbloquear la solicitud en la acción %s. Error de la base de datos."
+
+#. translators: %s: claim ID
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+msgid "Unable to unlock claim %s. Database error."
+msgstr "No se ha podido desbloquear la solicitud %s. Error de la base de datos."
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+msgid "Invalid schedule. Cannot save action."
+msgstr "Programación no válida. No se puede guardar la acción."
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+msgid "Unable to save action."
+msgstr "No se ha podido guardar la acción."
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:863
+msgid "Unknown status found for action."
+msgstr "Estado desconocido encontrado para la acción."
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:683
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
+msgid "Unable to claim actions. Database error."
+msgstr "No se han podido solicitar acciones. Error de la base de datos."
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:451
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:543
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:574
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:797
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
+msgid "Unidentified action %s"
+msgstr "Acción %s no identificada"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:246
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr "Valor inválido para el parámetro select o count. No se pueden consultar las acciones."
+
+#. translators: %s: error message
+#. translators: %s: action error message
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
+#: vendors/woocommerce/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+msgid "Error saving action: %s"
+msgstr "Error guardando la acción: %s"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:78
+msgid "Database error."
+msgstr "Error de la base de datos."
+
+#. translators: %s: date interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+msgid "This data will be deleted in %s."
+msgstr "Estos datos se eliminarán en %s."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
+msgid "Newest Scheduled Date"
+msgstr "Fecha programada más reciente"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
+msgid "Oldest Scheduled Date"
+msgstr "Fecha programada más antigua"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr "Estado de la acción"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
+msgid "Data store:"
+msgstr "Datos almacenados:"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Versión:"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Action Scheduler"
+msgstr "Programador de acciones"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr "Cada minuto"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:634
+msgid "Search hook, args and claim ID"
+msgstr "Buscar gancho, argumentos e ID de solicitud"
+
+#. translators: %s: date interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:484
+msgid " (%s)"
+msgstr "(%s)"
+
+#. translators: %s: date interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:481
+msgid " (%s ago)"
+msgstr " (hace %s)"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:266
+msgid "Non-repeating"
+msgstr "No repetir"
+
+#. translators: %s: time interval
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:260
+msgid "Every %s"
+msgstr "Cada %s"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:224
+msgid "Now!"
+msgstr "¡Ahora!"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:174
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s segundo"
+msgstr[1] "%s segundos"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:169
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuto"
+msgstr[1] "%s minutos"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:164
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s hora"
+msgstr[1] "%s horas"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:159
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s día"
+msgstr[1] "%s días"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:154
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semana"
+msgstr[1] "%s semanas"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:149
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mes"
+msgstr[1] "%s meses"
+
+#. translators: %s: amount of time
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:144
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s año"
+msgstr[1] "%s años"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Cancela la acción ahora para evitar que se ejecute en el futuro."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Procesar la acción ahora como si se ejecutara como parte de una cola"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr "Ejecutar"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr "Fecha programada"
+
+#. translators: 1: action ID 2: schedule
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr "La acción [%1$s] tiene una programación no válida: %2$s"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr "Intentando reducir la memoria usada..."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:149
+msgid "Activity log for the action."
+msgstr "Registro de actividad de la acción."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:149
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr "Registro"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr "Programado"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:147
+msgid "The action's schedule frequency."
+msgstr "La frecuencia de programación de la acción."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:147
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr "Recurrencia"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:146
+msgid "Optional action group."
+msgstr "Grupo de acción opcional."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "Grupo"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:145
+msgid "Optional data array passed to the action hook."
+msgstr "Datos opcionales del array pasados al gancho de acción."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:145
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr "Argumentos"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr "Estado"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr "Gancho"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:141
+msgid "Scheduled Action Columns"
+msgstr "Columnas de acciones programadas"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr "Columnas"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "About Action Scheduler %s"
+msgstr "Acerca del programador de acciones %s"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ActionFactory.php:161
+msgid "Invalid action - must be a recurring action."
+msgstr "Acción no válida - debe ser una acción periódica."
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:381
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:380
+msgid "Failed"
+msgstr "Fallido"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:379
+msgid "In-progress"
+msgstr "En progreso"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:378
+msgid "Pending"
+msgstr "Pendiente"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
+msgid "Complete"
+msgstr "Completar"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr "reestablecer acción"
+
+#. translators: %s: exception message
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+msgid "action failed: %s"
+msgstr "acción fallida: %s"
+
+#. translators: 1: context 2: exception message
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+msgid "action failed via %1$s: %2$s"
+msgstr "acción fallida vía %1$s: %2$s"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr "acción completada"
+
+#. translators: %s: context
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+msgid "action complete via %s"
+msgstr "acción completada vía %s"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr "acción iniciada"
+
+#. translators: %s: context
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+msgid "action started via %s"
+msgstr "acción iniciada vía %s"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
+msgid "action canceled"
+msgstr "acción cancelada"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr "acción creada"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:755
+msgid "Search"
+msgstr "Buscar"
+
+#: vendors/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
+msgid "Filter"
+msgstr "Filtrar"
+
+#: plugin/Overrides/ScheduledActionsTable.php:461
+msgctxt "%s: time interval (admin-text)"
+msgid "Every %s"
+msgstr "Cada %s"
+
+#: plugin/Overrides/ScheduledActionsTable.php:457
+msgctxt "admin-text"
+msgid "Non-repeating"
+msgstr "No repetir"
+
+#. translators: %s: action HTML
+#: plugin/Overrides/ScheduledActionsTable.php:290
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:429
+msgid "Successfully processed change for action: %s"
+msgstr "Procesado correctamente el cambio de la acción: %s"
+
+#: plugin/Overrides/ScheduledActionsTable.php:286
+msgid "Successfully deleted action"
+msgstr "Acción borrada correctamente"
+
+#. translators: %s: action HTML
+#: plugin/Overrides/ScheduledActionsTable.php:283
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:425
+msgid "Successfully canceled action: %s"
+msgstr "Acción cancelada correctamente: %s"
+
+#. translators: %s: action HTML
+#: plugin/Overrides/ScheduledActionsTable.php:279
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:421
+msgid "Successfully executed action: %s"
+msgstr "Acción ejecutada correctamente: %s"
+
+#: plugin/Overrides/ScheduledActionsTable.php:122
+msgctxt "admin-text"
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Cancelar la acción ahora para evitar que se ejecute en el futuro"
+
+#: plugin/Overrides/ScheduledActionsTable.php:118
+msgctxt "admin-text"
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Procesar la acción ahora como si se ejecutara como parte de una cola"
+
+#: plugin/Overrides/ScheduledActionsTable.php:117
+msgctxt "admin-text"
+msgid "Run Now"
+msgstr "Ejecutar ahora"
+
+#: plugin/Overrides/ScheduledActionsTable.php:113
+msgctxt "admin-text"
+msgid "Retry"
+msgstr "Volver a intentar"
+
+#: plugin/Overrides/ScheduledActionsTable.php:107
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr "ID de solicitud"
+
+#: plugin/Overrides/ScheduledActionsTable.php:101
+msgctxt "admin-text"
+msgid "Log"
+msgstr "Registro"
+
+#: plugin/Overrides/ScheduledActionsTable.php:100
+msgctxt "admin-text"
+msgid "Args"
+msgstr "Argumentos"
+
+#: plugin/Overrides/ScheduledActionsTable.php:99
+msgctxt "admin-text"
+msgid "Scheduled Date"
+msgstr "Fecha Programada"
+
+#: plugin/Overrides/ScheduledActionsTable.php:98
+msgctxt "admin-text"
+msgid "Recurrence"
+msgstr "Recurrencia"
+
+#: plugin/Overrides/ScheduledActionsTable.php:96
+msgctxt "admin-text"
+msgid "Hook"
+msgstr "Gancho"
+
+#: plugin/Modules/Date.php:57
+msgctxt "%s: amount of time"
+msgid "%s second ago"
+msgid_plural "%s seconds ago"
+msgstr[0] "hace %s segundo"
+msgstr[1] "hace %s segundos"
+
+#: plugin/Modules/Date.php:56
+msgctxt "%s: amount of time"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s segundo"
+msgstr[1] "%s segundos"
+
+#: plugin/Modules/Date.php:55
+msgctxt "%s: amount of time"
+msgid "in %s second"
+msgid_plural "in %s seconds"
+msgstr[0] "en %s segundo"
+msgstr[1] "en %s segundos"
+
+#: plugin/Modules/Date.php:51
+msgctxt "%s: amount of time"
+msgid "%s minute ago"
+msgid_plural "%s minutes ago"
+msgstr[0] "hace %s minuto"
+msgstr[1] "hace %s minutos"
+
+#: plugin/Modules/Date.php:50
+msgctxt "%s: amount of time"
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuto"
+msgstr[1] "%s minutos"
+
+#: plugin/Modules/Date.php:49
+msgctxt "%s: amount of time"
+msgid "in %s minute"
+msgid_plural "in %s minutes"
+msgstr[0] "en %s minuto"
+msgstr[1] "en %s minutos"
+
+#: plugin/Modules/Date.php:45
+msgctxt "%s: amount of time"
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "hace %s hora"
+msgstr[1] "hace %s horas"
+
+#: plugin/Modules/Date.php:44
+msgctxt "%s: amount of time"
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s hora"
+msgstr[1] "%s horas"
+
+#: plugin/Modules/Date.php:43
+msgctxt "%s: amount of time"
+msgid "in %s hour"
+msgid_plural "in %s hours"
+msgstr[0] "en %s hora"
+msgstr[1] "en %s horas"
+
+#: plugin/Modules/Date.php:39
+msgctxt "%s: amount of time"
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] "hace %s día"
+msgstr[1] "hace %s días"
+
+#: plugin/Modules/Date.php:38
+msgctxt "%s: amount of time"
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s día"
+msgstr[1] "%s días"
+
+#: plugin/Modules/Date.php:37
+msgctxt "%s: amount of time"
+msgid "in %s day"
+msgid_plural "in %s days"
+msgstr[0] "en %s día"
+msgstr[1] "en %s días"
+
+#: plugin/Modules/Date.php:33
+msgctxt "%s: amount of time"
+msgid "%s week ago"
+msgid_plural "%s weeks ago"
+msgstr[0] "hace %s semana"
+msgstr[1] "hace %s semanas"
+
+#: plugin/Modules/Date.php:32
+msgctxt "%s: amount of time"
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s semana"
+msgstr[1] "%s semanas"
+
+#: plugin/Modules/Date.php:31
+msgctxt "%s: amount of time"
+msgid "in %s week"
+msgid_plural "in %s weeks"
+msgstr[0] "en %s semana"
+msgstr[1] "en %s semanas"
+
+#: plugin/Modules/Date.php:27
+msgctxt "%s: amount of time"
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] "hace %s mes"
+msgstr[1] "hace %s meses"
+
+#: plugin/Modules/Date.php:26
+msgctxt "%s: amount of time"
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s mes"
+msgstr[1] "%s meses"
+
+#: plugin/Modules/Date.php:25
+msgctxt "%s: amount of time"
+msgid "in %s month"
+msgid_plural "in %s months"
+msgstr[0] "en %s mes"
+msgstr[1] "en %s meses"
+
+#: plugin/Modules/Date.php:21
+msgctxt "%s: amount of time"
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] "hace %s año"
+msgstr[1] "hace %s años"
+
+#: plugin/Modules/Date.php:20
+msgctxt "%s: amount of time"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s año"
+msgstr[1] "%s años"
+
+#: plugin/Modules/Date.php:19
+msgctxt "%s: amount of time"
+msgid "in %s year"
+msgid_plural "in %s years"
+msgstr[0] "en %s año"
+msgstr[1] "en %s años"
+
+#: plugin/Controllers/MenuController.php:166
+msgctxt "admin-text"
+msgid "Scheduled Actions"
+msgstr "Acciones programadas"
+
+#: plugin/Commands/ImportReviews.php:196
+msgctxt "admin-text"
+msgid "empty or missing content"
+msgstr "contenido vacío o inexistente"
+
+#: plugin/Commands/ImportReviews.php:195
+msgctxt "admin-text"
+msgid "wrong date format"
+msgstr "formato de fecha erróneo"
+
+#: plugin/Commands/EnqueueAdminAssets.php:131
+msgctxt "admin-text"
+msgid "Try Premium"
+msgstr "Prueba Premium"
+
+#: config/settings.php:55
+msgid "%s star or less"
+msgid_plural "%s stars or less"
+msgstr[0] "%s estrella o menos"
+msgstr[1] "%s estrellas o menos"
+
+#: config/settings.php:53
+msgctxt "admin-text"
+msgid "Require Approval For"
+msgstr "Requiere aprobación para"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterCategory.php:31
+msgctxt "admin-text"
+msgid "No category"
+msgstr "Sin categoría"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedUser.php:25
+msgctxt "admin-text"
+msgid "No assigned user"
+msgstr "Usuario no asignado"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedPost.php:25
+msgctxt "admin-text"
+msgid "No assigned post"
+msgstr "Entrada no asignada"
+
+#: config/settings.php:263
+msgctxt "admin-text"
+msgid "This image is displayed when there is no avatar."
+msgstr "Esta imágen se mostrará cuando no haya avatar."
+
+#: config/settings.php:261
+msgctxt "admin-text"
+msgid "Wavatar (faces with generated features)"
+msgstr "Wavatar (caras con características generadas)"
+
+#: config/settings.php:260
+msgctxt "admin-text"
+msgid "Robohash (robots with generated faces)"
+msgstr "Robohash (robots con caras generadas)"
+
+#: config/settings.php:259
+msgctxt "admin-text"
+msgid "Retro (8-bit arcade-style pixelated faces)"
+msgstr "Retro (caras pixeladas estilo arcade 8 bits)"
+
+#: views/pages/addons/index.php:62 views/pages/addons/index.php:73
+msgctxt "admin-text"
+msgid "Premium members only"
+msgstr "Sólo miembros Premium"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:34
+msgctxt "admin-text"
+msgid "Do not limit by category"
+msgstr "No limitar por categoría"
+
+#: config/settings.php:373
+msgctxt "admin-text"
+msgid "read this"
+msgstr "lee esto"
+
+#: plugin/Modules/Avatar.php:123
+msgid "Avatar for %s"
+msgstr "Avatar para %s"
+
+#: plugin/Modules/Date.php:73
+msgid "A moment ago"
+msgid_plural "Now"
+msgstr[0] "Hace un momento"
+msgstr[1] "Ahora"
+
+#: plugin/Modules/Html/Tags/ReviewAssignedLinksTag.php:26
+msgctxt "admin-text"
+msgid "No title"
+msgstr "Sin título"
+
+#: views/partials/screen/inline-edit.php:91
+msgctxt "admin-text"
+msgid "Pings"
+msgstr "Pings"
+
+#: views/partials/screen/inline-edit.php:85
+#: views/partials/screen/inline-edit.php:95
+msgctxt "admin-text"
+msgid "Do not allow"
+msgstr "No permitir"
+
+#: views/partials/screen/inline-edit.php:84
+#: views/partials/screen/inline-edit.php:94
+msgctxt "admin-text"
+msgid "Allow"
+msgstr "Permitir"
+
+#: views/partials/screen/inline-edit.php:81
+msgctxt "admin-text"
+msgid "Comments"
+msgstr "Comentarios"
+
+#: plugin/Commands/EnqueueAdminAssets.php:95
+#: plugin/Overrides/ReviewsListTable.php:59
+#: views/partials/screen/inline-edit.php:65
+#: views/partials/screen/inline-edit.php:83
+#: views/partials/screen/inline-edit.php:93
+msgctxt "admin-text"
+msgid "No Change"
+msgstr "Sin cambios"
+
+#: plugin/Overrides/ScheduledActionsTable.php:97
+#: views/partials/screen/inline-edit.php:63
+msgctxt "admin-text"
+msgid "Status"
+msgstr "Estado"
+
+#: views/partials/screen/inline-edit.php:43
+msgctxt "admin-text"
+msgid "Bulk Edit"
+msgstr "Edición en lote"
+
+#: plugin/Controllers/ToolsController.php:274
+msgctxt "admin-text"
+msgid "The review relationships have been repaired."
+msgstr "Las relaciones de la reseña han sido reparadas."
+
+#: views/pages/tools/general/repair-review-relations.php:29
+msgctxt "admin-text"
+msgid "Repair Relations"
+msgstr "Reparar relaciones"
+
+#: views/pages/tools/general/repair-review-relations.php:6
+msgctxt "admin-text"
+msgid "Repair Review Relations"
+msgstr "Reparar relaciones de reseñas"
+
+#: config/settings.php:228
+msgctxt "admin-text"
+msgid "Strict Assignment (faster database queries)"
+msgstr "Asignación estricta (consultas más rápidas a la base de datos)"
+
+#: config/settings.php:227
+msgctxt "admin-text"
+msgid "Loose Assignment (slower database queries)"
+msgstr "Asignación flexible (consultas más lentas a la base de datos)"
+
+#: compatibility.php:39
+msgctxt "admin-text"
+msgid "Respond To Others' Reviews"
+msgstr "Responder a reseñas de otros"
+
+#: compatibility.php:38
+msgctxt "admin-text"
+msgid "Respond To Reviews"
+msgstr "Responder a reseñas"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedPost.php:24
+msgctxt "admin-text"
+msgid "Any assigned post"
+msgstr "Cualquier entrada asignada"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedPost.php:15
+msgctxt "admin-text"
+msgid "Filter by assigned post"
+msgstr "Filtrar por entrada asignada"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterCategory.php:40
+msgctxt "admin-text"
+msgid "Any category"
+msgstr "Cualquier categoría"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterCategory.php:14
+msgctxt "admin-text"
+msgid "Filter by category"
+msgstr "Filtrar por categoría"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedUser.php:24
+msgctxt "admin-text"
+msgid "Any assigned user"
+msgstr "Cualquier usuario asignado"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAssignedUser.php:15
+msgctxt "admin-text"
+msgid "Filter by assigned user"
+msgstr "Filtrar por usuario asignado"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterType.php:14
+msgctxt "admin-text"
+msgid "Filter by review type"
+msgstr "Filtrar por tipo de reseña"
+
+#: plugin/Controllers/ListTableController.php:246
+msgctxt "admin-text"
+msgid "Saving is disabled: %s is currently editing this review."
+msgstr "El guardado está desactivado: %s está editando ahora mismo esta reseña."
+
+#: plugin/Controllers/ListTableController.php:245
+msgctxt "admin-text"
+msgid "Someone"
+msgstr "Alguien"
+
+#: plugin/Controllers/ListTableController.php:241
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to respond to this review."
+msgstr "Lo sentimos, no tienes permiso para responder a esta reseña."
+
+#: plugin/Controllers/ListTableController.php:168
+msgctxt "admin-text"
+msgid "Respond"
+msgstr "Responder"
+
+#: plugin/Controllers/ListTableController.php:166
+msgctxt "admin-text"
+msgid "Respond inline to &#8220;%s&#8221;"
+msgstr "Respuesta integrada a &#8220;%s&#8221;"
+
+#: plugin/Controllers/ListTableController.php:41
+msgctxt "admin-text"
+msgid "%s is currently editing"
+msgstr "%s está editando en este momento"
+
+#: plugin/Controllers/MenuController.php:113
+msgctxt "admin-text"
+msgid "API"
+msgstr "API"
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:345
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to update reviews as this user."
+msgstr "Lo sentimos, no tienes permisos para actualizar las reseñas como este usuario."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:341
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to edit this review."
+msgstr "Lo sentimos, no tienes permiso para editar esta reseña"
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:301
+msgctxt "admin-text"
+msgid "Unique identifier for the object."
+msgstr "Identificador único para el objeto."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:214
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to edit reviews."
+msgstr "Lo sentimos, no tienes permiso para editar reseñas."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:211
+msgctxt "admin-text"
+msgid "Sorry, you do not have permission to access reviews."
+msgstr "Lo sentimos, no tienes permiso para acceder a las reseñas."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:159
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to view this review."
+msgstr "Lo sentimos, no tienes permiso para ver esta reseña."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:117
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to delete this review."
+msgstr "Lo sentimos, no tienes permiso para borrar esta reseña."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:113
+#: plugin/Controllers/Api/Version1/RestReviewController.php:155
+#: plugin/Controllers/Api/Version1/RestReviewController.php:337
+msgctxt "admin-text"
+msgid "Invalid review ID."
+msgstr "ID de reseña inválido"
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:65
+#: plugin/Controllers/Api/Version1/RestReviewController.php:69
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to create reviews as this user."
+msgstr "Lo sentimos, no tienes permiso para crear reseñas como este usuario."
+
+#: plugin/Controllers/Api/Version1/RestReviewController.php:61
+msgctxt "admin-text"
+msgid "Cannot create existing review."
+msgstr "No se puede crear una reseña existente."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewParameters.php:28
+msgctxt "admin-text"
+msgid "Current page of the collection."
+msgstr "Página actual de la colección."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewParameters.php:22
+msgctxt "admin-text"
+msgid "Sort collection by object attribute."
+msgstr "Ordenar la colección por el atributo del objeto."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:259
+msgctxt "admin-text"
+msgid "The title of the review."
+msgstr "El titulo de la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:248
+msgctxt "admin-text"
+msgid "A named status for the review."
+msgstr "Un nombre de estado para la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:243
+msgctxt "admin-text"
+msgid "The response given to the review."
+msgstr "La respuesta dada a la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:238
+msgctxt "admin-text"
+msgid "The rating of the review."
+msgstr "La votación de la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:233
+msgctxt "admin-text"
+msgid "The name of the person who submitted the review."
+msgstr "El nombre de la persona que ha enviado la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:226
+msgctxt "admin-text"
+msgid "The date the review was last modified, as GMT."
+msgstr "La fecha de última modificación de la reseña, como GMT."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:214
+msgctxt "admin-text"
+msgid "If the review has been pinned."
+msgstr "Si la reseña ha sido anclada."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:208
+msgctxt "admin-text"
+msgid "If the review has been modified."
+msgstr "Si la reseña ha sido modificada."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:202
+msgctxt "admin-text"
+msgid "If the review has an approved status."
+msgstr "Si la reseña tiene el estado aprobado."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:196
+msgctxt "admin-text"
+msgid "The IP address of the person who submitted the review."
+msgstr "La dirección IP de la persona que envió la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:190
+msgctxt "admin-text"
+msgid "Unique identifier for the review."
+msgstr "Identificador único para la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:185
+msgctxt "admin-text"
+msgid "The email of the person who submitted the review."
+msgstr "El correo electrónico de la persona que ha enviado la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:179
+msgctxt "admin-text"
+msgid "The date the review was published, as GMT."
+msgstr "La fecha en la que se publicó la reseña, como GMT."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:173
+msgctxt "admin-text"
+msgid "The date the review was published, in the site's timezone."
+msgstr "La fecha en la que se publicó la reseña, en la zona horaria de la página web."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:159
+msgctxt "admin-text"
+msgid "The content of the review."
+msgstr "El contenido de la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:154
+msgctxt "admin-text"
+msgid "The avatar of the person who submitted the review."
+msgstr "El avatar de la persona que ha enviado la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:149
+msgctxt "admin-text"
+msgid "The ID for the author of the review."
+msgstr "El ID del autor de la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:141
+msgctxt "admin-text"
+msgid "The users assigned to the review."
+msgstr "Los usuarios asignados a la reseña."
+
+#: plugin/Controllers/Api/Version1/Schema/SummaryParameters.php:105
+msgctxt "admin-text"
+msgid "Ensure result set excludes reviews authored by specific users."
+msgstr "Asegúrate de que el conjunto de resultados excluye las reseñas creadas por usuarios específicos."
+
+#: plugin/Controllers/Api/Version1/Schema/SummaryParameters.php:97
+msgctxt "admin-text"
+msgid "Limit result set to reviews authored by specific users."
+msgstr "Limitar el conjunto de resultados de las reseñas creadas por usuarios específicos."
+
+#: plugin/Controllers/Api/Version1/RestSummaryController.php:52
+msgctxt "admin-text"
+msgid "The bayesian ranking number."
+msgstr "El número de clasificación bayesiana."
+
+#: plugin/Controllers/Api/Version1/RestSummaryController.php:47
+msgctxt "admin-text"
+msgid "The defined minimum rating."
+msgstr "La puntuación mínima definida."
+
+#: plugin/Controllers/Api/Version1/RestSummaryController.php:42
+msgctxt "admin-text"
+msgid "The defined maximum rating."
+msgstr "La puntuación máxima definida."
+
+#: plugin/Controllers/Api/Version1/RestSummaryController.php:37
+msgctxt "admin-text"
+msgid "The average rating."
+msgstr "La votación media."
+
+#: plugin/Controllers/Api/Version1/RestTypeController.php:39
+msgctxt "admin-text"
+msgid "Sorry, you are not allowed to view review types."
+msgstr "Lo sentimos, no tienes permiso para ver los tipos de reseñas."
+
+#: plugin/Controllers/Api/Version1/RestTypeController.php:26
+msgctxt "admin-text"
+msgid "There are no review types."
+msgstr "No hay tipos de reseñas."
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:105
+msgctxt "admin-text"
+msgid "Reviews Per Page"
+msgstr "Reseñas por página"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:81
+msgctxt "admin-text"
+msgid "Enable Pagination"
+msgstr "Activar la paginación"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:24
+msgctxt "admin-text"
+msgid "Latest Reviews"
+msgstr "Últimas reseñas"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:120
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:86
+msgctxt "admin-text"
+msgid "Enable the schema?"
+msgstr "¿Activar el esquema?"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:119
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:85
+msgctxt "admin-text"
+msgid "The schema should only be enabled once per page."
+msgstr "El esquema sólo debe activarse una vez por página."
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:112
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:78
+msgctxt "admin-text"
+msgid "Minimum Rating"
+msgstr "Votación mínima"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:74
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:71
+msgctxt "admin-text"
+msgid "Terms were not accepted"
+msgstr "Las condiciones no fueron aceptadas"
+
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:73
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:70
+msgctxt "admin-text"
+msgid "Terms were accepted"
+msgstr "Las condiciones fueron aceptadas"
+
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:21
+msgctxt "admin-text"
+msgid "Rating Summary"
+msgstr "Resumen de la votación"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:105
+msgctxt "admin-text"
+msgid "The Logged-in user"
+msgstr "El usuario conectado"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:50
+msgctxt "admin-text"
+msgid "Assign Reviews to a User"
+msgstr "Asignar reseñas a un usuario"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:42
+msgctxt "admin-text"
+msgid "Assign Reviews to a Category"
+msgstr "Asignare reseñas a una categoría"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:36
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:41
+#: plugin/Integrations/Elementor/ElementorSummaryWidget.php:38
+msgctxt "admin-text"
+msgid "Enter the Post IDs"
+msgstr "Introduce los IDs de la entrada"
+
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:27
+msgctxt "admin-text"
+msgid "Assign Reviews to a Page"
+msgstr "Asignar reseñas a una página"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:192
+msgctxt "admin-text"
+msgid "Additional CSS classes"
+msgstr "Clases CSS adicionales"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:190
+msgctxt "admin-text"
+msgid "Separate multiple classes with spaces."
+msgstr "Separa múltiples clases con espacios."
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:186
+msgctxt "admin-text"
+msgid "Custom ID"
+msgstr "ID personalizada"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:140
+msgctxt "admin-text"
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: plugin/Integrations/Elementor/ElementorWidget.php:120
+msgctxt "admin-text"
+msgid "Limit the Type of Reviews"
+msgstr "Limitar el tipo de reseñas"
+
+#: views/partials/screen/locked-indicator.php:6
+msgctxt "admin-text"
+msgid "&#8220;%s&#8221; is locked"
+msgstr "&#8220;%s&#8221; está bloqueado"
+
+#: views/partials/screen/inline-edit.php:31
+#: views/partials/screen/inline-edit.php:128
+msgctxt "admin-text"
+msgid "Update"
+msgstr "Actualizar"
+
+#: views/partials/screen/inline-edit.php:22
+msgctxt "admin-text"
+msgid "Your Response"
+msgstr "Tu respuesta:"
+
+#: views/partials/screen/inline-edit.php:14
+msgctxt "admin-text"
+msgid "Their Review"
+msgstr "Su reseña"
+
+#: views/partials/screen/inline-edit.php:10
+msgctxt "admin-text"
+msgid "Respond to the review"
+msgstr "Responder a la reseña"
+
+#: views/partials/screen/filters.php:4
+msgctxt "admin-text"
+msgid "Filters"
+msgstr "Filtros"
+
+#: plugin/Commands/ImportReviews.php:171
+msgctxt "admin-text"
+msgid "See the %s for more details."
+msgstr "Consulta %s para más detalles."
+
+#: views/pages/tools/general/import-reviews.php:148
+msgctxt "admin-text"
+msgid "Select the date format used in the reviews"
+msgstr "Selecciona el formato de fecha usado en las reseñas"
+
+#: views/pages/tools/general/import-reviews.php:142
+msgctxt "admin-text"
+msgid "Semicolon (;)"
+msgstr "Punto y coma (;)"
+
+#: views/pages/tools/general/import-reviews.php:141
+msgctxt "admin-text"
+msgid "Comma (,)"
+msgstr "Coma (,)"
+
+#: views/pages/tools/general/import-reviews.php:138
+msgctxt "admin-text"
+msgid "Delimiter"
+msgstr "Delimitador"
+
+#: views/pages/tools/general/import-reviews.php:76
+msgctxt "admin-text"
+msgid "The review date"
+msgstr "Fecha de la reseña"
+
+#: config/forms/metabox-fields.php:31
+#: plugin/Controllers/PrivacyController.php:133
+msgctxt "admin-text"
+msgid "Terms Accepted"
+msgstr "Condiciones aceptadas"
+
+#: plugin/Widgets/Widget.php:103
+msgctxt "admin-text"
+msgid "Site Reviews: Unknown Widget"
+msgstr "Site Reviews: Widget Desconocido"
+
+#: plugin/Application.php:184 plugin/Controllers/SettingsController.php:176
+msgctxt "admin-text"
+msgid "License Keys"
+msgstr "Claves de Licencia"
+
+#: config/settings.php:689
+msgctxt "admin-text"
+msgid "Enable Akismet"
+msgstr "Activar Akismet"
+
+#: config/settings.php:362 config/settings.php:386 config/settings.php:408
+#: config/settings.php:430 config/settings.php:452 config/settings.php:473
+#: config/settings.php:485 config/settings.php:497 config/settings.php:513
+#: config/settings.php:526 config/settings.php:539 config/settings.php:552
+#: config/settings.php:564 views/pages/settings/schema.php:19
+msgctxt "admin-text"
+msgid "Custom Fields metabox"
+msgstr "Campos personalizados de la caja meta"
+
+#: plugin/Controllers/ToolsController.php:89
+msgctxt "admin-text"
+msgid "The <code>%s</code> table was not found in the database."
+msgstr "La tabla <code>%s</code> no se ha encontrado en la base de datos."
+
+#: plugin/Controllers/ToolsController.php:84
+msgctxt "admin-text"
+msgid "The <code>%s</code> table could not be converted to InnoDB."
+msgstr "La tabla <code>%s</code> no se ha podido convertir a InnoDB."
+
+#: plugin/Controllers/ToolsController.php:79
+msgctxt "admin-text"
+msgid "The <code>%s</code> table was successfully converted to InnoDB."
+msgstr "La tabla <code>%s</code> se ha convertido correctamente a InnoDB."
+
+#: views/pages/tools/general/test-ip-detection.php:10
+msgctxt "admin-text"
+msgid "If you are getting an \"unknown\" value for IP addresses in your reviews, you may use this tool to check the visitor IP address detection."
+msgstr "Si obtienes un valor «desconocido» para las direcciones IP en tus reseñas, puedes utilizar esta herramienta para comprobar la detección de la dirección IP del visitante."
+
+#: views/pages/tools/general/test-ip-detection.php:9
+msgctxt "admin-text"
+msgid "When reviews are submitted on your website, Site Reviews detects the IP address of the person submitting the review and saves it to the submitted review. This allows you to limit review submissions or to blacklist reviewers based on their IP address. The IP address is also used by Akismet (if you have enabled the integration) to catch spam submissions."
+msgstr "Cuando se envían reseñas en tu web, Site Reviews detecta la dirección IP de la persona que envía la reseña y la guarda en la reseña enviada. Esto te permite limitar los envíos de reseñas o poner en una lista negra a los revisores en función de su dirección IP. La dirección IP también es usada por Akismet (si has activado la integración) para detectar los envíos de spam."
+
+#: views/pages/tools/general/test-ip-detection.php:4
+msgctxt "admin-text"
+msgid "Test IP Address Detection"
+msgstr "Prueba de detección de direcciones IP"
+
+#: views/pages/tools/general/reset-permissions.php:15
+msgctxt "admin-text"
+msgid "If you have changed the capabilities of your user roles (Administrator, Editor, Author, and Contributor) and you suspect that Site Reviews is not working correctly due to your changes, you may use this tool to reset the Site Reviews capabilities for your user roles."
+msgstr "Si has cambiado las capacidades de tus perfiles de usuario (administrador, editor, autor y colaborador) y sospechas que Site Reviews no está funcionando correctamente debido a tus cambios, puedes utilizar esta herramienta para restablecer las capacidades de Site Reviews para tus perfiles de usuario."
+
+#: views/pages/tools/general/reset-permissions.php:14
+msgctxt "admin-text"
+msgid "Site Reviews provides custom post_type capabilities that mirror the capabilities of your posts by default. For example, if a user role has permission to edit others posts, then that role will also have permission to edit other users reviews."
+msgstr "Site Reviews proporciona capacidades `post_type` personalizadas que reflejan las capacidades de tus entradas por defecto. Por ejemplo, si un perfil de usuario tiene permiso para editar las entradas de otros, entonces ese perfil también tendrá permiso para editar las reseñas de otros usuarios."
+
+#: views/pages/tools/general/reset-permissions.php:12
+msgctxt "admin-text"
+msgid "Hold down the ALT/Option key to perform a \"Hard Reset\"; this removes all Site Reviews capabilites from your Editor, Author, and Contributor roles before re-adding them."
+msgstr "Mantén pulsada la tecla ALT/Opción para realizar un «Restablecimiento total». Esto elimina todas las capacidades de Site Reviews de tus perfiles de editor, autor y colaborador antes de volver a añadirlos."
+
+#: views/pages/tools/general/reset-assigned-meta.php:11
+msgctxt "admin-text"
+msgid "Site Reviews stores the individual review count, average rating, and ranking for each assigned post, category, and user. If you suspect that these meta values are incorrect (perhaps you cloned a page that had reviews assigned to it), you may use this tool to recalculate them."
+msgstr "Site Reviews almacena el recuento de reseñas individuales, la valoración media y la clasificación de cada entrada, categoría y usuario asignados. Si sospechas que estos valores meta son incorrectos (tal vez clonaste una página que tenía reseñas asignadas), puedes utilizar esta herramienta para recalcularlos."
+
+#: views/pages/tools/general/reset-assigned-meta.php:6
+msgctxt "admin-text"
+msgid "Reset Assigned Meta Values"
+msgstr "Restablecer los valores meta asignados"
+
+#: views/pages/tools/general/optimise-db-tables.php:49
+msgctxt "admin-text"
+msgid "Optimisation is unnecessary because your database tables already use the InnoDB engine!"
+msgstr "¡La optimización no es necesaria, ya que las tablas de tu base de datos ya usan el motor InnoDB!"
+
+#: views/pages/tools/general/optimise-db-tables.php:39
+msgctxt "admin-text"
+msgid "Convert table engine to InnoDB"
+msgstr "Convertir el motor de la tabla a InnoDB"
+
+#: views/pages/tools/general/optimise-db-tables.php:39
+msgctxt "admin-text"
+msgid "Converting, please wait..."
+msgstr "Convirtiendo, por favor, espera..."
+
+#: views/pages/tools/general/optimise-db-tables.php:24
+msgctxt "admin-text"
+msgid "Engine"
+msgstr "Motor"
+
+#: views/pages/tools/general/optimise-db-tables.php:23
+msgctxt "admin-text"
+msgid "Table"
+msgstr "Tabla"
+
+#: views/pages/tools/general/optimise-db-tables.php:6
+#: views/pages/tools/general/repair-review-relations.php:17
+msgctxt "admin-text"
+msgid "Optimise Your Database Tables"
+msgstr "Optimizar las tablas de la base de datos"
+
+#: views/pages/tools/general/import-reviews.php:126
+msgctxt "admin-text"
+msgid "The title of the review"
+msgstr "El título de la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:25
+#: views/pages/tools/general/import-reviews.php:116
+msgctxt "admin-text"
+msgid "The review response"
+msgstr "La respuesta de la reseña"
+
+#: views/pages/tools/general/import-reviews.php:111
+msgctxt "admin-text"
+msgid "A number from 0-%d"
+msgstr "Un número entre 0-%d"
+
+#: views/pages/tools/general/import-reviews.php:106
+msgctxt "admin-text"
+msgid "The reviewer's name"
+msgstr "El nombre del revisor"
+
+#: views/pages/tools/general/import-reviews.php:96
+#: views/pages/tools/general/import-reviews.php:101
+#: views/pages/tools/general/import-reviews.php:121
+msgctxt "admin-text"
+msgid "TRUE or FALSE"
+msgstr "VERDADERO o FALSO"
+
+#: views/pages/tools/general/import-reviews.php:91
+msgctxt "admin-text"
+msgid "The IP address of the reviewer"
+msgstr "La dirección IP del revisor"
+
+#: views/pages/tools/general/import-reviews.php:86
+msgctxt "admin-text"
+msgid "The reviewer's email"
+msgstr "El correo electrónico del revisor"
+
+#: views/pages/tools/general/import-reviews.php:71
+msgctxt "admin-text"
+msgid "The review"
+msgstr "La reseña"
+
+#: views/pages/tools/general/import-reviews.php:66
+msgctxt "admin-text"
+msgid "The avatar URL of the reviewer"
+msgstr "La URL del avatar del revisor"
+
+#: views/pages/tools/general/export-reviews.php:21
+#: views/pages/tools/general/import-reviews.php:25
+msgctxt "admin-text"
+msgid "Import"
+msgstr "Importar"
+
+#: views/pages/tools/general/export-reviews.php:20
+#: views/pages/tools/general/import-reviews.php:24
+msgctxt "admin-text"
+msgid "Export"
+msgstr "Exportar"
+
+#: views/pages/addons/index.php:29 views/pages/addons/index.php:40
+#: views/pages/addons/index.php:51 views/pages/addons/index.php:84
+#: views/pages/addons/index.php:95
+msgctxt "admin-text"
+msgid "View Add-on"
+msgstr "Ver la extensión"
+
+#: plugin/Defaults/PaginationDefaults.php:20
+msgid "← Previous"
+msgstr "← Anterior"
+
+#: plugin/Defaults/PaginationDefaults.php:19
+msgid "Next →"
+msgstr "Siguiente →"
+
+#: views/partials/modal.php:6
+msgid "Close modal"
+msgstr "Cerrar ventana emergente"
+
+#: config/settings.php:311
+msgctxt "admin-text"
+msgid "Display the review in a modal"
+msgstr "Mostrar la reseña en una ventana emergente"
+
+#: config/settings.php:310
+msgctxt "admin-text"
+msgid "Collapse/Expand the review"
+msgstr "Cerrar/Expandir la reseña"
+
+#: config/settings.php:308
+msgctxt "admin-text"
+msgid "Excerpt Action"
+msgstr "Acción de extracto"
+
+#: views/pages/settings/reviews.php:3
+msgctxt "admin-text"
+msgid "Review Settings"
+msgstr "Revisar ajustes"
+
+#: views/pages/settings/submissions.php:3
+msgctxt "admin-text"
+msgid "Review Form Settings"
+msgstr "Revisar ajustes del formulario"
+
+#: views/pages/settings/licenses.php:3
+msgctxt "admin-text"
+msgid "Add-on Licenses"
+msgstr "Licencias de las extensiones"
+
+#: config/settings.php:603
+msgctxt "admin-text"
+msgid "Assigned Terms"
+msgstr "Términos asignados"
+
+#: config/settings.php:600
+msgctxt "admin-text"
+msgid "Restrict Limits To"
+msgstr "Restringir Límites a "
+
+#: config/settings.php:35
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty-One"
+msgstr "Tema: Twenty Twenty-One"
+
+#: plugin/Controllers/Api/Version1/Schema/ReviewSchema.php:168
+msgctxt "admin-text"
+msgid "Custom fields."
+msgstr "Campos personalizados."
+
+#: config/settings.php:317
+msgctxt "exceprt length (admin-text)"
+msgid "words"
+msgstr "palabras"
+
+#: config/settings.php:293
+msgctxt "admin-text"
+msgid "Set the height/width of the avatar in pixels."
+msgstr "Establecer la altura/anchura del avatar en píxeles."
+
+#: config/settings.php:286
+msgctxt "avatar size (admin-text)"
+msgid "pixels"
+msgstr "píxeles"
+
+#: plugin/Controllers/TaxonomyController.php:15
+msgctxt "The Term ID (admin-text)"
+msgid "<span>ID: %d</span>"
+msgstr "<span>ID: %d</span>"
+
+#: plugin/Controllers/ListTableController.php:146
+msgctxt "The Review Post ID (admin-text)"
+msgid "<span>ID: %d</span>"
+msgstr "<span>ID: %d</span>"
+
+#: views/partials/addons/support-notice.php:6
+msgctxt "admin-text"
+msgid "login"
+msgstr "Acceder"
+
+#: plugin/Controllers/ToolsController.php:251
+msgctxt "admin-text"
+msgid "The plugin has been migrated sucessfully, please reload the page."
+msgstr "El plugin ha sido migrado correctamente, por favor, recarga la página."
+
+#: plugin/Controllers/ToolsController.php:248
+msgctxt "admin-text"
+msgid "All plugin migrations have been run successfully, please reload the page."
+msgstr "Todas las migraciones de plugins han sido ejecutadas correctamente, por favor, recarga la página."
+
+#: plugin/Defaults/TemplateTagsDefaults.php:19
+msgctxt "admin-text"
+msgid "The review's assigned categories"
+msgstr "Las categorías asignadas a la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:17
+msgctxt "admin-text"
+msgid "The review's assigned user display names"
+msgstr "Los nombres a mostrar de los usuarios asignados a la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:16
+msgctxt "admin-text"
+msgid "The review's assigned page titles"
+msgstr "Los títulos de las páginas asignadas a la reseña"
+
+#: views/pages/tools/general/reset-permissions.php:21
+msgctxt "admin-text"
+msgid "Hard Reset Permissions"
+msgstr "Restablecer por completo los permisos"
+
+#: config/settings.php:225
+msgctxt "admin-text"
+msgid "Review Assignment"
+msgstr "Asignación de la reseña"
+
+#: config/settings.php:230
+msgctxt "admin-text"
+msgid "This setting determines how the assigned options work in the reviews and summary shortcodes and blocks."
+msgstr "Este ajuste determina cómo funcionan las opciones asignadas en las reseñas y resúmenes de los shortcodes y bloques."
+
+#: plugin/Controllers/NoticeController.php:161
+msgctxt "admin-text"
+msgid "Common Problems and Solutions"
+msgstr "Problemas y soluciones comunes"
+
+#: views/partials/notices/welcome.php:6
+msgctxt "admin-text"
+msgid "Read the upgrade guide"
+msgstr "Lee la guía de actualización"
+
+#: views/pages/settings/translations.php:28
+msgctxt "admin-text"
+msgid "Original Text"
+msgstr "Texto original"
+
+#: views/pages/settings/translations.php:21
+msgctxt "admin-text"
+msgid "Search here for text to change..."
+msgstr "Busca aquí texto para cambiar..."
+
+#: views/pages/settings/translations.php:18
+msgctxt "admin-text"
+msgid "Search here for translatable text"
+msgstr "Busca aquí texto traducible"
+
+#: views/pages/tools/system-info.php:8
+msgctxt "admin-text"
+msgid "Download System Info"
+msgstr "Descargar la información del sistema"
+
+#: views/pages/tools/sync.php:57
+msgctxt "admin-text"
+msgid "Syncing..."
+msgstr "Sincronizando..."
+
+#: views/pages/tools/sync.php:45 views/pages/tools/sync.php:48
+msgctxt "admin-text"
+msgid "Inactive"
+msgstr "Inactiva"
+
+#: views/pages/tools/console.php:50 views/pages/tools/sync.php:43
+msgctxt "admin-text"
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: plugin/Modules/Notice.php:141 views/pages/tools/sync.php:28
+msgctxt "admin-text"
+msgid "Show more details"
+msgstr "Mostrar más detalles"
+
+#: views/pages/tools/sync.php:25
+msgctxt "admin-text"
+msgid "Documentation"
+msgstr "Documentación"
+
+#: views/pages/tools/sync.php:24
+msgctxt "admin-text"
+msgid "License"
+msgstr "Licencia"
+
+#: views/pages/tools/sync.php:11 views/pages/tools/sync.php:34
+msgctxt "admin-text"
+msgid "Last Sync"
+msgstr "Última sincronización"
+
+#: views/pages/tools/sync.php:9
+msgctxt "admin-text"
+msgid "Service"
+msgstr "Servicio"
+
+#: views/pages/tools/console.php:25
+msgctxt "admin-text"
+msgid "Clear"
+msgstr "Vaciar"
+
+#: views/pages/tools/console.php:25
+msgctxt "admin-text"
+msgid "Clearing..."
+msgstr "Vaciando..."
+
+#: views/pages/tools/console.php:18
+msgctxt "admin-text"
+msgid "Reload"
+msgstr "Recargar"
+
+#: views/pages/tools/console.php:18
+msgctxt "admin-text"
+msgid "Reloading..."
+msgstr "Recargando..."
+
+#: views/pages/tools/general/test-ip-detection.php:15
+msgctxt "admin-text"
+msgid "Testing, please wait..."
+msgstr "Probando. Por favor, espera..."
+
+#: views/pages/tools/general/reset-permissions.php:6
+#: views/pages/tools/general/reset-permissions.php:21
+msgctxt "admin-text"
+msgid "Reset Permissions"
+msgstr "Restablecer los permisos"
+
+#: views/pages/tools/general/reset-assigned-meta.php:16
+msgctxt "admin-text"
+msgid "Resetting values, please wait..."
+msgstr "Restableciendo valores. Espera, por favor..."
+
+#: views/pages/tools/general/migrate-plugin.php:20
+#: views/partials/notices/migrate.php:9
+msgctxt "admin-text"
+msgid "Run Migration"
+msgstr "Ejecutar migración"
+
+#: views/partials/translations/plural.php:20
+msgctxt "admin-text"
+msgid "plural"
+msgstr "plural"
+
+#: views/partials/translations/plural.php:19
+msgctxt "admin-text"
+msgid "singular"
+msgstr "singular"
+
+#: views/partials/editor/metabox-assigned-users.php:9
+msgctxt "admin-text"
+msgid "Search for a user that you would like to assign this review to."
+msgstr "Buscar un usuario al que te gustaría asignar esta reseña."
+
+#: views/partials/editor/metabox-assigned-posts.php:6
+#: views/partials/screen/inline-edit.php:107
+msgctxt "admin-text"
+msgid "Search by ID or title..."
+msgstr "buscar por ID o título..."
+
+#: views/partials/editor/assigned-entry.php:7
+msgctxt "admin-text"
+msgid "Remove assignment"
+msgstr "Eliminar asignación"
+
+#: views/partials/editor/metabox-assigned-users.php:6
+#: views/partials/screen/inline-edit.php:118
+msgctxt "admin-text"
+msgid "Search by ID or name..."
+msgstr "Buscar por ID o nombre..."
+
+#: plugin/Overrides/ScheduledActionsTable.php:121
+#: views/partials/editor/pinned.php:17 views/partials/screen/inline-edit.php:30
+#: views/partials/screen/inline-edit.php:127
+msgctxt "admin-text"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/partials/editor/pinned.php:16
+msgctxt "admin-text"
+msgid "OK"
+msgstr "Aceptar"
+
+#: views/partials/editor/pinned.php:14
+msgctxt "admin-text"
+msgid "Unpin"
+msgstr "Desanclar"
+
+#: views/partials/editor/pinned.php:13
+msgctxt "admin-text"
+msgid "Pin"
+msgstr "Anclar"
+
+#: views/partials/editor/pinned.php:8
+msgctxt "admin-text"
+msgid "Edit pinned status"
+msgstr "Editar estado del anclaje"
+
+#: config/settings.php:722
+msgctxt "admin-text"
+msgid "Reject submission"
+msgstr "Rechazar envío"
+
+#: config/settings.php:721
+msgctxt "admin-text"
+msgid "Require approval"
+msgstr "Requiere aprobación"
+
+#: config/settings.php:719
+msgctxt "admin-text"
+msgid "Blacklist Action"
+msgstr "Acción de lista negra"
+
+#: config/settings.php:711
+msgctxt "admin-text"
+msgid "Review Blacklist"
+msgstr "Lista negra de reseñas"
+
+#: config/settings.php:590
+msgctxt "admin-text"
+msgid "By Username (will only work for registered users)"
+msgstr "Por nombre de usuario (solo funcionará para usuarios registrados)"
+
+#: config/settings.php:589
+msgctxt "admin-text"
+msgid "By IP Address"
+msgstr "Por dirección IP"
+
+#: config/settings.php:588
+msgctxt "admin-text"
+msgid "By Email Address"
+msgstr "Por dirección de correo electrónico"
+
+#: config/settings.php:585
+msgctxt "admin-text"
+msgid "Limit Reviews"
+msgstr "Límite de reseñas"
+
+#: config/forms/metabox-fields.php:30 config/settings.php:577
+msgctxt "admin-text"
+msgid "Terms"
+msgstr "Terminos y condiciones"
+
+#: config/settings.php:570
+msgctxt "admin-text"
+msgid "Required Fields"
+msgstr "Campos obligatorios"
+
+#: config/settings.php:562
+msgctxt "admin-text"
+msgid "USD"
+msgstr "USD"
+
+#: config/settings.php:561
+msgctxt "admin-text"
+msgid "Price Currency"
+msgstr "Precio de la divisa"
+
+#: config/settings.php:523
+msgctxt "admin-text"
+msgid "Price"
+msgstr "Precio"
+
+#: config/settings.php:424
+msgctxt "admin-text"
+msgid "Default URL"
+msgstr "URL por defecto"
+
+#: config/settings.php:405 config/settings.php:418
+msgctxt "admin-text"
+msgid "Enter a custom description"
+msgstr "Introduce una descripción personalizada"
+
+#: config/settings.php:402
+msgctxt "admin-text"
+msgid "Default Description"
+msgstr "Descripción por defecto"
+
+#: config/settings.php:383 config/settings.php:396
+msgctxt "admin-text"
+msgid "Enter a custom title"
+msgstr "Introduce un título personalizado"
+
+#: config/settings.php:380
+msgctxt "admin-text"
+msgid "Default Name"
+msgstr "Nombre por defecto"
+
+#: config/settings.php:371
+msgctxt "admin-text"
+msgid "Custom Schema Type"
+msgstr "Tipo de esquema personalizado"
+
+#: config/settings.php:358
+msgctxt "admin-text"
+msgid "Product"
+msgstr "Producto"
+
+#: config/settings.php:355
+msgctxt "admin-text"
+msgid "Default Schema Type"
+msgstr "Tipo de esquema por defecto"
+
+#: config/settings.php:211
+msgctxt "admin-text"
+msgid "Initial with a space"
+msgstr "Inicial con un espacio"
+
+#: config/settings.php:209
+msgctxt "admin-text"
+msgid "Initial Format"
+msgstr "Formato inicial"
+
+#: config/settings.php:215
+msgctxt "admin-text"
+msgid "Choose how the initial is displayed."
+msgstr "Establece cómo se muestra la inicial."
+
+#: config/settings.php:195
+msgctxt "admin-text"
+msgid "Use the first name only"
+msgstr "Utiliza sólo el primer nombre."
+
+#: config/settings.php:194
+msgctxt "admin-text"
+msgid "Use the name as given"
+msgstr "Utiliza el nombre dado"
+
+#: config/settings.php:192
+msgctxt "admin-text"
+msgid "Name Format"
+msgstr "Formato del nombre"
+
+#: config/settings.php:185
+msgctxt "admin-text"
+msgid "Custom Date Format"
+msgstr "Formato de fecha personalizado"
+
+#: config/settings.php:173
+msgctxt "admin-text"
+msgid "Use a custom date format"
+msgstr "Utiliza un formato de fecha personalizado"
+
+#: config/settings.php:171
+msgctxt "admin-text"
+msgid "Use the default date format"
+msgstr "Utiliza el formato de fecha por defecto"
+
+#: config/settings.php:176
+msgctxt "admin-text"
+msgid "WordPress settings"
+msgstr "Ajustes de WordPress"
+
+#: config/settings.php:161
+msgctxt "admin-text"
+msgid "Notification Template"
+msgstr "Plantilla de avisos"
+
+#: config/settings.php:139
+msgctxt "admin-text"
+msgid "Send Emails To"
+msgstr "Enviar correos electrónicos a"
+
+#: config/settings.php:129
+msgctxt "admin-text"
+msgid "Send Emails From"
+msgstr "Enviar correos electrónicos desde"
+
+#: config/settings.php:119
+msgctxt "admin-text"
+msgid "Send to <a href=\"https://slack.com/\">Slack</a>"
+msgstr "Enviar a <a href=\"https://slack.com/\">Slack</a>"
+
+#: config/settings.php:118
+msgctxt "admin-text"
+msgid "Send to one or more email addresses"
+msgstr "Enviar a una o más direcciones de correo electrónico"
+
+#: config/settings.php:116
+msgctxt "admin-text"
+msgid "Send to administrator"
+msgstr "Enviar al administrador"
+
+#: config/settings.php:107
+msgctxt "admin-text"
+msgid "Integrate with WPML"
+msgstr "Integrar con WPML"
+
+#: config/settings.php:106
+msgctxt "admin-text"
+msgid "Integrate with Polylang"
+msgstr "Integrar con Polylang"
+
+#: config/settings.php:105
+msgctxt "admin-text"
+msgid "No Integration"
+msgstr "Sin integración"
+
+#: config/settings.php:103
+msgctxt "admin-text"
+msgid "Multilingual"
+msgstr "Multilingüe"
+
+#: config/settings.php:81
+msgctxt "admin-text"
+msgid "Show Registration Link"
+msgstr "Mostrar el enlace de registro"
+
+#: config/settings.php:83
+msgctxt "admin-text"
+msgid "Anyone can register"
+msgstr "Cualquiera puede registrarse"
+
+#: config/settings.php:60
+msgctxt "admin-text"
+msgid "Require Login"
+msgstr "Requiere acceder"
+
+#: config/settings.php:43
+msgctxt "admin-text"
+msgid "Require Approval"
+msgstr "Requiere aprobación"
+
+#: config/settings.php:34
+msgctxt "admin-text"
+msgid "Theme: Twenty Twenty"
+msgstr "Tema: Twenty Twenty"
+
+#: config/settings.php:33
+msgctxt "admin-text"
+msgid "Theme: Twenty Nineteen"
+msgstr "Tema: Twenty Nineteen"
+
+#: config/settings.php:32
+msgctxt "admin-text"
+msgid "Theme: Twenty Seventeen"
+msgstr "Tema: Twenty Seventeen"
+
+#: config/settings.php:31
+msgctxt "admin-text"
+msgid "Theme: Twenty Sixteen"
+msgstr "Tema: Twenty Sixteen"
+
+#: config/settings.php:30
+msgctxt "admin-text"
+msgid "Theme: Twenty Fifteen"
+msgstr "Tema: Twenty Fifteen"
+
+#: config/settings.php:29
+msgctxt "admin-text"
+msgid "Theme: Divi (v4)"
+msgstr "Tema: Divi (v4)"
+
+#: config/settings.php:28
+msgctxt "admin-text"
+msgid "Site Reviews (minimal)"
+msgstr "Site Reviews (mínimo)"
+
+#: config/settings.php:27
+msgctxt "admin-text"
+msgid "Site Reviews (default)"
+msgstr "Site Reviews (por defecto)"
+
+#: config/settings.php:26
+msgctxt "admin-text"
+msgid "Plugin: WPForms (v1)"
+msgstr "Plugin: WPForms (v1)"
+
+#: config/settings.php:25
+msgctxt "admin-text"
+msgid "Plugin: Ninja Forms (v3)"
+msgstr "Plugin: Ninja Forms (v3)"
+
+#: config/settings.php:24
+msgctxt "admin-text"
+msgid "Plugin: Contact Form 7 (v5)"
+msgstr "Plugin: Contact Form 7 (v5)"
+
+#: config/settings.php:22
+msgctxt "admin-text"
+msgid "CSS Framework: Bootstrap 4"
+msgstr "Framework CSS: Bootstrap 4"
+
+#: config/settings.php:20
+msgctxt "admin-text"
+msgid "Plugin Style"
+msgstr "Estilo del plugin"
+
+#: config/settings.php:14
+msgctxt "admin-text"
+msgid "Delete data on uninstall"
+msgstr "Borrar los datos al desinstalar"
+
+#: config/settings.php:11
+msgctxt "admin-text"
+msgid "Delete everything (including all reviews and categories)"
+msgstr "Borrar todo (incluyendo todas las reseñas y categorías)"
+
+#: config/settings.php:9
+msgctxt "admin-text"
+msgid "Do not delete anything"
+msgstr "No borrar nada"
+
+#: activate.php:107
+msgctxt "admin-text"
+msgid "WordPress version"
+msgstr "Versión de WordPress"
+
+#: activate.php:106
+msgctxt "admin-text"
+msgid "Update WordPress"
+msgstr "Actualizar WordPress"
+
+#: activate.php:103
+msgctxt "admin-text"
+msgid "PHP version"
+msgstr "Versión de PHP"
+
+#: activate.php:102
+msgctxt "admin-text"
+msgid "The %s plugin was deactivated."
+msgstr "El plugin %s se ha desactivado."
+
+#: views/pages/tools/general/migrate-plugin.php:6
+msgctxt "admin-text"
+msgid "Migrate Plugin"
+msgstr "Migrar plugin"
+
+#: plugin/Controllers/WelcomeController.php:83
+msgctxt "admin-text"
+msgid "Upgrade Guide"
+msgstr "Guía de actualización"
+
+#: plugin/Controllers/WelcomeController.php:82
+msgctxt "admin-text"
+msgid "What's New"
+msgstr "Novedades"
+
+#: plugin/Controllers/WelcomeController.php:81
+msgctxt "admin-text"
+msgid "Getting Started"
+msgstr "Cómo empezar"
+
+#: plugin/Controllers/WelcomeController.php:64
+msgctxt "admin-text"
+msgid "Welcome to %s"
+msgstr "Bienvenido a %s"
+
+#: plugin/Controllers/WelcomeController.php:37
+msgctxt "admin-text"
+msgid "Welcome to %s &#8212; WordPress"
+msgstr "Bienvenido a %s &#8212; WordPress"
+
+#: plugin/Controllers/WelcomeController.php:25 views/pages/addons/index.php:6
+#: views/pages/documentation/index.php:6 views/pages/settings/index.php:6
+#: views/pages/tools/index.php:6
+msgctxt "admin-text"
+msgid "About"
+msgstr "Acerca de"
+
+#: plugin/Controllers/MenuController.php:169
+msgctxt "admin-text"
+msgid "System Info"
+msgstr "Información del sistema"
+
+#: plugin/Commands/ImportReviews.php:174
+#: plugin/Controllers/MenuController.php:168
+msgctxt "admin-text"
+msgid "Console"
+msgstr "Consola"
+
+#: plugin/Controllers/MenuController.php:167 views/pages/tools/sync.php:57
+msgctxt "admin-text"
+msgid "Sync Reviews"
+msgstr "Sincronizar reseñas"
+
+#: plugin/Controllers/MenuController.php:143
+msgctxt "admin-text"
+msgid "Licenses"
+msgstr "Licencias"
+
+#: config/settings.php:333
+msgctxt "admin-text"
+msgid "Translations"
+msgstr "Traducciones"
+
+#: plugin/Controllers/MenuController.php:137
+#: plugin/Controllers/MenuController.php:165
+msgctxt "admin-text"
+msgid "General"
+msgstr "General"
+
+#: plugin/Controllers/MenuController.php:114
+#: plugin/Controllers/MenuController.php:142
+msgctxt "admin-text"
+msgid "Addons"
+msgstr "Extensiones"
+
+#: plugin/Controllers/MenuController.php:112
+msgctxt "admin-text"
+msgid "Functions"
+msgstr "Funciones"
+
+#: plugin/Controllers/MenuController.php:111
+msgctxt "admin-text"
+msgid "Hooks"
+msgstr "Ganchos"
+
+#: plugin/Controllers/MenuController.php:110
+msgctxt "admin-text"
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: plugin/Controllers/MenuController.php:108
+#: plugin/Controllers/WelcomeController.php:84
+msgctxt "admin-text"
+msgid "Support"
+msgstr "Soporte"
+
+#: plugin/Controllers/MenuController.php:54
+msgctxt "admin-text"
+msgid "Add-ons"
+msgstr "Extensiones"
+
+#: plugin/Controllers/MenuController.php:53
+msgctxt "admin-text"
+msgid "Tools"
+msgstr "Herramientas"
+
+#: plugin/Controllers/AdminController.php:275
+#: plugin/Controllers/AdminController.php:294
+#: plugin/Controllers/AdminController.php:308
+msgctxt "admin-text"
+msgid "Nothing found."
+msgstr "No se ha encontrado nada."
+
+#: plugin/Controllers/AdminController.php:102
+msgctxt "admin-text"
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] "%s reseña"
+msgstr[1] "%s reseñas"
+
+#: plugin/Controllers/AdminController.php:185
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:81
+msgctxt "admin-text"
+msgid "Summary of Reviews"
+msgstr "Resumen de reseñas"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:73
+msgctxt "admin-text"
+msgid "Site Reviews: Display a summary of your reviews."
+msgstr "Site Reviews: Muestra un resumen de tus reseñas."
+
+#: plugin/Controllers/AdminController.php:184
+#: plugin/Integrations/Elementor/ElementorFormWidget.php:19
+#: plugin/Widgets/SiteReviewsFormWidget.php:78
+msgctxt "admin-text"
+msgid "Submit a Review"
+msgstr "Enviar una reseña"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:70
+msgctxt "admin-text"
+msgid "Site Reviews: Display a form to submit reviews."
+msgstr "Site Reviews: Muestra un formulario para enviar reseñas."
+
+#: plugin/Controllers/AdminController.php:183
+#: plugin/Widgets/SiteReviewsWidget.php:113
+msgctxt "admin-text"
+msgid "Recent Reviews"
+msgstr "Reseñas recientes"
+
+#: plugin/Widgets/SiteReviewsWidget.php:105
+msgctxt "admin-text"
+msgid "Site Reviews: Display your recent reviews."
+msgstr "Site Reviews: Muestra tus reseñas recientes."
+
+#: plugin/Metaboxes/AssignedPostsMetabox.php:38
+msgctxt "admin-text"
+msgid "(no title)"
+msgstr "(sin título)"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:33
+#: plugin/Metaboxes/AuthorMetabox.php:21 plugin/Metaboxes/AuthorMetabox.php:39
+#: views/partials/screen/inline-edit.php:73
+msgctxt "admin-text"
+msgid "Author"
+msgstr "Autor"
+
+#: plugin/Metaboxes/DetailsMetabox.php:45
+msgctxt "admin-text"
+msgid "Review Details"
+msgstr "Detalles de la reseña"
+
+#: plugin/Metaboxes/ResponseMetabox.php:20
+#: views/partials/editor/metabox-response.php:3
+msgctxt "admin-text"
+msgid "Respond Publicly"
+msgstr "Responder públicamente"
+
+#: plugin/Controllers/ToolsController.php:333
+msgctxt "admin-text"
+msgid "reload the page"
+msgstr "recarga la página"
+
+#: plugin/Controllers/ToolsController.php:322
+msgctxt "admin-text"
+msgid "The permissions have been reset."
+msgstr "Los permisos se han restablecido."
+
+#: plugin/Controllers/MenuController.php:109
+#: plugin/Controllers/ToolsController.php:115
+msgctxt "admin-text"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterAuthor.php:14
+msgctxt "admin-text"
+msgid "Filter by author"
+msgstr "Filtrar por autor"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:14
+msgctxt "admin-text"
+msgid "Filter by rating"
+msgstr "Filtrar por puntuación"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:36
+msgctxt "admin-text"
+msgid "Any rating"
+msgstr "Cualquier puntuación"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueResponse.php:18
+#: plugin/Controllers/MetaboxController.php:63
+#: views/pages/tools/general/import-reviews.php:70
+#: views/pages/tools/general/import-reviews.php:75
+#: views/pages/tools/general/import-reviews.php:110
+msgctxt "admin-text"
+msgid "Yes"
+msgstr "Sí"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueResponse.php:17
+#: plugin/Controllers/MetaboxController.php:62
+#: plugin/Integrations/Elementor/ElementorReviewsWidget.php:85
+#: views/pages/tools/general/import-reviews.php:45
+#: views/pages/tools/general/import-reviews.php:50
+#: views/pages/tools/general/import-reviews.php:55
+#: views/pages/tools/general/import-reviews.php:60
+#: views/pages/tools/general/import-reviews.php:65
+#: views/pages/tools/general/import-reviews.php:80
+#: views/pages/tools/general/import-reviews.php:85
+#: views/pages/tools/general/import-reviews.php:90
+#: views/pages/tools/general/import-reviews.php:95
+#: views/pages/tools/general/import-reviews.php:100
+#: views/pages/tools/general/import-reviews.php:105
+#: views/pages/tools/general/import-reviews.php:115
+#: views/pages/tools/general/import-reviews.php:120
+#: views/pages/tools/general/import-reviews.php:125
+msgctxt "admin-text"
+msgid "No"
+msgstr "No"
+
+#: plugin/Controllers/ListTableColumns/ColumnValueAuthorName.php:20
+#: plugin/Review.php:354
+msgctxt "admin-text"
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: plugin/Controllers/EditorController.php:116
+msgctxt "admin-text"
+msgid "Okay"
+msgstr "De acuerdo"
+
+#: plugin/Controllers/SettingsController.php:31
+msgctxt "admin-text"
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+#: plugin/Controllers/PrivacyController.php:129
+msgctxt "admin-text"
+msgid "Review Content"
+msgstr "Contenido de la reseña"
+
+#: plugin/Controllers/ListTableController.php:154
+msgctxt "Approve the review (admin-text)"
+msgid "%s this review"
+msgstr "%s esta reseña"
+
+#: plugin/Controllers/ListTableController.php:150
+msgctxt "admin-text"
+msgid "Unapprove"
+msgstr "Rechazar"
+
+#: plugin/Controllers/ListTableController.php:81
+msgctxt "admin-text"
+msgid "Submitted"
+msgstr "Enviado"
+
+#: plugin/Helpers/Str.php:157
+msgid "and"
+msgstr "y"
+
+#: plugin/Blocks/SiteReviewsBlock.php:109
+#: plugin/Blocks/SiteReviewsFormBlock.php:97
+#: plugin/Blocks/SiteReviewsSummaryBlock.php:93
+msgctxt "admin-text"
+msgid "You have hidden all of the fields for this block."
+msgstr "Has ocultado todos los campos para este bloque."
+
+#: plugin/Addons/Controller.php:77 plugin/Controllers/AdminController.php:51
+#: plugin/Controllers/MenuController.php:55
+msgctxt "admin-text"
+msgid "Help"
+msgstr "Ayuda"
+
+#: plugin/Addons/Controller.php:70 plugin/Controllers/AdminController.php:45
+#: plugin/Controllers/MenuController.php:52
+#: plugin/Integrations/Elementor/ElementorWidget.php:136
+#: views/pages/tools/sync.php:23 views/partials/addons/addon.php:16
+msgctxt "admin-text"
+msgid "Settings"
+msgstr "Ajustes"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:29
+msgctxt "admin-text"
+msgid "Automatically assign a category"
+msgstr "Asignar a una categoría automáticamente"
+
+#: plugin/Widgets/SiteReviewsWidget.php:45
+msgctxt "admin-text"
+msgid "All Reviews"
+msgstr "Todas las reseñas"
+
+#: plugin/Widgets/SiteReviewsWidget.php:30
+msgctxt "admin-text"
+msgid "What is the minimum rating to display?"
+msgstr "¿Cuál es la puntuación mínima a mostrar?"
+
+#: plugin/Widgets/SiteReviewsWidget.php:25
+msgctxt "admin-text"
+msgid "How many reviews would you like to display?"
+msgstr "¿Cuántas reseñas te gustaría mostrar?"
+
+#: plugin/Widgets/SiteReviewsFormWidget.php:31
+#: plugin/Widgets/SiteReviewsWidget.php:52
+msgctxt "admin-text"
+msgid "Do not assign a category"
+msgstr "No asignar una categoría"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:32
+msgctxt "admin-text"
+msgid "Limit summary to this category"
+msgstr "Limitar el resumen a esta categoría"
+
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:27
+msgctxt "admin-text"
+msgid "All review types"
+msgstr "Todos los tipos de reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:18
+msgctxt "admin-text"
+msgid "The review author"
+msgstr "El autor de la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:20
+msgctxt "admin-text"
+msgid "The review content"
+msgstr "El contenido de la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:26
+msgctxt "admin-text"
+msgid "The review title"
+msgstr "El título de la reseña"
+
+#: plugin/Defaults/TemplateTagsDefaults.php:24
+msgctxt "admin-text"
+msgid "The review rating number (1-5)"
+msgstr "La votación de la reseña (1-5)"
+
+#: plugin/Defaults/PostTypeColumnDefaults.php:26
+#: views/partials/editor/pinned.php:4
+msgctxt "admin-text"
+msgid "Pinned"
+msgstr "Fijado"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:30
+msgctxt "View Post (admin-text)"
+msgid "View %s"
+msgstr "Ver %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:29
+msgctxt "Uploaded to this Post (admin-text)"
+msgid "Uploaded to this %s"
+msgstr "Subido a %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:27
+msgctxt "Search Posts (admin-text)"
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:25
+msgctxt "No Posts found (admin-text)"
+msgid "No %s found"
+msgstr "No se ha encontrado %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:24
+msgctxt "New Post (admin-text)"
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:21
+msgctxt "Insert into Post (admin-text)"
+msgid "Insert into %s"
+msgstr "Insertar en %s"
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:20
+msgctxt "Edit Post (admin-text)"
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: config/settings.php:574 plugin/Defaults/PostTypeLabelDefaults.php:15
+msgctxt "admin-text"
+msgid "Review"
+msgstr "Reseña"
+
+#: plugin/Controllers/MenuController.php:138
+#: plugin/Controllers/PrivacyController.php:146
+#: plugin/Defaults/PostTypeLabelDefaults.php:14 views/pages/tools/sync.php:10
+#: views/pages/tools/sync.php:31
+msgctxt "admin-text"
+msgid "Reviews"
+msgstr "Reseñas"
+
+#: plugin/Controllers/TranslationController.php:201
+#: plugin/Defaults/PostStatusLabelsDefaults.php:20
+msgctxt "admin-text"
+msgid "Save as Unapproved"
+msgstr "Guardar como rechazada"
+
+#: plugin/Controllers/TranslationController.php:166
+#: plugin/Controllers/TranslationController.php:198
+#: plugin/Defaults/PostStatusLabelsDefaults.php:19
+#: views/partials/screen/inline-edit.php:67
+msgctxt "admin-text"
+msgid "Approved"
+msgstr "Aprobada"
+
+#: plugin/Controllers/ListTableController.php:149
+#: plugin/Controllers/TranslationController.php:197
+#: plugin/Defaults/PostStatusLabelsDefaults.php:18
+msgctxt "admin-text"
+msgid "Approve"
+msgstr "Aprobar"
+
+#: plugin/Controllers/TranslationController.php:196
+#: plugin/Defaults/PostStatusLabelsDefaults.php:17
+msgctxt "admin-text"
+msgid "Privately Approved"
+msgstr "Aprobada privadamente"
+
+#: plugin/Controllers/ListTableController.php:129
+#: plugin/Controllers/TranslationController.php:132
+#: plugin/Controllers/TranslationController.php:167
+#: plugin/Defaults/PostStatusLabelsDefaults.php:15
+#: plugin/Defaults/PostStatusLabelsDefaults.php:16
+#: views/partials/screen/inline-edit.php:69
+msgctxt "admin-text"
+msgid "Unapproved"
+msgstr "Rechazada"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:26
+msgctxt "admin-text"
+msgid "View review"
+msgstr "Ver reseña"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:25
+msgctxt "admin-text"
+msgid "Review updated."
+msgstr "Reseña actualizada."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:24
+msgctxt "admin-text"
+msgid "Review has been unapproved and is now pending."
+msgstr "La reseña ha sido rechazada y ahora está pendiente."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:23
+msgctxt "admin-text"
+msgid "Review submitted."
+msgstr "Reseña enviada."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:22
+msgctxt "admin-text"
+msgid "Review scheduled for: %s."
+msgstr "Reseña programada para: %s."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:21
+msgctxt "admin-text"
+msgid "Review saved."
+msgstr "Reseña guardada."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:19
+msgctxt "admin-text"
+msgid "Review restored to revision from %s."
+msgstr "Reseña restaurada a la revisión del %s."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:18
+msgctxt "admin-text"
+msgid "Review approved and published."
+msgstr "Reseña aprobada y publicada."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:17
+msgctxt "admin-text"
+msgid "Preview review"
+msgstr "Previsualizar reseña"
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:16
+msgctxt "admin-text"
+msgid "Review draft updated."
+msgstr "Revisar borrador actualizado."
+
+#: plugin/Defaults/UpdatedMessageDefaults.php:15
+msgctxt "admin-text"
+msgid "Review has been approved and published."
+msgstr "La reseña ha sido aprobada y publicada."
+
+#: plugin/Defaults/RevisionFieldsDefaults.php:22
+msgctxt "admin-text"
+msgid "Url"
+msgstr "URL"
+
+#: config/forms/metabox-fields.php:26
+#: plugin/Defaults/RevisionFieldsDefaults.php:21
+msgctxt "admin-text"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: config/forms/metabox-fields.php:22
+#: plugin/Controllers/PrivacyController.php:132
+#: plugin/Defaults/PostTypeColumnDefaults.php:22
+#: plugin/Defaults/RevisionFieldsDefaults.php:20
+msgctxt "admin-text"
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: config/forms/metabox-fields.php:18 config/settings.php:576
+#: plugin/Controllers/PrivacyController.php:131
+#: plugin/Defaults/PostTypeColumnDefaults.php:21
+#: plugin/Defaults/RevisionFieldsDefaults.php:19
+msgctxt "admin-text"
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: config/forms/metabox-fields.php:14 config/settings.php:575
+#: plugin/Controllers/PrivacyController.php:130
+#: plugin/Defaults/PostTypeColumnDefaults.php:20
+#: plugin/Defaults/RevisionFieldsDefaults.php:18
+msgctxt "admin-text"
+msgid "Name"
+msgstr "Nombre"
+
+#: plugin/Defaults/PostTypeColumnDefaults.php:23
+#: plugin/Defaults/RevisionFieldsDefaults.php:15
+msgctxt "admin-text"
+msgid "Response"
+msgstr "Respuesta"
+
+#: plugin/Upload.php:46
+msgctxt "admin-text"
+msgid "Please upload a valid %s file."
+msgstr "Sube un archivo %s válido."
+
+#: plugin/Upload.php:34
+msgctxt "admin-text"
+msgid "Unknown upload error."
+msgstr "Error desconocido de subida."
+
+#: plugin/Upload.php:32
+msgctxt "admin-text"
+msgid "A PHP extension stopped the file upload."
+msgstr "Una extensión de PHP detuvo la carga del archivo."
+
+#: plugin/Upload.php:31
+msgctxt "admin-text"
+msgid "Failed to write file to disk."
+msgstr "Ha fallado la escritura del archivo en el disco."
+
+#: plugin/Upload.php:30
+msgctxt "admin-text"
+msgid "Missing a temporary folder."
+msgstr "Falta un directorio temporal."
+
+#: plugin/Upload.php:29
+msgctxt "admin-text"
+msgid "No file was uploaded."
+msgstr "No se ha subido ningún archivo."
+
+#: plugin/Modules/Console.php:80
+msgctxt "admin-text"
+msgid "Console is empty"
+msgstr "La consola esta vacía"
+
+#: plugin/Router.php:156
+msgctxt "admin-text"
+msgid "There was an error (try reloading the page)."
+msgstr "Se ha producido un error (intenta recargar la página)."
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:82
+msgctxt "admin-text"
+msgid "Hide the response"
+msgstr "Ocultar la respuesta"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:81
+msgctxt "admin-text"
+msgid "Hide the author"
+msgstr "Ocultar al autor"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:80
+msgctxt "admin-text"
+msgid "Hide the avatar (if shown)"
+msgstr "Ocultar el avatar (si se muestra)"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:79
+msgctxt "admin-text"
+msgid "Hide the content"
+msgstr "Ocultar el contenido"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:77
+msgctxt "admin-text"
+msgid "Hide the date"
+msgstr "Ocultar la fecha"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:75
+msgctxt "admin-text"
+msgid "Hide the title"
+msgstr "Ocultar el título"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:94
+msgctxt "admin-text"
+msgid "Hide if no reviews are found"
+msgstr "Ocultar si no se encuentran reseñas"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:93
+msgctxt "admin-text"
+msgid "Hide the percentage bars"
+msgstr "Ocultar las barras de porcentaje"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:92
+msgctxt "admin-text"
+msgid "Hide the summary"
+msgstr "Ocultar el resumen"
+
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:91
+msgctxt "admin-text"
+msgid "Hide the stars"
+msgstr "Ocultar las estrellas"
+
+#: plugin/Shortcodes/SiteReviewsShortcode.php:76
+#: plugin/Shortcodes/SiteReviewsSummaryShortcode.php:90
+msgctxt "admin-text"
+msgid "Hide the rating"
+msgstr "Ocultar la puntuación"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:155
+msgctxt "admin-text"
+msgid "Hide the terms field"
+msgstr "Ocultar el campo de términos y condiciones"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:154
+msgctxt "admin-text"
+msgid "Hide the email field"
+msgstr "Ocultar el campo del correo electrónico"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:153
+msgctxt "admin-text"
+msgid "Hide the name field"
+msgstr "Ocultar campo del nombre"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:152
+msgctxt "admin-text"
+msgid "Hide the review field"
+msgstr "Ocultar el campo de revisión"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:151
+msgctxt "admin-text"
+msgid "Hide the title field"
+msgstr "Ocultar el campo del título"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:150
+msgctxt "admin-text"
+msgid "Hide the rating field"
+msgstr "Ocultar el campo de puntuación"
+
+#: plugin/Commands/EnqueueAdminAssets.php:32
+msgctxt "admin-text"
+msgid "Pin Your Reviews"
+msgstr "Fijar tus reseñas"
+
+#: plugin/Commands/ImportSettings.php:41
+msgctxt "admin-text"
+msgid "There were no settings found to import."
+msgstr "No se encontraron ajustes para importar."
+
+#: plugin/Commands/ImportSettings.php:23
+msgctxt "admin-text"
+msgid "Settings imported."
+msgstr "Ajustes importados."
+
+#: plugin/Commands/TogglePinned.php:39
+msgctxt "admin-text"
+msgid "Review unpinned."
+msgstr "Reseña desanclada."
+
+#: plugin/Commands/TogglePinned.php:38
+msgctxt "admin-text"
+msgid "Review pinned."
+msgstr "Reseña anclada."
+
+#: plugin/Commands/ToggleStatus.php:57 views/partials/editor/pinned.php:7
+msgctxt "admin-text"
+msgid "Edit"
+msgstr "Editar"
+
+#: plugin/Tinymce/TinymceGenerator.php:214
+msgctxt "admin-text"
+msgid "- Select -"
+msgstr "- Seleccionar -"
+
+#: config/forms/metabox-fields.php:9
+#: plugin/Controllers/ListTableColumns/ColumnFilterType.php:38
+#: plugin/Defaults/PostTypeColumnDefaults.php:24
+#: plugin/Defaults/RevisionFieldsDefaults.php:17
+#: plugin/Tinymce/TinymceGenerator.php:143
+msgctxt "admin-text"
+msgid "Type"
+msgstr "Tipo"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterCategory.php:48
+#: plugin/Tinymce/TinymceGenerator.php:85
+msgctxt "admin-text"
+msgid "Category"
+msgstr "Categoría"
+
+#: plugin/Tinymce/TinymceGenerator.php:50
+msgctxt "admin-text"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: plugin/Tinymce/TinymceGenerator.php:45
+msgctxt "admin-text"
+msgid "Insert Shortcode"
+msgstr "Insertar shortcode"
+
+#: plugin/Tinymce/TinymceGenerator.php:44
+msgctxt "admin-text"
+msgid "Close"
+msgstr "Cerrar"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:21
+#: plugin/Widgets/SiteReviewsFormWidget.php:24
+msgctxt "admin-text"
+msgid "Description"
+msgstr "Descripción"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:48
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:51
+#: plugin/Tinymce/SiteReviewsTinymce.php:82
+msgctxt "admin-text"
+msgid "Hide"
+msgstr "Ocultar"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:41
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:44
+#: plugin/Tinymce/SiteReviewsTinymce.php:75
+msgctxt "admin-text"
+msgid "Classes"
+msgstr "Clases"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:41
+#: plugin/Tinymce/SiteReviewsTinymce.php:72
+msgctxt "admin-text"
+msgid "Rich snippets are disabled by default."
+msgstr "Los snippets enriquecidos están desactivados por defecto."
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:39
+#: plugin/Tinymce/SiteReviewsTinymce.php:70
+msgctxt "admin-text"
+msgid "Disable rich snippets"
+msgstr "Desactivar snippets enriquecidos"
+
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:38
+#: plugin/Tinymce/SiteReviewsTinymce.php:69
+msgctxt "admin-text"
+msgid "Enable rich snippets"
+msgstr "Activar snippets enriquecidos"
+
+#: plugin/Controllers/MenuController.php:140
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:35
+#: plugin/Tinymce/SiteReviewsTinymce.php:66
+msgctxt "admin-text"
+msgid "Schema"
+msgstr "Esquema"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:38
+msgctxt "admin-text"
+msgid "Unrated"
+msgstr "Sin puntuar"
+
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:25
+#: plugin/Tinymce/SiteReviewsTinymce.php:33
+#: plugin/Tinymce/SiteReviewsTinymce.php:34
+#: plugin/Tinymce/SiteReviewsTinymce.php:35
+#: plugin/Tinymce/SiteReviewsTinymce.php:36
+#: plugin/Tinymce/SiteReviewsTinymce.php:37
+#: plugin/Widgets/SiteReviewsWidget.php:33
+#: plugin/Widgets/SiteReviewsWidget.php:34
+#: plugin/Widgets/SiteReviewsWidget.php:35
+#: plugin/Widgets/SiteReviewsWidget.php:36
+#: plugin/Widgets/SiteReviewsWidget.php:37
+#: plugin/Widgets/SiteReviewsWidget.php:38
+msgctxt "admin-text"
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s estrella"
+msgstr[1] "%s estrellas"
+
+#: config/forms/metabox-fields.php:5 config/settings.php:572
+#: plugin/Controllers/ListTableColumns/ColumnFilterRating.php:44
+#: plugin/Defaults/PostTypeColumnDefaults.php:25
+#: plugin/Defaults/RevisionFieldsDefaults.php:16
+#: plugin/Tinymce/SiteReviewsTinymce.php:30
+msgctxt "admin-text"
+msgid "Rating"
+msgstr "Puntuación"
+
+#: plugin/Tinymce/SiteReviewsTinymce.php:22
+msgctxt "admin-text"
+msgid "Display"
+msgstr "Mostrar"
+
+#: config/settings.php:573 plugin/Tinymce/SiteReviewsFormTinymce.php:16
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:17
+#: plugin/Tinymce/SiteReviewsTinymce.php:17
+#: plugin/Widgets/SiteReviewsFormWidget.php:20
+#: plugin/Widgets/SiteReviewsSummaryWidget.php:20
+#: plugin/Widgets/SiteReviewsWidget.php:20
+msgctxt "admin-text"
+msgid "Title"
+msgstr "Título"
+
+#: plugin/Tinymce/SiteReviewsFormTinymce.php:14
+#: plugin/Tinymce/SiteReviewsSummaryTinymce.php:13
+#: plugin/Tinymce/SiteReviewsTinymce.php:13
+msgctxt "admin-text"
+msgid "All settings are optional."
+msgstr "Todos los ajustes son opcionales."
+
+#: compatibility.php:37
+msgctxt "admin-text"
+msgid "Read Private Reviews"
+msgstr "Leer reseñas privadas"
+
+#: compatibility.php:36
+msgctxt "admin-text"
+msgid "Approve Reviews"
+msgstr "Aprobar reseñas"
+
+#: compatibility.php:35
+msgctxt "admin-text"
+msgid "Edit Approved Reviews"
+msgstr "Editar reseñas aprobadas"
+
+#: compatibility.php:34
+msgctxt "admin-text"
+msgid "Edit Private Reviews"
+msgstr "Editar reseñas privadas"
+
+#: compatibility.php:33
+msgctxt "admin-text"
+msgid "Edit Reviews"
+msgstr "Editar reseñas"
+
+#: compatibility.php:32
+msgctxt "admin-text"
+msgid "Edit Others' Reviews"
+msgstr "Editar reseñas de otros"
+
+#: compatibility.php:31
+msgctxt "admin-text"
+msgid "Delete Approved Reviews"
+msgstr "Borrar reseñas aprobadas"
+
+#: compatibility.php:30
+msgctxt "admin-text"
+msgid "Delete Private Reviews"
+msgstr "Borrar reseñas privadas"
+
+#: config/settings.php:346
+msgctxt "admin-text"
+msgid "Enable Paginated URLs"
+msgstr "Activar URLs paginadas"
+
+#: plugin/Modules/Validator/PermissionValidator.php:26
+msgid "You must be logged in to submit a review."
+msgstr "Debes estar conectado para enviar una reseña."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr "Acerca de"
+
+#: plugin/Modules/Validator/ReviewLimitsValidator.php:34
+msgid "You have already submitted a review."
+msgstr "Ya has enviado una reseña."
+
+#: config/settings.php:329 plugin/Modules/Html/ReviewsHtml.php:143
+msgid "There are no reviews yet. Be the first one to write one."
+msgstr "No hay reseñas todavía. Sé el primero en escribir una."
+
+#: plugin/Modules/Validator/AkismetValidator.php:49
+#: plugin/Modules/Validator/HoneypotValidator.php:26
+#: views/pages/documentation/support/common-problems-and-solutions.php:71
+msgid "This review has been flagged as possible spam and cannot be submitted."
+msgstr "Esta reseña se ha marcado como posible spam y no se puede enviar."
+
+#: plugin/Router.php:160
+#: views/pages/documentation/support/common-problems-and-solutions.php:55
+msgid "The form could not be submitted. Please notify the site administrator."
+msgstr "El formulario no se pudo enviar. Por favor, avisa al administrador del sitio."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:24
+msgid "This field requires a number."
+msgstr "Este campo requiere un número."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:23
+msgid "This field requires a minimum of %s characters."
+msgstr "Este campo requiere un mínimo de %s caracteres."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:22
+msgid "Minimum value for this field is %s."
+msgstr "El valor mínimo para este campo es %s."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:21
+msgid "This field allows a maximum of %s characters."
+msgstr "Este campo permite un máximo de %s caracteres."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:20
+msgid "Maximum value for this field is %s."
+msgstr "El valor máximo para este campo es %s."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:18
+msgid "This field requires a valid e-mail address."
+msgstr "Este campo requiere una dirección de correo electrónico válida."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:17
+msgid "This field must have between %s and %s characters."
+msgstr "Este campo debe tener entre %s y %s caracteres."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:16
+msgid "This field value must be between %s and %s."
+msgstr "Este valor de campo debe estar entre %s y %s."
+
+#: plugin/Commands/CreateReview.php:170
+#: views/pages/documentation/support/common-problems-and-solutions.php:75
+msgid "Your review could not be submitted and the error has been logged. Please notify the site administrator."
+msgstr "No se ha podido enviar tu reseña y el error ha sido registrado. Por favor, avisa al administrador del sitio."
+
+#: plugin/Modules/Html/Fields/Rating.php:16
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s estrella"
+msgstr[1] "%s estrellas"
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:45
+msgid "The reCAPTCHA verification failed, please try again."
+msgstr "Error en la verificación de Google reCAPTCHA, por favor, inténtalo de nuevo."
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:44
+msgid "The reCAPTCHA failed to load, please refresh the page and try again."
+msgstr "El reCAPTCHA falló al cargar, por favor. actualiza la página y prueba otra vez."
+
+#. Description of the plugin
+msgid "Receive and display reviews on your website"
+msgstr "Recibe y muestra reseñas en tu web"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:27
+msgid "This field is required."
+msgstr "Este campo es obligatorio."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:15
+msgid "This field must be accepted."
+msgstr "Este campo debe ser aceptado."
+
+#: plugin/Modules/Validator/BlacklistValidator.php:37
+#: views/pages/documentation/support/common-problems-and-solutions.php:67
+msgid "Your review cannot be submitted at this time."
+msgstr "Ahora mismo tu reseña no se puede enviar."
+
+#: plugin/Modules/Html/Tags/ReviewAssignedLinksTag.php:47
+#: plugin/Modules/Html/Tags/ReviewAssignedPostsTag.php:26
+#: plugin/Modules/Html/Tags/ReviewAssignedTermsTag.php:16
+#: plugin/Modules/Html/Tags/ReviewAssignedUsersTag.php:16
+msgid "Review of %s"
+msgstr "Reseña de %s"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:209
+msgid "register"
+msgstr "registrarte"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:211
+msgid "You may also %s for an account."
+msgstr "Debes %s por una cuenta."
+
+#: plugin/Modules/Validator/CustomValidator.php:27
+#: views/pages/documentation/support/common-problems-and-solutions.php:80
+msgid "The review submission failed. Please notify the site administrator."
+msgstr "El envío de la opinión ha fallado. Por favor notificalo al administrador del sitio web."
+
+#: plugin/Modules/Html/Tags/ReviewResponseTag.php:17
+#: views/pages/documentation/faq/change-response-name.php:9
+msgid "Response from %s"
+msgstr "Respuesta de %s"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr "Borrar"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:181
+msgid "logged in"
+msgstr "logged in"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:183
+msgid "You must be %s to submit a review."
+msgstr "Debes ser %s para enviar una reseña."
+
+#: plugin/Modules/Html/Tags/SummaryTextTag.php:29
+msgctxt "Do not translate {rating}, {max}, and {num}, they are template tags."
+msgid "{rating} out of {max} stars (based on {num} review)"
+msgid_plural "{rating} out of {max} stars (based on {num} reviews)"
+msgstr[0] "{rating} de {max} estrellas (basado en {num} reseña)"
+msgstr[1] "{rating} de {max} estrellas (basado en {num} reseñas)"
+
+#: plugin/Helpers/Text.php:30
+msgid "Show less"
+msgstr "Mostrar menos"
+
+#: plugin/Blocks/SiteReviewsBlock.php:135 plugin/Helpers/Text.php:31
+msgid "Show more"
+msgstr "Mostrar más"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
+msgid "Count"
+msgstr "Contar"
+
+#. Author URI of the plugin
+msgid "https://geminilabs.io"
+msgstr "https://geminilabs.io"
+
+#. Author of the plugin
+msgid "Paul Ryley"
+msgstr "Paul Ryley"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/site-reviews"
+msgstr "https://es.wordpress.org/plugins/site-reviews"
+
+#: plugin/Modules/Html/Tags/FormSubmitButtonTag.php:43
+msgid "Submit your review"
+msgstr "Enviar tu reseña"
+
+#: plugin/Shortcodes/Shortcode.php:274
+msgid "Terrible"
+msgstr "Muy mala"
+
+#: plugin/Shortcodes/Shortcode.php:273
+msgid "Poor"
+msgstr "Mala"
+
+#: plugin/Shortcodes/Shortcode.php:272
+msgid "Average"
+msgstr "Media"
+
+#: plugin/Shortcodes/Shortcode.php:271
+msgid "Very good"
+msgstr "Muy buena"
+
+#: plugin/Shortcodes/Shortcode.php:270
+msgid "Excellent"
+msgstr "Excelente"
+
+#: plugin/Modules/Html/Fields/Rating.php:21
+msgid "Select a Rating"
+msgstr "Seleccionar una puntuación"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Editar"
+
+#: plugin/Defaults/SlackDefaults.php:15
+msgid "View Review"
+msgstr "Ver reseña"
+
+#: config/forms/review-form.php:26
+msgid "Tell us your email"
+msgstr "Dinos tu email"
+
+#: config/forms/review-form.php:21
+msgid "Tell us your name"
+msgstr "Dinos tu nombre"
+
+#: config/forms/review-form.php:15
+msgid "Tell people your review"
+msgstr "Comparte tu opinión"
+
+#: config/forms/review-form.php:10
+msgid "Summarize your review or highlight an interesting detail"
+msgstr "Resume tu reseña o resalta un detalle interesante"
+
+#: config/forms/review-form.php:30
+msgid "This review is based on my own experience and is my genuine opinion."
+msgstr "Esta reseña se basa en mi propia experiencia y es mi opinión genuina."
+
+#: config/forms/review-form.php:25
+msgid "Your email"
+msgstr "Tu correo electrónico"
+
+#: config/forms/review-form.php:20
+msgid "Your name"
+msgstr "Tu nombre"
+
+#: config/forms/review-form.php:14 plugin/Modules/Honeypot.php:20
+msgid "Your review"
+msgstr "Tu reseña"
+
+#: config/forms/review-form.php:9
+msgid "Title of your review"
+msgstr "Título de tu reseña"
+
+#: config/forms/review-form.php:5
+msgid "Your overall rating"
+msgstr "Tu puntuación global"
+
+#: plugin/Defaults/PaginationDefaults.php:16
+msgid "Page"
+msgstr "Página"
+
+#: plugin/Modules/Html/Fields/YesNo.php:33
+msgid "Yes"
+msgstr "Sí"
+
+#: plugin/Modules/Html/Fields/YesNo.php:32
+msgid "No"
+msgstr "No"
+
+#: plugin/Commands/CreateReview.php:165
+msgid "Your review has been submitted!"
+msgstr "¡Tu reseña se ha enviado!"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:19
+#: plugin/Modules/Validator/DefaultValidator.php:49
+msgid "Please fix the submission errors."
+msgstr "Por favor corrige los errores de envío."
+
+#: plugin/Modules/Html/Tags/ReviewTitleTag.php:15
+msgid "No Title"
+msgstr "Sin título"
+
+#: plugin/Modules/Avatar.php:100 plugin/Modules/Notification.php:75
+#: plugin/Review.php:158
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#. Plugin Name of the plugin
+msgid "Site Reviews"
+msgstr "Site Reviews"

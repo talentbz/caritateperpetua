@@ -1,0 +1,509 @@
+# Translation of Plugins - Simple Custom CSS and JS - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Simple Custom CSS and JS - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-21 21:25:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Simple Custom CSS and JS - Stable (latest release)\n"
+
+#: includes/admin-screens.php:797
+msgid "Fullscreen"
+msgstr "Fullskärm"
+
+#: includes/admin-screens.php:797
+msgid "Distraction-free writing mode"
+msgstr "Distraktionsfritt skrivläge"
+
+#: includes/admin-screens.php:350
+msgid "Unpublished"
+msgstr "Opublicerat"
+
+#: includes/admin-config.php:258
+msgid "Remove the comments from HTML"
+msgstr "Ta bort kommentarerna från HTML"
+
+#: includes/admin-config.php:216
+msgid "In your page's HTML there is a comment added before and after the internal CSS or JS in order to help you locate your custom code. Enable this option in order to remove that comment."
+msgstr "I din sidas HTML finns en kommentar tillagd före och efter den interna CSS eller JS för att hjälpa dig hitta din anpassade kod. Aktivera detta alternativ för att ta bort den kommentaren."
+
+#: includes/admin-addons.php:83
+msgid "Homepage"
+msgstr "Startsida"
+
+#: includes/admin-config.php:214
+msgid "If you use HTML tags in your code (for example "
+msgstr "Om du använder HTML-taggar i din kod (till exempel "
+
+#: includes/admin-config.php:212
+msgid "If you want to use an HTML entity in your code (for example "
+msgstr "Om du vill använda en HTML-enhet i din kod (till exempel"
+
+#: custom-css-js.php:54 custom-css-js.php:61
+msgid "An error has occurred. Please reload the page and try again."
+msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
+
+#: includes/admin-config.php:250
+msgid "Add the \"Web Designer\" role"
+msgstr "Lägg till ”webbdesigner”-rollen"
+
+#: includes/admin-screens.php:330
+msgid "Published"
+msgstr "Publicerat"
+
+#: includes/admin-config.php:247
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#. Author of the plugin
+msgid "SilkyPress.com"
+msgstr "SilkyPress.com"
+
+#: includes/admin-config.php:229
+msgid "Encode the HTML entities"
+msgstr "Koda HTML-enheterna"
+
+#: includes/admin-config.php:220 includes/admin-screens.php:796
+msgid "Editor Settings"
+msgstr "Redigeringsinställningar"
+
+#: includes/admin-config.php:152
+msgid "Custom CSS & JS Settings"
+msgstr "Anpassade CSS och JS-inställningar"
+
+#: includes/admin-config.php:268
+msgid "Save"
+msgstr "Spara"
+
+#: includes/admin-config.php:223
+msgid "Keep the HTML entities, don't convert to its character"
+msgstr "Behåll HTML-enheterna, konvertera inte till dess tecken"
+
+#: includes/admin-screens.php:447
+msgid "All Custom Codes"
+msgstr "Alla anpassade koder"
+
+#: includes/admin-screens.php:445
+msgid "Filter Code Type"
+msgstr "Filterkodstyp"
+
+#: includes/admin-screens.php:442
+msgid "HTML Codes"
+msgstr "HTML-koder"
+
+#: includes/admin-screens.php:441
+msgid "JS Codes"
+msgstr "JS-koder"
+
+#: includes/admin-screens.php:440
+msgid "CSS Codes"
+msgstr "CSS-koder"
+
+#: includes/admin-screens.php:816
+msgid "Last edited on %1$s at %2$s"
+msgstr "Senast ändrat den %1$s kl. %2$s"
+
+#: includes/admin-screens.php:814
+msgid "Last edited by %1$s on %2$s at %3$s"
+msgstr "Senast ändrat av %1$s den %2$s kl. %3$s"
+
+#: includes/admin-screens.php:581
+msgid "Edit HTML Code"
+msgstr "Redigera HTML-kod"
+
+#: includes/admin-screens.php:580
+msgid "Edit JS Code"
+msgstr "Redigera JS-kod"
+
+#: includes/admin-screens.php:579
+msgid "Edit CSS Code"
+msgstr "Redigera CSS-kod"
+
+#: includes/admin-screens.php:214 includes/admin-screens.php:1395
+#: includes/admin-screens.php:1428
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: includes/admin-screens.php:213 includes/admin-screens.php:1398
+#: includes/admin-screens.php:1431
+msgid "Activate"
+msgstr "Aktivera"
+
+#: includes/admin-screens.php:212 includes/admin-screens.php:1430
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/admin-screens.php:954
+msgid "On Login Page"
+msgstr "På inloggningssidan"
+
+#. Author URI of the plugin
+msgid "https://www.silkypress.com"
+msgstr "https://www.silkypress.com"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/custom-css-js/"
+msgstr "https://wordpress.org/plugins/custom-css-js/"
+
+#. Plugin Name of the plugin
+msgid "Simple Custom CSS and JS"
+msgstr "Simple Custom CSS and JS"
+
+#: includes/admin-screens.php:1247
+msgid "Please run the following command to make the directory writable"
+msgstr "Kör följande kommando för att göra katalogen skrivbar"
+
+#: includes/admin-screens.php:1246
+msgid "The %s directory is not writable, therefore the CSS and JS files cannot be saved."
+msgstr "%s-katalogen är inte skrivbar, därför kan CSS- och JS-filerna inte sparas."
+
+#: includes/admin-screens.php:1236
+msgid "Please run the following commands in order to make the directory"
+msgstr "Kör följande kommandon för att göra katalogen"
+
+#: includes/admin-screens.php:1235
+msgid "The %s directory could not be created"
+msgstr "Katalog %s kunde inte skapas"
+
+#: includes/admin-screens.php:1058
+msgid "Both"
+msgstr "Båda"
+
+#: includes/admin-screens.php:1054
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/admin-screens.php:1050
+msgid "Desktop"
+msgstr "Stationär dator"
+
+#: includes/admin-screens.php:1044
+msgid "On which device"
+msgstr "På vilken enhet"
+
+#: includes/admin-screens.php:998 includes/admin-screens.php:1079
+msgctxt "10 is the lowest priority"
+msgid "10 (lowest)"
+msgstr "10 (lägst)"
+
+#: includes/admin-screens.php:989 includes/admin-screens.php:1070
+msgctxt "1 is the highest priority"
+msgid "1 (highest)"
+msgstr "1 (högsta)"
+
+#: includes/admin-screens.php:984 includes/admin-screens.php:1065
+msgid "Priority"
+msgstr "Prioritet"
+
+#: includes/admin-screens.php:977
+msgid "Minify the code"
+msgstr "Minifiera koden"
+
+#: includes/admin-screens.php:971
+msgid "Less"
+msgstr "Mindre"
+
+#: includes/admin-screens.php:965
+msgid "None"
+msgstr "Ingen"
+
+#: includes/admin-screens.php:946 includes/admin-screens.php:1034
+msgid "In Frontend"
+msgstr "I front-end"
+
+#: includes/admin-screens.php:941 includes/admin-screens.php:1029
+msgid "Where in site"
+msgstr "Var är webbplatsen"
+
+#: includes/admin-screens.php:1023
+msgid "Footer"
+msgstr "Sidfot"
+
+#: includes/admin-screens.php:1019
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: includes/admin-screens.php:926 includes/admin-screens.php:1014
+msgid "Where on page"
+msgstr "Var på sidan"
+
+#: includes/admin-screens.php:920
+msgid "Internal"
+msgstr "Intern"
+
+#: includes/admin-screens.php:916
+msgid "External File"
+msgstr "Extern fil"
+
+#: includes/admin-screens.php:612
+msgid "Code updated"
+msgstr "Kod uppdaterad"
+
+#: includes/admin-screens.php:559 includes/admin-screens.php:578
+#: includes/admin-screens.php:599
+msgid "Add HTML Code"
+msgstr "Lägg till HTML-kod"
+
+#: includes/admin-screens.php:558 includes/admin-screens.php:577
+#: includes/admin-screens.php:598
+msgid "Add JS Code"
+msgstr "Lägg till JS-kod"
+
+#: includes/admin-screens.php:557 includes/admin-screens.php:576
+#: includes/admin-screens.php:597
+msgid "Add CSS Code"
+msgstr "Lägg till CSS-kod"
+
+#: includes/admin-screens.php:556
+msgid "Custom Code"
+msgstr "Anpassad kod"
+
+#: includes/admin-screens.php:216 includes/admin-screens.php:374
+#: includes/admin-screens.php:1397
+msgid "The code is inactive. Click to activate it"
+msgstr "Koden är inaktiv. Klicka för att aktivera det"
+
+#: includes/admin-screens.php:215 includes/admin-screens.php:371
+#: includes/admin-screens.php:1394
+msgid "The code is active. Click to deactivate it"
+msgstr "Koden är aktiv. Klicka för att inaktivera det"
+
+#. translators: %s: Human-readable time difference.
+#: includes/admin-screens.php:359
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: includes/admin-screens.php:331
+msgid "Modified"
+msgstr "Ändrad"
+
+#: includes/admin-screens.php:328
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/admin-screens.php:327
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin-screens.php:211 includes/admin-screens.php:326
+#: includes/admin-screens.php:1427
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin-screens.php:312
+msgid "Add HTML code"
+msgstr "Lägg till HTML-kod"
+
+#: includes/admin-screens.php:311
+msgid "Add JS code"
+msgstr "Lägg till JS-kod"
+
+#: includes/admin-screens.php:310
+msgid "Add CSS code"
+msgstr "Lägg till CSS-kod"
+
+#: includes/admin-screens.php:250
+msgid "Options"
+msgstr "Alternativ"
+
+#: includes/admin-screens.php:105
+msgid "Add Custom HTML"
+msgstr "Lägg till anpassad HTML"
+
+#: includes/admin-screens.php:102
+msgid "Add Custom JS"
+msgstr "Lägg till anpassad JS"
+
+#: includes/admin-screens.php:99
+msgid "Add Custom CSS"
+msgstr "Lägga till anpassad CSS"
+
+#: includes/admin-notices.php:126 includes/admin-notices.php:191
+msgid "Dismiss this notice"
+msgstr "Avfärda denna notis"
+
+#: includes/admin-notices.php:126
+msgid "Get your discount now"
+msgstr "Få din rabatt nu"
+
+#: includes/admin-addons.php:140 includes/admin-addons.php:163
+msgid "Restore"
+msgstr "Återställ"
+
+#: includes/admin-addons.php:139 includes/admin-addons.php:174
+msgid "Delete"
+msgstr "Ta bort"
+
+#: includes/admin-addons.php:138 includes/admin-screens.php:329
+msgid "Author"
+msgstr "Författare"
+
+#: includes/admin-addons.php:137
+msgid "Revision"
+msgstr "Version"
+
+#: includes/admin-addons.php:136 includes/admin-addons.php:169
+msgid "Compare"
+msgstr "Jämför"
+
+#: includes/admin-addons.php:103
+msgid "Add"
+msgstr "Lägg till"
+
+#: includes/admin-addons.php:102
+msgid "Text filter"
+msgstr "Textfilter"
+
+#: includes/admin-addons.php:100 includes/admin-addons.php:101
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin-addons.php:89
+msgid "Ends by"
+msgstr "Slutar med"
+
+#: includes/admin-addons.php:88
+msgid "Starts with"
+msgstr "Börjar med"
+
+#: includes/admin-addons.php:84
+msgid "Contains"
+msgstr "Innehåller"
+
+#: includes/admin-addons.php:82
+msgid "All Website"
+msgstr "Alla webbplatser"
+
+#: includes/admin-addons.php:68
+msgid "Preview Changes"
+msgstr "Förhandsgranska ändringar"
+
+#: includes/admin-addons.php:56
+msgid "Code Revisions"
+msgstr "Kodversioner"
+
+#: includes/admin-addons.php:54
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: custom-css-js.php:277 includes/admin-config.php:58
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/admin-install.php:107
+msgid "Web Designer"
+msgstr "Webbdesigner"
+
+#: includes/admin-install.php:62
+msgid "Custom CSS and JS code"
+msgstr "Anpassad CSS och JS-kod"
+
+#: includes/admin-install.php:41
+msgid "No Custom Code found in Trash."
+msgstr "Ingen anpassad kod hittades i papperskorg."
+
+#: includes/admin-install.php:40
+msgid "No Custom Code found."
+msgstr "Ingen anpassad kod hittades."
+
+#: includes/admin-install.php:39
+msgid "Parent Custom Code:"
+msgstr "Överordnad anpassad kod:"
+
+#: includes/admin-install.php:38
+msgid "Search Custom Code"
+msgstr "Sök anpassad kod"
+
+#: includes/admin-install.php:37
+msgid "All Custom Code"
+msgstr "Alla anpassade koder"
+
+#: includes/admin-install.php:36
+msgid "View Custom Code"
+msgstr "Visa anpassad kod"
+
+#: includes/admin-install.php:35
+msgid "Edit Custom Code"
+msgstr "Redigera anpassad kod"
+
+#: includes/admin-install.php:34
+msgid "New Custom Code"
+msgstr "Ny anpassad kod"
+
+#: includes/admin-install.php:33
+msgid "Add Custom Code"
+msgstr "Lägg till anpassad kod"
+
+#: includes/admin-install.php:32
+msgctxt "add new"
+msgid "Add Custom Code"
+msgstr "Lägg till anpassad kod"
+
+#: includes/admin-install.php:31
+msgctxt "add new on admin bar"
+msgid "Custom Code"
+msgstr "Anpassad kod"
+
+#: includes/admin-install.php:29
+msgctxt "post type singular name"
+msgid "Custom Code"
+msgstr "Anpassad kod"
+
+#: includes/admin-install.php:28
+msgctxt "post type general name"
+msgid "Custom Code"
+msgstr "Anpassad kod"
+
+#: includes/admin-addons.php:87
+msgid "Not equal to"
+msgstr "Inte lika med"
+
+#: includes/admin-addons.php:86
+msgid "Is equal to"
+msgstr "Är lika med"
+
+#: includes/admin-addons.php:85
+msgid "Not contains"
+msgstr "Innehåller inte"
+
+#: includes/admin-addons.php:42 includes/admin-screens.php:896
+msgid "Available only in <br />Simple Custom CSS and JS Pro"
+msgstr "Endast tillgänglig i <br />Simple Custom CSS and JS Pro"
+
+#: includes/admin-addons.php:55
+msgid "Apply only on these URLs"
+msgstr "Tillämpa på dessa URL:er"
+
+#: includes/admin-screens.php:911
+msgid "Linking type"
+msgstr "Typ av länkning"
+
+#: includes/admin-screens.php:950 includes/admin-screens.php:1038
+msgid "In Admin"
+msgstr "I admin"
+
+#. Description of the plugin
+msgid "Easily add Custom CSS or JS to your website with an awesome editor."
+msgstr "Lägg enkelt till anpassad CSS eller JS till din webbplats med en fantastisk redigerare."
+
+#: includes/admin-addons.php:114
+msgctxt "revision date format"
+msgid "F j, Y @ H:i:s"
+msgstr "j F Y \\k\\l. H:i:s"
+
+#: includes/admin-addons.php:67
+msgid "Full URL on which to preview the changes ..."
+msgstr "Hel URL för att förhandsgranska ändringarna…"
+
+#: includes/admin-install.php:30
+msgctxt "admin menu"
+msgid "Custom CSS & JS"
+msgstr "Anpassad CSS och JS"
+
+#: includes/admin-screens.php:361
+msgid "Y/m/d"
+msgstr "Y-m-d"

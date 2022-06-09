@@ -1,0 +1,91 @@
+.cfw-accordion {
+
+    .cfw-radio-reveal-group {
+        line-height: 1;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        overflow: visible;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .cfw-radio-reveal-li {
+        border-top: 1px solid #ddd;
+        padding: 0 !important;
+
+        &:last-child {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        &:first-child {
+            border-top: none;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        &:first-child .cfw-radio-reveal-title-wrap {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        &:last-child {
+            .cfw-radio-reveal-content, .cfw-radio-reveal-title-wrap {
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+    }
+
+    .cfw-radio-reveal-title {
+        flex-grow: 1;
+    }
+
+    .cfw-radio-reveal-title-wrap {
+        padding: 1em 0.5em;
+        background: #fff;
+        font-size: 1em;
+        box-sizing: border-box;
+        list-style-type: none !important;
+        text-indent: 0;
+        clear: both;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .cfw-radio-reveal-label {
+        clear: both;
+        display: flex !important;
+        align-items: center;
+        flex-grow: 1;
+
+        > div {
+            display: flex !important;
+            align-items: center;
+            flex-grow: 1;
+            box-sizing: border-box;
+            font-size: 1em;
+            cursor: pointer;
+
+            input[type="radio"] {
+                position: relative !important;
+                top: -1px !important;
+            }
+        }
+    }
+
+    .cfw-radio-reveal-content {
+        background: #f4f4f4;
+        padding: 20px 10px 20px 10px;
+        border-top: 1px solid #ddd;
+        margin: 0 !important;
+
+        p {
+            font-size: 0.825em;
+            line-height: 1.25;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+# Translation of Plugins - Loco Translate - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-08 16:17:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
+
+#: tpl/admin/config/apis.php:127 tpl/admin/config/prefs.php:44
+#: tpl/admin/config/settings.php:233
+msgid "Save settings"
+msgstr "Tallenna asetukset"
+
+#: src/js/Strings.php:83
+msgid "Your changes will be lost if you continue without saving"
+msgstr "Menetät tekemäsi muutokset, jos jatkat tallentamatta."
+
+#: tpl/admin/bundle/locale.php:14 tpl/admin/common/inc-po-header.php:8
+#: tpl/admin/file/edit-pot.php:12 tpl/admin/file/view-pot.php:11
+msgctxt "Modified time"
+msgid "Updated"
+msgstr "Päivitetty"
+
+#. Author of the plugin
+msgid "Tim Whitlock"
+msgstr "Tim Whitlock"
+
+#: tpl/admin/config/settings.php:62
+msgid "Number of backups to keep of each file:"
+msgstr "Kunkin tiedoston varmuuskopioiden lukumäärä:"
+
+#: src/js/Strings.php:18
+msgid "Merged from %s"
+msgstr "Yhdistetty kohteesta %s"
+
+#: src/js/Strings.php:21
+msgid "Merged from source code"
+msgstr "Yhdistetty lähdekoodista"
+
+#: tpl/admin/config/settings.php:131
+msgid "Generate hash tables"
+msgstr "Luo hajautustaulut (hash tables)."
+
+#: tpl/admin/config/settings.php:137
+msgid "Include Fuzzy strings"
+msgstr "Ota mukaan epäselvät merkkijonot."
+
+#. Translators: Placeholder text for text filter above editor
+#: src/admin/file/EditController.php:209
+msgid "Filter translations"
+msgstr "Etsi käännöksiä"
+
+#: tpl/admin/bundle/conf.php:65 tpl/admin/bundle/inc-po-table.php:42
+#: tpl/admin/file/edit-pot.php:10 tpl/admin/file/info-pot.php:18
+#: tpl/admin/file/view-pot.php:9
+msgid "Template file"
+msgstr "Mallitiedosto"
+
+#: tpl/admin/config/settings.php:120 tpl/admin/config/settings.php:126
+msgid "Compiling MO files"
+msgstr "MO-tiedostojen kvalmistaminen"
+
+#: tpl/admin/init/init-prompt.php:45
+msgid "Back"
+msgstr "Takaisin"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/loco-translate/"
+msgstr "https://wordpress.org/plugins/loco-translate/"
+
+#: src/admin/file/EditController.php:166 src/mvc/AdminRouter.php:67
+#: src/mvc/AdminRouter.php:72 tpl/admin/common/inc-fsconn.php:18
+#: tpl/admin/common/inc-fsconn.php:43 tpl/admin/errors/no-backups.php:24
+#: tpl/ajax/modal-apis-empty.php:15
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/js/Strings.php:123
+msgid "Unknown error"
+msgstr "Tuntematon virhe"
+
+#: src/gettext/Metadata.php:204 src/js/Strings.php:91
+msgid "%s%% translated"
+msgstr "%s%% käännetty"
+
+#: src/gettext/Metadata.php:206 src/js/Strings.php:95
+msgid "%s fuzzy"
+msgstr "%s epäselvää"
+
+#: src/gettext/Metadata.php:209 src/js/Strings.php:99
+msgid "%s untranslated"
+msgstr "%s kääntämättä"
+
+#. translators: Page title for plugin home screen
+#: src/mvc/AdminRouter.php:39
+msgid "Loco, Translation Management"
+msgstr "Loco, Translation Management"
+
+#. Plugin Name of the plugin
+#: src/hooks/AdminHooks.php:63 src/mvc/AdminRouter.php:37
+msgid "Loco Translate"
+msgstr "Loco Translate"
+
+#: src/error/WriteException.php:13
+msgid "Permission denied"
+msgstr "Lupa evätty"
+
+#: src/admin/config/ApisController.php:43
+#: src/admin/config/PrefsController.php:26
+#: src/admin/config/SettingsController.php:31
+msgid "Settings saved"
+msgstr "Asetukset tallennettu"

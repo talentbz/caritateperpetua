@@ -1,0 +1,4525 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-09 14:09:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/toolbox/beta_test.tpl.php:36
+msgid "Use latest GitHub Master commit"
+msgstr "使用最新的GitHub主提交"
+
+#: tpl/toolbox/beta_test.tpl.php:34
+msgid "Use latest GitHub Dev commit"
+msgstr "使用最新的GitHub开发提交"
+
+#: src/crawler-map.cls.php:317
+msgid "No valid sitemap parsed for crawler."
+msgstr "没有为爬虫解析出有效的网站地图。"
+
+#: src/lang.cls.php:109
+msgid "CSS Combine External and Inline"
+msgstr "CSS结合外部和内联"
+
+#: tpl/page_optm/settings_css.tpl.php:150
+msgid "Include external CSS and inline CSS in combined file when %1$s is also enabled. This option helps maintain the priorities of CSS, which should minimize potential errors caused by CSS Combine."
+msgstr "当%1$s也启用时，在组合文件中包括外部CSS和内联CSS。此选项有助于保持CSS的优先级，从而将CSS合并导致的潜在错误降至最低。"
+
+#: tpl/page_optm/settings_css.tpl.php:30
+msgid "Minify CSS files and inline CSS code."
+msgstr "缩小CSS文件并内联CSS代码。"
+
+#: tpl/page_optm/settings_tuning.tpl.php:38
+#: tpl/page_optm/settings_tuning.tpl.php:59
+#: tpl/page_optm/settings_tuning.tpl.php:83
+#: tpl/page_optm/settings_tuning.tpl.php:168
+msgid "Predefined list will also be combined w/ the above settings"
+msgstr "预定义列表也将与上述设置相结合"
+
+#: tpl/page_optm/entry.tpl.php:11
+msgid "Localization"
+msgstr "本地化"
+
+#: tpl/page_optm/settings_js.tpl.php:52
+msgid "Include external JS and inline JS in combined file when %1$s is also enabled. This option helps maintain the priorities of JS execution, which should minimize potential errors caused by JS Combine."
+msgstr "当%1$s也被启用时，在合并文件中包含外部JS和内联JS。这个选项有助于保持JS执行的优先级，这应该可以最大限度地减少JS Combine引起的潜在错误。"
+
+#: tpl/page_optm/settings_js.tpl.php:34
+msgid "Combine all local JS files into a single file."
+msgstr "将所有本地JS文件合并为一个文件。"
+
+#: tpl/page_optm/settings_tuning.tpl.php:161
+msgid "Listed JS files or inline JS code will not be deferred."
+msgstr "列出的JS文件或内联JS代码不会被延迟。"
+
+#: tpl/general/settings.tpl.php:94
+msgid "Request submitted. Please wait, then refresh the page to see approval notification."
+msgstr "请求已提交。请稍候，然后刷新页面以查看审批通知。"
+
+#: src/data.upgrade.func.php:102
+msgid "Click here to settings"
+msgstr "点击此处进行设置"
+
+#: src/data.upgrade.func.php:101
+msgid "JS Defer"
+msgstr "JS延迟"
+
+#: src/data.upgrade.func.php:101
+msgid "LiteSpeed Cache upgraded successfully. NOTE: Due to changes in this version, the settings %1$s and %2$s have been turned OFF. Please turn them back on manually and verify that your site layout is correct, and you have no JS errors."
+msgstr ""
+"LiteSpeed Cache升级成功。注意：由于此版本中的更改，设置%1$s和%2$s已关闭。\n"
+"请手动重新打开它们，并验证您的站点布局是否正确，并且没有JS错误。"
+
+#: src/lang.cls.php:116
+msgid "JS Combine External and Inline"
+msgstr "JS结合外部和内联"
+
+#: src/admin-display.cls.php:460
+msgid "Dismiss"
+msgstr "忽略"
+
+#: tpl/cache/settings-esi.tpl.php:93
+msgid "The latest data file is"
+msgstr "最新的数据文件是"
+
+#: tpl/cache/settings-esi.tpl.php:92
+msgid "The list will be merged with the predefined nonces in your local data file."
+msgstr "该列表将与您本地数据文件中预定义的随机数合并。"
+
+#: tpl/page_optm/settings_css.tpl.php:43
+msgid "Combine CSS files and inline CSS code."
+msgstr "合并CSS文件和内联CSS代码。"
+
+#: tpl/page_optm/settings_js.tpl.php:21
+msgid "Minify JS files and inline JS codes."
+msgstr "缩小JS文件和内联JS代码。"
+
+#: tpl/page_optm/settings_tuning.tpl.php:52
+msgid "Listed JS files or inline JS code will not be minified/combined."
+msgstr "列出的JS文件或内联JS代码不会缩小/合并。"
+
+#: tpl/page_optm/settings_tuning.tpl.php:31
+msgid "Listed CSS files or inline CSS code will not be minified/combined."
+msgstr "列出的CSS文件或内联CSS代码将不会缩小/合并。"
+
+#: src/css.cls.php:60 src/root.cls.php:176
+msgid "Queue cleared successfully."
+msgstr "队列已成功清除。"
+
+#: src/admin-display.cls.php:935
+msgid "This setting is overwritten by the Network setting"
+msgstr "此设置将被网络设置覆盖"
+
+#: src/lang.cls.php:155
+msgid "LQIP Excludes"
+msgstr "LQIP排除"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:122
+msgid "These images will not generate LQIP."
+msgstr "这些图像不会生成LQIP。"
+
+#: tpl/toolbox/import_export.tpl.php:52
+msgid "Are you sure you want to reset all settings back to the default settings?"
+msgstr "你确定要将所有设置恢复到默认设置吗？"
+
+#: tpl/page_optm/settings_html.tpl.php:142
+msgid "This option will remove all %s tags from HTML."
+msgstr "这个选项将删除HTML中所有%s标签。"
+
+#: tpl/general/settings.tpl.php:116
+msgid "Are you sure you want to clear all cloud nodes?"
+msgstr "你确定你要清除所有云节点？"
+
+#: src/error.cls.php:84
+msgid "The site is not registered on QUIC.cloud."
+msgstr "该网站未在QUIC.cloud上注册。"
+
+#: src/error.cls.php:43
+msgid "Click here to change."
+msgstr "单击此处进行更改。"
+
+#: src/cloud.cls.php:763 src/error.cls.php:48
+msgid "Click here to set."
+msgstr "单击此处进行设置。"
+
+#: src/cloud.cls.php:762
+msgid "Site not recognized. Domain Key has been automatically removed. Please request a new one."
+msgstr "无法识别站点。域密钥已自动删除。请换一个新的。"
+
+#: src/lang.cls.php:124
+msgid "Localize Resources"
+msgstr "本地化资源"
+
+#: tpl/cache/settings_inc.browser.tpl.php:14
+msgid "Setting Up Custom Headers"
+msgstr "设置自定义标题"
+
+#: tpl/toolbox/purge.tpl.php:89
+msgid "This will delete all localized resources"
+msgstr "这将删除所有本地化的资源"
+
+#: src/gui.cls.php:535 src/gui.cls.php:695 tpl/toolbox/purge.tpl.php:88
+msgid "Localized Resources"
+msgstr "本地化资源"
+
+#: tpl/page_optm/settings_localization.tpl.php:125
+msgid "Comments are supported. Start a line with a %s to turn it into a comment line."
+msgstr "支持评论。以%s开始一行，将其转换为注释行。"
+
+#: tpl/page_optm/settings_localization.tpl.php:121
+msgid "HTTPS sources only."
+msgstr "仅HTTPS源。"
+
+#: tpl/page_optm/settings_localization.tpl.php:94
+msgid "Localize external resources."
+msgstr "本地化外部资源。"
+
+#: tpl/page_optm/settings_localization.tpl.php:17
+msgid "Localization Settings"
+msgstr "本地化设置"
+
+#: tpl/page_optm/settings_tuning.tpl.php:73
+msgid "List the CSS selector that its style should be always contained in UCSS."
+msgstr "列出其样式应始终包含在UCSS中的CSS选择器。"
+
+#: tpl/page_optm/settings_css.tpl.php:64
+msgid "Use QUIC.cloud online service to generate unique CSS."
+msgstr "使用QUIC.cloud在线服务生成唯一的CSS。"
+
+#: src/lang.cls.php:110
+msgid "Generate UCSS"
+msgstr "生成UCSS"
+
+#: tpl/toolbox/report.tpl.php:41
+msgid "LiteSpeed Report"
+msgstr "LiteSpeed报告"
+
+#: tpl/img_optm/summary.tpl.php:222
+msgid "Image Thumbnail Group Sizes"
+msgstr "图像缩略图组大小"
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:14
+msgid "Ignore certain query strings when caching. (LSWS %s required)"
+msgstr "缓存时忽略某些查询字符串。 （需要LSWS%s）"
+
+#: tpl/cache/settings-purge.tpl.php:115
+msgid "For URLs with wildcards, there may be a delay in initiating scheduled purge."
+msgstr "对于带有通配符的URL，初始化计划清除可能会有所延迟。"
+
+#: tpl/cache/settings-purge.tpl.php:91
+msgid "By design, this option may serve stale content. Do not enable this option, if that is not OK with you."
+msgstr "根据设计，此选项可能会提供过时的内容。 如果您不满意，请不要启用此选项。"
+
+#: src/lang.cls.php:97
+msgid "Serve Stale"
+msgstr "服务过期"
+
+#: src/admin-display.cls.php:932
+msgid "This setting is overwritten by the primary site setting"
+msgstr "此设置被主站点设置覆盖"
+
+#: src/img-optm.cls.php:964
+msgid "One or more pulled images does not match with the notified image md5"
+msgstr "一个或多个拉取的图像与通知的图像MD5不匹配"
+
+#: src/img-optm.cls.php:947
+msgid "Some optimized image file(s) has expired and was cleared."
+msgstr "某些优化的图像文件已过期并被清除。"
+
+#: src/error.cls.php:64
+msgid "You have too many notified images, please pull down notified images first."
+msgstr "您收到的通知图像过多，请先下拉通知的图像。"
+
+#: src/error.cls.php:60
+msgid "You have too many requested images, please try again in a few minutes."
+msgstr "您请求的图片过多，请在几分钟后重试。"
+
+#: src/img-optm.cls.php:1025
+msgid "Pulled WebP image md5 does not match the notified WebP image md5."
+msgstr "拉动的WebP图像md5与通知的WebP图像md5不匹配。"
+
+#: tpl/inc/admin_footer.php:11
+msgid "Read LiteSpeed Documentation"
+msgstr "阅读LiteSpeed文档"
+
+#: src/error.cls.php:80
+msgid "There is proceeding queue not pulled yet. Queue info: %s."
+msgstr "有进行中的队列还没有拉开。队列信息： %s."
+
+#: src/lang.cls.php:222
+msgid "Sitemap Timeout"
+msgstr "站点地图超时"
+
+#: tpl/crawler/settings-sitemap.tpl.php:49
+msgid "Specify the timeout while parsing the sitemap."
+msgstr "指定解析站点地图时的超时。"
+
+#: tpl/page_optm/settings_localization.tpl.php:79
+msgid "Specify how long, in seconds, Gravatar files are cached."
+msgstr "指定Gravatar文件缓存的时间（以秒为单位）。"
+
+#: tpl/general/settings.tpl.php:112
+msgid "A Domain Key is required for QUIC.cloud online services."
+msgstr "QUIC.cloud在线服务需要域密钥。"
+
+#: src/img-optm.cls.php:547
+msgid "Cleared %1$s invalid images."
+msgstr "已清除%1$s无效图像。"
+
+#: src/img-optm.cls.php:509
+msgid "Bypassed %1$s duplicated images."
+msgstr "已绕过%1$s重复的图像。"
+
+#: tpl/general/settings.tpl.php:16
+msgid "Request Domain Key"
+msgstr "请求域密钥"
+
+#: tpl/general/entry.tpl.php:20
+msgid "LiteSpeed Cache General Settings"
+msgstr "LiteSpeed缓存常规设置"
+
+#: tpl/toolbox/purge.tpl.php:107
+msgid "This will delete all cached Gravatar files"
+msgstr "这将删除所有缓存的Gravatar文件"
+
+#: tpl/toolbox/settings-debug.tpl.php:140
+msgid "Prevent any debug log of listed pages."
+msgstr "防止列出页面的任何调试日志。"
+
+#: tpl/toolbox/settings-debug.tpl.php:126
+msgid "Only log listed pages."
+msgstr "仅记录列出的页面。"
+
+#: tpl/toolbox/settings-debug.tpl.php:85
+msgid "Specify the maximum size of the log file."
+msgstr "指定日志文件的最大大小。"
+
+#: tpl/toolbox/settings-debug.tpl.php:37
+msgid "To prevent filling up the disk, this setting should be OFF when everything is working."
+msgstr "为避免填满磁盘，一切正常时，此设置应为OFF。"
+
+#: tpl/toolbox/beta_test.tpl.php:54
+msgid "Press the %s button to stop beta testing and go back to the current release from the WordPress Plugin Directory."
+msgstr "按%s按钮停止beta测试，然后从WordPress插件目录返回当前版本。"
+
+#: tpl/toolbox/beta_test.tpl.php:38 tpl/toolbox/beta_test.tpl.php:54
+msgid "Use latest WordPress release version"
+msgstr "使用最新的WordPress发布版本"
+
+#: tpl/toolbox/beta_test.tpl.php:38
+msgid "OR"
+msgstr "或"
+
+#: tpl/toolbox/beta_test.tpl.php:29
+msgid "Use this section to switch plugin versions. To beta test a GitHub commit, enter the commit URL in the field below."
+msgstr "使用此部分切换插件版本。要测试GitHub提交，请在下面的字段中输入提交URL。"
+
+#: tpl/toolbox/import_export.tpl.php:53
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: tpl/toolbox/entry.tpl.php:32
+msgid "LiteSpeed Cache Toolbox"
+msgstr "LiteSpeed缓存工具箱"
+
+#: tpl/toolbox/entry.tpl.php:25
+msgid "Beta Test"
+msgstr "Beta测试"
+
+#: tpl/toolbox/entry.tpl.php:24
+msgid "Log View"
+msgstr "日志查看"
+
+#: tpl/toolbox/entry.tpl.php:23 tpl/toolbox/settings-debug.tpl.php:10
+msgid "Debug Settings"
+msgstr "调试设置"
+
+#: tpl/toolbox/heartbeat.tpl.php:94
+msgid "Turn ON to control heartbeat in backend editor."
+msgstr "在后端编辑器中打开以控制心跳。"
+
+#: tpl/toolbox/heartbeat.tpl.php:78 tpl/toolbox/heartbeat.tpl.php:108
+msgid "WordPress valid interval is %s seconds"
+msgstr "WordPress有效间隔为%s秒"
+
+#: tpl/toolbox/heartbeat.tpl.php:64
+msgid "Turn ON to control heartbeat on backend."
+msgstr "开启控制后台的心跳。"
+
+#: tpl/toolbox/heartbeat.tpl.php:49 tpl/toolbox/heartbeat.tpl.php:79
+#: tpl/toolbox/heartbeat.tpl.php:109
+msgid "Set to %1$s to forbid heartbeat on %2$s."
+msgstr "设置为%1$s在%2$s禁止心跳。"
+
+#: tpl/toolbox/heartbeat.tpl.php:48
+msgid "WordPress valid interval is %s seconds."
+msgstr "WordPress的有效间隔为%s秒。"
+
+#: tpl/toolbox/heartbeat.tpl.php:47 tpl/toolbox/heartbeat.tpl.php:77
+#: tpl/toolbox/heartbeat.tpl.php:107
+msgid "Specify the %s heartbeat interval in seconds."
+msgstr "指定%s心跳间隔（以秒为单位）。"
+
+#: tpl/toolbox/heartbeat.tpl.php:34
+msgid "Turn ON to control heartbeat on frontend."
+msgstr "开启控制前端的心跳。"
+
+#: tpl/toolbox/heartbeat.tpl.php:15
+msgid "Disable WordPress interval heartbeat to reduce server load."
+msgstr "禁用WordPress间隔心跳以减少服务器负载。"
+
+#: tpl/toolbox/heartbeat.tpl.php:9
+msgid "Heartbeat Control"
+msgstr "心跳控制"
+
+#: tpl/toolbox/report.tpl.php:86
+msgid "provide more information here to assist the LiteSpeed team with debugging."
+msgstr "在此处提供更多信息，以帮助LiteSpeed团队进行调试。"
+
+#: tpl/toolbox/report.tpl.php:85
+msgid "Optional"
+msgstr "可选"
+
+#: tpl/toolbox/report.tpl.php:67 tpl/toolbox/report.tpl.php:69
+msgid "Generate Link for Current User"
+msgstr "为当前用户生成链接"
+
+#: tpl/toolbox/report.tpl.php:63
+msgid "Passwordless Link"
+msgstr "无密码链接"
+
+#: tpl/toolbox/report.tpl.php:57
+msgid "System Information"
+msgstr "系统信息"
+
+#: tpl/toolbox/report.tpl.php:35
+msgid "Go to plugins list"
+msgstr "转到插件列表"
+
+#: tpl/toolbox/report.tpl.php:34
+msgid "Install DoLogin Security"
+msgstr "安装 DoLogin Security"
+
+#: tpl/general/settings.tpl.php:206
+msgid "Check my public IP from"
+msgstr "检查我的公共IP"
+
+#: tpl/general/settings.tpl.php:205
+msgid "Enter this site's IP address to allow cloud services directly call IP instead of domain name. This eliminates the overhead of DNS and CDN lookups."
+msgstr "输入此站点的IP地址，以允许云服务直接调用IP而不是域名。 这消除了DNS和CDN查找的开销。"
+
+#: tpl/crawler/settings-general.tpl.php:120
+msgid "Specify the timeout while crawling each URL."
+msgstr "在爬虫每个URL时指定超时。"
+
+#: tpl/crawler/settings-general.tpl.php:76
+msgid "Specify time in seconds for the time between each run interval."
+msgstr "指定每个运行间隔之间的时间(以秒为单位)。"
+
+#: tpl/crawler/settings-general.tpl.php:22
+msgid "This will enable crawler cron."
+msgstr "这将启用爬虫cron。"
+
+#: tpl/crawler/settings-general.tpl.php:9
+msgid "Crawler General Settings"
+msgstr "爬虫常规设置"
+
+#: tpl/crawler/map.tpl.php:37
+msgid "Sitemap Total"
+msgstr "站点地图总计"
+
+#: tpl/crawler/map.tpl.php:33
+msgid "Sitemap List"
+msgstr "站点地图列表"
+
+#: tpl/crawler/map.tpl.php:20
+msgid "Refresh Crawler Map"
+msgstr "刷新爬虫地图"
+
+#: tpl/crawler/map.tpl.php:16
+msgid "Clean Crawler Map"
+msgstr "清理爬虫地图"
+
+#: tpl/crawler/entry.tpl.php:11
+msgid "Sitemap Settings"
+msgstr "站点地图设置"
+
+#: tpl/crawler/entry.tpl.php:10
+msgid "Simulation Settings"
+msgstr "模拟设置"
+
+#: tpl/crawler/entry.tpl.php:7
+msgid "Map"
+msgstr "地图"
+
+#: tpl/crawler/entry.tpl.php:6
+msgid "Summary"
+msgstr "概要"
+
+#: tpl/crawler/settings-sitemap.tpl.php:36
+msgid "If you are using multiple domains for one site, and have multiple domains in the sitemap, please keep this option OFF so the crawler knows to crawl every domain."
+msgstr "如果您在一个站点上使用多个域，并且在站点地图中有多个域，请将此选项保持关闭状态，以便爬虫知道对每个域进行爬网。"
+
+#: tpl/crawler/settings-sitemap.tpl.php:35
+msgid "The crawler will parse the sitemap and save into the database before crawling. When parsing the sitemap, dropping the domain can save DB storage."
+msgstr "爬虫程序将解析站点地图并在爬行前保存到数据库中。解析站点地图时，删除域可以节省数据库存储。"
+
+#: tpl/crawler/settings-sitemap.tpl.php:9
+msgid "Crawler Sitemap Settings"
+msgstr "爬虫站点地图设置"
+
+#: tpl/crawler/summary.tpl.php:190
+msgid "&nbsp;If both the cron and a manual run start at similar times, the first to be started will take precedence."
+msgstr "&nbsp;如果cron和手动运行在相似的时间启动，则首先启动的优先。"
+
+#: tpl/crawler/summary.tpl.php:189
+msgid "Crawlers cannot run concurrently."
+msgstr "爬虫无法同时运行。"
+
+#: tpl/crawler/map.tpl.php:68
+msgid "Cache Miss"
+msgstr "缓存未命中"
+
+#: tpl/crawler/map.tpl.php:67
+msgid "Cache Hit"
+msgstr "缓存命中"
+
+#: tpl/crawler/summary.tpl.php:181
+msgid "Waiting to be Crawled"
+msgstr "等待被爬虫"
+
+#: tpl/crawler/summary.tpl.php:159
+msgid "Miss"
+msgstr "未命中"
+
+#: tpl/crawler/summary.tpl.php:158
+msgid "Hit"
+msgstr "命中"
+
+#: tpl/crawler/summary.tpl.php:157
+msgid "Waiting"
+msgstr "等待中"
+
+#: tpl/crawler/summary.tpl.php:126
+msgid "Running"
+msgstr "运行"
+
+#: tpl/crawler/settings-simulation.tpl.php:51
+msgid "Use %1$s in %2$s to indicate this cookie has not been set."
+msgstr "在%2$s中使用%1$s表示尚未设置此Cookie。"
+
+#: src/admin-display.cls.php:209
+msgid "Add new cookie to simulate"
+msgstr "添加新的cookie来模拟"
+
+#: src/admin-display.cls.php:208
+msgid "Remove cookie simulation"
+msgstr "删除Cookie模拟"
+
+#: tpl/crawler/settings-simulation.tpl.php:9
+msgid "Crawler Simulation Settings"
+msgstr "爬虫模拟设置"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:44
+msgid "Htaccess rule is: %s"
+msgstr "Htaccess 规则是: %s"
+
+#: tpl/cache/more_settings_tip.tpl.php:15
+msgid "More settings available under %s menu"
+msgstr "%s菜单下有更多可用设置"
+
+#: tpl/cache/settings_inc.browser.tpl.php:42
+msgid "The amount of time, in seconds, that files will be stored in browser cache before expiring."
+msgstr "过期之前，文件将存储在浏览器缓存中的时间（以秒为单位）。"
+
+#: tpl/cache/settings_inc.browser.tpl.php:13
+msgid "OpenLiteSpeed users please check this"
+msgstr "OpenLiteSpeed用户请检查此"
+
+#: tpl/cache/settings_inc.browser.tpl.php:6
+msgid "Browser Cache Settings"
+msgstr "浏览器缓存设置"
+
+#: tpl/cache/settings-cache.tpl.php:139
+msgid "Paths containing these strings will be forced to public cached regardless of no-cacheable settings."
+msgstr "包含这些字符串的路径将被强制公开缓存，而不顾不可缓存设置如何。"
+
+#: tpl/cache/settings-cache.tpl.php:34
+msgid "With QUIC.cloud CDN enabled, you may still be seeing cache headers from your local server."
+msgstr "启用QUIC.cloud CDN后，您可能仍会从本地服务器看到缓存头。"
+
+#: tpl/cache/settings-esi.tpl.php:104
+msgid "An optional second parameter may be used to specify cache control. Use a space to separate"
+msgstr "可选的第二个参数可用于指定缓存控制。 用空格隔开"
+
+#: tpl/cache/settings-esi.tpl.php:102
+msgid "The above nonces will be converted to ESI automatically."
+msgstr "以上随机数将自动转换为ESI。"
+
+#: tpl/cache/entry.tpl.php:15 tpl/cache/entry_network.tpl.php:10
+msgid "Browser"
+msgstr "浏览器"
+
+#: tpl/cache/entry.tpl.php:14 tpl/cache/entry_network.tpl.php:9
+msgid "Object"
+msgstr "对象"
+
+#: tpl/cache/settings_inc.object.tpl.php:91
+#: tpl/cache/settings_inc.object.tpl.php:92
+msgid "Default port for %1$s is %2$s."
+msgstr "%1$s的默认端口是%2$s。"
+
+#: tpl/cache/settings_inc.object.tpl.php:27
+msgid "Object Cache Settings"
+msgstr "对象缓存设置"
+
+#: tpl/cache/settings-ttl.tpl.php:105
+msgid "Specify an HTTP status code and the number of seconds to cache that page, separated by a space."
+msgstr "指定HTTP状态代码和缓存该页面的秒数，以空格分隔。"
+
+#: tpl/cache/settings-ttl.tpl.php:52
+msgid "Specify how long, in seconds, the front page is cached."
+msgstr "指定首页缓存多长时间（以秒为单位）。"
+
+#: tpl/cache/entry.tpl.php:7 tpl/cache/settings-ttl.tpl.php:7
+msgid "TTL"
+msgstr "TTL"
+
+#: tpl/cache/settings-purge.tpl.php:85
+msgid "If ON, the stale copy of a cached page will be shown to visitors until a new cache copy is available. Reduces the server load for following visits. If OFF, the page will be dynamically generated while visitors wait."
+msgstr "如果开启，则将向访问者显示已缓存页面的陈旧副本，直到有新的缓存副本可用为止。 减少后续访问的服务器负载。 如果设置为关闭，则会在访客等待时动态生成页面。"
+
+#: tpl/page_optm/settings_css.tpl.php:269
+msgid "Set this to append %1$s to all %2$s rules before caching CSS to specify how fonts should be displayed while being downloaded."
+msgstr "将此选项设置为在缓存CSS之前将%1$s附加到所有%2$s规则，以指定下载时字体的显示方式。"
+
+#: tpl/page_optm/settings_localization.tpl.php:57
+msgid "Avatar list in queue waiting for update"
+msgstr "队列中的头像列表等待更新"
+
+#: tpl/page_optm/settings_localization.tpl.php:44
+msgid "Refresh Gravatar cache by cron."
+msgstr "通过cron刷新Gravatar缓存。"
+
+#: tpl/page_optm/settings_localization.tpl.php:31
+msgid "Accelerates the speed by caching Gravatar (Globally Recognized Avatars)."
+msgstr "通过缓存Gravatar（全球公认的头像）来加快速度。"
+
+#: tpl/page_optm/settings_localization.tpl.php:30
+msgid "Store Gravatar locally."
+msgstr "将Gravatar存储在本地。"
+
+#: tpl/page_optm/settings_localization.tpl.php:12
+msgid "Failed to create Avatar table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
+msgstr "无法创建头像表。 请按照 <a %s>LiteSpeed Wiki中的表创建指南</a> 完成设置。"
+
+#: tpl/page_optm/settings_media.tpl.php:140
+msgid "LQIP requests will not be sent for images where both width and height are smaller than these dimensions."
+msgstr "对于宽度和高度均小于这些尺寸的图像，不会发送LQIP请求。"
+
+#: tpl/page_optm/settings_media.tpl.php:138
+msgid "pixels"
+msgstr "像素"
+
+#: tpl/page_optm/settings_media.tpl.php:121
+msgid "Specify the quality when generating LQIP."
+msgstr "指定生成LQIP时的质量。"
+
+#: tpl/page_optm/settings_media.tpl.php:107
+msgid "Keep this off to use plain color placeholders."
+msgstr "请勿使用纯色占位符。"
+
+#: tpl/page_optm/settings_media.tpl.php:106
+msgid "Use QUIC.cloud LQIP (Low Quality Image Placeholder) generator service for responsive image previews while loading."
+msgstr "在加载时，使用QUIC.cloud LQIP（低质量图像占位符）生成器服务进行响应的图像预览。"
+
+#: tpl/page_optm/settings_media.tpl.php:92
+msgid "Specify the responsive placeholder SVG color."
+msgstr "指定响应式占位符SVG颜色。"
+
+#: tpl/page_optm/settings_media.tpl.php:78
+msgid "Variables %s will be replaced with the configured background color."
+msgstr "变量%s将被替换为配置的背景颜色。"
+
+#: tpl/page_optm/settings_media.tpl.php:77
+msgid "Variables %s will be replaced with the corresponding image properties."
+msgstr "变量%s将替换为相应的图像属性。"
+
+#: tpl/page_optm/settings_media.tpl.php:76
+msgid "It will be converted to a base64 SVG placeholder on-the-fly."
+msgstr "它将即时转换为base64 SVG占位符。"
+
+#: tpl/page_optm/settings_media.tpl.php:75
+msgid "Specify an SVG to be used as a placeholder when generating locally."
+msgstr "指定在本地生成时用作占位符的SVG。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:108
+msgid "Prevent any lazy load of listed pages."
+msgstr "防止延迟加载列出的页面。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:94
+msgid "Iframes having these parent class names will not be lazy loaded."
+msgstr "具有这些父类名称的iframe不会被延迟加载。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:79
+msgid "Iframes containing these class names will not be lazy loaded."
+msgstr "包含这些类名称的iframe不会被延迟加载。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:65
+msgid "Images having these parent class names will not be lazy loaded."
+msgstr "具有这些父类名称的图像将不会被延迟加载。"
+
+#: tpl/page_optm/entry.tpl.php:19
+msgid "LiteSpeed Cache Page Optimization"
+msgstr "LiteSpeed缓存页面优化"
+
+#: tpl/page_optm/entry.tpl.php:10 tpl/page_optm/settings_media_exc.tpl.php:7
+msgid "Media Excludes"
+msgstr "媒体排除"
+
+#: tpl/page_optm/entry.tpl.php:6 tpl/page_optm/settings_css.tpl.php:16
+msgid "CSS Settings"
+msgstr "CSS 设置"
+
+#: tpl/page_optm/settings_css.tpl.php:270
+msgid "%s is recommended."
+msgstr "建议使用%s。"
+
+#: tpl/page_optm/settings_js.tpl.php:63
+msgid "Deferred"
+msgstr "递延"
+
+#: tpl/page_optm/settings_css.tpl.php:267
+msgid "Default"
+msgstr "默认"
+
+#: tpl/page_optm/settings_html.tpl.php:50
+msgid "This can improve the page loading speed."
+msgstr "这样可以提高页面加载速度。"
+
+#: tpl/banner/new_version_dev.tpl.php:16
+msgid "New developer version %s is available now."
+msgstr "新的开发版本%s现在可用。"
+
+#: tpl/banner/new_version_dev.tpl.php:12
+msgid "New Developer Version Available!"
+msgstr "新的开发版本可用！"
+
+#: tpl/banner/cloud_promo.tpl.php:51
+msgid "Dismiss this notice"
+msgstr "忽略此通知"
+
+#: tpl/banner/cloud_promo.tpl.php:17
+msgid "Learn more"
+msgstr "了解更多"
+
+#: tpl/banner/cloud_promo.tpl.php:13
+msgid "You just unlocked a promotion from QUIC.cloud!"
+msgstr "你刚刚解锁了QUIC.cloud的促销活动！"
+
+#: tpl/img_optm/settings.tpl.php:169
+msgid "The image compression quality setting of WordPress out of 100."
+msgstr "WordPress的图像压缩质量设置（满分100）。"
+
+#: tpl/img_optm/entry.tpl.php:7 tpl/img_optm/entry.tpl.php:13
+#: tpl/img_optm/network_settings.tpl.php:9 tpl/img_optm/settings.tpl.php:9
+msgid "Image Optimization Settings"
+msgstr "图像优化设置"
+
+#: tpl/img_optm/summary.tpl.php:373
+msgid "Are you sure to destroy all optimized images?"
+msgstr "您确定要销毁所有优化的图像吗？"
+
+#: tpl/img_optm/summary.tpl.php:365
+msgid "Use Optimized Files"
+msgstr "使用优化文件"
+
+#: tpl/img_optm/summary.tpl.php:364
+msgid "Switch back to using optimized images on your site"
+msgstr "切换回使用您网站上的优化图像"
+
+#: tpl/img_optm/summary.tpl.php:361
+msgid "Use Original Files"
+msgstr "使用原始文件"
+
+#: tpl/img_optm/summary.tpl.php:360
+msgid "Use original images (unoptimized) on your site"
+msgstr "在您的网站上使用原始图片（未经优化）"
+
+#: tpl/img_optm/summary.tpl.php:355
+msgid "You can quickly switch between using original (unoptimized versions) and optimized image files. It will affect all images on your website, both regular and webp versions if available."
+msgstr "您可以在使用原始（未优化的版本）和优化的图像文件之间快速切换。 它将影响您网站上的所有图像，包括常规版本和webp版本（如果可用）。"
+
+#: tpl/img_optm/summary.tpl.php:352
+msgid "Optimization Tools"
+msgstr "优化工具"
+
+#: tpl/img_optm/summary.tpl.php:325
+msgid "Rescan New Thumbnails"
+msgstr "重新扫描新缩略图"
+
+#: tpl/img_optm/summary.tpl.php:287
+msgid "Images not yet gathered"
+msgstr "图像尚未收集"
+
+#: tpl/img_optm/summary.tpl.php:282 tpl/img_optm/summary.tpl.php:309
+msgid "What is an image group?"
+msgstr "什么是图像组？"
+
+#: tpl/img_optm/summary.tpl.php:233
+msgid "Delete all backups of the original images"
+msgstr "删除原始图像的所有备份"
+
+#: tpl/img_optm/summary.tpl.php:215
+msgid "Calculate Backups Disk Space"
+msgstr "计算备份磁盘空间"
+
+#: tpl/img_optm/summary.tpl.php:100
+msgid "Optimization Status"
+msgstr "优化状态"
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Gather Image Data"
+msgstr "收集图像数据"
+
+#: tpl/img_optm/summary.tpl.php:72
+msgid "Current limit is"
+msgstr "当前限制为:"
+
+#: tpl/img_optm/summary.tpl.php:71
+msgid "To make sure our server can communicate with your server without any issues and everything works fine, for the few first requests the number of images allowed in a single request is limited."
+msgstr "为确保我们的服务器可以与您的服务器通信而没有任何问题，并且一切正常，对于一些最初的要求，单个请求中允许的图像数量是有限的。"
+
+#: tpl/img_optm/summary.tpl.php:66
+msgid "You can request a maximum of %s images at once."
+msgstr "您一次最多可以请求 %s张图片。"
+
+#: tpl/img_optm/summary.tpl.php:61
+msgid "Optimize images with our QUIC.cloud server"
+msgstr "使用我们的QUIC.cloud服务器优化图像"
+
+#: tpl/img_optm/summary.tpl.php:57 tpl/page_optm/settings_css.tpl.php:91
+#: tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Current closest Cloud server is %s.&#10; Click to redetect."
+msgstr "当前最近的云服务器是%s.&#10;点击重新检测。"
+
+#: tpl/db_optm/settings.tpl.php:37
+msgid "Revisions newer than this many days will be kept when cleaning revisions."
+msgstr "清理修订版本时，将保留比这几天新的修订版本。"
+
+#: tpl/db_optm/settings.tpl.php:35
+msgid "Day(s)"
+msgstr "天"
+
+#: tpl/db_optm/settings.tpl.php:23
+msgid "Specify the number of most recent revisions to keep when cleaning revisions."
+msgstr "指定清理修订时要保留的最新修订的数量。"
+
+#: tpl/db_optm/entry.tpl.php:17
+msgid "LiteSpeed Cache Database Optimization"
+msgstr "LiteSpeed缓存数据库优化"
+
+#: tpl/db_optm/entry.tpl.php:10 tpl/db_optm/settings.tpl.php:10
+msgid "DB Optimization Settings"
+msgstr "数据库优化设置"
+
+#: tpl/db_optm/manage.tpl.php:166
+msgid "Option Name"
+msgstr "选项名称"
+
+#: tpl/db_optm/manage.tpl.php:151
+msgid "Database Summary"
+msgstr "数据库摘要"
+
+#: tpl/db_optm/manage.tpl.php:130
+msgid "We are good. No table uses MyISAM engine."
+msgstr "我们很好。 没有表使用MyISAM引擎。"
+
+#: tpl/db_optm/manage.tpl.php:122
+msgid "Convert to InnoDB"
+msgstr "转换为InnoDB"
+
+#: tpl/db_optm/manage.tpl.php:108
+msgid "Tool"
+msgstr "工具"
+
+#: tpl/db_optm/manage.tpl.php:107
+msgid "Engine"
+msgstr "引擎"
+
+#: tpl/db_optm/manage.tpl.php:106
+msgid "Table"
+msgstr "数据表"
+
+#: tpl/db_optm/manage.tpl.php:99
+msgid "Database Table Engine Converter"
+msgstr "数据库表引擎转换器"
+
+#: tpl/db_optm/manage.tpl.php:51
+msgid "Clean revisions older than %1$s day(s), excluding %2$s latest revisions"
+msgstr "清理%1$s天之前的修订版本，%2$s 最新版本除外"
+
+#: tpl/dash/dashboard.tpl.php:537
+msgid "Currently active crawler"
+msgstr "当前活动的爬虫"
+
+#: tpl/dash/dashboard.tpl.php:534
+msgid "Crawler(s)"
+msgstr "爬虫"
+
+#: tpl/crawler/map.tpl.php:44 tpl/dash/dashboard.tpl.php:529
+msgid "Crawler Status"
+msgstr "爬虫状态"
+
+#: tpl/dash/dashboard.tpl.php:445 tpl/dash/dashboard.tpl.php:478
+#: tpl/dash/dashboard.tpl.php:511
+msgid "Requests in queue"
+msgstr "队列中的请求"
+
+#: tpl/dash/dashboard.tpl.php:440 tpl/dash/dashboard.tpl.php:473
+#: tpl/dash/dashboard.tpl.php:506
+msgid "Time to execute previous request"
+msgstr "执行上一个请求的时间"
+
+#: tpl/dash/dashboard.tpl.php:417
+msgid "Cache Stats"
+msgstr "缓存统计"
+
+#: tpl/dash/dashboard.tpl.php:395
+msgid "Private Cache"
+msgstr "私有缓存"
+
+#: tpl/dash/dashboard.tpl.php:394
+msgid "Public Cache"
+msgstr "公共缓存"
+
+#: tpl/dash/dashboard.tpl.php:388
+msgid "Cache Status"
+msgstr "缓存状态"
+
+#: tpl/dash/dashboard.tpl.php:325
+msgid "Images Requested"
+msgstr "请求的图像"
+
+#: tpl/dash/dashboard.tpl.php:299 tpl/img_optm/entry.tpl.php:6
+msgid "Image Optimization Summary"
+msgstr "图像优化摘要"
+
+#: tpl/dash/dashboard.tpl.php:238
+msgid "Refresh page score"
+msgstr "刷新页面分数"
+
+#: tpl/dash/dashboard.tpl.php:227 tpl/img_optm/summary.tpl.php:57
+#: tpl/page_optm/settings_css.tpl.php:91 tpl/page_optm/settings_css.tpl.php:201
+#: tpl/page_optm/settings_media.tpl.php:176
+msgid "Are you sure you want to redetect the closest cloud server for this service?"
+msgstr "您确定要重新检测与此服务器最近的云服务器吗？"
+
+#: tpl/dash/dashboard.tpl.php:227
+msgid "Current closest Cloud server is %s.&#10;Click to redetect."
+msgstr "当前最近的云服务器是%s.&#10;单击可重新检测。"
+
+#: tpl/dash/dashboard.tpl.php:222 tpl/dash/dashboard.tpl.php:291
+#: tpl/dash/dashboard.tpl.php:456 tpl/dash/dashboard.tpl.php:489
+#: tpl/dash/dashboard.tpl.php:521
+msgid "Last requested"
+msgstr "上次请求的时间"
+
+#: tpl/dash/dashboard.tpl.php:181
+msgid "Refresh page load time"
+msgstr "刷新页面加载时间"
+
+#: tpl/dash/dashboard.tpl.php:169
+msgid "Go to QUIC.cloud dashboard"
+msgstr "转到QUIC.cloud仪表盘"
+
+#: tpl/dash/dashboard.tpl.php:58 tpl/dash/dashboard.tpl.php:497
+msgid "Low Quality Image Placeholder"
+msgstr "低质量图像占位符"
+
+#: tpl/dash/dashboard.tpl.php:45
+msgid "Sync data from Cloud"
+msgstr "从云同步数据"
+
+#: tpl/dash/dashboard.tpl.php:42
+msgid "QUIC.cloud Service Usage Statistics"
+msgstr "QUIC.cloud 服务使用情况统计"
+
+#: tpl/dash/dashboard.tpl.php:151 tpl/dash/network_dash.tpl.php:101
+msgid "Total images optimized in this month"
+msgstr "本月优化的总图像"
+
+#: tpl/dash/dashboard.tpl.php:150 tpl/dash/network_dash.tpl.php:100
+msgid "Total Usage"
+msgstr "总用量"
+
+#: tpl/dash/dashboard.tpl.php:131 tpl/dash/network_dash.tpl.php:93
+msgid "Pay as You Go Usage Statistics"
+msgstr "按量付费使用统计"
+
+#: tpl/dash/dashboard.tpl.php:129 tpl/dash/network_dash.tpl.php:91
+msgid "This Month Usage"
+msgstr "本月使用"
+
+#: tpl/dash/dashboard.tpl.php:128 tpl/dash/network_dash.tpl.php:90
+msgid "PAYG Balance"
+msgstr "现收余额"
+
+#: tpl/dash/network_dash.tpl.php:89
+msgid "Pay as You Go"
+msgstr "随用随付"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Usage"
+msgstr "用法"
+
+#: tpl/dash/dashboard.tpl.php:115 tpl/dash/network_dash.tpl.php:78
+msgid "Fast Queue Usage"
+msgstr "快速队列使用"
+
+#: tpl/dash/dashboard.tpl.php:57 tpl/dash/network_dash.tpl.php:29
+msgid "CDN Bandwidth"
+msgstr "CDN带宽"
+
+#: tpl/dash/network_dash.tpl.php:28
+msgid "CCSS"
+msgstr "CCSS"
+
+#: tpl/dash/network_dash.tpl.php:19
+msgid "Usage Statistics"
+msgstr "使用情况统计"
+
+#: tpl/dash/entry.tpl.php:20
+msgid "LiteSpeed Cache Dashboard"
+msgstr "LiteSpeed缓存仪表盘"
+
+#: tpl/dash/entry.tpl.php:11
+msgid "Network Dashboard"
+msgstr "网络仪表盘"
+
+#: tpl/general/settings.tpl.php:128
+msgid "No cloud services currently in use"
+msgstr "目前没有使用云服务"
+
+#: tpl/general/settings.tpl.php:116
+msgid "Click to clear all nodes for further redetection."
+msgstr "单击以清除所有节点，以便进一步重新检测。"
+
+#: tpl/general/settings.tpl.php:115
+msgid "Current Cloud Nodes in Service"
+msgstr "当前服务中的云节点"
+
+#: tpl/general/settings.tpl.php:107
+msgid "Benefits of linking to a QUIC.cloud account"
+msgstr "链接到QUIC.cloud帐户的好处"
+
+#: tpl/general/settings.tpl.php:106
+msgid "You must click the %s button if you wish to associate this site with a QUIC.cloud account."
+msgstr "如果要将此站点与QUIC.cloud帐户关联，必须单击%s按钮。"
+
+#: tpl/general/settings.tpl.php:101
+msgid "You must have %1$s first before linking to QUIC.cloud."
+msgstr "链接到QUIC.cloud之前，您必须先拥有%1$s。"
+
+#: tpl/general/settings.tpl.php:85
+msgid "The POST callback to %s failed."
+msgstr "到%s的POST回调失败。"
+
+#: tpl/general/settings.tpl.php:84
+msgid "There are two reasons why we might not be able to communicate with your domain:"
+msgstr "我们可能无法与您的域通信的原因有两个："
+
+#: tpl/general/settings.tpl.php:83
+msgid "There was a problem with retrieving your Domain Key. Please click the %s button to retry."
+msgstr "检索域密钥时出现问题。请单击%s按钮重试。"
+
+#: tpl/general/settings.tpl.php:75 tpl/general/settings.tpl.php:77
+#: tpl/general/settings.tpl.php:106
+msgid "Link to QUIC.cloud"
+msgstr "链接到QUIC.cloud"
+
+#: tpl/general/settings.tpl.php:73
+msgid "Visit My Dashboard on QUIC.cloud"
+msgstr "在QUIC.cloud上访问我的仪表盘"
+
+#: tpl/general/settings.tpl.php:36
+msgid "Next available request time: <code>After %s</code>"
+msgstr "下一个可用的请求时间：<code>%s</code>之后"
+
+#: tpl/general/settings.tpl.php:32
+msgid "Approved"
+msgstr "已批准"
+
+#: tpl/general/settings.tpl.php:29
+msgid "Requested"
+msgstr "已请求"
+
+#: tpl/general/settings.tpl.php:24
+msgid "Waiting for Approval"
+msgstr "等待批准"
+
+#: tpl/general/settings.tpl.php:20
+msgid "Waiting for Refresh"
+msgstr "等待刷新"
+
+#: tpl/general/settings.tpl.php:18
+msgid "Refresh Domain Key"
+msgstr "刷新域密钥"
+
+#: tpl/crawler/entry.tpl.php:9 tpl/general/entry.tpl.php:6
+#: tpl/general/entry.tpl.php:12 tpl/general/network_settings.tpl.php:8
+#: tpl/general/settings.tpl.php:42
+msgid "General Settings"
+msgstr "常规设置"
+
+#: tpl/cdn/settings.tpl.php:126
+msgid "Specify which HTML element attributes will be replaced with CDN Mapping."
+msgstr "指定将用CDN映射替换哪些HTML元素属性。"
+
+#: src/admin-display.cls.php:231
+msgid "Add new CDN URL"
+msgstr "新增CDN URL"
+
+#: src/admin-display.cls.php:230
+msgid "Remove CDN URL"
+msgstr "删除CDN URL"
+
+#: tpl/cdn/settings.tpl.php:35
+msgid "Enable %s CDN API functionality."
+msgstr "启用%s CDN API功能。"
+
+#: tpl/cdn/manage.tpl.php:23
+msgid "To enable the following functionality, turn ON Cloudflare API in CDN Settings."
+msgstr "要启用以下功能，请在CDN设置中打开Cloudflare API。"
+
+#: tpl/cdn/manage.tpl.php:14
+msgid "To manage QUIC.cloud options, please visit"
+msgstr "要管理QUIC.cloud选项，请访问"
+
+#: tpl/cdn/manage.tpl.php:12
+msgid "QUIC.cloud"
+msgstr "QUIC.cloud"
+
+#: thirdparty/woocommerce.content.tpl.php:16
+msgid "WooCommerce Settings"
+msgstr "WooCommerce 设置"
+
+#: src/doc.cls.php:119 tpl/general/settings.tpl.php:86
+msgid "Current Online Server IPs"
+msgstr "当前在线服务器ip"
+
+#: src/gui.cls.php:545 src/gui.cls.php:705
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:97
+msgid "LQIP Cache"
+msgstr "LQIP 缓存"
+
+#: src/gui.cls.php:84
+msgid "Private Cache Hits"
+msgstr "私人缓存命中"
+
+#: src/gui.cls.php:83
+msgid "Private Caches"
+msgstr "专用缓存"
+
+#: src/gui.cls.php:82
+msgid "Public Cache Hits"
+msgstr "公共缓存命中率"
+
+#: src/gui.cls.php:81
+msgid "Public Caches"
+msgstr "公共缓存"
+
+#: src/admin-settings.cls.php:242 src/admin-settings.cls.php:276
+msgid "Options saved."
+msgstr "选项已保存。"
+
+#: src/img-optm.cls.php:1461
+msgid "Removed backups successfully."
+msgstr "成功删除了备份。"
+
+#: src/img-optm.cls.php:1243
+msgid "Destroy all optimization data successfully."
+msgstr "成功销毁所有优化数据。"
+
+#: src/img-optm.cls.php:1172
+msgid "Cleaned up unfinished data successfully."
+msgstr "成功清除未完成的数据。"
+
+#: src/img-optm.cls.php:1008
+msgid "Optimized WebP file expired and was cleared."
+msgstr "优化的WebP文件已过期并被清除。"
+
+#: src/img-optm.cls.php:649
+msgid "No valid image found by Cloud server in the current request."
+msgstr "云服务器在当前请求中找不到有效的图像。"
+
+#: src/img-optm.cls.php:626
+msgid "No valid image found in the current request."
+msgstr "在当前请求中找不到有效的图像。"
+
+#: src/img-optm.cls.php:472
+msgid "Pushed %1$s to Cloud server, accepted %2$s."
+msgstr "已将%1$s推送至云端服务器，已接受%2$s。"
+
+#: src/img-optm.cls.php:180
+msgid "Gathered %d images successfully."
+msgstr "已成功收集%d张图像。"
+
+#: src/img-optm.cls.php:147
+msgid "No new image gathered."
+msgstr "没有收集到新的图像。"
+
+#: src/lang.cls.php:235
+msgid "Revisions Max Age"
+msgstr "修订最长时间"
+
+#: src/lang.cls.php:234
+msgid "Revisions Max Number"
+msgstr "修订版本最大数量"
+
+#: src/lang.cls.php:232
+msgid "Debug URI Excludes"
+msgstr "调试URI排除"
+
+#: src/lang.cls.php:231
+msgid "Debug URI Includes"
+msgstr "调试URI包括"
+
+#: src/lang.cls.php:221
+msgid "Drop Domain from Sitemap"
+msgstr "从站点地图中删除域"
+
+#: src/lang.cls.php:216
+msgid "Timeout"
+msgstr "超时"
+
+#: src/lang.cls.php:204
+msgid "HTML Attribute To Replace"
+msgstr "要替换的HTML属性"
+
+#: src/lang.cls.php:198
+msgid "Use CDN Mapping"
+msgstr "使用CDN映射"
+
+#: src/lang.cls.php:197
+msgid "QUIC.cloud CDN"
+msgstr "QUIC.cloud CDN"
+
+#: src/lang.cls.php:195
+msgid "Editor Heartbeat TTL"
+msgstr "编辑心跳TTL"
+
+#: src/lang.cls.php:194
+msgid "Editor Heartbeat"
+msgstr "编辑心跳"
+
+#: src/lang.cls.php:193
+msgid "Backend Heartbeat TTL"
+msgstr "后端心跳TTL"
+
+#: src/lang.cls.php:192
+msgid "Backend Heartbeat Control"
+msgstr "后端心跳控制"
+
+#: src/lang.cls.php:191
+msgid "Frontend Heartbeat TTL"
+msgstr "前端心跳TTL"
+
+#: src/lang.cls.php:190
+msgid "Frontend Heartbeat Control"
+msgstr "前端心跳控制"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:64
+msgid "Backend .htaccess Path"
+msgstr "后端.htaccess路径"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:47
+msgid "Frontend .htaccess Path"
+msgstr "前端.htaccess路径"
+
+#: src/lang.cls.php:180
+msgid "ESI Nonces"
+msgstr "ESI随机数"
+
+#: src/lang.cls.php:176
+msgid "WordPress Image Quality Control"
+msgstr "WordPress图像质量控制"
+
+#: src/lang.cls.php:171
+msgid "Create WebP Versions"
+msgstr "创建WebP版本"
+
+#: src/lang.cls.php:167
+msgid "Auto Request Cron"
+msgstr "自动请求计划"
+
+#: src/lang.cls.php:164
+msgid "Generate LQIP In Background"
+msgstr "在后台生成LQIP"
+
+#: src/lang.cls.php:162
+msgid "LQIP Minimum Dimensions"
+msgstr "LQIP最小尺寸"
+
+#: src/lang.cls.php:161
+msgid "LQIP Quality"
+msgstr "LQIP质量"
+
+#: src/lang.cls.php:160
+msgid "LQIP Cloud Generator"
+msgstr "LQIP云生成器"
+
+#: src/lang.cls.php:159
+msgid "Responsive Placeholder SVG"
+msgstr "响应式占位符SVG"
+
+#: src/lang.cls.php:158
+msgid "Responsive Placeholder Color"
+msgstr "响应式占位符颜色"
+
+#: src/lang.cls.php:156
+msgid "Basic Image Placeholder"
+msgstr "基本图像占位符"
+
+#: src/lang.cls.php:154
+msgid "Lazy Load URI Excludes"
+msgstr "延迟加载URI排除"
+
+#: src/lang.cls.php:153
+msgid "Lazy Load Iframe Parent Class Name Excludes"
+msgstr "延迟加载iframe父类名称排除项"
+
+#: src/lang.cls.php:152
+msgid "Lazy Load Iframe Class Name Excludes"
+msgstr "延迟加载iFrame类名排除"
+
+#: src/lang.cls.php:151
+msgid "Lazy Load Image Parent Class Name Excludes"
+msgstr "延迟加载图像父类名称排除"
+
+#: src/lang.cls.php:146
+msgid "Gravatar Cache TTL"
+msgstr "Gravatar 缓存 TTL"
+
+#: src/lang.cls.php:145
+msgid "Gravatar Cache Cron"
+msgstr "Gravatar 缓存 Cron"
+
+#: src/gui.cls.php:555 src/gui.cls.php:715 src/lang.cls.php:144
+#: tpl/toolbox/purge.tpl.php:106
+msgid "Gravatar Cache"
+msgstr "Gravatar 缓存"
+
+#: src/lang.cls.php:127
+msgid "DNS Prefetch Control"
+msgstr "DNS Prefetch Control"
+
+#: src/lang.cls.php:122
+msgid "Font Display Optimization"
+msgstr "字体显示优化"
+
+#: src/lang.cls.php:101
+msgid "Force Public Cache URIs"
+msgstr "强制公共缓存URI"
+
+#: src/lang.cls.php:70
+msgid "Notifications"
+msgstr "通知"
+
+#: src/lang.cls.php:65
+msgid "Default HTTP Status Code Page TTL"
+msgstr "默认HTTP状态代码页TTL"
+
+#: src/lang.cls.php:64
+msgid "Default REST TTL"
+msgstr "默认 REST TTL"
+
+#: src/lang.cls.php:58
+msgid "Enable Cache"
+msgstr "启用缓存"
+
+#: src/lang.cls.php:54
+msgid "Domain Key"
+msgstr "域密钥"
+
+#: src/lang.cls.php:53
+msgid "Server IP"
+msgstr "服务器IP"
+
+#: src/lang.cls.php:33
+msgid "Duplicate image files ignored"
+msgstr "忽略重复的图像文件"
+
+#: src/lang.cls.php:23
+msgid "Images not requested"
+msgstr "未请求图像"
+
+#: src/cloud.cls.php:1184
+msgid "Sync credit allowance with Cloud Server successfully."
+msgstr "成功地与云服务器同步信用额度。"
+
+#: src/cloud.cls.php:1073
+msgid "Domain Key hash mismatch"
+msgstr "域密钥哈希不匹配"
+
+#: src/cloud.cls.php:1002
+msgid "Congratulations, your Domain Key has been approved! The setting has been updated accordingly."
+msgstr "恭喜，您的域密钥已被批准！ 设置已相应更新。"
+
+#: src/cloud.cls.php:951
+msgid "Applied for Domain Key successfully. Please wait for result. Domain Key will be automatically sent to your WordPress."
+msgstr "成功申请域密钥。 请等待结果。 域密钥将自动发送到您的WordPress。"
+
+#: src/cloud.cls.php:754 src/cloud.cls.php:932
+msgid "Failed to communicate with QUIC.cloud server"
+msgstr "与QUIC.cloud服务器通信失败"
+
+#: src/cloud.cls.php:702
+msgid "Good news from QUIC.cloud server"
+msgstr "来自QUIC.cloud服务器的好消息"
+
+#: src/cloud.cls.php:686 src/cloud.cls.php:694 src/cloud.cls.php:943
+msgid "Message from QUIC.cloud server"
+msgstr "来自QUIC.cloud服务器的消息"
+
+#: src/cloud.cls.php:551
+msgid "Please try after %1$s for service %2$s."
+msgstr "请在%1$s后尝试使用服务%2$s。"
+
+#: src/cloud.cls.php:407
+msgid "No available Cloud Node."
+msgstr "没有可用的云节点。"
+
+#: src/cloud.cls.php:359 src/cloud.cls.php:372 src/cloud.cls.php:407
+#: src/cloud.cls.php:432 src/cloud.cls.php:551 src/cloud.cls.php:907
+msgid "Cloud Error"
+msgstr "云错误"
+
+#: src/data.cls.php:219
+msgid "The database has been upgrading in the background since %s. This message will disappear once upgrade is complete."
+msgstr "自%s起，数据库一直在后台升级。 升级完成后，此消息将消失。"
+
+#: src/media.cls.php:339
+msgid "Restore from backup"
+msgstr "从备份还原"
+
+#: src/media.cls.php:329
+msgid "WebP"
+msgstr "WebP"
+
+#: src/media.cls.php:323
+msgid "No backup of unoptimized WebP file exists."
+msgstr "不存在未优化的WebP文件的备份。"
+
+#: src/media.cls.php:310
+msgid "WebP file reduced by %1$s (%2$s)"
+msgstr "WebP文件减少了 %1$s (%2$s)"
+
+#: src/media.cls.php:306
+msgid "Currently using original (unoptimized) version of WebP file."
+msgstr "当前使用WebP文件的原始（未优化）版本。"
+
+#: src/media.cls.php:301
+msgid "Currently using optimized version of WebP file."
+msgstr "当前正在使用WebP文件的优化版本。"
+
+#: src/media.cls.php:285
+msgid "Orig"
+msgstr "原件"
+
+#: src/media.cls.php:282
+msgid "(no savings)"
+msgstr "(no savings)"
+
+#: src/media.cls.php:282
+msgid "Orig %s"
+msgstr "原件 %s"
+
+#: src/media.cls.php:270
+msgid "No backup of original file exists."
+msgstr "不存在原始文件的备份。"
+
+#: src/media.cls.php:270 src/media.cls.php:323
+msgid "Using optimized version of file. "
+msgstr "使用文件的优化版本。"
+
+#: src/media.cls.php:262
+msgid "Orig saved %s"
+msgstr "原件已保存 %s"
+
+#: src/media.cls.php:256
+msgid "Original file reduced by %1$s (%2$s)"
+msgstr "原始文件减少了%1$s (%2$s)"
+
+#: src/media.cls.php:252 src/media.cls.php:306
+msgid "Click to switch to optimized version."
+msgstr "单击以切换到优化版本。"
+
+#: src/media.cls.php:252
+msgid "Currently using original (unoptimized) version of file."
+msgstr "当前使用文件的原始（未优化）版本。"
+
+#: src/media.cls.php:251 src/media.cls.php:305
+msgid "(non-optm)"
+msgstr "(non-optm)"
+
+#: src/media.cls.php:247 src/media.cls.php:301
+msgid "Click to switch to original (unoptimized) version."
+msgstr "单击以切换到原始（未优化）版本。"
+
+#: src/media.cls.php:247
+msgid "Currently using optimized version of file."
+msgstr "当前使用文件的优化版本。"
+
+#: src/media.cls.php:246 src/media.cls.php:271 src/media.cls.php:300
+#: src/media.cls.php:324
+msgid "(optm)"
+msgstr "(optm)"
+
+#: src/placeholder.cls.php:138
+msgid "LQIP image preview for size %s"
+msgstr "LQIP图片预览的大小为%s"
+
+#: src/placeholder.cls.php:80 tpl/dash/network_dash.tpl.php:30
+msgid "LQIP"
+msgstr "LQIP"
+
+#: src/htaccess.cls.php:326
+msgid "Mobile Agent Rules"
+msgstr "移动代理规则"
+
+#: src/crawler-map.cls.php:321
+msgid "Sitemap created successfully: %d items"
+msgstr "站点地图创建成功：%d个项目"
+
+#: src/crawler-map.cls.php:265
+msgid "Sitemap cleaned successfully"
+msgstr "网站地图成功清除"
+
+#: src/admin-display.cls.php:1097
+msgid "Invalid IP"
+msgstr "无效的 IP"
+
+#: src/admin-display.cls.php:1072
+msgid "Value range"
+msgstr "取值范围"
+
+#: src/admin-display.cls.php:1069
+msgid "Smaller than"
+msgstr "小于"
+
+#: src/admin-display.cls.php:1066
+msgid "Larger than"
+msgstr "大于"
+
+#: src/admin-display.cls.php:1059
+msgid "Zero, or"
+msgstr "0,或"
+
+#: src/admin-display.cls.php:1047
+msgid "Maximum value"
+msgstr "最大值"
+
+#: src/admin-display.cls.php:1044
+msgid "Minimum value"
+msgstr "最小值"
+
+#: src/admin-display.cls.php:1026
+msgid "Path must end with %s"
+msgstr "路径必须以%s结尾"
+
+#: src/admin-display.cls.php:1009
+msgid "Invalid rewrite rule"
+msgstr "无效的重写规则"
+
+#: src/admin-display.cls.php:939
+msgid "currently set to %s"
+msgstr "当前设置为 %s"
+
+#: src/admin-display.cls.php:929
+msgid "This setting is overwritten by the PHP constant %s"
+msgstr "此设置被PHP常量%s覆盖"
+
+#: src/admin-display.cls.php:131
+msgid "Toolbox"
+msgstr "工具箱"
+
+#: src/admin-display.cls.php:127
+msgid "Database"
+msgstr "数据库"
+
+#: src/admin-display.cls.php:125 tpl/dash/dashboard.tpl.php:56
+msgid "Page Optimization"
+msgstr "页面优化"
+
+#: src/admin-display.cls.php:115 tpl/dash/entry.tpl.php:6
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: src/db-optm.cls.php:243
+msgid "Converted to InnoDB successfully."
+msgstr "成功转换为InnoDB"
+
+#: src/purge.cls.php:300
+msgid "Cleaned all Gravatar files."
+msgstr "清除了所有头像文件。"
+
+#: src/purge.cls.php:283
+msgid "Cleaned all LQIP files."
+msgstr "清除所有LQIP文件。"
+
+#: src/error.cls.php:173
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: src/error.cls.php:169
+msgid "Your domain has been forbidden from using our services due to a previous policy violation."
+msgstr "由于先前违反了政策，因此您的域已被禁止使用我们的服务。"
+
+#: src/error.cls.php:165
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers. Response code: "
+msgstr "对您的域的回调验证失败。 请确保没有防火墙阻止我们的服务器。 响应码："
+
+#: src/error.cls.php:161
+msgid "The callback validation to your domain failed. Please make sure there is no firewall blocking our servers."
+msgstr "对您的域的回调验证失败。 请确保没有防火墙阻止我们的服务器。"
+
+#: src/error.cls.php:157
+msgid "The callback validation to your domain failed due to hash mismatch."
+msgstr "由于哈希不匹配，对您域的回调验证失败。"
+
+#: src/error.cls.php:153
+msgid "Your application is waiting for approval."
+msgstr "您的申请正在等待批准。"
+
+#: src/error.cls.php:149
+msgid "Previous request too recent. Please try again after %s."
+msgstr "之前的请求太近。请在%s后再试。"
+
+#: src/error.cls.php:145
+msgid "Previous request too recent. Please try again later."
+msgstr "之前的请求太近。请稍后再试。"
+
+#: src/error.cls.php:140
+msgid "Crawler disabled by the server admin."
+msgstr "爬虫被服务器管理员禁用。"
+
+#: src/error.cls.php:136
+msgid "Failed to create table %s! SQL: %s."
+msgstr "无法创建表 %s! SQL: %s."
+
+#: src/error.cls.php:112
+msgid "Could not find %1$s in %2$s."
+msgstr "在 %2$s中找不到%1$s ."
+
+#: src/error.cls.php:100
+msgid "Credits are not enough to proceed the current request."
+msgstr "积分不足以进行当前请求。"
+
+#: src/error.cls.php:88
+msgid "The domain key is not correct. Please try to sync your domain key again."
+msgstr "域密钥不正确。 请尝试再次同步您的域密钥。"
+
+#: src/error.cls.php:76
+msgid "There is proceeding queue not pulled yet."
+msgstr "有进行中的队列还没有拉开。"
+
+#: src/error.cls.php:72
+msgid "Not enough parameters. Please check if the domain key is set correctly"
+msgstr "参数不足。 请检查域密钥设置是否正确"
+
+#: src/error.cls.php:68
+msgid "The image list is empty."
+msgstr "图像列表为空。"
+
+#: src/error.cls.php:47
+msgid "You will need to set %s to use the online services."
+msgstr "您将需要设置%s才能使用在线服务。"
+
+#: src/error.cls.php:42
+msgid "The setting %s is currently enabled."
+msgstr "当前已启用设置 %s。"
+
+#: src/task.cls.php:139
+msgid "LiteSpeed Crawler Cron"
+msgstr "LiteSpeed 爬虫 Cron"
+
+#: src/task.cls.php:120
+msgid "Every Minute"
+msgstr "每分钟"
+
+#: tpl/general/settings.tpl.php:223
+msgid "Turn this option ON to show latest news automatically, including hotfixes, new releases, available beta versions, and promotions."
+msgstr "启用此选项可以自动显示最新的新闻（其中包括修补程序、插件的新版本、与测试版、促销消息）"
+
+#: tpl/toolbox/report.tpl.php:72
+msgid "To grant wp-admin access to the LiteSpeed Support Team, please generate a passwordless link for the current logged-in user to be sent with the report."
+msgstr "需要给予\"wp-admin\"对\"LiteSpeed插件\"的访问权限，请为当前登录用户生成一个无密码链接，以便与报告一起发送。"
+
+#: tpl/toolbox/report.tpl.php:75
+msgid "Generated links may be managed under <a %s>Settings</a>."
+msgstr "生成的链接可以在<a %s>设置</a>下进行管理。"
+
+#: tpl/toolbox/report.tpl.php:74
+msgid "Please do NOT share the above passwordless link with anyone."
+msgstr "请 不！要！ 与任何人分享上面的无密码链接!"
+
+#: tpl/toolbox/report.tpl.php:31
+msgid "To generate a passwordless link for LiteSpeed Support Team access, you must install %s."
+msgstr "要生成用于LiteSpeed支持团队访问的无密码链接，必须安装%s。"
+
+#: tpl/banner/cloud_news.tpl.php:23 tpl/banner/cloud_news.tpl.php:30
+msgid "Install"
+msgstr "安装"
+
+#: tpl/cache/settings-esi.tpl.php:36
+msgid "These options are only available with LiteSpeed Enterprise Web Server or QUIC.cloud CDN."
+msgstr "这些选项仅适用于LiteSpeed Enterprise Web Server或QUIC.cloud CDN。"
+
+#: tpl/banner/score.php:68 tpl/dash/dashboard.tpl.php:235
+msgid "PageSpeed Score"
+msgstr "\"PageSpeed\"评分"
+
+#: tpl/banner/score.php:55 tpl/banner/score.php:94
+#: tpl/dash/dashboard.tpl.php:208 tpl/dash/dashboard.tpl.php:275
+msgid "Improved by"
+msgstr "改进了"
+
+#: tpl/banner/score.php:45 tpl/banner/score.php:84
+#: tpl/dash/dashboard.tpl.php:200 tpl/dash/dashboard.tpl.php:267
+msgid "After"
+msgstr "之后"
+
+#: tpl/banner/score.php:34 tpl/banner/score.php:74
+#: tpl/dash/dashboard.tpl.php:191 tpl/dash/dashboard.tpl.php:259
+msgid "Before"
+msgstr "之前"
+
+#: tpl/banner/score.php:28 tpl/dash/dashboard.tpl.php:178
+msgid "Page Load Time"
+msgstr "页面加载时间"
+
+#: tpl/inc/check_cache_disabled.php:10
+msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
+msgstr "要使用缓存功能，您必须具有LiteSpeed Web服务器或正在使用QUIC.cloud CDN。"
+
+#: src/lang.cls.php:173
+msgid "Preserve EXIF/XMP data"
+msgstr "保留EXIF/XMP数据"
+
+#: tpl/toolbox/beta_test.tpl.php:25
+msgid "Try GitHub Version"
+msgstr "试用GitHub版本"
+
+#: tpl/cdn/settings.tpl.php:102
+msgid "If you turn any of the above settings OFF, please remove the related file types from the %s box."
+msgstr "如果您关闭上述任何设置，请从%s框中删除相关的文件类型。"
+
+#: src/doc.cls.php:89
+msgid "Both full and partial strings can be used."
+msgstr "完整和部分字符串都可以使用。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:50
+msgid "Images containing these class names will not be lazy loaded."
+msgstr "包含这些类名的图像不会被延迟加载。"
+
+#: src/lang.cls.php:150
+msgid "Lazy Load Image Class Name Excludes"
+msgstr "延迟加载图像类名排除"
+
+#: tpl/cache/settings-cache.tpl.php:125 tpl/cache/settings-cache.tpl.php:142
+msgid "For example, %1$s defines a TTL of %2$s seconds for %3$s."
+msgstr "例如，%1$s为%3$s定义了%2$s秒的TTL。"
+
+#: tpl/cache/settings-cache.tpl.php:124 tpl/cache/settings-cache.tpl.php:141
+msgid "To define a custom TTL for a URI, add a space followed by the TTL value to the end of the URI."
+msgstr "要为URI定义自定义TTL，请在URI的末尾添加空格和TTL值。"
+
+#: tpl/banner/new_version.php:87
+msgid "Maybe Later"
+msgstr "稍后再说"
+
+#: tpl/banner/new_version.php:81
+msgid "Turn On Auto Upgrade"
+msgstr "开启自动升级"
+
+#: tpl/banner/new_version.php:71 tpl/banner/new_version_dev.tpl.php:24
+#: tpl/toolbox/beta_test.tpl.php:62
+msgid "Upgrade"
+msgstr "升级"
+
+#: tpl/banner/new_version.php:63
+msgid "New release %s is available now."
+msgstr "新版本%s现已发布。"
+
+#: tpl/banner/new_version.php:59
+msgid "New Version Available!"
+msgstr "新版本可用！"
+
+#: tpl/banner/score.php:124
+msgid "<a %s>Support forum</a> | <a %s>Submit a ticket</a>"
+msgstr "<a %s>支持论坛</a> | <a %s>提交工单</a>"
+
+#: tpl/banner/score.php:122
+msgid "Created with ❤️  by LiteSpeed team."
+msgstr "由LiteSpeed团队用❤️创建。"
+
+#: tpl/banner/score.php:113
+msgid "Sure I'd love to review!"
+msgstr "当然，我很乐意评论!"
+
+#: tpl/banner/score.php:24
+msgid "Thank You for Using the LiteSpeed Cache Plugin!"
+msgstr "感谢您使用LiteSpeed Cache插件！"
+
+#: src/activation.cls.php:504
+msgid "Upgraded successfully."
+msgstr "升级成功。"
+
+#: src/activation.cls.php:495 src/activation.cls.php:500
+msgid "Failed to upgrade."
+msgstr "升级失败。"
+
+#: src/conf.cls.php:704
+msgid "Changed setting successfully."
+msgstr "更改设置成功。"
+
+#: tpl/cache/settings-esi.tpl.php:27
+msgid "ESI sample for developers"
+msgstr "针对开发人员的ESI示例"
+
+#: tpl/cache/settings-esi.tpl.php:20
+msgid "Replace %1$s with %2$s."
+msgstr "将%1$s替换为%2$s。"
+
+#: tpl/cache/settings-esi.tpl.php:18
+msgid "You can turn shortcodes into ESI blocks."
+msgstr "您可以将快捷代码转换为ESI块。"
+
+#: tpl/cache/settings-esi.tpl.php:14
+msgid "WpW: Private Cache vs. Public Cache"
+msgstr "WPW：私有缓存与公共缓存"
+
+#: tpl/page_optm/settings_html.tpl.php:86
+msgid "Append query string %s to the resources to bypass this action."
+msgstr "将查询字符串%s附加到资源以绕过此操作。"
+
+#: tpl/page_optm/settings_html.tpl.php:82
+msgid "Google reCAPTCHA will be bypassed automatically."
+msgstr "Google reCAPTCHA将被自动绕过。"
+
+#: src/admin-display.cls.php:206 tpl/crawler/settings-simulation.tpl.php:51
+msgid "Cookie Values"
+msgstr "Cookie值"
+
+#: src/admin-display.cls.php:205
+msgid "Cookie Name"
+msgstr "Cookie名称"
+
+#: src/lang.cls.php:219
+msgid "Cookie Simulation"
+msgstr "Cookie模拟"
+
+#: tpl/page_optm/settings_html.tpl.php:100
+msgid "Use Web Font Loader library to load Google Fonts asynchronously while leaving other CSS intact."
+msgstr "使用Web Font Loader库以异步方式加载Google字体，同时保持其他CSS不变。"
+
+#: tpl/general/settings_inc.auto_upgrade.tpl.php:15
+msgid "Turn this option ON to have LiteSpeed Cache updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgstr "每当发布新版本时，将此选项设置为ON即可自动更新LiteSpeed缓存。 如果关闭，则照常手动更新。"
+
+#: src/lang.cls.php:67
+msgid "Automatically Upgrade"
+msgstr "自动升级"
+
+#: tpl/toolbox/settings-debug.tpl.php:53
+msgid "Your IP"
+msgstr "您的IP"
+
+#: src/import.cls.php:156
+msgid "Reset successfully."
+msgstr "重置成功。"
+
+#: tpl/toolbox/import_export.tpl.php:50
+msgid "This will reset all settings to default settings."
+msgstr "这会将所有设置重置为默认设置。"
+
+#: tpl/toolbox/import_export.tpl.php:49
+msgid "Reset All Settings"
+msgstr "重置所有设置"
+
+#: tpl/page_optm/settings_tuning.tpl.php:134
+msgid "Separate critical CSS files will be generated for paths containing these strings."
+msgstr "将为包含这些字符串的路径生成单独的关键CSS文件。"
+
+#: src/lang.cls.php:135
+msgid "Separate CCSS Cache URIs"
+msgstr "单独的CCSS缓存URI"
+
+#: tpl/page_optm/settings_tuning.tpl.php:120
+msgid "For example, if every Page on the site has different formatting, enter %s in the box. Separate critical CSS files will be stored for every Page on the site."
+msgstr "例如，如果站点上的每个页面都有不同的格式，请在框中输入%s。 网站上每个页面都将存储单独的关键CSS文件。"
+
+#: tpl/page_optm/settings_tuning.tpl.php:119
+msgid "List post types where each item of that type should have its own CCSS generated."
+msgstr "列出文章类型，其中该类型的每个项目都应生成自己的CCSS。"
+
+#: tpl/page_optm/settings_media.tpl.php:182
+msgid "Size list in queue waiting for cron"
+msgstr "等待cron的队列中的大小列表"
+
+#: tpl/page_optm/settings_media.tpl.php:158
+msgid "If set to %1$s, before the placeholder is localized, the %2$s configuration will be used."
+msgstr "如果设置为%1$s，则在定位占位符之前，将使用%2$s配置。"
+
+#: tpl/page_optm/settings_media.tpl.php:156
+msgid "Automatically generate LQIP in the background via a cron-based queue."
+msgstr "通过基于cron的队列在后台自动生成LQIP。"
+
+#: tpl/page_optm/settings_media.tpl.php:62
+msgid "This will generate the placeholder with same dimensions as the image if it has the width and height attributes."
+msgstr "如果具有width和height属性，它将生成与图像尺寸相同的占位符。"
+
+#: tpl/page_optm/settings_media.tpl.php:61
+msgid "Responsive image placeholders can help to reduce layout reshuffle when images are loaded."
+msgstr "响应式图像占位符可以帮助减少加载图像时的布局重新排列。"
+
+#: src/lang.cls.php:157
+msgid "Responsive Placeholder"
+msgstr "响应式占位符"
+
+#: tpl/toolbox/purge.tpl.php:98
+msgid "This will delete all generated image LQIP placeholder files"
+msgstr "这将删除所有生成的图像LQIP占位符文件"
+
+#: tpl/inc/check_cache_disabled.php:22
+msgid "Please enable LiteSpeed Cache in the plugin settings."
+msgstr "请在插件设置中启用LiteSpeed缓存。"
+
+#: tpl/inc/check_cache_disabled.php:15
+msgid "Please enable the LSCache Module at the server level, or ask your hosting provider."
+msgstr "请在服务器级别启用LSCache模块，或询问您的主机提供商。"
+
+#: src/cloud.cls.php:634 src/cloud.cls.php:650
+msgid "Failed to request via WordPress"
+msgstr "无法通过WordPress请求"
+
+#. Description of the plugin
+msgid "High-performance page caching and site optimization from LiteSpeed"
+msgstr "LiteSpeed的高性能页面缓存和站点优化"
+
+#: src/img-optm.cls.php:1776
+msgid "Reset the optimized data successfully."
+msgstr "成功重置优化数据。"
+
+#: src/gui.cls.php:781
+msgid "Update %s now"
+msgstr "现在更新%s"
+
+#: src/gui.cls.php:776
+msgid "View %1$s version %2$s details"
+msgstr "查看%1$s版本%2$s详情"
+
+#: src/gui.cls.php:773
+msgid "<a href=\"%1$s\" %2$s>View version %3$s details</a> or <a href=\"%4$s\" %5$s target=\"_blank\">update now</a>."
+msgstr "<a href=\"%1$s\" %2$s>查看版本 %3$s 详情</a> or <a href=\"%4$s\" %5$s target=\"_blank\">立即更新</a>."
+
+#: src/gui.cls.php:753
+msgid "Install %s"
+msgstr "安装%s"
+
+#: src/lang.cls.php:30
+msgid "Images previously optimized"
+msgstr "先前优化的图像"
+
+#: tpl/inc/check_cache_disabled.php:34
+msgid "LSCache caching functions on this page are currently unavailable!"
+msgstr "该页面上的LSCache缓存功能当前不可用！"
+
+#: src/cloud.cls.php:711
+msgid "%1$s plugin version %2$s required for this action."
+msgstr "此操作需要%1$s插件版本%2$s。"
+
+#: src/cloud.cls.php:673
+msgid "We are working hard to improve your online service experience. The service will be unavailable while we work. We apologize for any inconvenience."
+msgstr "我们正在努力改善您的在线服务体验。当我们工作时，服务将不可用。给您带来的不便，我们深表歉意。"
+
+#: tpl/img_optm/settings.tpl.php:62
+msgid "Automatically remove the original image backups after fetching optimized images."
+msgstr "获取到优化图像后删除原始图像的备份"
+
+#: src/lang.cls.php:170
+msgid "Remove Original Backups"
+msgstr "移除备份的原始文件"
+
+#: tpl/img_optm/settings.tpl.php:23
+msgid "Automatically request optimization via cron job."
+msgstr "通过cron任务进行自动优化。"
+
+#: tpl/img_optm/summary.tpl.php:186
+msgid "A backup of each image is saved before it is optimized."
+msgstr "在优化前备份图像。"
+
+#: src/img-optm.cls.php:1656
+msgid "Switched images successfully."
+msgstr "切换图像成功。"
+
+#: tpl/img_optm/settings.tpl.php:82
+msgid "This can improve quality but may result in larger images than lossy compression will."
+msgstr "这可以提高图像品质，但是也会增加图片的体积。"
+
+#: tpl/img_optm/settings.tpl.php:81
+msgid "Optimize images using lossless compression."
+msgstr "使用无损压缩优化图像。"
+
+#: src/lang.cls.php:172
+msgid "Optimize Losslessly"
+msgstr "无损压缩"
+
+#: tpl/img_optm/settings.tpl.php:109
+msgid "Request WebP versions of original images when doing optimization."
+msgstr "在进行优化时请求原始图像的 WebP版本。"
+
+#: tpl/img_optm/settings.tpl.php:49
+msgid "Optimize images and save backups of the originals in the same folder."
+msgstr "优化图像并将原始图像备份在相同目录中。"
+
+#: src/lang.cls.php:169
+msgid "Optimize Original Images"
+msgstr "优化原始图像"
+
+#: tpl/page_optm/settings_css.tpl.php:174
+msgid "When this option is turned %s, it will also load Google Fonts asynchronously."
+msgstr "将此选项设为%s时，它还将异步加载Google字体。"
+
+#: src/purge.cls.php:230
+msgid "Cleaned all Critical CSS files."
+msgstr "清理了所有关键的CSS文件。"
+
+#: tpl/page_optm/settings_css.tpl.php:256
+msgid "This will inline the asynchronous CSS library to avoid render blocking."
+msgstr "这将内联异步CSS库以避免渲染阻塞。"
+
+#: src/lang.cls.php:121
+msgid "Inline CSS Async Lib"
+msgstr "内联CSS异步库"
+
+#: tpl/page_optm/settings_localization.tpl.php:62
+#: tpl/page_optm/settings_media.tpl.php:198
+msgid "Run Queue Manually"
+msgstr "手动运行队列"
+
+#: tpl/page_optm/settings_css.tpl.php:85 tpl/page_optm/settings_css.tpl.php:195
+msgid "Last requested cost"
+msgstr "上次请求的成本"
+
+#: tpl/dash/dashboard.tpl.php:437 tpl/dash/dashboard.tpl.php:470
+#: tpl/dash/dashboard.tpl.php:503 tpl/page_optm/settings_css.tpl.php:82
+#: tpl/page_optm/settings_css.tpl.php:192
+#: tpl/page_optm/settings_media.tpl.php:170
+msgid "Last generated"
+msgstr "上次生成的时间"
+
+#: tpl/page_optm/settings_media.tpl.php:162
+msgid "If set to %s this is done in the foreground, which may slow down page load."
+msgstr "如果设置为%s，则此操作在前台完成，这可能会减慢页面加载速度。"
+
+#: tpl/page_optm/settings_css.tpl.php:169
+msgid "Optimize CSS delivery."
+msgstr "优化CSS传输。"
+
+#: tpl/toolbox/purge.tpl.php:71
+msgid "This will delete all generated critical CSS files"
+msgstr "这将删除所有生成的关键CSS文件"
+
+#: tpl/dash/dashboard.tpl.php:431 tpl/toolbox/purge.tpl.php:70
+msgid "Critical CSS"
+msgstr "Critical CSS"
+
+#: tpl/toolbox/heartbeat.tpl.php:18
+msgid "Disabling this may cause WordPress tasks triggered by AJAX to stop working."
+msgstr "禁用此功能可能会导致AJAX触发的WordPress任务停止工作。"
+
+#: src/utility.cls.php:236
+msgid "right now"
+msgstr "现在"
+
+#: src/utility.cls.php:236
+msgid "just now"
+msgstr "刚才"
+
+#: tpl/img_optm/summary.tpl.php:251
+msgid "Saved"
+msgstr "已保存"
+
+#: tpl/img_optm/summary.tpl.php:245
+#: tpl/page_optm/settings_localization.tpl.php:51
+msgid "Last ran"
+msgstr "最后一次运行"
+
+#: tpl/img_optm/settings.tpl.php:67 tpl/img_optm/summary.tpl.php:237
+msgid "You will be unable to Revert Optimization once the backups are deleted!"
+msgstr "一旦删除备份，您将无法还原优化！"
+
+#: tpl/img_optm/settings.tpl.php:66 tpl/img_optm/summary.tpl.php:236
+msgid "This is irreversible."
+msgstr "该操作不可逆。"
+
+#: tpl/img_optm/summary.tpl.php:256
+msgid "Remove Original Image Backups"
+msgstr "删除原始图像备份"
+
+#: tpl/img_optm/summary.tpl.php:255
+msgid "Are you sure you want to remove all image backups?"
+msgstr "确定要删除所有的图像备份？"
+
+#: tpl/crawler/blacklist.tpl.php:25 tpl/img_optm/summary.tpl.php:200
+msgid "Total"
+msgstr "总共"
+
+#: tpl/img_optm/summary.tpl.php:197 tpl/img_optm/summary.tpl.php:248
+msgid "Files"
+msgstr "文件"
+
+#: tpl/img_optm/summary.tpl.php:193
+msgid "Last calculated"
+msgstr "最后计算"
+
+#: tpl/img_optm/summary.tpl.php:208
+msgid "Calculate Original Image Storage"
+msgstr "计算原始图像占用空间"
+
+#: tpl/img_optm/summary.tpl.php:182
+msgid "Storage Optimization"
+msgstr "存储优化"
+
+#: tpl/img_optm/settings.tpl.php:155
+msgid "Enable replacement of WebP in %s elements that were generated outside of WordPress logic."
+msgstr "启用在WordPress逻辑之外生成的%s元素中替换WebP。"
+
+#: src/lang.cls.php:175
+msgid "WebP For Extra srcset"
+msgstr "用于额外资源集的WebP"
+
+#: tpl/cdn/settings.tpl.php:128 tpl/img_optm/settings.tpl.php:141
+msgid "Use the format %1$s or %2$s (element is optional)."
+msgstr "使用格式 %1$s 或 %2$s (元素可选)."
+
+#: tpl/cdn/settings.tpl.php:127 tpl/img_optm/settings.tpl.php:140
+msgid "Only attributes listed here will be replaced."
+msgstr "只有列在此处的属性会被替换。"
+
+#: tpl/img_optm/settings.tpl.php:139
+msgid "Specify which element attributes will be replaced with WebP."
+msgstr "注明哪些元素属性会被替换成WebP。"
+
+#: src/lang.cls.php:174
+msgid "WebP Attribute To Replace"
+msgstr "WebP属性替换"
+
+#: tpl/cdn/settings.tpl.php:165
+msgid "Only files within these directories will be pointed to the CDN."
+msgstr "只有这些目录下的文件会指向CDN。"
+
+#: src/lang.cls.php:206
+msgid "Included Directories"
+msgstr "包括目录"
+
+#: tpl/cache/settings-purge.tpl.php:153
+msgid "A Purge All will be executed when WordPress runs these hooks."
+msgstr "当WordPress运行这些hook时会运行清除全部。"
+
+#: src/lang.cls.php:182
+msgid "Purge All Hooks"
+msgstr "清除全部的Hook"
+
+#: src/purge.cls.php:192
+msgid "Purged all caches successfully."
+msgstr "成功清除全部缓存。"
+
+#: src/gui.cls.php:479 src/gui.cls.php:579 src/gui.cls.php:629
+msgid "LSCache"
+msgstr "LSCache"
+
+#: src/gui.cls.php:423
+msgid "Forced cacheable"
+msgstr "强制缓存"
+
+#: tpl/cache/settings-cache.tpl.php:122
+msgid "Paths containing these strings will be cached regardless of no-cacheable settings."
+msgstr "包括这些字串的路径会无视不缓存的设定而直接缓存。"
+
+#: src/lang.cls.php:100
+msgid "Force Cache URIs"
+msgstr "强制缓存URI"
+
+#: tpl/cache/network_settings-excludes.tpl.php:7
+#: tpl/cache/settings-excludes.tpl.php:7
+msgid "Exclude Settings"
+msgstr "排除设定"
+
+#: tpl/toolbox/settings-debug.tpl.php:23
+msgid "This will disable LSCache and all optimization features for debug purpose."
+msgstr "这会禁用LSCache和所有优化选项以便debug。"
+
+#: src/lang.cls.php:224 tpl/inc/disabled_all.php:5
+msgid "Disable All Features"
+msgstr "禁用全部功能"
+
+#: src/gui.cls.php:506 src/gui.cls.php:666 tpl/toolbox/purge.tpl.php:61
+msgid "Opcode Cache"
+msgstr "Opcode Cache"
+
+#: src/gui.cls.php:487 src/gui.cls.php:637 tpl/toolbox/purge.tpl.php:43
+msgid "CSS/JS Cache"
+msgstr "CSS/JS Cache"
+
+#: src/gui.cls.php:734 tpl/img_optm/summary.tpl.php:175
+msgid "Remove all previous unfinished image optimization requests."
+msgstr "移除所有先前完成的图片优化请求。"
+
+#: src/gui.cls.php:735 tpl/img_optm/summary.tpl.php:177
+msgid "Clean Up Unfinished Data"
+msgstr "清理未完成的数据"
+
+#: src/lang.cls.php:31
+msgid "Images failed with other errors"
+msgstr "图片由于其它错误而失败"
+
+#: src/lang.cls.php:34
+msgid "Images with wrong meta"
+msgstr "有错误meta的图片"
+
+#: tpl/banner/slack.php:23
+msgid "Join Us on Slack"
+msgstr "加入我们的 Slack"
+
+#: tpl/banner/slack.php:14
+msgid "Join the %s community."
+msgstr "加入 %s 社区。"
+
+#: tpl/banner/slack.php:13
+msgid "Want to connect with other LiteSpeed users?"
+msgstr "希望和其它LiteSpeed用户保持联系？"
+
+#: tpl/cdn/settings.tpl.php:203
+msgid "Get it from <a %1$s>%2$s</a>."
+msgstr "从 <a %1$s>%2$s</a>获得。"
+
+#: tpl/cdn/settings.tpl.php:213
+msgid "Your Email address on %s."
+msgstr "您的电子邮件地址%s。"
+
+#: tpl/cdn/settings.tpl.php:193
+msgid "Use %s API functionality."
+msgstr "使用 %s API 功能。"
+
+#: tpl/cdn/settings.tpl.php:79
+msgid "To randomize CDN hostname, define multiple hostnames for the same resources."
+msgstr "要随机输出CDN主机名，请为相同资源定义多个主机名。"
+
+#: tpl/inc/admin_footer.php:15
+msgid "Join LiteSpeed Slack community"
+msgstr "加入LiteSpeed Slack社区"
+
+#: tpl/inc/admin_footer.php:13
+msgid "Visit LSCWP support forum"
+msgstr "访问LSCWP支持论坛"
+
+#: tpl/inc/admin_footer.php:8
+msgid "Rate %s on %s"
+msgstr "在%s上对%s进行评分"
+
+#: src/lang.cls.php:25 tpl/dash/dashboard.tpl.php:347
+msgid "Images notified to pull"
+msgstr "图片已通知待取回"
+
+#: src/lang.cls.php:32
+msgid "Image files missing"
+msgstr "图像文件丢失"
+
+#: tpl/img_optm/summary.tpl.php:280 tpl/img_optm/summary.tpl.php:307
+msgid "What is a group?"
+msgstr "什么是图片组？"
+
+#: src/admin-display.cls.php:1165
+msgid "%s image"
+msgstr "%s张图像"
+
+#: src/admin-display.cls.php:1162
+msgid "%s group"
+msgstr "%s个群组"
+
+#: src/admin-display.cls.php:1152
+msgid "%s images"
+msgstr "%s 张图像"
+
+#: src/admin-display.cls.php:1149
+msgid "%s groups"
+msgstr "%s 组"
+
+#: src/crawler.cls.php:826
+msgid "Guest"
+msgstr "游客"
+
+#: tpl/crawler/settings-simulation.tpl.php:23
+msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
+msgstr "要以登录用户身份预读取网站，请输入要模拟的用户ID。"
+
+#: src/lang.cls.php:218
+msgid "Role Simulation"
+msgstr "角色模拟"
+
+#: tpl/crawler/summary.tpl.php:170
+msgid "running"
+msgstr "运行"
+
+#: tpl/db_optm/manage.tpl.php:167
+msgid "Size"
+msgstr "大小"
+
+#: tpl/crawler/summary.tpl.php:99 tpl/dash/dashboard.tpl.php:556
+msgid "Ended reason"
+msgstr "结束原因"
+
+#: tpl/crawler/summary.tpl.php:92 tpl/dash/dashboard.tpl.php:549
+msgid "Last interval"
+msgstr "上次间隔"
+
+#: tpl/crawler/summary.tpl.php:85 tpl/dash/dashboard.tpl.php:542
+msgid "Current crawler started at"
+msgstr "当前爬虫始于"
+
+#: tpl/crawler/summary.tpl.php:78
+msgid "Run time for previous crawler"
+msgstr "上一个爬虫运行时间"
+
+#: tpl/crawler/summary.tpl.php:72 tpl/crawler/summary.tpl.php:79
+msgid "%d seconds"
+msgstr "%d 秒"
+
+#: tpl/crawler/summary.tpl.php:71
+msgid "Last complete run time for all crawlers"
+msgstr "上次完整的全部爬虫运行时间"
+
+#: tpl/crawler/summary.tpl.php:57
+msgid "Current sitemap crawl started at"
+msgstr "当前站点地图爬行始于"
+
+#: tpl/cache/settings_inc.object.tpl.php:210
+msgid "Save transients in database when %1$s is %2$s."
+msgstr "当 %1$s 为 %2$s 时保存transient到数据库。"
+
+#: src/lang.cls.php:94
+msgid "Store Transients"
+msgstr "保存 Transient"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "If %1$s is %2$s, then %3$s must be populated!"
+msgstr "当 %1$s 为 %2$s时，%3$s 必须被设定！"
+
+#: tpl/crawler/settings-general.tpl.php:146
+msgid "Server allowed max value"
+msgstr "服务器允许最大值"
+
+#: tpl/crawler/settings-general.tpl.php:141
+msgid "Server enforced value"
+msgstr "服务器强制值"
+
+#: tpl/crawler/settings-general.tpl.php:40
+msgid "Server allowed min value"
+msgstr "服务器允许最小值"
+
+#: tpl/cache/more_settings_tip.tpl.php:12
+#: tpl/cache/settings-excludes.tpl.php:61
+#: tpl/cache/settings-excludes.tpl.php:94 tpl/cdn/settings.tpl.php:78
+#: tpl/crawler/settings-general.tpl.php:39
+#: tpl/crawler/settings-general.tpl.php:140
+#: tpl/crawler/settings-general.tpl.php:145
+msgid "NOTE"
+msgstr "注意"
+
+#: src/admin-display.cls.php:1118
+msgid "Server variable(s) %s available to override this setting."
+msgstr "服务器变量 %s 可用来覆盖本设定。"
+
+#: src/admin-display.cls.php:1117 tpl/cache/settings-esi.tpl.php:95
+#: tpl/page_optm/settings_css.tpl.php:176
+#: tpl/page_optm/settings_html.tpl.php:85
+#: tpl/page_optm/settings_media_exc.tpl.php:26
+#: tpl/page_optm/settings_tuning.tpl.php:35
+#: tpl/page_optm/settings_tuning.tpl.php:56
+#: tpl/page_optm/settings_tuning.tpl.php:101
+#: tpl/page_optm/settings_tuning.tpl.php:165
+#: tpl/page_optm/settings_tuning.tpl.php:186
+#: tpl/toolbox/edit_htaccess.tpl.php:54 tpl/toolbox/edit_htaccess.tpl.php:71
+msgid "API"
+msgstr "API"
+
+#: src/purge.cls.php:379
+msgid "Reset the entire opcode cache successfully."
+msgstr "成功重置整个opcode缓存。"
+
+#: src/purge.cls.php:367
+msgid "Opcode cache is not enabled."
+msgstr "Opcode缓存未激活。"
+
+#: src/import.cls.php:132
+msgid "Imported setting file %s successfully."
+msgstr "成功导入设定文件 %s 。"
+
+#: src/import.cls.php:75
+msgid "Import failed due to file error."
+msgstr "由于文件错误导致导入失败。"
+
+#: tpl/page_optm/settings_css.tpl.php:44 tpl/page_optm/settings_js.tpl.php:35
+msgid "How to Fix Problems Caused by CSS/JS Optimization."
+msgstr "如何修正由 CSS/JS 优化导致的问题。"
+
+#: tpl/cache/settings-advanced.tpl.php:50
+msgid "This will generate extra requests to the server, which will increase server load."
+msgstr "这会产生额外的服务器请求，将增加服务器负担。"
+
+#: src/lang.cls.php:184
+msgid "Instant Click"
+msgstr "即时点击"
+
+#: tpl/toolbox/purge.tpl.php:62
+msgid "Reset the entire opcode cache"
+msgstr "重置整个opcode缓存"
+
+#: tpl/toolbox/import_export.tpl.php:46
+msgid "This will import settings from a file and override all current LiteSpeed Cache settings."
+msgstr "这会从文件中导入设定并覆盖所有已有的设定。"
+
+#: tpl/toolbox/import_export.tpl.php:41
+msgid "Last imported"
+msgstr "上次导入"
+
+#: tpl/toolbox/import_export.tpl.php:35
+msgid "Import"
+msgstr "导入"
+
+#: tpl/toolbox/import_export.tpl.php:27
+msgid "Import Settings"
+msgstr "导入设定"
+
+#: tpl/toolbox/import_export.tpl.php:24
+msgid "This will export all current LiteSpeed Cache settings and save them as a file."
+msgstr "这会导出所有当前的 LiteSpeed 缓存设定并存为文件。"
+
+#: tpl/toolbox/import_export.tpl.php:19
+msgid "Last exported"
+msgstr "上次导出"
+
+#: tpl/toolbox/import_export.tpl.php:14
+msgid "Export"
+msgstr "导出"
+
+#: tpl/toolbox/import_export.tpl.php:9
+msgid "Export Settings"
+msgstr "导出设定"
+
+#: tpl/toolbox/entry.tpl.php:10
+msgid "Import / Export"
+msgstr "导入/导出"
+
+#: tpl/cache/settings_inc.object.tpl.php:184
+msgid "Use keep-alive connections to speed up cache operations."
+msgstr "使用长链接加速缓存操作。"
+
+#: tpl/cache/settings_inc.object.tpl.php:144
+msgid "Database to be used"
+msgstr "要使用的数据库"
+
+#: src/lang.cls.php:89
+msgid "Redis Database ID"
+msgstr "Redis 数据库 ID"
+
+#: tpl/cache/settings_inc.object.tpl.php:131
+msgid "Specify the password used when connecting."
+msgstr "指定连接时使用的密码。"
+
+#: src/lang.cls.php:88
+msgid "Password"
+msgstr "密码"
+
+#: tpl/cache/settings_inc.object.tpl.php:118
+msgid "Only available when %s is installed."
+msgstr "仅当 %s 已安装时可用。"
+
+#: src/lang.cls.php:87
+msgid "Username"
+msgstr "用户名"
+
+#: tpl/cache/settings_inc.object.tpl.php:78
+msgid "Your %s Hostname or IP address."
+msgstr "您的 %s 主机名或者IP地址。"
+
+#: src/lang.cls.php:83
+msgid "Method"
+msgstr "方法"
+
+#: src/purge.cls.php:420
+msgid "Purge all object caches successfully."
+msgstr "成功清除所有对象缓存。"
+
+#: src/purge.cls.php:407
+msgid "Object cache is not enabled."
+msgstr "对象缓存未激活。"
+
+#: tpl/cache/settings_inc.object.tpl.php:197
+msgid "Improve wp-admin speed through caching. (May encounter expired data)"
+msgstr "通过缓存改进wp-admin的加载速度。（可能碰到过期数据）"
+
+#: src/lang.cls.php:92
+msgid "Persistent Connection"
+msgstr "永久连接"
+
+#: src/lang.cls.php:91
+msgid "Do Not Cache Groups"
+msgstr "不缓存群组"
+
+#: tpl/cache/settings_inc.object.tpl.php:157
+msgid "Groups cached at the network level."
+msgstr "站点网络级别的缓存群组。"
+
+#: src/lang.cls.php:90
+msgid "Global Groups"
+msgstr "全局群组"
+
+#: tpl/cache/settings_inc.object.tpl.php:52
+msgid "Connection Test"
+msgstr "连接测试"
+
+#: tpl/cache/settings_inc.object.tpl.php:50
+#: tpl/cache/settings_inc.object.tpl.php:51
+msgid "%s Extension"
+msgstr "%s 扩展"
+
+#: tpl/cache/settings_inc.object.tpl.php:47 tpl/crawler/blacklist.tpl.php:32
+#: tpl/crawler/summary.tpl.php:124
+msgid "Status"
+msgstr "状态"
+
+#: tpl/cache/settings_inc.object.tpl.php:105
+msgid "Default TTL for cached objects."
+msgstr "默认的对象缓存的TTL。"
+
+#: src/lang.cls.php:86
+msgid "Default Object Lifetime"
+msgstr "默认的对象生命周期"
+
+#: src/lang.cls.php:85
+msgid "Port"
+msgstr "端口"
+
+#: src/lang.cls.php:84
+msgid "Host"
+msgstr "主机"
+
+#: src/gui.cls.php:496 src/gui.cls.php:656 src/lang.cls.php:82
+#: tpl/dash/dashboard.tpl.php:396 tpl/toolbox/purge.tpl.php:52
+msgid "Object Cache"
+msgstr "对象缓存"
+
+#: tpl/cache/settings_inc.object.tpl.php:20
+msgid "Failed"
+msgstr "失败"
+
+#: tpl/cache/settings_inc.object.tpl.php:17
+msgid "Passed"
+msgstr "通过"
+
+#: tpl/cache/settings_inc.object.tpl.php:14
+msgid "Not Available"
+msgstr "不可用"
+
+#: tpl/toolbox/purge.tpl.php:53
+msgid "Purge all the object caches"
+msgstr "清除全部对象缓存"
+
+#: src/cdn/cloudflare.cls.php:250 src/cdn/cloudflare.cls.php:272
+msgid "Failed to communicate with Cloudflare"
+msgstr "和 Cloudflare 通讯失败"
+
+#: src/cdn/cloudflare.cls.php:263
+msgid "Communicated with Cloudflare successfully."
+msgstr "和 CLoudflare 通讯成功。"
+
+#: src/cdn/cloudflare.cls.php:159
+msgid "No available Cloudflare zone"
+msgstr "无可用的 Cloudflare 区域"
+
+#: src/cdn/cloudflare.cls.php:145
+msgid "Notified Cloudflare to purge all successfully."
+msgstr "已成功通知 Cloudflare 清除全部。"
+
+#: src/cdn/cloudflare.cls.php:129
+msgid "Cloudflare API is set to off."
+msgstr "Cloudflare API 被设置为关闭。"
+
+#: src/cdn/cloudflare.cls.php:112
+msgid "Notified Cloudflare to set development mode to %s successfully."
+msgstr "已成功通知 Cloudflare 设定开发模式为 %s。"
+
+#: tpl/cdn/settings.tpl.php:228
+msgid "Once saved, it will be matched with the current list and completed automatically."
+msgstr "一旦保存，它将自动匹配现有的列表并自动完成。"
+
+#: tpl/cdn/settings.tpl.php:227
+msgid "You can just type part of the domain."
+msgstr "您可以输入域名的部分内容。"
+
+#: tpl/cdn/settings.tpl.php:219
+msgid "Domain"
+msgstr "域名"
+
+#: src/lang.cls.php:208
+msgid "Cloudflare API"
+msgstr "Cloudflare API"
+
+#: tpl/cdn/manage.tpl.php:77
+msgid "Purge Everything"
+msgstr "清除全部"
+
+#: tpl/cdn/manage.tpl.php:71
+msgid "Cloudflare Cache"
+msgstr "Cloudflare 缓存"
+
+#: tpl/cdn/manage.tpl.php:65
+msgid "Development Mode will be turned off automatically after three hours."
+msgstr "开发模式会在三小时后自动关闭。"
+
+#: tpl/cdn/manage.tpl.php:64
+msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
+msgstr "临时跳过 Cloudflare 缓存。这可以让原始服务器的改变实时展现。"
+
+#: tpl/cdn/manage.tpl.php:56
+msgid "Development mode will be automatically turned off in %s."
+msgstr "开发模式将在 %s 后自动关闭。"
+
+#: tpl/cdn/manage.tpl.php:55
+msgid "Current status is %s."
+msgstr "当前状态为 %s。"
+
+#: tpl/cdn/manage.tpl.php:49
+msgid "Current status is %1$s since %2$s."
+msgstr "当前状态自 %2$s 开始为 %1$s。"
+
+#: tpl/cdn/manage.tpl.php:40
+msgid "Check Status"
+msgstr "检查状态"
+
+#: tpl/cdn/manage.tpl.php:37
+msgid "Turn OFF"
+msgstr "关闭"
+
+#: tpl/cdn/manage.tpl.php:34
+msgid "Turn ON"
+msgstr "开启"
+
+#: tpl/cdn/manage.tpl.php:32
+msgid "Development Mode"
+msgstr "开发模式"
+
+#: tpl/cdn/manage.tpl.php:29
+msgid "Cloudflare Zone"
+msgstr "Cloudflare 区域"
+
+#: tpl/cdn/manage.tpl.php:28
+msgid "Cloudflare Domain"
+msgstr "Cloudflare 域名"
+
+#: src/gui.cls.php:646 tpl/cdn/manage.tpl.php:17
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: tpl/page_optm/settings_html.tpl.php:34
+msgid "For example"
+msgstr "比如"
+
+#: tpl/page_optm/settings_html.tpl.php:33
+msgid "Prefetching DNS can reduce latency for visitors."
+msgstr "预读取DNS可降低访客的延迟。"
+
+#: src/lang.cls.php:126
+msgid "DNS Prefetch"
+msgstr "DNS预读取"
+
+#: tpl/page_optm/settings_media.tpl.php:31
+msgid "Adding Style to Your Lazy-Loaded Images"
+msgstr "增加样式到您的延迟加载图片中"
+
+#: src/admin-display.cls.php:980 src/admin-display.cls.php:985
+#: tpl/cdn/settings.tpl.php:99
+msgid "Default value"
+msgstr "默认值"
+
+#: tpl/cdn/settings.tpl.php:96
+msgid "Static file type links to be replaced by CDN links."
+msgstr "将被CDN链接替换的静态文件类型。"
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:15
+msgid "For example, to drop parameters beginning with %s, %s can be used here."
+msgstr "比如，要丢弃以 %s 开始的参数，可以在这里使用 %s 。"
+
+#: src/lang.cls.php:80
+msgid "Drop Query String"
+msgstr "丢弃 Query String"
+
+#: tpl/cache/settings-advanced.tpl.php:32
+msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
+msgstr "当您在同一域名下同时使用HTTP和HTTPS并注意到有缓存问题时，请激活此选项。"
+
+#: src/lang.cls.php:183
+msgid "Improve HTTP/HTTPS Compatibility"
+msgstr "改善 HTTP/HTTPS 兼容性"
+
+#: tpl/img_optm/summary.tpl.php:378
+msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
+msgstr "移除之前的全部图片优化请求和结果，重置已完成的优化并删除全部已优化的文件。"
+
+#: tpl/img_optm/summary.tpl.php:374
+msgid "Destroy All Optimization Data"
+msgstr "销毁所有优化数据！"
+
+#: tpl/img_optm/summary.tpl.php:324
+msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
+msgstr "扫描新的未优化图片缩略图并发送图片优化请求。"
+
+#: tpl/img_optm/settings.tpl.php:96
+msgid "This will increase the size of optimized files."
+msgstr "这会增加优化后图片的体积。"
+
+#: tpl/img_optm/settings.tpl.php:95
+msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
+msgstr "在优化时保留EXIF信息 ( 如版权，GPS，描述等 ) 。"
+
+#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
+msgid "Clear Log"
+msgstr "清除日志"
+
+#: thirdparty/woocommerce.content.tpl.php:23
+msgid "To test the cart, visit the <a %s>FAQ</a>."
+msgstr "要测试购物车，请访问 <a %s>FAQ</a>。"
+
+#: src/utility.cls.php:239
+msgid " %s ago"
+msgstr "%s 之前"
+
+#: src/media.cls.php:315
+msgid "WebP saved %s"
+msgstr "WebP 节省 %s"
+
+#: tpl/toolbox/report.tpl.php:51
+msgid "If you run into any issues, please refer to the report number in your support message."
+msgstr "如果您遇到任何问题，请在客服信息里提及本报告号码。"
+
+#: tpl/inc/api_key.php:11
+msgid "This will also generate an API key from LiteSpeed's Server."
+msgstr "这也将从LiteSpeed服务器生成一个API密钥。"
+
+#: tpl/img_optm/summary.tpl.php:133
+msgid "Last pull initiated by cron at %s."
+msgstr "最后运行cron的时间为%s。"
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Images will be pulled automatically if the cron job is running."
+msgstr "如果计划任务在运行，图片会自动被取回。"
+
+#: tpl/img_optm/summary.tpl.php:87
+msgid "Only press the button if the pull cron job is disabled."
+msgstr "仅当取回计划任务被仅用时点击本按钮。"
+
+#: tpl/img_optm/summary.tpl.php:94
+msgid "Pull Images"
+msgstr "取回图片"
+
+#: tpl/img_optm/summary.tpl.php:118
+msgid "This process is automatic."
+msgstr "整个过程是自动的。"
+
+#: tpl/dash/dashboard.tpl.php:357 tpl/img_optm/summary.tpl.php:342
+msgid "Last Request"
+msgstr "上次请求"
+
+#: src/lang.cls.php:27
+msgid "Images failed to pull"
+msgstr "取回失败的图片"
+
+#: src/lang.cls.php:28 src/lang.cls.php:29
+msgid "Images failed to fetch"
+msgstr "抓取失败的图片"
+
+#: tpl/img_optm/summary.tpl.php:339
+msgid "Images Pulled"
+msgstr "已取回的图片"
+
+#: tpl/toolbox/entry.tpl.php:19
+msgid "Report"
+msgstr "报告"
+
+#: tpl/toolbox/report.tpl.php:97
+msgid "Send this report to LiteSpeed. Refer to this report number when posting in the WordPress support forum."
+msgstr "发送本报告给LiteSpeed。在WordPress论坛发帖时您可以提到所生成的报告号码。"
+
+#: tpl/toolbox/report.tpl.php:93 tpl/toolbox/report.tpl.php:94
+msgid "Send to LiteSpeed"
+msgstr "发送给LiteSpeed"
+
+#: tpl/toolbox/report.tpl.php:46
+msgid "Report date"
+msgstr "报告日期"
+
+#: tpl/toolbox/report.tpl.php:45
+msgid "Report number"
+msgstr "报告号码"
+
+#: thirdparty/woocommerce.content.tpl.php:91
+msgid "Privately cache cart when not empty."
+msgstr "当购物车不为空时用私有缓存存储。"
+
+#: thirdparty/woocommerce.content.tpl.php:86
+msgid "Privately Cache Cart"
+msgstr "私有缓存购物车"
+
+#: src/media.cls.php:196
+msgid "LiteSpeed Optimization"
+msgstr "LiteSpeed 优化"
+
+#: src/lang.cls.php:131
+msgid "Load Google Fonts Asynchronously"
+msgstr "异步加载Google Fonts"
+
+#: src/lang.cls.php:66
+msgid "Browser Cache TTL"
+msgstr "浏览器缓存TTL"
+
+#: tpl/img_optm/summary.tpl.php:346
+msgid "Results can be checked in <a %s>Media Library</a>."
+msgstr "结果可以在 <a %s>媒体库</a>中看到."
+
+#: src/doc.cls.php:53 src/doc.cls.php:105 tpl/cdn/manage.tpl.php:66
+#: tpl/dash/dashboard.tpl.php:49 tpl/img_optm/summary.tpl.php:62
+#: tpl/img_optm/summary.tpl.php:102 tpl/inc/check_cache_disabled.php:42
+msgid "Learn More"
+msgstr "了解更多"
+
+#: src/lang.cls.php:26
+msgid "Images optimized and pulled"
+msgstr "已优化并抓回的图片"
+
+#: src/lang.cls.php:24 tpl/dash/dashboard.tpl.php:337
+msgid "Images requested"
+msgstr "已请求的图片"
+
+#: tpl/img_optm/summary.tpl.php:314
+msgid "Images not yet requested"
+msgstr "尚未请求的图片"
+
+#: tpl/img_optm/summary.tpl.php:276 tpl/img_optm/summary.tpl.php:303
+msgid "Images total"
+msgstr "图片总数"
+
+#: src/img-optm.cls.php:1713
+msgid "Switched to optimized file successfully."
+msgstr "成功切换到已优化的文件。"
+
+#: src/img-optm.cls.php:1706
+msgid "Restored original file successfully."
+msgstr "成功恢复原始文件。"
+
+#: src/img-optm.cls.php:1690
+msgid "Enabled WebP file successfully."
+msgstr "启用WebP文件成功。"
+
+#: src/img-optm.cls.php:1684
+msgid "Disabled WebP file successfully."
+msgstr "禁用WebP文件成功。"
+
+#: tpl/img_optm/settings.tpl.php:36
+msgid "Disabling this will stop the cron job responsible for pulling optimized images back from QUIC.cloud Image Server."
+msgstr "禁用此功能将停止从Lite Speed的图像服务中获取优化图片的corn任务。"
+
+#: tpl/img_optm/settings.media_webp.tpl.php:14
+msgid "Significantly improve load time by replacing images with their optimized %s versions."
+msgstr "通过以优化过的 %s 版本替换图片来显著的改善加载时间。"
+
+#: src/lang.cls.php:188
+msgid "Image WebP Replacement"
+msgstr "图片WebP替换"
+
+#: tpl/cache/settings-excludes.tpl.php:123
+msgid "Selected roles will be excluded from cache."
+msgstr "选择的角色将不被缓存。"
+
+#: tpl/general/entry.tpl.php:7 tpl/page_optm/entry.tpl.php:12
+msgid "Tuning"
+msgstr "调整"
+
+#: tpl/page_optm/settings_tuning.tpl.php:228
+msgid "Selected roles will be excluded from all optimizations."
+msgstr "选择的角色将不做任何优化。"
+
+#: src/lang.cls.php:142
+msgid "Role Excludes"
+msgstr "角色排除"
+
+#: tpl/general/settings_tuning.tpl.php:7
+#: tpl/page_optm/settings_tuning.tpl.php:18
+msgid "Tuning Settings"
+msgstr "调整设定"
+
+#: tpl/cache/settings-excludes.tpl.php:96
+msgid "If the tag slug is not found, the tag will be removed from the list on save."
+msgstr "如果标签未被发现，标签将会在保存时从列表中移除。"
+
+#: tpl/cache/settings-excludes.tpl.php:63
+msgid "If the category name is not found, the category will be removed from the list on save."
+msgstr "如果分类未被发现，分类将会在保存时从列表中移除。"
+
+#: tpl/img_optm/summary.tpl.php:117
+msgid "After the QUIC.cloud Image Optimization server finishes optimization, it will notify your site to pull the optimized images."
+msgstr "在LiteSpeed图片优化服务器完成优化后，它会通知您的网站去抓取优化后的图片。"
+
+#: tpl/img_optm/summary.tpl.php:84
+msgid "Send Optimization Request"
+msgstr "发送优化请求"
+
+#: tpl/img_optm/summary.tpl.php:267
+msgid "Image Information"
+msgstr "图片信息"
+
+#: tpl/img_optm/summary.tpl.php:336
+msgid "Total Reduction"
+msgstr "总共减少"
+
+#: tpl/img_optm/summary.tpl.php:333
+msgid "Optimization Summary"
+msgstr "优化概要"
+
+#: tpl/img_optm/entry.tpl.php:22
+msgid "LiteSpeed Cache Image Optimization"
+msgstr "LiteSpeed缓存图片优化"
+
+#: src/admin-display.cls.php:123 src/gui.cls.php:612
+#: tpl/dash/dashboard.tpl.php:55 tpl/dash/network_dash.tpl.php:27
+msgid "Image Optimization"
+msgstr "图片优化"
+
+#: src/lang.cls.php:136
+msgid "JS Deferred Excludes"
+msgstr "JS延迟排除"
+
+#: tpl/page_optm/settings_media.tpl.php:48
+msgid "For example, %s can be used for a transparent placeholder."
+msgstr "比如，%s可以被用作背景透明的占位符。"
+
+#: tpl/page_optm/settings_media.tpl.php:47
+msgid "By default a gray image placeholder %s will be used."
+msgstr "默认一个灰色的图片占位符%s会被使用。"
+
+#: tpl/page_optm/settings_media.tpl.php:46
+msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
+msgstr "这也可以通过在%2$s中预定义%1$s实现。本选项优先级较预定义高。"
+
+#: tpl/page_optm/settings_media.tpl.php:45
+msgid "Specify a base64 image to be used as a simple placeholder while images finish loading."
+msgstr "指定要在图像加载完成时用作简单占位符的base64图像。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:28
+#: tpl/page_optm/settings_tuning.tpl.php:37
+#: tpl/page_optm/settings_tuning.tpl.php:58
+#: tpl/page_optm/settings_tuning.tpl.php:167
+#: tpl/page_optm/settings_tuning.tpl.php:188
+msgid "Elements with attribute %s in html code will be excluded."
+msgstr "有属性%s的元素将被排除。"
+
+#: tpl/cache/settings-esi.tpl.php:96
+#: tpl/page_optm/settings_media_exc.tpl.php:27
+#: tpl/page_optm/settings_tuning.tpl.php:36
+#: tpl/page_optm/settings_tuning.tpl.php:57
+#: tpl/page_optm/settings_tuning.tpl.php:102
+#: tpl/page_optm/settings_tuning.tpl.php:166
+#: tpl/page_optm/settings_tuning.tpl.php:187
+msgid "Filter %s is supported."
+msgstr "支持过滤器%s。"
+
+#: tpl/page_optm/settings_media_exc.tpl.php:21
+msgid "Listed images will not be lazy loaded."
+msgstr "列出的图片将不被延迟加载。"
+
+#: src/lang.cls.php:149
+msgid "Lazy Load Image Excludes"
+msgstr "延迟加载图片排除"
+
+#: src/gui.cls.php:456
+msgid "No optimization"
+msgstr "无优化"
+
+#: tpl/page_optm/settings_tuning.tpl.php:202
+msgid "Prevent any optimization of listed pages."
+msgstr "列出的页面将不被优化。"
+
+#: src/lang.cls.php:140
+msgid "URI Excludes"
+msgstr "URI排除"
+
+#: tpl/page_optm/settings_html.tpl.php:128
+msgid "Stop loading WordPress.org emoji. Browser default emoji will be displayed instead."
+msgstr "停止加载 wordpress.org 表情包。浏览器默认表情包将被显示。"
+
+#: src/doc.cls.php:92
+msgid "Both full URLs and partial strings can be used."
+msgstr "完整URL和部分匹配字串都可以使用。"
+
+#: tpl/page_optm/settings_media.tpl.php:213
+msgid "Load iframes only when they enter the viewport."
+msgstr "仅在Iframe进入视野时加载它们。"
+
+#: src/lang.cls.php:165
+msgid "Lazy Load Iframes"
+msgstr "延迟加载Iframe"
+
+#: tpl/page_optm/settings_media.tpl.php:28
+#: tpl/page_optm/settings_media.tpl.php:214
+msgid "This can improve page loading time by reducing initial HTTP requests."
+msgstr "这可以通过减少初始HTTP请求数量来改善页面加载时间。"
+
+#: tpl/page_optm/settings_media.tpl.php:27
+msgid "Load images only when they enter the viewport."
+msgstr "仅在图片进入视野时加载它们。"
+
+#: src/lang.cls.php:148
+msgid "Lazy Load Images"
+msgstr "延迟加载图片"
+
+#: tpl/page_optm/entry.tpl.php:9 tpl/page_optm/settings_media.tpl.php:14
+msgid "Media Settings"
+msgstr "多媒体设定"
+
+#: tpl/cache/settings-excludes.tpl.php:36
+msgid "For example, for %s, %s and %s can be used here."
+msgstr "比如，对于%s，可以使用%s和%s。"
+
+#: tpl/cache/settings-esi.tpl.php:107 tpl/cache/settings-purge.tpl.php:110
+#: tpl/cdn/settings.tpl.php:143
+msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
+msgstr "支持泛匹配%1$s (匹配空或多字符)。比如，要匹配%2$s和%3$s，使用%4$s。"
+
+#: src/admin-display.cls.php:1133
+msgid "To match the beginning, add %s to the beginning of the item."
+msgstr "要匹配开头，在条目开头加上%s。"
+
+#: src/admin-display.cls.php:1131
+msgid "For example, for %s, %s can be used here."
+msgstr "例如，对于%s，可以使用%s。"
+
+#: tpl/banner/score.php:118
+msgid "Maybe later"
+msgstr "来日方长"
+
+#: tpl/banner/score.php:117
+msgid "I've already left a review"
+msgstr "我已经留过评论了"
+
+#: tpl/banner/slack.php:9
+msgid "Welcome to LiteSpeed"
+msgstr "欢迎来到LiteSpeed"
+
+#: src/lang.cls.php:138
+msgid "Remove WordPress Emoji"
+msgstr "移除WordPress表情包"
+
+#: src/gui.cls.php:464
+msgid "More settings"
+msgstr "更多设定"
+
+#: src/gui.cls.php:445
+msgid "Private cache"
+msgstr "私有缓存"
+
+#: src/gui.cls.php:434
+msgid "Non cacheable"
+msgstr "不可缓存"
+
+#: src/gui.cls.php:411
+msgid "Mark this page as "
+msgstr "标注此页为"
+
+#: src/gui.cls.php:403
+msgid "Purge this page"
+msgstr "清除此页"
+
+#: src/lang.cls.php:123
+msgid "Load JS Deferred"
+msgstr "延迟加载JS"
+
+#: tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
+msgstr "注明当激活%s时需要在页面显示时用到的关键CSS内容。"
+
+#: src/lang.cls.php:133
+msgid "Critical CSS Rules"
+msgstr "关键CSS"
+
+#: src/lang.cls.php:119 tpl/page_optm/settings_tuning.tpl.php:148
+msgid "Load CSS Asynchronously"
+msgstr "异步加载CSS"
+
+#: tpl/page_optm/settings_html.tpl.php:115
+msgid "Prevent Google Fonts from loading on all pages."
+msgstr "禁止在所有页面上加载Google字体。"
+
+#: src/lang.cls.php:132
+msgid "Remove Google Fonts"
+msgstr "移除Google字体"
+
+#: tpl/page_optm/settings_css.tpl.php:170
+#: tpl/page_optm/settings_html.tpl.php:129 tpl/page_optm/settings_js.tpl.php:67
+msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
+msgstr "这会在诸如Pingdom、GTmetrix和PageSpeed等服务上改良您的速度评分。"
+
+#: src/lang.cls.php:130
+msgid "Remove Query Strings"
+msgstr "移除 Query Strings"
+
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "user agents"
+msgstr "用户代理"
+
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+msgid "cookies"
+msgstr "cookie"
+
+#: tpl/cache/settings_inc.browser.tpl.php:29
+msgid "You can turn on browser caching in server admin too. <a %s>Learn more about LiteSpeed browser cache settings</a>."
+msgstr "您也可以在服务器管理界面开启浏览器缓存。<a %s>了解更多关于LiteSpeed浏览器缓存设定的信息</a>。"
+
+#: tpl/cache/settings_inc.browser.tpl.php:27
+msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
+msgstr "浏览器缓存将静态文件本地化存储在用户浏览器。开启这个设定以降低对静态文件的重复请求。"
+
+#: src/lang.cls.php:59 tpl/dash/dashboard.tpl.php:397
+msgid "Browser Cache"
+msgstr "浏览器缓存"
+
+#: tpl/cache/settings-excludes.tpl.php:90
+msgid "tags"
+msgstr "标签"
+
+#: src/lang.cls.php:105
+msgid "Do Not Cache Tags"
+msgstr "不缓存的标签"
+
+#: tpl/cache/settings-excludes.tpl.php:97
+msgid "To exclude %1$s, insert %2$s."
+msgstr "要排除%1$s，请插入%2$s。"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+msgid "categories"
+msgstr "类别"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+#: tpl/cache/settings-excludes.tpl.php:90
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "To prevent %s from being cached, enter them here."
+msgstr "为了防止%s被缓存，请在此处输入它们。"
+
+#: src/lang.cls.php:104
+msgid "Do Not Cache Categories"
+msgstr "不缓存的类别"
+
+#: tpl/cache/settings-excludes.tpl.php:35
+msgid "Query strings containing these parameters will not be cached."
+msgstr "包含这些参数的查询字符串将不会被缓存。"
+
+#: src/lang.cls.php:103
+msgid "Do Not Cache Query Strings"
+msgstr "不缓存的Query String"
+
+#: tpl/cache/settings-excludes.tpl.php:21
+msgid "Paths containing these strings will not be cached."
+msgstr "包含这些字串的路径将不被缓存。"
+
+#: src/lang.cls.php:102
+msgid "Do Not Cache URIs"
+msgstr "不缓存的URI"
+
+#: tpl/toolbox/settings-debug.tpl.php:39
+msgid "The logs will be output to %s."
+msgstr "日志会被输出至%s。"
+
+#: src/admin-display.cls.php:1135 src/doc.cls.php:74
+msgid "One per line."
+msgstr "每行一个。"
+
+#: tpl/cache/settings-cache.tpl.php:108
+msgid "URI Paths containing these strings will NOT be cached as public."
+msgstr "包含这些字串URI路径将不被存储为公开。"
+
+#: src/lang.cls.php:79
+msgid "Private Cached URIs"
+msgstr "私有缓存URI"
+
+#: tpl/cdn/settings.tpl.php:179
+msgid "Paths containing these strings will not be served from the CDN."
+msgstr "包含这些字串的路径将不通过CDN服务。"
+
+#: src/lang.cls.php:207
+msgid "Exclude Path"
+msgstr "排除路径"
+
+#: tpl/cdn/settings.tpl.php:98
+msgid "This will affect all tags containing attributes: %s %s %s."
+msgstr "这会影响到所有含有%s %s %s属性的标签。"
+
+#: src/lang.cls.php:203 tpl/cdn/settings.tpl.php:102
+msgid "Include File Types"
+msgstr "包括文件类型"
+
+#: tpl/cdn/settings.tpl.php:92
+msgid "Serve all JavaScript files through the CDN. This will affect all enqueued WP JavaScript files."
+msgstr "将所有JavaScript文件通过CDN服务。这会影响到所有WP内嵌的JavaScript文件。"
+
+#: src/lang.cls.php:202
+msgid "Include JS"
+msgstr "包含JS"
+
+#: tpl/cdn/settings.tpl.php:88
+msgid "Serve all CSS files through the CDN. This will affect all enqueued WP CSS files."
+msgstr "将所有CSS文件通过CDN服务。这会影响到所有WP内嵌的CSS文件。"
+
+#: src/lang.cls.php:201
+msgid "Include CSS"
+msgstr "包含CSS"
+
+#: tpl/cdn/settings.tpl.php:84
+msgid "Serve all image files through the CDN. This will affect all attachments, HTML %s tags, and CSS %s attributes."
+msgstr "将所有图片文件通过CDN服务。这会影响到所有WP内嵌的附件，HTML %s标签，和CSS %s属性。"
+
+#: src/lang.cls.php:200
+msgid "Include Images"
+msgstr "包含图片"
+
+#: src/admin-display.cls.php:228
+msgid "CDN URL to be used. For example, %s"
+msgstr "要使用的CDN URL。比如%s"
+
+#: src/lang.cls.php:199
+msgid "CDN URL"
+msgstr "CDN URL"
+
+#: tpl/cdn/settings.tpl.php:142
+msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
+msgstr "要通过CDN服务的站内URL。以%1$s开始。例如%2$s。"
+
+#: src/lang.cls.php:205
+msgid "Original URLs"
+msgstr "原始URl"
+
+#: tpl/cdn/entry.tpl.php:6 tpl/cdn/settings.tpl.php:21
+msgid "CDN Settings"
+msgstr "CDN设定"
+
+#: src/admin-display.cls.php:121 tpl/cdn/settings.tpl.php:194
+msgid "CDN"
+msgstr "CDN"
+
+#: src/admin-display.cls.php:233 src/admin-display.cls.php:838
+#: src/admin-display.cls.php:865 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.object.tpl.php:210 tpl/cdn/settings.tpl.php:54
+#: tpl/page_optm/settings_css.tpl.php:72 tpl/page_optm/settings_js.tpl.php:63
+#: tpl/page_optm/settings_media.tpl.php:162
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "OFF"
+msgstr "关闭"
+
+#: src/admin-display.cls.php:232 src/admin-display.cls.php:837
+#: src/admin-display.cls.php:866 src/admin-display.cls.php:917
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:71 tpl/cdn/settings.tpl.php:49
+#: tpl/page_optm/settings_css.tpl.php:174
+#: tpl/page_optm/settings_media.tpl.php:159
+#: tpl/page_optm/settings_media.tpl.php:229
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "ON"
+msgstr "开启"
+
+#: src/purge.cls.php:351
+msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
+msgstr "通知LiteSpeed服务器清除CSS/JS缓存。"
+
+#: tpl/page_optm/settings_html.tpl.php:20
+msgid "Minify HTML content."
+msgstr "最小化HTML代码。"
+
+#: src/lang.cls.php:117
+msgid "HTML Minify"
+msgstr "HTML最小化"
+
+#: src/lang.cls.php:129
+msgid "JS Excludes"
+msgstr "JS排除"
+
+#: src/data.upgrade.func.php:101 src/lang.cls.php:115
+msgid "JS Combine"
+msgstr "JS合并"
+
+#: src/lang.cls.php:114
+msgid "JS Minify"
+msgstr "JS最小化"
+
+#: src/lang.cls.php:128
+msgid "CSS Excludes"
+msgstr "CSS排除"
+
+#: src/lang.cls.php:108
+msgid "CSS Combine"
+msgstr "CSS合并"
+
+#: src/lang.cls.php:107
+msgid "CSS Minify"
+msgstr "CSS最小化"
+
+#: tpl/page_optm/entry.tpl.php:31
+msgid "Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action."
+msgstr "请详细测试本处所有功能，在您正式使用它们之前。修改了最小化/合并设定后，请务必执行清除全部的操作。"
+
+#: tpl/toolbox/purge.tpl.php:44
+msgid "This will purge all minified/combined CSS/JS entries only"
+msgstr "这将清除所有最小化或合并的CSS/JS缓存。"
+
+#: tpl/toolbox/purge.tpl.php:19 tpl/toolbox/purge.tpl.php:25
+#: tpl/toolbox/purge.tpl.php:31
+msgid "Purge %s Error"
+msgstr "清除 %s 错误"
+
+#: tpl/db_optm/manage.tpl.php:72
+msgid "Database Optimizer"
+msgstr "数据库优化"
+
+#: tpl/db_optm/manage.tpl.php:44
+msgid "Optimize all tables in your database"
+msgstr "优化您数据库中的所有数据表"
+
+#: tpl/db_optm/manage.tpl.php:43
+msgid "Optimize Tables"
+msgstr "优化数据表"
+
+#: tpl/db_optm/manage.tpl.php:40
+msgid "Clean all transient options"
+msgstr "清理全部即时Transient内容"
+
+#: tpl/db_optm/manage.tpl.php:39
+msgid "All Transients"
+msgstr "全部即时Transients内容"
+
+#: tpl/db_optm/manage.tpl.php:36
+msgid "Clean expired transient options"
+msgstr "清理过期transient选项"
+
+#: tpl/db_optm/manage.tpl.php:35
+msgid "Expired Transients"
+msgstr "过期Transients"
+
+#: tpl/db_optm/manage.tpl.php:32
+msgid "Clean all trackbacks and pingbacks"
+msgstr "清理全部trackback和pingback"
+
+#: tpl/db_optm/manage.tpl.php:31
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: tpl/db_optm/manage.tpl.php:28
+msgid "Clean all trashed comments"
+msgstr "清理所有回收站的评论"
+
+#: tpl/db_optm/manage.tpl.php:27
+msgid "Trashed Comments"
+msgstr "回收站评论"
+
+#: tpl/db_optm/manage.tpl.php:24
+msgid "Clean all spam comments"
+msgstr "清理所有垃圾评论"
+
+#: tpl/db_optm/manage.tpl.php:23
+msgid "Spam Comments"
+msgstr "垃圾评论"
+
+#: tpl/db_optm/manage.tpl.php:20
+msgid "Clean all trashed posts and pages"
+msgstr "清理所有回收站的文章和页面"
+
+#: tpl/db_optm/manage.tpl.php:19
+msgid "Trashed Posts"
+msgstr "回收站的文章"
+
+#: tpl/db_optm/manage.tpl.php:16
+msgid "Clean all auto saved drafts"
+msgstr "清理所有自动保存的草稿"
+
+#: tpl/db_optm/manage.tpl.php:15
+msgid "Auto Drafts"
+msgstr "自动保存草稿"
+
+#: tpl/db_optm/manage.tpl.php:12
+msgid "Clean all post revisions"
+msgstr "清理全部文章修订记录"
+
+#: tpl/db_optm/manage.tpl.php:11
+msgid "Post Revisions"
+msgstr "文章修订记录"
+
+#: tpl/db_optm/manage.tpl.php:7
+msgid "Clean All"
+msgstr "清理全部"
+
+#: src/db-optm.cls.php:192
+msgid "Optimized all tables."
+msgstr "已优化全部数据表。"
+
+#: src/db-optm.cls.php:182
+msgid "Clean all transients successfully."
+msgstr "成功清理全部Transient。"
+
+#: src/db-optm.cls.php:178
+msgid "Clean expired transients successfully."
+msgstr "成功清理过期Transient。"
+
+#: src/db-optm.cls.php:174
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "成功清理trackback和pingback。"
+
+#: src/db-optm.cls.php:170
+msgid "Clean trashed comments successfully."
+msgstr "成功清理回收站评论。"
+
+#: src/db-optm.cls.php:166
+msgid "Clean spam comments successfully."
+msgstr "成功清理垃圾评论。"
+
+#: src/db-optm.cls.php:162
+msgid "Clean trashed posts and pages successfully."
+msgstr "成功清理回收站文章和页面。"
+
+#: src/db-optm.cls.php:158
+msgid "Clean auto drafts successfully."
+msgstr "成功清理自动保存的草稿。"
+
+#: src/db-optm.cls.php:154
+msgid "Clean post revisions successfully."
+msgstr "成功清理文章修订记录。"
+
+#: src/db-optm.cls.php:127
+msgid "Clean all successfully."
+msgstr "全部清理成功。"
+
+#: src/lang.cls.php:61
+msgid "Default Private Cache TTL"
+msgstr "默认私有缓存TTL时间"
+
+#: tpl/cache/settings-esi.tpl.php:135
+msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
+msgstr "如果您的网站包含公开的内容，其只能被特定的用户组看到但其他不能看到，您可以设定一个Vary群组。比如，设定管理员vary群组为不同值，特定页面（如包含像编辑按钮等只有管理员能看到的按钮），将会被单独存储为公开页面，而其他用户将看到默认的公开页面。"
+
+#: src/lang.cls.php:181 tpl/page_optm/settings_css.tpl.php:110
+#: tpl/page_optm/settings_css.tpl.php:220
+msgid "Vary Group"
+msgstr "Vary群组"
+
+#: tpl/cache/settings-esi.tpl.php:75
+msgid "Cache the built-in Comment Form ESI block."
+msgstr "缓存内置的评论表单ESI块。"
+
+#: src/lang.cls.php:179
+msgid "Cache Comment Form"
+msgstr "缓存评论表单"
+
+#: tpl/cache/settings-esi.tpl.php:62
+msgid " Cache the built-in Admin Bar ESI block."
+msgstr "缓存内置的管理员条ESI块。"
+
+#: src/lang.cls.php:178
+msgid "Cache Admin Bar"
+msgstr "缓存管理员条"
+
+#: tpl/cache/settings-esi.tpl.php:49
+msgid "Turn ON to cache public pages for logged in users, and serve the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
+msgstr "启用则将缓存登录用户为公开缓存，而管理员条和评论表单将通过ESI块单独缓存。这两个块仅在下面的设定启用时方可缓存。"
+
+#: tpl/cache/settings-esi.tpl.php:13
+msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
+msgstr "ESI允许您指定动态页面为不同区块，然后将它们合并为一个完整页面。换句话说，ESI允许您在一个页面上打洞，然后将这些洞洞用独立的缓存内容(有自己的TTL存储时间的私有或公有缓存)填充，或者用不缓存的内容填充亦可。"
+
+#: tpl/cache/settings-esi.tpl.php:12
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "有ESI(Edge Side Includes)相伴，登录用户也可以看到缓存的页面。"
+
+#: tpl/esi_widget_edit.php:47
+msgid "Private"
+msgstr "私有"
+
+#: tpl/esi_widget_edit.php:46
+msgid "Public"
+msgstr "公开"
+
+#: tpl/cache/network_settings-purge.tpl.php:7
+#: tpl/cache/settings-purge.tpl.php:7
+msgid "Purge Settings"
+msgstr "清除设定"
+
+#: src/lang.cls.php:76
+msgid "Cache PHP Resources"
+msgstr "缓存PHP资源"
+
+#: src/lang.cls.php:77 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "Cache Mobile"
+msgstr "缓存手机访客"
+
+#: tpl/toolbox/settings-debug.tpl.php:72
+msgid "Advanced level will log more details."
+msgstr "高级模式会记录更多细节。"
+
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Basic"
+msgstr "基本"
+
+#: tpl/crawler/settings-general.tpl.php:135
+msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
+msgstr "爬行时允许的最大化平均服务器荷载。使用中的爬虫线程的数量将会主动减少直到平均服务器荷载降到这个限制为止。如果单线程仍不能降到该限制，当前爬虫将自觉退出。"
+
+#: src/lang.cls.php:74
+msgid "Cache Login Page"
+msgstr "缓存登录页面"
+
+#: tpl/cache/settings-cache.tpl.php:74
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "缓存由WordPress REST API发出的请求。"
+
+#: src/lang.cls.php:73
+msgid "Cache REST API"
+msgstr "缓存REST API"
+
+#: tpl/cache/settings-cache.tpl.php:61
+msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
+msgstr "用私有缓存存储有待审核评论的评论者。禁用此选项会提供没有缓存的页面给评论者。(需要LSWS %s)"
+
+#: src/lang.cls.php:72
+msgid "Cache Commenters"
+msgstr "缓存评论者"
+
+#: tpl/cache/settings-cache.tpl.php:48
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "用私有缓存为登录用户存储前台页面。(需要LSWS %s)"
+
+#: src/lang.cls.php:71
+msgid "Cache Logged-in Users"
+msgstr "缓存登录用户"
+
+#: tpl/cache/network_settings-cache.tpl.php:7
+#: tpl/cache/settings-cache.tpl.php:7
+msgid "Cache Control Settings"
+msgstr "缓存控制设定"
+
+#: tpl/cache/entry.tpl.php:10
+msgid "ESI"
+msgstr "ESI"
+
+#: tpl/cache/entry.tpl.php:9 tpl/cache/entry_network.tpl.php:8
+msgid "Excludes"
+msgstr "例外规则"
+
+#: tpl/cache/entry.tpl.php:8 tpl/cache/entry_network.tpl.php:7
+#: tpl/toolbox/entry.tpl.php:6 tpl/toolbox/purge.tpl.php:142
+msgid "Purge"
+msgstr "清除规则"
+
+#: src/admin-display.cls.php:119 tpl/cache/entry.tpl.php:6
+#: tpl/cache/entry_network.tpl.php:6
+msgid "Cache"
+msgstr "缓存规则"
+
+#: thirdparty/woocommerce.tab.tpl.php:3
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: tpl/inc/show_rule_conflict.php:6
+msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching HTML pages. If you are sure that HTML pages are not being browser cached, this message can be dismissed. (<a %3$s>Learn More</a>)"
+msgstr "未知缓存规则%2$s在%1$s中被发现。这条规则可能导致访客看到过期内容，因为浏览器缓存的原因。如果您确定使用该规则没有问题，请忽略本信息。(<a %3$s>查看详情</a>)"
+
+#: tpl/cache/settings-purge.tpl.php:131
+msgid "Current server time is %s."
+msgstr "当前服务器时间为%s。"
+
+#: tpl/cache/settings-purge.tpl.php:130
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "设定清除\"%s\"列表的时间。"
+
+#: tpl/cache/settings-purge.tpl.php:106
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "%1$s和%2$s都可以使用。"
+
+#: src/lang.cls.php:99 tpl/cache/settings-purge.tpl.php:105
+msgid "Scheduled Purge Time"
+msgstr "计划清除时间"
+
+#: tpl/cache/settings-purge.tpl.php:105
+msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
+msgstr "这里填写的URL(一行一个)将会在设定\"%s\"的时间自动被清除。"
+
+#: src/lang.cls.php:98 tpl/cache/settings-purge.tpl.php:130
+msgid "Scheduled Purge URLs"
+msgstr "计划清除URL"
+
+#: tpl/toolbox/settings-debug.tpl.php:113
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "缩短Query Strings在debug日志中的长度以增强可读性。"
+
+#: tpl/toolbox/settings-debug.tpl.php:100
+msgid "Log requested cookie values."
+msgstr "记录请求的cookie值。"
+
+#: tpl/toolbox/entry.tpl.php:18
+msgid "Heartbeat"
+msgstr "心跳包"
+
+#: tpl/toolbox/settings-debug.tpl.php:83
+msgid "MB"
+msgstr "MB"
+
+#: src/lang.cls.php:228
+msgid "Log File Size Limit"
+msgstr "日志文件尺寸限制"
+
+#: src/htaccess.cls.php:787
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>请添加/替换下列代码到%1$s的开头位置:</p> %2$s"
+
+#: src/error.cls.php:104 src/error.cls.php:128
+msgid "%s file not writable."
+msgstr "%s文件不可写。"
+
+#: src/error.cls.php:124
+msgid "%s file not readable."
+msgstr "%s文件不可读。"
+
+#: src/lang.cls.php:230
+msgid "Collapse Query Strings"
+msgstr "缩短Query Strings"
+
+#: src/lang.cls.php:229
+msgid "Log Cookies"
+msgstr "记录Cookie"
+
+#: tpl/cache/settings-esi.tpl.php:7
+msgid "ESI Settings"
+msgstr "ESI设定"
+
+#: tpl/esi_widget_edit.php:74
+msgid "A TTL of 0 indicates do not cache."
+msgstr "TTL为0标明不缓存。"
+
+#: tpl/esi_widget_edit.php:73
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "推荐值：28800秒（8小时）。"
+
+#: tpl/esi_widget_edit.php:63
+msgid "Widget Cache TTL:"
+msgstr "小工具缓存TTL:"
+
+#: src/lang.cls.php:177 tpl/esi_widget_edit.php:36
+msgid "Enable ESI"
+msgstr "启用ESI"
+
+#: tpl/crawler/summary.tpl.php:50
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "访问<a %s>启用爬虫的介绍</a>以获取更多讯息。"
+
+#: src/lang.cls.php:220
+msgid "Custom Sitemap"
+msgstr "自定义站点地图"
+
+#: tpl/toolbox/purge.tpl.php:244
+msgid "Purge pages by relative or full URL."
+msgstr "清除页面基于相对或完整URL"
+
+#: tpl/crawler/summary.tpl.php:49
+msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin or hosting provider."
+msgstr "爬虫功能尚未在LiteSpeed服务器上启用。请咨询您的服务器管理员。"
+
+#: tpl/cache/settings-esi.tpl.php:35 tpl/cdn/manage.tpl.php:21
+#: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
+#: tpl/inc/check_if_network_disable_all.php:18
+#: tpl/page_optm/settings_css.tpl.php:59 tpl/page_optm/settings_css.tpl.php:165
+#: tpl/page_optm/settings_localization.tpl.php:11
+msgid "WARNING"
+msgstr "警告"
+
+#: tpl/crawler/summary.tpl.php:106
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>上次爬行:</b> %s条"
+
+#: tpl/crawler/summary.tpl.php:63
+msgid "The next complete sitemap crawl will start at"
+msgstr "下次完整的站点地图爬行将始于"
+
+#: src/file.cls.php:172
+msgid "Failed to write to %s."
+msgstr "写入%s失败。"
+
+#: src/file.cls.php:153
+msgid "Folder is not writable: %s."
+msgstr "文件夹不可写: %s."
+
+#: src/file.cls.php:145
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr "无法创建文件夹:%1$s. 错误: %2$s"
+
+#: src/file.cls.php:136
+msgid "Folder does not exist: %s"
+msgstr "文件夹不存在: %s"
+
+#: src/core.cls.php:296
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "已知会LiteSpeed服务器清除列表。"
+
+#: tpl/cache/settings-cache.tpl.php:24
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "请访问 <a %s>Information</a> 页面以了解如何测试缓存。"
+
+#: tpl/toolbox/settings-debug.tpl.php:52
+msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
+msgstr "允许列表中IP(每行一个)从它们的浏览器中执行特定操作。"
+
+#: src/lang.cls.php:217
+msgid "Server Load Limit"
+msgstr "服务器荷载上限"
+
+#: tpl/crawler/settings-general.tpl.php:105
+msgid "Specify Number of Threads to use while crawling."
+msgstr "设定爬虫运行时的线程数量。"
+
+#: tpl/crawler/settings-general.tpl.php:91
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "设定爬虫再从网站地图起始开始爬的间隔时间。"
+
+#: src/lang.cls.php:214
+msgid "Crawl Interval"
+msgstr "爬行间隔"
+
+#: src/lang.cls.php:213
+msgid "Interval Between Runs"
+msgstr "运行中的间隔"
+
+#: tpl/crawler/settings-general.tpl.php:62
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "设定爬虫每次爬行的运行时间。"
+
+#: tpl/crawler/settings-general.tpl.php:35
+msgid "Specify time in microseconds for the delay between requests during a crawl."
+msgstr "设置爬虫每次发起请求后的间隔时间。"
+
+#: tpl/crawler/settings-general.tpl.php:33
+msgid "microseconds"
+msgstr "毫秒"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:33
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "另一份WordPress(非多站点)安装在%s"
+
+#: tpl/cache/entry_network.tpl.php:18
+msgid "LiteSpeed Cache Network Cache Settings"
+msgstr "LiteSpeed缓存网络设定"
+
+#: tpl/toolbox/purge.tpl.php:179
+msgid "Select below for \"Purge by\" options."
+msgstr "选择清除选项。"
+
+#: tpl/cdn/entry.tpl.php:14
+msgid "LiteSpeed Cache CDN"
+msgstr "LiteSpeed缓存CDN"
+
+#: tpl/crawler/summary.tpl.php:221
+msgid "No crawler meta file generated yet"
+msgstr "尚无爬虫爬过的痕迹"
+
+#: tpl/crawler/summary.tpl.php:203
+msgid "Show crawler status"
+msgstr "显示爬虫状态"
+
+#: tpl/crawler/summary.tpl.php:196
+msgid "Watch Crawler Status"
+msgstr "查看爬虫状态"
+
+#: tpl/crawler/summary.tpl.php:191
+msgid "Please see <a %s>Hooking WP-Cron Into the System Task Scheduler</a> to learn how to create the system cron task."
+msgstr "请参照<a %s>Hooking WP-Cron Into the System Task Scheduler</a>了解如何创建系统cron任务。"
+
+#: tpl/crawler/summary.tpl.php:188
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "运行频率由运行中的间隔设定。"
+
+#: tpl/crawler/summary.tpl.php:114
+msgid "Manually run"
+msgstr "手动运行"
+
+#: tpl/crawler/summary.tpl.php:111
+msgid "Reset position"
+msgstr "重置位置"
+
+#: tpl/crawler/summary.tpl.php:123
+msgid "Run Frequency"
+msgstr "运行频率"
+
+#: tpl/crawler/summary.tpl.php:122
+msgid "Cron Name"
+msgstr "Cron名字"
+
+#: tpl/crawler/summary.tpl.php:42
+msgid "Crawler Cron"
+msgstr "爬虫Cron"
+
+#: tpl/crawler/summary.tpl.php:36
+msgid "%d minute"
+msgstr "%d分钟"
+
+#: tpl/crawler/summary.tpl.php:33
+msgid "%d minutes"
+msgstr "%d分钟"
+
+#: tpl/crawler/summary.tpl.php:26
+msgid "%d hour"
+msgstr "%d小时"
+
+#: tpl/crawler/summary.tpl.php:23
+msgid "%d hours"
+msgstr "%d小时"
+
+#: tpl/crawler/map.tpl.php:27
+msgid "Generated at %s"
+msgstr "生成于%s"
+
+#: tpl/crawler/entry.tpl.php:18
+msgid "LiteSpeed Cache Crawler"
+msgstr "LiteSpeed缓存爬虫"
+
+#: src/lang.cls.php:215
+msgid "Threads"
+msgstr "线程"
+
+#: src/lang.cls.php:212
+msgid "Run Duration"
+msgstr "运行时长"
+
+#: src/lang.cls.php:211
+msgid "Delay"
+msgstr "延迟"
+
+#: tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "如果您有任何问题，我们欢迎你随时来我们的<a %s>服务论坛</a>提问。"
+
+#: src/admin-display.cls.php:129 src/lang.cls.php:210
+msgid "Crawler"
+msgstr "爬虫"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: src/purge.cls.php:626
+msgid "Notified LiteSpeed Web Server to purge all pages."
+msgstr "已通知LiteSpeed网络服务器清除页面。"
+
+#: tpl/cache/settings-purge.tpl.php:18
+msgid "All pages with Recent Posts Widget"
+msgstr "所有包含最新帖部件的页面"
+
+#: tpl/cache/settings-purge.tpl.php:16
+msgid "Pages"
+msgstr "独立页面"
+
+#: tpl/toolbox/purge.tpl.php:14
+msgid "This will Purge Pages only"
+msgstr "这将只清除独立页面"
+
+#: tpl/toolbox/purge.tpl.php:13
+msgid "Purge Pages"
+msgstr "清除独立页面"
+
+#: thirdparty/woocommerce.content.tpl.php:78
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "例如，如果网站首页位于%1$s, 商城页面可能位于%2$s."
+
+#: tpl/cdn/settings.tpl.php:209
+msgid "Email Address"
+msgstr "Email 地址"
+
+#: tpl/general/settings.tpl.php:100
+msgid "Warning"
+msgstr "警告"
+
+#: src/gui.cls.php:754
+msgid "Install Now"
+msgstr "现在安装"
+
+#: cli/purge.cls.php:191
+msgid "Purged the url!"
+msgstr "清除URL！"
+
+#: cli/purge.cls.php:140
+msgid "Purged the blog!"
+msgstr "清除Blog！"
+
+#: cli/purge.cls.php:95
+msgid "Purged All!"
+msgstr "清除全部！"
+
+#: src/purge.cls.php:645
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "已通知LiteSpeed网络服务器清除错误页面。"
+
+#: tpl/inc/show_error_cookie.php:11
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "如果正在使用OpenLiteSpeed，服务器必须从新启动一次以使更改生效。"
+
+#: tpl/inc/show_error_cookie.php:7
+msgid "If not, please verify the setting in the <a href=\"%1$s\">Advanced tab</a>."
+msgstr "如果没有，请验证<a href=\"%1$s\">高级选项</a>的设置。"
+
+#: tpl/inc/show_error_cookie.php:6
+msgid "If the login cookie was recently changed in the settings, please log out and back in."
+msgstr "如果设置中登录Cookie最近有改动，请登出后从新登录。"
+
+#: tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "然而，不可能知道所有已安装的定制可能情况。"
+
+#: tpl/inc/show_display_installed.php:7
+msgid "The LiteSpeed Cache plugin is used to cache pages - a simple way to improve the performance of the site."
+msgstr "LiteSpeed缓存插件被用作缓存页面——一个简单的改善网站性能的方式。"
+
+#: tpl/cache/settings-cache.tpl.php:30
+msgid "The network admin setting can be overridden here."
+msgstr "网络管理员设置可以在这里被覆盖。"
+
+#: tpl/cache/settings-ttl.tpl.php:22
+msgid "Specify how long, in seconds, public pages are cached."
+msgstr "指定公共页面缓存的时间（以秒为单位）。"
+
+#: tpl/cache/settings-ttl.tpl.php:37
+msgid "Specify how long, in seconds, private pages are cached."
+msgstr "指定私有页面缓存的时间（以秒为单位）。"
+
+#: tpl/cache/network_settings-cache.tpl.php:18
+msgid "It is <b>STRONGLY</b> recommend that the compatibility with other plugins on a single/few sites is tested first."
+msgstr "<b>强烈</b>推荐先在单个独立站点上测试和其它插件的兼容性。"
+
+#: tpl/toolbox/purge.tpl.php:235
+msgid "Purge pages by post ID."
+msgstr "根据贴子ID清除页面。"
+
+#: tpl/toolbox/purge.tpl.php:38
+msgid "Purge the LiteSpeed cache entries created by this plugin"
+msgstr "清除此插件创建的LiteSpeed缓存条目"
+
+#: tpl/toolbox/purge.tpl.php:8
+msgid "This will Purge Front Page only"
+msgstr "这将仅清除首页"
+
+#: tpl/toolbox/purge.tpl.php:239
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "根据标签名清除页面。例如：%2$s应该被用于URL %1$s。"
+
+#: tpl/toolbox/purge.tpl.php:245
+msgid "e.g. Use %s or %s."
+msgstr "例如使用 %s 或 %s。"
+
+#: tpl/toolbox/purge.tpl.php:230
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "根据分类名清除页面。例如：%2$s应该被用于URL %1$s。"
+
+#: tpl/toolbox/purge.tpl.php:133
+msgid "If only the WordPress site should be purged, use Purge All."
+msgstr "如果只是WordPress网站需要清除，请使用清除全部。"
+
+#: src/core.cls.php:291
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "已知会LiteSpeed网页服务器清除所有缓存。"
+
+#: tpl/general/network_settings.tpl.php:20
+msgid "Use Primary Site Configuration"
+msgstr "使用主站配置"
+
+#: tpl/general/network_settings.tpl.php:25
+msgid "This will disable the settings page on all subsites."
+msgstr "这会禁用所有子站点的设置页面。"
+
+#: tpl/general/network_settings.tpl.php:24
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "选择本选项以使用主站的配置来应用到全部子站上。"
+
+#: src/admin-display.cls.php:706 src/admin-display.cls.php:711
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: tpl/inc/check_if_network_disable_all.php:21
+msgid "The following options are selected, but are not editable in this settings page."
+msgstr "在这个设置页面中下面的选项被选择，但不可修改。"
+
+#: tpl/inc/check_if_network_disable_all.php:20
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "网络管理员选择全部子站点使用首站点配置。"
+
+#: tpl/toolbox/purge.tpl.php:125
+msgid "Empty Entire Cache"
+msgstr "清空整个缓存"
+
+#: tpl/toolbox/purge.tpl.php:127
+msgid "This action should only be used if things are cached incorrectly."
+msgstr "仅当不能正常缓存时方可使用本操作。"
+
+#: tpl/toolbox/purge.tpl.php:126
+msgid "Clears all cache entries related to this site, <i>including other web applications</i>."
+msgstr "清理和这个站点相关的所有缓存入口，<i>包括其它网页应用</i>。"
+
+#: tpl/toolbox/purge.tpl.php:132
+msgid "This may cause heavy load on the server."
+msgstr "这样可能导致服务器高负荷。"
+
+#: tpl/toolbox/purge.tpl.php:131
+msgid "This will clear EVERYTHING inside the cache."
+msgstr "这将清空缓存内的所有内容。"
+
+#: src/gui.cls.php:579
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed缓存清除全部"
+
+#: tpl/inc/show_display_installed.php:19
+msgid "If you would rather not move at litespeed, you can deactivate this plugin."
+msgstr "如果您宁愿不迁移到LiteSpeed，您可以禁用本插件。"
+
+#: tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "创建一个文章，确保前台页面的精确。"
+
+#: tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "登出状态下访问本站。"
+
+#: tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "测试情况示例包括："
+
+#: tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "因为那个原因，请测试网站确保所有功能正常运行。"
+
+#: tpl/inc/show_display_installed.php:6
+msgid "This message indicates that the plugin was installed by the server admin."
+msgstr "这则消息表明本插件由服务器管理员安装。"
+
+#: tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "LiteSpeed缓存插件已经安装！"
+
+#: src/lang.cls.php:225 tpl/toolbox/log_viewer.tpl.php:7
+msgid "Debug Log"
+msgstr "Debug日志"
+
+#: tpl/toolbox/settings-debug.tpl.php:34
+msgid "Admin IP Only"
+msgstr "仅管理员IP"
+
+#: tpl/toolbox/settings-debug.tpl.php:38
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "管理员IP选项仅对来自管理员IP的请求输出日志信息。"
+
+#: tpl/cache/settings-ttl.tpl.php:82
+msgid "Specify how long, in seconds, REST calls are cached."
+msgstr "指定REST调用被缓存的时间（以秒为单位）。"
+
+#: tpl/toolbox/report.tpl.php:49
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "环境报告包含WordPress配置的所有详细信息。"
+
+#: tpl/cache/settings-purge.tpl.php:50 tpl/cache/settings-purge.tpl.php:89
+#: tpl/cache/settings-purge.tpl.php:113
+#: tpl/page_optm/settings_tuning.tpl.php:77
+msgid "Note"
+msgstr "注释"
+
+#: thirdparty/woocommerce.content.tpl.php:22
+msgid "After verifying that the cache works in general, please test the cart."
+msgstr "检查缓存正常工作后，请测试购物车。"
+
+#: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:15
+msgid "When enabled, the cache will automatically purge when any plugin, theme or the WordPress core is upgraded."
+msgstr "如果启用，当任何插件、主题或WordPress内核更新时，缓存将自动清除。"
+
+#: src/lang.cls.php:96
+msgid "Purge All On Upgrade"
+msgstr "升级时清除全部"
+
+#: thirdparty/woocommerce.content.tpl.php:72
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "在商店页面上使用首页TTL"
+
+#: thirdparty/woocommerce.content.tpl.php:43
+msgid "Product Update Interval"
+msgstr "产品更新间隔"
+
+#: thirdparty/woocommerce.content.tpl.php:77
+msgid "Checking this option will force the shop page to use the front page TTL setting."
+msgstr "勾选本项以强制商店页面使用首页TTL设置。"
+
+#: thirdparty/woocommerce.content.tpl.php:64
+msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
+msgstr "决定修改产品数量和库存状态时怎样影响产品页和它们相关的分类页。"
+
+#: thirdparty/woocommerce.content.tpl.php:51
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "当数量或库存状态改变时总是清除产品和分类页。"
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "当数量或库存状态改变时不要清除分类。"
+
+#: thirdparty/woocommerce.content.tpl.php:50
+msgid "Purge product only when the stock status changes."
+msgstr "仅当库存状态改变时清除产品页。"
+
+#: thirdparty/woocommerce.content.tpl.php:49
+msgid "Purge product and categories only when the stock status changes."
+msgstr "仅当库存状态改变时清除产品和分类页。"
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge categories only when stock status changes."
+msgstr "仅当库存状态改变时清除分类页。"
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "当数量或库存状态改变时清除产品页。"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:43
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess和配置内容不匹配。"
+
+#: tpl/cache/settings-ttl.tpl.php:68 tpl/cache/settings-ttl.tpl.php:83
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "如果设定为小于30的数，feeds将不会缓存。"
+
+#: tpl/cache/settings-ttl.tpl.php:67
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "指定feeds缓存多久，单位秒。"
+
+#: src/lang.cls.php:63
+msgid "Default Feed TTL"
+msgstr "默认Feed TTL"
+
+#: src/error.cls.php:132
+msgid "Failed to get %s file contents."
+msgstr "获取%s文件内容失败。"
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:16
+msgid "Caching these pages may improve server performance by avoiding unnecessary PHP calls."
+msgstr "缓存这些页面可以避免不必要的PHP调用，兴许能改善服务器性能。"
+
+#: tpl/cache/settings_inc.cache_resources.tpl.php:15
+msgid "Some themes and plugins add resources via a PHP request."
+msgstr "有些主题和插件通过PHP请求添加资源。"
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:15
+msgid "Caching this resource may improve server performance by avoiding unnecessary PHP calls."
+msgstr "缓存该资源可以避免不必要的PHP调用，兴许能改善服务器性能。"
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:14
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico在大多数页面都被需要。"
+
+#: src/lang.cls.php:75
+msgid "Cache favicon.ico"
+msgstr "缓存favicon.ico"
+
+#: tpl/cache/settings-cache.tpl.php:87
+msgid "Disabling this option may negatively affect performance."
+msgstr "禁用该选项或会影响性能。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:42
+msgid "Invalid login cookie. Invalid characters found."
+msgstr "无效的登录cookie。 找到无效的字符。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:56
+msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
+msgstr "警告: .htaccess中的登录cookie信息和数据库的登录cookie内容不匹配。"
+
+#: src/error.cls.php:116
+msgid "Invalid login cookie. Please check the %s file."
+msgstr "无效的登录cookie。 请检查%s文件。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:34
+msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
+msgstr "缓存需要分辨谁登录到哪个WordPress网站以正确缓存。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:31
+msgid "There is a WordPress installed for %s."
+msgstr "有一份WordPress安装到%s。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:29
+msgid "Example use case:"
+msgstr "示范使用案例："
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:26
+msgid "The cookie set here will be used for this WordPress installation."
+msgstr "本处设置的cookie将用于这个WordPress安装。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:25
+msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
+msgstr "如果所有网页应用都使用同样的cookie，服务器将混淆一个用户是否已登录。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:24
+msgid "This setting is useful for those that have multiple web applications for the same domain."
+msgstr "本设置对同一域名下有多个网页应用的情况很有用。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:22
+msgid "The default login cookie is %s."
+msgstr "默认的登录cookie是%s。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:19
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "必须是不同于其它网页应用的唯一值。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:18
+msgid "No spaces and case sensitive."
+msgstr "不能有空格，大小写敏感。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:17
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "语法: 字母数字和下划线。"
+
+#: src/lang.cls.php:187
+msgid "Login Cookie"
+msgstr "登录Cookie"
+
+#: tpl/toolbox/settings-debug.tpl.php:58
+msgid "More information about the available commands can be found here."
+msgstr "有关可用命令的更多信息，请参见此处。"
+
+#: tpl/cache/settings-advanced.tpl.php:13
+msgid "These settings are meant for ADVANCED USERS ONLY."
+msgstr "这些设置仅供高级用户使用。"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:82
+msgid "Current %s Contents"
+msgstr "当前%s内容"
+
+#: tpl/cache/entry.tpl.php:18 tpl/cache/entry_network.tpl.php:11
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Advanced"
+msgstr "高级"
+
+#: tpl/cache/network_settings-advanced.tpl.php:7
+#: tpl/cache/settings-advanced.tpl.php:7
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: tpl/toolbox/purge.tpl.php:258
+msgid "Purge List"
+msgstr "清除列表"
+
+#: tpl/toolbox/purge.tpl.php:177
+msgid "Purge By..."
+msgstr "按情况清除"
+
+#: tpl/crawler/blacklist.tpl.php:31 tpl/crawler/map.tpl.php:43
+#: tpl/toolbox/purge.tpl.php:224
+msgid "URL"
+msgstr "URL"
+
+#: tpl/toolbox/purge.tpl.php:218
+msgid "Tag"
+msgstr "标签"
+
+#: tpl/toolbox/purge.tpl.php:212
+msgid "Post ID"
+msgstr "文章ID"
+
+#: tpl/toolbox/purge.tpl.php:206
+msgid "Category"
+msgstr "分类"
+
+#: tpl/inc/show_error_cookie.php:5
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "注意: 数据库登录cookie和您的登录cookie不匹配。"
+
+#: src/purge.cls.php:730
+msgid "Purge url %s"
+msgstr "清除url %s"
+
+#: src/purge.cls.php:699
+msgid "Purge tag %s"
+msgstr "清除标签%s"
+
+#: src/purge.cls.php:672
+msgid "Purge category %s"
+msgstr "清除分类%s"
+
+#: tpl/cache/settings-cache.tpl.php:27
+msgid "When disabling the cache, all cached entries for this site will be purged."
+msgstr "禁用缓存时，本博客的全部缓存都将被清除。"
+
+#: tpl/cache/settings-cache.tpl.php:27 tpl/page_optm/entry.tpl.php:30
+msgid "NOTICE"
+msgstr "注意"
+
+#: src/doc.cls.php:104
+msgid "This setting will edit the .htaccess file."
+msgstr "这个选项将修改.htaccess文件。"
+
+#: src/error.cls.php:120
+msgid "Failed to back up %s file, aborted changes."
+msgstr "无法备份%s文件，中止更改。"
+
+#: src/lang.cls.php:185
+msgid "Do Not Cache Cookies"
+msgstr "不缓存的Cookie"
+
+#: src/lang.cls.php:186
+msgid "Do Not Cache User Agents"
+msgstr "不缓存的用户代理"
+
+#: tpl/cache/network_settings-cache.tpl.php:19
+msgid "This is to ensure compatibility prior to enabling the cache for all sites."
+msgstr "这用于确保在全部站点上激活缓存前的兼容性。"
+
+#: tpl/cache/network_settings-cache.tpl.php:13
+msgid "Network Enable Cache"
+msgstr "网络级激活缓存"
+
+#: thirdparty/woocommerce.content.tpl.php:21
+#: tpl/cache/settings-advanced.tpl.php:12
+#: tpl/cache/settings_inc.browser.tpl.php:12 tpl/toolbox/heartbeat.tpl.php:14
+#: tpl/toolbox/report.tpl.php:29
+msgid "NOTICE:"
+msgstr "注意："
+
+#: tpl/cache/settings-purge.tpl.php:53
+msgid "Other checkboxes will be ignored."
+msgstr "其它勾选框将会被无视。"
+
+#: tpl/cache/settings-purge.tpl.php:52
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "如果有动态小部件链接到除首页和主页外的文章或页面，请选择“全部”。"
+
+#: src/lang.cls.php:78 tpl/cache/settings_inc.cache_mobile.tpl.php:71
+msgid "List of Mobile User Agents"
+msgstr "移动用户代理列表"
+
+#: src/file.cls.php:160 src/file.cls.php:165
+msgid "File %s is not writable."
+msgstr "文件%s不可写。"
+
+#: tpl/page_optm/entry.tpl.php:7 tpl/page_optm/settings_js.tpl.php:7
+msgid "JS Settings"
+msgstr "JS 设置"
+
+#: src/gui.cls.php:595 tpl/cdn/entry.tpl.php:7 tpl/cdn/settings.tpl.php:194
+#: tpl/db_optm/entry.tpl.php:6
+msgid "Manage"
+msgstr "管理"
+
+#: src/lang.cls.php:62
+msgid "Default Front Page TTL"
+msgstr "默认首页TTL"
+
+#: src/purge.cls.php:613
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "已知会LiteSpeed网页服务器清除首页缓存。"
+
+#: tpl/toolbox/purge.tpl.php:7
+msgid "Purge Front Page"
+msgstr "清除首页"
+
+#: tpl/page_optm/settings_localization.tpl.php:127
+#: tpl/toolbox/beta_test.tpl.php:30
+msgid "Example"
+msgstr "例："
+
+#: tpl/cache/settings-excludes.tpl.php:89
+msgid "All tags are cached by default."
+msgstr "所有的标签默认都会被缓存。"
+
+#: tpl/cache/settings-excludes.tpl.php:56
+msgid "All categories are cached by default."
+msgstr "所有的分类默认都会被缓存。"
+
+#: src/admin-display.cls.php:1134
+msgid "To do an exact match, add %s to the end of the URL."
+msgstr "若要做精确匹配，请添加“%s”到URL的结尾。"
+
+#: src/admin-display.cls.php:1130
+msgid "The URLs will be compared to the REQUEST_URI server variable."
+msgstr "URL将会和服务器变量REQUEST_URI对比。"
+
+#: tpl/cache/settings-purge.tpl.php:54
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "只选择正使用中的存档类型，其它类型可留空。"
+
+#: tpl/toolbox/report.tpl.php:81
+msgid "Notes"
+msgstr "提示"
+
+#: tpl/cache/settings-cache.tpl.php:19
+msgid "Use Network Admin Setting"
+msgstr "使用网络管理员设定"
+
+#: tpl/esi_widget_edit.php:48
+msgid "Disable"
+msgstr "取消"
+
+#: tpl/cache/network_settings-cache.tpl.php:17
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "在此启用Wordpress专用的LiteSpeed缓存会给整个网络激活缓存。"
+
+#: tpl/cache/settings_inc.object.tpl.php:7
+msgid "Disabled"
+msgstr "不启用"
+
+#: tpl/cache/settings_inc.object.tpl.php:6
+msgid "Enabled"
+msgstr "已启用"
+
+#: src/lang.cls.php:106
+msgid "Do Not Cache Roles"
+msgstr "勿存我的规则设定"
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#. Plugin Name of the plugin
+#: tpl/banner/new_version.php:59 tpl/banner/new_version_dev.tpl.php:12
+#: tpl/cache/more_settings_tip.tpl.php:15 tpl/inc/admin_footer.php:8
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed缓存"
+
+#: tpl/toolbox/settings-debug.tpl.php:36
+msgid "Outputs to WordPress debug log."
+msgstr "输出到 WordPress debug 日志."
+
+#: src/lang.cls.php:227
+msgid "Debug Level"
+msgstr "Debug等级"
+
+#: tpl/general/settings.tpl.php:82 tpl/general/settings.tpl.php:93
+#: tpl/general/settings.tpl.php:105 tpl/general/settings.tpl.php:172
+#: tpl/general/settings.tpl.php:178 tpl/general/settings.tpl.php:184
+#: tpl/general/settings.tpl.php:190 tpl/general/settings.tpl.php:207
+msgid "Notice"
+msgstr "消息"
+
+#: tpl/cache/settings-purge.tpl.php:27
+msgid "Term archive (include category, tag, and tax)"
+msgstr "类目存档(包含分类，标签和类别)"
+
+#: tpl/cache/settings-purge.tpl.php:25
+msgid "Daily archive"
+msgstr "按日存档"
+
+#: tpl/cache/settings-purge.tpl.php:24
+msgid "Monthly archive"
+msgstr "按月存档"
+
+#: tpl/cache/settings-purge.tpl.php:23
+msgid "Yearly archive"
+msgstr "按年存档"
+
+#: tpl/cache/settings-purge.tpl.php:21
+msgid "Post type archive"
+msgstr "主题类型存档"
+
+#: tpl/cache/settings-purge.tpl.php:20
+msgid "Author archive"
+msgstr "作者存档"
+
+#: tpl/cache/settings-purge.tpl.php:15
+msgid "Home page"
+msgstr "首页"
+
+#: tpl/cache/settings-purge.tpl.php:14
+msgid "Front page"
+msgstr "静态首页"
+
+#: tpl/cache/settings-purge.tpl.php:13
+msgid "All pages"
+msgstr "所有页面"
+
+#: tpl/cache/settings-purge.tpl.php:72
+msgid "Select which pages will be automatically purged when posts are published/updated."
+msgstr "选择发表或更新文章时哪些页面将被清除。"
+
+#: tpl/cache/settings-purge.tpl.php:47
+msgid "Auto Purge Rules For Publish/Update"
+msgstr "发表/更新时的自动清除规则"
+
+#: src/lang.cls.php:60
+msgid "Default Public Cache TTL"
+msgstr "默认公开缓存的TTL"
+
+#: src/admin-display.cls.php:949 tpl/cache/settings_inc.object.tpl.php:103
+#: tpl/crawler/settings-general.tpl.php:60
+#: tpl/crawler/settings-general.tpl.php:74
+#: tpl/crawler/settings-general.tpl.php:89 tpl/esi_widget_edit.php:70
+msgid "seconds"
+msgstr "秒"
+
+#: src/lang.cls.php:226
+msgid "Admin IPs"
+msgstr "管理员 IP"
+
+#: src/admin-display.cls.php:117
+msgid "General"
+msgstr "常规"
+
+#: tpl/cache/entry.tpl.php:39
+msgid "LiteSpeed Cache Settings"
+msgstr "LiteSpeed缓存设置"
+
+#: src/purge.cls.php:211
+msgid "Notified LiteSpeed Web Server to purge all LSCache entries."
+msgstr "已知会LiteSpeed网页服务器清除全部缓存。"
+
+#: src/gui.cls.php:471 src/gui.cls.php:479 src/gui.cls.php:487
+#: src/gui.cls.php:496 src/gui.cls.php:506 src/gui.cls.php:516
+#: src/gui.cls.php:526 src/gui.cls.php:535 src/gui.cls.php:545
+#: src/gui.cls.php:555 src/gui.cls.php:621 src/gui.cls.php:629
+#: src/gui.cls.php:637 src/gui.cls.php:646 src/gui.cls.php:656
+#: src/gui.cls.php:666 src/gui.cls.php:676 src/gui.cls.php:686
+#: src/gui.cls.php:695 src/gui.cls.php:705 src/gui.cls.php:715
+#: tpl/page_optm/settings_media.tpl.php:125 tpl/toolbox/purge.tpl.php:37
+#: tpl/toolbox/purge.tpl.php:43 tpl/toolbox/purge.tpl.php:52
+#: tpl/toolbox/purge.tpl.php:61 tpl/toolbox/purge.tpl.php:70
+#: tpl/toolbox/purge.tpl.php:79 tpl/toolbox/purge.tpl.php:88
+#: tpl/toolbox/purge.tpl.php:97 tpl/toolbox/purge.tpl.php:106
+#: tpl/toolbox/purge.tpl.php:115
+msgid "Purge All"
+msgstr "清除全部"
+
+#: src/admin-display.cls.php:281 src/gui.cls.php:603
+msgid "Settings"
+msgstr "设置"

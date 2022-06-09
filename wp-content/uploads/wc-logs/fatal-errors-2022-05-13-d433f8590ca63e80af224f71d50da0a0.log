@@ -1,0 +1,60 @@
+2022-05-13T22:09:45+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php:55
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHWC_Elementor\Widgets\Widget_Archive_Title->_register_controls()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack()
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config()
+#5 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#6 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php on line 55
+
+2022-05-13T22:10:17+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php:55
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHWC_Elementor\Widgets\Widget_Archive_Title->_register_controls()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack()
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config()
+#5 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#6 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php on line 55
+
+2022-05-13T22:10:39+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php:55
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHWC_Elementor\Widgets\Widget_Archive_Title->_register_controls()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack()
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config()
+#5 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#6 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php on line 55
+
+2022-05-13T22:11:48+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Color" not found in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php:55
+Stack trace:
+#0 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): DHWC_Elementor\Widgets\Widget_Archive_Title->_register_controls()
+#1 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack()
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config()
+#5 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#6 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-admin/admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in /var/www/vhosts/minh-emliga-lada.se/httpdocs/wp-content/plugins/dhwc_elementor/includes/widgets/archive_title.php on line 55
+

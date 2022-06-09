@@ -1,0 +1,1123 @@
+# Translation of Plugins - Imagify – Optimize your Images &amp; Convert WebP - Stable (latest release) in Tagalog
+# This file is distributed under the same license as the Plugins - Imagify – Optimize your Images &amp; Convert WebP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-16 16:51:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: tl_PH\n"
+"Project-Id-Version: Plugins - Imagify – Optimize your Images &amp; Convert WebP - Stable (latest release)\n"
+
+#: classes/Optimization/Process/CustomFolders.php:72
+#: classes/Optimization/Process/WP.php:65
+#: inc/3rd-party/nextgen-gallery/classes/Optimization/Process/NGG.php:57
+#: inc/deprecated/classes/class-imagify-attachment.php:585
+msgid "This file has no backup file."
+msgstr "Ang file na ito ay walang backup file. "
+
+#: views/part-bulk-optimization-infos.php:46
+#: views/part-documentation-link.php:11
+msgid "Check our documentation."
+msgstr "Tingnan ang aming dokumentasyon."
+
+#: views/part-bulk-optimization-infos.php:45
+#: views/part-documentation-link.php:10
+msgid "Need help or have questions?"
+msgstr "Kailangan ng tulong o may mga katanungan? "
+
+#. translators: URL to a Wikipedia page explaining what EXIF means.
+#: inc/functions/common.php:251
+msgid "https://en.wikipedia.org/wiki/Exchangeable_image_file_format"
+msgstr "https://en.wikipedia.org/wiki/Exchangeable_image_file_format"
+
+#: inc/classes/class-imagify-views.php:243 inc/common/admin-bar.php:50
+msgid "Documentation"
+msgstr "Dokumentasyon"
+
+#: inc/functions/admin-ui.php:440
+msgid "You are not allowed to optimize this file."
+msgstr "Hindi ka pwedeng mag-optimize ng file na ito. "
+
+#: inc/functions/i18n.php:207
+msgid "Optimize Missing Sizes"
+msgstr "I-optimizing ang mga Nawawalang Size"
+
+#: inc/functions/api.php:233
+msgid "You have consumed all your data. You have to upgrade your account to continue."
+msgstr "Na-konsumo mo na lahat ng iyong data. Kailangan mong mag-upgrade ng iyong account upang makapagpatuloy."
+
+#: inc/functions/api.php:232
+msgid "You are not authorized to perform this action."
+msgstr "Hindi ka awtorisadong gumawa ng aksyon na ito."
+
+#: inc/functions/api.php:230
+msgid "User not valid."
+msgstr "Hindi balido ang user."
+
+#: inc/functions/api.php:229
+msgid "Unable to regenerate access token."
+msgstr "Hindi makagawa ng access token. "
+
+#: inc/functions/api.php:228
+msgid "Too many requests, please be patient."
+msgstr "Maraming mga request, mangyaring maghintay."
+
+#: inc/functions/api.php:227
+msgid "This user does not exist."
+msgstr "Ang user na ito ay hindi umiiral. "
+
+#: inc/functions/api.php:226
+msgid "This email is already registered, you should try another email."
+msgstr "Ang email na ito ay rehistrado na, mangyaring maglagay ng ibang email. "
+
+#: inc/functions/api.php:225
+msgid "Unable to retrieve the token from Data Storage API."
+msgstr "Hindi makuha ang token mula sa Data Storage API. "
+
+#: inc/functions/api.php:224
+msgid "Unable to connect to Data Storage API."
+msgstr "Hindi maka-konekta sa Data Storage API. "
+
+#: inc/functions/api.php:223
+msgid "Unable to connect to Data Storage API to get the token."
+msgstr "Hindi maka-konekta sa Data Storage API upang makuha ang token. "
+
+#: inc/functions/api.php:222
+msgid "Error uploading to Data Storage."
+msgstr "Error sa pag-upload sa Data Storage. "
+
+#: inc/functions/api.php:220
+msgid "Email field should not be empty."
+msgstr "Ang email box ay dapat hindi blanko. "
+
+#: inc/functions/api.php:219
+msgid "Coupon does not exist."
+msgstr "Hindi umiiral ang coupon. "
+
+#: inc/functions/api.php:217
+msgid "Cannot create client token."
+msgstr "Hindi makagawa ng client token."
+
+#: inc/functions/api.php:216
+msgid "Authentication not provided."
+msgstr "Hindi binigay ang kumpirmasyon."
+
+#: inc/functions/api.php:211
+msgid "Unknown error occurred."
+msgstr "May Unknown error na naganap."
+
+#. translators: %s is the plugin name.
+#: inc/functions/admin.php:326
+msgid "%s Failure Notice"
+msgstr "%s Failure Notice"
+
+#. translators: This sentense already exists in WordPress.
+#: inc/functions/admin.php:321
+msgid "Go back"
+msgstr "Bumalik"
+
+#. translators: This sentense already exists in WordPress.
+#: inc/functions/admin.php:289
+msgid "Sorry, you are not allowed to do that."
+msgstr "Paumanhin, hindi ka pinapayagang gawin iyon."
+
+#. translators: 1 is the number of thumbnails to optimize, 2 is the opening of
+#. a HTML tag that will be hidden on small screens, 3 is the closing tag.
+#: views/button/optimize-missing-sizes.php:28
+msgid "%2$sOptimize %3$s%1$d missing thumbnail"
+msgid_plural "%2$sOptimize %3$s%1$d missing thumbnails"
+msgstr[0] "%2$sI-optimize %3$s%1$d ang nawawalang thumbnail"
+msgstr[1] "%2$sI-optimize %3$s%1$d ang mga nawawalang thumbnail"
+
+#. translators: %d is a number of thumbnails.
+#: inc/deprecated/classes/class-imagify-attachment.php:611
+msgid "%d thumbnail failed to be created"
+msgid_plural "%d thumbnails failed to be created"
+msgstr[0] "%d thumbnail ang hindi nagawa"
+msgstr[1] "%d na mga thumbnail ang hindi nagawa"
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1204
+msgid "Coupon is empty."
+msgstr "Blanko ang coupon."
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1178
+msgid "Wrongly formatted response from our server."
+msgstr "Maling format ng tugon mula sa aming server."
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1063
+msgid "Empty API key."
+msgstr "Blankong API key. "
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1030
+msgid "Not a valid email address."
+msgstr "Hindi balidong email address."
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1024
+msgid "Empty email address."
+msgstr "Blankong email address."
+
+#: inc/classes/class-imagify-admin-ajax-post.php:312
+#: inc/classes/class-imagify-admin-ajax-post.php:368
+#: inc/classes/class-imagify-admin-ajax-post.php:409
+#: inc/classes/class-imagify-admin-ajax-post.php:434
+#: inc/classes/class-imagify-admin-ajax-post.php:460
+#: inc/classes/class-imagify-admin-ajax-post.php:491
+#: inc/classes/class-imagify-admin-ajax-post.php:526
+#: inc/classes/class-imagify-admin-ajax-post.php:561
+#: inc/classes/class-imagify-admin-ajax-post.php:596
+#: inc/classes/class-imagify-admin-ajax-post.php:631
+#: inc/classes/class-imagify-admin-ajax-post.php:666
+#: inc/classes/class-imagify-admin-ajax-post.php:715
+#: inc/classes/class-imagify-admin-ajax-post.php:747
+#: inc/classes/class-imagify-admin-ajax-post.php:781
+#: inc/classes/class-imagify-admin-ajax-post.php:814
+#: inc/classes/class-imagify-admin-ajax-post.php:930
+#: inc/classes/class-imagify-admin-ajax-post.php:1362
+#: inc/classes/class-imagify-admin-ajax-post.php:1368
+#: inc/classes/class-imagify-admin-ajax-post.php:1376
+#: inc/classes/class-imagify-admin-ajax-post.php:1387
+#: inc/deprecated/classes/class-imagify-admin-ajax-post-deprecated.php:120
+#: inc/deprecated/classes/class-imagify-admin-ajax-post-deprecated.php:195
+#: inc/deprecated/classes/class-imagify-regenerate-thumbnails-deprecated.php:49
+msgid "Invalid request"
+msgstr "Hindi balidong request"
+
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:415
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:419
+msgid "The main image could not be retrieved from Amazon S3."
+msgstr "Ang pangunahing imahe ay hindi makuha mula sa Amazon S3. "
+
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:401
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:405
+msgid "Files could not be sent to Amazon S3."
+msgstr "Ang mga file ay hindi maipadala sa Amazon S3. "
+
+#: inc/deprecated/classes/class-imagify-admin-ajax-post-deprecated.php:216
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:351
+#: inc/deprecated/classes/class-imagify-attachment.php:572
+#: inc/deprecated/classes/class-imagify-attachment.php:691
+#: inc/deprecated/classes/class-imagify-file-attachment.php:619
+#: inc/deprecated/classes/class-imagify-file-attachment.php:696
+msgid "This type of file is not supported."
+msgstr "Ang uri ng file na ito ay hindi suportado. "
+
+#: inc/3rd-party/nextgen-gallery/classes/Media/NGG.php:354
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:945
+msgid "%n thumbnail could not be restored."
+msgid_plural "%n thumbnails could not be restored."
+msgstr[0] "%n na thumbnail ang hindi maibalik sa orihinal."
+msgstr[1] "%n na mga thumbnail ang hindi maibalik sa orihinal."
+
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:939
+msgid "Related data could not be saved."
+msgstr "Ang kaugnayang data ay hindi ma-save."
+
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:792
+msgid "Restoration failed."
+msgstr "Ang pagbalik sa orihinal ay hindi matagumpay. "
+
+#: classes/Optimization/Process/AbstractProcess.php:898
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:778
+msgid "The image to replace is not writable."
+msgstr "Ang larawan na papalitan ay hindi writable."
+
+#: classes/Optimization/Process/AbstractProcess.php:885
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:774
+msgid "Image path and backup path are identical."
+msgstr "Ang image path at backup path ay magkapareho."
+
+#: inc/3rd-party/nextgen-gallery/classes/Media/NGG.php:284
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:764
+msgid "Image not found in NextGen Gallery data."
+msgstr "Ang imahe ay hindi mahanap sa NextGen Gallery data. "
+
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:758
+msgid "Backup image not found."
+msgstr "Hindi makita ang backup image. "
+
+#: inc/deprecated/classes/class-imagify-ngg-attachment.php:753
+msgid "Mime type not supported."
+msgstr "Hindi suportado ang Mime type. "
+
+#. translators: %s is a file path.
+#: views/page-settings.php:106
+msgid "The backup folder %s cannot be created or is not writable by the server, original images cannot be saved!"
+msgstr "And backup folder na %s ay hindi magawa o hindi masulatan ng server, ang mga orihinal na larawan ay hindi mai-save! "
+
+#. translators: %s is a file path.
+#: views/notice-backup-folder-not-writable.php:15
+msgid "The backup folder %s cannot be created. Is its parent directory writable by the server? Original images cannot be saved!"
+msgstr "And backup folder na %s ay hindi magawa. Ang parent directory ba nito ay masusulatan ng server? Hindi ma-save ang mga orihinal na larawan! "
+
+#. translators: %s is a file path.
+#: views/notice-backup-folder-not-writable.php:12
+msgid "The backup folder %s is not writable by the server, original images cannot be saved!"
+msgstr "Ang backup folder na %s ay hindi masulatan ng server, ang mga orihinal na larawan ay hindi mai-save! "
+
+#: classes/Optimization/File.php:434 inc/deprecated/deprecated.php:791
+msgid "The file could not be saved."
+msgstr "Ang file ay hindi mai-save."
+
+#: classes/Optimization/File.php:120 inc/deprecated/deprecated.php:747
+msgid "Filesystem error."
+msgstr "Filesystem error."
+
+#: inc/deprecated/deprecated.php:768
+msgid "Error while retrieving the uploads directory path."
+msgstr "Nagkaroon ng error habang kinukuha ang mga upload directory path. "
+
+#: classes/Optimization/File.php:412 inc/deprecated/deprecated.php:760
+msgid "The backup directory is not writable."
+msgstr "Hindi masulatan ang backup directory. "
+
+#: inc/deprecated/deprecated.php:752
+msgid "The file to backup does not exist."
+msgstr "Ang file na kailangang i-backup ay hindi umiiral. "
+
+#: inc/deprecated/classes/class-imagify-file-attachment.php:709
+#: inc/deprecated/deprecated.php:740
+msgid "The file path is empty."
+msgstr "Blanko ang file path."
+
+#. translators: %s is a number. Don't use %d.
+#: inc/functions/i18n.php:270
+msgid "%s error(s)"
+msgstr "%s mga error "
+
+#. translators: %s is a number. Don't use %d.
+#: inc/functions/i18n.php:267
+msgid "%s file(s)"
+msgstr "%s mga file "
+
+#: inc/functions/i18n.php:268
+msgctxt "noun"
+msgid "Notice"
+msgstr "Paunawa "
+
+#: inc/functions/i18n.php:264
+msgctxt "adjective"
+msgid "Complete"
+msgstr "Kumpleto"
+
+#: inc/functions/i18n.php:261
+msgid "Optimizing"
+msgstr "Nag-ooptimize "
+
+#: views/part-settings-library.php:90
+msgid "Choose the sizes to optimize"
+msgstr "Pumili ng mga size na io-optimize "
+
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:260
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:289
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:465
+#: inc/deprecated/classes/class-imagify-as3cf-attachment.php:470
+msgid "This size could not be retrieved from Amazon S3."
+msgstr "Ang laki ay hindi makuha mula sa Amazon S3."
+
+#. translators: 1 is a data quota, 2 is a date.
+#: inc/classes/class-imagify-admin-ajax-post.php:1111
+msgid "You have consumed all your credit for this month. You will have <strong>%1$s back on %2$s</strong>."
+msgstr "Naubos mo na lahat ang iyong mga credit para sa buwan na to. Magkakaron ka muli ng <strong>%1$s sa %2$s</strong>."
+
+#: inc/classes/class-imagify-abstract-cron.php:163
+msgid "Once Weekly"
+msgstr "Isang beses kada linggo"
+
+#. translators: 1 and 2 are optimization levels: "Original", "Normal",
+#. "Aggressive", or "Ultra".
+#: views/modal-settings-visual-comparison.php:13
+msgid "I want to compare %1$s and %2$s"
+msgstr "Gusto kong pag-kumparahin ang %1$s at %2$s"
+
+#. translators: %s is a percentage.
+#: views/page-bulk.php:76
+msgid "You optimized %s of your website's images"
+msgstr "Na-optimize mo ang %s dami ng iyong larawan sa iyong website "
+
+#. translators: %s is a formatted date.
+#: views/part-discount-banner.php:20
+msgid "Special Offer<br><strong>Until %s</strong>"
+msgstr "Special Offer<br><strong>Hanggang %s</strong>"
+
+#. translators: 1 is a percentage, 2 is a coupon code.
+#: inc/functions/i18n.php:138
+msgctxt "coupon validated"
+msgid "%1$s off with %2$s"
+msgstr "%1$s off sa %2$s"
+
+#: inc/functions/i18n.php:136
+msgid "Error with checking this coupon."
+msgstr "Nagkaroon ng error habang chine-check ang coupon na ito "
+
+#: inc/functions/i18n.php:139
+msgid "Something went wrong with getting our updated offers. Please retry later."
+msgstr "May pagkamali na naganap sa pagkuha ng aming mga updated na offer. Mangyaring subukan muli."
+
+#: views/modal-payment.php:222
+msgid "Choose a plan"
+msgstr "Pumili ng plan"
+
+#: views/modal-payment.php:200
+msgid "OK"
+msgstr "OK"
+
+#: views/modal-payment.php:199
+msgid "Coupon Code"
+msgstr "Coupon Code"
+
+#: views/modal-payment.php:194
+msgid "Checking Coupon"
+msgstr "Chine-check ang Coupon"
+
+#: views/modal-payment.php:70
+msgid "The free plan is enough to optimize your images"
+msgstr "Ang Free Plan ay sapat na upang ma-optimize ang iyong mga larawan"
+
+#: views/modal-payment.php:22
+msgid "Analyzing"
+msgstr "Naga-analyze"
+
+#: inc/functions/i18n.php:43
+msgid "You need to specify your api key!"
+msgstr "Kailangan mong ilagay ang iyong api key!"
+
+#: views/modal-payment.php:425
+msgid "This is secure 128-bits SSL encrypted payment"
+msgstr "Ito ay ligtas na 128-bits SSL encrypted payment"
+
+#: views/modal-payment.php:424
+msgid "Secure Credit Card Payment"
+msgstr "Secure Credit Card Payment"
+
+#: views/modal-payment.php:380
+msgid "Thank you for being awesome!"
+msgstr "Salamat sa pagiging dakila!"
+
+#: views/modal-payment.php:312
+msgid "Contact Us"
+msgstr "Makipag-ugnayan Sa Amin"
+
+#: views/modal-payment.php:308
+msgid "for special needs"
+msgstr "para sa mga espesyal na pangangailangan"
+
+#: views/modal-payment.php:307
+msgid "Need more?"
+msgstr "Kailangan mo pa ba? "
+
+#: views/modal-payment.php:299 views/modal-payment.php:349
+msgid "Choose plan"
+msgstr "Pumili ng Plan "
+
+#: views/modal-payment.php:284 views/modal-payment.php:345
+msgid "we recommend for you"
+msgstr "aming rekomendasyon para sa iyo "
+
+#: views/modal-payment.php:231
+msgid "One Time Plans"
+msgstr "One Time Plans"
+
+#: views/modal-payment.php:226
+msgid "Monthly Plans"
+msgstr "Monthly Plans"
+
+#: views/modal-payment.php:206
+msgid "Checkout"
+msgstr "Checkout"
+
+#: views/modal-payment.php:96 views/modal-payment.php:123
+#: views/modal-payment.php:262 views/modal-payment.php:280
+msgid "/month"
+msgstr "/buwan "
+
+#: views/modal-payment.php:82 views/modal-payment.php:248
+msgid "Monthly"
+msgstr "Kada Buwan "
+
+#: views/page-bulk.php:151 views/part-settings-account.php:58
+msgid "What plan do I need?"
+msgstr "Anong Plan ang kailangan ko? "
+
+#: views/modal-payment.php:85 views/modal-payment.php:251
+msgid "2 months free"
+msgstr "2 buwan na libre "
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1321 views/page-bulk.php:143
+#: views/part-settings-account.php:49
+msgid "You're new to Imagify?"
+msgstr "Bago ka ba sa Imagify? "
+
+#. translators: %s is a formatted file size.
+#: views/modal-payment.php:56
+msgid "You upload around %s of images per month."
+msgstr "Naga-upload ka ng mga %s na mga larawan kada buwan. "
+
+#. translators: %s is a formatted price.
+#: views/modal-payment.php:290
+msgid "%s per<br>additionnal Gb"
+msgstr "%s kada<br>adisyonal na GB"
+
+#: views/modal-payment.php:139 views/modal-payment.php:182
+msgid "Choose another plan"
+msgstr "Pumili ng ibang Plan "
+
+#: views/modal-payment.php:85 views/modal-payment.php:251
+msgid "Yearly"
+msgstr "Kada Taon "
+
+#: views/modal-payment.php:241
+msgid "Monthly plans come with credits which is renewed every months. The billing happens automatically each month or year depending the billing period you choose."
+msgstr "Ang mga Monthly plan ay may kasamang mga credit na nare-renew kada buwan. Ang billing ay awtomatiko kada buwan o kada taon depende sa billing period na iyong pinili."
+
+#. translators: %s is a formatted number (don't use %d).
+#: views/modal-payment.php:102 views/modal-payment.php:165
+#: views/modal-payment.php:268 views/modal-payment.php:333
+msgid "approx: %s images"
+msgstr "approx: %s na mga larawan "
+
+#: inc/functions/i18n.php:52
+msgid "Cancel"
+msgstr "Cancel"
+
+#. translators: %s is a formatted number. Don't use %d.
+#: views/part-bulk-optimization-infos.php:32
+msgid "If you have more than %s images, you will need to launch the bulk optimization several times."
+msgstr "Kung mayroon kang higit sa %s na mga larawan, kailangan mong i-launch ang Bulk Optimization ng ilang beses. "
+
+#. translators: 1 is a "bold" tag start, 2 is the "bold" tag end, 3 is a
+#. formatted number (don't use %3$d).
+#: views/notice-rating.php:12
+msgid "%1$sCongratulations%2$s, you have optimized %1$s%3$s images%2$s and improved your website's speed by reducing your images size."
+msgstr "%1$sCongratulations%2$s, na-optimize mo ang %1$s%3$s na mga larawan%2$s at napabilis mo ang iyong website sa pamamagitan ng pagbabago ng laki ng iyong mga larawan."
+
+#: inc/functions/i18n.php:189 views/button/compare-images.php:12
+msgid "Compare Original VS Optimized"
+msgstr "Kumparahin ang Original VS Optimized"
+
+#: inc/functions/i18n.php:113 inc/functions/i18n.php:274
+msgid "Oops, There is something wrong!"
+msgstr "Oops, mayroong mali! "
+
+#: inc/functions/i18n.php:107 inc/functions/i18n.php:253
+msgid "Imagify is still processing. Are you sure you want to leave this page?"
+msgstr "Nagpo-proseso pa ang Imagify. Sigurado ka bang nais mong umalis sa pahinang ito? "
+
+#. Plugin URI of the plugin
+#. translators: Plugin URI of the plugin/theme
+#: inc/functions/common.php:232
+msgid "https://wordpress.org/plugins/imagify/"
+msgstr "https://wordpress.org/plugins/imagify/"
+
+#. translators: %s is an optimization level.
+#: views/button/re-optimize.php:36
+msgid "Re-Optimize to %s"
+msgstr "I-optimize mula sa %s "
+
+#. Author of the plugin
+msgid "WP Media"
+msgstr "WP Media"
+
+#. Author URI of the plugin
+msgid "https://wp-media.me/"
+msgstr "https://wp-media.me/"
+
+#: views/button/retry-optimize.php:42
+msgid "Try again"
+msgstr "Subukang muli"
+
+#: inc/functions/admin-ui.php:98
+msgid "Thumbnails Optimized:"
+msgstr "Mga Thumbnail na Na-optimize: "
+
+#: inc/functions/admin-ui.php:99
+msgid "Overall Saving:"
+msgstr "Total na Saving: "
+
+#: inc/admin/meta-boxes.php:56 inc/functions/admin-ui.php:476
+#: views/button/restore.php:17
+msgid "Restoring..."
+msgstr "Nagre-restore..."
+
+#: inc/classes/class-imagify-files-list-table.php:619
+#: inc/functions/admin-ui.php:86
+msgid "Original Filesize:"
+msgstr "Original Filesize: "
+
+#: inc/functions/admin-ui.php:78 inc/functions/admin-ui.php:79
+msgid "View details"
+msgstr "Tingnan ang mga detalye "
+
+#: inc/common/admin-bar.php:77 views/part-settings-custom-folders.php:148
+#: views/part-settings-files-tree-row.php:21
+msgid "Loading..."
+msgstr "Naglo-load..."
+
+#: inc/functions/admin-ui.php:78
+msgid "Close details"
+msgstr "Isara ang mga detalye"
+
+#: inc/admin/upload.php:64 inc/classes/class-imagify-files-list-table.php:402
+msgid "Filter by status"
+msgstr "I-filter base sa status "
+
+#: inc/classes/class-imagify-files-list-table.php:624
+#: inc/functions/admin-ui.php:49
+msgid "New Filesize:"
+msgstr "Bagong Laki ng file: "
+
+#. translators: %s is WordPress.org.
+#: inc/common/admin-bar.php:62
+msgid "Rate Imagify on %s"
+msgstr "Bigyan ng rating ang Imagify sa %s "
+
+#: inc/functions/admin-ui.php:89 views/modal-settings-visual-comparison.php:62
+#: views/modal-settings-visual-comparison.php:72
+#: views/modal-settings-visual-comparison.php:92
+#: views/modal-settings-visual-comparison.php:113
+msgid "Level:"
+msgstr "Level:"
+
+#. translators: %s is a formatted file size.
+#: views/modal-settings-visual-comparison.php:32
+msgid "Original photography about %s"
+msgstr "Orihinal na photography halos %s "
+
+#: views/part-bulk-optimization-table.php:45
+msgid "Errors"
+msgstr "Mga Error"
+
+#: inc/functions/i18n.php:184 views/modal-settings-visual-comparison.php:66
+#: views/modal-settings-visual-comparison.php:76
+#: views/modal-settings-visual-comparison.php:96
+#: views/modal-settings-visual-comparison.php:117
+msgid "File Size:"
+msgstr "File Size:"
+
+#: inc/classes/class-imagify-files-list-table.php:628
+#: inc/functions/admin-ui.php:69 inc/functions/i18n.php:185
+#: views/modal-settings-visual-comparison.php:80
+#: views/modal-settings-visual-comparison.php:100
+#: views/modal-settings-visual-comparison.php:121
+msgid "Original Saving:"
+msgstr "Orihinal na Saving: "
+
+#. translators: %s is a formatted file size.
+#: views/modal-settings-visual-comparison.php:40
+#: views/modal-settings-visual-comparison.php:48
+#: views/modal-settings-visual-comparison.php:56
+msgid "Optimized photography about %s"
+msgstr "Na-optimize na photography mga %s "
+
+#: inc/functions/i18n.php:186 views/modal-payment.php:385
+#: views/modal-settings-infos.php:52 views/modal-settings-partners-infos.php:13
+#: views/modal-settings-visual-comparison.php:135
+msgid "Close"
+msgstr "Close"
+
+#: views/modal-settings-infos.php:19
+msgid "Note: the file size reduction will be less, compared to aggressive mode."
+msgstr "Nore: ang pagbawas ng laki ng file ay mas maliit, kumpara sa aggressive mode. "
+
+#: views/modal-settings-infos.php:29
+msgid "This will provide a drastic savings on the initial weight, with a small reduction in image quality. Most of the time it's not even noticeable."
+msgstr "Ito ay magbibigay ng malaking saving sa unang size, na may maliit na bawas sa kaledad ng larawan. Halos lahat ng oras, ito ay hindi kapansin-pansin."
+
+#: views/modal-settings-infos.php:26
+msgid "This mode provides perfect optimization of your images without any significant quality loss."
+msgstr "Ang mode na ito ay nagbibigay ng perpektong optimisasyon ng iyong mga larawan na walang pagkawala ng kaledad. "
+
+#: views/modal-settings-infos.php:13
+msgid "This mode provides lossless optimization, your images will be optimized without any visible change."
+msgstr "Ang mode na ito ay nagbibigay ng lossless optimization, ang iyong mga larawan ay mao-optimize nang walang kapansin-pansing pagbabago sa kaledad."
+
+#: views/modal-settings-infos.php:16
+msgid "If you want the perfect quality for your images, we recommend you that mode."
+msgstr "Kung nais mo ng perpektong kaledad ng iyong mga larawan, rekomendado namin ang mode na iyon."
+
+#: views/modal-settings-infos.php:42
+msgid "This will provide a huge savings on the initial weight. Sometimes the image quality could be degraded a little."
+msgstr "Ito ay magbibigay ng malaking katipiran sa base na laki. Minsan ang kaledad ng larawan ay mababawasan ng kaunti."
+
+#: views/modal-settings-infos.php:39
+msgid "This mode will apply all available optimizations for maximum image compression."
+msgstr "Ang mode na ito ay mag-aapply ng lahat ng mga available na optimization para sa maksimong image compression. "
+
+#: views/modal-settings-infos.php:45
+msgid "If you want the maximum weight reduction, and you agree to lose some quality on the images we recommend using this mode."
+msgstr "Kung nais mo ang maksimong pagbawas ng laki, at pumapayag ka na mawala ang ilang kaledad ng iyong mga larawan, nirerekomenda namin itong mode na ito. "
+
+#: views/modal-settings-infos.php:8
+msgid "You can choose three levels of compression"
+msgstr "Maaari kang pumili ng tatlong klase ng compression "
+
+#: views/modal-settings-infos.php:32
+msgid "If you want the maximum weight reduction, we recommend using this mode."
+msgstr "Kung nais mo ng maksimong pagbawas ng laki, rekomendado namin ang mode na ito. "
+
+#. translators: 1 is a "bold" tag start, 2 is the "bold" tag end.
+#: views/part-settings-library.php:73
+msgid "The %1$soriginal size%2$s is %1$sautomatically optimized%2$s by Imagify."
+msgstr "Anf %1$soriginal size%2$s ay %1$sawtomatikong mao-optimize%2$s ng Imagify."
+
+#: inc/classes/class-imagify-files-list-table.php:451
+#: views/page-settings.php:44
+msgid "Optimization Level"
+msgstr "Optimization Level"
+
+#. translators: 1 is a number of pixels.
+#: views/part-settings-library.php:44
+msgid "This option is recommended to reduce larger images. You can save up to 80%% after resizing. The new width should not be less than your largest thumbnail width, which is actually %dpx."
+msgstr "Ang opsyon na ito ay rekomendado upang mabawasan ng laki ang mga malalaking mga larawan. Maaari kang makatipid ng 80%% matapos magbago ng laki ng mga larawan. Ang bagong lapad ay hindi dapat mas maliit sa iyong pinakamalaking lapad ng iyong thumbnail na %dpx. "
+
+#: views/page-settings.php:87
+msgid "Automatically optimize every image you upload to WordPress."
+msgstr "Awtomatikong i-optimize ang kada larawan na iyong ia-upload sa WordPress. "
+
+#: views/page-settings.php:96
+msgid "Backup original images"
+msgstr "I-backup ang mga orihinal na larawan "
+
+#: views/part-settings-library.php:63
+msgid "Files optimization"
+msgstr "Files optimization"
+
+#: views/part-settings-library.php:17
+msgid "Resize larger images"
+msgstr "Magbago ng laki ng mga malalaking larawan"
+
+#: views/page-settings.php:114
+msgid "Learn more"
+msgstr "Learn more"
+
+#. translators: 1 is a button tag start, 2 is the button tag end.
+#: views/page-settings.php:74
+msgid "Need help to choose? %1$sTry the Visual Comparison%2$s"
+msgstr "Kailangan mo ba ng tulong pumili? %1$sSubukan ang Visual Comparison%2$s"
+
+#. translators: 1 is a text input for a number of pixels (don't use %d).
+#: views/part-settings-library.php:32
+msgid "to maximum %s pixels width"
+msgstr "sa maksimong %s pixel na lapad "
+
+#: views/page-settings.php:86
+msgid "Auto-Optimize images on upload"
+msgstr "Awtomatikong I-optimize ang mga larawan kapag nag-upload "
+
+#: views/part-settings-library.php:79
+msgid "Remember each additional image size will affect your Imagify monthly usage!"
+msgstr "Tandaan na ang kada adisyonal na laki ng larawan ay makaka-apekto sa iyong buwanang paggamit ng Imagify!"
+
+#: classes/Optimization/File.php:623 inc/deprecated/deprecated.php:629
+#: inc/functions/i18n.php:101 inc/functions/i18n.php:247
+#: views/page-settings.php:48 views/page-settings.php:189
+msgid "More info?"
+msgstr "Higit pang impormasyon? "
+
+#: views/page-settings.php:97
+msgid "Keep your original images in a separate folder before optimization process."
+msgstr "Ilagay ang iyong mga orihinal na mga larawan sa hiwalay na folder bago umpisahan ang optimization process. "
+
+#: views/part-settings-account.php:99
+msgid "API Key"
+msgstr "API Key"
+
+#: views/notice-http-block-external.php:5
+msgid "The external HTTP requests are blocked!"
+msgstr "Ang external HTTP request ay naka-block!"
+
+#: views/notice-http-block-external.php:10
+msgid "You defined the <code>WP_HTTP_BLOCK_EXTERNAL</code> constant in the <code>wp-config.php</code> to block all external HTTP requests."
+msgstr "Na-define mo ang <code>WP_HTTP_BLOCK_EXTERNAL</code> na constant sa <code>wp-config.php</code> upang i-block lahat ng mga HTTP request."
+
+#: views/notice-grid-view.php:8
+msgid "Use the List view to optimize images with Imagify."
+msgstr "Gamitin ang List View upang mag-optimize ng mga larawan gamit ang Imagify. "
+
+#: views/notice-http-block-external.php:13
+msgid "To optimize your images, you have to put the following code in your <code>wp-config.php</code> file so that it works correctly."
+msgstr "Upang ma-optimize ang iyong mga larawan, kailangan mong ilagay ang mga sumusunod na code sa iyong <code>wp-config.php</code> file upang ito ay gumana. "
+
+#: views/notice-wp-rocket.php:19
+msgid "Get WP Rocket now"
+msgstr "Mag-sign up sa WP Rocket ngayon "
+
+#: views/notice-grid-view.php:9
+msgid "Switch to the List View"
+msgstr "Magpalit sa List View "
+
+#. translators: 1 is a "bold" tag start, 2 is the "bold" tag end + a line break
+#. tag, 3 is a link tag start, 4 is the link tag end.
+#: views/notice-rating.php:23 views/part-settings-header.php:25
+msgid "%1$sDo you like this plugin?%2$s Please take a few seconds to %3$srate it on WordPress.org%4$s!"
+msgstr "%1$sGusto mo ba ang plugin na ito?%2$s Mangyaring %3$sbigyan iton ng rate sa WordPress.org%4$s!"
+
+#: views/notice-http-block-external.php:14
+msgid "Click on the field and press Ctrl-A to select all."
+msgstr "I-click ang field at pindutin anf Ctrl-A upang mapili ang lahat. "
+
+#: views/notice-wp-rocket.php:15
+msgid "Discover the best caching plugin to speed up your website."
+msgstr "Diskubrehin ang pinakamahusay na Caching Plugin na nagpapabilis ng iyong website. "
+
+#: views/notice-grid-view.php:5
+msgid "You're missing out!"
+msgstr "May malalaktawan ka! "
+
+#: views/notice-welcome-steps.php:17
+msgid "Create an Account"
+msgstr "Gumawa ng Account"
+
+#: views/notice-plugins-to-deactivate.php:15
+msgid "Deactivate"
+msgstr "Tanggalin ang Pagka-Aktibo"
+
+#: views/notice-welcome-steps.php:21
+msgid "Sign up, It's FREE!"
+msgstr "Mag-sign up, LIBRE ito! "
+
+#: views/notice-welcome-steps.php:28
+msgid "Enter your API Key"
+msgstr "Ilagay ang iyong API Key "
+
+#. translators: 1 is a link tag start, 2 is the link tag end.
+#: views/notice-welcome-steps.php:33
+msgid "Save your API Key you have received by email or you can get it on your %1$sImagify account page%2$s."
+msgstr "I-save ang iyong API Key na iyong natanggap mula sa email o kaya maaari din itong makuha sa iyong %1$sImagify account page%2$s."
+
+#: views/notice-welcome-steps.php:49
+msgid "It’s almost done! You have just to configure your optimization settings."
+msgstr "Halos tapos na! Kailangan mo na lamang baguhin ang setting ng iyong optimization. "
+
+#: views/notice-welcome-steps.php:41
+msgid "I have my API key"
+msgstr "Nasa akin ang API key ko"
+
+#: views/notice-welcome-steps.php:50
+msgid "Go to Settings"
+msgstr "Pumunta sa Settings "
+
+#: views/notice-welcome-steps.php:48
+msgid "Configure it"
+msgstr "I-kumpigura Ito "
+
+#. translators: 1 and 2 are link tag starts, 3 is a link tag end.
+#: views/notice-wrong-api-key.php:14
+msgid "Go to your Imagify account page to get your API Key and specify it on %1$syour settings%3$s or %2$screate an account for free%3$s if you don't have one yet."
+msgstr "Pumunta sa iyong Imagify account page upang kunin ang iyong API key at ilagay ito sa %1$siyong settings%3$s o %2$slibreng gumawa ng account %3$s kung wala ka pa."
+
+#: views/notice-welcome-steps.php:18
+msgid "Don't have an Imagify account yet? Optimize your images by creating an account in a few seconds!"
+msgstr "Wala ka pa bang Imagify account? Mag-optimize ng iyong mga larawan sa pamamagitan ng paggawa ng account sa ilang segundo lamang! "
+
+#: views/notice-wrong-api-key.php:5 views/part-settings-account.php:114
+msgid "Your API key isn't valid!"
+msgstr "Hindi balido ang iyong API key! "
+
+#: views/notice-plugins-to-deactivate.php:8
+msgid "The following plugin is not compatible with this plugin and may cause unexpected results:"
+msgid_plural "The following plugins are not compatible with this plugin and may cause unexpected results:"
+msgstr[0] "Ang mga sumusunod na plugin ay hindi compatible sa plugin na ito at maaaring magdulot ng mga hindi inaasahang resulta: "
+msgstr[1] ""
+
+#: views/notice-footer.php:6 views/notice-welcome-steps.php:10
+msgid "Dismiss this notice"
+msgstr "Bale-walain ang paunawa na ito "
+
+#: views/notice-welcome-steps.php:8
+msgid "Welcome to Imagify, the best way to easily optimize your images!"
+msgstr "Welcome sa Imagify, ang pinakamahusay na paraan upang madaling ma-optimize ang iyong mga larawan! "
+
+#: views/part-bulk-optimization-header-row-library.php:6
+msgid "Thumbnails optimized"
+msgstr "Mga thumbnail na na-optimize"
+
+#: views/modal-settings-visual-comparison.php:22
+#: views/modal-settings-visual-comparison.php:27
+#: views/modal-settings-visual-comparison.php:63
+#: views/part-bulk-optimization-header-row-custom-folders.php:6
+#: views/part-bulk-optimization-header-row-library.php:7
+msgid "Original"
+msgstr "Orihinal"
+
+#: views/part-bulk-optimization-header-row-custom-folders.php:8
+#: views/part-bulk-optimization-header-row-library.php:9
+msgid "Percentage"
+msgstr "Porsyento"
+
+#: views/part-bulk-optimization-header-row-library.php:10
+msgid "Overall saving"
+msgstr "Total na Saving "
+
+#: inc/classes/class-imagify-files-list-table.php:450
+#: views/part-bulk-optimization-header-row-custom-folders.php:5
+#: views/part-bulk-optimization-header-row-library.php:5
+msgid "Status"
+msgstr "Kalagayan o Katayuan"
+
+#: views/page-bulk.php:19
+msgid "Statistics"
+msgstr "Istatistika"
+
+#. translators: 1 and 2 are data sizes.
+#: views/part-bulk-optimization-success.php:22
+msgid "you saved %1$s out of %2$s"
+msgstr "Na-save mo ang %1$s mula sa %2$s"
+
+#: views/page-bulk.php:42
+msgid "Optimized size"
+msgstr "Laki ng na-optimize "
+
+#: views/part-bulk-optimization-header-row-custom-folders.php:4
+#: views/part-bulk-optimization-header-row-library.php:4
+msgid "Filename"
+msgstr "Filename"
+
+#: views/part-bulk-optimization-success.php:32
+msgid "Share your awesome result"
+msgstr "I-share ang iyong magandang resulta "
+
+#: views/page-bulk.php:37
+msgid "Original size"
+msgstr "Original size"
+
+#. translators: %s is a line break.
+#: views/page-bulk.php:56
+msgid "that's the size you saved %sby using Imagify"
+msgstr "ito ang size na na-save mo %ssa paggamit ng Imagify "
+
+#: views/part-bulk-optimization-success.php:17
+msgid "Well done!"
+msgstr "Bravo!"
+
+#: views/page-bulk.php:14
+msgid "Overview"
+msgstr "Pangkalahatang-Ideya"
+
+#: views/part-bulk-optimization-infos.php:40
+msgid "You must keep this page open while the bulk optimization is processing. If you leave you can come back to continue where it left off."
+msgstr "Kailangan mong panatilihing bukas ang pahinang ito habang nagpo-proseso ang Bulk Optimization. Kapara umalis ka, maaari kang bumalik kung san ka nagtapos. "
+
+#: inc/functions/common.php:391 views/button/re-optimize.php:22
+#: views/modal-settings-infos.php:24
+#: views/modal-settings-visual-comparison.php:24
+#: views/modal-settings-visual-comparison.php:43
+#: views/modal-settings-visual-comparison.php:93 views/page-settings.php:61
+msgid "Aggressive"
+msgstr "Aggressive"
+
+#: views/part-bulk-optimization-infos.php:27
+msgid "Please be aware that optimizing a large number of images can take a while depending on your server and network speed."
+msgstr "Mangyaring alamin na ang pag-optimize na maraming larawan ay maaaring magtagal depende sa iyong server at network speed. "
+
+#: inc/functions/common.php:389 views/button/re-optimize.php:23
+#: views/modal-settings-infos.php:37
+#: views/modal-settings-visual-comparison.php:25
+#: views/modal-settings-visual-comparison.php:51
+#: views/modal-settings-visual-comparison.php:114 views/page-settings.php:66
+msgid "Ultra"
+msgstr "Ultra"
+
+#: inc/functions/common.php:393 views/button/re-optimize.php:21
+#: views/modal-settings-infos.php:11
+#: views/modal-settings-visual-comparison.php:23
+#: views/modal-settings-visual-comparison.php:35
+#: views/modal-settings-visual-comparison.php:73 views/page-settings.php:56
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/functions/i18n.php:281
+msgid "Information"
+msgstr "Impormasyon "
+
+#: inc/classes/class-imagify-views.php:214
+#: inc/classes/class-imagify-views.php:245 inc/common/admin-bar.php:32
+#: views/part-settings-header.php:5 views/part-settings-header.php:14
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/classes/class-imagify-settings.php:443
+msgid "<strong>ERROR</strong>: options page not found."
+msgstr "<strong>ERROR</strong>: Hindi makita ang pahina ng mga opsiyon."
+
+#: inc/admin/meta-boxes.php:43
+#: inc/classes/class-imagify-files-list-table.php:728
+#: inc/functions/admin-ui.php:461
+msgid "Check your Settings"
+msgstr "I-check ang iyong Setting"
+
+#. Plugin Name of the plugin
+#: inc/admin/meta-boxes.php:38 inc/admin/meta-boxes.php:68
+#: inc/admin/upload.php:16
+msgid "Imagify"
+msgstr "Imagify"
+
+#: inc/3rd-party/nextgen-gallery/inc/admin/menu.php:18
+#: inc/classes/class-imagify-views.php:163
+#: inc/classes/class-imagify-views.php:208
+#: inc/classes/class-imagify-views.php:218
+#: inc/classes/class-imagify-views.php:244 inc/common/admin-bar.php:41
+#: views/part-bulk-optimization-header.php:3
+#: views/part-bulk-optimization-header.php:13
+msgid "Bulk Optimization"
+msgstr "Bulk Optimization"
+
+#: inc/admin/meta-boxes.php:40
+#: inc/classes/class-imagify-files-list-table.php:727
+#: inc/functions/admin-ui.php:459 inc/functions/api.php:234
+msgid "Invalid API key"
+msgstr "Hindi balidong API key "
+
+#: inc/functions/i18n.php:108 inc/functions/i18n.php:256
+msgid "Hold on!"
+msgstr "Mangyaring maghintay! "
+
+#. translators: 1 and 2 are file sizes. Don't use HTML entities here (like
+#. &nbsp;).
+#: inc/functions/i18n.php:272
+msgid "Discover @imagify, the new compression tool to optimize your images for free. I saved %1$s out of %2$s!"
+msgstr "Diskubrehin ang @imagify, ang bagong compression tool upang ma-optimize ng libre ang iyong mga larawan. Naka-save ako ng %1$s mula sa  %2$s!"
+
+#: inc/functions/i18n.php:72 inc/functions/i18n.php:111
+#: inc/functions/i18n.php:241 inc/functions/i18n.php:262
+msgid "Error"
+msgstr "Pagkakamali"
+
+#: inc/functions/i18n.php:240
+#: views/part-bulk-optimization-header-row-custom-folders.php:7
+#: views/part-bulk-optimization-header-row-library.php:8
+msgid "Optimized"
+msgstr "Na-optimize na "
+
+#: inc/functions/i18n.php:239
+msgid "Unoptimized"
+msgstr "Hindi pa na-optimize "
+
+#: inc/functions/i18n.php:34
+msgid "Sign Up"
+msgstr "Magpatala"
+
+#: inc/functions/i18n.php:254
+msgid "Please wait..."
+msgstr "Mangyaring maghintay..."
+
+#. translators: Don't use escaped HTML entities here (like &nbsp;).
+#: inc/functions/i18n.php:37 inc/functions/i18n.php:44
+#: inc/functions/i18n.php:62
+msgid "Congratulations!"
+msgstr "Congratulations!"
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1102
+msgid "View My Subscription"
+msgstr "Tingang Ang Aking Suskripsyon"
+
+#: inc/functions/i18n.php:41
+msgid "Paste your API key below:"
+msgstr "Ilagay ang iyong API key sa ibaba: "
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1129 views/page-bulk.php:101
+msgid "Your subscription:"
+msgstr "Iyong suskripsyon:"
+
+#: inc/admin/meta-boxes.php:77 inc/functions/i18n.php:190
+#: inc/functions/i18n.php:206 inc/functions/i18n.php:322
+#: views/button/optimize.php:24
+msgid "Optimize"
+msgstr "Optimize"
+
+#: inc/admin/meta-boxes.php:53
+#: inc/classes/class-imagify-files-list-table.php:735
+#: inc/functions/admin-ui.php:473 views/button/optimize-missing-sizes.php:17
+#: views/button/optimize.php:17 views/button/re-optimize.php:17
+#: views/button/retry-optimize.php:17
+msgid "Optimizing..."
+msgstr "Nago-optimize"
+
+#: inc/functions/i18n.php:45 inc/functions/i18n.php:63
+msgid "Your API key is valid. You can now configure the Imagify settings to optimize your images."
+msgstr "Balido ang iyong API key. Maaari mo nang baguhin ang mga setting ng Imagify upang makapag-optimize ng mga larawan. "
+
+#. translators: %s is a line break.
+#: inc/classes/class-imagify-admin-ajax-post.php:1101
+msgid "You have almost used all your credit.%sDon't forget to upgrade your subscription to continue optimizing your images."
+msgstr "Nagamit mo na halos ang lahat ng iyong credit.%sHuwag kalimutang i-upgrade ang iyong suskrisyon upang magpatuloy na mag-optimize ng mga larawan."
+
+#: inc/functions/i18n.php:65
+msgid "If you keep this option deactivated, you won't be able to re-optimize your images to another compression level and restore your original images in case of need."
+msgstr "Kung hinayaan mong hindi aktibo ang opsyon na ito, hindi ka makakapag-optimize muli ng iyong mga larawan sa ibang compression level, at hindi ka makakapag-restore sa original na larawan kung sakaling kailangan mo. "
+
+#: inc/functions/i18n.php:208 inc/functions/i18n.php:323
+#: views/button/restore.php:25
+msgid "Restore Original"
+msgstr "Ibalik sa Orihinal"
+
+#: inc/functions/i18n.php:42
+msgid "Connect me"
+msgstr "I-konekta ako"
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1128
+msgid "Account status"
+msgstr "Account status"
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1099
+#: inc/classes/class-imagify-admin-ajax-post.php:1319 views/page-bulk.php:141
+#: views/part-settings-account.php:47
+msgid "Oops, It's almost over!"
+msgstr "Oops, Halos ubos na! "
+
+#: inc/functions/i18n.php:33
+msgid "Enter your email to get an API key:"
+msgstr "Ilagay ang iyong email upang makakuha ng API key: "
+
+#. translators: %s is a data quota.
+#: inc/classes/class-imagify-admin-ajax-post.php:1137
+#: views/notice-almost-over-quota.php:18 views/page-bulk.php:116
+#: views/part-bulk-optimization-infos.php:11
+msgid "You have %s space credit left"
+msgstr "Mayroon ka pang %s na space credit na natitira "
+
+#: inc/functions/i18n.php:64
+msgid "Don't Need a Parachute?"
+msgstr "Di mo ba Kailangan ng Parachute? "
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1115
+msgid "Upgrade My Subscription"
+msgstr "I-upgrade ang Suskrisyon ko "
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1148
+msgid "View my subscription"
+msgstr "Tingnan ang aking suskrisyon "
+
+#. translators: Don't use escaped HTML entities here (like &nbsp;).
+#: inc/functions/i18n.php:40
+msgid "Connect to Imagify!"
+msgstr "Kumonekta sa Imagify! "
+
+#: inc/functions/i18n.php:60 views/part-settings-account.php:106
+msgid "Your API key is valid."
+msgstr "Ang iyong API key ay balido. "
+
+#: inc/functions/i18n.php:35
+msgid "You need to specify an email!"
+msgstr "Kailangan mong ilagay ang iyong email!"
+
+#. translators: Don't use escaped HTML entities here (like &nbsp;).
+#: inc/functions/i18n.php:32
+msgid "Let's get you started!"
+msgstr "Mag-umpisa na tayo!"
+
+#: inc/classes/class-imagify-admin-ajax-post.php:1108
+#: inc/classes/class-imagify-admin-ajax-post.php:1317 views/page-bulk.php:139
+#: views/part-settings-account.php:45
+msgid "Oops, It's Over!"
+msgstr "Oops, Ubos na!"
+
+#: inc/functions/i18n.php:61
+msgid "Check in progress..."
+msgstr "Nasa progreso ang pag-check..."
+
+#: inc/functions/i18n.php:38
+msgid "Your account has been successfully created. Please check your mailbox, you are going to receive an email with API key."
+msgstr "Ang iyong account ay matagumpay na nagawa. Mangyaring tingnan ang iyong mailbox, ika'y makakatanggap ng email na may API key. "

@@ -1,0 +1,2064 @@
+# Translation of Plugins - Loco Translate - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-20 06:19:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
+
+#: tpl/admin/file/conf.php:57 tpl/admin/file/head.php:34
+msgid "Save"
+msgstr "저장"
+
+#: tpl/admin/file/conf.php:48 tpl/admin/init/init-po.php:163
+msgid "Merge strings from related JSON files"
+msgstr "관련 JSON 파일의 문자열 병합"
+
+#: src/js/Strings.php:37
+msgid "%s translation copied"
+msgid_plural "%s translations copied"
+msgstr[0] "%s 번역 복사됨"
+
+#: src/admin/config/ApisController.php:66
+msgid "API URL"
+msgstr "API URL"
+
+#: tpl/admin/file/info-pot.php:31
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] "%s 단어"
+
+#. translators: Where %s is any number of strings
+#: src/gettext/Metadata.php:194 src/js/Strings.php:87
+msgid "%s string"
+msgid_plural "%s strings"
+msgstr[0] "%s 문자열"
+
+#: src/admin/file/MoveController.php:85
+msgid "%s file moved"
+msgid_plural "%s files moved"
+msgstr[0] "%s 파일 이동됨"
+
+#. translators: Where %s is the full version number of PHP
+#: tpl/admin/config/version.php:49
+msgid "PHP %s"
+msgstr "PHP %s"
+
+#: tpl/admin/init/upload.php:45
+msgid "Upload PO file"
+msgstr "PO 파일 업로드"
+
+#: tpl/admin/config/settings.php:145 tpl/admin/config/settings.php:151
+msgid "Compiling JSON files"
+msgstr "JSON 파일 컴파일"
+
+#: tpl/admin/config/settings.php:162
+msgid "Delete redundant files"
+msgstr "중복 파일 삭제"
+
+#: src/gettext/Compiler.php:136 src/gettext/Compiler.php:194
+msgid "JSON compilation failed for %s"
+msgstr "%s에 대한 JSON 컴파일 실패"
+
+#: tpl/admin/config/settings.php:156
+msgid "Pretty formatting"
+msgstr "예쁜 서식"
+
+#. translators: Where %s is the full version number of WordPress
+#: tpl/admin/config/version.php:68
+msgid "WordPress %s"
+msgstr "워드프레스 %s"
+
+#: tpl/admin/config/version.php:74
+msgid "Update Now"
+msgstr "지금 업데이트"
+
+#: src/gettext/Compiler.php:232
+msgid "PO file saved and MO/JSON files compiled"
+msgstr "PO 파일 저장 및 MO/JSON 파일 컴파일 됨"
+
+#. translators: This is HTML formatted. (1) placeholder for language code, (2)
+#. Example language code
+#: tpl/admin/init/upload.php:50
+msgid "Your file must be named as shown above where %1$s is the language code, e.g. %2$s"
+msgstr "파일 이름은 위에 표시된대로 지정해야합니다. 여기서 %1$s는 언어 코드입니다. 예: %2$s"
+
+#. translators: Indicates that POT files are optional, which is not recommended
+#: tpl/admin/config/settings.php:107
+msgid "Sync with source when template missing"
+msgstr "템플릿 누락시 소스와 동기화"
+
+#: tpl/admin/config/settings.php:99
+msgid "Fuzzy matching tolerance"
+msgstr "애매함 매칭 허용 오차"
+
+#: tpl/admin/config/settings.php:89 tpl/admin/config/settings.php:95
+msgid "Syncing PO files"
+msgstr "PO 파일 동기화 중"
+
+#: tpl/admin/help/side-bar.php:15
+msgid "Info and tutorials"
+msgstr "정보 및 튜토리얼"
+
+#: src/ajax/ApisController.php:30
+msgid "Need a human?"
+msgstr "인간이 필요하십니까?"
+
+#: src/admin/init/UploadController.php:29 tpl/admin/init/upload.php:58
+msgid "Upload"
+msgstr "업로드"
+
+#: src/admin/init/UploadController.php:52
+msgid "Upload a translation file"
+msgstr "번역 파일 업로드"
+
+#: src/admin/bundle/ViewController.php:106
+msgid "Upload PO"
+msgstr "PO 업로드"
+
+#: src/ajax/UploadController.php:70
+msgid "Your file is identical to the existing one"
+msgstr "파일이 기존 파일과 동일합니다."
+
+#. Translators: %s will be replaced with the name of a missing POT file
+#: src/ajax/SyncController.php:55
+msgid "Falling back to source extraction because %s is missing"
+msgstr "%s이(가) 없기 때문에 소스 추출로 폴백"
+
+#: tpl/admin/bundle/inc-po-table.php:60
+msgid "Move"
+msgstr "이동"
+
+#: tpl/admin/config/prefs.php:29 tpl/admin/config/prefs.php:33
+msgid "Restrict locales"
+msgstr "로케일 제한"
+
+#: src/js/Strings.php:62
+msgid "%1$s string translated via %2$s"
+msgid_plural "%1$s strings translated via %2$s"
+msgstr[0] "%2$s를 통해 번역된 %1$s 문자열"
+
+#: src/js/Strings.php:33
+msgid "%s string marked Fuzzy"
+msgid_plural "%s strings marked Fuzzy"
+msgstr[0] "애매함으로 표시된 %s 문자열"
+
+#: src/js/Strings.php:65
+msgid "%s string updated"
+msgid_plural "%s strings updated"
+msgstr[0] "%s 문자열이 업데이트되었습니다."
+
+#: src/js/Strings.php:47
+msgid "%s unique source strings."
+msgstr "%s개의 고유한 소스 문자열."
+
+#: tpl/ajax/modal-apis-empty.php:11
+msgid "Add automatic translation services in the plugin settings."
+msgstr "플러그인 설정에서 자동 번역 서비스를 추가합니다."
+
+#: src/admin/config/ApisController.php:65
+msgid "API key"
+msgstr "API 키"
+
+#: src/admin/config/ApisController.php:12
+#: src/admin/config/BaseController.php:20
+#: src/admin/config/BaseController.php:42 tpl/admin/help/tab-config-apis.php:2
+msgid "API keys"
+msgstr "API 키"
+
+#: src/admin/config/ApisController.php:67
+msgid "API region"
+msgstr "API 지역"
+
+#: tpl/ajax/modal-apis-batch.php:10
+msgid "Auto-translate this file"
+msgstr "이 파일 자동 번역"
+
+#. Translators: Button that opens window for auto-translating
+#: src/admin/file/EditController.php:205
+msgctxt "Editor"
+msgid "Auto"
+msgstr "자동"
+
+#: src/js/Strings.php:155
+msgctxt "Editor"
+msgid "Suggest translation"
+msgstr "번역 제안"
+
+#: tpl/admin/config/apis.php:118
+msgid "Important"
+msgstr "중대한"
+
+#: src/js/Strings.php:80
+msgid "Keep this translation"
+msgstr "이 번역 유지"
+
+#: src/js/Strings.php:77
+msgid "Loading suggestions"
+msgstr "제안로드 중"
+
+#: tpl/ajax/modal-apis-batch.php:29
+msgid "Mark new translations as Fuzzy"
+msgstr "새 번역을 애매함으로 표시"
+
+#: tpl/ajax/modal-apis-empty.php:9
+msgid "No translation APIs configured"
+msgstr "구성된 번역 API가 없습니다."
+
+#: src/js/Strings.php:68
+msgid "Nothing needed updating"
+msgstr "업데이트 할 필요가 없습니다."
+
+#: tpl/ajax/modal-apis-batch.php:23
+msgid "Overwrite existing translations"
+msgstr "기존 번역 덮어쓰기"
+
+#: tpl/admin/config/apis.php:121
+msgid "See full disclaimer"
+msgstr "면책 조항 전문 보기"
+
+#: src/js/Strings.php:41
+msgid "Strings up to date with %s"
+msgstr "%s의 최신 문자열"
+
+#: src/js/Strings.php:74
+msgid "Suggested translations"
+msgstr "제안된 번역"
+
+#: src/js/Strings.php:71
+msgid "Use this translation"
+msgstr "이 번역 사용"
+
+#: tpl/admin/config/apis.php:120
+msgid "Third party services are subject to their own terms of use and may incur costs from the provider"
+msgstr "타사 서비스에는 자체 사용 약관이 적용되며 제공업체로부터 비용이 발생할 수 있습니다."
+
+#: src/js/Strings.php:51
+msgid "%s characters will be sent for translation."
+msgstr "번역을 위해 %s개의 문자가 전송됩니다."
+
+#: src/js/Strings.php:152
+msgctxt "Editor"
+msgid "Toggle Fuzzy"
+msgstr "퍼지 토글"
+
+#: src/js/Strings.php:58
+msgid "Translation job aborted with %s string remaining"
+msgid_plural "Translation job aborted with %s strings remaining"
+msgstr[0] "%s 문자열이 남아 있는 상태에서 번역 작업이 중단됨."
+
+#: src/js/Strings.php:55
+msgid "Translation progress %s%%"
+msgstr "번역 진행률 %s%%"
+
+#: tpl/admin/config/settings.php:197
+msgid "Editing of POT (template) files"
+msgstr "POT (템플릿) 파일 편집"
+
+#: tpl/admin/file/move-pot.php:14
+msgid "Enter a new location for this file"
+msgstr "이 파일의 새 위치를 입력하십시오."
+
+#: src/fs/FileWriter.php:315
+msgid "Modification of POT (template) files is disallowed by the plugin settings"
+msgstr "플러그인 설정에 의해 POT (템플릿) 파일 수정이 허용되지 않습니다."
+
+#: tpl/admin/init/init-prompt.php:40
+msgid "Suggestion"
+msgstr "제안"
+
+#: tpl/admin/file/move.php:17
+msgid "The following file will be moved/renamed to the new location:"
+msgid_plural "The following files will be moved/renamed to the new location:"
+msgstr[0] "다음 파일이 새 위치로 이동 / 이름이 변경됩니다."
+
+#. translators: Warning when POT file is opened in the file editor. It can be
+#. disabled in settings.
+#: src/admin/file/EditController.php:165
+msgid "This is NOT a translation file. Manual editing of source strings is not recommended."
+msgstr "이것은 번역 파일이 아닙니다. 소스 문자열의 수동 편집은 권장되지 않습니다."
+
+#: tpl/admin/bundle/alias.php:14
+msgid "This plugin doesn't have its own translation files, but can be translated in the default text domain"
+msgstr "이 플러그인에는 자체 번역 파일이 없지만 기본 텍스트 도메인에서 번역 할 수 있습니다."
+
+#: tpl/admin/init/init-prompt.php:42
+msgid "You can use existing translations as a template using the Copy feature."
+msgstr "복사 기능을 사용하여 기존 번역을 템플릿으로 사용할 수 있습니다."
+
+#: tpl/admin/file/move-po.php:14
+msgid "Choose a new location for these translations"
+msgstr "이 번역을 위한 새 위치를 선택하세요."
+
+#: tpl/admin/file/move.php:14
+msgid "Confirm relocation"
+msgstr "위치 이동 확인"
+
+#: tpl/admin/config/settings.php:81
+msgid "Enable Ajax file uploads"
+msgstr "Ajax 파일 업로드 활성화"
+
+#: tpl/admin/config/settings.php:81
+msgid "Recommended"
+msgstr "추천"
+
+#: src/admin/file/MoveController.php:89
+msgid "%s file could not be moved"
+msgid_plural "%s files could not be moved"
+msgstr[0] "%s 파일을 이동할 수 없습니다."
+
+#: src/admin/file/MoveController.php:106 src/admin/file/MoveController.php:133
+msgid "Move %s"
+msgstr "%s 이동"
+
+#: tpl/admin/file/move.php:24
+msgid "Move files"
+msgstr "파일 이동"
+
+#: src/admin/file/BaseController.php:122
+msgid "Relocate"
+msgstr "위치 이동"
+
+#: src/ajax/FsConnectController.php:127
+msgid "This directory is managed by WordPress. Removed files may be restored during updates"
+msgstr "이 디렉토리는 워드프레스에서 관리합니다. 제거된 파일은 업데이트 중에 복원 될 수 있습니다."
+
+#: src/ajax/FsConnectController.php:160
+msgid "This move operation requires permission"
+msgstr "이 이동 작업에는 권한이 필요합니다."
+
+#: src/fs/FileWriter.php:245
+msgid "Parent directory isn't writable"
+msgstr "부모 디렉터리가 쓰기 가능하지 않습니다."
+
+#: tpl/admin/errors/file-sec.php:14
+msgid "Access to this file is blocked for security reasons"
+msgstr "보안상의 이유로 이 파일에 대한 접근이 차단되었습니다."
+
+#: tpl/admin/errors/file-sec.php:11
+msgid "File access disallowed"
+msgstr "파일 접근이 허용되지 않음"
+
+#: tpl/admin/common/inc-fsconn.php:28
+msgid "File is protected by the bundle configuration"
+msgstr "번들 구성에 의해 파일이 보호됨"
+
+#: tpl/admin/config/version.php:18 tpl/admin/config/version.php:75
+msgid "Install manually"
+msgstr "수동으로 설치"
+
+#: tpl/admin/help/side-bar.php:9
+msgid "Official plugin page"
+msgstr "공식 플러그인 페이지"
+
+#: tpl/admin/common/inc-fsconn.php:27
+msgid "Read only"
+msgstr "읽기 전용"
+
+#: src/admin/bundle/ViewController.php:115
+msgid "View template"
+msgstr "템플릿 보기"
+
+#: tpl/admin/config/version.php:14
+msgid "A newer version of Loco Translate is available for download"
+msgstr "최신 버전의 Loco Translate를 다운로드 할 수 있습니다."
+
+#: src/admin/init/InitPoController.php:243
+msgid "Assign template"
+msgstr "템플릿 할당"
+
+#: tpl/admin/config/settings.php:43
+msgid "Scan JavaScript files with extensions:"
+msgstr "확장자가있는 자바스크립트 파일 스캔 :"
+
+#: src/js/Strings.php:149
+msgctxt "Editor"
+msgid "Translated"
+msgstr "번역됨"
+
+#: src/js/Strings.php:146
+msgctxt "Editor"
+msgid "Untranslated"
+msgstr "번역되지 않음"
+
+#: src/hooks/AdminHooks.php:66
+msgid "Administrators and auditors may wish to review Loco's <a href=\"%s\">plugin privacy notice</a>."
+msgstr "관리자와 감사자는 Loco의 <a href=\"%s\">플러그인 개인 정보 보호 정책</a> 을 검토 할 수 있습니다."
+
+#: src/hooks/AdminHooks.php:64
+msgid "This plugin doesn't collect any data from public website visitors."
+msgstr "이 플러그인은 공개 웹 사이트 방문자로부터 데이터를 수집하지 않습니다."
+
+#: tpl/admin/bundle/inc-po-table.php:51 tpl/admin/bundle/locale.php:66
+msgid "View"
+msgstr "보기"
+
+#: tpl/admin/file/diff.php:17
+msgctxt "Button label for a next revision"
+msgid "Next"
+msgstr "다음"
+
+#: tpl/admin/file/diff.php:14
+msgctxt "Button label for a previous revision"
+msgid "Previous"
+msgstr "이전"
+
+#: tpl/admin/errors/no-backups.php:18
+msgid "File backups are disabled in your plugin settings"
+msgstr "플러그인 설정에서 파일 백업이 비활성화되어 있습니다."
+
+#: tpl/admin/file/info-mo.php:18 tpl/admin/file/info-po.php:24
+#: tpl/admin/file/info-pot.php:21
+msgid "File size"
+msgstr "파일 크기"
+
+#: tpl/admin/list/locales.php:22
+msgid "Files found"
+msgstr "찾은 파일"
+
+#: tpl/admin/file/info.php:110
+msgid "Files in this location can be modified or deleted by WordPress automatic updates"
+msgstr "이 위치의 파일은 워드프레스 자동 업데이트로 수정 또는 삭제할 수 있습니다."
+
+#: tpl/admin/list/locales.php:16
+msgid "Locale code"
+msgstr "로케일 코드"
+
+#: tpl/admin/list/locales.php:13
+msgid "Locale name"
+msgstr "로케일 이름"
+
+#: tpl/admin/errors/no-locale.php:11
+msgid "No files found for this language"
+msgstr "이 언어에 대한 파일이 없습니다."
+
+#: tpl/admin/errors/no-backups.php:12
+msgid "No previous file revisions"
+msgstr "이전 파일 수정 없음"
+
+#: tpl/admin/list/locales.php:25
+msgid "Site language"
+msgstr "사이트 언어"
+
+#: tpl/admin/root.php:12
+msgid "The language of this site is %s."
+msgstr "이 사이트의 언어는 %s입니다."
+
+#: tpl/admin/file/info.php:107
+msgid "WordPress updates"
+msgstr "워드프레스 업데이트"
+
+#: tpl/admin/root.php:14
+msgid "Your admin language is %s."
+msgstr "관리자 언어는 %s입니다."
+
+#: tpl/admin/file/diff.php:6
+msgctxt "revision date short format"
+msgid "j M @ H:i"
+msgstr "m/d @ H:i"
+
+#: tpl/admin/errors/no-backups.php:16
+msgid "Backup files will be written when you save translations from Loco Translate editor"
+msgstr "Loco Translate 편집기에서 번역을 저장하면 백업 파일이 작성됩니다."
+
+#: src/admin/config/SettingsController.php:67
+msgid "Allow (with warning)"
+msgstr "허용 (경고 포함)"
+
+#: src/ajax/FsConnectController.php:130
+msgid "Changes to this file may be overwritten or deleted when you update WordPress"
+msgstr "이 파일의 변경 사항은 워드프레스를 업데이트 할 때 덮어 쓰거나 삭제될 수 있습니다."
+
+#: tpl/admin/common/inc-fsconn.php:56
+msgid "Click \"Connect\" to authenticate with the server"
+msgstr "\"연결\"을 클릭하여 서버 인증"
+
+#: src/admin/config/SettingsController.php:68
+msgid "Disallow"
+msgstr "금지"
+
+#: src/mvc/AdminRouter.php:59
+msgid "Languages"
+msgstr "언어"
+
+#. translators: Page title for installed languages page
+#: src/mvc/AdminRouter.php:61
+msgid "Languages &lsaquo; Loco"
+msgstr "언어 &lsaquo; Loco"
+
+#: tpl/admin/config/settings.php:187
+msgid "Modification of installed files"
+msgstr "설치된 파일 수정"
+
+#: src/fs/FileWriter.php:310
+msgid "Modification of installed files is disallowed by the plugin settings"
+msgstr "설치된 파일의 수정은 플러그인 설정에 의해 허용되지 않습니다."
+
+#: src/admin/bundle/LocaleController.php:129
+msgid "No core translation files are installed for this language"
+msgstr "이 언어에 대한 코어 번역 파일이 설치되지 않았습니다."
+
+#: src/admin/file/BaseController.php:121 tpl/admin/file/diff.php:31
+msgid "Restore"
+msgstr "복원"
+
+#: src/admin/file/DiffController.php:58 src/admin/file/DiffController.php:76
+msgid "Restore %s"
+msgstr "%s 복원"
+
+#: tpl/admin/config/settings.php:181
+msgid "Save credentials in session"
+msgstr "세션에 자격 증명 저장"
+
+#: src/admin/bundle/LocaleController.php:137
+msgid "See all core translations"
+msgstr "모든 코어 번역 보기"
+
+#: src/admin/config/SettingsController.php:66
+msgid "Allow"
+msgstr "허용"
+
+#: tpl/admin/config/settings.php:170 tpl/admin/config/settings.php:176
+msgid "File system access"
+msgstr "파일 시스템 접근"
+
+#. translators: Where %s is a file name
+#: src/ajax/DiffController.php:47
+msgid "Revisions are identical, you can delete %s"
+msgstr "리비전이 동일합니다. %s을(를) 삭제할 수 있습니다."
+
+#. translators: Where %s is the name of the invalid POT file
+#: src/admin/file/EditController.php:123 src/ajax/SyncController.php:72
+msgid "Translation template is invalid (%s)"
+msgstr "번역 템플릿이 유효하지 않습니다 (%s)."
+
+#: src/admin/file/DiffController.php:35
+msgid "File restored"
+msgstr "파일 복원됨"
+
+#: src/admin/bundle/LocaleController.php:130
+#: src/admin/file/EditController.php:118 src/admin/file/EditController.php:167
+#: tpl/admin/common/inc-fsconn.php:16 tpl/admin/common/inc-fsconn.php:41
+#: tpl/admin/config/apis.php:128 tpl/admin/config/prefs.php:45
+#: tpl/admin/config/settings.php:234 tpl/admin/errors/no-backups.php:22
+msgid "Documentation"
+msgstr "문서"
+
+#: src/ajax/FsConnectController.php:154
+msgid "Creating this file requires permission"
+msgstr "이 파일을 만들려면 권한이 필요합니다."
+
+#: src/ajax/FsConnectController.php:157
+msgid "Deleting this file requires permission"
+msgstr "이 파일을 삭제하려면 권한이 필요합니다."
+
+#: src/ajax/FsConnectController.php:163
+msgid "Saving this file requires permission"
+msgstr "이 파일을 저장하려면 권한이 필요합니다."
+
+#: src/ajax/FsConnectController.php:124
+msgid "This directory is managed by WordPress, be careful what you delete"
+msgstr "이 디렉토리는 워드프레스에서 관리합니다. 삭제시 주의하세요."
+
+#: src/ajax/FsConnectController.php:121
+msgid "This file may be overwritten or deleted when you update WordPress"
+msgstr "이 파일은 워드프레스를 업데이트 할 때 덮어 쓰거나 삭제 될 수 있습니다."
+
+#. Translators: Plural category for zero quantity
+#: src/Locale.php:412
+msgctxt "Plural category"
+msgid "Zero"
+msgstr "없음"
+
+#: tpl/admin/init/init-prompt.php:46
+msgid "See FAQ"
+msgstr "FAQ 보기"
+
+#: src/admin/init/InitPoController.php:321 tpl/admin/file/info.php:113
+msgid "What's this?"
+msgstr "이것은 무엇입니까?"
+
+#. Translators: (1) Number of files (2) Maximum size of file that will be
+#. included (3) Size of the largest encountered
+#: src/ajax/SyncController.php:98
+msgid "%1$s file has been skipped because it's %3$s. (Max is %2$s). Check all strings are present before saving."
+msgid_plural "%1$s files over %2$s have been skipped. (Largest is %3$s). Check all strings are present before saving."
+msgstr[0] "%1$s 파일은 %3$s이기 때문에 건너 뛰었습니다. (최대 값은 %2$s입니다). 저장하기 전에 모든 문자열이 있는지 확인하십시오."
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:18
+msgid "largest is %s"
+msgstr "가장 큰 것은 %s"
+
+#: tpl/admin/config/settings.php:68
+msgid "Maximum line length (zero disables wrapping)"
+msgstr "최대 줄 길이 (0은 줄 바꿈을 비활성화 함)"
+
+#. Translators: Plural category for singular quantity
+#: src/Locale.php:414
+msgctxt "Plural category"
+msgid "One"
+msgstr "하나"
+
+#. Translators: General plural category not covered by other forms
+#: src/Locale.php:422
+msgctxt "Plural category"
+msgid "Other"
+msgstr "기타"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:416
+msgctxt "Plural category"
+msgid "Two"
+msgstr "둘"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:418
+msgctxt "Plural category"
+msgid "Few"
+msgstr "적음"
+
+#. Translators: Plural category used in some multi-plural languages
+#: src/Locale.php:420
+msgctxt "Plural category"
+msgid "Many"
+msgstr "많음"
+
+#: src/admin/bundle/ConfController.php:95
+msgid "Child theme declares the same Text Domain as the parent theme"
+msgstr "자식 테마가 부모 테마와 동일한 텍스트 도메인을 선언하고 있습니다."
+
+#: tpl/admin/config/version.php:28
+msgid "You're running a development snapshot of Loco Translate"
+msgstr "Loco Translate의 개발 스냅샷을 실행 중입니다."
+
+#: src/admin/bundle/LocaleController.php:146 src/admin/Navigation.php:44
+#: src/mvc/AdminRouter.php:49
+msgid "Plugins"
+msgstr "플러그인"
+
+#: src/admin/bundle/LocaleController.php:141 src/admin/Navigation.php:41
+#: src/mvc/AdminRouter.php:44
+msgid "Themes"
+msgstr "테마"
+
+#. Translators: Button for downloading a PO, MO or POT file
+#: src/admin/file/EditController.php:207
+msgctxt "Editor"
+msgid "Download"
+msgstr "다운로드"
+
+#. Translators: button for removing a string when manually editing a POT file
+#: src/admin/file/EditController.php:196
+msgctxt "Editor"
+msgid "Remove"
+msgstr "제거"
+
+#: src/error/Warning.php:19 src/js/Strings.php:105
+msgid "Warning"
+msgstr "경고"
+
+#: src/error/Success.php:19 src/js/Strings.php:111
+msgid "OK"
+msgstr "확인"
+
+#: src/error/Exception.php:164 src/js/Strings.php:102
+msgid "Error"
+msgstr "오류"
+
+#: src/js/Strings.php:167
+msgctxt "Editor"
+msgid "Translation"
+msgstr "번역"
+
+#: tpl/admin/bundle/alias.php:11
+msgid "\"Hello Dolly\" is part of the WordPress core"
+msgstr "\"Hello Dolly\"는 워드프레스 코어의 일부입니다."
+
+#. translators: 1: Number of strings; 2: Text Domain; e.g. 100 strings
+#. extracted from source code for "loco-translate"
+#: src/package/Debugger.php:187
+msgid "%1$s string extracted from source code for \"%2$s\""
+msgid_plural "%1$s strings extracted from source code for \"%2$s\""
+msgstr[0] "\"%2$s\"에 대한 소스 코드에서 추출된 %1$s 문자열"
+
+#. translators: 1: Number of strings; 2: Name of POT file; e.g. "100 strings
+#. found in file.pot"
+#: src/admin/init/InitPoController.php:198
+msgid "%1$s string found in %2$s"
+msgid_plural "%1$s strings found in %2$s"
+msgstr[0] "%2$s에서 %1$s 문자열을 찾았습니다."
+
+#: src/admin/file/DeleteController.php:99
+msgid "%s dependent file will also be deleted"
+msgid_plural "%s dependent files will also be deleted"
+msgstr[0] "%s 개의 종속 파일도 삭제됩니다."
+
+#. Translators: Where %s is the type of file, e.g. "po"
+#: tpl/admin/file/info.php:24
+msgid "%s file is writeable"
+msgstr "%s 파일이 쓰기 가능합니다."
+
+#. Translators: Where %s is the size of a file
+#: tpl/admin/init/init-pot.php:16
+msgid "%s on disk"
+msgstr "디스크의 %s"
+
+#: tpl/admin/init/init-pot.php:42 tpl/admin/init/init-prompt.php:33
+msgid "About templates"
+msgstr "템플릿 정보"
+
+#: tpl/admin/errors/no-tokenizer.php:11
+msgid "About the Tokenizer"
+msgstr "Tokenizer 정보"
+
+#: tpl/admin/root.php:35
+msgid "Active theme:"
+msgstr "활성 테마 :"
+
+#: tpl/admin/bundle/conf.php:142
+msgid "Add set"
+msgstr "세트 추가"
+
+#: tpl/admin/config/settings.php:75
+msgid "Add UTF-8 byte order mark"
+msgstr "UTF-8 바이트 주문 표시 추가"
+
+#: tpl/admin/bundle/view.php:29
+msgid "Additional files found"
+msgstr "추가 파일 발견"
+
+#: src/admin/bundle/BaseController.php:110 tpl/admin/file/conf.php:58
+#: tpl/admin/file/move.php:26
+msgid "Advanced"
+msgstr "많은"
+
+#: src/admin/bundle/ConfController.php:140 tpl/admin/bundle/setup/core.php:17
+#: tpl/admin/bundle/setup/inc-nav.php:19
+msgid "Advanced configuration"
+msgstr "고급 구성"
+
+#: src/admin/bundle/ConfController.php:55
+msgid "Advanced tab"
+msgstr "고급 탭"
+
+#: src/mvc/AjaxRouter.php:174
+msgid "Ajax controller returned empty JSON"
+msgstr "Ajax 컨트롤러가 빈 JSON을 반환했습니다."
+
+#: src/mvc/AjaxRouter.php:169
+msgid "Ajax route not found: \"%s\""
+msgstr "Ajax 경로를 찾을 수 없음 : \"%s\""
+
+#: tpl/admin/config/settings.php:216
+msgid "Allow full access to these roles"
+msgstr "이러한 역할에 대한 전체 액세스 허용"
+
+#: tpl/admin/file/delete.php:16
+msgid "Are you sure you want to <strong>permanently</strong> delete the following file?"
+msgstr "다음 파일을 <strong>영구적으로</strong> 삭제하시겠습니까?"
+
+#: tpl/admin/bundle/setup.php:12
+msgid "Author details"
+msgstr "작성자 세부 정보"
+
+#: tpl/admin/init/init-po.php:67
+msgid "Available languages"
+msgstr "사용 가능한 언어"
+
+#: tpl/admin/file/info-po.php:47
+msgid "Binary file missing"
+msgstr "바이너리 파일이 없습니다."
+
+#: tpl/admin/bundle/conf.php:128
+msgid "Blocked paths"
+msgstr "차단된 경로"
+
+#: tpl/admin/bundle/setup/core.php:10 tpl/admin/bundle/setup/meta.php:11
+msgid "Bundle auto-configured"
+msgstr "번들 자동 구성"
+
+#: tpl/admin/bundle/setup/saved.php:11
+msgid "Bundle configuration saved"
+msgstr "번들 구성이 저장되었습니다."
+
+#: src/admin/bundle/DebugController.php:24
+msgid "Bundle diagnostics"
+msgstr "번들 진단"
+
+#: tpl/admin/bundle/locale.php:32 tpl/admin/list/inc-table.php:11
+msgid "Bundle name"
+msgstr "번들 이름"
+
+#: src/admin/bundle/SetupController.php:35
+msgid "Bundle setup"
+msgstr "번들 설정"
+
+#: tpl/admin/bundle/setup/conf.php:12
+msgid "Check config repository"
+msgstr "구성 저장소 확인"
+
+#: src/js/Strings.php:117
+msgid "Check console output for debugging information"
+msgstr "디버깅 정보에 대한 콘솔 출력 확인"
+
+#: tpl/admin/init/init-po.php:48
+msgid "Choose a language"
+msgstr "언어를 선택하세요"
+
+#: tpl/admin/init/init-po.php:93 tpl/admin/init/upload.php:15
+msgid "Choose a location"
+msgstr "위치 선택"
+
+#. Translators: %s is a URL. Keep the <a> tag intact
+#: tpl/admin/bundle/view.php:35 tpl/admin/bundle/view.php:57
+msgid "Click the <a href=\"%s\">setup</a> tab to complete the bundle configuration"
+msgstr "<a href=\"%s\">설정</a> 탭을 클릭하여 번들 구성을 완료하십시오."
+
+#: tpl/admin/file/info-mo.php:27
+msgid "Compiled translations"
+msgstr "컴파일된 번역"
+
+#: src/admin/bundle/BaseController.php:53
+msgid "Configuration reset"
+msgstr "구성 재설정"
+
+#: src/admin/bundle/BaseController.php:38
+msgid "Configuration saved"
+msgstr "구성이 저장되었습니다."
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/ConfController.php:16
+msgid "Configure %s"
+msgstr "%s 구성"
+
+#: tpl/admin/file/delete.php:12
+msgid "Confirm delete"
+msgstr "삭제 확인"
+
+#: src/ajax/FsConnectController.php:117
+msgid "Connected to remote file system"
+msgstr "원격 파일 시스템에 연결됨"
+
+#: tpl/admin/file/conf.php:32 tpl/admin/init/init-po.php:147
+msgid "Copy target translations from \"%s\""
+msgstr "\"%s\"에서 대상 번역 복사"
+
+#. translators: Page title for core WordPress translations
+#: src/mvc/AdminRouter.php:56
+msgid "Core translations &lsaquo; Loco"
+msgstr "코어 번역 &lsaquo; Loco"
+
+#: src/admin/bundle/ViewController.php:132
+#: src/admin/init/InitPoController.php:217 tpl/admin/init/init-pot.php:40
+msgid "Create template"
+msgstr "템플릿 만들기"
+
+#: tpl/admin/init/init-po.php:13
+msgid "Create template instead"
+msgstr "대신 템플릿 만들기"
+
+#: tpl/admin/init/init-po.php:79
+msgid "Custom language"
+msgstr "맞춤 언어"
+
+#: src/admin/bundle/BaseController.php:113
+#: src/admin/config/BaseController.php:24
+#: src/admin/config/DebugController.php:12 src/error/Debug.php:19
+msgid "Debug"
+msgstr "디버그"
+
+#: src/admin/file/BaseController.php:123 tpl/admin/bundle/inc-po-table.php:63
+#: tpl/admin/bundle/locale.php:75 tpl/admin/file/diff.php:32
+msgid "Delete"
+msgstr "삭제"
+
+#: src/admin/file/DeleteController.php:76
+#: src/admin/file/DeleteController.php:94
+msgid "Delete %s"
+msgstr "%s 삭제"
+
+#. Translators: Help tip for "Project name" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:35
+msgid "Descriptive name for this set of translatable strings"
+msgstr "이 번역 가능한 문자열 세트를 설명하는 이름"
+
+#: tpl/admin/file/info.php:55
+msgid "Directory doesn't exist"
+msgstr "디렉토리가 없습니다."
+
+#: tpl/admin/file/info.php:69
+msgid "Directory is writeable"
+msgstr "디렉토리에 쓰기 가능"
+
+#: tpl/admin/bundle/conf.php:81
+msgid "Domain path"
+msgstr "도메인 경로"
+
+#: src/mvc/AjaxRouter.php:197
+msgid "Download action not found"
+msgstr "다운로드 작업을 찾을 수 없습니다."
+
+#: src/mvc/AjaxRouter.php:202
+msgid "Download controller returned empty output"
+msgstr "다운로드 컨트롤러가 빈 출력을 반환했습니다."
+
+#: tpl/admin/bundle/inc-po-table.php:48 tpl/admin/bundle/locale.php:63
+msgid "Edit"
+msgstr "편집하다"
+
+#: tpl/admin/bundle/setup/saved.php:19
+msgid "Edit config"
+msgstr "구성 수정"
+
+#: src/admin/bundle/ViewController.php:123
+msgid "Edit template"
+msgstr "템플릿 수정"
+
+#. translators: %1$s is the file name, %2$s is the bundle name
+#: src/admin/file/EditController.php:18
+msgid "Editing %1$s in %2$s"
+msgstr "%2$s에서 %1$s 수정"
+
+#: src/admin/file/BaseController.php:118
+msgid "Editor"
+msgstr "편집기"
+
+#: src/js/Strings.php:131
+msgctxt "Editor"
+msgid "%s translation"
+msgstr "%s 번역"
+
+#. Translators: button for adding a new string when manually editing a POT file
+#: src/admin/file/EditController.php:194
+msgctxt "Editor"
+msgid "Add"
+msgstr "더하다"
+
+#: src/js/Strings.php:137
+msgctxt "Editor"
+msgid "Comments"
+msgstr "코멘트"
+
+#: src/js/Strings.php:134
+msgctxt "Editor"
+msgid "Context"
+msgstr "문맥"
+
+#: src/js/Strings.php:143 src/Locale.php:404
+msgctxt "Editor"
+msgid "Plural"
+msgstr "복수형"
+
+#. Translators: Button that reloads current screen
+#: src/admin/file/EditController.php:203
+msgctxt "Editor"
+msgid "Revert"
+msgstr "되돌리기"
+
+#. Translators: Button that saves translations to disk
+#: src/admin/file/EditController.php:199
+msgctxt "Editor"
+msgid "Save"
+msgstr "저장"
+
+#: src/js/Strings.php:140 src/Locale.php:403
+msgctxt "Editor"
+msgid "Single"
+msgstr "단일"
+
+#. Translators: Button that runs in-editor sync/operation
+#: src/admin/file/EditController.php:201
+msgctxt "Editor"
+msgid "Sync"
+msgstr "동기화"
+
+#. Translators: Button that toggles between "code" and regular text editing
+#. modes
+#: src/admin/file/EditController.php:213
+msgctxt "Editor"
+msgid "Toggle code view"
+msgstr "코드 화면 전환"
+
+#. Translators: Button that toggles invisible characters
+#: src/admin/file/EditController.php:211
+msgctxt "Editor"
+msgid "Toggle invisibles"
+msgstr "미표시 전환"
+
+#: tpl/admin/errors/file-missing.php:14
+msgid "Either this file is missing or the server doesn't have permission to access it"
+msgstr "이 파일이 없거나 서버에 액세스 권한이 없습니다."
+
+#: tpl/admin/bundle/conf.php:89 tpl/admin/bundle/conf.php:108
+msgid "Exclude"
+msgstr "들어오지 못하게 하다"
+
+#. Translators: (1) Number of files excluded (2) the maximum size of file that
+#. was included
+#: tpl/admin/init/init-pot.php:24
+msgid "Excludes %1$s file over %2$s"
+msgid_plural "Excludes %1$s files over %2$s"
+msgstr[0] "%2$s 이상의 %1$s 파일 제외"
+
+#: tpl/admin/config/settings.php:21 tpl/admin/config/settings.php:27
+msgid "Extracting strings"
+msgstr "문자열 추출"
+
+#: src/fs/FileWriter.php:294
+msgid "Failed to build directory path"
+msgstr "디렉토리 경로를 작성하지 못했습니다."
+
+#: src/fs/FileWriter.php:132
+msgid "Failed to chmod %s"
+msgstr "%s을(를) chmod하지 못했습니다."
+
+#: src/fs/FileWriter.php:52
+msgid "Failed to connect to remote server"
+msgstr "원격 서버에 연결하지 못했습니다."
+
+#: src/fs/FileWriter.php:160
+msgid "Failed to copy %s to %s"
+msgstr "%s을(를) %s에 복사하지 못했습니다."
+
+#: src/fs/FileWriter.php:286
+msgid "Failed to create directory"
+msgstr "디렉토리를 생성하지 못했습니다."
+
+#: src/fs/FileWriter.php:198
+msgid "Failed to delete %s"
+msgstr "%s을(를) 삭제하지 못했습니다."
+
+#: src/fs/FileWriter.php:249
+msgid "Failed to save file"
+msgstr "파일을 저장하지 못했습니다."
+
+#: src/admin/file/InfoController.php:169
+msgid "File does not have a valid header"
+msgstr "파일에 유효한 헤더가 없습니다."
+
+#: tpl/admin/file/info.php:14
+msgid "File doesn't exist"
+msgstr "파일이 없습니다."
+
+#: src/admin/file/BaseController.php:120 tpl/admin/bundle/inc-po-table.php:22
+#: tpl/admin/bundle/locale.php:43
+msgid "File info"
+msgstr "파일 정보"
+
+#: tpl/admin/errors/file-isdir.php:11
+msgid "File is a directory"
+msgstr "파일은 디렉토리입니다."
+
+#: tpl/admin/file/view-mo.php:11
+msgid "File is in binary MO format"
+msgstr "파일이 바이너리 MO 형식입니다."
+
+#. Translators: Refers to bundled plugin or theme translation files - i.e.
+#. those supplied by the author
+#: src/fs/LocaleDirectory.php:63
+msgctxt "File location"
+msgid "Author"
+msgstr "작성자"
+
+#. Translators: Refers to translation files in an alternative location that
+#. isn't Author, System or Custom.
+#: src/fs/LocaleDirectory.php:72
+msgctxt "File location"
+msgid "Other"
+msgstr "기타"
+
+#. Translators: Refers to system-installed translation files - i.e. those under
+#. WP_LANG_DIR
+#: src/fs/LocaleDirectory.php:66
+msgctxt "File location"
+msgid "System"
+msgstr "시스템"
+
+#: src/fs/FileWriter.php:305
+msgid "File modification is disallowed by your WordPress config"
+msgstr "워드프레스 구성에서 파일 수정을 허용하지 않습니다."
+
+#: tpl/admin/file/info-mo.php:21 tpl/admin/file/info-po.php:27
+#: tpl/admin/file/info-pot.php:24
+msgid "File modified"
+msgstr "수정된 파일"
+
+#: tpl/admin/errors/file-missing.php:11
+msgid "File not found"
+msgstr "파일을 찾을 수 없습니다"
+
+#: tpl/admin/bundle/conf.php:53
+msgid "File prefix"
+msgstr "파일 접두사"
+
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#: tpl/admin/bundle/conf.php:113
+msgid "Files and folders within the bundle that contain localized PHP code"
+msgstr "현지화된 PHP 코드를 포함하는 번들 내의 파일 및 폴더"
+
+#. translators: text field placeholder
+#: tpl/admin/common/inc-table-filter.php:6
+msgid "Filter..."
+msgstr "필터..."
+
+#: tpl/admin/bundle/setup/conf.php:27
+msgid "Find config"
+msgstr "구성 찾기"
+
+#: tpl/admin/bundle/inc-po-table.php:28 tpl/admin/bundle/locale.php:49
+msgid "Folder"
+msgstr "폴더"
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94
+msgid "Folders within the bundle that contain author-supplied translations"
+msgstr "작성자가 제공한 번역이 포함된 번들 내의 폴더"
+
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:134
+msgid "Folders within the bundle that will never be searched for files"
+msgstr "파일을 검색하지 않을 번들 내의 폴더"
+
+#: tpl/admin/help/tab-config-apis.php:9 tpl/admin/help/tab-config.php:9
+msgid "Full documentation"
+msgstr "전체 문서"
+
+#: tpl/admin/bundle/setup/inc-nav.php:25
+msgid "Get help with this"
+msgstr "이에 대한 도움 받기"
+
+#: tpl/admin/bundle/alias.php:17
+msgid "Go to WordPress Core"
+msgstr "워드프레스 코어로 이동"
+
+#: tpl/admin/config/settings.php:210
+msgid "Grant access to roles"
+msgstr "역할에 대한 액세스 권한 부여"
+
+#. Translators: button for removing a string when manually editing a POT file
+#: src/admin/file/EditController.php:197 src/ajax/ApisController.php:26
+msgid "Help"
+msgstr "도움"
+
+#: src/mvc/AdminController.php:52
+msgid "Help & support"
+msgstr "도움말 & 지원"
+
+#: src/mvc/AdminRouter.php:42
+msgid "Home"
+msgstr "홈"
+
+#. Author URI of the plugin
+msgid "https://localise.biz/wordpress/plugin"
+msgstr "https://localise.biz/wordpress/plugin"
+
+#: tpl/admin/bundle/setup.php:15
+msgid "If you have trouble translating this bundle, consider asking the author for help"
+msgstr "이 번들을 번역하는 데 문제가 있으면 작성자에게 도움을 요청하세요."
+
+#: tpl/admin/bundle/setup/conf.php:49
+msgid "If you've been given a configuration file by a developer, paste the XML code here"
+msgstr "개발자로부터 구성 파일을받은 경우 여기에 XML 코드를 붙여 넣으십시오."
+
+#: tpl/admin/bundle/setup/inc-nav.php:22
+msgid "Import config from XML"
+msgstr "XML에서 구성 가져 오기"
+
+#: tpl/admin/file/info-po.php:60
+msgid "In sync with template"
+msgstr "템플릿과 동기화"
+
+#: tpl/admin/bundle/conf.php:85 tpl/admin/bundle/conf.php:104
+msgid "Include"
+msgstr "포함"
+
+#: tpl/admin/bundle/inc-po-table.php:54 tpl/admin/bundle/locale.php:69
+msgid "Info"
+msgstr "정보"
+
+#: src/admin/init/InitPoController.php:108
+msgid "Initializing new translations in \"%s\""
+msgstr "\"%s\"에서 새 번역 초기화"
+
+#: src/admin/init/InitPoController.php:112
+msgid "Initializing new translations in unknown set"
+msgstr "알 수없는 세트에서 새 번역 초기화"
+
+#: src/admin/bundle/LocaleController.php:116
+#: src/admin/list/LocalesController.php:35 tpl/admin/init/init-po.php:61
+msgid "Installed languages"
+msgstr "설치된 언어"
+
+#: src/Locale.php:330
+msgid "Invalid locale"
+msgstr "잘못된 로케일"
+
+#. translators: relative time when something happened in the last 30 seconds
+#: src/mvc/FileParams.php:151
+msgid "Just now"
+msgstr "방금"
+
+#: tpl/admin/bundle/inc-po-table.php:13
+msgid "Language"
+msgstr "언어"
+
+#: src/admin/file/InfoController.php:176
+msgid "Language header is \"%s\" but file name contains \"%s\""
+msgstr "언어 헤더는 \"%s\"(이)지만 파일 이름에 \"%s\"이(가) 있습니다."
+
+#: tpl/admin/file/info-pot.php:27
+msgid "Last extracted"
+msgstr "마지막 추출"
+
+#: tpl/admin/bundle/inc-po-table.php:25 tpl/admin/bundle/locale.php:46
+#: tpl/admin/list/inc-table.php:17 tpl/admin/list/locales.php:19
+msgid "Last modified"
+msgstr "마지막 수정"
+
+#: tpl/admin/file/info-mo.php:24 tpl/admin/file/info-po.php:30
+msgid "Last translation"
+msgstr "마지막 번역"
+
+#: tpl/admin/bundle/conf.php:71 tpl/admin/common/inc-fsconn.php:12
+msgid "Locked"
+msgstr "잠김"
+
+#: src/output/Buffer.php:129
+msgid "Loco interrupted by output from %s:%u"
+msgstr "%s : %u의 출력으로 인해 Loco가 중단되었습니다."
+
+#: tpl/admin/file/info-po.php:84
+msgid "Missing template"
+msgstr "템플릿 누락"
+
+#: src/ajax/MsginitController.php:63
+msgid "MO file exists for this language already. Delete it first"
+msgstr "이 언어에 대한 MO 파일이 이미 있습니다. 먼저 삭제하십시오"
+
+#: src/admin/bundle/ViewController.php:98 src/admin/file/BaseController.php:142
+#: src/admin/init/InitPoController.php:16
+#: src/admin/init/InitPoController.php:115
+msgid "New language"
+msgstr "새 언어"
+
+#: src/admin/init/InitPotController.php:16
+msgid "New template"
+msgstr "새 템플릿"
+
+#: src/admin/init/InitPotController.php:105
+msgid "New template file"
+msgstr "새 템플릿 파일"
+
+#: src/admin/init/InitPotController.php:106
+msgid "New translations template for \"%s\""
+msgstr "\"%s\"에 대한 새 번역 템플릿"
+
+#: tpl/admin/init/init-po.php:60
+msgid "No language selected"
+msgstr "선택한 언어가 없습니다."
+
+#: tpl/admin/bundle/inc-po-table.php:108
+msgid "No translations found for \"%s\""
+msgstr "\"%s\"에 대한 번역이 없습니다."
+
+#. Translators: Help tip for "Domain path" field in advanced bundle config
+#. Translators: Help tip for "Source file paths" field in advanced bundle
+#. config
+#. Translators: Help tip for "Blocked paths" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:94 tpl/admin/bundle/conf.php:113
+#: tpl/admin/bundle/conf.php:134
+msgid "no wildcards"
+msgstr "와일드카드 없음"
+
+#: tpl/admin/config/settings.php:75 tpl/admin/config/settings.php:182
+msgid "Not recommended"
+msgstr "권장하지 않음"
+
+#: tpl/admin/file/info.php:81
+msgid "Note that the file may not be deletable due to additional ownership permissions"
+msgstr "추가 소유권 권한으로 인해 파일을 삭제하지 못할 수 있습니다."
+
+#: src/js/Strings.php:14
+msgid "Nothing matches the text filter"
+msgstr "텍스트 필터와 일치하는 항목이 없습니다."
+
+#: src/error/Notice.php:20 src/js/Strings.php:108
+#: tpl/admin/common/inc-fsconn.php:37
+msgid "Notice"
+msgstr "주의"
+
+#: tpl/admin/bundle/setup/author.php:11
+msgid "Official configuration"
+msgstr "공식 구성"
+
+#: tpl/admin/bundle/setup/conf.php:34
+msgid "OK, Load this config"
+msgstr "좋습니다. 이 구성을로드합니다."
+
+#: tpl/admin/file/info-po.php:71
+msgid "Out of sync with template"
+msgstr "템플릿과 동기화되지 않음"
+
+#: src/admin/bundle/BaseController.php:108
+#: src/admin/bundle/LocaleController.php:34
+#: src/admin/bundle/ViewController.php:25
+#: src/admin/config/BaseController.php:41 src/admin/file/EditController.php:27
+#: src/admin/file/InfoController.php:26 src/admin/file/ViewController.php:26
+#: src/admin/init/InitPoController.php:25
+#: src/admin/init/InitPotController.php:25 src/admin/list/BaseController.php:45
+#: src/admin/list/LocalesController.php:24 src/admin/RootController.php:12
+msgid "Overview"
+msgstr "개요"
+
+#: src/mvc/AdminRouter.php:241
+msgid "Page not found"
+msgstr "페이지를 찾을 수 없습니다"
+
+#: tpl/admin/bundle/conf.php:144
+msgid "Parent theme"
+msgstr "부모 테마"
+
+#: tpl/admin/bundle/setup/partial.php:11
+msgid "Partially configured bundle"
+msgstr "부분적으로 구성된 번들"
+
+#: tpl/admin/bundle/inc-po-table.php:19 tpl/admin/bundle/locale.php:39
+msgid "Pending"
+msgstr "보류 중"
+
+#: src/fs/FileWriter.php:239
+msgid "Permission denied to update file"
+msgstr "파일 업데이트 권한이 거부되었습니다."
+
+#: src/package/Plugin.php:233
+msgid "Plugin not found: %s"
+msgstr "플러그인을 찾을 수 없음 : %s"
+
+#: src/admin/config/ApisController.php:59
+#: src/admin/config/PrefsController.php:42
+#: src/admin/config/SettingsController.php:79
+#: src/admin/config/VersionController.php:22 src/mvc/AdminRouter.php:66
+#: tpl/admin/help/tab-config.php:2
+msgid "Plugin settings"
+msgstr "플러그인 설정"
+
+#. translators: Page title for plugin translations
+#: src/mvc/AdminRouter.php:51
+msgid "Plugin translations &lsaquo; Loco"
+msgstr "플러그인 번역 &lsaquo; Loco"
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:75
+msgid "PO file has different source strings to \"%s\". Try running Sync before making any changes."
+msgstr "PO 파일에 \"%s\"와 (과) 다른 소스 문자열이 있습니다. 변경하기 전에 동기화를 실행 해보십시오."
+
+#: tpl/admin/file/info-mo.php:38
+msgid "PO file missing"
+msgstr "PO 파일 누락"
+
+#: src/gettext/Compiler.php:235
+msgid "PO file saved and MO file compiled"
+msgstr "PO 파일 저장 및 MO 파일 컴파일"
+
+#: src/gettext/Compiler.php:107
+msgid "PO file saved, but MO file compilation failed"
+msgstr "PO 파일이 저장되었지만 MO 파일 컴파일에 실패했습니다."
+
+#: tpl/admin/bundle/conf.php:29
+msgid "Project name"
+msgstr "프로젝트 이름"
+
+#: src/js/Strings.php:120
+msgid "Provide the following text when reporting a problem"
+msgstr "문제를보고 할 때 다음 텍스트를 제공하십시오."
+
+#: tpl/admin/root.php:23
+msgid "Recently updated:"
+msgstr "최근 업데이트 :"
+
+#: src/fs/FileWriter.php:150
+msgid "Refusing to copy over an existing file"
+msgstr "기존 파일 복사 거부"
+
+#. Translators: Help tip for "Template file" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:75
+msgid "Relative path from bundle root to the official POT file"
+msgstr "번들 루트에서 공식 POT 파일까지의 상대 경로"
+
+#: tpl/admin/bundle/conf.php:159 tpl/admin/bundle/setup/saved.php:18
+msgid "Reset config"
+msgstr "구성 초기화"
+
+#: tpl/admin/root.php:47
+msgid "Running plugins:"
+msgstr "플러그인 실행 :"
+
+#: tpl/admin/bundle/conf.php:141
+msgid "Save config"
+msgstr "구성 저장"
+
+#: tpl/admin/config/settings.php:52 tpl/admin/config/settings.php:58
+msgid "Saving PO/POT files"
+msgstr "PO / POT 파일 저장"
+
+#: tpl/admin/config/settings.php:37
+msgid "Scan PHP files with extensions:"
+msgstr "확장자가 있는 PHP 파일 스캔 :"
+
+#: src/admin/bundle/LocaleController.php:147 tpl/admin/root.php:54
+msgid "See all plugins"
+msgstr "모든 플러그인 보기"
+
+#: src/js/Strings.php:114
+msgid "Server returned invalid data"
+msgstr "서버에서 잘못된 데이터를 반환했습니다."
+
+#. translators: where %s is a plugin or theme
+#: src/admin/bundle/SetupController.php:15
+msgid "Set up %s"
+msgstr "%s 설정"
+
+#: tpl/admin/list/inc-table.php:20
+msgid "Sets"
+msgstr "세트"
+
+#: src/admin/bundle/BaseController.php:109
+msgid "Setup"
+msgstr "설정"
+
+#: src/admin/bundle/SetupController.php:25
+msgid "Setup tab"
+msgstr "설정 탭"
+
+#: src/admin/config/BaseController.php:18
+msgid "Site options"
+msgstr "사이트 옵션"
+
+#: tpl/admin/config/settings.php:31
+msgid "Skip PHP files larger than:"
+msgstr "다음보다 큰 PHP 파일은 건너뜁니다."
+
+#: src/admin/init/InitPoController.php:233
+msgid "Skip template"
+msgstr "템플릿 건너뛰기"
+
+#: src/admin/file/BaseController.php:119
+msgid "Source"
+msgstr "원본"
+
+#: tpl/admin/bundle/conf.php:100
+msgid "Source file paths"
+msgstr "소스 파일 경로"
+
+#: tpl/admin/init/init-pot.php:12
+msgid "Source files to scan:"
+msgstr "스캔 할 소스 파일 :"
+
+#: tpl/admin/init/init-po.php:183
+msgid "Start translating"
+msgstr "번역 시작"
+
+#: tpl/admin/init/init-pot.php:30
+msgid "Strings will be extracted to:"
+msgstr "문자열은 다음 위치로 추출됩니다."
+
+#: tpl/admin/help/side-bar.php:12
+msgid "Support forum"
+msgstr "지원 포럼"
+
+#: src/admin/config/DebugController.php:47
+msgid "System diagnostics"
+msgstr "시스템 진단"
+
+#: src/admin/init/InitPotController.php:57
+msgid "Template file already exists"
+msgstr "템플릿 파일이 이미 있습니다."
+
+#: src/ajax/XgettextController.php:67
+msgid "Template file created"
+msgstr "생성된 템플릿 파일"
+
+#: tpl/admin/init/init-prompt.php:16
+msgid "Template missing"
+msgstr "템플릿 누락"
+
+#: tpl/admin/file/conf.php:12 tpl/admin/init/init-po.php:136
+msgid "Template options"
+msgstr "템플릿 옵션"
+
+#: tpl/admin/bundle/conf.php:41 tpl/admin/list/inc-table.php:14
+msgid "Text domain"
+msgstr "텍스트 도메인"
+
+#: src/config/FormModel.php:146
+msgid "Text Domain cannot be empty"
+msgstr "텍스트 도메인은 비워 둘 수 없습니다."
+
+#. Translators: "either" meaning that the file itself can't exist without a
+#. containing directory
+#: tpl/admin/file/info.php:59
+msgid "The containing directory for this file doesn't exist either"
+msgstr "이 파일의 포함 디렉토리도 존재하지 않습니다."
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:73
+msgid "The containing directory is writeable by %s, so you can add new files in the same location"
+msgstr "포함하는 디렉토리는 %s가 쓸 수 있으므로 동일한 위치에 새 파일을 추가 할 수 있습니다."
+
+#. Translators: Help tip for "Text domain" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:47
+msgid "The namespace into which WordPress will load translated strings"
+msgstr "워드프레스 가 번역된 문자열을 로드할 네임 스페이스"
+
+#. translators: used when user name of web server process is unknown
+#: src/compat/PosixExtension.php:111
+msgid "the web server"
+msgstr "웹 서버"
+
+#. translators: Page title for theme translations
+#: src/mvc/AdminRouter.php:46
+msgid "Theme translations &lsaquo; Loco"
+msgstr "테마 번역 &lsaquo; 로코"
+
+#: tpl/admin/root.php:50
+msgid "These plugins have recently loaded translation files into the admin area"
+msgstr "이 플러그인은 최근 번역 파일을 관리 영역에로드했습니다."
+
+#: tpl/admin/init/init-prompt.php:24
+msgid "This bundle doesn't define a translations template file"
+msgstr "이 번들은 번역 템플릿 파일을 정의하지 않습니다."
+
+#: tpl/admin/bundle/view.php:32
+msgid "This bundle isn't fully configured, so we don't know what the following files are for"
+msgstr "이 번들은 완전히 구성되지 않았으므로 다음 파일의 용도를 알 수 없습니다."
+
+#: tpl/admin/bundle/setup/none.php:14
+msgid "This bundle isn't set up for translation in a way we understand"
+msgstr "이 번들은 Google이 이해하는 방식으로 번역하도록 설정되지 않았습니다."
+
+#: tpl/admin/bundle/setup/meta.php:14
+msgid "This bundle's configuration has been automatically detected and seems to be fully compatible"
+msgstr "이 번들의 구성은 자동으로 감지되었으며 완전히 호환되는 것 같습니다."
+
+#: tpl/admin/bundle/setup/partial.php:14
+msgid "This bundle's configuration has been automatically detected, but isn't fully complete"
+msgstr "이 번들의 구성이 자동으로 감지되었지만 완전히 완료되지 않았습니다."
+
+#: tpl/admin/bundle/setup/core.php:13
+msgid "This bundle's configuration is built into Loco"
+msgstr "이 번들의 구성은 Loco에 내장되어 있습니다."
+
+#: tpl/admin/bundle/setup/author.php:14
+msgid "This bundle's configuration is provided by the author"
+msgstr "이 번들의 구성은 작성자가 제공합니다."
+
+#: tpl/admin/bundle/setup/saved.php:14
+msgid "This bundle's configuration is saved in the WordPress database"
+msgstr "이 번들의 구성은 워드프레스 데이터베이스에 저장됩니다."
+
+#: tpl/admin/init/init-prompt.php:20
+msgid "This bundle's template file doesn't exist yet. We recommend you create it before adding languages"
+msgstr "이 번들의 템플릿 파일이 아직 존재하지 않습니다. 언어를 추가하기 전에 생성하는 것이 좋습니다."
+
+#: tpl/admin/file/info.php:92
+msgid "This directory can't be written to directly by the web server"
+msgstr "이 디렉토리는 웹 서버에서 직접 쓸 수 없습니다."
+
+#: tpl/admin/file/info.php:39
+msgid "This file can't be updated directly by the web server"
+msgstr "이 파일은 웹 서버에서 직접 업데이트 할 수 없습니다."
+
+#: tpl/admin/bundle/debug.php:8
+msgid "This information is for developers to find problems in the bundle setup"
+msgstr "이 정보는 개발자가 번들 설정에서 문제를 찾기위한 것입니다."
+
+#: tpl/admin/errors/file-isdir.php:14
+msgid "This page was expecting a file, but the path is actually a directory"
+msgstr "이 페이지는 파일을 예상했지만 경로는 실제로 디렉토리입니다."
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:96
+msgid "To create new files here you'll have to connect to the remote file system, or make the directory writeable by %s"
+msgstr "여기에서 새 파일을 만들려면 원격 파일 시스템에 연결하거나 %s가 디렉토리를 쓸 수 있도록해야합니다."
+
+#: src/admin/list/PluginsController.php:12
+msgid "Translate plugins"
+msgstr "플러그인 번역"
+
+#: src/admin/list/ThemesController.php:14
+msgid "Translate themes"
+msgstr "테마 번역"
+
+#: tpl/admin/bundle/inc-po-table.php:16 tpl/admin/bundle/locale.php:36
+#: tpl/admin/file/info-po.php:33
+msgid "Translation progress"
+msgstr "번역 진행"
+
+#: src/admin/file/EditController.php:117
+msgid "Translations don't match template. Run sync to update from %s"
+msgstr "번역이 템플릿과 일치하지 않습니다. 동기화를 실행하여 %s에서 업데이트"
+
+#: tpl/admin/root.php:26
+msgid "Translations have been recently modified in the following bundles"
+msgstr "최근 다음 번들에서 번역이 수정되었습니다."
+
+#: tpl/admin/config/prefs.php:16 tpl/admin/config/prefs.php:20
+msgid "Translator credit"
+msgstr "번역자 크레딧"
+
+#: tpl/admin/bundle/view.php:52
+msgid "unconfigured"
+msgstr "구성되지 않음"
+
+#: tpl/admin/bundle/setup/none.php:11
+msgid "Unconfigured bundle"
+msgstr "구성되지 않은 번들"
+
+#: tpl/admin/file/info-other.php:11
+msgid "Unexpected file type"
+msgstr "예기치 않은 파일 형식"
+
+#: src/admin/file/InfoController.php:137 src/package/Header.php:86
+msgid "Unknown author"
+msgstr "알 수 없는 작성자"
+
+#: tpl/admin/config/version.php:17
+msgid "Upgrade to %s"
+msgstr "%s로 업그레이드"
+
+#: src/admin/config/BaseController.php:19
+#: src/admin/config/PrefsController.php:13 src/mvc/AdminRouter.php:71
+msgid "User options"
+msgstr "사용자 옵션"
+
+#: tpl/admin/help/tab-config.php:6
+msgid "User options apply to your WordPress login, across all sites"
+msgstr "사용자 옵션은 모든 사이트에서 워드프레스 로그인에 적용됩니다."
+
+#: src/data/Permissions.php:155
+msgctxt "User role"
+msgid "Translator"
+msgstr "번역자"
+
+#. Translators: Help tip for "File prefix" field in advanced bundle config
+#: tpl/admin/bundle/conf.php:59
+msgid "Usually the same as the text domain, but don't leave blank unless you mean to"
+msgstr "일반적으로 텍스트 도메인과 동일하지만 다음을 의미하지 않는 한 비워두지 마십시오."
+
+#: src/admin/config/BaseController.php:21
+#: src/admin/config/VersionController.php:13
+msgid "Version"
+msgstr "버전"
+
+#: tpl/admin/config/version.php:11 tpl/admin/config/version.php:25
+#: tpl/admin/config/version.php:35
+msgid "Version %s"
+msgstr "버전 %s"
+
+#: src/package/Header.php:92
+msgid "Visit official site"
+msgstr "공식 사이트 방문"
+
+#: tpl/admin/file/info-po.php:50
+msgid "We can't find the binary MO file that belongs with these translations"
+msgstr "이 번역에 속하는 바이너리 MO 파일을 찾을 수 없습니다."
+
+#: tpl/admin/file/info-mo.php:41
+msgid "We can't find the original PO file from which this was compiled"
+msgstr "컴파일된 원본 PO 파일을 찾을 수 없습니다."
+
+#: src/mvc/AdminRouter.php:54 tpl/admin/bundle/setup/conf.php:20
+msgid "WordPress"
+msgstr "워드프레스"
+
+#: src/admin/bundle/LocaleController.php:136 src/package/Core.php:87
+msgid "WordPress Core"
+msgstr "워드프레스 코어"
+
+#: src/package/Core.php:26
+msgid "WordPress core"
+msgstr "워드프레스 코어"
+
+#: tpl/admin/init/init-po.php:55
+msgid "WordPress language"
+msgstr "워드프레스 언어"
+
+#. Translators: When a file or folder cannot be modified due to filesystem
+#. permissions
+#: tpl/admin/common/inc-fsconn.php:50 tpl/admin/file/info.php:36
+#: tpl/admin/file/info.php:89
+msgid "Write protected"
+msgstr "쓰기 금지"
+
+#: tpl/admin/bundle/conf.php:146
+msgid "XML"
+msgstr "XML"
+
+#: src/error/XmlParseException.php:8
+msgid "XML parse error"
+msgstr "XML 구문 분석 오류"
+
+#: tpl/admin/bundle/setup/conf.php:46
+msgid "XML setup"
+msgstr "XML 설정"
+
+#: src/config/XMLModel.php:42
+msgid "XML supplied is empty"
+msgstr "제공된 XML이 비어 있습니다."
+
+#: tpl/admin/errors/no-tokenizer.php:25
+msgid "You can still translate any bundle that has a <a href=\"%s\" target=\"_blank\">template</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">템플릿</a> 이있는 모든 번들을 번역 할 수 있습니다."
+
+#: tpl/admin/file/info.php:27
+msgid "You can update these translations directly from the editor to the file system"
+msgstr "이러한 번역을 편집기에서 파일 시스템으로 직접 업데이트 할 수 있습니다."
+
+#: tpl/admin/init/init-po.php:12
+msgid "You're creating translations directly from source code"
+msgstr "소스 코드에서 직접 번역을 만들고 있습니다."
+
+#: src/admin/bundle/LocaleController.php:142 tpl/admin/root.php:39
+msgid "See all themes"
+msgstr "모든 테마 보기"
+
+#: tpl/admin/init/init-po.php:173
+msgid "Use this file as template when running Sync"
+msgstr "동기화를 실행할 때 이 파일을 템플릿으로 사용"
+
+#: tpl/admin/file/conf.php:38 tpl/admin/init/init-po.php:153
+msgid "Just copy English source strings"
+msgstr "영어 원본 문자열만 복사"
+
+#. Translators: Where %s is the name (or number) of an operating system user
+#: tpl/admin/file/info.php:43
+msgid "To make changes you'll have to connect to the remote file system, or make the file writeable by %s"
+msgstr "변경하려면 원격 파일 시스템에 연결하거나 %s에서 파일을 쓸 수 있도록 해야 합니다."
+
+#: tpl/admin/file/info-po.php:88
+msgid "These translations are not linked to a POT file. Sync operations will extract strings directly from source code."
+msgstr "이러한 번역은 POT 파일에 연결되어 있지 않습니다. 동기화 작업은 원본 코드에서 직접 문자열을 추출합니다."
+
+#. Translators: Where %s is the name of a template file
+#: tpl/admin/file/info-po.php:64
+msgid "PO file has the same source strings as \"%s\""
+msgstr "PO 파일에 \"%s\"와 (과) 동일한 원본 문자열이 있습니다."
+
+#. Translators: change "en" in the URL to your language if it's available at
+#. https://www.php.net/docs.php
+#: tpl/admin/errors/no-tokenizer.php:17
+msgid "Loco requires the <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer extension</a> to scan PHP source code for translatable strings"
+msgstr "Loco는 번역 가능한 문자열에 대한 PHP 원본 코드를 스캔하기 위해 <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer 확장</a>이 필요합니다."
+
+#: tpl/admin/common/inc-fsconn.php:60
+msgid "Connect"
+msgstr "연결"
+
+#: tpl/admin/bundle/setup/none.php:15
+msgid "It needs configuring before you can do any translations"
+msgstr "번역을 하기 전에 설정이 필요합니다."
+
+#: tpl/admin/bundle/setup/conf.php:55
+msgid "Load config"
+msgstr "구성 로드"
+
+#: tpl/admin/bundle/setup/conf.php:16
+msgid ""
+"We have a database of non-standard bundle configurations.\n"
+"If we know your bundle, we'll configure it for you automatically"
+msgstr ""
+"비표준 번들 구성의 데이터베이스가 있습니다.\n"
+"번들을 알고 있으면 자동으로 구성해드립니다."
+
+#: tpl/admin/bundle/setup/author.php:15 tpl/admin/bundle/setup/core.php:14
+#: tpl/admin/bundle/setup/meta.php:15
+msgid "You can make changes in the Advanced tab if you need to override the current settings"
+msgstr "현재 설정을 재정의해야 하는 경우 고급 탭에서 변경할 수 있습니다."
+
+#: tpl/admin/bundle/inc-po-table.php:57 tpl/admin/bundle/locale.php:72
+msgid "Copy"
+msgstr "복사"
+
+#: src/package/Core.php:29
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: Author credit: "<product>" <version> by <author>
+#: src/package/Header.php:89
+msgid "\"%s\" %s by %s"
+msgstr "\"%s\" %s을 %s이(가) 작성함"
+
+#: src/package/Debugger.php:205
+msgid "Configured domain has no extractable strings"
+msgid_plural "%u configured domains have no extractable strings"
+msgstr[0] "%u개의 구성된 도메인에 추출 가능한 문자열이 없습니다."
+
+#: src/package/Core.php:28
+msgid "The WordPress Team"
+msgstr "워드프레스 팀"
+
+#: src/mvc/FileParams.php:153
+msgid "%s ago"
+msgstr "%s전"
+
+#: src/mvc/FileParams.php:147
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: src/js/Strings.php:164
+msgctxt "Editor"
+msgid "Translation not loaded"
+msgstr "번역이 로드되지 않았습니다."
+
+#: src/js/Strings.php:161
+msgctxt "Editor"
+msgid "Context not loaded"
+msgstr "컨텍스트가 로드되지 않았습니다."
+
+#: src/js/Strings.php:158
+msgctxt "Editor"
+msgid "Source text not loaded"
+msgstr "원본 텍스트가 로드되지 않았습니다."
+
+#: src/js/Strings.php:127 tpl/admin/file/info-pot.php:30
+msgctxt "Editor"
+msgid "Source text"
+msgstr "원본 텍스트"
+
+#: src/hooks/AdminHooks.php:103 tpl/ajax/modal-apis-batch.php:37
+msgid "Translate"
+msgstr "번역"
+
+#. Translators: Refers to translation files in Loco's custom/protected
+#. directory
+#: src/fs/LocaleDirectory.php:69
+msgctxt "File location"
+msgid "Custom"
+msgstr "맞춤"
+
+#. translators: Error thrown when attempting to parse a file that is not PO,
+#. POT or MO
+#: src/gettext/Data.php:23
+msgid "%s is not a Gettext file"
+msgstr "%s은(는) Gettext 파일이 아닙니다."
+
+#: src/fs/FileWriter.php:214
+msgid "\"%s\" is a directory, not a file"
+msgstr "\"%s\"은(는) 디렉토리이고, 파일이 아닙니다"
+
+#: src/api/WordPressFileSystem.php:87
+msgid "%s already exists in this folder"
+msgstr "%s이(가) 이미 이 폴더에 있습니다."
+
+#. translators: Were %s is number of source files that will be scanned
+#: src/admin/init/InitPoController.php:227
+msgid "%s source file will be scanned for translatable strings"
+msgid_plural "%s source files will be scanned for translatable strings"
+msgstr[0] "%s 원본 파일에서 번역 가능한 문자열을 검색합니다."
+
+#: src/fs/Revisions.php:221
+msgid "Failed to create backup file in \"%s\". Check file permissions or disable backups"
+msgstr "\"%s\"에 백업 파일을 작성하지 못했습니다. 파일 권한을 확인하거나 백업을 비활성화 하십시오"
+
+#: src/admin/config/SettingsController.php:51
+msgid "Super Admin"
+msgstr "최고 관리자"
+
+#: src/admin/bundle/SetupController.php:114
+msgid "%s file can't be matched to a known set of strings"
+msgid_plural "%s files can't be matched to a known set of strings"
+msgstr[0] "%s 파일은 알려진 문자열 세트와 일치할 수 없습니다."
+
+#: tpl/admin/help/side-bar.php:6
+msgid "For more information:"
+msgstr "자세한 내용은:"
+
+#: tpl/admin/file/delete.php:30
+msgid "Delete Permanently"
+msgstr "영구 삭제"
+
+#: tpl/admin/bundle/setup/conf.php:28 tpl/admin/bundle/setup/conf.php:35
+#: tpl/admin/bundle/setup/conf.php:56
+msgid "Cancel"
+msgstr "취소"
+
+#: src/mvc/Controller.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "이 페이지에 액세스할 수 있는 권한이 없습니다."
+
+#: src/admin/file/DeleteController.php:57 src/admin/file/DiffController.php:45
+msgid "File deleted"
+msgid_plural "%u files deleted"
+msgstr[0] "%u개의 파일이 삭제되었습니다."
+
+#. Description of the plugin
+msgid "Translate themes and plugins directly in WordPress"
+msgstr "워드프레스에서 직접 테마 및 플러그인 번역"
+
+#: src/admin/RootController.php:84
+msgid "Welcome to Loco Translate"
+msgstr "Loco Translate에 오신 것을 환영합니다"
+
+#: tpl/admin/help/tab-support.php:6
+msgid "Getting help with Loco Translate"
+msgstr "Loco Translate에 대한 도움 받기"
+
+#: tpl/admin/help/tab-config.php:5
+msgid "Site options apply to all users of Loco Translate across the current site"
+msgstr "사이트 옵션은 현재 사이트에서 Loco Translate의 모든 사용자에게 적용됩니다."
+
+#: tpl/admin/file/info-mo.php:15
+msgid "compiled"
+msgstr "컴파일됨"
+
+#: tpl/admin/config/version.php:38
+msgid "You're running the latest version of Loco Translate"
+msgstr "최신 버전의 Loco Translate를 실행 중입니다."
+
+#: tpl/admin/bundle/view.php:55
+msgid "This bundle isn't automatically compatible and requires configuring before you can use all the functions of Loco Translate"
+msgstr "이 번들은 자동으로 호환되지 않으며 Loco Translate의 모든 기능을 사용하려면 먼저 구성해야 합니다."
+
+#: src/mvc/AdminController.php:115
+msgid "Loco Translate is powered by"
+msgstr "Loco Translate 작동 기반 : "
+
+#. translators: home screen title where %s is the version number
+#: src/admin/RootController.php:23
+msgid "Loco Translate %s"
+msgstr "Loco Translate %s"
+
+#: loco.php:141
+msgid "Loco Translate requires the \"%s\" PHP extension. Ask your hosting provider to install it"
+msgstr "Loco Translate에는 \"%s\" PHP 확장이 필요합니다. 호스팅 제공업체에 설치 요청하십시오"
+
+#. translators: Where %s is either PO or POT
+#: src/admin/file/HeadController.php:80 src/gettext/Compiler.php:239
+msgid "%s file saved"
+msgstr "%s 파일이 저장되었습니다."
+
+#: src/js/Strings.php:25
+msgid "%s new string added"
+msgid_plural "%s new strings added"
+msgstr[0] "%s 새 문자열 추가"
+
+#: src/js/Strings.php:29
+msgid "%s obsolete string removed"
+msgid_plural "%s obsolete strings removed"
+msgstr[0] "%s 사용되지 않는 문자열이 제거되었습니다."
+
+#: tpl/admin/config/settings.php:120 tpl/admin/config/settings.php:126
+msgid "Compiling MO files"
+msgstr "MO 파일 컴파일"
+
+#. Translators: Placeholder text for text filter above editor
+#: src/admin/file/EditController.php:209
+msgid "Filter translations"
+msgstr "번역 필터링"
+
+#: tpl/admin/config/settings.php:131
+msgid "Generate hash tables"
+msgstr "해시 테이블 생성"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/loco-translate/"
+msgstr "https://wordpress.org/plugins/loco-translate/"
+
+#: tpl/admin/config/settings.php:137
+msgid "Include Fuzzy strings"
+msgstr "애매한 문자열 포함"
+
+#: src/js/Strings.php:18
+msgid "Merged from %s"
+msgstr "%s에서 병합"
+
+#: tpl/admin/bundle/locale.php:14 tpl/admin/common/inc-po-header.php:8
+#: tpl/admin/file/edit-pot.php:12 tpl/admin/file/view-pot.php:11
+msgctxt "Modified time"
+msgid "Updated"
+msgstr "업데이트 됨"
+
+#: tpl/admin/config/settings.php:62
+msgid "Number of backups to keep of each file:"
+msgstr "각 파일을 보관할 백업 수 :"
+
+#: tpl/admin/config/apis.php:127 tpl/admin/config/prefs.php:44
+#: tpl/admin/config/settings.php:233
+msgid "Save settings"
+msgstr "설정 저장"
+
+#: tpl/admin/bundle/conf.php:65 tpl/admin/bundle/inc-po-table.php:42
+#: tpl/admin/file/edit-pot.php:10 tpl/admin/file/info-pot.php:18
+#: tpl/admin/file/view-pot.php:9
+msgid "Template file"
+msgstr "템플릿 파일"
+
+#. Author of the plugin
+msgid "Tim Whitlock"
+msgstr "Tim Whitlock"
+
+#: src/js/Strings.php:83
+msgid "Your changes will be lost if you continue without saving"
+msgstr "저장하지 않고 계속하면 변경 사항이 손실됩니다."
+
+#: src/js/Strings.php:44
+msgid "Strings up to date with source code"
+msgstr "원본 코드가있는 최신 문자열"
+
+#: src/js/Strings.php:21
+msgid "Merged from source code"
+msgstr "원본 코드에서 병합"
+
+#: tpl/admin/init/init-prompt.php:45
+msgid "Back"
+msgstr "뒤로"
+
+#: src/admin/file/EditController.php:166 src/mvc/AdminRouter.php:67
+#: src/mvc/AdminRouter.php:72 tpl/admin/common/inc-fsconn.php:18
+#: tpl/admin/common/inc-fsconn.php:43 tpl/admin/errors/no-backups.php:24
+#: tpl/ajax/modal-apis-empty.php:15
+msgid "Settings"
+msgstr "설정"
+
+#: src/gettext/Metadata.php:206 src/js/Strings.php:95
+msgid "%s fuzzy"
+msgstr "%s 애매함"
+
+#: src/gettext/Metadata.php:209 src/js/Strings.php:99
+msgid "%s untranslated"
+msgstr "%s 번역되지 않음"
+
+#: src/gettext/Metadata.php:204 src/js/Strings.php:91
+msgid "%s%% translated"
+msgstr "%s %% 번역됨"
+
+#. translators: Page title for plugin home screen
+#: src/mvc/AdminRouter.php:39
+msgid "Loco, Translation Management"
+msgstr "Loco, 번역 관리"
+
+#: src/error/WriteException.php:13
+msgid "Permission denied"
+msgstr "권한이 거부되었습니다."
+
+#: src/admin/config/ApisController.php:43
+#: src/admin/config/PrefsController.php:26
+#: src/admin/config/SettingsController.php:31
+msgid "Settings saved"
+msgstr "설정이 저장되었습니다"
+
+#: src/js/Strings.php:123
+msgid "Unknown error"
+msgstr "알 수 없는 오류"
+
+#. Plugin Name of the plugin
+#: src/hooks/AdminHooks.php:63 src/mvc/AdminRouter.php:37
+msgid "Loco Translate"
+msgstr "Loco Translate"

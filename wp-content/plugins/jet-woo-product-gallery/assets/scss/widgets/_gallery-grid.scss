@@ -1,0 +1,38 @@
+.jet-woo-product-gallery-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+
+	@for $i from 1 through 10 {
+		&.grid-col-desk-#{$i} {
+			--columns: #{$i};
+		}
+	}
+
+	@media ( max-width: 1024px ) {
+		@for $i from 1 through 10 {
+			&.grid-col-tab-#{$i} {
+				--columns: #{$i};
+			}
+		}
+	}
+
+	@media ( max-width: 767px ) {
+		@for $i from 1 through 10 {
+			&.grid-col-mob-#{$i} {
+				--columns: #{$i};
+			}
+		}
+	}
+
+	.jet-woo-product-gallery__image-item {
+		position: relative;
+		min-height: 1px;
+		padding: 10px;
+		box-sizing: border-box;
+		width: 100%;
+		max-width: calc(100%/var(--columns));
+		flex: 0 0 calc(100%/var(--columns));
+	}
+}

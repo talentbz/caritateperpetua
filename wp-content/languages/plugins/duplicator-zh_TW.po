@@ -1,0 +1,28 @@
+# Translation of Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-02 23:17:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release)\n"
+
+#. Plugin URI of the plugin
+msgid "https://snapcreek.com/duplicator/duplicator-free/"
+msgstr "https://snapcreek.com/duplicator/duplicator-free/"
+
+#. Author URI of the plugin
+msgid "http://www.snapcreek.com/duplicator/"
+msgstr "http://www.snapcreek.com/duplicator/"
+
+#: views/packages/details/detail.php:292
+msgid "FILES"
+msgstr "檔案"
+
+#. Plugin Name of the plugin
+msgid "Duplicator"
+msgstr "Duplicator"

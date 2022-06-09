@@ -1,0 +1,1244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jet WooBuilder for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-13 09:47+0300\n"
+"PO-Revision-Date: 2019-06-13 09:47+0300\n"
+"Last-Translator: \n"
+"Language-Team: JetImpex\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;__;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:54
+msgid "General"
+msgstr "Общие настройки"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:63
+msgid "Product id"
+msgstr "ID продукта"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:71
+msgid "Enable Gallery"
+msgstr "Использовать галерею"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:73
+#: includes/base/class-jet-woo-product-gallery-base.php:85
+#: includes/base/class-jet-woo-product-gallery-base.php:125
+#: includes/base/class-jet-woo-product-gallery-base.php:146
+#: includes/base/class-jet-woo-product-gallery-base.php:158
+#: includes/base/class-jet-woo-product-gallery-base.php:170
+#: includes/base/class-jet-woo-product-gallery-base.php:182
+#: includes/base/class-jet-woo-product-gallery-base.php:194
+#: includes/base/class-jet-woo-product-gallery-base.php:456
+#: includes/widgets/jet-woo-product-gallery-slider.php:133
+#: includes/widgets/jet-woo-product-gallery-slider.php:216
+#: includes/widgets/jet-woo-product-gallery-slider.php:265
+msgid "Yes"
+msgstr "Да"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:74
+#: includes/base/class-jet-woo-product-gallery-base.php:86
+#: includes/base/class-jet-woo-product-gallery-base.php:126
+#: includes/base/class-jet-woo-product-gallery-base.php:147
+#: includes/base/class-jet-woo-product-gallery-base.php:159
+#: includes/base/class-jet-woo-product-gallery-base.php:171
+#: includes/base/class-jet-woo-product-gallery-base.php:183
+#: includes/base/class-jet-woo-product-gallery-base.php:195
+#: includes/base/class-jet-woo-product-gallery-base.php:457
+#: includes/widgets/jet-woo-product-gallery-slider.php:134
+#: includes/widgets/jet-woo-product-gallery-slider.php:217
+#: includes/widgets/jet-woo-product-gallery-slider.php:266
+msgid "No"
+msgstr "Нет"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:83
+msgid "Enable Zoom"
+msgstr "Использовать увеличение"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:101
+msgid "Gallery"
+msgstr "Галерея"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:113
+msgid "Button Icon"
+msgstr "Иконка кнопки"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:123
+msgid "Show Caption"
+msgstr "Отображать "
+
+#: includes/base/class-jet-woo-product-gallery-base.php:135
+msgid "Controls"
+msgstr "Элементы навигации"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:144
+msgid "Show Full Screen"
+msgstr "Отображать иконку перехода в полноэкранный режим"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:156
+msgid "Show Zoom"
+msgstr "Отображать иконку инструмента увеличения"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:168
+msgid "Show Share"
+msgstr "Отображать иконку Поделиться"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:180
+msgid "Show Counter"
+msgstr "Отображать "
+
+#: includes/base/class-jet-woo-product-gallery-base.php:192
+msgid "Show Arrows"
+msgstr "Отображать стрелки навигации"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:210
+msgid "Video"
+msgstr "Видео"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:217
+msgid "Display Video In"
+msgstr "Отображать видео как:"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:221
+msgid "Content"
+msgstr "Контент"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:222
+msgid "Popup"
+msgstr "Вспылвающее окно"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:230
+msgid "Aspect Ratio"
+msgstr "Разрешение"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:231
+msgid "Worked just with youtube and vimeo video types"
+msgstr "Работает только для видео из источников Youtube или Vimeo"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:247
+msgid "Options"
+msgstr "Опции"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:256
+msgid "Autoplay"
+msgstr "Автопроигрывание"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:265
+msgid "Loop"
+msgstr "Бесконечный повтор"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:284
+msgid "Overlay"
+msgstr "Перекрывать"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:296
+#: includes/base/class-jet-woo-product-gallery-base.php:401
+msgid "Overlay Color"
+msgstr "Перекрывать цветом"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:310
+#: includes/base/class-jet-woo-product-gallery-base.php:834
+msgid "Play Button"
+msgstr "Кнопка проигрывания"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:322
+msgid "Show Play Button"
+msgstr "Отображать кнопку проигрывания"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:334
+msgid "Play Button Type"
+msgstr "Тип кнопки проигрывания"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:340
+#: includes/base/class-jet-woo-product-gallery-base.php:358
+#: includes/base/class-jet-woo-product-gallery-base.php:427
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:344
+#: includes/base/class-jet-woo-product-gallery-base.php:372
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:389
+msgid "Popup Overlay"
+msgstr "Перекрывать вспылвающее окно"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:415
+msgid "Popup Button"
+msgstr "Кнопка всплывающего окна"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:445
+msgid "Photoswipe Trigger"
+msgstr "Триггер Photoswipe"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:454
+msgid "Show On Hover"
+msgstr "Отображать при наведении курсора"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:467
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:239
+msgid "Position"
+msgstr "Расположение"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:471
+msgid "Top Right"
+msgstr "Верх право"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:472
+msgid "Bottom Right"
+msgstr "Низ право"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:473
+msgid "Bottom Left"
+msgstr "Низ лево"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:474
+msgid "Top Left"
+msgstr "Верх лево"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:475
+msgid "Center Center"
+msgstr "В центре"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:484
+#: includes/widgets/jet-woo-product-gallery-slider.php:514
+#: includes/widgets/jet-woo-product-gallery-slider.php:1055
+#: includes/widgets/jet-woo-product-gallery-slider.php:1403
+msgid "Size"
+msgstr "Размер"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:508
+#: includes/base/class-jet-woo-product-gallery-base.php:657
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:534
+#: includes/base/class-jet-woo-product-gallery-base.php:683
+#: includes/base/class-jet-woo-product-gallery-base.php:875
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:310
+#: includes/widgets/jet-woo-product-gallery-slider.php:536
+#: includes/widgets/jet-woo-product-gallery-slider.php:1074
+#: includes/widgets/jet-woo-product-gallery-slider.php:1426
+msgid "Normal"
+msgstr "Стандарт"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:541
+#: includes/base/class-jet-woo-product-gallery-base.php:572
+#: includes/base/class-jet-woo-product-gallery-base.php:690
+#: includes/base/class-jet-woo-product-gallery-base.php:721
+#: includes/base/class-jet-woo-product-gallery-base.php:882
+#: includes/base/class-jet-woo-product-gallery-base.php:920
+#: includes/widgets/jet-woo-product-gallery-slider.php:543
+#: includes/widgets/jet-woo-product-gallery-slider.php:574
+#: includes/widgets/jet-woo-product-gallery-slider.php:619
+#: includes/widgets/jet-woo-product-gallery-slider.php:1437
+#: includes/widgets/jet-woo-product-gallery-slider.php:1480
+#: includes/widgets/jet-woo-product-gallery-slider.php:1539
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:552
+#: includes/base/class-jet-woo-product-gallery-base.php:701
+msgid " Background Color"
+msgstr "Цвет фона"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:565
+#: includes/base/class-jet-woo-product-gallery-base.php:714
+#: includes/base/class-jet-woo-product-gallery-base.php:913
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:349
+#: includes/widgets/jet-woo-product-gallery-slider.php:567
+#: includes/widgets/jet-woo-product-gallery-slider.php:1094
+#: includes/widgets/jet-woo-product-gallery-slider.php:1469
+msgid "Hover"
+msgstr "Фокус"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:583
+#: includes/base/class-jet-woo-product-gallery-base.php:732
+#: includes/base/class-jet-woo-product-gallery-base.php:893
+#: includes/base/class-jet-woo-product-gallery-base.php:931
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:160
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:317
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:356
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:398
+#: includes/widgets/jet-woo-product-gallery-grid.php:174
+#: includes/widgets/jet-woo-product-gallery-modern.php:405
+#: includes/widgets/jet-woo-product-gallery-slider.php:471
+#: includes/widgets/jet-woo-product-gallery-slider.php:554
+#: includes/widgets/jet-woo-product-gallery-slider.php:585
+#: includes/widgets/jet-woo-product-gallery-slider.php:630
+#: includes/widgets/jet-woo-product-gallery-slider.php:1081
+#: includes/widgets/jet-woo-product-gallery-slider.php:1101
+#: includes/widgets/jet-woo-product-gallery-slider.php:1135
+#: includes/widgets/jet-woo-product-gallery-slider.php:1252
+#: includes/widgets/jet-woo-product-gallery-slider.php:1452
+#: includes/widgets/jet-woo-product-gallery-slider.php:1495
+#: includes/widgets/jet-woo-product-gallery-slider.php:1554
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:594
+#: includes/base/class-jet-woo-product-gallery-base.php:743
+#: includes/base/class-jet-woo-product-gallery-base.php:942
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:367
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:409
+#: includes/widgets/jet-woo-product-gallery-slider.php:596
+#: includes/widgets/jet-woo-product-gallery-slider.php:641
+#: includes/widgets/jet-woo-product-gallery-slider.php:1112
+#: includes/widgets/jet-woo-product-gallery-slider.php:1146
+#: includes/widgets/jet-woo-product-gallery-slider.php:1510
+#: includes/widgets/jet-woo-product-gallery-slider.php:1569
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:610
+#: includes/base/class-jet-woo-product-gallery-base.php:759
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:131
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:329
+#: includes/widgets/jet-woo-product-gallery-grid.php:144
+#: includes/widgets/jet-woo-product-gallery-modern.php:371
+#: includes/widgets/jet-woo-product-gallery-slider.php:483
+#: includes/widgets/jet-woo-product-gallery-slider.php:660
+#: includes/widgets/jet-woo-product-gallery-slider.php:1165
+#: includes/widgets/jet-woo-product-gallery-slider.php:1264
+#: includes/widgets/jet-woo-product-gallery-slider.php:1590
+msgid "Border"
+msgstr "Границы"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:620
+#: includes/base/class-jet-woo-product-gallery-base.php:769
+#: includes/base/class-jet-woo-product-gallery-base.php:1001
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:141
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:435
+#: includes/widgets/jet-woo-product-gallery-grid.php:154
+#: includes/widgets/jet-woo-product-gallery-modern.php:382
+#: includes/widgets/jet-woo-product-gallery-slider.php:493
+#: includes/widgets/jet-woo-product-gallery-slider.php:674
+#: includes/widgets/jet-woo-product-gallery-slider.php:1176
+#: includes/widgets/jet-woo-product-gallery-slider.php:1274
+#: includes/widgets/jet-woo-product-gallery-slider.php:1605
+msgid "Border Radius"
+msgstr "Скругление углов"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:632
+#: includes/base/class-jet-woo-product-gallery-base.php:793
+#: includes/base/class-jet-woo-product-gallery-base.php:981
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:447
+#: includes/widgets/jet-woo-product-gallery-modern.php:189
+#: includes/widgets/jet-woo-product-gallery-modern.php:243
+#: includes/widgets/jet-woo-product-gallery-modern.php:297
+#: includes/widgets/jet-woo-product-gallery-modern.php:351
+#: includes/widgets/jet-woo-product-gallery-slider.php:1188
+msgid "Margin"
+msgstr "Внешний оступ"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:648
+msgid "Video Popup Button"
+msgstr "Кнопка видео во всплывающем окне"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:781
+#: includes/base/class-jet-woo-product-gallery-base.php:968
+#: includes/widgets/jet-woo-product-gallery-grid.php:185
+#: includes/widgets/jet-woo-product-gallery-modern.php:416
+#: includes/widgets/jet-woo-product-gallery-slider.php:689
+#: includes/widgets/jet-woo-product-gallery-slider.php:1621
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:805
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:809
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:244
+#: includes/widgets/jet-woo-product-gallery-slider.php:319
+#: includes/widgets/jet-woo-product-gallery-slider.php:797
+#: includes/widgets/jet-woo-product-gallery-slider.php:964
+msgid "Left"
+msgstr "Слева"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:813
+#: includes/widgets/jet-woo-product-gallery-slider.php:718
+#: includes/widgets/jet-woo-product-gallery-slider.php:885
+msgid "Center"
+msgstr "По центру"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:817
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:248
+#: includes/widgets/jet-woo-product-gallery-slider.php:323
+#: includes/widgets/jet-woo-product-gallery-slider.php:798
+#: includes/widgets/jet-woo-product-gallery-slider.php:965
+msgid "Right"
+msgstr "Справа"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:842
+msgid "Icon/Image Size"
+msgstr "Размер иконки/изображения"
+
+#: includes/base/class-jet-woo-product-gallery-base.php:859
+msgid "Image Border Radius"
+msgstr "Скругление углов изображения"
+
+#: includes/class-jet-woo-product-gallery-tools.php:99
+msgid "Full"
+msgstr "Полный"
+
+#: includes/class-jet-woo-product-gallery-tools.php:133
+msgid "Baseline"
+msgstr "Базовый уровень"
+
+#: includes/class-jet-woo-product-gallery-tools.php:134
+#: includes/widgets/jet-woo-product-gallery-modern.php:168
+#: includes/widgets/jet-woo-product-gallery-modern.php:222
+#: includes/widgets/jet-woo-product-gallery-modern.php:276
+#: includes/widgets/jet-woo-product-gallery-modern.php:330
+#: includes/widgets/jet-woo-product-gallery-slider.php:342
+#: includes/widgets/jet-woo-product-gallery-slider.php:717
+#: includes/widgets/jet-woo-product-gallery-slider.php:884
+msgid "Top"
+msgstr "Верх"
+
+#: includes/class-jet-woo-product-gallery-tools.php:135
+#: includes/widgets/jet-woo-product-gallery-modern.php:172
+#: includes/widgets/jet-woo-product-gallery-modern.php:226
+#: includes/widgets/jet-woo-product-gallery-modern.php:280
+#: includes/widgets/jet-woo-product-gallery-modern.php:334
+msgid "Middle"
+msgstr "Центр"
+
+#: includes/class-jet-woo-product-gallery-tools.php:136
+#: includes/widgets/jet-woo-product-gallery-modern.php:176
+#: includes/widgets/jet-woo-product-gallery-modern.php:230
+#: includes/widgets/jet-woo-product-gallery-modern.php:284
+#: includes/widgets/jet-woo-product-gallery-modern.php:338
+#: includes/widgets/jet-woo-product-gallery-slider.php:346
+#: includes/widgets/jet-woo-product-gallery-slider.php:719
+#: includes/widgets/jet-woo-product-gallery-slider.php:886
+msgid "Bottom"
+msgstr "Низ"
+
+#: includes/class-jet-woo-product-gallery-tools.php:137
+msgid "Sub"
+msgstr "Под - "
+
+#: includes/class-jet-woo-product-gallery-tools.php:138
+msgid "Super"
+msgstr "Над - "
+
+#: includes/class-jet-woo-product-gallery-tools.php:139
+msgid "Text Top"
+msgstr "Верх текста"
+
+#: includes/class-jet-woo-product-gallery-tools.php:140
+msgid "Text Bottom"
+msgstr "Низ текста"
+
+#: includes/class-jet-woo-product-gallery-tools.php:264
+#: includes/class-jet-woo-product-gallery-tools.php:287
+msgid "Angle"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:265
+#: includes/class-jet-woo-product-gallery-tools.php:288
+msgid "Chevron"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:266
+#: includes/class-jet-woo-product-gallery-tools.php:289
+msgid "Angle Double"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:267
+#: includes/class-jet-woo-product-gallery-tools.php:290
+msgid "Arrow"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:268
+#: includes/class-jet-woo-product-gallery-tools.php:291
+msgid "Caret"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:269
+#: includes/class-jet-woo-product-gallery-tools.php:292
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:270
+#: includes/class-jet-woo-product-gallery-tools.php:293
+msgid "Arrow Circle"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:271
+#: includes/class-jet-woo-product-gallery-tools.php:294
+msgid "Chevron Circle"
+msgstr ""
+
+#: includes/class-jet-woo-product-gallery-tools.php:272
+#: includes/class-jet-woo-product-gallery-tools.php:295
+msgid "Caret Square"
+msgstr ""
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:46
+msgid "Jet Product Gallery Video"
+msgstr "Jet Product Gallery Видео"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:58
+msgid "Youtube"
+msgstr ""
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:59
+msgid "Vimeo"
+msgstr ""
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:60
+msgid "Self Hosted"
+msgstr "Из загруженных"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:62
+msgid "Video Type:"
+msgstr "Тип видео:"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:66
+msgid "Placeholder:"
+msgstr "Плейсхолдер:"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:69
+msgid "Choose Placeholder"
+msgstr "Выберите плейсхолдер:"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:74
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:82
+msgid "Video URL:"
+msgstr "Ссылка на видео:"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:90
+msgid "Video:"
+msgstr "Видео:"
+
+#: includes/integrations/class-jet-woo-gallery-video-integration.php:93
+msgid "Choose Video"
+msgstr "Выберите видео:"
+
+#: includes/integrations/class-jet-woo-product-gallery-integration.php:166
+msgid "Jet Product Gallery"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установите необходимые плагины"
+
+#: includes/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: includes/lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Устанавливается плагин: %s"
+
+#: includes/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновляется плагин: %s"
+
+#: includes/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Произошла ошибка, связанная с API плагина."
+
+#: includes/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установке необъодиых плагинов"
+
+#: includes/lib/class-tgm-plugin-activation.php:393
+#: includes/lib/class-tgm-plugin-activation.php:920
+#: includes/lib/class-tgm-plugin-activation.php:2626
+#: includes/lib/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Вернуться в дешборду"
+
+#: includes/lib/class-tgm-plugin-activation.php:394
+#: includes/lib/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Плагин был успешно активирован."
+
+#: includes/lib/class-tgm-plugin-activation.php:395
+#: includes/lib/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следующий плагин был успешно активирован:"
+msgstr[1] "Следующие плагины были успешно активированы:"
+msgstr[2] ""
+
+#: includes/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ничего не произошло. Плагин %1$s  уже активен."
+
+#: includes/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активен. Для корректной работы темы необходима более высокая "
+"версия %sю Пожалуйста, обновите плагин."
+
+#: includes/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины были успешно установлены и обновлены.  %1$s"
+
+#: includes/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Пропустить это сообщение"
+
+#: includes/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Возможна установка, обновление или активация одного или более необходимых "
+"либо рекоммендуемых плагинов."
+
+#: includes/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь за помощью к администратору данного сайта."
+
+#: includes/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Данный плагин требует обновления чтобы быть совместимым с темой."
+
+#: includes/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: includes/lib/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Попробуйте установить переменную parent_slug config."
+
+#: includes/lib/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Удаленный пакет плагина не содержит папку с желаемым слагом и переименование "
+"не сработало."
+
+#: includes/lib/class-tgm-plugin-activation.php:1027
+#: includes/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с поставщиком плагина и попросите произвести упаковку "
+"данного плагина в соответствии с требованиями WordPress."
+
+#: includes/lib/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Удаленный пакет плагина содержит более чем один файл, но файлы не находятся "
+"в папке."
+
+#: includes/lib/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/lib/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Требуется"
+
+#: includes/lib/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: includes/lib/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: includes/lib/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: includes/lib/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Пред-упаковка"
+
+#: includes/lib/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: includes/lib/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Установлен но не активен"
+
+#: includes/lib/class-tgm-plugin-activation.php:2414
+#: includes/widgets/jet-woo-product-gallery-slider.php:1128
+msgid "Active"
+msgstr "Активен"
+
+#: includes/lib/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Необходимое обновление не доступно"
+
+#: includes/lib/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: includes/lib/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Рекоммендуется обновление"
+
+#: includes/lib/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/lib/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы установить <span class=\"count\">(%s)</span>"
+msgstr[1] "Чтобы установить <span class=\"count\">(%s)</span>"
+msgstr[2] "Чтобы установить <span class=\"count\">(%s)</span>"
+
+#: includes/lib/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[2] "Доступно обновление <span class=\"count\">(%s)</span>"
+
+#: includes/lib/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы активировать <span class=\"count\">(%s)</span>"
+msgstr[1] "Чтобы активировать <span class=\"count\">(%s)</span>"
+msgstr[2] "Чтобы активировать <span class=\"count\">(%s)</span>"
+
+#: includes/lib/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#: includes/lib/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: includes/lib/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Минимальная необходимая версия:"
+
+#: includes/lib/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: includes/lib/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: includes/lib/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Плагин"
+
+#: includes/lib/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Источник"
+
+#: includes/lib/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Тип"
+
+#: includes/lib/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Версия"
+
+#: includes/lib/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Статус"
+
+#: includes/lib/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: includes/lib/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: includes/lib/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: includes/lib/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: includes/lib/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Установить"
+
+#: includes/lib/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/lib/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/lib/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не был выбран плагин для установки. Ничего не поризошло."
+
+#: includes/lib/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не был выбран плагин для обновления. Ничего не поризошло."
+
+#: includes/lib/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет плагинов, на данное время доступных для установки."
+
+#: includes/lib/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Нет плагинов, на данное время доступных для обновления."
+
+#: includes/lib/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не был выбран плагин для активации. Ничего не поризошло."
+
+#: includes/lib/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет плагинов, на данное время доступных для активации."
+
+#: includes/lib/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+#: includes/lib/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновляется плагин  %1$s (%2$d/%3$d)"
+
+#: includes/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Во время установки произошла ошибка %1$s: <strong>%2$s</strong>."
+
+#: includes/lib/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s."
+
+#: includes/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Начинается процесс установки и активации. Может потребоваться некоторое "
+"время, в зависимости от хоста. Пожалуйста, проявите терпение."
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s  успешно установлен и активирован."
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#: includes/lib/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Отображать подробности"
+
+#: includes/lib/class-tgm-plugin-activation.php:3602
+#: includes/lib/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Скрыть подробности"
+
+#: includes/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации были завершены."
+
+#: includes/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Проходит установка и активация %1$s (%2$d/%3$d) плагина"
+
+#: includes/lib/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Начинается процесс установки. Может потребоваться некоторое время, в "
+"зависимости от хоста. Пожалуйста, проявите терпение."
+
+#: includes/lib/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: includes/lib/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+#: includes/lib/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Устанавливается плагин  %1$s (%2$d/%3$d)"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:109
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:192
+#: includes/settings/class-jet-woo-product-gallery-settings.php:193
+#: includes/settings/class-jet-woo-product-gallery-settings.php:217
+msgid "Jet Product Gallery Settings"
+msgstr "Настройки Jet Product Gallery"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:261
+msgid "Available Widgets"
+msgstr "Доступные виджеты"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:275
+msgid "Global Available Widgets"
+msgstr "Глобально доступные виджеты"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:276
+msgid "List of widgets that will be available when editing the page"
+msgstr "Список виджетов, доступных при редактировании страницы"
+
+#: includes/settings/class-jet-woo-product-gallery-settings.php:288
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/updater/class-jet-woo-product-gallery-plugin-changelog.php:127
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/updater/class-jet-woo-product-gallery-plugin-changelog.php:129
+msgid "View details"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:31
+msgid "Gallery Anchor Navigation"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:55
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:97
+#: includes/widgets/jet-woo-product-gallery-grid.php:55
+#: includes/widgets/jet-woo-product-gallery-grid.php:134
+#: includes/widgets/jet-woo-product-gallery-modern.php:55
+#: includes/widgets/jet-woo-product-gallery-modern.php:95
+#: includes/widgets/jet-woo-product-gallery-slider.php:61
+#: includes/widgets/jet-woo-product-gallery-slider.php:462
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:64
+#: includes/widgets/jet-woo-product-gallery-grid.php:64
+#: includes/widgets/jet-woo-product-gallery-modern.php:64
+#: includes/widgets/jet-woo-product-gallery-slider.php:70
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:106
+msgid "Space Between Images"
+msgstr "Расстояние между изображениями"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:175
+#: includes/widgets/jet-woo-product-gallery-slider.php:205
+msgid "Navigation"
+msgstr "Навигация"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:184
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:268
+#: includes/widgets/jet-woo-product-gallery-slider.php:423
+#: includes/widgets/jet-woo-product-gallery-slider.php:1217
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:215
+msgid "Offset Top (px)"
+msgstr "Верхний оступ (px)"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:259
+#: includes/widgets/jet-woo-product-gallery-slider.php:280
+msgid "Bullets"
+msgstr "Буллеты"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:288
+msgid "Height"
+msgstr "Высота"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:391
+msgid "Current"
+msgstr "Сейчас"
+
+#: includes/widgets/jet-woo-product-gallery-anchor-nav.php:490
+#: includes/widgets/jet-woo-product-gallery-grid.php:228
+#: includes/widgets/jet-woo-product-gallery-modern.php:471
+#: includes/widgets/jet-woo-product-gallery-slider.php:1668
+msgid "Not found product with current id"
+msgstr "Не удалось обнаружить продукт с данным ID"
+
+#: includes/widgets/jet-woo-product-gallery-grid.php:31
+msgid "Gallery Grid"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-grid.php:74
+#: includes/widgets/jet-woo-product-gallery-grid.php:108
+msgid "Columns"
+msgstr "Колонки"
+
+#: includes/widgets/jet-woo-product-gallery-grid.php:117
+msgid "Columns Gutter"
+msgstr "Отоступ между колонками"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:31
+msgid "Gallery Modern"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:104
+msgid "Images Proportion 1 (%)"
+msgstr "Пропорции изображений  1 (%)"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:129
+msgid "Images Proportion 2 (%)"
+msgstr "Пропорции изображений  2 (%)"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:154
+msgid "Image 2"
+msgstr "Изображение 2"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:163
+#: includes/widgets/jet-woo-product-gallery-modern.php:217
+#: includes/widgets/jet-woo-product-gallery-modern.php:271
+#: includes/widgets/jet-woo-product-gallery-modern.php:325
+msgid "Vertical Alignment"
+msgstr "Выравнивание по вертикали"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:208
+msgid "Image 3"
+msgstr "Изображение 3"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:262
+msgid "Image 4"
+msgstr "Изображение 4"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:316
+msgid "Image 5"
+msgstr "Изображение 5"
+
+#: includes/widgets/jet-woo-product-gallery-modern.php:428
+msgid "Outer offset"
+msgstr "Внешний отступ"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:31
+msgid "Gallery Slider"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:80
+msgid "Thumbnails Image Size"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:122
+msgid "Slider"
+msgstr ""
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:131
+msgid "Enable Center Mode"
+msgstr "Использовать режим отображения в центре"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:143
+msgid "Slides To Show"
+msgstr "Количество слайдов для отображения"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:158
+msgid "Center Mode Padding"
+msgstr "Внутренний отступ от центрального изображения"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:182
+msgid "Slides Gutter"
+msgstr "Отступ между слайдами"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:214
+msgid "Show Navigation"
+msgstr "Отображать навигацию"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:226
+#: includes/widgets/jet-woo-product-gallery-slider.php:373
+msgid "Arrow Previous"
+msgstr "Стрелка Назад"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:240
+#: includes/widgets/jet-woo-product-gallery-slider.php:388
+msgid "Arrow next"
+msgstr "Стрелка Вперед"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:254
+#: includes/widgets/jet-woo-product-gallery-slider.php:1042
+msgid "Pagination"
+msgstr "Пагинация"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:263
+msgid "Show Pagination"
+msgstr "Отображать пагинацию"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:275
+msgid "Type :"
+msgstr "Тип:"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:284
+#: includes/widgets/jet-woo-product-gallery-slider.php:360
+#: includes/widgets/jet-woo-product-gallery-slider.php:1204
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:298
+msgid "Direction:"
+msgstr "Направление:"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:302
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:303
+msgid "Horizontal"
+msgstr "Горизонально"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:314
+#: includes/widgets/jet-woo-product-gallery-slider.php:337
+msgid "Position :"
+msgstr "Положение:"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:403
+msgid "Visible Items Count"
+msgstr "Количество видимых элементов"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:505
+#: includes/widgets/jet-woo-product-gallery-slider.php:1390
+msgid "Prev/Next Arrows"
+msgstr "Стрелки Назад/Вперед"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:612
+#: includes/widgets/jet-woo-product-gallery-slider.php:1528
+msgid "Disabled"
+msgstr "Откл."
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:704
+msgid "Prev Arrow"
+msgstr "Стрелка Назад"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:713
+#: includes/widgets/jet-woo-product-gallery-slider.php:880
+msgid "Vertical Position by: "
+msgstr "Вертикальное положение:"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:735
+#: includes/widgets/jet-woo-product-gallery-slider.php:902
+msgid "Top Indent"
+msgstr "Верхний отступ"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:764
+#: includes/widgets/jet-woo-product-gallery-slider.php:931
+msgid "Bottom Indent"
+msgstr "Нижний отступ"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:793
+#: includes/widgets/jet-woo-product-gallery-slider.php:960
+msgid "Horizontal Position by: "
+msgstr "Горизонтальное положение:"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:813
+#: includes/widgets/jet-woo-product-gallery-slider.php:980
+msgid "Left Indent"
+msgstr "Левый отступ"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:842
+#: includes/widgets/jet-woo-product-gallery-slider.php:1009
+msgid "Right Indent"
+msgstr "Правый отступ"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:871
+msgid "Next Arrow"
+msgstr "Стрелка Вперед"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:1286
+#: includes/widgets/jet-woo-product-gallery-slider.php:1338
+msgid "Space Between Items"
+msgstr "Расстояние между элементами"
+
+#: includes/widgets/jet-woo-product-gallery-slider.php:1315
+#: includes/widgets/jet-woo-product-gallery-slider.php:1367
+msgid "Gutter"
+msgstr "Отступ"
+
+#: templates/jet-woo-product-gallery-anchor-nav/global/index.php:29
+#: templates/jet-woo-product-gallery-grid/global/index.php:36
+#: templates/jet-woo-product-gallery-modern/global/index.php:28
+#: templates/jet-woo-product-gallery-slider/global/index.php:56
+msgid "Placeholder"
+msgstr "Плейсхолдер"
+
+#: templates/jet-woo-product-gallery-anchor-nav/global/popup-video.php:42
+#: templates/jet-woo-product-gallery-grid/global/popup-video.php:42
+#: templates/jet-woo-product-gallery-modern/global/popup-video.php:42
+#: templates/jet-woo-product-gallery-slider/global/popup-video.php:42
+msgid "Open popup with video"
+msgstr "Открыть видео во вспылвающем окне"
+
+#: templates/jet-woo-product-gallery-anchor-nav/global/video.php:50
+#: templates/jet-woo-product-gallery-anchor-nav/global/video.php:57
+#: templates/jet-woo-product-gallery-grid/global/video.php:48
+#: templates/jet-woo-product-gallery-grid/global/video.php:55
+#: templates/jet-woo-product-gallery-modern/global/video.php:48
+#: templates/jet-woo-product-gallery-modern/global/video.php:55
+#: templates/jet-woo-product-gallery-slider/global/video.php:48
+#: templates/jet-woo-product-gallery-slider/global/video.php:55
+msgid "Play Video"
+msgstr "Проигрывать видео"
+
+#: templates/photoswipe.php:17
+msgid "Close (Esc)"
+msgstr "Закрыть (Esc)"
+
+#: templates/photoswipe.php:18
+msgid "Share"
+msgstr "Поделиться"
+
+#: templates/photoswipe.php:19
+msgid "Toggle fullscreen"
+msgstr "Полноэкранный режим"
+
+#: templates/photoswipe.php:20
+msgid "Zoom in/out"
+msgstr "Увеличение/уменьшение"
+
+#: templates/photoswipe.php:32
+msgid "Previous (arrow left)"
+msgstr "Назад (стрелка слева)"
+
+#: templates/photoswipe.php:33
+msgid "Next (arrow right)"
+msgstr "Вперед (стрелка справа)"
+
+#~ msgid "Changelog"
+#~ msgstr "Изменения"

@@ -1,0 +1,282 @@
+# Translation of Plugins - Site Reviews - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Site Reviews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-10 12:42:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Site Reviews - Stable (latest release)\n"
+
+#: plugin/Modules/Validator/PermissionValidator.php:26
+msgid "You must be logged in to submit a review."
+msgstr "Ви маєте бути авторизовані аби подати відгук."
+
+#: plugin/Modules/Validator/ReviewLimitsValidator.php:34
+msgid "You have already submitted a review."
+msgstr "Ви вже надіслали відгук."
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr "Про плагін"
+
+#: config/settings.php:329 plugin/Modules/Html/ReviewsHtml.php:143
+msgid "There are no reviews yet. Be the first one to write one."
+msgstr "Відгуків поки немає. Будь першим, хто написав."
+
+#: plugin/Modules/Validator/AkismetValidator.php:49
+#: plugin/Modules/Validator/HoneypotValidator.php:26
+#: views/pages/documentation/support/common-problems-and-solutions.php:71
+msgid "This review has been flagged as possible spam and cannot be submitted."
+msgstr "Відгук був позначений як потенційний спам тож не буде збережений."
+
+#: plugin/Router.php:160
+#: views/pages/documentation/support/common-problems-and-solutions.php:55
+msgid "The form could not be submitted. Please notify the site administrator."
+msgstr "Форму неможливо надіслати. Будь ласка, повідомте адміністратора сайту."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:24
+msgid "This field requires a number."
+msgstr "У поле слід ввести число."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:23
+msgid "This field requires a minimum of %s characters."
+msgstr "Слід ввести щонайменше %s символів."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:22
+msgid "Minimum value for this field is %s."
+msgstr "Мінімальне значення цього поля: %s. "
+
+#: plugin/Defaults/ValidationStringsDefaults.php:21
+msgid "This field allows a maximum of %s characters."
+msgstr "Поле дозволяє ввести максимум %s символів."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:20
+msgid "Maximum value for this field is %s."
+msgstr "Максимальне значення цього поля: %s. "
+
+#: plugin/Defaults/ValidationStringsDefaults.php:18
+msgid "This field requires a valid e-mail address."
+msgstr "Введіть дійсну e-mail адресу. "
+
+#: plugin/Defaults/ValidationStringsDefaults.php:17
+msgid "This field must have between %s and %s characters."
+msgstr "У поле необхідно ввести від %s до %s символів."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:16
+msgid "This field value must be between %s and %s."
+msgstr "Значення поля має бути в межах %s – %s."
+
+#: plugin/Modules/Html/Fields/Rating.php:16
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s зірка"
+msgstr[1] "%s зірки"
+msgstr[2] "%s зірок"
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:45
+msgid "The reCAPTCHA verification failed, please try again."
+msgstr "Помилка перевірки reCAPTCHA. Повторіть спробу."
+
+#: plugin/Modules/Validator/RecaptchaValidator.php:44
+msgid "The reCAPTCHA failed to load, please refresh the page and try again."
+msgstr "Не вдалося завантажити reCAPTCHA, оновіть сторінку та спробуйте ще раз."
+
+#. Description of the plugin
+msgid "Receive and display reviews on your website"
+msgstr "Збирає та відображає відгуки на вашому вебсайті "
+
+#: plugin/Defaults/ValidationStringsDefaults.php:27
+msgid "This field is required."
+msgstr "Це необхідне поле."
+
+#: plugin/Defaults/ValidationStringsDefaults.php:15
+msgid "This field must be accepted."
+msgstr "Це поле має бути прийнято."
+
+#: plugin/Modules/Validator/BlacklistValidator.php:37
+#: views/pages/documentation/support/common-problems-and-solutions.php:67
+msgid "Your review cannot be submitted at this time."
+msgstr "Цього разу ваш відгук не може бути поданий."
+
+#: plugin/Modules/Html/Tags/ReviewAssignedLinksTag.php:47
+#: plugin/Modules/Html/Tags/ReviewAssignedPostsTag.php:26
+#: plugin/Modules/Html/Tags/ReviewAssignedTermsTag.php:16
+#: plugin/Modules/Html/Tags/ReviewAssignedUsersTag.php:16
+msgid "Review of %s"
+msgstr "Відгук про %s"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:209
+msgid "register"
+msgstr "зареєструйтесь"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:211
+msgid "You may also %s for an account."
+msgstr "Ви також можете %s обліковий запис."
+
+#: plugin/Modules/Validator/CustomValidator.php:27
+#: views/pages/documentation/support/common-problems-and-solutions.php:80
+msgid "The review submission failed. Please notify the site administrator."
+msgstr "Публікація відгуку не вдалась. Будь ласка, повідомте адміністратора сайту"
+
+#: plugin/Modules/Html/Tags/ReviewResponseTag.php:17
+#: views/pages/documentation/faq/change-response-name.php:9
+msgid "Response from %s"
+msgstr "Відповідь від %s"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr "Видалити"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:181
+msgid "logged in"
+msgstr "авторизовані"
+
+#: plugin/Shortcodes/SiteReviewsFormShortcode.php:183
+msgid "You must be %s to submit a review."
+msgstr "Ви маєте бути %s аби подати відгук"
+
+#: plugin/Modules/Html/Tags/SummaryTextTag.php:29
+msgctxt "Do not translate {rating}, {max}, and {num}, they are template tags."
+msgid "{rating} out of {max} stars (based on {num} review)"
+msgid_plural "{rating} out of {max} stars (based on {num} reviews)"
+msgstr[0] "{rating} з {max} зірок (на основі {num} відгуку)"
+msgstr[1] "{rating} з {max} зірок (на основі {num} відгуків)"
+msgstr[2] "{rating} з {max} зірок (на основі {num} відгуків)"
+
+#: plugin/Helpers/Text.php:30
+msgid "Show less"
+msgstr "Сховати"
+
+#: plugin/Blocks/SiteReviewsBlock.php:135 plugin/Helpers/Text.php:31
+msgid "Show more"
+msgstr "Показати більше"
+
+#. Plugin Name of the plugin
+msgid "Site Reviews"
+msgstr "Site Reviews"
+
+#. Author URI of the plugin
+msgid "https://geminilabs.io"
+msgstr "https://geminilabs.io"
+
+#. Author of the plugin
+msgid "Paul Ryley"
+msgstr "Paul Ryley"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/site-reviews"
+msgstr "https://uk.wordpress.org/plugins/site-reviews"
+
+#: plugin/Modules/Html/Tags/FormSubmitButtonTag.php:43
+msgid "Submit your review"
+msgstr "Відправити відгук"
+
+#: plugin/Shortcodes/Shortcode.php:274
+msgid "Terrible"
+msgstr "Жахливо"
+
+#: plugin/Shortcodes/Shortcode.php:273
+msgid "Poor"
+msgstr "Погано"
+
+#: plugin/Shortcodes/Shortcode.php:272
+msgid "Average"
+msgstr "Нормально"
+
+#: plugin/Shortcodes/Shortcode.php:271
+msgid "Very good"
+msgstr "Дуже добре"
+
+#: plugin/Shortcodes/Shortcode.php:270
+msgid "Excellent"
+msgstr "Відмінно"
+
+#: plugin/Modules/Html/Fields/Rating.php:21
+msgid "Select a Rating"
+msgstr "Оберіть рейтинг"
+
+#: vendors/woocommerce/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: vendors/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Змінити"
+
+#: plugin/Defaults/SlackDefaults.php:15
+msgid "View Review"
+msgstr "Дивитись Відгук"
+
+#: config/forms/review-form.php:26
+msgid "Tell us your email"
+msgstr "Ваш email"
+
+#: config/forms/review-form.php:21
+msgid "Tell us your name"
+msgstr "Ваше ім'я"
+
+#: config/forms/review-form.php:15
+msgid "Tell people your review"
+msgstr "Ваш відгук"
+
+#: config/forms/review-form.php:10
+msgid "Summarize your review or highlight an interesting detail"
+msgstr "Підсумуйте ваш відгук чи виокремте цікаві деталі"
+
+#: config/forms/review-form.php:30
+msgid "This review is based on my own experience and is my genuine opinion."
+msgstr "Цей відгук базується на власному досвіді та виражає мою особисту думку."
+
+#: config/forms/review-form.php:25
+msgid "Your email"
+msgstr "Ваш email"
+
+#: config/forms/review-form.php:20
+msgid "Your name"
+msgstr "Ваше ім'я"
+
+#: config/forms/review-form.php:14 plugin/Modules/Honeypot.php:20
+msgid "Your review"
+msgstr "Ваш відгук"
+
+#: config/forms/review-form.php:9
+msgid "Title of your review"
+msgstr "Заголовок вашого відгуку"
+
+#: config/forms/review-form.php:5
+msgid "Your overall rating"
+msgstr "Ваша загальна оцінка"
+
+#: plugin/Defaults/PaginationDefaults.php:16
+msgid "Page"
+msgstr "Сторінка"
+
+#: plugin/Modules/Html/Fields/YesNo.php:33
+msgid "Yes"
+msgstr "Так"
+
+#: plugin/Modules/Html/Fields/YesNo.php:32
+msgid "No"
+msgstr "Ні"
+
+#: plugin/Commands/CreateReview.php:165
+msgid "Your review has been submitted!"
+msgstr "Ваш відгук надіслано!"
+
+#: plugin/Defaults/ValidationStringsDefaults.php:19
+#: plugin/Modules/Validator/DefaultValidator.php:49
+msgid "Please fix the submission errors."
+msgstr "Будь ласка, виправте помилки."
+
+#: plugin/Modules/Html/Tags/ReviewTitleTag.php:15
+msgid "No Title"
+msgstr "Без назви"
+
+#: plugin/Modules/Avatar.php:100 plugin/Modules/Notification.php:75
+#: plugin/Review.php:158
+msgid "Anonymous"
+msgstr "Анонім"

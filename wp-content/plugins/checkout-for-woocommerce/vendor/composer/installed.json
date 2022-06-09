@@ -1,0 +1,146 @@
+[
+    {
+        "name": "objectivco/wp_tabbed_navigation",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Objectivco/WP_Tabbed_Navigation.git",
+            "reference": "34af439ef00304afd7c91bdfa4d806a1da92b9df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Objectivco/WP_Tabbed_Navigation/zipball/34af439ef00304afd7c91bdfa4d806a1da92b9df",
+            "reference": "34af439ef00304afd7c91bdfa4d806a1da92b9df",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2021-04-07T21:29:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/class-wp-tabbed-navigation.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "Clifton Griffin",
+                "email": "clif@objectiv.co"
+            }
+        ],
+        "description": "Automate creating a tabbed navigation and maintaining tabbed states",
+        "homepage": "https://github.com/Objectivco/WP_Tabbed_Navigation"
+    },
+    {
+        "name": "smartystreets/phpsdk",
+        "version": "4.15.1",
+        "version_normalized": "4.15.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smartystreets/smartystreets-php-sdk.git",
+            "reference": "4d97fb147a4a29f91a7d53ea208bbcf65d42f616"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smartystreets/smartystreets-php-sdk/zipball/4d97fb147a4a29f91a7d53ea208bbcf65d42f616",
+            "reference": "4d97fb147a4a29f91a7d53ea208bbcf65d42f616",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "psr/log": "^1.0.1"
+        },
+        "suggest": {
+            "psr/log": "^1.0.1"
+        },
+        "time": "2021-09-23T21:25:51+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SmartyStreets\\PhpSdk\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "SmartyStreets SDK Team",
+                "email": "support@smartystreets.com"
+            }
+        ],
+        "description": "The official PHP client library from SmartyStreets.",
+        "homepage": "https://github.com/smartystreets/smartystreets-php-sdk"
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v3.4.47",
+        "version_normalized": "3.4.47.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "b6b6ad3db3edb1b4b1c1896b1975fb684994de6e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/b6b6ad3db3edb1b4b1c1896b1975fb684994de6e",
+            "reference": "b6b6ad3db3edb1b4b1c1896b1975fb684994de6e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2020-11-16T17:02:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com",
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    }
+]

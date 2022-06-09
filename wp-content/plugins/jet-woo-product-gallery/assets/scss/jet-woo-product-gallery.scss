@@ -1,0 +1,50 @@
+@import "widgets/gallery-slider";
+@import "widgets/gallery-grid";
+@import "widgets/gallery-anchor-nav";
+@import "widgets/gallery-modern";
+
+@import "extensions/photoswipe";
+@import "extensions/zoom";
+@import "extensions/video";
+
+.jet-woo-product-gallery {
+	&__image {
+		position: relative;
+		font-size: 0;
+		overflow: hidden;
+		
+		&.jet-woo-product-gallery--with-video {
+			border-radius: 0 !important;
+		}
+		
+		a {
+			display: block;
+		}
+
+		img {
+			width: 100%;
+			vertical-align: middle;
+		}
+	}
+	
+	&__item--with-placeholder {
+		position: relative;
+		font-size: 0;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.jet-product-gallery-icon {
+	display: inline-block;
+	line-height: 1;
+	
+	svg {
+		display: block;
+		width: 1em;
+		height: 1em;
+		fill: currentColor;
+	}
+}

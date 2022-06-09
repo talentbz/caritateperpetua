@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CheckoutWC\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-07 17:03-0400\n"
+"PO-Revision-Date: 2021-10-08 09:44-0400\n"
+"Last-Translator: Ivan Janković\n"
+"Language-Team: Hrvatski\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: checkout-wc\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Došlo je do pogreške prilikom prijave. Molimo vas provjerite vaše podatke i "
+"pokušajte ponovo."
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:615
+#: sources/php/template-functions.php:1246
+#: sources/php/template-functions.php:1924
+msgid "Billing address"
+msgstr "Adresa za naplatu"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Prijavljeni ste PayPalom. Molimo nastavite s narudžbom."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:120
+msgid "Your Cart is Empty"
+msgstr "Tvoja košarica je prazna!"
+
+#: includes/Features/SideCart.php:291
+msgid "Congrats! You get free standard shipping."
+msgstr "Čestitamo! Dobivate besplatnu standardnu dostavu."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:296
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Još vas %s dijeli od besplatne dostave!"
+
+#: includes/Features/SmartyStreets.php:72
+msgid "Address Verification"
+msgstr "Potvrda adrese"
+
+#: includes/Features/SmartyStreets.php:75
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Adresa za dostavu koju ste naveli ne odgovara predloženoj adresi naše službe "
+"za provjeru. Molimo potvrdite svoju adresu."
+
+#: includes/Features/SmartyStreets.php:83
+msgid "You Entered"
+msgstr "Ušli ste"
+
+#: includes/Features/SmartyStreets.php:90
+#: includes/Features/SmartyStreets.php:91
+#: includes/Features/SmartyStreets.php:105
+#: includes/Features/SmartyStreets.php:106
+msgid "Use This Address"
+msgstr "Koristite ovu adresu"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Mi predlažemo"
+
+#: includes/Managers/AssetManager.php:429
+msgid "Please enter a valid phone number."
+msgstr "Unesite važeći telefonski broj."
+
+#: includes/Managers/AssetManager.php:430
+#: sources/php/template-functions.php:625
+#: sources/php/template-functions.php:1908
+msgid "Shipping address"
+msgstr "Adresa za dostavu"
+
+#: includes/Managers/AssetManager.php:431
+msgid "Please enter a new quantity:"
+msgstr "Molimo upišite novu količinu:"
+
+#: includes/Managers/AssetManager.php:432
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Sigurnosni broj od 3 znamenke obično se nalazi sa stražnje strane kartice. "
+"American Express kartice imaju sigurnosti broj od 4 znamenke s prednje "
+"strane."
+
+#: includes/Managers/AssetManager.php:433
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Jeste li sigurni da želite maknuti ovaj proizvod iz košarice?"
+
+#: sources/php/functions.php:176
+msgid "Select a country"
+msgstr "Izaberite zemlju"
+
+#: sources/php/functions.php:1146
+msgid "No shipping methods available"
+msgstr "Nema dostupnih opcija dostave."
+
+#: sources/php/functions.php:1300
+msgid "Complete Order"
+msgstr "Dovrši kupovinu"
+
+#: sources/php/functions.php:1360 sources/php/functions.php:1883
+#: sources/php/template-functions.php:1030
+#: sources/php/template-functions.php:1889
+msgid "Payment"
+msgstr "Plačanje"
+
+#: sources/php/functions.php:1385
+msgid "All transactions are secure and encrypted."
+msgstr "Sve transakcije su sigurne i zaštićene enkripcijom."
+
+#: sources/php/functions.php:1406
+msgid "Your order is free. No payment is required."
+msgstr "Vaša narudžba je besplatna. Nije potrebno plaćanje."
+
+#: sources/php/functions.php:1451
+msgid "Same as shipping address"
+msgstr "Ista kao i adresa dostave"
+
+#: sources/php/functions.php:1471
+msgid "Use a different billing address"
+msgstr "Upišite drugu adresu za dostavu"
+
+#: sources/php/functions.php:1643
+msgid "Return to cart"
+msgstr "Povratak na košaricu"
+
+#: sources/php/functions.php:1680
+msgid "Continue to shipping"
+msgstr "Nastavi na dostavu"
+
+#: sources/php/functions.php:1717
+msgid "Continue to payment"
+msgstr "Nastavi na plaćanje"
+
+#: sources/php/functions.php:1737
+msgid "Review order"
+msgstr "Pregled narudžbe"
+
+#: sources/php/functions.php:1757
+msgid "Return to information"
+msgstr "Povratak na informacije"
+
+#: sources/php/functions.php:1777
+msgid "Return to shipping"
+msgstr "Povratak na dostavu"
+
+#: sources/php/functions.php:1797
+msgid "Return to payment"
+msgstr "Povratak na plaćanje"
+
+#: sources/php/functions.php:1857 sources/php/template-functions.php:289
+#: sources/php/template-functions.php:1871
+msgid "Information"
+msgstr "Informacija"
+
+#: sources/php/functions.php:1870 sources/php/template-functions.php:1937
+msgid "Shipping"
+msgstr "Dostava"
+
+#: sources/php/functions.php:2332
+msgid "Or"
+msgstr "Ili"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Prikaži pregled narudžbe"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Sakrij pregled narudžbe"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Brzi završetak kupnje"
+
+#: sources/php/template-functions.php:308
+msgid "Order review"
+msgstr "Pregled narudžbe"
+
+#: sources/php/template-functions.php:355
+msgid "Already have an account with us?"
+msgstr "Već imate korisnički račun kod nas?"
+
+#: sources/php/template-functions.php:367
+msgid "Log in for a faster checkout experience."
+msgstr "Prijavite se za brže i bolje iskustvo kupovine."
+
+#: sources/php/template-functions.php:400
+#: sources/php/template-functions.php:401
+msgid "Password"
+msgstr "Zaporka"
+
+#: sources/php/template-functions.php:409
+#: sources/php/template-functions.php:2037
+msgid "Login"
+msgstr "Prijava"
+
+#: sources/php/template-functions.php:428
+msgid "Login is optional. You may continue with your order below."
+msgstr "Prijava je opcionalna. Možete nastaviti sa svojom narudžbom."
+
+#: sources/php/template-functions.php:486
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Kreiraj %s korisnički račun za kupovinu."
+
+#: sources/php/template-functions.php:498
+msgid "If you do not have an account, we will create one for you."
+msgstr "Ako nemate korisnički račun, mi ćemo Vam ga kreirati."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:535
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Dobrodošli nazad, %1$s (%2$s)."
+
+#: sources/php/template-functions.php:548
+msgid "Log out."
+msgstr "Odjava."
+
+#: sources/php/template-functions.php:605
+#: sources/php/template-functions.php:1901
+msgid "Billing and Shipping address"
+msgstr "Adresa za naplatu i dostavu"
+
+#: sources/php/template-functions.php:826
+#: sources/php/template-functions.php:886
+#: sources/php/template-functions.php:959
+msgid "Ship to"
+msgstr "Dostaviti u"
+
+#: sources/php/template-functions.php:849
+#: sources/php/template-functions.php:909
+#: sources/php/template-functions.php:982
+msgid "Contact"
+msgstr "Kontakt"
+
+#: sources/php/template-functions.php:857
+#: sources/php/template-functions.php:873
+#: sources/php/template-functions.php:917
+#: sources/php/template-functions.php:933
+#: sources/php/template-functions.php:948
+#: sources/php/template-functions.php:990
+#: sources/php/template-functions.php:1006
+#: sources/php/template-functions.php:1021
+#: sources/php/template-functions.php:1037
+msgid "Change"
+msgstr "Promijeni"
+
+#: sources/php/template-functions.php:940
+#: sources/php/template-functions.php:1013
+msgid "Method"
+msgstr "Opcija"
+
+#: sources/php/template-functions.php:1169
+msgid "Shipping method"
+msgstr "Metoda dostave"
+
+#: sources/php/template-functions.php:1267
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+"Izaberite adresu koja se podudara s vašom karticom ili načinom plaćanja."
+
+#: sources/php/template-functions.php:1471
+msgid "Apply"
+msgstr "Primijeni"
+
+#: sources/php/template-functions.php:1484
+msgid "Promo code"
+msgstr "Promo kod"
+
+#: sources/php/template-functions.php:1500
+msgid "Have a promo code? Click here."
+msgstr "Imate promo kod? Kliknite ovdje."
+
+#: sources/php/template-functions.php:1522
+msgid "Promo Code"
+msgstr "Promo Code"
+
+#: sources/php/template-functions.php:1530
+msgid "Enter Promo Code"
+msgstr "Upišite Promo Code"
+
+#: sources/php/template-functions.php:1646
+#, php-format
+msgid "Order %s"
+msgstr "Narudžba %s"
+
+#: sources/php/template-functions.php:1658
+#, php-format
+msgid "Thank you %s!"
+msgstr "Hvala %s!"
+
+#: sources/php/template-functions.php:1762
+msgid "Order status"
+msgstr "Status narudžbe"
+
+#: sources/php/template-functions.php:1793
+msgid "Order updates"
+msgstr "Novosti o narudžbi"
+
+#: sources/php/template-functions.php:1802
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Novosti vezane uz dostavu dobit ćete na email."
+
+#: sources/php/template-functions.php:1885
+msgid "Contact information"
+msgstr "Kontakt informacije"
+
+#: sources/php/template-functions.php:2216
+msgid "Review"
+msgstr "Pregled"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:35
+msgid "Your Cart"
+msgstr "Vaša košarica"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Prekrasni, optimizirani predložak za završetak kupnje uz WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Address Required"
+#~ msgstr "Adresa je obavezna"
